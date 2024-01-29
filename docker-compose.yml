@@ -1,0 +1,18 @@
+version: '3.1'
+
+services:
+
+  touchsports-db:
+    image: mongo:latest
+    restart: always
+    container_name: touchsports-mongodb
+    ports:
+      - 27017:27017
+    volumes:
+      - db_data:/var/lib/mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USERNAME} 
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD} 
+  
+volumes:
+  db_data:
