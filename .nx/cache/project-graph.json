@@ -2089,6 +2089,33 @@
         "hash": "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ=="
       }
     },
+    "npm:@emotion/is-prop-valid": {
+      "type": "npm",
+      "name": "npm:@emotion/is-prop-valid",
+      "data": {
+        "version": "1.2.1",
+        "packageName": "@emotion/is-prop-valid",
+        "hash": "sha512-61Mf7Ufx4aDxx1xlDeOm8aFFigGHE4z+0sKCa+IHCeZKiyP9RLD0Mmx7m8b9/Cf37f7NAvQOOJAbQQGVr5uERw=="
+      }
+    },
+    "npm:@emotion/memoize": {
+      "type": "npm",
+      "name": "npm:@emotion/memoize",
+      "data": {
+        "version": "0.8.1",
+        "packageName": "@emotion/memoize",
+        "hash": "sha512-W2P2c/VRW1/1tLox0mVUalvnWXxavmv/Oum2aPsRcoDJuob75FC3Y8FbpfLwUegRcxINtGUMPq0tFCvYNTBXNA=="
+      }
+    },
+    "npm:@emotion/unitless": {
+      "type": "npm",
+      "name": "npm:@emotion/unitless",
+      "data": {
+        "version": "0.8.0",
+        "packageName": "@emotion/unitless",
+        "hash": "sha512-VINS5vEYAscRl2ZUDiT3uMPlrFQupiKgHz5AA4bCH1miKBg4qtwkim1qPmJj/4WG6TreYMY111rEFsjupcOKHw=="
+      }
+    },
     "npm:@eslint-community/eslint-utils": {
       "type": "npm",
       "name": "npm:@eslint-community/eslint-utils",
@@ -2917,6 +2944,51 @@
         "hash": "sha512-M91tw9tfSnkoC8pZaC9wNxrgaFU4MeQcgdT08ievaroo77kH4RheySsU1uNc0J58Jk4X4315wu/X7Bf/35m0Mw=="
       }
     },
+    "npm:babel-plugin-macros@2.8.0": {
+      "type": "npm",
+      "name": "npm:babel-plugin-macros@2.8.0",
+      "data": {
+        "version": "2.8.0",
+        "packageName": "babel-plugin-macros",
+        "hash": "sha512-SEP5kJpfGYqYKpBrj5XU3ahw5p5GOHJ0U5ssOSQ/WBVdwkD2Dzlce95exQTs3jOVWPPKLBN2rlEWkCK7dSmLvg=="
+      }
+    },
+    "npm:babel-plugin-macros": {
+      "type": "npm",
+      "name": "npm:babel-plugin-macros",
+      "data": {
+        "version": "3.1.0",
+        "packageName": "babel-plugin-macros",
+        "hash": "sha512-Cg7TFGpIr01vOQNODXOOaGz2NpCU5gl8x1qJFbb6hbZxR7XrcE2vtbAsTAbJ7/xwJtUuJEw8K8Zr/AE0LHlesg=="
+      }
+    },
+    "npm:cosmiconfig@6.0.0": {
+      "type": "npm",
+      "name": "npm:cosmiconfig@6.0.0",
+      "data": {
+        "version": "6.0.0",
+        "packageName": "cosmiconfig",
+        "hash": "sha512-xb3ZL6+L8b9JLLCx3ZdoZy4+2ECphCMo2PwqgP1tlfVq6M6YReyzBJtvWWtbDSpNr9hn96pkCiZqUcFEc+54Qg=="
+      }
+    },
+    "npm:cosmiconfig@8.3.6": {
+      "type": "npm",
+      "name": "npm:cosmiconfig@8.3.6",
+      "data": {
+        "version": "8.3.6",
+        "packageName": "cosmiconfig",
+        "hash": "sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA=="
+      }
+    },
+    "npm:cosmiconfig": {
+      "type": "npm",
+      "name": "npm:cosmiconfig",
+      "data": {
+        "version": "7.1.0",
+        "packageName": "cosmiconfig",
+        "hash": "sha512-AdmX6xUzdNASswsFtmwSt7Vj8po9IuqXm0UXz7QKPuEUmPB4XyjGfaAr2PSuELMwkRMVH1EpIkX5bTZGRB3eCA=="
+      }
+    },
     "npm:@nx/linter": {
       "type": "npm",
       "name": "npm:@nx/linter",
@@ -3374,33 +3446,6 @@
         "version": "8.1.0",
         "packageName": "@svgr/core",
         "hash": "sha512-8QqtOQT5ACVlmsvKOJNEaWmRPmcojMOzCz4Hs2BGG/toAp/K38LcsMRyLp349glq5AzJbCEeimEoxaX6v/fLrA=="
-      }
-    },
-    "npm:cosmiconfig@8.3.6": {
-      "type": "npm",
-      "name": "npm:cosmiconfig@8.3.6",
-      "data": {
-        "version": "8.3.6",
-        "packageName": "cosmiconfig",
-        "hash": "sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA=="
-      }
-    },
-    "npm:cosmiconfig": {
-      "type": "npm",
-      "name": "npm:cosmiconfig",
-      "data": {
-        "version": "6.0.0",
-        "packageName": "cosmiconfig",
-        "hash": "sha512-xb3ZL6+L8b9JLLCx3ZdoZy4+2ECphCMo2PwqgP1tlfVq6M6YReyzBJtvWWtbDSpNr9hn96pkCiZqUcFEc+54Qg=="
-      }
-    },
-    "npm:cosmiconfig@7.1.0": {
-      "type": "npm",
-      "name": "npm:cosmiconfig@7.1.0",
-      "data": {
-        "version": "7.1.0",
-        "packageName": "cosmiconfig",
-        "hash": "sha512-AdmX6xUzdNASswsFtmwSt7Vj8po9IuqXm0UXz7QKPuEUmPB4XyjGfaAr2PSuELMwkRMVH1EpIkX5bTZGRB3eCA=="
       }
     },
     "npm:@svgr/hast-util-to-babel-ast": {
@@ -4256,6 +4301,15 @@
         "version": "2.0.3",
         "packageName": "@types/stack-utils",
         "hash": "sha512-9aEbYZ3TbYMznPdcdr3SmIrLXwC/AKZXQeCf9Pgao5CKb8CyHuEX5jzWPTkvregvhRJHcpRO6BFoGW9ycaOkYw=="
+      }
+    },
+    "npm:@types/stylis": {
+      "type": "npm",
+      "name": "npm:@types/stylis",
+      "data": {
+        "version": "4.2.0",
+        "packageName": "@types/stylis",
+        "hash": "sha512-n4sx2bqL0mW1tvDf/loQ+aMX7GQD3lc3fkCMC55VFNDu/vBOabO+LTIeXKM14xK0ppk5TUGcWRjiSpIlUpghKw=="
       }
     },
     "npm:@types/tough-cookie": {
@@ -5149,15 +5203,6 @@
         "hash": "sha512-ESAc/RJvGTFEzRwOTT4+lNDk/GNHMkKbNzsvT0qKRfDyyYTskxB5rnU2njIDYVxXCBHHEI1c0YwHob3WaYujOg=="
       }
     },
-    "npm:babel-plugin-macros": {
-      "type": "npm",
-      "name": "npm:babel-plugin-macros",
-      "data": {
-        "version": "2.8.0",
-        "packageName": "babel-plugin-macros",
-        "hash": "sha512-SEP5kJpfGYqYKpBrj5XU3ahw5p5GOHJ0U5ssOSQ/WBVdwkD2Dzlce95exQTs3jOVWPPKLBN2rlEWkCK7dSmLvg=="
-      }
-    },
     "npm:babel-plugin-polyfill-corejs2": {
       "type": "npm",
       "name": "npm:babel-plugin-polyfill-corejs2",
@@ -5642,6 +5687,15 @@
         "version": "3.1.0",
         "packageName": "callsites",
         "hash": "sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ=="
+      }
+    },
+    "npm:camelize": {
+      "type": "npm",
+      "name": "npm:camelize",
+      "data": {
+        "version": "1.0.1",
+        "packageName": "camelize",
+        "hash": "sha512-dU+Tx2fsypxTgtLoE36npi3UqcjSSMNYfkqgmoEhtZrraP5VWq0K7FkWVTYa8eMPtnU/G2txVsfdCJTn9uzpuQ=="
       }
     },
     "npm:caniuse-api": {
@@ -6130,6 +6184,15 @@
         "hash": "sha512-pTgQJ5KC0d2hcY8eyL1IzlBPYjTkyH72XRZPnLyKus2mBfNjQs3klqbJU2VILqZryAZUt9JOb3h/mWMy23/f5A=="
       }
     },
+    "npm:css-color-keywords": {
+      "type": "npm",
+      "name": "npm:css-color-keywords",
+      "data": {
+        "version": "1.0.0",
+        "packageName": "css-color-keywords",
+        "hash": "sha512-FyyrDHZKEjXDpNJYvVsV960FiqQyXc/LlYmsxl2BcdMb2WPx0OGRVgTg55rPSyLSNMqP52R9r8geSp7apN3Ofg=="
+      }
+    },
     "npm:css-declaration-sorter": {
       "type": "npm",
       "name": "npm:css-declaration-sorter",
@@ -6164,6 +6227,15 @@
         "version": "5.1.0",
         "packageName": "css-select",
         "hash": "sha512-nwoRF1rvRRnnCqqY7updORDsuqKzqYJ28+oSMaJMMgOauh3fvwHqMS7EZpIPqK8GL+g9mKxF1vP/ZjSeNjEVHg=="
+      }
+    },
+    "npm:css-to-react-native": {
+      "type": "npm",
+      "name": "npm:css-to-react-native",
+      "data": {
+        "version": "3.2.0",
+        "packageName": "css-to-react-native",
+        "hash": "sha512-e8RKaLXMOFii+02mOlqwjbD00KSEKqblnpO9e++1aXS1fPQOpS1YoqdVHBqPjHNoxeF2mimzVqawm2KCbEdtHQ=="
       }
     },
     "npm:css-tree": {
@@ -6290,6 +6362,15 @@
         "version": "3.1.3",
         "packageName": "csstype",
         "hash": "sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw=="
+      }
+    },
+    "npm:csstype@3.1.2": {
+      "type": "npm",
+      "name": "npm:csstype@3.1.2",
+      "data": {
+        "version": "3.1.2",
+        "packageName": "csstype",
+        "hash": "sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ=="
       }
     },
     "npm:cypress": {
@@ -10378,6 +10459,15 @@
         "hash": "sha512-Kkpbhhdjw2qQs2O2DGX+8m5OVqEcbB9HRBvuYM9pgrjEFUg30A9LmXNlTAUj4S9kgtGyrMbTzVjH7E+s5Re2yg=="
       }
     },
+    "npm:postcss@8.4.31": {
+      "type": "npm",
+      "name": "npm:postcss@8.4.31",
+      "data": {
+        "version": "8.4.31",
+        "packageName": "postcss",
+        "hash": "sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ=="
+      }
+    },
     "npm:postcss-calc": {
       "type": "npm",
       "name": "npm:postcss-calc",
@@ -11341,6 +11431,15 @@
         "hash": "sha512-tMNCiqYVkXIZgc2Hnoy2IvC/f8ezc5koaRFkCjrpWzGpCd3qbZXPzVy9MAZzK1ch/X0jvSkojys3oqJN0qCmdA=="
       }
     },
+    "npm:shallowequal": {
+      "type": "npm",
+      "name": "npm:shallowequal",
+      "data": {
+        "version": "1.1.0",
+        "packageName": "shallowequal",
+        "hash": "sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ=="
+      }
+    },
     "npm:shell-quote": {
       "type": "npm",
       "name": "npm:shell-quote",
@@ -11629,6 +11728,33 @@
         "hash": "sha512-53BiGLXAcll9maCYtZi2RCQZKa8NQQai5C4horqKyRmHj9H7QmcUyucrH+4KW/gBQbXM2AsB0axoEcFZPlfPcw=="
       }
     },
+    "npm:styled-components": {
+      "type": "npm",
+      "name": "npm:styled-components",
+      "data": {
+        "version": "6.1.8",
+        "packageName": "styled-components",
+        "hash": "sha512-PQ6Dn+QxlWyEGCKDS71NGsXoVLKfE1c3vApkvDYS5KAK+V8fNWGhbSUEo9Gg2iaID2tjLXegEW3bZDUGpofRWw=="
+      }
+    },
+    "npm:tslib@2.5.0": {
+      "type": "npm",
+      "name": "npm:tslib@2.5.0",
+      "data": {
+        "version": "2.5.0",
+        "packageName": "tslib",
+        "hash": "sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg=="
+      }
+    },
+    "npm:tslib": {
+      "type": "npm",
+      "name": "npm:tslib",
+      "data": {
+        "version": "2.6.2",
+        "packageName": "tslib",
+        "hash": "sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q=="
+      }
+    },
     "npm:stylehacks": {
       "type": "npm",
       "name": "npm:stylehacks",
@@ -11636,6 +11762,15 @@
         "version": "6.0.2",
         "packageName": "stylehacks",
         "hash": "sha512-00zvJGnCu64EpMjX8b5iCZ3us2Ptyw8+toEkb92VdmkEaRaSGBNKAoK6aWZckhXxmQP8zWiTaFaiMGIU8Ve8sg=="
+      }
+    },
+    "npm:stylis": {
+      "type": "npm",
+      "name": "npm:stylis",
+      "data": {
+        "version": "4.3.1",
+        "packageName": "stylis",
+        "hash": "sha512-EQepAV+wMsIaGVGX1RECzgrcqRRU/0sYOHkeLsZ3fzHaHXZy4DaOOX0vOlGQdlsjkh3mFHAIlVimpwAs4dslyQ=="
       }
     },
     "npm:stylus": {
@@ -11960,15 +12095,6 @@
         "version": "4.0.0",
         "packageName": "tsconfig-paths-webpack-plugin",
         "hash": "sha512-fw/7265mIWukrSHd0i+wSwx64kYUSAKPfxRDksjKIYTxSAp9W9/xcZVBF4Kl0eqQd5eBpAQ/oQrc5RyM/0c1GQ=="
-      }
-    },
-    "npm:tslib": {
-      "type": "npm",
-      "name": "npm:tslib",
-      "data": {
-        "version": "2.6.2",
-        "packageName": "tslib",
-        "hash": "sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q=="
       }
     },
     "npm:tunnel-agent": {
@@ -12775,6 +12901,11 @@
       {
         "source": "frontend",
         "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "frontend",
+        "target": "npm:styled-components",
         "type": "static"
       },
       {
@@ -15552,6 +15683,13 @@
         "type": "static"
       }
     ],
+    "npm:@emotion/is-prop-valid": [
+      {
+        "source": "npm:@emotion/is-prop-valid",
+        "target": "npm:@emotion/memoize",
+        "type": "static"
+      }
+    ],
     "npm:@eslint-community/eslint-utils": [
       {
         "source": "npm:@eslint-community/eslint-utils",
@@ -17171,7 +17309,7 @@
       },
       {
         "source": "npm:@nx/js",
-        "target": "npm:babel-plugin-macros",
+        "target": "npm:babel-plugin-macros@2.8.0",
         "type": "static"
       },
       {
@@ -17257,6 +17395,50 @@
       {
         "source": "npm:@nx/js",
         "target": "npm:tslib",
+        "type": "static"
+      }
+    ],
+    "npm:babel-plugin-macros@2.8.0": [
+      {
+        "source": "npm:babel-plugin-macros@2.8.0",
+        "target": "npm:@babel/runtime",
+        "type": "static"
+      },
+      {
+        "source": "npm:babel-plugin-macros@2.8.0",
+        "target": "npm:cosmiconfig@6.0.0",
+        "type": "static"
+      },
+      {
+        "source": "npm:babel-plugin-macros@2.8.0",
+        "target": "npm:resolve",
+        "type": "static"
+      }
+    ],
+    "npm:cosmiconfig@6.0.0": [
+      {
+        "source": "npm:cosmiconfig@6.0.0",
+        "target": "npm:@types/parse-json",
+        "type": "static"
+      },
+      {
+        "source": "npm:cosmiconfig@6.0.0",
+        "target": "npm:import-fresh",
+        "type": "static"
+      },
+      {
+        "source": "npm:cosmiconfig@6.0.0",
+        "target": "npm:parse-json",
+        "type": "static"
+      },
+      {
+        "source": "npm:cosmiconfig@6.0.0",
+        "target": "npm:path-type",
+        "type": "static"
+      },
+      {
+        "source": "npm:cosmiconfig@6.0.0",
+        "target": "npm:yaml",
         "type": "static"
       }
     ],
@@ -21012,6 +21194,23 @@
         "type": "static"
       }
     ],
+    "npm:css-to-react-native": [
+      {
+        "source": "npm:css-to-react-native",
+        "target": "npm:camelize",
+        "type": "static"
+      },
+      {
+        "source": "npm:css-to-react-native",
+        "target": "npm:css-color-keywords",
+        "type": "static"
+      },
+      {
+        "source": "npm:css-to-react-native",
+        "target": "npm:postcss-value-parser",
+        "type": "static"
+      }
+    ],
     "npm:css-tree": [
       {
         "source": "npm:css-tree",
@@ -21539,6 +21738,13 @@
       {
         "source": "npm:decompress-response",
         "target": "npm:mimic-response@3.1.0",
+        "type": "static"
+      }
+    ],
+    "npm:dedent": [
+      {
+        "source": "npm:dedent",
+        "target": "npm:babel-plugin-macros",
         "type": "static"
       }
     ],
@@ -23319,7 +23525,7 @@
       },
       {
         "source": "npm:fork-ts-checker-webpack-plugin",
-        "target": "npm:cosmiconfig@7.1.0",
+        "target": "npm:cosmiconfig",
         "type": "static"
       },
       {
@@ -23360,33 +23566,6 @@
       {
         "source": "npm:fork-ts-checker-webpack-plugin",
         "target": "npm:tapable",
-        "type": "static"
-      }
-    ],
-    "npm:cosmiconfig@7.1.0": [
-      {
-        "source": "npm:cosmiconfig@7.1.0",
-        "target": "npm:@types/parse-json",
-        "type": "static"
-      },
-      {
-        "source": "npm:cosmiconfig@7.1.0",
-        "target": "npm:import-fresh",
-        "type": "static"
-      },
-      {
-        "source": "npm:cosmiconfig@7.1.0",
-        "target": "npm:parse-json",
-        "type": "static"
-      },
-      {
-        "source": "npm:cosmiconfig@7.1.0",
-        "target": "npm:path-type",
-        "type": "static"
-      },
-      {
-        "source": "npm:cosmiconfig@7.1.0",
-        "target": "npm:yaml",
         "type": "static"
       }
     ],
@@ -26991,7 +27170,7 @@
       },
       {
         "source": "npm:postcss-loader",
-        "target": "npm:cosmiconfig@7.1.0",
+        "target": "npm:cosmiconfig",
         "type": "static"
       },
       {
@@ -28514,6 +28693,80 @@
       {
         "source": "npm:style-loader",
         "target": "npm:webpack",
+        "type": "static"
+      }
+    ],
+    "npm:styled-components": [
+      {
+        "source": "npm:styled-components",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "npm:styled-components",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "npm:styled-components",
+        "target": "npm:@emotion/is-prop-valid",
+        "type": "static"
+      },
+      {
+        "source": "npm:styled-components",
+        "target": "npm:@emotion/unitless",
+        "type": "static"
+      },
+      {
+        "source": "npm:styled-components",
+        "target": "npm:@types/stylis",
+        "type": "static"
+      },
+      {
+        "source": "npm:styled-components",
+        "target": "npm:css-to-react-native",
+        "type": "static"
+      },
+      {
+        "source": "npm:styled-components",
+        "target": "npm:csstype@3.1.2",
+        "type": "static"
+      },
+      {
+        "source": "npm:styled-components",
+        "target": "npm:postcss@8.4.31",
+        "type": "static"
+      },
+      {
+        "source": "npm:styled-components",
+        "target": "npm:shallowequal",
+        "type": "static"
+      },
+      {
+        "source": "npm:styled-components",
+        "target": "npm:stylis",
+        "type": "static"
+      },
+      {
+        "source": "npm:styled-components",
+        "target": "npm:tslib@2.5.0",
+        "type": "static"
+      }
+    ],
+    "npm:postcss@8.4.31": [
+      {
+        "source": "npm:postcss@8.4.31",
+        "target": "npm:nanoid",
+        "type": "static"
+      },
+      {
+        "source": "npm:postcss@8.4.31",
+        "target": "npm:picocolors",
+        "type": "static"
+      },
+      {
+        "source": "npm:postcss@8.4.31",
+        "target": "npm:source-map-js",
         "type": "static"
       }
     ],
