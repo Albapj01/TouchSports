@@ -1,6 +1,7 @@
 import { IonContent, IonHeader, IonPage, IonToolbar } from "@ionic/react";
 import styled from "styled-components";
 import Card from "../../components/Card/Card";
+import Menu from "frontend/src/components/Menu/Menu";
 
 const Home: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const Home: React.FC = () => {
           <IonHeader collapse="condense">
             <IonToolbar></IonToolbar>
           </IonHeader>
+          <Menu />
           <Cards>
             <Card
               title="Equipo"

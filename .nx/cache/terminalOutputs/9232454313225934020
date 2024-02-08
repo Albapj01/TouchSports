@@ -1,6 +1,3 @@
-<i> [1m[32m[webpack-dev-server] Project is running at:[39m[22m
-<i> [1m[32m[webpack-dev-server] Loopback: [36mhttp://localhost:4200/[39m, [36mhttp://127.0.0.1:4200/[39m[39m[22m
-<i> [1m[32m[webpack-dev-server] 404s will fallback to '[36m/index.html[39m'[39m[22m
 
 [36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4200/[22m
 
@@ -109,38 +106,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (605cfc6090672e93)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/Card/Card.tsx[22m:[32m[1m8:10[22m[39m
-[90mTS7010: [39m'Card', which lacks return-type annotation, implicitly has an 'any' return type.
-  [0m [90m  6 |[39m }[0m
-  [0m [90m  7 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m  8 |[39m [36mfunction[39m [33mCard[39m [33m=[39m ({ title[33m,[39m imageUrl }[33m:[39m [33mExampleProps[39m) {[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m  9 |[39m   [36mreturn[39m ([0m
-  [0m [90m 10 |[39m     [33m<[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 11 |[39m       [33m<[39m[33mimg[39m alt[33m=[39m{title} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/Home.tsx[22m:[32m[1m15:15[22m[39m
-[90mTS2322: [39mType '{ title: string; imageUrl: string; }' is not assignable to type 'IntrinsicAttributes'.
-  Property 'title' does not exist on type 'IntrinsicAttributes'.
-  [0m [90m 13 |[39m           [33m<[39m[33mCards[39m[33m>[39m[0m
-  [0m [90m 14 |[39m             [33m<[39m[33mCard[39m[0m
-  [0m[31m[1m>[22m[39m[90m 15 |[39m               title[33m=[39m[32m"Equipo"[39m[0m
-  [0m [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 16 |[39m               imageUrl[33m=[39m[32m"https://www.infisport.com/media/amasty/blog/SprintDeportesEquipo1_2.jpg"[39m[0m
-  [0m [90m 17 |[39m             [33m/[39m[33m>[39m[0m
-  [0m [90m 18 |[39m             [33m<[39m[33mCard[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/Home.tsx[22m:[32m[1m19:15[22m[39m
-[90mTS2322: [39mType '{ title: string; imageUrl: string; }' is not assignable to type 'IntrinsicAttributes'.
-  Property 'title' does not exist on type 'IntrinsicAttributes'.
-  [0m [90m 17 |[39m             [33m/[39m[33m>[39m[0m
-  [0m [90m 18 |[39m             [33m<[39m[33mCard[39m[0m
-  [0m[31m[1m>[22m[39m[90m 19 |[39m               title[33m=[39m[32m"Instalaciones"[39m[0m
-  [0m [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 20 |[39m               imageUrl[33m=[39m[32m"https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"[39m[0m
-  [0m [90m 21 |[39m             [33m/[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33m/[39m[33mCards[39m[33m>[39m[0m
-
 Found [31m[1m3 errors[22m[39m in 530 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.02 MiB (5.08 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 3.89 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 17.7 KiB 5 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
@@ -154,38 +119,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (605cfc6090672e93)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/Card/Card.tsx[22m:[32m[1m8:10[22m[39m
-[90mTS7010: [39m'Card', which lacks return-type annotation, implicitly has an 'any' return type.
-  [0m [90m  6 |[39m }[0m
-  [0m [90m  7 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m  8 |[39m [36mfunction[39m [33mCard[39m [33m=[39m ({ title[33m,[39m imageUrl }[33m:[39m [33mExampleProps[39m) [33m=>[39m{[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m  9 |[39m   [36mreturn[39m ([0m
-  [0m [90m 10 |[39m     [33m<[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 11 |[39m       [33m<[39m[33mimg[39m alt[33m=[39m{title} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/Home.tsx[22m:[32m[1m15:15[22m[39m
-[90mTS2322: [39mType '{ title: string; imageUrl: string; }' is not assignable to type 'IntrinsicAttributes'.
-  Property 'title' does not exist on type 'IntrinsicAttributes'.
-  [0m [90m 13 |[39m           [33m<[39m[33mCards[39m[33m>[39m[0m
-  [0m [90m 14 |[39m             [33m<[39m[33mCard[39m[0m
-  [0m[31m[1m>[22m[39m[90m 15 |[39m               title[33m=[39m[32m"Equipo"[39m[0m
-  [0m [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 16 |[39m               imageUrl[33m=[39m[32m"https://www.infisport.com/media/amasty/blog/SprintDeportesEquipo1_2.jpg"[39m[0m
-  [0m [90m 17 |[39m             [33m/[39m[33m>[39m[0m
-  [0m [90m 18 |[39m             [33m<[39m[33mCard[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/Home.tsx[22m:[32m[1m19:15[22m[39m
-[90mTS2322: [39mType '{ title: string; imageUrl: string; }' is not assignable to type 'IntrinsicAttributes'.
-  Property 'title' does not exist on type 'IntrinsicAttributes'.
-  [0m [90m 17 |[39m             [33m/[39m[33m>[39m[0m
-  [0m [90m 18 |[39m             [33m<[39m[33mCard[39m[0m
-  [0m[31m[1m>[22m[39m[90m 19 |[39m               title[33m=[39m[32m"Instalaciones"[39m[0m
-  [0m [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 20 |[39m               imageUrl[33m=[39m[32m"https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"[39m[0m
-  [0m [90m 21 |[39m             [33m/[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33m/[39m[33mCards[39m[33m>[39m[0m
-
 Found [31m[1m3 errors[22m[39m in 439 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.02 MiB (5.08 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 3.89 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 17.7 KiB 5 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
@@ -199,38 +132,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (605cfc6090672e93)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/Card/Card.tsx[22m:[32m[1m8:10[22m[39m
-[90mTS7010: [39m'Card', which lacks return-type annotation, implicitly has an 'any' return type.
-  [0m [90m  6 |[39m }[0m
-  [0m [90m  7 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m  8 |[39m [36mfunction[39m [33mCard[39m [33m=[39m ({ title[33m,[39m imageUrl }[33m:[39m [33mExampleProps[39m) [33m=>[39m {[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m  9 |[39m   [36mreturn[39m ([0m
-  [0m [90m 10 |[39m     [33m<[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 11 |[39m       [33m<[39m[33mimg[39m alt[33m=[39m{title} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/Home.tsx[22m:[32m[1m15:15[22m[39m
-[90mTS2322: [39mType '{ title: string; imageUrl: string; }' is not assignable to type 'IntrinsicAttributes'.
-  Property 'title' does not exist on type 'IntrinsicAttributes'.
-  [0m [90m 13 |[39m           [33m<[39m[33mCards[39m[33m>[39m[0m
-  [0m [90m 14 |[39m             [33m<[39m[33mCard[39m[0m
-  [0m[31m[1m>[22m[39m[90m 15 |[39m               title[33m=[39m[32m"Equipo"[39m[0m
-  [0m [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 16 |[39m               imageUrl[33m=[39m[32m"https://www.infisport.com/media/amasty/blog/SprintDeportesEquipo1_2.jpg"[39m[0m
-  [0m [90m 17 |[39m             [33m/[39m[33m>[39m[0m
-  [0m [90m 18 |[39m             [33m<[39m[33mCard[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/Home.tsx[22m:[32m[1m19:15[22m[39m
-[90mTS2322: [39mType '{ title: string; imageUrl: string; }' is not assignable to type 'IntrinsicAttributes'.
-  Property 'title' does not exist on type 'IntrinsicAttributes'.
-  [0m [90m 17 |[39m             [33m/[39m[33m>[39m[0m
-  [0m [90m 18 |[39m             [33m<[39m[33mCard[39m[0m
-  [0m[31m[1m>[22m[39m[90m 19 |[39m               title[33m=[39m[32m"Instalaciones"[39m[0m
-  [0m [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 20 |[39m               imageUrl[33m=[39m[32m"https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"[39m[0m
-  [0m [90m 21 |[39m             [33m/[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33m/[39m[33mCards[39m[33m>[39m[0m
-
 Found [31m[1m3 errors[22m[39m in 399 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.02 MiB (5.08 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 3.89 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 17.7 KiB 5 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
@@ -244,38 +145,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (605cfc6090672e93)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/Card/Card.tsx[22m:[32m[1m8:10[22m[39m
-[90mTS7010: [39m'Card', which lacks return-type annotation, implicitly has an 'any' return type.
-  [0m [90m  6 |[39m }[0m
-  [0m [90m  7 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m  8 |[39m [36mfunction[39m [33mCard[39m [33m=[39m ({ title[33m,[39m imageUrl }[33m:[39m [33mExampleProps[39m) [33m=>[39m {[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m  9 |[39m   [36mreturn[39m ([0m
-  [0m [90m 10 |[39m     [33m<[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 11 |[39m       [33m<[39m[33mimg[39m alt[33m=[39m{title} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/Home.tsx[22m:[32m[1m15:15[22m[39m
-[90mTS2322: [39mType '{ title: string; imageUrl: string; }' is not assignable to type 'IntrinsicAttributes'.
-  Property 'title' does not exist on type 'IntrinsicAttributes'.
-  [0m [90m 13 |[39m           [33m<[39m[33mCards[39m[33m>[39m[0m
-  [0m [90m 14 |[39m             [33m<[39m[33mCard[39m[0m
-  [0m[31m[1m>[22m[39m[90m 15 |[39m               title[33m=[39m[32m"Equipo"[39m[0m
-  [0m [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 16 |[39m               imageUrl[33m=[39m[32m"https://www.infisport.com/media/amasty/blog/SprintDeportesEquipo1_2.jpg"[39m[0m
-  [0m [90m 17 |[39m             [33m/[39m[33m>[39m[0m
-  [0m [90m 18 |[39m             [33m<[39m[33mCard[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/Home.tsx[22m:[32m[1m19:15[22m[39m
-[90mTS2322: [39mType '{ title: string; imageUrl: string; }' is not assignable to type 'IntrinsicAttributes'.
-  Property 'title' does not exist on type 'IntrinsicAttributes'.
-  [0m [90m 17 |[39m             [33m/[39m[33m>[39m[0m
-  [0m [90m 18 |[39m             [33m<[39m[33mCard[39m[0m
-  [0m[31m[1m>[22m[39m[90m 19 |[39m               title[33m=[39m[32m"Instalaciones"[39m[0m
-  [0m [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 20 |[39m               imageUrl[33m=[39m[32m"https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"[39m[0m
-  [0m [90m 21 |[39m             [33m/[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33m/[39m[33mCards[39m[33m>[39m[0m
-
 Found [31m[1m3 errors[22m[39m in 178 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.02 MiB (5.08 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 3.89 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 17.7 KiB 5 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
@@ -357,16 +226,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/Avatar/Avat
 
 webpack compiled with [1m[31m1 error[39m[22m (123564bd146edcc9)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/Avatar/Avatar.tsx[22m:[32m[1m8:7[22m[39m
-[90mTS7005: [39mVariable 'Avatar' implicitly has an 'any' type.
-  [0m [90m  6 |[39m }[0m
-  [0m [90m  7 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m  8 |[39m [36mconst[39m [33mAvatar[39m({ imageUrl[33m,[39m name }[33m:[39m [33mAvatarProps[39m) {[0m
-  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m  9 |[39m   [36mconst[39m avatarStyle [33m=[39m {[0m
-  [0m [90m 10 |[39m     width[33m:[39m [32m"120px"[39m[33m,[39m[0m
-  [0m [90m 11 |[39m     height[33m:[39m [32m"120px"[39m[33m,[39m[0m
-
 Found [31m[1m1 error[22m[39m in 827 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 6 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.605cfc6090672e93.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -493,16 +352,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (86990f9e2cb8a88b)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/Avatar/Avatar.tsx[22m:[32m[1m12:25[22m[39m
-[90mTS2304: [39mCannot find name 'avatarStyle'.
-  [0m [90m 10 |[39m   [36mreturn[39m ([0m
-  [0m [90m 11 |[39m     [33m<[39m[33mdiv[39m style[33m=[39m{{ color[33m:[39m [32m"black"[39m }}[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 12 |[39m       [33m<[39m[33mIonAvatar[39m style[33m=[39m{avatarStyle}[33m>[39m[0m
-  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 13 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33m/[39m[33mIonAvatar[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 347 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.02 MiB (5.08 MiB) = 7 assets 7 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.86990f9e2cb8a88b.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -618,16 +467,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/Avatar/Avat
     at TypeScriptParserMixin.parseFunctionBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11935:24)
 
 webpack compiled with [1m[31m1 error[39m[22m (dee3eaf0ec5a85a6)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/Avatar/Avatar.tsx[22m:[32m[1m12:24[22m[39m
-[90mTS17000: [39mJSX attributes must only be assigned a non-empty 'expression'.
-  [0m [90m 10 |[39m   [36mreturn[39m ([0m
-  [0m [90m 11 |[39m     [33m<[39m[33mdiv[39m style[33m=[39m{{ color[33m:[39m [32m"black"[39m }}[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 12 |[39m       [33m<[39m[33mIonAvatar[39m style[33m=[39m{}[33m>[39m[0m
-  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 13 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33m/[39m[33mIonAvatar[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 233 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.02 MiB (5.08 MiB) = 7 assets 7 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.13396cd458cb050e.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -654,16 +493,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (e5048779c091f71d)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/Avatar/Avatar.tsx[22m:[32m[1m12:26[22m[39m
-[90mTS18004: [39mNo value exists in scope for the shorthand property 'wi'. Either declare one or provide an initializer.
-  [0m [90m 10 |[39m   [36mreturn[39m ([0m
-  [0m [90m 11 |[39m     [33m<[39m[33mdiv[39m style[33m=[39m{{ color[33m:[39m [32m"black"[39m }}[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 12 |[39m       [33m<[39m[33mIonAvatar[39m style[33m=[39m{{wi}}[33m>[39m[0m
-  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 13 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33m/[39m[33mIonAvatar[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 283 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.02 MiB (5.08 MiB) = 7 assets 7 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.e5048779c091f71d.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -677,16 +506,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (2e8f703ca45fea4c)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/Avatar/Avatar.tsx[22m:[32m[1m12:26[22m[39m
-[90mTS18004: [39mNo value exists in scope for the shorthand property 'width'. Either declare one or provide an initializer.
-  [0m [90m 10 |[39m   [36mreturn[39m ([0m
-  [0m [90m 11 |[39m     [33m<[39m[33mdiv[39m style[33m=[39m{{ color[33m:[39m [32m"black"[39m }}[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 12 |[39m       [33m<[39m[33mIonAvatar[39m style[33m=[39m{{width}}[33m>[39m[0m
-  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 13 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33m/[39m[33mIonAvatar[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 247 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 6 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.2e8f703ca45fea4c.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -802,16 +621,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (562d1e07ddc610e2)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/Avatar/Avatar.tsx[22m:[32m[1m12:42[22m[39m
-[90mTS18004: [39mNo value exists in scope for the shorthand property 'height'. Either declare one or provide an initializer.
-  [0m [90m 10 |[39m   [36mreturn[39m ([0m
-  [0m [90m 11 |[39m     [33m<[39m[33mdiv[39m style[33m=[39m{{ color[33m:[39m [32m"black"[39m }}[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 12 |[39m       [33m<[39m[33mIonAvatar[39m style[33m=[39m{{width[33m:[39m [32m"120px"[39m[33m,[39m height}}[33m>[39m[0m
-  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 13 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33m/[39m[33mIonAvatar[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 419 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.02 MiB (5.09 MiB) = 7 assets 7 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.562d1e07ddc610e2.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -877,16 +686,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (6b261241f37620c3)
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m4:18[22m[39m
-[90mTS2307: [39mCannot find module './pages/Home' or its corresponding type declarations.
-  [0m [90m 2 |[39m [36mimport[39m { [33mIonApp[39m[33m,[39m [33mIonRouterOutlet[39m[33m,[39m setupIonicReact } [36mfrom[39m [32m"@ionic/react"[39m[33m;[39m[0m
-  [0m [90m 3 |[39m [36mimport[39m { [33mIonReactRouter[39m } [36mfrom[39m [32m"@ionic/react-router"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m [33mHome[39m [36mfrom[39m [32m"./pages/Home"[39m[33m;[39m[0m
-  [0m [90m   |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 5 |[39m [36mimport[39m [33mTeam[39m [36mfrom[39m [32m"./pages/Team/Team"[39m[33m;[39m[0m
-  [0m [90m 6 |[39m[0m
-  [0m [90m 7 |[39m [90m/* Core CSS required for Ionic components to work properly */[39m[0m
-
 Found [31m[1m1 error[22m[39m in 847 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.02 MiB (5.08 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 3.89 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 17.7 KiB 5 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
@@ -900,16 +699,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (6b261241f37620c3)
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m4:18[22m[39m
-[90mTS2307: [39mCannot find module './pages/Home' or its corresponding type declarations.
-  [0m [90m 2 |[39m [36mimport[39m { [33mIonApp[39m[33m,[39m [33mIonRouterOutlet[39m[33m,[39m setupIonicReact } [36mfrom[39m [32m"@ionic/react"[39m[33m;[39m[0m
-  [0m [90m 3 |[39m [36mimport[39m { [33mIonReactRouter[39m } [36mfrom[39m [32m"@ionic/react-router"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m [33mHome[39m [36mfrom[39m [32m"./pages/Home"[39m[33m;[39m[0m
-  [0m [90m   |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 5 |[39m [36mimport[39m [33mTeam[39m [36mfrom[39m [32m"./pages/Team/Team"[39m[33m;[39m[0m
-  [0m [90m 6 |[39m[0m
-  [0m [90m 7 |[39m [90m/* Core CSS required for Ionic components to work properly */[39m[0m
-
 Found [31m[1m1 error[22m[39m in 225 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.02 MiB (5.09 MiB) = 7 assets 7 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.6b261241f37620c3.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -923,7 +712,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (5a92078afd94e690)
-<i> [1m[32m[webpack-dev-middleware] wait until bundle finished: /runtime.6b261241f37620c3.hot-update.json[39m[22m
 [36mType-checking in progress...[39m
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.02 MiB (5.08 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 3.89 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 17.7 KiB 5 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
