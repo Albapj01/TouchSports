@@ -17,41 +17,45 @@ import { person } from "ionicons/icons";
 const Menu = () => {
   return (
     <>
-      <IonMenu contentId="main-content">
-        <IonContent className="ion-padding">
-          <IonToolbar>
-            <IonTitle>Menu</IonTitle>
-          </IonToolbar>
-          <IonItemGroup>
-            <IonRadio value="Calendario">
-              <code>Calendario</code>
-            </IonRadio>
-          </IonItemGroup>
-          <IonItemGroup>
-            <IonRadio value="Equipo">
-              <code>Equipo</code>
-            </IonRadio>
-            <IonItem>
-              <IonRadio value="Equipo">
-                <code>Equipo 1</code>
+      <IonMenu contentId="main-content" style={{ background: "#1f7189", color: "white" }}>
+        <IonContent className="ion-padding" style={{ background: "#1f7189", color: "white" }}>
+          <div style={{ background: "#1f7189", color: "white" }}>
+            <IonToolbar>
+              <IonTitle>
+                Menu
+              </IonTitle>
+            </IonToolbar>
+            <IonItemGroup>
+              <IonRadio value="Calendario">
+                <code>Calendario</code>
               </IonRadio>
-            </IonItem>
-            <IonItem>
+            </IonItemGroup>
+            <IonItemGroup>
               <IonRadio value="Equipo">
-                <code>Equipo 2</code>
+                <code>Equipo</code>
               </IonRadio>
-            </IonItem>
-          </IonItemGroup>
-          <IonItemGroup>
-            <IonRadio value="Instalaciones">
-              <code>Instalaciones</code>
-            </IonRadio>
-          </IonItemGroup>
-          <IonItemGroup>
-            <IonRadio value="Cerrar Sesión">
-              <code>Cerrar Sesión</code>
-            </IonRadio>
-          </IonItemGroup>
+              <IonItem>
+                <IonRadio value="Equipo">
+                  <code>Equipo 1</code>
+                </IonRadio>
+              </IonItem>
+              <IonItem>
+                <IonRadio value="Equipo">
+                  <code>Equipo 2</code>
+                </IonRadio>
+              </IonItem>
+            </IonItemGroup>
+            <IonItemGroup>
+              <IonRadio value="Instalaciones">
+                <code>Instalaciones</code>
+              </IonRadio>
+            </IonItemGroup>
+            <IonItemGroup>
+              <IonRadio value="Cerrar Sesión">
+                <code>Cerrar Sesión</code>
+              </IonRadio>
+            </IonItemGroup>
+          </div>
         </IonContent>
       </IonMenu>
       <IonPage id="main-content">
@@ -61,6 +65,7 @@ const Menu = () => {
               <IonMenuButton></IonMenuButton>
             </IonButtons>
             <IonTitle>Menu</IonTitle>
+            <IonItemGroup style={{ background: "#1f7189", color: "white" }}></IonItemGroup>
             <IonButtons slot="end" style={{ marginRight: "8px" }}>
               <IonIcon slot="icon-only" icon={person}></IonIcon>
               {/* color="light" */}

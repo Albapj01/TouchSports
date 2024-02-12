@@ -1,10 +1,9 @@
-import { IonContent, IonHeader, IonPage, IonToolbar } from "@ionic/react";
+import { IonContent, IonHeader, IonPage, IonSearchbar, IonToolbar } from "@ionic/react";
 import styled from "styled-components";
 import Card from "../../components/Card/Card";
 import Menu from "frontend/src/components/Menu/Menu";
-import Toggle from "frontend/src/components/Toggle/Toggle";
 
-const Home: React.FC = () => {
+const Centres: React.FC = () => {
   return (
     <>
       <IonPage>
@@ -13,19 +12,24 @@ const Home: React.FC = () => {
             <IonToolbar></IonToolbar>
           </IonHeader>
           <Menu />
+          <IonSearchbar placeholder="Buscar"></IonSearchbar>
           <Cards>
             <Card
-              title="Equipo"
-              imageUrl="https://www.infisport.com/media/amasty/blog/SprintDeportesEquipo1_2.jpg"
+              title="Polideportivo 1"
+              imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
               description=""
             />
             <Card
-              title="Instalaciones"
+              title="Polideportivo 2"
+              imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
+              description=""
+            />
+            <Card
+              title="Polideportivo 3"
               imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
               description=""
             />
           </Cards>
-          <Toggle />
         </IonContent>
       </IonPage>
     </>
@@ -38,4 +42,4 @@ const Cards = styled.div`
   height: 80%;
 `;
 
-export default Home;
+export default Centres;
