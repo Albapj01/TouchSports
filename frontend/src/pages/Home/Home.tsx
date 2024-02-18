@@ -25,7 +25,6 @@ const Home: React.FC = () => {
               description=""
             />
           </Cards>
-          <Toggle />
         </IonContent>
       </IonPage>
     </>
