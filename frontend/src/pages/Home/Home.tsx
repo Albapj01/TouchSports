@@ -1,8 +1,9 @@
-import { IonContent, IonHeader, IonPage, IonToolbar } from "@ionic/react";
+import { IonContent, IonFooter, IonHeader, IonPage, IonToolbar } from "@ionic/react";
+import React from "react";
 import styled from "styled-components";
 import Card from "../../components/Card/Card";
 import Menu from "frontend/src/components/Menu/Menu";
-import Toggle from "frontend/src/components/Toggle/Toggle";
+import Tabs from "frontend/src/components/Tabs/Tabs";
 
 const Home: React.FC = () => {
   return (
@@ -26,6 +27,9 @@ const Home: React.FC = () => {
             />
           </Cards>
         </IonContent>
+        <IonFooter>
+          <Tabs />
+        </IonFooter>
       </IonPage>
     </>
   );

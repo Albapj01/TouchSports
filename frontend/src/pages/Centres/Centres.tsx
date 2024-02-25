@@ -1,4 +1,10 @@
-import { IonContent, IonHeader, IonPage, IonSearchbar, IonToolbar } from "@ionic/react";
+import {
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonSearchbar,
+  IonToolbar,
+} from "@ionic/react";
 import styled from "styled-components";
 import Card from "../../components/Card/Card";
 import Menu from "frontend/src/components/Menu/Menu";
@@ -13,7 +19,7 @@ const Centres: React.FC = () => {
           </IonHeader>
           <Menu />
           <IonSearchbar placeholder="Buscar"></IonSearchbar>
-          <Cards>
+          <CentresContainer>
             <Card
               title="Polideportivo 1"
               imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
@@ -24,12 +30,12 @@ const Centres: React.FC = () => {
               imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
               description=""
             />
-            <Card
-              title="Polideportivo 3"
-              imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
-              description=""
-            />
-          </Cards>
+          </CentresContainer>
+          <Card
+            title="Polideportivo 3"
+            imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
+            description=""
+          />
         </IonContent>
       </IonPage>
     </>
@@ -37,9 +43,16 @@ const Centres: React.FC = () => {
 };
 
 const Cards = styled.div`
+  font-size: small;
   text-align: center;
   align-items: center;
-  height: 80%;
+`;
+
+const CentresContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+  font-size: small;
 `;
 
 export default Centres;

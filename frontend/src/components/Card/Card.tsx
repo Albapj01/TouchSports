@@ -1,4 +1,10 @@
-import { IonCard, IonCardContent, IonCardHeader, IonCardTitle } from "@ionic/react";
+import {
+  IonCard,
+  IonCardContent,
+  IonCardHeader,
+  IonCardTitle,
+} from "@ionic/react";
+import styled from "styled-components";
 
 interface ExampleProps {
   title: string;
@@ -7,22 +13,28 @@ interface ExampleProps {
 }
 
 const Card = ({ title, imageUrl, description }: ExampleProps) => {
-
   const hideDescription = () => {
-    if (description == ""){
+    if (description == "") {
       return true;
     }
     return false;
-  }
+  };
 
   return (
     <IonCard>
       <img alt={title} src={imageUrl} />
       <IonCardHeader>
-        <IonCardTitle>{title}</IonCardTitle>
+        <TitleText>
+          {title}
+        </TitleText>
       </IonCardHeader>
       <IonCardContent onClick={hideDescription}>{description}</IonCardContent>
     </IonCard>
   );
 };
+
+const TitleText = styled.div`
+  font-weight: 800;
+`;
+
 export default Card;

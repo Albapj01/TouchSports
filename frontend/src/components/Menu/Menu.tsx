@@ -5,70 +5,49 @@ import {
   IonIcon,
   IonItem,
   IonItemGroup,
+  IonLabel,
   IonMenu,
   IonMenuButton,
   IonPage,
-  IonRadio,
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
 import { person } from "ionicons/icons";
+import styled from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
-const Menu = () => {
+const Menu: React.FC = () => {
   return (
     <>
-      <IonMenu contentId="main-content" style={{ background: "#1f7189", color: "white" }}>
-        <IonContent className="ion-padding" style={{ background: "#1f7189", color: "white" }}>
-          <div style={{ background: "#1f7189", color: "white" }}>
-            <IonToolbar>
-              <IonTitle>
-                Menu
-              </IonTitle>
-            </IonToolbar>
-            <IonItemGroup>
-              <IonRadio value="Calendario">
-                <code>Calendario</code>
-              </IonRadio>
-            </IonItemGroup>
-            <IonItemGroup>
-              <IonRadio value="Equipo">
-                <code>Equipo</code>
-              </IonRadio>
+      <GlobalStyle />
+      <IonMenu contentId="main-content">
+        <IonContent>
+          <IonToolbar color="primary">
+            <IonTitle>Menu</IonTitle>
+          </IonToolbar>
+          <IonItem>Calendario</IonItem>
+          <IonItem slot="header">
+            Equipo
+            <div>
               <IonItem>
-                <IonRadio value="Equipo">
-                  <code>Equipo 1</code>
-                </IonRadio>
+                <IonLabel>Equipo 1</IonLabel>
               </IonItem>
-              <IonItem>
-                <IonRadio value="Equipo">
-                  <code>Equipo 2</code>
-                </IonRadio>
-              </IonItem>
-            </IonItemGroup>
-            <IonItemGroup>
-              <IonRadio value="Instalaciones">
-                <code>Instalaciones</code>
-              </IonRadio>
-            </IonItemGroup>
-            <IonItemGroup>
-              <IonRadio value="Cerrar Sesión">
-                <code>Cerrar Sesión</code>
-              </IonRadio>
-            </IonItemGroup>
-          </div>
+            </div>
+          </IonItem>
+          <IonItem>Instalaciones</IonItem>
+          <IonItem>Cerrar Sesión</IonItem>
         </IonContent>
       </IonMenu>
       <IonPage id="main-content">
-        <IonHeader>
-          <IonToolbar>
+        <GlobalStyle />
+        <IonHeader color="primary">
+          <IonToolbar color="primary">
             <IonButtons slot="start">
-              <IonMenuButton></IonMenuButton>
+              <IonMenuButton color="light"></IonMenuButton>
             </IonButtons>
-            <IonTitle>Menu</IonTitle>
-            <IonItemGroup style={{ background: "#1f7189", color: "white" }}></IonItemGroup>
+            <IonTitle>TouchSports</IonTitle>
             <IonButtons slot="end" style={{ marginRight: "8px" }}>
-              <IonIcon slot="icon-only" icon={person}></IonIcon>
-              {/* color="light" */}
+              <IonIcon slot="icon-only" icon={person} color="light"></IonIcon>
             </IonButtons>
           </IonToolbar>
         </IonHeader>
@@ -76,4 +55,11 @@ const Menu = () => {
     </>
   );
 };
+
+const GlobalStyle = createGlobalStyle`
+    :root {
+      --ion-color-primary: #1f7189;
+    }
+  `;
+
 export default Menu;
