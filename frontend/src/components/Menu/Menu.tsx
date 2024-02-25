@@ -4,8 +4,7 @@ import {
   IonHeader,
   IonIcon,
   IonItem,
-  IonItemGroup,
-  IonLabel,
+  IonList,
   IonMenu,
   IonMenuButton,
   IonPage,
@@ -13,10 +12,16 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import { person } from "ionicons/icons";
-import styled from "styled-components";
+import React, { useState } from "react";
 import { createGlobalStyle } from "styled-components";
 
 const Menu: React.FC = () => {
+  const [showDropDown, setDropDown] = useState(false);
+
+  const handleDropDownClick = (e: React.MouseEvent) => {
+    setDropDown(!showDropDown);
+  };
+
   return (
     <>
       <GlobalStyle />
@@ -26,14 +31,15 @@ const Menu: React.FC = () => {
             <IonTitle>Menu</IonTitle>
           </IonToolbar>
           <IonItem>Calendario</IonItem>
-          <IonItem slot="header">
+          <IonItem button onClick={handleDropDownClick}>
             Equipo
-            <div>
-              <IonItem>
-                <IonLabel>Equipo 1</IonLabel>
-              </IonItem>
-            </div>
           </IonItem>
+          {showDropDown && (
+            <IonList>
+              <IonItem>Equipo 1</IonItem>
+              <IonItem>Equipo 2</IonItem>
+            </IonList>
+          )}
           <IonItem>Instalaciones</IonItem>
           <IonItem>Cerrar Sesión</IonItem>
         </IonContent>

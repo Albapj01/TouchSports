@@ -1,54 +1,21 @@
 import React from "react";
-import {
-  IonTabs,
-  IonTabBar,
-  IonTabButton,
-  IonIcon,
-  IonLabel,
-  IonRouterOutlet,
-  IonPage,
-  IonFooter,
-  IonContent,
-} from "@ionic/react";
-import { IonReactRouter } from "@ionic/react-router";
+import { IonTabBar, IonTabButton, IonIcon, IonLabel } from "@ionic/react";
 
-import { Route, Redirect } from "react-router";
-
-import { playCircle, radio, library, search } from "ionicons/icons";
-import Home from "frontend/src/pages/Home/Home";
+import { home, person } from "ionicons/icons";
 
 const Tabs: React.FC = () => {
   return (
-    <IonContent>
-      <IonTabs>
-        <IonRouterOutlet>
-          <Redirect exact path="/" to="/home" />
-          <Route path="/home" render={() => <Home />} exact={true} />
-        </IonRouterOutlet>
+    <IonTabBar slot="bottom" color="primary">
+      <IonTabButton tab="home">
+        <IonIcon icon={home} color="light" />
+        <IonLabel>Inicio</IonLabel>
+      </IonTabButton>
 
-        <IonTabBar slot="bottom">
-          <IonTabButton tab="home" href="/home">
-            <IonIcon icon={playCircle} />
-            <IonLabel>Listen now</IonLabel>
-          </IonTabButton>
-
-          <IonTabButton tab="radio">
-            <IonIcon icon={radio} />
-            <IonLabel>Radio</IonLabel>
-          </IonTabButton>
-
-          <IonTabButton tab="library">
-            <IonIcon icon={library} />
-            <IonLabel>Library</IonLabel>
-          </IonTabButton>
-
-          <IonTabButton tab="search">
-            <IonIcon icon={search} />
-            <IonLabel>Search</IonLabel>
-          </IonTabButton>
-        </IonTabBar>
-      </IonTabs>
-    </IonContent>
+      <IonTabButton tab="profile">
+        <IonIcon icon={person} color="light" />
+        <IonLabel>Perfil</IonLabel>
+      </IonTabButton>
+    </IonTabBar>
   );
 };
 export default Tabs;

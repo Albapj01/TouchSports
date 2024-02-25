@@ -2,13 +2,11 @@ import {
   IonActionSheet,
   IonButton,
   IonContent,
-  IonHeader,
   IonImg,
   IonInput,
   IonItem,
   IonList,
   IonPage,
-  IonToolbar,
 } from "@ionic/react";
 import styled from "styled-components";
 import Menu from "frontend/src/components/Menu/Menu";
