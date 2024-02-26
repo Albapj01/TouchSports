@@ -85,48 +85,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package.json",
-        "hash": "249411648028728033"
-      },
-      {
         "file": ".vscode/settings.json",
         "hash": "4151221709318294451"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "13065267247832701499"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
-      },
-      {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
       },
       {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
       },
       {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
+        "file": "package-lock.json",
+        "hash": "120275829439941307"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
       },
       {
         "file": "nx.json",
         "hash": "4595224623132836319"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
+      },
+      {
+        "file": "README.md",
+        "hash": "10104707244890837311"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
+      },
+      {
+        "file": "package.json",
+        "hash": "9678811231227360245"
       }
     ],
     "projectFileMap": {
@@ -184,7 +184,7 @@
         },
         {
           "file": "frontend/src/App.tsx",
-          "hash": "2759784948247518207",
+          "hash": "13426701413474298527",
           "deps": [
             "npm:react-router-dom",
             "npm:@ionic/react",
@@ -201,13 +201,6 @@
           "hash": "17482944836898362639"
         },
         {
-          "file": "frontend/src/components/Avatar/Avatar.tsx",
-          "hash": "9264203510076560487",
-          "deps": [
-            "npm:@ionic/react"
-          ]
-        },
-        {
           "file": "frontend/src/components/Card/Card.tsx",
           "hash": "2340885517502450572",
           "deps": [
@@ -217,7 +210,7 @@
         },
         {
           "file": "frontend/src/components/Menu/Menu.tsx",
-          "hash": "7245331089625766189",
+          "hash": "9211687791235116339",
           "deps": [
             "npm:@ionic/react",
             "npm:ionicons",
@@ -227,7 +220,7 @@
         },
         {
           "file": "frontend/src/components/Tabs/Tabs.tsx",
-          "hash": "8002135727330517144",
+          "hash": "9813740828036624643",
           "deps": [
             "npm:react",
             "npm:@ionic/react",
@@ -240,6 +233,14 @@
           "deps": [
             "npm:@ionic/react",
             "npm:react"
+          ]
+        },
+        {
+          "file": "frontend/src/components/avatar/avatar.tsx",
+          "hash": "8757068041721200660",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
           ]
         },
         {
@@ -260,7 +261,7 @@
         },
         {
           "file": "frontend/src/pages/Centres/Centres.tsx",
-          "hash": "16108787260256458000",
+          "hash": "1867023803627447138",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components"
@@ -268,16 +269,15 @@
         },
         {
           "file": "frontend/src/pages/Home/Home.tsx",
-          "hash": "16286066101177889918",
+          "hash": "7197682771501673463",
           "deps": [
             "npm:@ionic/react",
-            "npm:react",
             "npm:styled-components"
           ]
         },
         {
           "file": "frontend/src/pages/Reserve/Reserve.tsx",
-          "hash": "14768381499495902080",
+          "hash": "9643820476495348357",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components",
@@ -286,7 +286,7 @@
         },
         {
           "file": "frontend/src/pages/Team/Team.tsx",
-          "hash": "7163901431291970464",
+          "hash": "788738096293031499",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components"
@@ -308,6 +308,15 @@
           "hash": "15012374211378204362"
         },
         {
+          "file": "frontend/tests/components/avatar/avatar.test.tsx",
+          "hash": "17851248291595551512",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:@testing-library/jest-dom"
+          ]
+        },
+        {
           "file": "frontend/tsconfig.app.json",
           "hash": "16536883993834092355"
         },
@@ -325,6 +334,132 @@
           "deps": [
             "npm:@nx/webpack",
             "npm:@nx/react"
+          ]
+        },
+        {
+          "file": "frontend/src/components/Card/card.tsx",
+          "hash": "2340885517502450572",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/components/card/card.tsx",
+          "hash": "2044670794119702140",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/components/Menu/menu.tsx",
+          "hash": "9211687791235116339",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:ionicons",
+            "npm:react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/components/tabs/Tabs.tsx",
+          "hash": "9813740828036624643",
+          "deps": [
+            "npm:react",
+            "npm:@ionic/react",
+            "npm:ionicons"
+          ]
+        },
+        {
+          "file": "frontend/src/components/tabs/tabs.tsx",
+          "hash": "9813740828036624643",
+          "deps": [
+            "npm:react",
+            "npm:@ionic/react",
+            "npm:ionicons"
+          ]
+        },
+        {
+          "file": "frontend/src/components/toggle/toggle.tsx",
+          "hash": "2203808021703236849",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "frontend/src/components/toggle/Toggle.tsx",
+          "hash": "2203808021703236849",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/centres/centres.tsx",
+          "hash": "1867023803627447138",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/centres/Centres.tsx",
+          "hash": "1867023803627447138",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/home/home.tsx",
+          "hash": "7197682771501673463",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/home/Home.tsx",
+          "hash": "7197682771501673463",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/reserve/reserve.tsx",
+          "hash": "9643820476495348357",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/reserve/Reserve.tsx",
+          "hash": "9643820476495348357",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/team/Team.tsx",
+          "hash": "788738096293031499",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/team/team.tsx",
+          "hash": "788738096293031499",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
           ]
         }
       ],

@@ -1,8 +1,16 @@
-import { IonContent, IonHeader, IonPage, IonToolbar } from "@ionic/react";
+import {
+  IonContent,
+  IonFooter,
+  IonHeader,
+  IonPage,
+  IonToolbar,
+} from "@ionic/react";
 import styled from "styled-components";
-import Avatar from "frontend/src/components/Avatar/Avatar";
+import Avatar from "frontend/src/components/avatar/avatar";
+import Tabs from "frontend/src/components/tabs/tabs";
+import Menu from "frontend/src/components/menu/menu";
 
-const Team: React.FC = () => {
+const Team = () => {
   return (
     <>
       <IonPage>
@@ -10,6 +18,7 @@ const Team: React.FC = () => {
           <IonHeader collapse="condense">
             <IonToolbar></IonToolbar>
           </IonHeader>
+          <Menu />
           <PersonsContainer>
             <Person>
               <Avatar
@@ -25,6 +34,9 @@ const Team: React.FC = () => {
             </Person>
           </PersonsContainer>
         </IonContent>
+        <IonFooter>
+          <Tabs />
+        </IonFooter>
       </IonPage>
     </>
   );

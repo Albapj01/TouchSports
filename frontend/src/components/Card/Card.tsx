@@ -2,7 +2,6 @@ import {
   IonCard,
   IonCardContent,
   IonCardHeader,
-  IonCardTitle,
 } from "@ionic/react";
 import styled from "styled-components";
 

@@ -5,13 +5,13 @@ import {
   IonPage,
   IonToolbar,
 } from "@ionic/react";
-import React from "react";
+import Card from "frontend/src/components/card/card";
+import Menu from "frontend/src/components/menu/menu";
+import Tabs from "frontend/src/components/tabs/tabs";
 import styled from "styled-components";
-import Card from "../../components/Card/Card";
-import Menu from "frontend/src/components/Menu/Menu";
-import Tabs from "frontend/src/components/Tabs/Tabs";
 
-const Home: React.FC = () => {
+
+const Home = () => {
   return (
     <>
       <IonPage>

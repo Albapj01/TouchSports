@@ -2,8 +2,7 @@ import { Redirect, Route } from "react-router-dom";
 import { IonApp, IonRouterOutlet, setupIonicReact } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import React from "react";
-import Home from "./pages/Home/Home";
-import Team from "./pages/Team/Team";
+import Home from "./pages/home/home";
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
@@ -23,9 +22,9 @@ import "@ionic/react/css/display.css";
 
 /* Theme variables */
 import "./theme/variables.css";
-import Reserve from "./pages/Reserve/Reserve";
-import Centres from "./pages/Centres/Centres";
-
+import Reserve from "./pages/reserve/reserve";
+import Centres from "./pages/centres/centres";
+import Team from "./pages/team/team";
 
 setupIonicReact();
 

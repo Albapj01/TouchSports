@@ -12,13 +12,13 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import { person } from "ionicons/icons";
-import React, { useState } from "react";
+import { useState } from "react";
 import { createGlobalStyle } from "styled-components";
 
-const Menu: React.FC = () => {
+const Menu = () => {
   const [showDropDown, setDropDown] = useState(false);
 
-  const handleDropDownClick = (e: React.MouseEvent) => {
+  const handleDropDownClick = () => {
     setDropDown(!showDropDown);
   };
 
@@ -41,6 +41,7 @@ const Menu: React.FC = () => {
             </IonList>
           )}
           <IonItem>Instalaciones</IonItem>
+          <IonItem>Reservas</IonItem>
           <IonItem>Cerrar Sesión</IonItem>
         </IonContent>
       </IonMenu>

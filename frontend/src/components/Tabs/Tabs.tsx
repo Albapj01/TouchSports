@@ -3,7 +3,7 @@ import { IonTabBar, IonTabButton, IonIcon, IonLabel } from "@ionic/react";
 
 import { home, person } from "ionicons/icons";
 
-const Tabs: React.FC = () => {
+const Tabs = () => {
   return (
     <IonTabBar slot="bottom" color="primary">
       <IonTabButton tab="home">

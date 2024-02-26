@@ -1,20 +1,29 @@
 import { IonAvatar } from "@ionic/react";
+import styled from "styled-components";
 
-interface AvatarProps {
+type AvatarProps = {
   imageUrl: string;
   name: string;
-}
+};
 
 const Avatar = ({ imageUrl, name }: AvatarProps) => {
-  
   return (
-    <div style={{ color: "black" }}>
-      <IonAvatar style={{width: "120px", height: "120px"}}>
+    <AvatarContainer>
+      <AvatarIcon>
         <img alt={name} src={imageUrl} />
-      </IonAvatar>
+      </AvatarIcon>
       <div>{name}</div>
-    </div>
+    </AvatarContainer>
   );
 };
+
+const AvatarContainer = styled.div`
+  color: black;
+`;
+
+const AvatarIcon = styled(IonAvatar)`
+  width: 120px; //cambiar a porcentajes
+  height: 120px;
+`;
 
 export default Avatar;

@@ -2,21 +2,32 @@ import {
   IonActionSheet,
   IonButton,
   IonContent,
+  IonFooter,
+  IonHeader,
   IonImg,
   IonInput,
   IonItem,
   IonList,
   IonPage,
+  IonToolbar,
 } from "@ionic/react";
 import styled from "styled-components";
-import Menu from "frontend/src/components/Menu/Menu";
+import Menu from "frontend/src/components/menu/menu";
 import { useState } from "react";
+import Tabs from "frontend/src/components/tabs/tabs";
 
-const Reserve: React.FC = () => {
+const Reserve = () => {
   const [name, setName] = useState("");
   const [telephoneNumber, setTelephoneNumber] = useState("");
   const [email, setEmail] = useState("");
   const [material, setMaterial] = useState("");
+
+  const [showOption, setShowOption] = useState(false);
+
+  const handleShowClick = () => {
+    setShowOption(!showOption);
+  };
+
   // const [isEmailValid, setIsEmailValid] = useState(false);
 
   // const validationEmail = (email: String) => {
@@ -38,6 +49,10 @@ const Reserve: React.FC = () => {
     <>
       <IonPage>
         <IonContent fullscreen>
+          <IonHeader>
+            <IonToolbar></IonToolbar>
+          </IonHeader>
+          <br></br>
           <Menu />
           <Image>
             <IonImg
@@ -87,7 +102,12 @@ const Reserve: React.FC = () => {
           </IonList>
           <Space></Space>
           <Button>
-            <IonButton id="open-action-sheet" style={{ color:'white', '--ion-background-color': '#1f7189'}}>Reservar</IonButton>
+            <IonButton
+              id="open-action-sheet"
+              style={{ color: "white", "--ion-background-color": "#1f7189" }}
+            >
+              Reservar
+            </IonButton>
             <IonActionSheet
               trigger="open-action-sheet"
               buttons={[
@@ -115,6 +135,9 @@ const Reserve: React.FC = () => {
             ></IonActionSheet>
           </Button>
         </IonContent>
+        <IonFooter>
+          <Tabs />
+        </IonFooter>
       </IonPage>
     </>
   );

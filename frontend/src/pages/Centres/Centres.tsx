@@ -1,15 +1,18 @@
 import {
   IonContent,
+  IonFooter,
   IonHeader,
   IonPage,
   IonSearchbar,
   IonToolbar,
 } from "@ionic/react";
+import Card from "frontend/src/components/card/card";
+import Menu from "frontend/src/components/menu/menu";
+import Tabs from "frontend/src/components/tabs/tabs";
 import styled from "styled-components";
-import Card from "../../components/Card/Card";
-import Menu from "frontend/src/components/Menu/Menu";
 
-const Centres: React.FC = () => {
+
+const Centres = () => {
   return (
     <>
       <IonPage>
@@ -37,6 +40,9 @@ const Centres: React.FC = () => {
             description=""
           />
         </IonContent>
+        <IonFooter>
+          <Tabs />
+        </IonFooter>
       </IonPage>
     </>
   );

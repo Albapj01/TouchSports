@@ -2,7 +2,16 @@
   "name": "@touch-sports/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "backend": "nx run backend:serve",
+    "frontend": "nx run frontend:serve",
+    "frontend:dev": "nx run frontend:serve --configuration=development",
+    "serve": "nx run-many --target=serve -p frontend backend",
+    "test:frontend": "npx jest frontend/tests",
+    "test:backend": "npx jest backend/tests",
+    "test:backend:watch": "npx jest --watch",
+    "test:all": "npx jest --watch frontend/tests backend/tests"
+  },
   "private": true,
   "devDependencies": {
     "@babel/core": "^7.14.5",
