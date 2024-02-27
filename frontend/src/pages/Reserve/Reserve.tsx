@@ -102,12 +102,7 @@ const Reserve = () => {
           </IonList>
           <Space></Space>
           <Button>
-            <IonButton
-              id="open-action-sheet"
-              style={{ color: "white", "--ion-background-color": "#1f7189" }}
-            >
-              Reservar
-            </IonButton>
+            <IonButton id="open-action-sheet">Reservar</IonButton>
             <IonActionSheet
               trigger="open-action-sheet"
               buttons={[
@@ -152,11 +147,6 @@ const Image = styled.div`
   height: 300px;
   width: 300px;
   margin-left: 42px;
-`;
-
-const Container = styled.div`
-  justify-content: center;
-  align-items: center;
 `;
 
 const Space = styled.div`

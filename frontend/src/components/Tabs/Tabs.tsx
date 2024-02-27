@@ -1,4 +1,3 @@
-import React from "react";
 import { IonTabBar, IonTabButton, IonIcon, IonLabel } from "@ionic/react";
 
 import { home, person } from "ionicons/icons";

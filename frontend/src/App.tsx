@@ -25,6 +25,7 @@ import "./theme/variables.css";
 import Reserve from "./pages/reserve/reserve";
 import Centres from "./pages/centres/centres";
 import Team from "./pages/team/team";
+import Profile from "./pages/profile/profile";
 
 setupIonicReact();
 
@@ -33,6 +34,7 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonRouterOutlet>
         <Route exact path="/home" component={Home} />
+        <Route path="/home/profile" component={Profile} />
         <Route path="/home/team" component={Team} />
         <Route path="/home/centres" component={Centres} />
         <Route path="/home/centres/reserve" component={Reserve} />

@@ -5,7 +5,7 @@ import {
 } from "@ionic/react";
 import styled from "styled-components";
 
-interface ExampleProps {
+type ExampleProps = {
   title: string;
   imageUrl: string;
   description: string;
