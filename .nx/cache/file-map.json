@@ -85,24 +85,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": "package-lock.json",
+        "hash": "13065267247832701499"
+      },
+      {
         "file": ".vscode/settings.json",
         "hash": "4151221709318294451"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "120275829439941307"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
       },
       {
         "file": "LICENSE",
@@ -113,20 +101,32 @@
         "hash": "4595224623132836319"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
+        "file": "README.md",
+        "hash": "10104707244890837311"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
       },
       {
         "file": "package.json",
         "hash": "9678811231227360245"
       },
       {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
       }
     ],
     "projectFileMap": {
@@ -184,7 +184,7 @@
         },
         {
           "file": "frontend/src/App.tsx",
-          "hash": "11540205003712740513",
+          "hash": "14866243954838979749",
           "deps": [
             "npm:react-router-dom",
             "npm:@ionic/react",
@@ -201,6 +201,14 @@
           "hash": "17482944836898362639"
         },
         {
+          "file": "frontend/src/assets/images/fondo.png",
+          "hash": "1839008959717963304"
+        },
+        {
+          "file": "frontend/src/assets/images/logo.png",
+          "hash": "6051506805549439770"
+        },
+        {
           "file": "frontend/src/components/avatar/avatar.tsx",
           "hash": "8757068041721200660",
           "deps": [
@@ -209,8 +217,16 @@
           ]
         },
         {
+          "file": "frontend/src/components/button/button.tsx",
+          "hash": "4735591868381575919",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
           "file": "frontend/src/components/card/card.tsx",
-          "hash": "18285549354038159450",
+          "hash": "12332533132917088001",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components"
@@ -219,6 +235,14 @@
         {
           "file": "frontend/src/components/list/list.tsx",
           "hash": "9582834380039827972",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/components/logo/logo.tsx",
+          "hash": "14867109438747572456",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components"
@@ -300,6 +324,15 @@
           ]
         },
         {
+          "file": "frontend/src/pages/sign-in/signIn.tsx",
+          "hash": "10414045115939238660",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:ionicons",
+            "npm:styled-components"
+          ]
+        },
+        {
           "file": "frontend/src/pages/team/team.tsx",
           "hash": "788738096293031499",
           "deps": [
@@ -349,6 +382,23 @@
           "deps": [
             "npm:@nx/webpack",
             "npm:@nx/react"
+          ]
+        },
+        {
+          "file": "frontend/src/assets/images/logo2.png",
+          "hash": "15445526247310865559"
+        },
+        {
+          "file": "frontend/src/assets/images/fondo2.jpeg",
+          "hash": "6782446924284716492"
+        },
+        {
+          "file": "frontend/src/pages/sign-in/signIn2.tsx",
+          "hash": "13377681343224095685",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:ionicons",
+            "npm:styled-components"
           ]
         }
       ],

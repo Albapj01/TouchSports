@@ -1,6 +1,3 @@
-<i> [1m[32m[webpack-dev-server] Project is running at:[39m[22m
-<i> [1m[32m[webpack-dev-server] Loopback: [36mhttp://localhost:4200/[39m, [36mhttp://[::1]:4200/[39m[39m[22m
-<i> [1m[32m[webpack-dev-server] 404s will fallback to '[36m/index.html[39m'[39m[22m
 
 [36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4200/[22m
 
@@ -92,16 +89,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/profile/profile.
     at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13189:61)
 
 webpack compiled with [1m[31m1 error[39m[22m (87507c8250b67ff3)
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m20:31[22m[39m
-[90mTS17000: [39mJSX attributes must only be assigned a non-empty 'expression'.
-  [0m [90m 18 |[39m         [33m<[39m[33mIonContent[39m fullscreen[33m>[39m[0m
-  [0m [90m 19 |[39m           [33m<[39m[33mIonHeader[39m collapse[33m=[39m[32m"condense"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 20 |[39m             [33m<[39m[33mIonToolbar[39m color[33m=>[39m[33m<[39m[33m/[39m[33mIonToolbar[39m[33m>[39m[0m
-  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 21 |[39m           [33m<[39m[33m/[39m[33mIonHeader[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mMenu[39m [33m/[39m[33m>[39m[0m
-  [0m [90m 23 |[39m           [33m<[39m[33mMargin[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 1116 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 6 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.45b0c297fd17d3e6.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -179,16 +166,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/profile/profile.
 
 webpack compiled with [1m[31m1 error[39m[22m (bc4a8ce9598cafe5)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m20:25[22m[39m
-[90mTS2322: [39mType 'true' is not assignable to type '(Color & string) | undefined'.
-  [0m [90m 18 |[39m         [33m<[39m[33mIonContent[39m fullscreen[33m>[39m[0m
-  [0m [90m 19 |[39m           [33m<[39m[33mIonHeader[39m collapse[33m=[39m[32m"condense"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 20 |[39m             [33m<[39m[33mIonToolbar[39m color[33m=>[39m[33m<[39m[33m/[39m[33mIonToolbar[39m[33m>[39m[0m
-  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 21 |[39m           [33m<[39m[33m/[39m[33mIonHeader[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mMenu[39m [33m/[39m[33m>[39m[0m
-  [0m [90m 23 |[39m           [33m<[39m[33mMargin[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 838 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.93 MiB (5.91 MiB) = 7 assets 7 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.45b0c297fd17d3e6.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
