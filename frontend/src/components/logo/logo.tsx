@@ -1,4 +1,4 @@
-import { IonImg, IonToggle } from "@ionic/react";
+import { IonImg } from "@ionic/react";
 import styled from "styled-components";
 
 //para la segunda opción se pone "../../assets/images/logo2.png"
