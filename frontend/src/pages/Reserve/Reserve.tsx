@@ -7,14 +7,18 @@ import {
   IonImg,
   IonInput,
   IonItem,
+  IonLabel,
   IonList,
   IonPage,
+  IonSegment,
+  IonSegmentButton,
   IonToolbar,
 } from "@ionic/react";
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 import Menu from "frontend/src/components/menu/menu";
 import { useState } from "react";
 import Tabs from "frontend/src/components/tabs/tabs";
+import Input from "frontend/src/components/input/input";
 
 const Reserve = () => {
   const [name, setName] = useState("");
@@ -60,44 +64,17 @@ const Reserve = () => {
               alt="Polideportivo Córdoba"
             ></IonImg>
           </Image>
-          <Space></Space>
-          <IonList>
+          <IonList className="no-margin-padding">
             <Margin>
-              <IonItem>
-                <IonInput
-                  label="Nombre"
-                  placeholder="Enter text"
-                  value={name}
-                  onIonChange={(e) => setName(e.detail.value!)}
-                ></IonInput>
-              </IonItem>
-              <IonItem>
-                <IonInput
-                  label="Número de teléfono"
-                  type="number"
-                  placeholder="612345678"
-                  value={telephoneNumber}
-                  onIonChange={(e) => setTelephoneNumber(e.detail.value!)}
-                ></IonInput>
-              </IonItem>
-              <IonItem>
-                <IonInput
-                  label="Correo"
-                  type="email"
-                  placeholder="email@domain.com"
-                  value={email}
-                  onIonChange={(e) => setEmail(e.detail.value!)}
-                ></IonInput>
-              </IonItem>
-              <IonItem>
-                <IonInput
-                  label="Material"
-                  type="text"
-                  placeholder="Material"
-                  value={material}
-                  onIonChange={(e) => setMaterial(e.detail.value!)}
-                ></IonInput>
-              </IonItem>
+              <Input />
+              <IonSegment value="default">
+                <IonSegmentButton value="default">
+                  <IonLabel>No material</IonLabel>
+                </IonSegmentButton>
+                <IonSegmentButton value="segment">
+                  <IonLabel>Material</IonLabel>
+                </IonSegmentButton>
+              </IonSegment>
             </Margin>
           </IonList>
           <Space></Space>
@@ -138,24 +115,36 @@ const Reserve = () => {
   );
 };
 
+const GlobalStyle = createGlobalStyle`
+    :root {
+      --ion-color-primary: #1f7189;
+    }
+
+    .no-margin-padding {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+  `;
+
 const Button = styled.div`
   text-align: center;
   align-items: center;
 `;
 
 const Image = styled.div`
-  height: 300px;
-  width: 300px;
-  margin-left: 42px;
+  height: 32%;
+  width: 75%;
+  margin-left: 12%;
 `;
 
 const Space = styled.div`
-  margin-bottom: 15px;
+  margin-bottom: 10%;
 `;
 
 const Margin = styled.div`
-  margin-right: 20px;
-  margin-left: 5px;
+  margin-right: 10%;
+  margin-left: 10%;
 `;
 
 export default Reserve;
