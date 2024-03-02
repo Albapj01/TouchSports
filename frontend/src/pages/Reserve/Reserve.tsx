@@ -12,6 +12,7 @@ import {
   IonPage,
   IonSegment,
   IonSegmentButton,
+  IonText,
   IonToolbar,
 } from "@ionic/react";
 import styled, { createGlobalStyle } from "styled-components";
@@ -19,6 +20,8 @@ import Menu from "frontend/src/components/menu/menu";
 import { useState } from "react";
 import Tabs from "frontend/src/components/tabs/tabs";
 import Input from "frontend/src/components/input/input";
+import MultiSelect from "frontend/src/components/multi-select/multi-select";
+import Segment from "frontend/src/components/segment/segment";
 
 const Reserve = () => {
   const [name, setName] = useState("");
@@ -67,14 +70,8 @@ const Reserve = () => {
           <IonList className="no-margin-padding">
             <Margin>
               <Input />
-              <IonSegment value="default">
-                <IonSegmentButton value="default">
-                  <IonLabel>No material</IonLabel>
-                </IonSegmentButton>
-                <IonSegmentButton value="segment">
-                  <IonLabel>Material</IonLabel>
-                </IonSegmentButton>
-              </IonSegment>
+              <IonText>¿Desea reservar algún tipo de material?</IonText>
+              <Segment/>
             </Margin>
           </IonList>
           <Space></Space>
