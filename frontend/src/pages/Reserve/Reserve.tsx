@@ -74,6 +74,7 @@ const Reserve = () => {
               <Segment/>
             </Margin>
           </IonList>
+          <MultiSelect/>
           <Space></Space>
           <Button>
             <IonButton id="open-action-sheet">Reservar</IonButton>
