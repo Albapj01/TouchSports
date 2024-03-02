@@ -22,6 +22,7 @@ import Tabs from "frontend/src/components/tabs/tabs";
 import Input from "frontend/src/components/input/input";
 import MultiSelect from "frontend/src/components/multi-select/multi-select";
 import Segment from "frontend/src/components/segment/segment";
+import DateTime from "frontend/src/components/datetime/datetime";
 
 const Reserve = () => {
   const [name, setName] = useState("");
@@ -71,10 +72,14 @@ const Reserve = () => {
             <Margin>
               <Input />
               <IonText>¿Desea reservar algún tipo de material?</IonText>
-              <Segment/>
+              <Segment />
             </Margin>
           </IonList>
-          <MultiSelect/>
+          <MultiSelect />
+          <Margin>
+            <IonText>Seleccione el día y la hora:</IonText>
+            <DateTime />
+          </Margin>
           <Space></Space>
           <Button>
             <IonButton id="open-action-sheet">Reservar</IonButton>

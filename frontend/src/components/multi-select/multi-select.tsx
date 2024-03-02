@@ -32,6 +32,7 @@ const SelectContainer = styled.div`
   margin-left: 7%;
   margin-right: 13%;
   margin-top: 3%;
+  margin-bottom: 7%;
 `;
 
 export default MultiSelect;
