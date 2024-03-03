@@ -85,48 +85,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".vscode/settings.json",
-        "hash": "4151221709318294451"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
+        "file": "package-lock.json",
+        "hash": "13065267247832701499"
       },
       {
         "file": ".gitignore",
         "hash": "1398178998339616447"
       },
       {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
+        "file": ".vscode/settings.json",
+        "hash": "4151221709318294451"
       },
       {
-        "file": "package-lock.json",
-        "hash": "13065267247832701499"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
       },
       {
         "file": "nx.json",
         "hash": "4595224623132836319"
       },
       {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
+      },
+      {
         "file": "package.json",
         "hash": "9678811231227360245"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "README.md",
+        "hash": "10104707244890837311"
       }
     ],
     "projectFileMap": {
@@ -173,92 +173,6 @@
           "deps": [
             "npm:@nx/webpack"
           ]
-        }
-      ],
-      "frontend-e2e": [
-        {
-          "file": "frontend-e2e/.eslintrc.json",
-          "hash": "12199001048877152138"
-        },
-        {
-          "file": "frontend-e2e/cypress.config.ts",
-          "hash": "12586416982398116375",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "frontend-e2e/project.json",
-          "hash": "9587367518965578926"
-        },
-        {
-          "file": "frontend-e2e/src/e2e/app.cy.ts",
-          "hash": "16383929608521807846"
-        },
-        {
-          "file": "frontend-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "frontend-e2e/src/support/app.po.ts",
-          "hash": "11177559716139350958"
-        },
-        {
-          "file": "frontend-e2e/src/support/commands.ts",
-          "hash": "5397443931564808659"
-        },
-        {
-          "file": "frontend-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "frontend-e2e/tsconfig.json",
-          "hash": "4966899981699294432"
-        }
-      ],
-      "backend-e2e": [
-        {
-          "file": "backend-e2e/.eslintrc.json",
-          "hash": "11808533155536463924"
-        },
-        {
-          "file": "backend-e2e/jest.config.ts",
-          "hash": "2507509416108260741"
-        },
-        {
-          "file": "backend-e2e/project.json",
-          "hash": "1553543349876778842"
-        },
-        {
-          "file": "backend-e2e/src/backend/backend.spec.ts",
-          "hash": "4579662685003779048",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "backend-e2e/src/support/global-setup.ts",
-          "hash": "2568409276037275290"
-        },
-        {
-          "file": "backend-e2e/src/support/global-teardown.ts",
-          "hash": "5275447082211835490"
-        },
-        {
-          "file": "backend-e2e/src/support/test-setup.ts",
-          "hash": "10984585515912236441",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "backend-e2e/tsconfig.json",
-          "hash": "2346920493880922870"
-        },
-        {
-          "file": "backend-e2e/tsconfig.spec.json",
-          "hash": "14226830188665428950"
         }
       ],
       "frontend": [
@@ -369,7 +283,16 @@
         },
         {
           "file": "frontend/src/components/card/card.tsx",
-          "hash": "12332533132917088001",
+          "hash": "12558613290228328309",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react-router-dom",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/components/datetime/datetime.tsx",
+          "hash": "11695231765549982271",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components"
@@ -384,7 +307,7 @@
         },
         {
           "file": "frontend/src/components/list/list.tsx",
-          "hash": "9582834380039827972",
+          "hash": "11555105803179990950",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components"
@@ -407,6 +330,22 @@
             "npm:styled-components",
             "npm:ionicons",
             "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "frontend/src/components/multi-select/multi-select.tsx",
+          "hash": "4983148941508017131",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/components/segment/segment.tsx",
+          "hash": "13083647248698637707",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
           ]
         },
         {
@@ -444,7 +383,7 @@
         },
         {
           "file": "frontend/src/pages/centres/centres.tsx",
-          "hash": "1867023803627447138",
+          "hash": "9531981924390106184",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components"
@@ -452,7 +391,7 @@
         },
         {
           "file": "frontend/src/pages/home/home.tsx",
-          "hash": "7197682771501673463",
+          "hash": "5081304448423996108",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components"
@@ -460,7 +399,7 @@
         },
         {
           "file": "frontend/src/pages/profile/profile.tsx",
-          "hash": "13955269206221661484",
+          "hash": "15536719799281990126",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components"
@@ -544,30 +483,92 @@
             "npm:@nx/webpack",
             "npm:@nx/react"
           ]
+        }
+      ],
+      "frontend-e2e": [
+        {
+          "file": "frontend-e2e/.eslintrc.json",
+          "hash": "12199001048877152138"
         },
         {
-          "file": "frontend/src/components/multi-select/multi-select.tsx",
-          "hash": "4983148941508017131",
+          "file": "frontend-e2e/cypress.config.ts",
+          "hash": "12586416982398116375",
           "deps": [
-            "npm:@ionic/react",
-            "npm:styled-components"
+            "npm:@nx/cypress",
+            "npm:cypress"
           ]
         },
         {
-          "file": "frontend/src/components/segment/segment.tsx",
-          "hash": "13083647248698637707",
+          "file": "frontend-e2e/project.json",
+          "hash": "9587367518965578926"
+        },
+        {
+          "file": "frontend-e2e/src/e2e/app.cy.ts",
+          "hash": "16383929608521807846"
+        },
+        {
+          "file": "frontend-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "frontend-e2e/src/support/app.po.ts",
+          "hash": "11177559716139350958"
+        },
+        {
+          "file": "frontend-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "frontend-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "frontend-e2e/tsconfig.json",
+          "hash": "4966899981699294432"
+        }
+      ],
+      "backend-e2e": [
+        {
+          "file": "backend-e2e/.eslintrc.json",
+          "hash": "11808533155536463924"
+        },
+        {
+          "file": "backend-e2e/jest.config.ts",
+          "hash": "2507509416108260741"
+        },
+        {
+          "file": "backend-e2e/project.json",
+          "hash": "1553543349876778842"
+        },
+        {
+          "file": "backend-e2e/src/backend/backend.spec.ts",
+          "hash": "4579662685003779048",
           "deps": [
-            "npm:@ionic/react",
-            "npm:styled-components"
+            "npm:axios"
           ]
         },
         {
-          "file": "frontend/src/components/datetime/datetime.tsx",
-          "hash": "11695231765549982271",
+          "file": "backend-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "backend-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "backend-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
           "deps": [
-            "npm:@ionic/react",
-            "npm:styled-components"
+            "npm:axios"
           ]
+        },
+        {
+          "file": "backend-e2e/tsconfig.json",
+          "hash": "2346920493880922870"
+        },
+        {
+          "file": "backend-e2e/tsconfig.spec.json",
+          "hash": "14226830188665428950"
         }
       ]
     }

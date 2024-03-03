@@ -10,7 +10,6 @@ import Menu from "frontend/src/components/menu/menu";
 import Tabs from "frontend/src/components/tabs/tabs";
 import styled from "styled-components";
 
-
 const Home = () => {
   return (
     <>
@@ -22,11 +21,13 @@ const Home = () => {
           <Menu />
           <Cards>
             <Card
+              route="/home/team"
               title="Equipo"
               imageUrl="https://www.infisport.com/media/amasty/blog/SprintDeportesEquipo1_2.jpg"
               description=""
             />
             <Card
+              route="/home/centres"
               title="Instalaciones"
               imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
               description=""

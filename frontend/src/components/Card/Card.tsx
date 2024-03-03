@@ -1,13 +1,19 @@
-import { IonCard, IonCardContent, IonCardHeader } from "@ionic/react";
+import {
+  IonCard,
+  IonCardContent,
+  IonCardHeader,
+} from "@ionic/react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 type CardProps = {
   title: string;
   imageUrl: string;
   description: string;
+  route: string;
 };
 
-const Card = ({ title, imageUrl, description }: CardProps) => {
+const Card = ({ title, imageUrl, description, route }: CardProps) => {
   const hideDescription = () => {
     if (description == "") {
       return true;
@@ -17,11 +23,13 @@ const Card = ({ title, imageUrl, description }: CardProps) => {
 
   return (
     <IonCard>
-      <img alt={title} src={imageUrl} />
-      <IonCardHeader>
-        <TitleText>{title}</TitleText>
-      </IonCardHeader>
-      <IonCardContent onClick={hideDescription}>{description}</IonCardContent>
+      <Link to={route} >
+        <img alt={title} src={imageUrl} />
+        <IonCardHeader>
+          <TitleText>{title}</TitleText>
+        </IonCardHeader>
+        <IonCardContent onClick={hideDescription}>{description}</IonCardContent>
+      </Link>
     </IonCard>
   );
 };

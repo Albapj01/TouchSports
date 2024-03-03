@@ -1,10 +1,6 @@
-<i> [1m[32m[webpack-dev-server] Project is running at:[39m[22m
-<i> [1m[32m[webpack-dev-server] Loopback: [36mhttp://localhost:4200/[39m, [36mhttp://[::1]:4200/[39m[39m[22m
-<i> [1m[32m[webpack-dev-server] 404s will fallback to '[36m/index.html[39m'[39m[22m
 
 [36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4200/[22m
 
-<i> [1m[32m[webpack-dev-middleware] wait until bundle finished: /home/centres/reserve[39m[22m
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.97 MiB (6.65 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.76 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 111 KiB 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
 chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 73.9 KiB (javascript) 727 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
@@ -56,16 +52,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (ff45893ce55f8385)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/multi-select/multi-select.tsx[22m:[32m[1m18:24[22m[39m
-[90mTS2304: [39mCannot find name 'styled'.
-  [0m [90m 16 |[39m }[0m
-  [0m [90m 17 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 18 |[39m [36mconst[39m [33mTitleContainer[39m [33m=[39m styled[33m.[39mdiv[32m`[39m[0m
-  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 19 |[39m [32m  text-align: center;[39m[0m
-  [0m [90m 20 |[39m [32m  align-items: center;[39m[0m
-  [0m [90m 21 |[39m [32m`[39m[33m;[39m[0m
-
 Found [31m[1m1 error[22m[39m in 424 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.98 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.ff45893ce55f8385.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -79,16 +65,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (0f63b1e02b9d57cf)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/multi-select/multi-select.tsx[22m:[32m[1m18:25[22m[39m
-[90mTS2304: [39mCannot find name 'styled'.
-  [0m [90m 16 |[39m }[0m
-  [0m [90m 17 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 18 |[39m [36mconst[39m [33mSelectContainer[39m [33m=[39m styled[33m.[39mdiv[32m`[39m[0m
-  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 19 |[39m [32m  text-align: center;[39m[0m
-  [0m [90m 20 |[39m [32m  align-items: center;[39m[0m
-  [0m [90m 21 |[39m [32m`[39m[33m;[39m[0m
-
 Found [31m[1m1 error[22m[39m in 314 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.98 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.0f63b1e02b9d57cf.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -372,26 +348,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/multi-selec
 
 webpack compiled with [1m[31m1 error[39m[22m (2c9af910e6f60ed1)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/multi-select/multi-select.tsx[22m:[32m[1m6:6[22m[39m
-[90mTS2304: [39mCannot find name 'SelectContainer'.
-  [0m [90m 4 |[39m [36mconst[39m [33mMultiSelect[39m [33m=[39m () [33m=>[39m {[0m
-  [0m [90m 5 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 6 |[39m     [33m<[39m[33mSelectContainer[39m[33m>[39m[0m
-  [0m [90m   |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 7 |[39m     [33m<[39m[33mIonList[39m[33m>[39m[0m
-  [0m [90m 8 |[39m       [33m<[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 9 |[39m         [33m<[39m[33mIonSelect[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m23:8[22m[39m
-[90mTS1192: [39mModule '"/Users/albapalomino/TouchSports/frontend/src/components/multi-select/multi-select"' has no default export.
-  [0m [90m 21 |[39m [36mimport[39m [33mTabs[39m [36mfrom[39m [32m"frontend/src/components/tabs/tabs"[39m[33m;[39m[0m
-  [0m [90m 22 |[39m [36mimport[39m [33mInput[39m [36mfrom[39m [32m"frontend/src/components/input/input"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 23 |[39m [36mimport[39m [33mMultiSelect[39m [36mfrom[39m [32m"frontend/src/components/multi-select/multi-select"[39m[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 24 |[39m[0m
-  [0m [90m 25 |[39m [36mconst[39m [33mReserve[39m [33m=[39m () [33m=>[39m {[0m
-  [0m [90m 26 |[39m   [36mconst[39m [name[33m,[39m setName] [33m=[39m useState([32m""[39m)[33m;[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 674 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.98 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.4d09f289f8eff9b5.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1345,116 +1301,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/reserve/reserve.
 
 webpack compiled with [1m[31m1 error[39m[22m (af30625ca5efd32b)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m79:10[22m[39m
-[90mTS2304: [39mCannot find name 'IonDatetime'.
-  [0m [90m 77 |[39m           [33m<[39m[33mMultiSelect[39m[33m/[39m[33m>[39m[0m
-  [0m [90m 78 |[39m           [36mimport[39m [33mReact[39m [36mfrom[39m [32m'react'[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 79 |[39m [36mimport[39m { [33mIonDatetime[39m[33m,[39m [33mIonDatetimeButton[39m[33m,[39m [33mIonModal[39m } [36mfrom[39m [32m'@ionic/react'[39m[33m;[39m[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 80 |[39m [36mfunction[39m [33mExample[39m() {[0m
-  [0m [90m 81 |[39m   [36mreturn[39m ([0m
-  [0m [90m 82 |[39m     [33m<[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m79:10[22m[39m
-[90mTS2695: [39mLeft side of comma operator is unused and has no side effects.
-  [0m [90m 77 |[39m           [33m<[39m[33mMultiSelect[39m[33m/[39m[33m>[39m[0m
-  [0m [90m 78 |[39m           [36mimport[39m [33mReact[39m [36mfrom[39m [32m'react'[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 79 |[39m [36mimport[39m { [33mIonDatetime[39m[33m,[39m [33mIonDatetimeButton[39m[33m,[39m [33mIonModal[39m } [36mfrom[39m [32m'@ionic/react'[39m[33m;[39m[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 80 |[39m [36mfunction[39m [33mExample[39m() {[0m
-  [0m [90m 81 |[39m   [36mreturn[39m ([0m
-  [0m [90m 82 |[39m     [33m<[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m79:10[22m[39m
-[90mTS2695: [39mLeft side of comma operator is unused and has no side effects.
-  [0m [90m 77 |[39m           [33m<[39m[33mMultiSelect[39m[33m/[39m[33m>[39m[0m
-  [0m [90m 78 |[39m           [36mimport[39m [33mReact[39m [36mfrom[39m [32m'react'[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 79 |[39m [36mimport[39m { [33mIonDatetime[39m[33m,[39m [33mIonDatetimeButton[39m[33m,[39m [33mIonModal[39m } [36mfrom[39m [32m'@ionic/react'[39m[33m;[39m[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 80 |[39m [36mfunction[39m [33mExample[39m() {[0m
-  [0m [90m 81 |[39m   [36mreturn[39m ([0m
-  [0m [90m 82 |[39m     [33m<[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m79:23[22m[39m
-[90mTS2304: [39mCannot find name 'IonDatetimeButton'.
-  [0m [90m 77 |[39m           [33m<[39m[33mMultiSelect[39m[33m/[39m[33m>[39m[0m
-  [0m [90m 78 |[39m           [36mimport[39m [33mReact[39m [36mfrom[39m [32m'react'[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 79 |[39m [36mimport[39m { [33mIonDatetime[39m[33m,[39m [33mIonDatetimeButton[39m[33m,[39m [33mIonModal[39m } [36mfrom[39m [32m'@ionic/react'[39m[33m;[39m[0m
-  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 80 |[39m [36mfunction[39m [33mExample[39m() {[0m
-  [0m [90m 81 |[39m   [36mreturn[39m ([0m
-  [0m [90m 82 |[39m     [33m<[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m79:42[22m[39m
-[90mTS2304: [39mCannot find name 'IonModal'.
-  [0m [90m 77 |[39m           [33m<[39m[33mMultiSelect[39m[33m/[39m[33m>[39m[0m
-  [0m [90m 78 |[39m           [36mimport[39m [33mReact[39m [36mfrom[39m [32m'react'[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 79 |[39m [36mimport[39m { [33mIonDatetime[39m[33m,[39m [33mIonDatetimeButton[39m[33m,[39m [33mIonModal[39m } [36mfrom[39m [32m'@ionic/react'[39m[33m;[39m[0m
-  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 80 |[39m [36mfunction[39m [33mExample[39m() {[0m
-  [0m [90m 81 |[39m   [36mreturn[39m ([0m
-  [0m [90m 82 |[39m     [33m<[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m83:8[22m[39m
-[90mTS2304: [39mCannot find name 'IonDatetimeButton'.
-  [0m [90m 81 |[39m   [36mreturn[39m ([0m
-  [0m [90m 82 |[39m     [33m<[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 83 |[39m       [33m<[39m[33mIonDatetimeButton[39m datetime[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetimeButton[39m[33m>[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 84 |[39m[0m
-  [0m [90m 85 |[39m       [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m [90m 86 |[39m         [33m<[39m[33mIonDatetime[39m id[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetime[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m83:48[22m[39m
-[90mTS2304: [39mCannot find name 'IonDatetimeButton'.
-  [0m [90m 81 |[39m   [36mreturn[39m ([0m
-  [0m [90m 82 |[39m     [33m<[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 83 |[39m       [33m<[39m[33mIonDatetimeButton[39m datetime[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetimeButton[39m[33m>[39m[0m
-  [0m [90m    |[39m                                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 84 |[39m[0m
-  [0m [90m 85 |[39m       [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m [90m 86 |[39m         [33m<[39m[33mIonDatetime[39m id[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetime[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m85:8[22m[39m
-[90mTS2304: [39mCannot find name 'IonModal'.
-  [0m [90m 83 |[39m       [33m<[39m[33mIonDatetimeButton[39m datetime[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetimeButton[39m[33m>[39m[0m
-  [0m [90m 84 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 85 |[39m       [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 86 |[39m         [33m<[39m[33mIonDatetime[39m id[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetime[39m[33m>[39m[0m
-  [0m [90m 87 |[39m       [33m<[39m[33m/[39m[33mIonModal[39m[33m>[39m[0m
-  [0m [90m 88 |[39m     [33m<[39m[33m/[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m86:10[22m[39m
-[90mTS2304: [39mCannot find name 'IonDatetime'.
-  [0m [90m 84 |[39m[0m
-  [0m [90m 85 |[39m       [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 86 |[39m         [33m<[39m[33mIonDatetime[39m id[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetime[39m[33m>[39m[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 87 |[39m       [33m<[39m[33m/[39m[33mIonModal[39m[33m>[39m[0m
-  [0m [90m 88 |[39m     [33m<[39m[33m/[39m[33m>[39m[0m
-  [0m [90m 89 |[39m   )[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m86:38[22m[39m
-[90mTS2304: [39mCannot find name 'IonDatetime'.
-  [0m [90m 84 |[39m[0m
-  [0m [90m 85 |[39m       [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 86 |[39m         [33m<[39m[33mIonDatetime[39m id[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetime[39m[33m>[39m[0m
-  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 87 |[39m       [33m<[39m[33m/[39m[33mIonModal[39m[33m>[39m[0m
-  [0m [90m 88 |[39m     [33m<[39m[33m/[39m[33m>[39m[0m
-  [0m [90m 89 |[39m   )[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m87:9[22m[39m
-[90mTS2304: [39mCannot find name 'IonModal'.
-  [0m [90m 85 |[39m       [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m [90m 86 |[39m         [33m<[39m[33mIonDatetime[39m id[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetime[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 87 |[39m       [33m<[39m[33m/[39m[33mIonModal[39m[33m>[39m[0m
-  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 88 |[39m     [33m<[39m[33m/[39m[33m>[39m[0m
-  [0m [90m 89 |[39m   )[33m;[39m[0m
-  [0m [90m 90 |[39m }[0m
-
 Found [31m[1m11 errors[22m[39m in 692 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.66 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.2157001ff69665d1.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1677,26 +1523,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/reserve/reserve.
 
 webpack compiled with [1m[31m1 error[39m[22m (da1677463c365bbf)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m79:12[22m[39m
-[90mTS2558: [39mExpected 0 type arguments, but got 1.
-  [0m [90m 77 |[39m           [33m<[39m[33mMultiSelect[39m[33m/[39m[33m>[39m[0m
-  [0m [90m 78 |[39m           [33m<[39m[33mDate[39m[0m
-  [0m[31m[1m>[22m[39m[90m 79 |[39m           [33m<[39m[33mSpace[39m[33m>[39m[33m<[39m[33m/[39m[33mSpace[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 80 |[39m           [33m<[39m[33mButton[39m[33m>[39m[0m
-  [0m [90m 81 |[39m             [33m<[39m[33mIonButton[39m id[33m=[39m[32m"open-action-sheet"[39m[33m>[39m[33mReservar[39m[33m<[39m[33m/[39m[33mIonButton[39m[33m>[39m[0m
-  [0m [90m 82 |[39m             [33m<[39m[33mIonActionSheet[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m79:12[22m[39m
-[90mTS2749: [39m'Space' refers to a value, but is being used as a type here. Did you mean 'typeof Space'?
-  [0m [90m 77 |[39m           [33m<[39m[33mMultiSelect[39m[33m/[39m[33m>[39m[0m
-  [0m [90m 78 |[39m           [33m<[39m[33mDate[39m[0m
-  [0m[31m[1m>[22m[39m[90m 79 |[39m           [33m<[39m[33mSpace[39m[33m>[39m[33m<[39m[33m/[39m[33mSpace[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 80 |[39m           [33m<[39m[33mButton[39m[33m>[39m[0m
-  [0m [90m 81 |[39m             [33m<[39m[33mIonButton[39m id[33m=[39m[32m"open-action-sheet"[39m[33m>[39m[33mReservar[39m[33m<[39m[33m/[39m[33mIonButton[39m[33m>[39m[0m
-  [0m [90m 82 |[39m             [33m<[39m[33mIonActionSheet[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 700 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.725666682c879da3.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -1774,26 +1600,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/reserve/reserve.
 
 webpack compiled with [1m[31m1 error[39m[22m (9104532882762586)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m80:12[22m[39m
-[90mTS2558: [39mExpected 0 type arguments, but got 1.
-  [0m [90m 78 |[39m           [33m<[39m[33mMultiSelect[39m[33m/[39m[33m>[39m[0m
-  [0m [90m 79 |[39m           [33m<[39m[33mDateTime[39m[0m
-  [0m[31m[1m>[22m[39m[90m 80 |[39m           [33m<[39m[33mSpace[39m[33m>[39m[33m<[39m[33m/[39m[33mSpace[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 81 |[39m           [33m<[39m[33mButton[39m[33m>[39m[0m
-  [0m [90m 82 |[39m             [33m<[39m[33mIonButton[39m id[33m=[39m[32m"open-action-sheet"[39m[33m>[39m[33mReservar[39m[33m<[39m[33m/[39m[33mIonButton[39m[33m>[39m[0m
-  [0m [90m 83 |[39m             [33m<[39m[33mIonActionSheet[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m80:12[22m[39m
-[90mTS2749: [39m'Space' refers to a value, but is being used as a type here. Did you mean 'typeof Space'?
-  [0m [90m 78 |[39m           [33m<[39m[33mMultiSelect[39m[33m/[39m[33m>[39m[0m
-  [0m [90m 79 |[39m           [33m<[39m[33mDateTime[39m[0m
-  [0m[31m[1m>[22m[39m[90m 80 |[39m           [33m<[39m[33mSpace[39m[33m>[39m[33m<[39m[33m/[39m[33mSpace[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 81 |[39m           [33m<[39m[33mButton[39m[33m>[39m[0m
-  [0m [90m 82 |[39m             [33m<[39m[33mIonButton[39m id[33m=[39m[32m"open-action-sheet"[39m[33m>[39m[33mReservar[39m[33m<[39m[33m/[39m[33mIonButton[39m[33m>[39m[0m
-  [0m [90m 83 |[39m             [33m<[39m[33mIonActionSheet[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 601 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.66 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.725666682c879da3.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1885,16 +1691,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/reserve/reserve.
 
 webpack compiled with [1m[31m1 error[39m[22m (036d1304c47f5461)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m80:12[22m[39m
-[90mTS2749: [39m'DateTime' refers to a value, but is being used as a type here. Did you mean 'typeof DateTime'?
-  [0m [90m 78 |[39m           [33m<[39m[33mMultiSelect[39m[33m/[39m[33m>[39m[0m
-  [0m [90m 79 |[39m           [33m<[39m[0m
-  [0m[31m[1m>[22m[39m[90m 80 |[39m           [33m<[39m[33mDateTime[39m[33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 81 |[39m           [33m<[39m[33mSpace[39m[33m>[39m[33m<[39m[33m/[39m[33mSpace[39m[33m>[39m[0m
-  [0m [90m 82 |[39m           [33m<[39m[33mButton[39m[33m>[39m[0m
-  [0m [90m 83 |[39m             [33m<[39m[33mIonButton[39m id[33m=[39m[32m"open-action-sheet"[39m[33m>[39m[33mReservar[39m[33m<[39m[33m/[39m[33mIonButton[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 611 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.5a4c5b71aac5a793.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -1972,26 +1768,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/reserve/reserve.
 
 webpack compiled with [1m[31m1 error[39m[22m (9540c2c862565ae4)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m79:12[22m[39m
-[90mTS2304: [39mCannot find name 'Ion'.
-  [0m [90m 77 |[39m           [33m<[39m[33m/[39m[33mIonList[39m[33m>[39m[0m
-  [0m [90m 78 |[39m           [33m<[39m[33mMultiSelect[39m[33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 79 |[39m           [33m<[39m[33mIon[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 80 |[39m           [33m<[39m[33mDateTime[39m[33m/[39m[33m>[39m[0m
-  [0m [90m 81 |[39m           [33m<[39m[33mSpace[39m[33m>[39m[33m<[39m[33m/[39m[33mSpace[39m[33m>[39m[0m
-  [0m [90m 82 |[39m           [33m<[39m[33mButton[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m80:12[22m[39m
-[90mTS2749: [39m'DateTime' refers to a value, but is being used as a type here. Did you mean 'typeof DateTime'?
-  [0m [90m 78 |[39m           [33m<[39m[33mMultiSelect[39m[33m/[39m[33m>[39m[0m
-  [0m [90m 79 |[39m           [33m<[39m[33mIon[39m[0m
-  [0m[31m[1m>[22m[39m[90m 80 |[39m           [33m<[39m[33mDateTime[39m[33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 81 |[39m           [33m<[39m[33mSpace[39m[33m>[39m[33m<[39m[33m/[39m[33mSpace[39m[33m>[39m[0m
-  [0m [90m 82 |[39m           [33m<[39m[33mButton[39m[33m>[39m[0m
-  [0m [90m 83 |[39m             [33m<[39m[33mIonButton[39m id[33m=[39m[32m"open-action-sheet"[39m[33m>[39m[33mReservar[39m[33m<[39m[33m/[39m[33mIonButton[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 464 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.66 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.5a4c5b71aac5a793.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2243,16 +2019,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (42154814df7d07fd)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/datetime/datetime.tsx[22m:[32m[1m15:25[22m[39m
-[90mTS2304: [39mCannot find name 'styled'.
-  [0m [90m 13 |[39m }[0m
-  [0m [90m 14 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 15 |[39m [36mconst[39m [33mSelectContainer[39m [33m=[39m styled[33m.[39mdiv[32m`[39m[0m
-  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 16 |[39m [32m  text-align: center;[39m[0m
-  [0m [90m 17 |[39m [32m  align-items: center;[39m[0m
-  [0m [90m 18 |[39m [32m  margin-left: 7%;[39m[0m
-
 Found [31m[1m1 error[22m[39m in 284 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.42154814df7d07fd.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2266,16 +2032,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (11973d94f2237e66)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/datetime/datetime.tsx[22m:[32m[1m15:25[22m[39m
-[90mTS2304: [39mCannot find name 'styled'.
-  [0m [90m 13 |[39m }[0m
-  [0m [90m 14 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 15 |[39m [36mconst[39m [33mSelectContainer[39m [33m=[39m styled[33m.[39mdiv[32m`[39m[0m
-  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 16 |[39m [32m  text-align: center;[39m[0m
-  [0m [90m 17 |[39m [32m  align-items: center;[39m[0m
-  [0m [90m 18 |[39m [32m  margin-left: 7%;[39m[0m
-
 Found [31m[1m1 error[22m[39m in 437 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.11973d94f2237e66.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2289,16 +2045,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (3454a6a7673ee37b)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/datetime/datetime.tsx[22m:[32m[1m15:27[22m[39m
-[90mTS2304: [39mCannot find name 'styled'.
-  [0m [90m 13 |[39m }[0m
-  [0m [90m 14 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 15 |[39m [36mconst[39m [33mDatetimeContainer[39m [33m=[39m styled[33m.[39mdiv[32m`[39m[0m
-  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 16 |[39m [32m  text-align: center;[39m[0m
-  [0m [90m 17 |[39m [32m  align-items: center;[39m[0m
-  [0m [90m 18 |[39m [32m  margin-left: 7%;[39m[0m
-
 Found [31m[1m1 error[22m[39m in 251 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.3454a6a7673ee37b.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2401,16 +2147,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/datetime/da
     at TypeScriptParserMixin.parseFunctionBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11935:24)
 
 webpack compiled with [1m[31m1 error[39m[22m (f93857fe323c0144)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/datetime/datetime.tsx[22m:[32m[1m8:8[22m[39m
-[90mTS2749: [39m'IonDatetimeButton' refers to a value, but is being used as a type here. Did you mean 'typeof IonDatetimeButton'?
-  [0m [90m  6 |[39m     [33m<[39m[33m>[39m[0m
-  [0m [90m  7 |[39m     [33m<[39m[0m
-  [0m[31m[1m>[22m[39m[90m  8 |[39m       [33m<[39m[33mIonDatetimeButton[39m datetime[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetimeButton[39m[33m>[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m  9 |[39m[0m
-  [0m [90m 10 |[39m       [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m [90m 11 |[39m         [33m<[39m[33mIonDatetime[39m id[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetime[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 215 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.6b84dbd565afbf3a.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2501,26 +2237,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/datetime/da
 
 webpack compiled with [1m[31m1 error[39m[22m (c38ceaf64732dd54)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/datetime/datetime.tsx[22m:[32m[1m7:6[22m[39m
-[90mTS2559: [39mType '{ children: Element[]; }' has no properties in common with type 'IntrinsicAttributes'.
-  [0m [90m  5 |[39m   [36mreturn[39m ([0m
-  [0m [90m  6 |[39m     [33m<[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m  7 |[39m     [33m<[39m[33mDateTime[39m[33m>[39m[0m
-  [0m [90m    |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m  8 |[39m       [33m<[39m[33mIonDatetimeButton[39m datetime[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetimeButton[39m[33m>[39m[0m
-  [0m [90m  9 |[39m[0m
-  [0m [90m 10 |[39m       [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m25:8[22m[39m
-[90mTS1192: [39mModule '"/Users/albapalomino/TouchSports/frontend/src/components/datetime/datetime"' has no default export.
-  [0m [90m 23 |[39m [36mimport[39m [33mMultiSelect[39m [36mfrom[39m [32m"frontend/src/components/multi-select/multi-select"[39m[33m;[39m[0m
-  [0m [90m 24 |[39m [36mimport[39m [33mSegment[39m [36mfrom[39m [32m"frontend/src/components/segment/segment"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 25 |[39m [36mimport[39m [33mDateTime[39m [36mfrom[39m [32m"frontend/src/components/datetime/datetime"[39m[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 26 |[39m[0m
-  [0m [90m 27 |[39m [36mconst[39m [33mReserve[39m [33m=[39m () [33m=>[39m {[0m
-  [0m [90m 28 |[39m   [36mconst[39m [name[33m,[39m setName] [33m=[39m useState([32m""[39m)[33m;[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 667 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.6fb8466ea2940acc.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2535,16 +2251,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (3c419a98a9324f95)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/datetime/datetime.tsx[22m:[32m[1m7:6[22m[39m
-[90mTS2559: [39mType '{ children: Element[]; }' has no properties in common with type 'IntrinsicAttributes'.
-  [0m [90m  5 |[39m   [36mreturn[39m ([0m
-  [0m [90m  6 |[39m     [33m<[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m  7 |[39m     [33m<[39m[33mDateTime[39m[33m>[39m[0m
-  [0m [90m    |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m  8 |[39m       [33m<[39m[33mIonDatetimeButton[39m datetime[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetimeButton[39m[33m>[39m[0m
-  [0m [90m  9 |[39m[0m
-  [0m [90m 10 |[39m       [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 548 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.3c419a98a9324f95.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2558,16 +2264,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (c495140735315dbb)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/datetime/datetime.tsx[22m:[32m[1m7:8[22m[39m
-[90mTS2559: [39mType '{ children: Element[]; }' has no properties in common with type 'IntrinsicAttributes'.
-  [0m [90m  5 |[39m   [36mreturn[39m ([0m
-  [0m [90m  6 |[39m     [33m<[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m  7 |[39m       [33m<[39m[33mDateTime[39m[33m>[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m  8 |[39m         [33m<[39m[33mIonDatetimeButton[39m datetime[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetimeButton[39m[33m>[39m[0m
-  [0m [90m  9 |[39m[0m
-  [0m [90m 10 |[39m         [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 189 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.c495140735315dbb.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -2645,26 +2341,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/datetime/da
 
 webpack compiled with [1m[31m1 error[39m[22m (14a33018aa64c575)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/datetime/datetime.tsx[22m:[32m[1m7:8[22m[39m
-[90mTS2559: [39mType '{ children: Element[]; }' has no properties in common with type 'IntrinsicAttributes'.
-  [0m [90m  5 |[39m   [36mreturn[39m ([0m
-  [0m [90m  6 |[39m     [33m<[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m  7 |[39m       [33m<[39m[33mDateTime[39m[33m>[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m  8 |[39m         [33m<[39m[33mIonDatetimeButton[39m datetime[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetimeButton[39m[33m>[39m[0m
-  [0m [90m  9 |[39m[0m
-  [0m [90m 10 |[39m         [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m25:8[22m[39m
-[90mTS1192: [39mModule '"/Users/albapalomino/TouchSports/frontend/src/components/datetime/datetime"' has no default export.
-  [0m [90m 23 |[39m [36mimport[39m [33mMultiSelect[39m [36mfrom[39m [32m"frontend/src/components/multi-select/multi-select"[39m[33m;[39m[0m
-  [0m [90m 24 |[39m [36mimport[39m [33mSegment[39m [36mfrom[39m [32m"frontend/src/components/segment/segment"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 25 |[39m [36mimport[39m [33mDateTime[39m [36mfrom[39m [32m"frontend/src/components/datetime/datetime"[39m[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 26 |[39m[0m
-  [0m [90m 27 |[39m [36mconst[39m [33mReserve[39m [33m=[39m () [33m=>[39m {[0m
-  [0m [90m 28 |[39m   [36mconst[39m [name[33m,[39m setName] [33m=[39m useState([32m""[39m)[33m;[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 756 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.c495140735315dbb.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2679,16 +2355,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (0f97e26e8a9e5ea0)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/datetime/datetime.tsx[22m:[32m[1m6:8[22m[39m
-[90mTS2559: [39mType '{ children: Element[]; }' has no properties in common with type 'IntrinsicAttributes'.
-  [0m [90m 4 |[39m [36mconst[39m [33mDateTime[39m [33m=[39m () [33m=>[39m {[0m
-  [0m [90m 5 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 6 |[39m       [33m<[39m[33mDateTime[39m[33m>[39m[0m
-  [0m [90m   |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 7 |[39m         [33m<[39m[33mIonDatetimeButton[39m datetime[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetimeButton[39m[33m>[39m[0m
-  [0m [90m 8 |[39m[0m
-  [0m [90m 9 |[39m         [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 709 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.0f97e26e8a9e5ea0.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2702,16 +2368,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (328daabd32677ca2)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/datetime/datetime.tsx[22m:[32m[1m7:6[22m[39m
-[90mTS2559: [39mType '{ children: Element[]; }' has no properties in common with type 'IntrinsicAttributes'.
-  [0m [90m  5 |[39m   [36mreturn[39m ([0m
-  [0m [90m  6 |[39m     [33m<[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m  7 |[39m     [33m<[39m[33mDateTime[39m[33m>[39m[0m
-  [0m [90m    |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m  8 |[39m       [33m<[39m[33mIonDatetimeButton[39m datetime[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetimeButton[39m[33m>[39m[0m
-  [0m [90m  9 |[39m[0m
-  [0m [90m 10 |[39m       [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 233 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.328daabd32677ca2.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -2768,36 +2424,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/datetime/da
     at async.call.result.err.err (/Users/albapalomino/TouchSports/node_modules/gensync/index.js:223:11)
 
 webpack compiled with [1m[31m1 error[39m[22m (c8f9c320df675d6d)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/datetime/datetime.tsx[22m:[32m[1m7:6[22m[39m
-[90mTS2559: [39mType '{ children: Element[]; }' has no properties in common with type 'IntrinsicAttributes'.
-  [0m [90m  5 |[39m   [36mreturn[39m ([0m
-  [0m [90m  6 |[39m     [33m<[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m  7 |[39m     [33m<[39m[33mDateTime[39m[33m>[39m[0m
-  [0m [90m    |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m  8 |[39m       [33m<[39m[33mIonDatetimeButton[39m datetime[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetimeButton[39m[33m>[39m[0m
-  [0m [90m  9 |[39m[0m
-  [0m [90m 10 |[39m       [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/datetime/datetime.tsx[22m:[32m[1m11:10[22m[39m
-[90mTS2552: [39mCannot find name 'IonDatetime'. Did you mean 'DateTime'?
-  [0m [90m  9 |[39m[0m
-  [0m [90m 10 |[39m       [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mIonDatetime[39m id[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetime[39m[33m>[39m[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 12 |[39m       [33m<[39m[33m/[39m[33mIonModal[39m[33m>[39m[0m
-  [0m [90m 13 |[39m       [33m<[39m[33m/[39m[33mDateTime[39m[33m>[39m[0m
-  [0m [90m 14 |[39m     [33m<[39m[33m/[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/datetime/datetime.tsx[22m:[32m[1m11:38[22m[39m
-[90mTS2552: [39mCannot find name 'IonDatetime'. Did you mean 'DateTime'?
-  [0m [90m  9 |[39m[0m
-  [0m [90m 10 |[39m       [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mIonDatetime[39m id[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetime[39m[33m>[39m[0m
-  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 12 |[39m       [33m<[39m[33m/[39m[33mIonModal[39m[33m>[39m[0m
-  [0m [90m 13 |[39m       [33m<[39m[33m/[39m[33mDateTime[39m[33m>[39m[0m
-  [0m [90m 14 |[39m     [33m<[39m[33m/[39m[33m>[39m[0m
-
 Found [31m[1m3 errors[22m[39m in 193 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.98 MiB (6.65 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.76 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 119 KiB 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
@@ -2811,16 +2437,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (328daabd32677ca2)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/datetime/datetime.tsx[22m:[32m[1m7:6[22m[39m
-[90mTS2559: [39mType '{ children: Element[]; }' has no properties in common with type 'IntrinsicAttributes'.
-  [0m [90m  5 |[39m   [36mreturn[39m ([0m
-  [0m [90m  6 |[39m     [33m<[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m  7 |[39m     [33m<[39m[33mDateTime[39m[33m>[39m[0m
-  [0m [90m    |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m  8 |[39m       [33m<[39m[33mIonDatetimeButton[39m datetime[33m=[39m[32m"datetime"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonDatetimeButton[39m[33m>[39m[0m
-  [0m [90m  9 |[39m[0m
-  [0m [90m 10 |[39m       [33m<[39m[33mIonModal[39m keepContentsMounted[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 348 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.328daabd32677ca2.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -3023,16 +2639,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (4bfe42f711ecc5a2)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m57:30[22m[39m
-[90mTS7006: [39mParameter 'data' implicitly has an 'any' type.
-  [0m [90m 55 |[39m[0m
-  [0m [90m 56 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   [36mfunction[39m handleClickButton(data) {[0m
-  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m     [90m// Obtén la acción del botón[39m[0m
-  [0m [90m 59 |[39m     [36mconst[39m action [33m=[39m data[33m.[39maction[33m;[39m[0m
-  [0m [90m 60 |[39m   [0m
-
 Found [31m[1m1 error[22m[39m in 680 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.66 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.4bfe42f711ecc5a2.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3047,16 +2653,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (ca8b3cc59216f42e)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m57:26[22m[39m
-[90mTS7006: [39mParameter 'data' implicitly has an 'any' type.
-  [0m [90m 55 |[39m[0m
-  [0m [90m 56 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   [36mfunction[39m reserveButton(data) {[0m
-  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m     [90m// Obtén la acción del botón[39m[0m
-  [0m [90m 59 |[39m     [36mconst[39m action [33m=[39m data[33m.[39maction[33m;[39m[0m
-  [0m [90m 60 |[39m   [0m
-
 Found [31m[1m1 error[22m[39m in 730 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.66 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.ca8b3cc59216f42e.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3071,16 +2667,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (eca2119f7f7ea033)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m57:26[22m[39m
-[90mTS7006: [39mParameter 'data' implicitly has an 'any' type.
-  [0m [90m 55 |[39m[0m
-  [0m [90m 56 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   [36mfunction[39m reserveButton(data) {[0m
-  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m     [36mconst[39m action [33m=[39m data[33m.[39maction[33m;[39m[0m
-  [0m [90m 59 |[39m   [0m
-  [0m [90m 60 |[39m     [90m// Realiza acciones basadas en la acción del botón[39m[0m
-
 Found [31m[1m1 error[22m[39m in 502 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.66 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.eca2119f7f7ea033.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3095,16 +2681,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (206adb93178b057b)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m57:26[22m[39m
-[90mTS7006: [39mParameter 'data' implicitly has an 'any' type.
-  [0m [90m 55 |[39m[0m
-  [0m [90m 56 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   [36mfunction[39m reserveButton(data) {[0m
-  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m     [36mconst[39m action [33m=[39m data[33m.[39maction[33m;[39m[0m
-  [0m [90m 59 |[39m   [0m
-  [0m [90m 60 |[39m     [36mswitch[39m (action) {[0m
-
 Found [31m[1m1 error[22m[39m in 448 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.66 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.206adb93178b057b.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3119,16 +2695,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (78b63e5509c98363)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m57:26[22m[39m
-[90mTS7006: [39mParameter 'data' implicitly has an 'any' type.
-  [0m [90m 55 |[39m[0m
-  [0m [90m 56 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   [36mfunction[39m reserveButton(data) {[0m
-  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m     [36mconst[39m action [33m=[39m data[33m.[39maction[33m;[39m[0m
-  [0m [90m 59 |[39m   [0m
-  [0m [90m 60 |[39m     [36mswitch[39m (action) {[0m
-
 Found [31m[1m1 error[22m[39m in 553 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.66 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.78b63e5509c98363.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3143,16 +2709,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (07655652b611000f)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m57:26[22m[39m
-[90mTS7006: [39mParameter 'data' implicitly has an 'any' type.
-  [0m [90m 55 |[39m[0m
-  [0m [90m 56 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   [36mfunction[39m reserveButton(data) {[0m
-  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m     [36mconst[39m action [33m=[39m data[33m.[39maction[33m;[39m[0m
-  [0m [90m 59 |[39m   [0m
-  [0m [90m 60 |[39m     [36mswitch[39m (action) {[0m
-
 Found [31m[1m1 error[22m[39m in 599 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.66 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.07655652b611000f.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3167,16 +2723,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (1b91d9232437b805)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m57:26[22m[39m
-[90mTS7006: [39mParameter 'data' implicitly has an 'any' type.
-  [0m [90m 55 |[39m[0m
-  [0m [90m 56 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   [36mfunction[39m reserveButton(data) {[0m
-  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m     [36mconst[39m action [33m=[39m data[33m.[39maction[33m;[39m[0m
-  [0m [90m 59 |[39m   [0m
-  [0m [90m 60 |[39m     [36mswitch[39m (action) {[0m
-
 Found [31m[1m1 error[22m[39m in 464 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.66 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.1b91d9232437b805.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3191,16 +2737,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (e17d25f8e67dbf5c)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m57:26[22m[39m
-[90mTS7006: [39mParameter 'data' implicitly has an 'any' type.
-  [0m [90m 55 |[39m[0m
-  [0m [90m 56 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   [36mfunction[39m reserveButton(data) {[0m
-  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m     [36mconst[39m action [33m=[39m data[33m.[39maction[33m;[39m[0m
-  [0m [90m 59 |[39m   [0m
-  [0m [90m 60 |[39m     [36mswitch[39m (action) {[0m
-
 Found [31m[1m1 error[22m[39m in 495 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.66 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.e17d25f8e67dbf5c.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3215,26 +2751,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (54524870cd063e2c)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m57:26[22m[39m
-[90mTS7006: [39mParameter 'data' implicitly has an 'any' type.
-  [0m [90m 55 |[39m[0m
-  [0m [90m 56 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   [36mfunction[39m reserveButton(data) {[0m
-  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m     [36mconst[39m action [33m=[39m data[33m.[39maction[33m;[39m[0m
-  [0m [90m 59 |[39m   [0m
-  [0m [90m 60 |[39m     [36mswitch[39m (action) {[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m126:17[22m[39m
-[90mTS2304: [39mCannot find name 're'.
-  [0m [90m 124 |[39m                   }[33m,[39m[0m
-  [0m [90m 125 |[39m                 }[33m,[39m[0m
-  [0m[31m[1m>[22m[39m[90m 126 |[39m                 re[0m
-  [0m [90m     |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 127 |[39m               ]}[0m
-  [0m [90m 128 |[39m             [33m>[39m[33m<[39m[33m/[39m[33mIonActionSheet[39m[33m>[39m[0m
-  [0m [90m 129 |[39m           [33m<[39m[33m/[39m[33mButton[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 408 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.66 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.54524870cd063e2c.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3249,26 +2765,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (be2c7d10a1443c7e)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m57:26[22m[39m
-[90mTS7006: [39mParameter 'data' implicitly has an 'any' type.
-  [0m [90m 55 |[39m[0m
-  [0m [90m 56 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   [36mfunction[39m reserveButton(data) {[0m
-  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m     [36mconst[39m action [33m=[39m data[33m.[39maction[33m;[39m[0m
-  [0m [90m 59 |[39m   [0m
-  [0m [90m 60 |[39m     [36mswitch[39m (action) {[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m126:17[22m[39m
-[90mTS2322: [39mType '(data: any) => void' is not assignable to type 'string | ActionSheetButton<any>'.
-  [0m [90m 124 |[39m                   }[33m,[39m[0m
-  [0m [90m 125 |[39m                 }[33m,[39m[0m
-  [0m[31m[1m>[22m[39m[90m 126 |[39m                 reserveButton[0m
-  [0m [90m     |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 127 |[39m               ]}[0m
-  [0m [90m 128 |[39m             [33m>[39m[33m<[39m[33m/[39m[33mIonActionSheet[39m[33m>[39m[0m
-  [0m [90m 129 |[39m           [33m<[39m[33m/[39m[33mButton[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 516 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.66 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.be2c7d10a1443c7e.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3283,36 +2779,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (59e02c0e13a05012)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m57:26[22m[39m
-[90mTS7006: [39mParameter 'data' implicitly has an 'any' type.
-  [0m [90m 55 |[39m[0m
-  [0m [90m 56 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   [36mfunction[39m reserveButton(data) {[0m
-  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m     [36mconst[39m action [33m=[39m data[33m.[39maction[33m;[39m[0m
-  [0m [90m 59 |[39m   [0m
-  [0m [90m 60 |[39m     [36mswitch[39m (action) {[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m126:17[22m[39m
-[90mTS2322: [39mType 'void' is not assignable to type 'string | ActionSheetButton<any>'.
-  [0m [90m 124 |[39m                   }[33m,[39m[0m
-  [0m [90m 125 |[39m                 }[33m,[39m[0m
-  [0m[31m[1m>[22m[39m[90m 126 |[39m                 reserveButton()[0m
-  [0m [90m     |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 127 |[39m               ]}[0m
-  [0m [90m 128 |[39m             [33m>[39m[33m<[39m[33m/[39m[33mIonActionSheet[39m[33m>[39m[0m
-  [0m [90m 129 |[39m           [33m<[39m[33m/[39m[33mButton[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m126:17[22m[39m
-[90mTS2554: [39mExpected 1 arguments, but got 0.
-  [0m [90m 124 |[39m                   }[33m,[39m[0m
-  [0m [90m 125 |[39m                 }[33m,[39m[0m
-  [0m[31m[1m>[22m[39m[90m 126 |[39m                 reserveButton()[0m
-  [0m [90m     |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 127 |[39m               ]}[0m
-  [0m [90m 128 |[39m             [33m>[39m[33m<[39m[33m/[39m[33mIonActionSheet[39m[33m>[39m[0m
-  [0m [90m 129 |[39m           [33m<[39m[33m/[39m[33mButton[39m[33m>[39m[0m
-
 Found [31m[1m3 errors[22m[39m in 556 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.59e02c0e13a05012.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -3390,87 +2856,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/reserve/reserve.
 
 webpack compiled with [1m[31m1 error[39m[22m (0bc7f64aee4f24cf)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m57:26[22m[39m
-[90mTS7006: [39mParameter 'data' implicitly has an 'any' type.
-  [0m [90m 55 |[39m[0m
-  [0m [90m 56 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   [36mfunction[39m reserveButton(data) {[0m
-  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m     [36mconst[39m action [33m=[39m data[33m.[39maction[33m;[39m[0m
-  [0m [90m 59 |[39m   [0m
-  [0m [90m 60 |[39m     [36mswitch[39m (action) {[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m106:17[22m[39m
-[90mTS2322: [39mType '{ trigger: string; buttons: never[]; const: true; data: any; }' is not assignable to type 'IntrinsicAttributes & IonActionSheet & Omit<HTMLAttributes<HTMLIonActionSheetElement>, "style" | "placeholder"> & IonicReactProps & RefAttributes<...>'.
-  Property 'const' does not exist on type 'IntrinsicAttributes & IonActionSheet & Omit<HTMLAttributes<HTMLIonActionSheetElement>, "style" | "placeholder"> & IonicReactProps & RefAttributes<...>'.
-  [0m [90m 104 |[39m               trigger[33m=[39m[32m"open-action-sheet"[39m[0m
-  [0m [90m 105 |[39m               buttons[33m=[39m{[[0m
-  [0m[31m[1m>[22m[39m[90m 106 |[39m                 [36mconst[39m data [33m=[39m {[0m
-  [0m [90m     |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 107 |[39m                   text[33m:[39m [32m"Eliminar"[39m[33m,[39m[0m
-  [0m [90m 108 |[39m                   role[33m:[39m [32m"destructive"[39m[33m,[39m[0m
-  [0m [90m 109 |[39m                   data[33m:[39m {[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m107:19[22m[39m
-[90mTS2552: [39mCannot find name 'text'. Did you mean 'Text'?
-  [0m [90m 105 |[39m               buttons[33m=[39m{[[0m
-  [0m [90m 106 |[39m                 [36mconst[39m data [33m=[39m {[0m
-  [0m[31m[1m>[22m[39m[90m 107 |[39m                   text[33m:[39m [32m"Eliminar"[39m[33m,[39m[0m
-  [0m [90m     |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 108 |[39m                   role[33m:[39m [32m"destructive"[39m[33m,[39m[0m
-  [0m [90m 109 |[39m                   data[33m:[39m {[0m
-  [0m [90m 110 |[39m                     action[33m:[39m [32m"delete"[39m[33m,[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m110:21[22m[39m
-[90mTS2304: [39mCannot find name 'action'.
-  [0m [90m 108 |[39m                   role[33m:[39m [32m"destructive"[39m[33m,[39m[0m
-  [0m [90m 109 |[39m                   data[33m:[39m {[0m
-  [0m[31m[1m>[22m[39m[90m 110 |[39m                     action[33m:[39m [32m"delete"[39m[33m,[39m[0m
-  [0m [90m     |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 111 |[39m                   }[33m,[39m[0m
-  [0m [90m 112 |[39m                 }[33m,[39m[0m
-  [0m [90m 113 |[39m                 {[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m114:19[22m[39m
-[90mTS2552: [39mCannot find name 'text'. Did you mean 'Text'?
-  [0m [90m 112 |[39m                 }[33m,[39m[0m
-  [0m [90m 113 |[39m                 {[0m
-  [0m[31m[1m>[22m[39m[90m 114 |[39m                   text[33m:[39m [32m"Reservar"[39m[33m,[39m[0m
-  [0m [90m     |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 115 |[39m                   data[33m:[39m {[0m
-  [0m [90m 116 |[39m                     action[33m:[39m [32m"reserve"[39m[33m,[39m[0m
-  [0m [90m 117 |[39m                   }[33m,[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m116:21[22m[39m
-[90mTS2304: [39mCannot find name 'action'.
-  [0m [90m 114 |[39m                   text[33m:[39m [32m"Reservar"[39m[33m,[39m[0m
-  [0m [90m 115 |[39m                   data[33m:[39m {[0m
-  [0m[31m[1m>[22m[39m[90m 116 |[39m                     action[33m:[39m [32m"reserve"[39m[33m,[39m[0m
-  [0m [90m     |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 117 |[39m                   }[33m,[39m[0m
-  [0m [90m 118 |[39m                 }[33m,[39m[0m
-  [0m [90m 119 |[39m                 {[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m120:19[22m[39m
-[90mTS2552: [39mCannot find name 'text'. Did you mean 'Text'?
-  [0m [90m 118 |[39m                 }[33m,[39m[0m
-  [0m [90m 119 |[39m                 {[0m
-  [0m[31m[1m>[22m[39m[90m 120 |[39m                   text[33m:[39m [32m"Cancelar"[39m[33m,[39m[0m
-  [0m [90m     |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 121 |[39m                   role[33m:[39m [32m"cancel"[39m[33m,[39m[0m
-  [0m [90m 122 |[39m                   data[33m:[39m {[0m
-  [0m [90m 123 |[39m                     action[33m:[39m [32m"cancel"[39m[33m,[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m123:21[22m[39m
-[90mTS2304: [39mCannot find name 'action'.
-  [0m [90m 121 |[39m                   role[33m:[39m [32m"cancel"[39m[33m,[39m[0m
-  [0m [90m 122 |[39m                   data[33m:[39m {[0m
-  [0m[31m[1m>[22m[39m[90m 123 |[39m                     action[33m:[39m [32m"cancel"[39m[33m,[39m[0m
-  [0m [90m     |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 124 |[39m                   }[33m,[39m[0m
-  [0m [90m 125 |[39m                 }[33m,[39m[0m
-  [0m [90m 126 |[39m                 reserveButton()[0m
-
 Found [31m[1m8 errors[22m[39m in 636 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.98 MiB (6.65 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.76 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 119 KiB 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
@@ -3485,36 +2870,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (59e02c0e13a05012)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m57:26[22m[39m
-[90mTS7006: [39mParameter 'data' implicitly has an 'any' type.
-  [0m [90m 55 |[39m[0m
-  [0m [90m 56 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   [36mfunction[39m reserveButton(data) {[0m
-  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m     [36mconst[39m action [33m=[39m data[33m.[39maction[33m;[39m[0m
-  [0m [90m 59 |[39m   [0m
-  [0m [90m 60 |[39m     [36mswitch[39m (action) {[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m126:17[22m[39m
-[90mTS2322: [39mType 'void' is not assignable to type 'string | ActionSheetButton<any>'.
-  [0m [90m 124 |[39m                   }[33m,[39m[0m
-  [0m [90m 125 |[39m                 }[33m,[39m[0m
-  [0m[31m[1m>[22m[39m[90m 126 |[39m                 reserveButton()[0m
-  [0m [90m     |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 127 |[39m               ]}[0m
-  [0m [90m 128 |[39m             [33m>[39m[33m<[39m[33m/[39m[33mIonActionSheet[39m[33m>[39m[0m
-  [0m [90m 129 |[39m           [33m<[39m[33m/[39m[33mButton[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m126:17[22m[39m
-[90mTS2554: [39mExpected 1 arguments, but got 0.
-  [0m [90m 124 |[39m                   }[33m,[39m[0m
-  [0m [90m 125 |[39m                 }[33m,[39m[0m
-  [0m[31m[1m>[22m[39m[90m 126 |[39m                 reserveButton()[0m
-  [0m [90m     |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 127 |[39m               ]}[0m
-  [0m [90m 128 |[39m             [33m>[39m[33m<[39m[33m/[39m[33mIonActionSheet[39m[33m>[39m[0m
-  [0m [90m 129 |[39m           [33m<[39m[33m/[39m[33mButton[39m[33m>[39m[0m
-
 Found [31m[1m3 errors[22m[39m in 815 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.66 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.59e02c0e13a05012.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
