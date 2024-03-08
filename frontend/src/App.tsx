@@ -27,7 +27,6 @@ import Centres from "./pages/centres/centres";
 import Team from "./pages/team/team";
 import Profile from "./pages/profile/profile";
 import SignIn from "./pages/sign-in/signIn";
-import SignInSecond from "./pages/sign-in/signIn2";
 
 setupIonicReact();
 
@@ -37,7 +36,6 @@ const App: React.FC = () => (
       <IonRouterOutlet>
         <Route exact path="/home" component={Home} />
         <Route path="/sign-in" component={SignIn} />
-        <Route path="/sign-in-second" component={SignInSecond} />
         <Route path="/home/profile" component={Profile} />
         <Route path="/home/team" component={Team} />
         <Route path="/home/centres" component={Centres} />

@@ -22,7 +22,7 @@ const StyledButton = styled(IonButton)`
   border-radius: 15px;
   box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
   margin-bottom: 3%;
-  width: 60%; //para la segunda opción 95%
+  width: 95%; 
 `;
 
 export default Button;

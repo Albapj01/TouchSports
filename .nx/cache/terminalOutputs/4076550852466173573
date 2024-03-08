@@ -1,11 +1,6 @@
-<i> [1m[32m[webpack-dev-server] Project is running at:[39m[22m
-<i> [1m[32m[webpack-dev-server] Loopback: [36mhttp://localhost:4200/[39m, [36mhttp://127.0.0.1:4200/[39m[39m[22m
-<i> [1m[32m[webpack-dev-server] 404s will fallback to '[36m/index.html[39m'[39m[22m
 
 [36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4200/[22m
 
-<i> [1m[32m[webpack-dev-middleware] wait until bundle finished: /home/profile[39m[22m
-<i> [1m[32m[webpack-dev-middleware] wait until bundle finished: /home/profile[39m[22m
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.98 MiB (6.65 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.76 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 121 KiB 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
 chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 80.7 KiB (javascript) 727 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
@@ -536,106 +531,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/list/list.t
 
 webpack compiled with [1m[31m1 error[39m[22m (692abeb98f50004e)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m6:6[22m[39m
-[90mTS2304: [39mCannot find name 'IonPage'.
-  [0m [90m 4 |[39m [36mconst[39m [33mList[39m [33m=[39m () [33m=>[39m {[0m
-  [0m [90m 5 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 6 |[39m     [33m<[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m   |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 7 |[39m     [33m<[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 8 |[39m       [33m<[39m[33mIonList[39m inset[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m [90m 9 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m11:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m  9 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 10 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mName[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 11 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 12 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 13 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 14 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m13:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 11 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 12 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mApellidos[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m17:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 15 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mApellidos[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 17 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 18 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 19 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 20 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m19:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 17 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 18 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 19 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 20 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 21 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mCorreo[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m23:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 21 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mCorreo[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 23 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 24 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 25 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m25:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 23 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 24 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 25 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 27 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 28 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mTeléfono[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m29:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 27 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 28 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mTeléfono[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 29 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 31 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m31:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 29 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 33 |[39m       [33m<[39m[33m/[39m[33mIonList[39m[33m>[39m[0m
-  [0m [90m 34 |[39m     [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m10:8[22m[39m
-[90mTS1192: [39mModule '"/Users/albapalomino/TouchSports/frontend/src/components/list/list"' has no default export.
-  [0m [90m  8 |[39m } [36mfrom[39m [32m"@ionic/react"[39m[33m;[39m[0m
-  [0m [90m  9 |[39m [36mimport[39m [33mButton[39m [36mfrom[39m [32m"frontend/src/components/button/button"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m [33mList[39m [36mfrom[39m [32m"frontend/src/components/list/list"[39m[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 11 |[39m [36mimport[39m [33mMenu[39m [36mfrom[39m [32m"frontend/src/components/menu/menu"[39m[33m;[39m[0m
-  [0m [90m 12 |[39m [36mimport[39m [33mTabs[39m [36mfrom[39m [32m"frontend/src/components/tabs/tabs"[39m[33m;[39m[0m
-  [0m [90m 13 |[39m [36mimport[39m styled[33m,[39m { createGlobalStyle } [36mfrom[39m [32m"styled-components"[39m[33m;[39m[0m
-
 Found [31m[1m10 errors[22m[39m in 715 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.f75b8c6d9f6e5596.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -712,116 +607,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/list/list.t
     at TypeScriptParserMixin.parseStatementListItem (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12568:17)
 
 webpack compiled with [1m[31m1 error[39m[22m (1c7a3d86bcba4dc8)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m6:6[22m[39m
-[90mTS2304: [39mCannot find name 'IonPage'.
-  [0m [90m 4 |[39m [36mconst[39m [33mList[39m [33m=[39m () [33m=>[39m {[0m
-  [0m [90m 5 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 6 |[39m     [33m<[39m[33mIonPage[39m[33m>[39m[33m<[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m   |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 7 |[39m     [33m<[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 8 |[39m       [33m<[39m[33mIonList[39m inset[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m [90m 9 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m6:15[22m[39m
-[90mTS2304: [39mCannot find name 'IonPage'.
-  [0m [90m 4 |[39m [36mconst[39m [33mList[39m [33m=[39m () [33m=>[39m {[0m
-  [0m [90m 5 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 6 |[39m     [33m<[39m[33mIonPage[39m[33m>[39m[33m<[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m   |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 7 |[39m     [33m<[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 8 |[39m       [33m<[39m[33mIonList[39m inset[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m [90m 9 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m11:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m  9 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 10 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mName[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 11 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 12 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 13 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 14 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m13:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 11 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 12 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mApellidos[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m17:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 15 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mApellidos[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 17 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 18 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 19 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 20 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m19:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 17 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 18 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 19 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 20 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 21 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mCorreo[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m23:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 21 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mCorreo[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 23 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 24 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 25 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m25:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 23 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 24 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 25 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 27 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 28 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mTeléfono[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m29:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 27 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 28 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mTeléfono[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 29 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 31 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m31:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 29 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 33 |[39m       [33m<[39m[33m/[39m[33mIonList[39m[33m>[39m[0m
-  [0m [90m 34 |[39m     [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m10:8[22m[39m
-[90mTS1192: [39mModule '"/Users/albapalomino/TouchSports/frontend/src/components/list/list"' has no default export.
-  [0m [90m  8 |[39m } [36mfrom[39m [32m"@ionic/react"[39m[33m;[39m[0m
-  [0m [90m  9 |[39m [36mimport[39m [33mButton[39m [36mfrom[39m [32m"frontend/src/components/button/button"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m [33mList[39m [36mfrom[39m [32m"frontend/src/components/list/list"[39m[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 11 |[39m [36mimport[39m [33mMenu[39m [36mfrom[39m [32m"frontend/src/components/menu/menu"[39m[33m;[39m[0m
-  [0m [90m 12 |[39m [36mimport[39m [33mTabs[39m [36mfrom[39m [32m"frontend/src/components/tabs/tabs"[39m[33m;[39m[0m
-  [0m [90m 13 |[39m [36mimport[39m styled[33m,[39m { createGlobalStyle } [36mfrom[39m [32m"styled-components"[39m[33m;[39m[0m
-
 Found [31m[1m11 errors[22m[39m in 230 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.f75b8c6d9f6e5596.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -899,26 +684,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/list/list.t
 
 webpack compiled with [1m[31m1 error[39m[22m (3c3968f2a4a10e3d)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m6:6[22m[39m
-[90mTS2304: [39mCannot find name 'IonPage'.
-  [0m [90m 4 |[39m [36mconst[39m [33mList[39m [33m=[39m () [33m=>[39m {[0m
-  [0m [90m 5 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 6 |[39m     [33m<[39m[33mIonPage[39m[33m>[39m[33m<[39m[33m/[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m   |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 7 |[39m     [33m<[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 8 |[39m       [33m<[39m[33mIonList[39m inset[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m [90m 9 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m6:16[22m[39m
-[90mTS2304: [39mCannot find name 'IonPage'.
-  [0m [90m 4 |[39m [36mconst[39m [33mList[39m [33m=[39m () [33m=>[39m {[0m
-  [0m [90m 5 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 6 |[39m     [33m<[39m[33mIonPage[39m[33m>[39m[33m<[39m[33m/[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m   |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 7 |[39m     [33m<[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 8 |[39m       [33m<[39m[33mIonList[39m inset[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m [90m 9 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 676 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.f75b8c6d9f6e5596.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -996,106 +761,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/list/list.t
 
 webpack compiled with [1m[31m1 error[39m[22m (692abeb98f50004e)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m6:6[22m[39m
-[90mTS2304: [39mCannot find name 'IonPage'.
-  [0m [90m 4 |[39m [36mconst[39m [33mList[39m [33m=[39m () [33m=>[39m {[0m
-  [0m [90m 5 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 6 |[39m     [33m<[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m   |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 7 |[39m     [33m<[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 8 |[39m       [33m<[39m[33mIonList[39m inset[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m [90m 9 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m11:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m  9 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 10 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mName[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 11 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 12 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 13 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 14 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m13:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 11 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 12 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mApellidos[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m17:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 15 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mApellidos[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 17 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 18 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 19 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 20 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m19:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 17 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 18 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 19 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 20 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 21 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mCorreo[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m23:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 21 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mCorreo[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 23 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 24 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 25 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m25:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 23 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 24 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 25 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 27 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 28 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mTeléfono[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m29:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 27 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 28 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mTeléfono[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 29 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 31 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m31:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 29 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 33 |[39m       [33m<[39m[33m/[39m[33mIonList[39m[33m>[39m[0m
-  [0m [90m 34 |[39m     [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m10:8[22m[39m
-[90mTS1192: [39mModule '"/Users/albapalomino/TouchSports/frontend/src/components/list/list"' has no default export.
-  [0m [90m  8 |[39m } [36mfrom[39m [32m"@ionic/react"[39m[33m;[39m[0m
-  [0m [90m  9 |[39m [36mimport[39m [33mButton[39m [36mfrom[39m [32m"frontend/src/components/button/button"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m [33mList[39m [36mfrom[39m [32m"frontend/src/components/list/list"[39m[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 11 |[39m [36mimport[39m [33mMenu[39m [36mfrom[39m [32m"frontend/src/components/menu/menu"[39m[33m;[39m[0m
-  [0m [90m 12 |[39m [36mimport[39m [33mTabs[39m [36mfrom[39m [32m"frontend/src/components/tabs/tabs"[39m[33m;[39m[0m
-  [0m [90m 13 |[39m [36mimport[39m styled[33m,[39m { createGlobalStyle } [36mfrom[39m [32m"styled-components"[39m[33m;[39m[0m
-
 Found [31m[1m10 errors[22m[39m in 630 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.f75b8c6d9f6e5596.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1110,26 +775,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (82633e013d1cf390)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m6:6[22m[39m
-[90mTS2304: [39mCannot find name 'IonPage'.
-  [0m [90m 4 |[39m [36mconst[39m [33mList[39m [33m=[39m () [33m=>[39m {[0m
-  [0m [90m 5 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 6 |[39m     [33m<[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m   |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 7 |[39m     [33m<[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 8 |[39m       [33m<[39m[33mIonList[39m inset[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m [90m 9 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m35:7[22m[39m
-[90mTS2304: [39mCannot find name 'IonPage'.
-  [0m [90m 33 |[39m       [33m<[39m[33m/[39m[33mIonList[39m[33m>[39m[0m
-  [0m [90m 34 |[39m     [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 35 |[39m     [33m<[39m[33m/[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 36 |[39m   )[33m;[39m[0m
-  [0m [90m 37 |[39m }[33m;[39m[0m
-  [0m [90m 38 |[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 650 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.98 MiB (6.65 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.76 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 121 KiB 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
@@ -1143,26 +788,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (82633e013d1cf390)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m6:6[22m[39m
-[90mTS2304: [39mCannot find name 'IonPage'.
-  [0m [90m 4 |[39m [36mconst[39m [33mList[39m [33m=[39m () [33m=>[39m {[0m
-  [0m [90m 5 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 6 |[39m     [33m<[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m   |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 7 |[39m     [33m<[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 8 |[39m       [33m<[39m[33mIonList[39m inset[33m=[39m{[36mtrue[39m}[33m>[39m[0m
-  [0m [90m 9 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m35:7[22m[39m
-[90mTS2304: [39mCannot find name 'IonPage'.
-  [0m [90m 33 |[39m       [33m<[39m[33m/[39m[33mIonList[39m[33m>[39m[0m
-  [0m [90m 34 |[39m     [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 35 |[39m     [33m<[39m[33m/[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 36 |[39m   )[33m;[39m[0m
-  [0m [90m 37 |[39m }[33m;[39m[0m
-  [0m [90m 38 |[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 301 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.82633e013d1cf390.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1268,96 +893,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/list/list.t
 
 webpack compiled with [1m[31m1 error[39m[22m (825134e54c89597e)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m11:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m  9 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 10 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mName[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 11 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 12 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 13 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 14 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m13:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 11 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 12 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mApellidos[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m17:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 15 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mApellidos[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 17 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 18 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 19 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 20 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m19:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 17 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 18 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 19 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 20 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 21 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mCorreo[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m23:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 21 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mCorreo[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 23 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 24 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 25 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m25:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 23 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 24 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 25 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 27 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 28 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mTeléfono[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m29:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 27 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 28 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mTeléfono[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 29 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 31 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m31:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 29 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 33 |[39m       [33m<[39m[33m/[39m[33mIonList[39m[33m>[39m[0m
-  [0m [90m 34 |[39m     [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m10:8[22m[39m
-[90mTS1192: [39mModule '"/Users/albapalomino/TouchSports/frontend/src/components/list/list"' has no default export.
-  [0m [90m  8 |[39m } [36mfrom[39m [32m"@ionic/react"[39m[33m;[39m[0m
-  [0m [90m  9 |[39m [36mimport[39m [33mButton[39m [36mfrom[39m [32m"frontend/src/components/button/button"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m [33mList[39m [36mfrom[39m [32m"frontend/src/components/list/list"[39m[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 11 |[39m [36mimport[39m [33mMenu[39m [36mfrom[39m [32m"frontend/src/components/menu/menu"[39m[33m;[39m[0m
-  [0m [90m 12 |[39m [36mimport[39m [33mTabs[39m [36mfrom[39m [32m"frontend/src/components/tabs/tabs"[39m[33m;[39m[0m
-  [0m [90m 13 |[39m [36mimport[39m styled[33m,[39m { createGlobalStyle } [36mfrom[39m [32m"styled-components"[39m[33m;[39m[0m
-
 Found [31m[1m9 errors[22m[39m in 576 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.ed725ef73df82740.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1554,96 +1089,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/list/list.t
 
 webpack compiled with [1m[31m1 error[39m[22m (5d6ce7bf01a70dce)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m10:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m  8 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m  9 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mName[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 10 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 11 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 12 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 13 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m12:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 10 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 11 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 12 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 13 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 14 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 15 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mApellidos[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m16:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 14 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 15 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mApellidos[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 16 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 17 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 18 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 19 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m18:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 16 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 17 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 18 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 19 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 20 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 21 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mCorreo[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m22:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 20 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 21 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mCorreo[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 22 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 23 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 24 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 25 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m24:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 22 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 23 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 24 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 25 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 26 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 27 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mTeléfono[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m28:12[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 26 |[39m         [33m<[39m[33mIonItem[39m color[33m=[39m[32m"light"[39m[33m>[39m[0m
-  [0m [90m 27 |[39m           [33m<[39m[33mIonLabel[39m[33m>[39m[33mTeléfono[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 28 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 29 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m [90m 30 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 31 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/list/list.tsx[22m:[32m[1m30:13[22m[39m
-[90mTS2304: [39mCannot find name 'Margin'.
-  [0m [90m 28 |[39m           [33m<[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m 29 |[39m             [33m<[39m[33mIonLabel[39m[33m>[39m[33mExample[39m[33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 30 |[39m           [33m<[39m[33m/[39m[33mMargin[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 31 |[39m         [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
-  [0m [90m 32 |[39m       [33m<[39m[33m/[39m[33mIonList[39m[33m>[39m[0m
-  [0m [90m 33 |[39m   )[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m10:8[22m[39m
-[90mTS1192: [39mModule '"/Users/albapalomino/TouchSports/frontend/src/components/list/list"' has no default export.
-  [0m [90m  8 |[39m } [36mfrom[39m [32m"@ionic/react"[39m[33m;[39m[0m
-  [0m [90m  9 |[39m [36mimport[39m [33mButton[39m [36mfrom[39m [32m"frontend/src/components/button/button"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m [33mList[39m [36mfrom[39m [32m"frontend/src/components/list/list"[39m[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 11 |[39m [36mimport[39m [33mMenu[39m [36mfrom[39m [32m"frontend/src/components/menu/menu"[39m[33m;[39m[0m
-  [0m [90m 12 |[39m [36mimport[39m [33mTabs[39m [36mfrom[39m [32m"frontend/src/components/tabs/tabs"[39m[33m;[39m[0m
-  [0m [90m 13 |[39m [36mimport[39m styled[33m,[39m { createGlobalStyle } [36mfrom[39m [32m"styled-components"[39m[33m;[39m[0m
-
 Found [31m[1m9 errors[22m[39m in 721 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.247c6d2cc7ebc930.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1761,26 +1206,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/profile/profile.
 
 webpack compiled with [1m[31m1 error[39m[22m (32f8cc5547ccbb28)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m54:7[22m[39m
-[90mTS2451: [39mCannot redeclare block-scoped variable 'Margin'.
-  [0m [90m 52 |[39m [32m`[39m[33m;[39m[0m
-  [0m [90m 53 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 54 |[39m [36mconst[39m [33mMargin[39m [33m=[39m styled[33m.[39mdiv[32m`[39m[0m
-  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 55 |[39m [32m  margin-top: 15%;[39m[0m
-  [0m [90m 56 |[39m [32m`[39m[33m;[39m[0m
-  [0m [90m 57 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m65:7[22m[39m
-[90mTS2451: [39mCannot redeclare block-scoped variable 'Margin'.
-  [0m [90m 63 |[39m [32m`[39m[33m;[39m[0m
-  [0m [90m 64 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 65 |[39m [36mconst[39m [33mMargin[39m [33m=[39m styled[33m.[39mdiv[32m`[39m[0m
-  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 66 |[39m [32m  margin-top: 15%;[39m[0m
-  [0m [90m 67 |[39m [32m`[39m[33m;[39m[0m
-  [0m [90m 68 |[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 582 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.5eef74b09347b1e3.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2320,16 +1745,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/card/card.t
 
 webpack compiled with [1m[31m1 error[39m[22m (ebb9373a8d955d16)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m28:10[22m[39m
-[90mTS2304: [39mCannot find name 'IonText'.
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 27 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 28 |[39m         [33m<[39m[33mIonText[39m[33m>[39m[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 29 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 30 |[39m     [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 31 |[39m   )[33m;[39m[0m
-
 Found [31m[1m1 error[22m[39m in 603 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.3e68b5864d6349a1.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -2407,16 +1822,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/card/card.t
 
 webpack compiled with [1m[31m1 error[39m[22m (242877b5b6297930)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m28:10[22m[39m
-[90mTS2304: [39mCannot find name 'IonText'.
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 27 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 28 |[39m         [33m<[39m[33mIonText[39m[33m>[39m[33m<[39m[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 29 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 30 |[39m     [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 31 |[39m   )[33m;[39m[0m
-
 Found [31m[1m1 error[22m[39m in 431 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.3e68b5864d6349a1.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2431,26 +1836,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (d5acf85168930995)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m28:10[22m[39m
-[90mTS2304: [39mCannot find name 'IonText'.
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 27 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 28 |[39m         [33m<[39m[33mIonText[39m[33m>[39m[33m<[39m[33m/[39m[33mIonText[39m[33m>[39m[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 29 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 30 |[39m     [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 31 |[39m   )[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m28:20[22m[39m
-[90mTS2304: [39mCannot find name 'IonText'.
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 27 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 28 |[39m         [33m<[39m[33mIonText[39m[33m>[39m[33m<[39m[33m/[39m[33mIonText[39m[33m>[39m[0m
-  [0m [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 29 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 30 |[39m     [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 31 |[39m   )[33m;[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 403 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.d5acf85168930995.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2465,26 +1850,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (56160afd5ff27660)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m28:10[22m[39m
-[90mTS2304: [39mCannot find name 'IonText'.
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 27 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 28 |[39m         [33m<[39m[33mIonText[39m[33m>[39mhola[33m<[39m[33m/[39m[33mIonText[39m[33m>[39m[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 29 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 30 |[39m     [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 31 |[39m   )[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m28:24[22m[39m
-[90mTS2304: [39mCannot find name 'IonText'.
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 27 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 28 |[39m         [33m<[39m[33mIonText[39m[33m>[39mhola[33m<[39m[33m/[39m[33mIonText[39m[33m>[39m[0m
-  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 29 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 30 |[39m     [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 31 |[39m   )[33m;[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 432 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.56160afd5ff27660.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2526,26 +1891,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (2a335b7233dd6198)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m28:9[22m[39m
-[90mTS2339: [39mProperty 'console' does not exist on type 'JSX.IntrinsicElements'.
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 27 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 28 |[39m         [33m<[39m[33mconsole[39m className[33m=[39m[32m"log"[39m[33m>[39m[33m<[39m[33m/[39m[33mconsole[39m[33m>[39m[0m
-  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 29 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 30 |[39m     [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 31 |[39m   )[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m28:34[22m[39m
-[90mTS2339: [39mProperty 'console' does not exist on type 'JSX.IntrinsicElements'.
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 27 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 28 |[39m         [33m<[39m[33mconsole[39m className[33m=[39m[32m"log"[39m[33m>[39m[33m<[39m[33m/[39m[33mconsole[39m[33m>[39m[0m
-  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 29 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 30 |[39m     [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 31 |[39m   )[33m;[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 446 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.2a335b7233dd6198.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2560,26 +1905,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (8003a824221a9403)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m28:9[22m[39m
-[90mTS2339: [39mProperty 'console' does not exist on type 'JSX.IntrinsicElements'.
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 27 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 28 |[39m         [33m<[39m[33mconsole[39m className[33m=[39m[32m"log"[39m[33m>[39mhola[33m<[39m[33m/[39m[33mconsole[39m[33m>[39m[0m
-  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 29 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 30 |[39m     [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 31 |[39m   )[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m28:38[22m[39m
-[90mTS2339: [39mProperty 'console' does not exist on type 'JSX.IntrinsicElements'.
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 27 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 28 |[39m         [33m<[39m[33mconsole[39m className[33m=[39m[32m"log"[39m[33m>[39mhola[33m<[39m[33m/[39m[33mconsole[39m[33m>[39m[0m
-  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 29 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 30 |[39m     [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 31 |[39m   )[33m;[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 410 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.98 MiB (6.65 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.76 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 120 KiB 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
@@ -2593,26 +1918,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (8003a824221a9403)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m28:9[22m[39m
-[90mTS2339: [39mProperty 'console' does not exist on type 'JSX.IntrinsicElements'.
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 27 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 28 |[39m         [33m<[39m[33mconsole[39m className[33m=[39m[32m"log"[39m[33m>[39mhola[33m<[39m[33m/[39m[33mconsole[39m[33m>[39m[0m
-  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 29 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 30 |[39m     [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 31 |[39m   )[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m28:38[22m[39m
-[90mTS2339: [39mProperty 'console' does not exist on type 'JSX.IntrinsicElements'.
-  [0m [90m 26 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 27 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 28 |[39m         [33m<[39m[33mconsole[39m className[33m=[39m[32m"log"[39m[33m>[39mhola[33m<[39m[33m/[39m[33mconsole[39m[33m>[39m[0m
-  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 29 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 30 |[39m     [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 31 |[39m   )[33m;[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 363 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.8003a824221a9403.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2627,26 +1932,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (fae07e502c28e012)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m32:9[22m[39m
-[90mTS2339: [39mProperty 'console' does not exist on type 'JSX.IntrinsicElements'.
-  [0m [90m 30 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 31 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 32 |[39m         [33m<[39m[33mconsole[39m className[33m=[39m[32m"log"[39m[33m>[39mhola[33m<[39m[33m/[39m[33mconsole[39m[33m>[39m[0m
-  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 33 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 34 |[39m     [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 35 |[39m   )[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m32:38[22m[39m
-[90mTS2339: [39mProperty 'console' does not exist on type 'JSX.IntrinsicElements'.
-  [0m [90m 30 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 31 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 32 |[39m         [33m<[39m[33mconsole[39m className[33m=[39m[32m"log"[39m[33m>[39mhola[33m<[39m[33m/[39m[33mconsole[39m[33m>[39m[0m
-  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 33 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 34 |[39m     [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 35 |[39m   )[33m;[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 474 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.fae07e502c28e012.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2661,26 +1946,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (336dec16ef7b2609)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m32:9[22m[39m
-[90mTS2339: [39mProperty 'console' does not exist on type 'JSX.IntrinsicElements'.
-  [0m [90m 30 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 31 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 32 |[39m         [33m<[39m[33mconsole[39m className[33m=[39m[32m"log"[39m[33m>[39mhola[33m<[39m[33m/[39m[33mconsole[39m[33m>[39m[0m
-  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 33 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 34 |[39m     [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 35 |[39m   )[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m32:38[22m[39m
-[90mTS2339: [39mProperty 'console' does not exist on type 'JSX.IntrinsicElements'.
-  [0m [90m 30 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 31 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 32 |[39m         [33m<[39m[33mconsole[39m className[33m=[39m[32m"log"[39m[33m>[39mhola[33m<[39m[33m/[39m[33mconsole[39m[33m>[39m[0m
-  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 33 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 34 |[39m     [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 35 |[39m   )[33m;[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 517 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.336dec16ef7b2609.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2694,7 +1959,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (4df987ede823b81a)
-<i> [1m[32m[webpack-dev-middleware] wait until bundle finished: /runtime.336dec16ef7b2609.hot-update.json[39m[22m
 [36mType-checking in progress...[39m
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.98 MiB (6.65 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.76 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 120 KiB 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
@@ -3030,16 +2294,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/card/card.t
 
 webpack compiled with [1m[31m1 error[39m[22m (52f9bb8f13e6a291)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m26:8[22m[39m
-[90mTS2304: [39mCannot find name 'IonContent'.
-  [0m [90m 24 |[39m   [36mreturn[39m ([0m
-  [0m [90m 25 |[39m     [33m<[39m[33mIonCard[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 26 |[39m       [33m<[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 27 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{route} onClick[33m=[39m{navigateToRoute}[33m>[39m[0m
-  [0m [90m 28 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{title} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 29 |[39m         [33m<[39m[33mIonCardHeader[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 476 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.45b42ac9d3a9a525.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3054,26 +2308,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (00781533583d17a5)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m26:8[22m[39m
-[90mTS2304: [39mCannot find name 'IonContent'.
-  [0m [90m 24 |[39m   [36mreturn[39m ([0m
-  [0m [90m 25 |[39m     [33m<[39m[33mIonCard[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 26 |[39m       [33m<[39m[33mIonContent[39m[33m>[39m[33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 27 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{route} onClick[33m=[39m{navigateToRoute}[33m>[39m[0m
-  [0m [90m 28 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{title} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 29 |[39m         [33m<[39m[33mIonCardHeader[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m26:21[22m[39m
-[90mTS2304: [39mCannot find name 'IonContent'.
-  [0m [90m 24 |[39m   [36mreturn[39m ([0m
-  [0m [90m 25 |[39m     [33m<[39m[33mIonCard[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 26 |[39m       [33m<[39m[33mIonContent[39m[33m>[39m[33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 27 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{route} onClick[33m=[39m{navigateToRoute}[33m>[39m[0m
-  [0m [90m 28 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{title} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 29 |[39m         [33m<[39m[33mIonCardHeader[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 485 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.00781533583d17a5.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -3151,16 +2385,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/card/card.t
 
 webpack compiled with [1m[31m1 error[39m[22m (61ba040ecb95c6c3)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m26:8[22m[39m
-[90mTS2304: [39mCannot find name 'IonContent'.
-  [0m [90m 24 |[39m   [36mreturn[39m ([0m
-  [0m [90m 25 |[39m     [33m<[39m[33mIonCard[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 26 |[39m       [33m<[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 27 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{route} onClick[33m=[39m{navigateToRoute}[33m>[39m[0m
-  [0m [90m 28 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{title} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 29 |[39m         [33m<[39m[33mIonCardHeader[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 434 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.00781533583d17a5.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -3238,26 +2462,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/card/card.t
 
 webpack compiled with [1m[31m1 error[39m[22m (538f33fe8c3b2188)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m26:8[22m[39m
-[90mTS2304: [39mCannot find name 'IonContent'.
-  [0m [90m 24 |[39m   [36mreturn[39m ([0m
-  [0m [90m 25 |[39m     [33m<[39m[33mIonCard[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 26 |[39m       [33m<[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 27 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{route} onClick[33m=[39m{navigateToRoute}[33m>[39m[0m
-  [0m [90m 28 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{title} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 29 |[39m         [33m<[39m[33mIonCardHeader[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m33:11[22m[39m
-[90mTS2304: [39mCannot find name 'IonContent'.
-  [0m [90m 31 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 34 |[39m       [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 35 |[39m     [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 36 |[39m   )[33m;[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 415 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.00781533583d17a5.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -3334,26 +2538,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/card/card.t
     at TypeScriptParserMixin.parseExprAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6932:20)
 
 webpack compiled with [1m[31m1 error[39m[22m (538f33fe8c3b2188)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m26:8[22m[39m
-[90mTS2304: [39mCannot find name 'IonContent'.
-  [0m [90m 24 |[39m   [36mreturn[39m ([0m
-  [0m [90m 25 |[39m     [33m<[39m[33mIonCard[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 26 |[39m       [33m<[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 27 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{route} onClick[33m=[39m{navigateToRoute}[33m>[39m[0m
-  [0m [90m 28 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{title} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 29 |[39m         [33m<[39m[33mIonCardHeader[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m33:11[22m[39m
-[90mTS2304: [39mCannot find name 'IonContent'.
-  [0m [90m 31 |[39m         [33m<[39m[33m/[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 34 |[39m       [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 35 |[39m     [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m[0m
-  [0m [90m 36 |[39m   )[33m;[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 118 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.00781533583d17a5.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -3809,16 +2993,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (331434b3ee794bce)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m27:33[22m[39m
-[90mTS2304: [39mCannot find name 'navigateToRoute'.
-  [0m [90m 25 |[39m   [36mreturn[39m ([0m
-  [0m [90m 26 |[39m     [33m<[39m[33mIonCard[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 27 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{route} onClick[33m=[39m{navigateToRoute}[33m>[39m[0m
-  [0m [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 28 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{title} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 29 |[39m         [33m<[39m[33mIonCardHeader[39m[33m>[39m[0m
-  [0m [90m 30 |[39m           [33m<[39m[33mTitleText[39m[33m>[39m{title}[33m<[39m[33m/[39m[33mTitleText[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 472 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.65 MiB) = 7 assets 11 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.331434b3ee794bce.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3847,4 +3021,17 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (61154cddbaf27825)
 [36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.98 MiB (6.65 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.76 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 120 KiB 9 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 80.1 KiB (javascript) 727 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.64 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (61154cddbaf27825)
 [32mNo errors found.[39m
