@@ -1,12 +1,4 @@
-import {
-  IonButton,
-  IonContent,
-  IonFooter,
-  IonHeader,
-  IonImg,
-  IonPage,
-  IonToolbar,
-} from "@ionic/react";
+import { IonContent, IonFooter, IonImg, IonPage } from "@ionic/react";
 import Button from "frontend/src/components/button/button";
 import Logo from "frontend/src/components/logo/logo";
 import { logoGoogle, logoFacebook, logoApple } from "ionicons/icons";

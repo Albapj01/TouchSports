@@ -5,12 +5,13 @@ import {
   IonPage,
   IonToolbar,
 } from "@ionic/react";
+import Card from "frontend/src/components/card/card";
 import List from "frontend/src/components/list/list";
 import Menu from "frontend/src/components/menu/menu";
 import Tabs from "frontend/src/components/tabs/tabs";
 import styled, { createGlobalStyle } from "styled-components";
 
-const Profile = () => {
+const Player = () => {
   return (
     <>
       <IonPage>
@@ -27,6 +28,18 @@ const Profile = () => {
           </ImageContainer>
           <List />
           <Space />
+          <Card
+            route=""
+            title="Alimentación"
+            imageUrl="https://s1.eestatic.com/2021/08/06/ciencia/nutricion/602206906_199716223_1706x960.jpg"
+            description=""
+          />
+          <Card
+            route=""
+            title="Entrenamientos personalizados"
+            imageUrl="https://cope-cdnmed.cope.es/resources/jpg/1/3/1686821467631.jpg"
+            description="Estiramientos y ejercicios adicionales para mejorar el rendimiento y fortalecer lesiones"
+          />
         </IonContent>
         <IonFooter>
           <Tabs />
@@ -55,4 +68,11 @@ const Space = styled.div`
   margin-top: 10%;
 `;
 
-export default Profile;
+const CardsContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+  font-size: small;
+`;
+
+export default Player;

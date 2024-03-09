@@ -1,5 +1,5 @@
-import { IonContent, IonItem, IonLabel, IonList } from "@ionic/react";
-import styled, { createGlobalStyle } from "styled-components";
+import { IonItem, IonLabel, IonList } from "@ionic/react";
+import styled from "styled-components";
 
 const List = () => {
   return (
