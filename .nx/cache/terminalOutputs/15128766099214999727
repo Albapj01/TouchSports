@@ -1,6 +1,3 @@
-<i> [1m[32m[webpack-dev-server] Project is running at:[39m[22m
-<i> [1m[32m[webpack-dev-server] Loopback: [36mhttp://localhost:4200/[39m, [36mhttp://127.0.0.1:4200/[39m[39m[22m
-<i> [1m[32m[webpack-dev-server] 404s will fallback to '[36m/index.html[39m'[39m[22m
 
 [36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4200/[22m
 
@@ -16,16 +13,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (64d771bbb4045849)
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m41:52[22m[39m
-[90mTS2304: [39mCannot find name 'Player'.
-  [0m [90m 39 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/profile"[39m component[33m=[39m{[33mProfile[39m} [33m/[39m[33m>[39m[0m
-  [0m [90m 40 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/team"[39m component[33m=[39m{[33mTeam[39m} [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 41 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/team/player"[39m component[33m=[39m{[33mPlayer[39m} [33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m                                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 42 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/centres"[39m component[33m=[39m{[33mCentres[39m} [33m/[39m[33m>[39m[0m
-  [0m [90m 43 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/centres/reserve"[39m component[33m=[39m{[33mReserve[39m} [33m/[39m[33m>[39m[0m
-  [0m [90m 44 |[39m         [33m<[39m[33mRoute[39m exact path[33m=[39m[32m"/"[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 6257 ms.
 Entrypoint [1mmain[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.64d771bbb4045849.hot-update.js[39m[22m [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m [1m[32mmain.64d771bbb4045849.hot-update.js[39m[22m 4 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.64d771bbb4045849.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -78,36 +65,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/App.tsx: Unexpected to
 
 webpack compiled with [1m[31m1 error[39m[22m (6769a08736affe26)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m30:9[22m[39m
-[90mTS2304: [39mCannot find name 'Player'.
-  [0m [90m 28 |[39m [36mimport[39m [33mProfile[39m [36mfrom[39m [32m"./pages/profile/profile"[39m[33m;[39m[0m
-  [0m [90m 29 |[39m [36mimport[39m [33mSignIn[39m [36mfrom[39m [32m"./pages/sign-in/signIn"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 30 |[39m [36mimport[39m [33m<[39m[33mPlayer[39m[33m>[39m[33m<[39m[33m/[39m[33mPlayer[39m[33m>[39m[0m
-  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 31 |[39m[0m
-  [0m [90m 32 |[39m setupIonicReact()[33m;[39m[0m
-  [0m [90m 33 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m30:18[22m[39m
-[90mTS2304: [39mCannot find name 'Player'.
-  [0m [90m 28 |[39m [36mimport[39m [33mProfile[39m [36mfrom[39m [32m"./pages/profile/profile"[39m[33m;[39m[0m
-  [0m [90m 29 |[39m [36mimport[39m [33mSignIn[39m [36mfrom[39m [32m"./pages/sign-in/signIn"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 30 |[39m [36mimport[39m [33m<[39m[33mPlayer[39m[33m>[39m[33m<[39m[33m/[39m[33mPlayer[39m[33m>[39m[0m
-  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 31 |[39m[0m
-  [0m [90m 32 |[39m setupIonicReact()[33m;[39m[0m
-  [0m [90m 33 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m42:52[22m[39m
-[90mTS2304: [39mCannot find name 'Player'.
-  [0m [90m 40 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/profile"[39m component[33m=[39m{[33mProfile[39m} [33m/[39m[33m>[39m[0m
-  [0m [90m 41 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/team"[39m component[33m=[39m{[33mTeam[39m} [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 42 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/team/player"[39m component[33m=[39m{[33mPlayer[39m} [33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m                                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 43 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/centres"[39m component[33m=[39m{[33mCentres[39m} [33m/[39m[33m>[39m[0m
-  [0m [90m 44 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/centres/reserve"[39m component[33m=[39m{[33mReserve[39m} [33m/[39m[33m>[39m[0m
-  [0m [90m 45 |[39m         [33m<[39m[33mRoute[39m exact path[33m=[39m[32m"/"[39m[33m>[39m[0m
-
 Found [31m[1m3 errors[22m[39m in 313 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.64d771bbb4045849.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -125,16 +82,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_cli
 [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Empty dependency (no request)[39m[22m
 
 webpack compiled with [1m[31m1 error[39m[22m (8b7a3a5faf74d4c8)
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m30:20[22m[39m
-[90mTS2307: [39mCannot find module '' or its corresponding type declarations.
-  [0m [90m 28 |[39m [36mimport[39m [33mProfile[39m [36mfrom[39m [32m"./pages/profile/profile"[39m[33m;[39m[0m
-  [0m [90m 29 |[39m [36mimport[39m [33mSignIn[39m [36mfrom[39m [32m"./pages/sign-in/signIn"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 30 |[39m [36mimport[39m [33mPlayer[39m [36mfrom[39m [32m""[39m[0m
-  [0m [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 31 |[39m[0m
-  [0m [90m 32 |[39m setupIonicReact()[33m;[39m[0m
-  [0m [90m 33 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 692 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.64d771bbb4045849.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -152,16 +99,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_cli
 [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/player' in '/Users/albapalomino/TouchSports/frontend/src'[39m[22m
 
 webpack compiled with [1m[31m1 error[39m[22m (4d23f5d0f8bc7754)
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m30:20[22m[39m
-[90mTS2307: [39mCannot find module './pages/player' or its corresponding type declarations.
-  [0m [90m 28 |[39m [36mimport[39m [33mProfile[39m [36mfrom[39m [32m"./pages/profile/profile"[39m[33m;[39m[0m
-  [0m [90m 29 |[39m [36mimport[39m [33mSignIn[39m [36mfrom[39m [32m"./pages/sign-in/signIn"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 30 |[39m [36mimport[39m [33mPlayer[39m [36mfrom[39m [32m"./pages/player"[39m[0m
-  [0m [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 31 |[39m[0m
-  [0m [90m 32 |[39m setupIonicReact()[33m;[39m[0m
-  [0m [90m 33 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 312 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.64d771bbb4045849.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -185,16 +122,6 @@ You may need an appropriate loader to handle this file type, currently no loader
 |         <IonContent fullscreen>[39m[22m
 
 webpack compiled with [1m[31m1 error[39m[22m (5c7927f9ecc8fed1)
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m30:20[22m[39m
-[90mTS2307: [39mCannot find module './pages/player/player' or its corresponding type declarations.
-  [0m [90m 28 |[39m [36mimport[39m [33mProfile[39m [36mfrom[39m [32m"./pages/profile/profile"[39m[33m;[39m[0m
-  [0m [90m 29 |[39m [36mimport[39m [33mSignIn[39m [36mfrom[39m [32m"./pages/sign-in/signIn"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 30 |[39m [36mimport[39m [33mPlayer[39m [36mfrom[39m [32m"./pages/player/player"[39m[0m
-  [0m [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 31 |[39m[0m
-  [0m [90m 32 |[39m setupIonicReact()[33m;[39m[0m
-  [0m [90m 33 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 212 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.64d771bbb4045849.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -212,16 +139,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_cli
 [1mModule build [1m[31mfailed[39m[22m[1m: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open '/Users/albapalomino/TouchSports/frontend/src/pages/player/player'[39m[22m
 
 webpack compiled with [1m[31m1 error[39m[22m (6b81e6e1c0b6e1a6)
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m30:20[22m[39m
-[90mTS2307: [39mCannot find module './pages/player/player' or its corresponding type declarations.
-  [0m [90m 28 |[39m [36mimport[39m [33mProfile[39m [36mfrom[39m [32m"./pages/profile/profile"[39m[33m;[39m[0m
-  [0m [90m 29 |[39m [36mimport[39m [33mSignIn[39m [36mfrom[39m [32m"./pages/sign-in/signIn"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 30 |[39m [36mimport[39m [33mPlayer[39m [36mfrom[39m [32m"./pages/player/player"[39m[0m
-  [0m [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 31 |[39m[0m
-  [0m [90m 32 |[39m setupIonicReact()[33m;[39m[0m
-  [0m [90m 33 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 172 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.64d771bbb4045849.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -275,16 +192,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_cli
 [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/player/pl' in '/Users/albapalomino/TouchSports/frontend/src'[39m[22m
 
 webpack compiled with [1m[31m1 error[39m[22m (02c28ae5488b08a1)
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m30:20[22m[39m
-[90mTS2307: [39mCannot find module './pages/player/pl' or its corresponding type declarations.
-  [0m [90m 28 |[39m [36mimport[39m [33mProfile[39m [36mfrom[39m [32m"./pages/profile/profile"[39m[33m;[39m[0m
-  [0m [90m 29 |[39m [36mimport[39m [33mSignIn[39m [36mfrom[39m [32m"./pages/sign-in/signIn"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 30 |[39m [36mimport[39m [33mPlayer[39m [36mfrom[39m [32m"./pages/player/pl"[39m[0m
-  [0m [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 31 |[39m[0m
-  [0m [90m 32 |[39m setupIonicReact()[33m;[39m[0m
-  [0m [90m 33 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 463 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.44 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.64d771bbb4045849.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -423,56 +330,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/player/player.ts
 
 webpack compiled with [1m[31m1 error[39m[22m (4466463a3922e84d)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m30:8[22m[39m
-[90mTS1192: [39mModule '"/Users/albapalomino/TouchSports/frontend/src/pages/player/player"' has no default export.
-  [0m [90m 28 |[39m [36mimport[39m [33mProfile[39m [36mfrom[39m [32m"./pages/profile/profile"[39m[33m;[39m[0m
-  [0m [90m 29 |[39m [36mimport[39m [33mSignIn[39m [36mfrom[39m [32m"./pages/sign-in/signIn"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 30 |[39m [36mimport[39m [33mPlayer[39m [36mfrom[39m [32m"./pages/player/player"[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 31 |[39m[0m
-  [0m [90m 32 |[39m setupIonicReact()[33m;[39m[0m
-  [0m [90m 33 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/player/player.tsx[22m:[32m[1m30:12[22m[39m
-[90mTS2304: [39mCannot find name 'Space'.
-  [0m [90m 28 |[39m           [33m<[39m[33m/[39m[33mImageContainer[39m[33m>[39m[0m
-  [0m [90m 29 |[39m           [33m<[39m[33mList[39m [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 30 |[39m           [33m<[39m[33mSpace[39m [33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 31 |[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 33 |[39m         [33m<[39m[33mIonFooter[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/player/player.tsx[22m:[32m[1m59:3[22m[39m
-[90mTS2552: [39mCannot find name 'margin'. Did you mean 'Margin'?
-  [0m [90m 57 |[39m[0m
-  [0m [90m 58 |[39m [32mconst Space = styled.div`[39m[0m
-  [0m[31m[1m>[22m[39m[90m 59 |[39m   margin[33m-[39mtop[33m:[39m [35m10[39m[33m%[39m[33m;[39m[0m
-  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 60 |[39m [32m`;[39m[0m
-  [0m [90m 61 |[39m[0m
-  [0m [90m 62 |[39m [32mexport default Player;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/player/player.tsx[22m:[32m[1m59:10[22m[39m
-[90mTS18047: [39m'top' is possibly 'null'.
-  [0m [90m 57 |[39m[0m
-  [0m [90m 58 |[39m [32mconst Space = styled.div`[39m[0m
-  [0m[31m[1m>[22m[39m[90m 59 |[39m   margin[33m-[39mtop[33m:[39m [35m10[39m[33m%[39m[33m;[39m[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 60 |[39m [32m`;[39m[0m
-  [0m [90m 61 |[39m[0m
-  [0m [90m 62 |[39m [32mexport default Player;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/player/player.tsx[22m:[32m[1m59:10[22m[39m
-[90mTS2363: [39mThe right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
-  [0m [90m 57 |[39m[0m
-  [0m [90m 58 |[39m [32mconst Space = styled.div`[39m[0m
-  [0m[31m[1m>[22m[39m[90m 59 |[39m   margin[33m-[39mtop[33m:[39m [35m10[39m[33m%[39m[33m;[39m[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 60 |[39m [32m`;[39m[0m
-  [0m [90m 61 |[39m[0m
-  [0m [90m 62 |[39m [32mexport default Player;[39m[0m
-
 Found [31m[1m5 errors[22m[39m in 679 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.bd071bd98e2f18ca.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -529,16 +386,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (34870b0dd5b48e11)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/player/player.tsx[22m:[32m[1m31:12[22m[39m
-[90mTS2739: [39mType '{}' is missing the following properties from type 'CardProps': title, imageUrl, description, route
-  [0m [90m 29 |[39m           [33m<[39m[33mList[39m [33m/[39m[33m>[39m[0m
-  [0m [90m 30 |[39m           [33m<[39m[33mSpace[39m [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m           [33m<[39m[33mCard[39m [33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 33 |[39m         [33m<[39m[33mIonFooter[39m[33m>[39m[0m
-  [0m [90m 34 |[39m           [33m<[39m[33mTabs[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 685 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.34870b0dd5b48e11.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -553,16 +400,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (c39d47b9d7268d4b)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/player/player.tsx[22m:[32m[1m31:12[22m[39m
-[90mTS2739: [39mType '{ title: string; }' is missing the following properties from type 'CardProps': imageUrl, description, route
-  [0m [90m 29 |[39m           [33m<[39m[33mList[39m [33m/[39m[33m>[39m[0m
-  [0m [90m 30 |[39m           [33m<[39m[33mSpace[39m [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m           [33m<[39m[33mCard[39m title[33m=[39m[32m""[39m[33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 33 |[39m         [33m<[39m[33mIonFooter[39m[33m>[39m[0m
-  [0m [90m 34 |[39m           [33m<[39m[33mTabs[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 416 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.c39d47b9d7268d4b.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -577,16 +414,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (87f0a833954a9811)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/player/player.tsx[22m:[32m[1m31:12[22m[39m
-[90mTS2739: [39mType '{ title: string; }' is missing the following properties from type 'CardProps': imageUrl, description, route
-  [0m [90m 29 |[39m           [33m<[39m[33mList[39m [33m/[39m[33m>[39m[0m
-  [0m [90m 30 |[39m           [33m<[39m[33mSpace[39m [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m           [33m<[39m[33mCard[39m title[33m=[39m[32m"Alimentación"[39m[33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 33 |[39m         [33m<[39m[33mIonFooter[39m[33m>[39m[0m
-  [0m [90m 34 |[39m           [33m<[39m[33mTabs[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 534 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.87f0a833954a9811.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -601,16 +428,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (7ea2a039c2f738da)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/player/player.tsx[22m:[32m[1m31:12[22m[39m
-[90mTS2739: [39mType '{ title: string; }' is missing the following properties from type 'CardProps': imageUrl, description, route
-  [0m [90m 29 |[39m           [33m<[39m[33mList[39m [33m/[39m[33m>[39m[0m
-  [0m [90m 30 |[39m           [33m<[39m[33mSpace[39m [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m           [33m<[39m[33mCard[39m title[33m=[39m[32m"Alimentación"[39m [33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 33 |[39m         [33m<[39m[33mIonFooter[39m[33m>[39m[0m
-  [0m [90m 34 |[39m           [33m<[39m[33mTabs[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 439 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.7ea2a039c2f738da.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -625,16 +442,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (8afe8ae8f059d357)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/player/player.tsx[22m:[32m[1m31:12[22m[39m
-[90mTS2739: [39mType '{ title: string; description: string; }' is missing the following properties from type 'CardProps': imageUrl, route
-  [0m [90m 29 |[39m           [33m<[39m[33mList[39m [33m/[39m[33m>[39m[0m
-  [0m [90m 30 |[39m           [33m<[39m[33mSpace[39m [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m           [33m<[39m[33mCard[39m title[33m=[39m[32m"Alimentación"[39m description[33m=[39m[32m""[39m[33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 33 |[39m         [33m<[39m[33mIonFooter[39m[33m>[39m[0m
-  [0m [90m 34 |[39m           [33m<[39m[33mTabs[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 450 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.8afe8ae8f059d357.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -649,16 +456,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (b539df0985b430f8)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/player/player.tsx[22m:[32m[1m31:12[22m[39m
-[90mTS2739: [39mType '{ title: string; description: string; }' is missing the following properties from type 'CardProps': imageUrl, route
-  [0m [90m 29 |[39m           [33m<[39m[33mList[39m [33m/[39m[33m>[39m[0m
-  [0m [90m 30 |[39m           [33m<[39m[33mSpace[39m [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m           [33m<[39m[33mCard[39m title[33m=[39m[32m"Alimentación"[39m description[33m=[39m[32m""[39m [33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 33 |[39m         [33m<[39m[33mIonFooter[39m[33m>[39m[0m
-  [0m [90m 34 |[39m           [33m<[39m[33mTabs[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 457 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.b539df0985b430f8.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -673,16 +470,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (b61b5c33fc12a3e4)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/player/player.tsx[22m:[32m[1m31:17[22m[39m
-[90mTS2322: [39mType 'boolean' is not assignable to type 'string'.
-  [0m [90m 29 |[39m           [33m<[39m[33mList[39m [33m/[39m[33m>[39m[0m
-  [0m [90m 30 |[39m           [33m<[39m[33mSpace[39m [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m           [33m<[39m[33mCard[39m route title[33m=[39m[32m"Alimentación"[39m description[33m=[39m[32m""[39m [33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 33 |[39m         [33m<[39m[33mIonFooter[39m[33m>[39m[0m
-  [0m [90m 34 |[39m           [33m<[39m[33mTabs[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 656 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.b61b5c33fc12a3e4.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -697,16 +484,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (9e1c7de4373b7753)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/player/player.tsx[22m:[32m[1m31:12[22m[39m
-[90mTS2741: [39mProperty 'imageUrl' is missing in type '{ route: string; title: string; description: string; }' but required in type 'CardProps'.
-  [0m [90m 29 |[39m           [33m<[39m[33mList[39m [33m/[39m[33m>[39m[0m
-  [0m [90m 30 |[39m           [33m<[39m[33mSpace[39m [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m           [33m<[39m[33mCard[39m route[33m=[39m[32m""[39m title[33m=[39m[32m"Alimentación"[39m description[33m=[39m[32m""[39m [33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 33 |[39m         [33m<[39m[33mIonFooter[39m[33m>[39m[0m
-  [0m [90m 34 |[39m           [33m<[39m[33mTabs[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 455 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.9e1c7de4373b7753.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -721,16 +498,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (a11038775b5c6402)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/player/player.tsx[22m:[32m[1m31:12[22m[39m
-[90mTS2741: [39mProperty 'imageUrl' is missing in type '{ route: string; title: string; description: string; }' but required in type 'CardProps'.
-  [0m [90m 29 |[39m           [33m<[39m[33mList[39m [33m/[39m[33m>[39m[0m
-  [0m [90m 30 |[39m           [33m<[39m[33mSpace[39m [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m           [33m<[39m[33mCard[39m route[33m=[39m[32m""[39m title[33m=[39m[32m"Alimentación"[39m  description[33m=[39m[32m""[39m [33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m         [33m<[39m[33m/[39m[33mIonContent[39m[33m>[39m[0m
-  [0m [90m 33 |[39m         [33m<[39m[33mIonFooter[39m[33m>[39m[0m
-  [0m [90m 34 |[39m           [33m<[39m[33mTabs[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 435 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.a11038775b5c6402.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -969,17 +736,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (cb6ebb2fadef2ac7)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m27:17[22m[39m
-[90mTS2322: [39mType '{ imageUrl: string; name: string; on: true; }' is not assignable to type 'IntrinsicAttributes & AvatarProps'.
-  Property 'on' does not exist on type 'IntrinsicAttributes & AvatarProps'.
-  [0m [90m 25 |[39m                 imageUrl[33m=[39m[32m"https://ionicframework.com/docs/img/demos/avatar.svg"[39m[0m
-  [0m [90m 26 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m[31m[1m>[22m[39m[90m 27 |[39m                 on[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 28 |[39m               [33m/[39m[33m>[39m[0m
-  [0m [90m 29 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mPerson[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 571 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.cb6ebb2fadef2ac7.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1008,22 +764,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (e545739927467986)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m12:19[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: PolymorphicComponentProps<"web", FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, void, void, {}, {}>): Element', gave the following error.
-    Type '{ children: Element; on: true; }' is not assignable to type 'IntrinsicAttributes & FastOmit<Substitute<FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, FastOmit<...>>, keyof ExecutionProps> & FastOmit<...> & { ...; }'.
-      Property 'on' does not exist on type 'IntrinsicAttributes & FastOmit<Substitute<FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, FastOmit<...>>, keyof ExecutionProps> & FastOmit<...> & { ...; }'.
-  Overload 2 of 2, '(props: FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<HTMLIonAvatarElement>, never>): ReactNode', gave the following error.
-    Type '{ children: Element; on: true; }' is not assignable to type 'IntrinsicAttributes & FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>'.
-      Property 'on' does not exist on type 'IntrinsicAttributes & FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>'.
-  [0m [90m 10 |[39m   [36mreturn[39m ([0m
-  [0m [90m 11 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 12 |[39m       [33m<[39m[33mAvatarIcon[39m on[33m>[39m[0m
-  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 13 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 726 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.e545739927467986.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1038,22 +778,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (31cc51e55be25d8c)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m12:19[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: PolymorphicComponentProps<"web", FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, void, void, {}, {}>): Element', gave the following error.
-    Type '{ children: Element; oncl: true; }' is not assignable to type 'IntrinsicAttributes & FastOmit<Substitute<FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, FastOmit<...>>, keyof ExecutionProps> & FastOmit<...> & { ...; }'.
-      Property 'oncl' does not exist on type 'IntrinsicAttributes & FastOmit<Substitute<FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, FastOmit<...>>, keyof ExecutionProps> & FastOmit<...> & { ...; }'.
-  Overload 2 of 2, '(props: FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<HTMLIonAvatarElement>, never>): ReactNode', gave the following error.
-    Type '{ children: Element; oncl: true; }' is not assignable to type 'IntrinsicAttributes & FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>'.
-      Property 'oncl' does not exist on type 'IntrinsicAttributes & FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>'.
-  [0m [90m 10 |[39m   [36mreturn[39m ([0m
-  [0m [90m 11 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 12 |[39m       [33m<[39m[33mAvatarIcon[39m oncl[33m>[39m[0m
-  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 13 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 489 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.31cc51e55be25d8c.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -1131,16 +855,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/avatar/avat
 
 webpack compiled with [1m[31m1 error[39m[22m (5574927a80c22a31)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m12:27[22m[39m
-[90mTS17000: [39mJSX attributes must only be assigned a non-empty 'expression'.
-  [0m [90m 10 |[39m   [36mreturn[39m ([0m
-  [0m [90m 11 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 12 |[39m       [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{}[33m>[39m[0m
-  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 13 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 441 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.31cc51e55be25d8c.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1155,16 +869,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (ecb5d6afa250875f)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m12:28[22m[39m
-[90mTS2304: [39mCannot find name 'player'.
-  [0m [90m 10 |[39m   [36mreturn[39m ([0m
-  [0m [90m 11 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 12 |[39m       [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 13 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 478 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.ecb5d6afa250875f.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1179,16 +883,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (adf6ae18175ec629)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m9:35[22m[39m
-[90mTS2339: [39mProperty 'player' does not exist on type 'AvatarProps'.
-  [0m [90m  7 |[39m }[33m;[39m[0m
-  [0m [90m  8 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m  9 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 10 |[39m   [36mreturn[39m ([0m
-  [0m [90m 11 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 12 |[39m       [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 589 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.adf6ae18175ec629.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1203,40 +897,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (1c36888a2b86c576)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:19[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: PolymorphicComponentProps<"web", FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, void, void, {}, {}>): Element', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  Overload 2 of 2, '(props: FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<HTMLIonAvatarElement>, never>): ReactNode', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  [0m [90m 11 |[39m   [36mreturn[39m ([0m
-  [0m [90m 12 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m       [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 16 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m24:16[22m[39m
-[90mTS2741: [39mProperty 'player' is missing in type '{ imageUrl: string; name: string; }' but required in type 'AvatarProps'.
-  [0m [90m 22 |[39m           [33m<[39m[33mPersonsContainer[39m[33m>[39m[0m
-  [0m [90m 23 |[39m             [33m<[39m[33mPerson[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 24 |[39m               [33m<[39m[33mAvatar[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 25 |[39m                 imageUrl[33m=[39m[32m"https://ionicframework.com/docs/img/demos/avatar.svg"[39m[0m
-  [0m [90m 26 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m [90m 27 |[39m               [33m/[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m30:16[22m[39m
-[90mTS2741: [39mProperty 'player' is missing in type '{ imageUrl: string; name: string; }' but required in type 'AvatarProps'.
-  [0m [90m 28 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 29 |[39m             [33m<[39m[33mPerson[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 30 |[39m               [33m<[39m[33mAvatar[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 31 |[39m                 imageUrl[33m=[39m[32m"https://ionicframework.com/docs/img/demos/avatar.svg"[39m[0m
-  [0m [90m 32 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m [90m 33 |[39m               [33m/[39m[33m>[39m[0m
-
 Found [31m[1m3 errors[22m[39m in 799 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.1c36888a2b86c576.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -1314,40 +974,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/team/team.tsx: J
 
 webpack compiled with [1m[31m1 error[39m[22m (4a3853001bb0f4e9)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:19[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: PolymorphicComponentProps<"web", FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, void, void, {}, {}>): Element', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  Overload 2 of 2, '(props: FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<HTMLIonAvatarElement>, never>): ReactNode', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  [0m [90m 11 |[39m   [36mreturn[39m ([0m
-  [0m [90m 12 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m       [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 16 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m27:17[22m[39m
-[90mTS2322: [39mType 'boolean' is not assignable to type 'string'.
-  [0m [90m 25 |[39m                 imageUrl[33m=[39m[32m"https://ionicframework.com/docs/img/demos/avatar.svg"[39m[0m
-  [0m [90m 26 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m[31m[1m>[22m[39m[90m 27 |[39m                 player[33m=[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 28 |[39m               [33m/[39m[33m>[39m[0m
-  [0m [90m 29 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mPerson[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m31:16[22m[39m
-[90mTS2741: [39mProperty 'player' is missing in type '{ imageUrl: string; name: string; }' but required in type 'AvatarProps'.
-  [0m [90m 29 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mPerson[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m               [33m<[39m[33mAvatar[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m                 imageUrl[33m=[39m[32m"https://ionicframework.com/docs/img/demos/avatar.svg"[39m[0m
-  [0m [90m 33 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m [90m 34 |[39m               [33m/[39m[33m>[39m[0m
-
 Found [31m[1m3 errors[22m[39m in 478 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.1c36888a2b86c576.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1362,30 +988,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (f7a5bdc331215c8b)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:19[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: PolymorphicComponentProps<"web", FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, void, void, {}, {}>): Element', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  Overload 2 of 2, '(props: FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<HTMLIonAvatarElement>, never>): ReactNode', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  [0m [90m 11 |[39m   [36mreturn[39m ([0m
-  [0m [90m 12 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m       [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 16 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m31:16[22m[39m
-[90mTS2741: [39mProperty 'player' is missing in type '{ imageUrl: string; name: string; }' but required in type 'AvatarProps'.
-  [0m [90m 29 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mPerson[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m               [33m<[39m[33mAvatar[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m                 imageUrl[33m=[39m[32m"https://ionicframework.com/docs/img/demos/avatar.svg"[39m[0m
-  [0m [90m 33 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m [90m 34 |[39m               [33m/[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 439 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.f7a5bdc331215c8b.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1400,30 +1002,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (bc8203931cfd8c5d)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:19[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: PolymorphicComponentProps<"web", FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, void, void, {}, {}>): Element', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  Overload 2 of 2, '(props: FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<HTMLIonAvatarElement>, never>): ReactNode', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  [0m [90m 11 |[39m   [36mreturn[39m ([0m
-  [0m [90m 12 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m       [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 16 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m31:16[22m[39m
-[90mTS2741: [39mProperty 'player' is missing in type '{ imageUrl: string; name: string; }' but required in type 'AvatarProps'.
-  [0m [90m 29 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mPerson[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m               [33m<[39m[33mAvatar[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m                 imageUrl[33m=[39m[32m"https://ionicframework.com/docs/img/demos/avatar.svg"[39m[0m
-  [0m [90m 33 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m [90m 34 |[39m               [33m/[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 431 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.98 MiB (6.43 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.76 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 120 KiB 8 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
@@ -1437,30 +1015,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (bc8203931cfd8c5d)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:19[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: PolymorphicComponentProps<"web", FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, void, void, {}, {}>): Element', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  Overload 2 of 2, '(props: FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<HTMLIonAvatarElement>, never>): ReactNode', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  [0m [90m 11 |[39m   [36mreturn[39m ([0m
-  [0m [90m 12 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m       [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 16 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m31:16[22m[39m
-[90mTS2741: [39mProperty 'player' is missing in type '{ imageUrl: string; name: string; }' but required in type 'AvatarProps'.
-  [0m [90m 29 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mPerson[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m               [33m<[39m[33mAvatar[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m                 imageUrl[33m=[39m[32m"https://ionicframework.com/docs/img/demos/avatar.svg"[39m[0m
-  [0m [90m 33 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m [90m 34 |[39m               [33m/[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 179 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.bc8203931cfd8c5d.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1475,30 +1029,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (aace5c88420f1cb7)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:19[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: PolymorphicComponentProps<"web", FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, void, void, {}, {}>): Element', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  Overload 2 of 2, '(props: FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<HTMLIonAvatarElement>, never>): ReactNode', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  [0m [90m 11 |[39m   [36mreturn[39m ([0m
-  [0m [90m 12 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m       [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 16 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m31:16[22m[39m
-[90mTS2741: [39mProperty 'player' is missing in type '{ imageUrl: string; name: string; }' but required in type 'AvatarProps'.
-  [0m [90m 29 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mPerson[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m               [33m<[39m[33mAvatar[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m                 imageUrl[33m=[39m[32m"https://ionicframework.com/docs/img/demos/avatar.svg"[39m[0m
-  [0m [90m 33 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m [90m 34 |[39m               [33m/[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 658 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.aace5c88420f1cb7.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1513,20 +1043,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (938e9e959382b63f)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:19[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: PolymorphicComponentProps<"web", FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, void, void, {}, {}>): Element', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  Overload 2 of 2, '(props: FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<HTMLIonAvatarElement>, never>): ReactNode', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  [0m [90m 11 |[39m   [36mreturn[39m ([0m
-  [0m [90m 12 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m       [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 16 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 546 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.938e9e959382b63f.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -1604,26 +1120,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/avatar/avat
 
 webpack compiled with [1m[31m1 error[39m[22m (a2cfc16d9b9d9816)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m15:8[22m[39m
-[90mTS2749: [39m'AvatarIcon' refers to a value, but is being used as a type here. Did you mean 'typeof AvatarIcon'?
-  [0m [90m 13 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mLink[39m[0m
-  [0m[31m[1m>[22m[39m[90m 15 |[39m       [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 16 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 17 |[39m       [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 18 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m15:19[22m[39m
-[90mTS2322: [39mType 'string' is not assignable to type 'MouseEventHandler<HTMLAnchorElement>'.
-  [0m [90m 13 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mLink[39m[0m
-  [0m[31m[1m>[22m[39m[90m 15 |[39m       [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 16 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 17 |[39m       [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 18 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 577 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.938e9e959382b63f.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1638,30 +1134,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (10ea4462a8715ac1)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m14:8[22m[39m
-[90mTS2741: [39mProperty 'to' is missing in type '{}' but required in type 'LinkProps<unknown>'.
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m [90m 13 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 14 |[39m       [33m<[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 17 |[39m       [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m15:19[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: PolymorphicComponentProps<"web", FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, void, void, {}, {}>): Element', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  Overload 2 of 2, '(props: FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<HTMLIonAvatarElement>, never>): ReactNode', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  [0m [90m 13 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 15 |[39m       [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 16 |[39m         [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 17 |[39m       [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 18 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 513 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.10ea4462a8715ac1.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1676,30 +1148,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (4461f93519b6332c)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m14:8[22m[39m
-[90mTS2741: [39mProperty 'to' is missing in type '{ children: Element; }' but required in type 'LinkProps<unknown>'.
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m [90m 13 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 14 |[39m       [33m<[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 17 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m15:21[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: PolymorphicComponentProps<"web", FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, void, void, {}, {}>): Element', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  Overload 2 of 2, '(props: FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<HTMLIonAvatarElement>, never>): ReactNode', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  [0m [90m 13 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mLink[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 15 |[39m         [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 17 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 18 |[39m       [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 511 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.4461f93519b6332c.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1714,30 +1162,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (0b26588ab95f27df)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m14:13[22m[39m
-[90mTS2322: [39mType 'boolean' is not assignable to type 'LocationDescriptor<unknown> | ((location: Location<unknown>) => LocationDescriptor<unknown>)'.
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m [90m 13 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 14 |[39m       [33m<[39m[33mLink[39m to[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 17 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m15:21[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: PolymorphicComponentProps<"web", FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, void, void, {}, {}>): Element', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  Overload 2 of 2, '(props: FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<HTMLIonAvatarElement>, never>): ReactNode', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  [0m [90m 13 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mLink[39m to[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 15 |[39m         [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 17 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 18 |[39m       [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 519 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.0b26588ab95f27df.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1752,20 +1176,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (77770c5f6bbe62e5)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m15:21[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: PolymorphicComponentProps<"web", FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, void, void, {}, {}>): Element', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  Overload 2 of 2, '(props: FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<HTMLIonAvatarElement>, never>): ReactNode', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  [0m [90m 13 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 15 |[39m         [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 17 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 18 |[39m       [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 465 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.98 MiB (6.43 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.76 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 121 KiB 8 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
@@ -1779,20 +1189,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (77770c5f6bbe62e5)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m15:21[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: PolymorphicComponentProps<"web", FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<...>, never>, void, void, {}, {}>): Element', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  Overload 2 of 2, '(props: FastOmit<IonAvatar & Omit<HTMLAttributes<HTMLIonAvatarElement>, "style"> & StyleReactProps & RefAttributes<HTMLIonAvatarElement>, never>): ReactNode', gave the following error.
-    Type 'string' is not assignable to type 'MouseEventHandler<HTMLIonAvatarElement>'.
-  [0m [90m 13 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 15 |[39m         [33m<[39m[33mAvatarIcon[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 17 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 18 |[39m       [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 360 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.77770c5f6bbe62e5.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1884,16 +1280,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/team/team.tsx: U
 
 webpack compiled with [1m[31m1 error[39m[22m (1992c62fe40d3bc6)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m32:16[22m[39m
-[90mTS2749: [39m'Avatar' refers to a value, but is being used as a type here. Did you mean 'typeof Avatar'?
-  [0m [90m 30 |[39m             [33m<[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 31 |[39m               [33m<[39m[0m
-  [0m[31m[1m>[22m[39m[90m 32 |[39m               [33m<[39m[33mAvatar[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 33 |[39m                 imageUrl[33m=[39m[32m"https://ionicframework.com/docs/img/demos/avatar.svg"[39m[0m
-  [0m [90m 34 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m [90m 35 |[39m                 player[33m=[39m[32m"/home/team/player"[39m[0m
-
 Found [31m[1m1 error[22m[39m in 622 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.7206e125421c52c4.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1998,7 +1384,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (1da734629f06ed81)
-<i> [1m[32m[webpack-dev-middleware] wait until bundle finished: /runtime.8106febe8cc526a5.hot-update.json[39m[22m
 [36mType-checking in progress...[39m
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.1da734629f06ed81.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2104,59 +1489,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/avatar/avat
 
 webpack compiled with [1m[31m1 error[39m[22m (69e62ee8875dda5c)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:6[22m[39m
-[90mTS2786: [39m'Touch' cannot be used as a JSX component.
-  Its type '{ new (touchInitDict: TouchInit): Touch; prototype: Touch; }' is not a valid JSX element type.
-    Type '{ new (touchInitDict: TouchInit): Touch; prototype: Touch; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
-      Type 'Touch' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mTouch[39m[0m
-  [0m [90m    |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m14:6[22m[39m
-[90mTS2558: [39mExpected 0 type arguments, but got 1.
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m [90m 13 |[39m     [33m<[39m[33mTouch[39m[0m
-  [0m[31m[1m>[22m[39m[90m 14 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 17 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m14:6[22m[39m
-[90mTS2749: [39m'AvatarContainer' refers to a value, but is being used as a type here. Did you mean 'typeof AvatarContainer'?
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m [90m 13 |[39m     [33m<[39m[33mTouch[39m[0m
-  [0m[31m[1m>[22m[39m[90m 14 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 17 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m21:7[22m[39m
-[90mTS2448: [39mBlock-scoped variable 'AvatarContainer' used before its declaration.
-  [0m [90m 19 |[39m       [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 20 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 21 |[39m     [33m<[39m[33m/[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 22 |[39m   )[33m;[39m[0m
-  [0m [90m 23 |[39m }[33m;[39m[0m
-  [0m [90m 24 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m21:7[22m[39m
-[90mTS2454: [39mVariable 'AvatarContainer' is used before being assigned.
-  [0m [90m 19 |[39m       [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 20 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 21 |[39m     [33m<[39m[33m/[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 22 |[39m   )[33m;[39m[0m
-  [0m [90m 23 |[39m }[33m;[39m[0m
-  [0m [90m 24 |[39m[0m
-
 Found [31m[1m5 errors[22m[39m in 565 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.5aea8f9508febcea.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -2234,19 +1566,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/avatar/avat
 
 webpack compiled with [1m[31m1 error[39m[22m (912caf396c2704dc)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:6[22m[39m
-[90mTS2786: [39m'TouchEvent' cannot be used as a JSX component.
-  Its type '{ new (type: string, eventInitDict?: TouchEventInit | undefined): TouchEvent; prototype: TouchEvent; }' is not a valid JSX element type.
-    Type '{ new (type: string, eventInitDict?: TouchEventInit | undefined): TouchEvent; prototype: TouchEvent; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
-      Type 'TouchEvent' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mTouchEvent[39m[33m>[39m[33m<[39m[33m/[39m[33mTouchEvent[39m[33m>[39m[0m
-  [0m [90m    |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 583 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.5aea8f9508febcea.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -2324,69 +1643,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/avatar/avat
 
 webpack compiled with [1m[31m1 error[39m[22m (325c9424bd490d6d)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:6[22m[39m
-[90mTS2786: [39m'TouchEvent' cannot be used as a JSX component.
-  Its type '{ new (type: string, eventInitDict?: TouchEventInit | undefined): TouchEvent; prototype: TouchEvent; }' is not a valid JSX element type.
-    Type '{ new (type: string, eventInitDict?: TouchEventInit | undefined): TouchEvent; prototype: TouchEvent; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
-      Type 'TouchEvent' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mTouchEvent[39m[33m>[39m[0m
-  [0m [90m    |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m14:6[22m[39m
-[90mTS2304: [39mCannot find name 'AvatarContainer'.
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m [90m 13 |[39m     [33m<[39m[33mTouchEvent[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 14 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 17 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m16:10[22m[39m
-[90mTS2304: [39mCannot find name 'AvatarIcon'.
-  [0m [90m 14 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 16 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 17 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 18 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 19 |[39m       [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m18:11[22m[39m
-[90mTS2304: [39mCannot find name 'AvatarIcon'.
-  [0m [90m 16 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 17 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 18 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 19 |[39m       [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 20 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-  [0m [90m 21 |[39m     [33m<[39m[33m/[39m[33mAvatarContainer[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m21:7[22m[39m
-[90mTS2304: [39mCannot find name 'AvatarContainer'.
-  [0m [90m 19 |[39m       [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 20 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 21 |[39m     [33m<[39m[33m/[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 22 |[39m   )[33m;[39m[0m
-  [0m [90m 23 |[39m }[33m;[39m[0m
-  [0m [90m 24 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m9:8[22m[39m
-[90mTS1192: [39mModule '"/Users/albapalomino/TouchSports/frontend/src/components/avatar/avatar"' has no default export.
-  [0m [90m  7 |[39m } [36mfrom[39m [32m"@ionic/react"[39m[33m;[39m[0m
-  [0m [90m  8 |[39m [36mimport[39m styled [36mfrom[39m [32m"styled-components"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m  9 |[39m [36mimport[39m [33mAvatar[39m [36mfrom[39m [32m"frontend/src/components/avatar/avatar"[39m[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 10 |[39m [36mimport[39m [33mTabs[39m [36mfrom[39m [32m"frontend/src/components/tabs/tabs"[39m[33m;[39m[0m
-  [0m [90m 11 |[39m [36mimport[39m [33mMenu[39m [36mfrom[39m [32m"frontend/src/components/menu/menu"[39m[33m;[39m[0m
-  [0m [90m 12 |[39m[0m
-
 Found [31m[1m6 errors[22m[39m in 492 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.5aea8f9508febcea.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2401,19 +1657,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (68686553d3dd4ea3)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:6[22m[39m
-[90mTS2786: [39m'TouchEvent' cannot be used as a JSX component.
-  Its type '{ new (type: string, eventInitDict?: TouchEventInit | undefined): TouchEvent; prototype: TouchEvent; }' is not a valid JSX element type.
-    Type '{ new (type: string, eventInitDict?: TouchEventInit | undefined): TouchEvent; prototype: TouchEvent; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
-      Type 'TouchEvent' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mTouchEvent[39m[33m>[39m[0m
-  [0m [90m    |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 588 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.98 MiB (6.43 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.76 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 121 KiB 8 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
@@ -2427,19 +1670,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (68686553d3dd4ea3)
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:6[22m[39m
-[90mTS2786: [39m'TouchEvent' cannot be used as a JSX component.
-  Its type '{ new (type: string, eventInitDict?: TouchEventInit | undefined): TouchEvent; prototype: TouchEvent; }' is not a valid JSX element type.
-    Type '{ new (type: string, eventInitDict?: TouchEventInit | undefined): TouchEvent; prototype: TouchEvent; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
-      Type 'TouchEvent' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mTouchEvent[39m[33m>[39m[0m
-  [0m [90m    |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 163 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.68686553d3dd4ea3.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2608,56 +1838,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/avatar/avat
 
 webpack compiled with [1m[31m1 error[39m[22m (7eb651fa3610b93b)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m14:6[22m[39m
-[90mTS2304: [39mCannot find name 'AvatarContainer'.
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m [90m 13 |[39m     [33m<[39m[33mIonButton[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 14 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 17 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m16:10[22m[39m
-[90mTS2304: [39mCannot find name 'AvatarIcon'.
-  [0m [90m 14 |[39m     [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 16 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 17 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 18 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 19 |[39m       [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m18:11[22m[39m
-[90mTS2304: [39mCannot find name 'AvatarIcon'.
-  [0m [90m 16 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 17 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 18 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 19 |[39m       [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 20 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-  [0m [90m 21 |[39m     [33m<[39m[33m/[39m[33mAvatarContainer[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m21:7[22m[39m
-[90mTS2304: [39mCannot find name 'AvatarContainer'.
-  [0m [90m 19 |[39m       [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
-  [0m [90m 20 |[39m       [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 21 |[39m     [33m<[39m[33m/[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 22 |[39m   )[33m;[39m[0m
-  [0m [90m 23 |[39m }[33m;[39m[0m
-  [0m [90m 24 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m9:8[22m[39m
-[90mTS1192: [39mModule '"/Users/albapalomino/TouchSports/frontend/src/components/avatar/avatar"' has no default export.
-  [0m [90m  7 |[39m } [36mfrom[39m [32m"@ionic/react"[39m[33m;[39m[0m
-  [0m [90m  8 |[39m [36mimport[39m styled [36mfrom[39m [32m"styled-components"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m  9 |[39m [36mimport[39m [33mAvatar[39m [36mfrom[39m [32m"frontend/src/components/avatar/avatar"[39m[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 10 |[39m [36mimport[39m [33mTabs[39m [36mfrom[39m [32m"frontend/src/components/tabs/tabs"[39m[33m;[39m[0m
-  [0m [90m 11 |[39m [36mimport[39m [33mMenu[39m [36mfrom[39m [32m"frontend/src/components/menu/menu"[39m[33m;[39m[0m
-  [0m [90m 12 |[39m[0m
-
 Found [31m[1m5 errors[22m[39m in 490 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.6120dba352f4d875.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2749,16 +1929,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/avatar/avat
 
 webpack compiled with [1m[31m1 error[39m[22m (3fb3e07061cd354e)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:24[22m[39m
-[90mTS17000: [39mJSX attributes must only be assigned a non-empty 'expression'.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{}[33m>[39m[0m
-  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 501 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.63c37ef36cba1557.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2773,16 +1943,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (ad8354e8c4f4c544)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:25[22m[39m
-[90mTS2304: [39mCannot find name 'pla'.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{pla}[33m>[39m[0m
-  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 787 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.ad8354e8c4f4c544.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2797,16 +1957,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (a087888e6c6ee241)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:16[22m[39m
-[90mTS2322: [39mType 'string' is not assignable to type 'MouseEventHandler<HTMLIonButtonElement>'.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{player}[33m>[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 500 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.a087888e6c6ee241.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -2884,36 +2034,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/avatar/avat
 
 webpack compiled with [1m[31m1 error[39m[22m (deb70f6fc3733551)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:25[22m[39m
-[90mTS2558: [39mExpected 0 type arguments, but got 1.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mIonButton[39m         [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick([32m"/ruta-de-destino"[39m)}[33m>[39m[0m
-  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m     [33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 16 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:25[22m[39m
-[90mTS2749: [39m'IonButton' refers to a value, but is being used as a type here. Did you mean 'typeof IonButton'?
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mIonButton[39m         [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick([32m"/ruta-de-destino"[39m)}[33m>[39m[0m
-  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m     [33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 16 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:50[22m[39m
-[90mTS2304: [39mCannot find name 'handleButtonClick'.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mIonButton[39m         [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick([32m"/ruta-de-destino"[39m)}[33m>[39m[0m
-  [0m [90m    |[39m                                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m     [33m>[39m[0m
-  [0m [90m 15 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 16 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-
 Found [31m[1m3 errors[22m[39m in 668 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.a087888e6c6ee241.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -2991,36 +2111,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/avatar/avat
 
 webpack compiled with [1m[31m1 error[39m[22m (f3f5629c5d662e13)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:25[22m[39m
-[90mTS2558: [39mExpected 0 type arguments, but got 1.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mIonButton[39m         [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick([32m"/ruta-de-destino"[39m)}[33m>[39m    [33m>[39m[0m
-  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:25[22m[39m
-[90mTS2749: [39m'IonButton' refers to a value, but is being used as a type here. Did you mean 'typeof IonButton'?
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mIonButton[39m         [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick([32m"/ruta-de-destino"[39m)}[33m>[39m    [33m>[39m[0m
-  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:50[22m[39m
-[90mTS2304: [39mCannot find name 'handleButtonClick'.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mIonButton[39m         [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick([32m"/ruta-de-destino"[39m)}[33m>[39m    [33m>[39m[0m
-  [0m [90m    |[39m                                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m3 errors[22m[39m in 527 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.a087888e6c6ee241.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -3098,36 +2188,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/avatar/avat
 
 webpack compiled with [1m[31m1 error[39m[22m (fecfbf9379da7c9a)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:25[22m[39m
-[90mTS2558: [39mExpected 0 type arguments, but got 1.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mIonButton[39m         [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick([32m"/ruta-de-destino"[39m)}    [33m>[39m[0m
-  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:25[22m[39m
-[90mTS2749: [39m'IonButton' refers to a value, but is being used as a type here. Did you mean 'typeof IonButton'?
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mIonButton[39m         [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick([32m"/ruta-de-destino"[39m)}    [33m>[39m[0m
-  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:50[22m[39m
-[90mTS2304: [39mCannot find name 'handleButtonClick'.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mIonButton[39m         [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick([32m"/ruta-de-destino"[39m)}    [33m>[39m[0m
-  [0m [90m    |[39m                                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m3 errors[22m[39m in 491 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.a087888e6c6ee241.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3142,16 +2202,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (14ebef4823bf7aee)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:31[22m[39m
-[90mTS2304: [39mCannot find name 'handleButtonClick'.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick([32m"/ruta-de-destino"[39m)}    [33m>[39m[0m
-  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 562 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.14ebef4823bf7aee.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3166,16 +2216,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (192cf6b980216a03)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:31[22m[39m
-[90mTS2304: [39mCannot find name 'handleButtonClick'.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick({player})}    [33m>[39m[0m
-  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 15 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 16 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 627 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.192cf6b980216a03.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -3253,36 +2293,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/avatar/avat
 
 webpack compiled with [1m[31m1 error[39m[22m (72e3842d2cdd4257)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:9[22m[39m
-[90mTS1155: [39m'const' declarations must be initialized.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m   [36mconst[39m handleButton[0m
-  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m[0m
-  [0m [90m 15 |[39m   [36mreturn[39m ([0m
-  [0m [90m 16 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick({player})}    [33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:9[22m[39m
-[90mTS7005: [39mVariable 'handleButton' implicitly has an 'any' type.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m   [36mconst[39m handleButton[0m
-  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m[0m
-  [0m [90m 15 |[39m   [36mreturn[39m ([0m
-  [0m [90m 16 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick({player})}    [33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m16:31[22m[39m
-[90mTS2552: [39mCannot find name 'handleButtonClick'. Did you mean 'handleButton'?
-  [0m [90m 14 |[39m[0m
-  [0m [90m 15 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 16 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick({player})}    [33m>[39m[0m
-  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 17 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 18 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 19 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m3 errors[22m[39m in 720 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.192cf6b980216a03.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -3360,26 +2370,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/avatar/avat
 
 webpack compiled with [1m[31m1 error[39m[22m (726fb4955c5f864a)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:9[22m[39m
-[90mTS7005: [39mVariable 'handleButtonClic' implicitly has an 'any' type.
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m   [36mconst[39m handleButtonClic()[0m
-  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m[0m
-  [0m [90m 15 |[39m   [36mreturn[39m ([0m
-  [0m [90m 16 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick({player})}    [33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m16:31[22m[39m
-[90mTS2552: [39mCannot find name 'handleButtonClick'. Did you mean 'handleButtonClic'?
-  [0m [90m 14 |[39m[0m
-  [0m [90m 15 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 16 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick({player})}    [33m>[39m[0m
-  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 17 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 18 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 19 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 574 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.192cf6b980216a03.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3394,26 +2384,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (20c3c8b1a81a027d)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m13:19[22m[39m
-[90mTS2552: [39mCannot find name 'useHistory'. Did you mean 'history'?
-  [0m [90m 11 |[39m [36mconst[39m [33mAvatar[39m [33m=[39m ({ imageUrl[33m,[39m name[33m,[39m player }[33m:[39m [33mAvatarProps[39m) [33m=>[39m {[0m
-  [0m [90m 12 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 13 |[39m   [36mconst[39m history [33m=[39m useHistory()[33m;[39m[0m
-  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 14 |[39m[0m
-  [0m [90m 15 |[39m   [36mconst[39m handleButtonClick [33m=[39m (route[33m:[39m string) [33m=>[39m {[0m
-  [0m [90m 16 |[39m     history[33m.[39mpush(route)[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m19:49[22m[39m
-[90mTS2345: [39mArgument of type '{ player: string; }' is not assignable to parameter of type 'string'.
-  [0m [90m 17 |[39m   }[33m;[39m[0m
-  [0m [90m 18 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 19 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick({player})}    [33m>[39m[0m
-  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 20 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 21 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 685 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.20c3c8b1a81a027d.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3428,16 +2398,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (e40938818e3c3085)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m19:49[22m[39m
-[90mTS2345: [39mArgument of type '{ player: string; }' is not assignable to parameter of type 'string'.
-  [0m [90m 17 |[39m   }[33m;[39m[0m
-  [0m [90m 18 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 19 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick({player})}    [33m>[39m[0m
-  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 20 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 21 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 630 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.e40938818e3c3085.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3452,16 +2412,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (ad057f33ee997cd8)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m20:49[22m[39m
-[90mTS2345: [39mArgument of type '{ player: string; }' is not assignable to parameter of type 'string'.
-  [0m [90m 18 |[39m   [0m
-  [0m [90m 19 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 20 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick({player})}    [33m>[39m[0m
-  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 21 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 22 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 23 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 525 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.ad057f33ee997cd8.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3476,26 +2426,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (f8e4a7028182a52d)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m15:30[22m[39m
-[90mTS7006: [39mParameter 'player' implicitly has an 'any' type.
-  [0m [90m 13 |[39m   [36mconst[39m history [33m=[39m useHistory()[33m;[39m[0m
-  [0m [90m 14 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 15 |[39m   [36mconst[39m handleButtonClick [33m=[39m (player) [33m=>[39m {[0m
-  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 16 |[39m     history[33m.[39mpush(route)[33m;[39m[0m
-  [0m [90m 17 |[39m   }[33m;[39m[0m
-  [0m [90m 18 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m16:18[22m[39m
-[90mTS2304: [39mCannot find name 'route'.
-  [0m [90m 14 |[39m[0m
-  [0m [90m 15 |[39m   [36mconst[39m handleButtonClick [33m=[39m (player) [33m=>[39m {[0m
-  [0m[31m[1m>[22m[39m[90m 16 |[39m     history[33m.[39mpush(route)[33m;[39m[0m
-  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 17 |[39m   }[33m;[39m[0m
-  [0m [90m 18 |[39m[0m
-  [0m [90m 19 |[39m   [36mreturn[39m ([0m
-
 Found [31m[1m2 errors[22m[39m in 660 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.f8e4a7028182a52d.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3510,16 +2440,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (2473781cd52c21fc)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m20:49[22m[39m
-[90mTS2345: [39mArgument of type '{ player: string; }' is not assignable to parameter of type 'string'.
-  [0m [90m 18 |[39m   [0m
-  [0m [90m 19 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 20 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick({player})}    [33m>[39m[0m
-  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 21 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 22 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 23 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 543 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.2473781cd52c21fc.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -3597,16 +2517,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/avatar/avat
 
 webpack compiled with [1m[31m1 error[39m[22m (d16788297dfe319f)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m20:49[22m[39m
-[90mTS2345: [39mArgument of type '{ player: string; }' is not assignable to parameter of type 'string'.
-  [0m [90m 18 |[39m   [0m
-  [0m [90m 19 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 20 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick({player)}    [33m>[39m[0m
-  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 21 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 22 |[39m         [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 23 |[39m           [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 603 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.2473781cd52c21fc.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3740,17 +2650,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (574deaea6d1f8efb)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m35:17[22m[39m
-[90mTS2322: [39mType '{ imageUrl: string; name: string; player: string; on: true; }' is not assignable to type 'IntrinsicAttributes & AvatarProps'.
-  Property 'on' does not exist on type 'IntrinsicAttributes & AvatarProps'.
-  [0m [90m 33 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m [90m 34 |[39m                 player[33m=[39m[32m"/home/team/player"[39m[0m
-  [0m[31m[1m>[22m[39m[90m 35 |[39m                 on[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 36 |[39m               [33m/[39m[33m>[39m[0m
-  [0m [90m 37 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 38 |[39m           [33m<[39m[33m/[39m[33mPersonsContainer[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 628 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.574deaea6d1f8efb.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3765,17 +2664,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (c8b6aea28bb02a0f)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m35:17[22m[39m
-[90mTS2322: [39mType '{ imageUrl: string; name: string; player: string; onCli: true; }' is not assignable to type 'IntrinsicAttributes & AvatarProps'.
-  Property 'onCli' does not exist on type 'IntrinsicAttributes & AvatarProps'.
-  [0m [90m 33 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m [90m 34 |[39m                 player[33m=[39m[32m"/home/team/player"[39m[0m
-  [0m[31m[1m>[22m[39m[90m 35 |[39m                 onCli[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 36 |[39m               [33m/[39m[33m>[39m[0m
-  [0m [90m 37 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 38 |[39m           [33m<[39m[33m/[39m[33mPersonsContainer[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 461 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.c8b6aea28bb02a0f.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3790,17 +2678,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (bcbf3f350438e7ba)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m35:17[22m[39m
-[90mTS2322: [39mType '{ imageUrl: string; name: string; player: string; onClick: true; }' is not assignable to type 'IntrinsicAttributes & AvatarProps'.
-  Property 'onClick' does not exist on type 'IntrinsicAttributes & AvatarProps'.
-  [0m [90m 33 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m [90m 34 |[39m                 player[33m=[39m[32m"/home/team/player"[39m[0m
-  [0m[31m[1m>[22m[39m[90m 35 |[39m                 onClick[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 36 |[39m               [33m/[39m[33m>[39m[0m
-  [0m [90m 37 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 38 |[39m           [33m<[39m[33m/[39m[33mPersonsContainer[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 405 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.bcbf3f350438e7ba.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -3878,17 +2755,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/team/team.tsx: J
 
 webpack compiled with [1m[31m1 error[39m[22m (cde61386a1bb131f)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m35:17[22m[39m
-[90mTS2322: [39mType '{ imageUrl: string; name: string; player: string; onClick: true; }' is not assignable to type 'IntrinsicAttributes & AvatarProps'.
-  Property 'onClick' does not exist on type 'IntrinsicAttributes & AvatarProps'.
-  [0m [90m 33 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m [90m 34 |[39m                 player[33m=[39m[32m"/home/team/player"[39m[0m
-  [0m[31m[1m>[22m[39m[90m 35 |[39m                 onClick[33m=[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 36 |[39m               [33m/[39m[33m>[39m[0m
-  [0m [90m 37 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 38 |[39m           [33m<[39m[33m/[39m[33mPersonsContainer[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 517 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.bcbf3f350438e7ba.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3903,17 +2769,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (6cdec125ada0cdcd)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m35:17[22m[39m
-[90mTS2322: [39mType '{ imageUrl: string; name: string; player: string; onClick: string; }' is not assignable to type 'IntrinsicAttributes & AvatarProps'.
-  Property 'onClick' does not exist on type 'IntrinsicAttributes & AvatarProps'.
-  [0m [90m 33 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m [90m 34 |[39m                 player[33m=[39m[32m"/home/team/player"[39m[0m
-  [0m[31m[1m>[22m[39m[90m 35 |[39m                 onClick[33m=[39m[32m""[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 36 |[39m               [33m/[39m[33m>[39m[0m
-  [0m [90m 37 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 38 |[39m           [33m<[39m[33m/[39m[33mPersonsContainer[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 422 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.6cdec125ada0cdcd.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -4005,56 +2860,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/avatar/avat
 
 webpack compiled with [1m[31m1 error[39m[22m (e3730f0624aed57e)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m20:8[22m[39m
-[90mTS2304: [39mCannot find name 'AvatarContainer'.
-  [0m [90m 18 |[39m   [36mreturn[39m ([0m
-  [0m [90m 19 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick(player)}[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 20 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 21 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 23 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m21:10[22m[39m
-[90mTS2304: [39mCannot find name 'AvatarIcon'.
-  [0m [90m 19 |[39m     [33m<[39m[33mIonButton[39m onClick[33m=[39m{() [33m=>[39m handleButtonClick(player)}[33m>[39m[0m
-  [0m [90m 20 |[39m       [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 21 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 23 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 24 |[39m         [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m23:11[22m[39m
-[90mTS2304: [39mCannot find name 'AvatarIcon'.
-  [0m [90m 21 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 23 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 24 |[39m         [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-  [0m [90m 25 |[39m       [33m<[39m[33m/[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 26 |[39m   )[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m25:9[22m[39m
-[90mTS2304: [39mCannot find name 'AvatarContainer'.
-  [0m [90m 23 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 24 |[39m         [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 25 |[39m       [33m<[39m[33m/[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 26 |[39m   )[33m;[39m[0m
-  [0m [90m 27 |[39m }[33m;[39m[0m
-  [0m [90m 28 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m9:8[22m[39m
-[90mTS1192: [39mModule '"/Users/albapalomino/TouchSports/frontend/src/components/avatar/avatar"' has no default export.
-  [0m [90m  7 |[39m } [36mfrom[39m [32m"@ionic/react"[39m[33m;[39m[0m
-  [0m [90m  8 |[39m [36mimport[39m styled [36mfrom[39m [32m"styled-components"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m  9 |[39m [36mimport[39m [33mAvatar[39m [36mfrom[39m [32m"frontend/src/components/avatar/avatar"[39m[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 10 |[39m [36mimport[39m [33mTabs[39m [36mfrom[39m [32m"frontend/src/components/tabs/tabs"[39m[33m;[39m[0m
-  [0m [90m 11 |[39m [36mimport[39m [33mMenu[39m [36mfrom[39m [32m"frontend/src/components/menu/menu"[39m[33m;[39m[0m
-  [0m [90m 12 |[39m[0m
-
 Found [31m[1m5 errors[22m[39m in 692 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.74159021a39be285.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -4146,16 +2951,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/avatar/avat
 
 webpack compiled with [1m[31m1 error[39m[22m (de76af2464202f59)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m19:15[22m[39m
-[90mTS2304: [39mCannot find name 'p'.
-  [0m [90m 17 |[39m[0m
-  [0m [90m 18 |[39m   [36mreturn[39m ([0m
-  [0m[31m[1m>[22m[39m[90m 19 |[39m     [33m<[39m[33mLink[39m to[33m=[39m{p}[0m
-  [0m [90m    |[39m               [31m[1m^[22m[39m[0m
-  [0m [90m 20 |[39m [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 21 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 600 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.50b764fdea31b339.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -4310,56 +3105,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/avatar/avat
 
 webpack compiled with [1m[31m1 error[39m[22m (aa8f03124765e793)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m20:2[22m[39m
-[90mTS2304: [39mCannot find name 'AvatarContainer'.
-  [0m [90m 18 |[39m   [36mreturn[39m ([0m
-  [0m [90m 19 |[39m     [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 20 |[39m [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 21 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 23 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m21:10[22m[39m
-[90mTS2304: [39mCannot find name 'AvatarIcon'.
-  [0m [90m 19 |[39m     [33m<[39m[33mLink[39m to[33m=[39m{player}[33m>[39m[0m
-  [0m [90m 20 |[39m [33m<[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 21 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m [90m 23 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 24 |[39m         [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m23:11[22m[39m
-[90mTS2304: [39mCannot find name 'AvatarIcon'.
-  [0m [90m 21 |[39m         [33m<[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mimg[39m alt[33m=[39m{name} src[33m=[39m{imageUrl} [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 23 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 24 |[39m         [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-  [0m [90m 25 |[39m       [33m<[39m[33m/[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m 26 |[39m   )[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/avatar/avatar.tsx[22m:[32m[1m25:9[22m[39m
-[90mTS2304: [39mCannot find name 'AvatarContainer'.
-  [0m [90m 23 |[39m         [33m<[39m[33m/[39m[33mAvatarIcon[39m[33m>[39m[0m
-  [0m [90m 24 |[39m         [33m<[39m[33mdiv[39m[33m>[39m{name}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 25 |[39m       [33m<[39m[33m/[39m[33mAvatarContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 26 |[39m   )[33m;[39m[0m
-  [0m [90m 27 |[39m }[33m;[39m[0m
-  [0m [90m 28 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m9:8[22m[39m
-[90mTS1192: [39mModule '"/Users/albapalomino/TouchSports/frontend/src/components/avatar/avatar"' has no default export.
-  [0m [90m  7 |[39m } [36mfrom[39m [32m"@ionic/react"[39m[33m;[39m[0m
-  [0m [90m  8 |[39m [36mimport[39m styled [36mfrom[39m [32m"styled-components"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m  9 |[39m [36mimport[39m [33mAvatar[39m [36mfrom[39m [32m"frontend/src/components/avatar/avatar"[39m[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 10 |[39m [36mimport[39m [33mTabs[39m [36mfrom[39m [32m"frontend/src/components/tabs/tabs"[39m[33m;[39m[0m
-  [0m [90m 11 |[39m [36mimport[39m [33mMenu[39m [36mfrom[39m [32m"frontend/src/components/menu/menu"[39m[33m;[39m[0m
-  [0m [90m 12 |[39m[0m
-
 Found [31m[1m5 errors[22m[39m in 496 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.50b764fdea31b339.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -4470,7 +3215,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (2c942c5d97b3fad5)
-<i> [1m[32m[webpack-dev-middleware] wait until bundle finished: /runtime.0399b4950b3a65bf.hot-update.json[39m[22m
 [36mType-checking in progress...[39m
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.98 MiB (6.43 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.76 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 121 KiB 8 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
@@ -4617,28 +3361,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (63feb7939f4f4679)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m27:17[22m[39m
-[90mTS2322: [39mType '{ imageUrl: string; name: string; player: string; }' is not assignable to type 'IntrinsicAttributes & AvatarProps'.
-  Property 'player' does not exist on type 'IntrinsicAttributes & AvatarProps'.
-  [0m [90m 25 |[39m                 imageUrl[33m=[39m[32m"https://ionicframework.com/docs/img/demos/avatar.svg"[39m[0m
-  [0m [90m 26 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m[31m[1m>[22m[39m[90m 27 |[39m                 player[33m=[39m[32m"/home/team/player"[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 28 |[39m               [33m/[39m[33m>[39m[0m
-  [0m [90m 29 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mPerson[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m34:17[22m[39m
-[90mTS2322: [39mType '{ imageUrl: string; name: string; player: string; }' is not assignable to type 'IntrinsicAttributes & AvatarProps'.
-  Property 'player' does not exist on type 'IntrinsicAttributes & AvatarProps'.
-  [0m [90m 32 |[39m                 imageUrl[33m=[39m[32m"https://ionicframework.com/docs/img/demos/avatar.svg"[39m[0m
-  [0m [90m 33 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m[31m[1m>[22m[39m[90m 34 |[39m                 player[33m=[39m[32m"/home/team/player"[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 35 |[39m               [33m/[39m[33m>[39m[0m
-  [0m [90m 36 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 37 |[39m           [33m<[39m[33m/[39m[33mPersonsContainer[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 490 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.63feb7939f4f4679.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -4653,28 +3375,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (7d271421854cd5fe)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m27:17[22m[39m
-[90mTS2322: [39mType '{ imageUrl: string; name: string; player: string; }' is not assignable to type 'IntrinsicAttributes & AvatarProps'.
-  Property 'player' does not exist on type 'IntrinsicAttributes & AvatarProps'.
-  [0m [90m 25 |[39m                 imageUrl[33m=[39m[32m"https://ionicframework.com/docs/img/demos/avatar.svg"[39m[0m
-  [0m [90m 26 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m[31m[1m>[22m[39m[90m 27 |[39m                 player[33m=[39m[32m"/home/team/player"[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 28 |[39m               [33m/[39m[33m>[39m[0m
-  [0m [90m 29 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mPerson[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m34:17[22m[39m
-[90mTS2322: [39mType '{ imageUrl: string; name: string; player: string; }' is not assignable to type 'IntrinsicAttributes & AvatarProps'.
-  Property 'player' does not exist on type 'IntrinsicAttributes & AvatarProps'.
-  [0m [90m 32 |[39m                 imageUrl[33m=[39m[32m"https://ionicframework.com/docs/img/demos/avatar.svg"[39m[0m
-  [0m [90m 33 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m[31m[1m>[22m[39m[90m 34 |[39m                 player[33m=[39m[32m"/home/team/player"[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 35 |[39m               [33m/[39m[33m>[39m[0m
-  [0m [90m 36 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 37 |[39m           [33m<[39m[33m/[39m[33mPersonsContainer[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 597 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.7d271421854cd5fe.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -4689,17 +3389,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (2adbc0922250a68f)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m27:17[22m[39m
-[90mTS2322: [39mType '{ imageUrl: string; name: string; player: string; }' is not assignable to type 'IntrinsicAttributes & AvatarProps'.
-  Property 'player' does not exist on type 'IntrinsicAttributes & AvatarProps'.
-  [0m [90m 25 |[39m                 imageUrl[33m=[39m[32m"https://ionicframework.com/docs/img/demos/avatar.svg"[39m[0m
-  [0m [90m 26 |[39m                 name[33m=[39m[32m"Nombre Apellidos"[39m[0m
-  [0m[31m[1m>[22m[39m[90m 27 |[39m                 player[33m=[39m[32m"/home/team/player"[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 28 |[39m               [33m/[39m[33m>[39m[0m
-  [0m [90m 29 |[39m             [33m<[39m[33m/[39m[33mPerson[39m[33m>[39m[0m
-  [0m [90m 30 |[39m             [33m<[39m[33mPerson[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 608 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.2adbc0922250a68f.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -5161,5 +3850,19 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (6e2fd6dc8e8c49a1)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.6e2fd6dc8e8c49a1.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.6e2fd6dc8e8c49a1.hot-update.js[39m[22m (main) 80.2 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.6e2fd6dc8e8c49a1.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.64 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1ef25add7201851b)
 [36mType-checking in progress...[39m
 [32mNo errors found.[39m

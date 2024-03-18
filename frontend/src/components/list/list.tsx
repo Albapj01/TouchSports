@@ -5,7 +5,7 @@ const List = () => {
   return (
     <IonList inset={true}>
       <IonItem color="light">
-        <IonLabel>Name</IonLabel>
+        <IonLabel>Nombre</IonLabel>
         <Margin>
           <IonLabel>Example</IonLabel>
         </Margin>

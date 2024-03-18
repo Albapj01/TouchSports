@@ -58,7 +58,7 @@ const Menu = () => {
           </StyledIonItem>
           <StyledIonItem color="primary">
             <Icon icon={fileTrayFull} />
-            <StyledLink to="/home/centres/reserve">Reservas</StyledLink>
+            <StyledLink to="">Reservas</StyledLink>
           </StyledIonItem>
           <StyledIonItem color="primary">
             <Icon icon={logOut} />
