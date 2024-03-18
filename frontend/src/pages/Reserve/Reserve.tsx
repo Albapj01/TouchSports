@@ -5,15 +5,9 @@ import {
   IonFooter,
   IonHeader,
   IonImg,
-  IonInput,
-  IonItem,
-  IonLabel,
   IonList,
   IonPage,
-  IonSegment,
-  IonSegmentButton,
   IonText,
-  IonToolbar,
 } from "@ionic/react";
 import styled, { createGlobalStyle } from "styled-components";
 import Menu from "frontend/src/components/menu/menu";
@@ -23,6 +17,7 @@ import Input from "frontend/src/components/input/input";
 import MultiSelect from "frontend/src/components/multi-select/multi-select";
 import Segment from "frontend/src/components/segment/segment";
 import DateTime from "frontend/src/components/datetime/datetime";
+import ToolBar from "frontend/src/components/toolbar/toolbar";
 
 const Reserve = () => {
   const [name, setName] = useState("");
@@ -56,10 +51,10 @@ const Reserve = () => {
   return (
     <>
       <IonPage>
+        <IonHeader color="primary">
+          <ToolBar />
+        </IonHeader>
         <IonContent fullscreen>
-          <IonHeader>
-            <IonToolbar></IonToolbar>
-          </IonHeader>
           <br></br>
           <Menu />
           <Image>
@@ -117,18 +112,6 @@ const Reserve = () => {
     </>
   );
 };
-
-const GlobalStyle = createGlobalStyle`
-    :root {
-      --ion-color-primary: #1f7189;
-    }
-
-    .no-margin-padding {
-      margin: 0 !important;
-      padding: 0 !important;
-    }
-
-  `;
 
 const Button = styled.div`
   text-align: center;

@@ -1,24 +1,18 @@
-import {
-  IonContent,
-  IonFooter,
-  IonHeader,
-  IonPage,
-  IonSearchbar,
-  IonToolbar,
-} from "@ionic/react";
+import { IonContent, IonFooter, IonHeader, IonImg, IonPage, IonSearchbar } from "@ionic/react";
 import Card from "frontend/src/components/card/card";
 import Menu from "frontend/src/components/menu/menu";
 import Tabs from "frontend/src/components/tabs/tabs";
+import ToolBar from "frontend/src/components/toolbar/toolbar";
 import styled from "styled-components";
 
 const Centres = () => {
   return (
     <>
       <IonPage>
+        <IonHeader>
+          <ToolBar />
+        </IonHeader>
         <IonContent fullscreen>
-          <IonHeader collapse="condense">
-            <IonToolbar></IonToolbar>
-          </IonHeader>
           <Menu />
           <IonSearchbar placeholder="Buscar"></IonSearchbar>
           <CentresContainer>
@@ -49,12 +43,6 @@ const Centres = () => {
     </>
   );
 };
-
-const Cards = styled.div`
-  font-size: small;
-  text-align: center;
-  align-items: center;
-`;
 
 const CentresContainer = styled.div`
   display: flex;

@@ -1,23 +1,18 @@
-import {
-  IonContent,
-  IonFooter,
-  IonHeader,
-  IonPage,
-  IonToolbar,
-} from "@ionic/react";
+import { IonContent, IonFooter, IonHeader, IonPage } from "@ionic/react";
 import List from "frontend/src/components/list/list";
 import Menu from "frontend/src/components/menu/menu";
 import Tabs from "frontend/src/components/tabs/tabs";
-import styled, { createGlobalStyle } from "styled-components";
+import ToolBar from "frontend/src/components/toolbar/toolbar";
+import styled from "styled-components";
 
 const Profile = () => {
   return (
     <>
       <IonPage>
+        <IonHeader color="primary">
+          <ToolBar />
+        </IonHeader>
         <IonContent fullscreen>
-          <IonHeader collapse="condense">
-            <IonToolbar color="primary"></IonToolbar>
-          </IonHeader>
           <Menu />
           <Margin />
           <ImageContainer>

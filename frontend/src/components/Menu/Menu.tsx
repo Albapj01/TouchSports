@@ -1,14 +1,10 @@
 import {
-  IonButtons,
   IonContent,
-  IonHeader,
   IonIcon,
   IonImg,
   IonItem,
   IonList,
   IonMenu,
-  IonMenuButton,
-  IonPage,
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
@@ -34,7 +30,7 @@ const Menu = () => {
     <>
       <GlobalStyle />
       <IonMenu contentId="main-content">
-        <IonContent color="primary">
+        <IonContent content="main-content" color="primary">
           <IonToolbar color="primary">
             <IonTitle>Menu</IonTitle>
           </IonToolbar>
@@ -66,23 +62,7 @@ const Menu = () => {
           </StyledIonItem>
         </IonContent>
       </IonMenu>
-      <IonPage id="main-content">
-        <GlobalStyle />
-        <IonHeader color="primary">
-          <IonToolbar color="primary">
-            <IonButtons slot="start">
-              <IonMenuButton color="light"></IonMenuButton>
-            </IonButtons>
-            <TitleContainer>
-              <IonTitle>TouchSports</IonTitle>
-            </TitleContainer>
-            <LogoImage
-              slot="end"
-              src={require("../../assets/images/toolbar-image.png")}
-            />
-          </IonToolbar>
-        </IonHeader>
-      </IonPage>
+      <div id="main-content"></div>
     </>
   );
 };

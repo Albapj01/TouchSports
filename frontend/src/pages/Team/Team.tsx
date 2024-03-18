@@ -1,23 +1,18 @@
-import {
-  IonContent,
-  IonFooter,
-  IonHeader,
-  IonPage,
-  IonToolbar,
-} from "@ionic/react";
+import { IonContent, IonFooter, IonHeader, IonPage } from "@ionic/react";
 import styled from "styled-components";
 import Avatar from "frontend/src/components/avatar/avatar";
 import Tabs from "frontend/src/components/tabs/tabs";
 import Menu from "frontend/src/components/menu/menu";
+import ToolBar from "frontend/src/components/toolbar/toolbar";
 
 const Team = () => {
   return (
     <>
       <IonPage>
+        <IonHeader color="primary">
+          <ToolBar />
+        </IonHeader>
         <IonContent fullscreen>
-          <IonHeader collapse="condense">
-            <IonToolbar></IonToolbar>
-          </IonHeader>
           <Menu />
           <PersonsContainer>
             <Person>
