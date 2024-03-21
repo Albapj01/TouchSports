@@ -1,10 +1,6 @@
-<i> [1m[32m[webpack-dev-server] Project is running at:[39m[22m
-<i> [1m[32m[webpack-dev-server] Loopback: [36mhttp://localhost:4200/[39m, [36mhttp://127.0.0.1:4200/[39m[39m[22m
-<i> [1m[32m[webpack-dev-server] 404s will fallback to '[36m/index.html[39m'[39m[22m
 
 [36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4200/[22m
 
-<i> [1m[32m[webpack-dev-middleware] wait until bundle finished: /[39m[22m
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.98 MiB (6.43 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.76 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 120 KiB 8 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
 chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 79.8 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
@@ -18,7 +14,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (1becb24a7b4b75d8)
 [32mNo errors found.[39m
-<i> [1m[32m[webpack-dev-middleware] wait until bundle finished: /home[39m[22m
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.44 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.1becb24a7b4b75d8.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
 chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.1becb24a7b4b75d8.hot-update.js[39m[22m (main) 79.7 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
@@ -123,26 +118,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/menu/menu.t
 
 webpack compiled with [1m[31m1 error[39m[22m (5d99529990e3481a)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/menu/menu.tsx[22m:[32m[1m38:12[22m[39m
-[90mTS2552: [39mCannot find name 'IonMenuT'. Did you mean 'IonMenu'?
-  [0m [90m 36 |[39m       [33m<[39m[33mIonMenu[39m contentId[33m=[39m[32m"main-content"[39m[33m>[39m[0m
-  [0m [90m 37 |[39m         [33m<[39m[33mIonContent[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 38 |[39m           [33m<[39m[33mIonMenuT[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 39 |[39m           [33m<[39m[33mIonToolbar[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m 40 |[39m             [33m<[39m[33mIonTitle[39m[33m>[39m[33mMenu[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 41 |[39m           [33m<[39m[33m/[39m[33mIonToolbar[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/menu/menu.tsx[22m:[32m[1m39:12[22m[39m
-[90mTS2749: [39m'IonToolbar' refers to a value, but is being used as a type here. Did you mean 'typeof IonToolbar'?
-  [0m [90m 37 |[39m         [33m<[39m[33mIonContent[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m 38 |[39m           [33m<[39m[33mIonMenuT[39m[0m
-  [0m[31m[1m>[22m[39m[90m 39 |[39m           [33m<[39m[33mIonToolbar[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 40 |[39m             [33m<[39m[33mIonTitle[39m[33m>[39m[33mMenu[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 41 |[39m           [33m<[39m[33m/[39m[33mIonToolbar[39m[33m>[39m[0m
-  [0m [90m 42 |[39m           [33m<[39m[33mStyledIonItem[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 1154 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.44 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.865c3cba571d4f37.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -234,26 +209,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/menu/menu.t
 
 webpack compiled with [1m[31m1 error[39m[22m (0abfbe0fd7107222)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/menu/menu.tsx[22m:[32m[1m40:12[22m[39m
-[90mTS2558: [39mExpected 0 type arguments, but got 1.
-  [0m [90m 38 |[39m         [33m<[39m[33mIonContent[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m 39 |[39m           [33m<[39m[33mIonMenuToggle[39m[0m
-  [0m[31m[1m>[22m[39m[90m 40 |[39m           [33m<[39m[33mIonToolbar[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 41 |[39m             [33m<[39m[33mIonTitle[39m[33m>[39m[33mMenu[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 42 |[39m           [33m<[39m[33m/[39m[33mIonToolbar[39m[33m>[39m[0m
-  [0m [90m 43 |[39m           [33m<[39m[33mStyledIonItem[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/menu/menu.tsx[22m:[32m[1m40:12[22m[39m
-[90mTS2749: [39m'IonToolbar' refers to a value, but is being used as a type here. Did you mean 'typeof IonToolbar'?
-  [0m [90m 38 |[39m         [33m<[39m[33mIonContent[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m 39 |[39m           [33m<[39m[33mIonMenuToggle[39m[0m
-  [0m[31m[1m>[22m[39m[90m 40 |[39m           [33m<[39m[33mIonToolbar[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 41 |[39m             [33m<[39m[33mIonTitle[39m[33m>[39m[33mMenu[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 42 |[39m           [33m<[39m[33m/[39m[33mIonToolbar[39m[33m>[39m[0m
-  [0m [90m 43 |[39m           [33m<[39m[33mStyledIonItem[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 895 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.44 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.d4ed9c7bd94af0a3.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -548,16 +503,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/menu/menu.t
 
 webpack compiled with [1m[31m1 error[39m[22m (c9fb86256957ec3a)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/menu/menu.tsx[22m:[32m[1m37:21[22m[39m
-[90mTS2322: [39mType 'boolean' is not assignable to type 'string'.
-  [0m [90m 35 |[39m       [33m<[39m[33mGlobalStyle[39m [33m/[39m[33m>[39m[0m
-  [0m [90m 36 |[39m       [33m<[39m[33mIonMenu[39m contentId[33m=[39m[32m"main-content"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 37 |[39m         [33m<[39m[33mIonContent[39m content[33m=[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 38 |[39m           [33m<[39m[33mIonToolbar[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m 39 |[39m             [33m<[39m[33mIonTitle[39m[33m>[39m[33mMenu[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 40 |[39m           [33m<[39m[33m/[39m[33mIonToolbar[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 1016 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.44 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.6e9e966e71656ff4.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1095,96 +1040,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (7ea4be3393367d10)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m21:16[22m[39m
-[90mTS2304: [39mCannot find name 'IonButtons'.
-  [0m [90m 19 |[39m         [33m<[39m[33mIonHeader[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m 20 |[39m             [33m<[39m[33mIonToolbar[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 21 |[39m               [33m<[39m[33mIonButtons[39m slot[33m=[39m[32m"start"[39m[33m>[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 22 |[39m                 [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m 23 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m22:18[22m[39m
-[90mTS2304: [39mCannot find name 'IonMenuButton'.
-  [0m [90m 20 |[39m             [33m<[39m[33mIonToolbar[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m 21 |[39m               [33m<[39m[33mIonButtons[39m slot[33m=[39m[32m"start"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 22 |[39m                 [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 23 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 25 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m22:48[22m[39m
-[90mTS2304: [39mCannot find name 'IonMenuButton'.
-  [0m [90m 20 |[39m             [33m<[39m[33mIonToolbar[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m 21 |[39m               [33m<[39m[33mIonButtons[39m slot[33m=[39m[32m"start"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 22 |[39m                 [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m    |[39m                                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 23 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 25 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m23:17[22m[39m
-[90mTS2304: [39mCannot find name 'IonButtons'.
-  [0m [90m 21 |[39m               [33m<[39m[33mIonButtons[39m slot[33m=[39m[32m"start"[39m[33m>[39m[0m
-  [0m [90m 22 |[39m                 [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 23 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 25 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 26 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m24:16[22m[39m
-[90mTS2304: [39mCannot find name 'TitleContainer'.
-  [0m [90m 22 |[39m                 [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m 23 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 24 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 25 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 26 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 27 |[39m               [33m<[39m[33mLogoImage[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m25:18[22m[39m
-[90mTS2304: [39mCannot find name 'IonTitle'.
-  [0m [90m 23 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 25 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 26 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 27 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 28 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m25:40[22m[39m
-[90mTS2304: [39mCannot find name 'IonTitle'.
-  [0m [90m 23 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 25 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 26 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 27 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 28 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m26:17[22m[39m
-[90mTS2304: [39mCannot find name 'TitleContainer'.
-  [0m [90m 24 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 25 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 26 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 27 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 28 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-  [0m [90m 29 |[39m                 src[33m=[39m{require([32m"../../assets/images/toolbar-image.png"[39m)}[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m27:16[22m[39m
-[90mTS2304: [39mCannot find name 'LogoImage'.
-  [0m [90m 25 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 26 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 27 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 28 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-  [0m [90m 29 |[39m                 src[33m=[39m{require([32m"../../assets/images/toolbar-image.png"[39m)}[0m
-  [0m [90m 30 |[39m               [33m/[39m[33m>[39m[0m
-
 Found [31m[1m9 errors[22m[39m in 788 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.98 MiB (6.43 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.76 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 121 KiB 8 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
@@ -1198,96 +1053,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (7ea4be3393367d10)
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m21:16[22m[39m
-[90mTS2304: [39mCannot find name 'IonButtons'.
-  [0m [90m 19 |[39m         [33m<[39m[33mIonHeader[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m 20 |[39m             [33m<[39m[33mIonToolbar[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 21 |[39m               [33m<[39m[33mIonButtons[39m slot[33m=[39m[32m"start"[39m[33m>[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 22 |[39m                 [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m 23 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m22:18[22m[39m
-[90mTS2304: [39mCannot find name 'IonMenuButton'.
-  [0m [90m 20 |[39m             [33m<[39m[33mIonToolbar[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m 21 |[39m               [33m<[39m[33mIonButtons[39m slot[33m=[39m[32m"start"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 22 |[39m                 [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 23 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 25 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m22:48[22m[39m
-[90mTS2304: [39mCannot find name 'IonMenuButton'.
-  [0m [90m 20 |[39m             [33m<[39m[33mIonToolbar[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m 21 |[39m               [33m<[39m[33mIonButtons[39m slot[33m=[39m[32m"start"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 22 |[39m                 [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m    |[39m                                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 23 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 25 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m23:17[22m[39m
-[90mTS2304: [39mCannot find name 'IonButtons'.
-  [0m [90m 21 |[39m               [33m<[39m[33mIonButtons[39m slot[33m=[39m[32m"start"[39m[33m>[39m[0m
-  [0m [90m 22 |[39m                 [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 23 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 25 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 26 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m24:16[22m[39m
-[90mTS2304: [39mCannot find name 'TitleContainer'.
-  [0m [90m 22 |[39m                 [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m 23 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 24 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 25 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 26 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 27 |[39m               [33m<[39m[33mLogoImage[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m25:18[22m[39m
-[90mTS2304: [39mCannot find name 'IonTitle'.
-  [0m [90m 23 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 25 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 26 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 27 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 28 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m25:40[22m[39m
-[90mTS2304: [39mCannot find name 'IonTitle'.
-  [0m [90m 23 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 25 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 26 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 27 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 28 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m26:17[22m[39m
-[90mTS2304: [39mCannot find name 'TitleContainer'.
-  [0m [90m 24 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 25 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 26 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 27 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 28 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-  [0m [90m 29 |[39m                 src[33m=[39m{require([32m"../../assets/images/toolbar-image.png"[39m)}[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m27:16[22m[39m
-[90mTS2304: [39mCannot find name 'LogoImage'.
-  [0m [90m 25 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 26 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 27 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 28 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-  [0m [90m 29 |[39m                 src[33m=[39m{require([32m"../../assets/images/toolbar-image.png"[39m)}[0m
-  [0m [90m 30 |[39m               [33m/[39m[33m>[39m[0m
-
 Found [31m[1m9 errors[22m[39m in 273 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.7ea4be3393367d10.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1302,76 +1067,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (bd9cfdbe15746f5d)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m23:18[22m[39m
-[90mTS2552: [39mCannot find name 'IonMenuButton'. Did you mean 'IonButtons'?
-  [0m [90m 21 |[39m             [33m<[39m[33mIonToolbar[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m 22 |[39m               [33m<[39m[33mIonButtons[39m slot[33m=[39m[32m"start"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 23 |[39m                 [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 25 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 26 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m23:48[22m[39m
-[90mTS2552: [39mCannot find name 'IonMenuButton'. Did you mean 'IonButtons'?
-  [0m [90m 21 |[39m             [33m<[39m[33mIonToolbar[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m 22 |[39m               [33m<[39m[33mIonButtons[39m slot[33m=[39m[32m"start"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 23 |[39m                 [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m    |[39m                                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 25 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 26 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m25:16[22m[39m
-[90mTS2304: [39mCannot find name 'TitleContainer'.
-  [0m [90m 23 |[39m                 [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 25 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 26 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 27 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 28 |[39m               [33m<[39m[33mLogoImage[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m26:18[22m[39m
-[90mTS2304: [39mCannot find name 'IonTitle'.
-  [0m [90m 24 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 25 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 26 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 27 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 28 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 29 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m26:40[22m[39m
-[90mTS2304: [39mCannot find name 'IonTitle'.
-  [0m [90m 24 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 25 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 26 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 27 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 28 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 29 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m27:17[22m[39m
-[90mTS2304: [39mCannot find name 'TitleContainer'.
-  [0m [90m 25 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 26 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 27 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 28 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 29 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-  [0m [90m 30 |[39m                 src[33m=[39m{require([32m"../../assets/images/toolbar-image.png"[39m)}[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m28:16[22m[39m
-[90mTS2304: [39mCannot find name 'LogoImage'.
-  [0m [90m 26 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 27 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 28 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 29 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-  [0m [90m 30 |[39m                 src[33m=[39m{require([32m"../../assets/images/toolbar-image.png"[39m)}[0m
-  [0m [90m 31 |[39m               [33m/[39m[33m>[39m[0m
-
 Found [31m[1m7 errors[22m[39m in 658 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.bd9cfdbe15746f5d.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1386,56 +1081,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (aa4a8e6e9dd0a8de)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m26:16[22m[39m
-[90mTS2304: [39mCannot find name 'TitleContainer'.
-  [0m [90m 24 |[39m                 [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m 25 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 26 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 27 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 28 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 29 |[39m               [33m<[39m[33mLogoImage[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m27:18[22m[39m
-[90mTS2304: [39mCannot find name 'IonTitle'.
-  [0m [90m 25 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 26 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 27 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 28 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 29 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 30 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m27:40[22m[39m
-[90mTS2304: [39mCannot find name 'IonTitle'.
-  [0m [90m 25 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 26 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 27 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 28 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 29 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 30 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m28:17[22m[39m
-[90mTS2304: [39mCannot find name 'TitleContainer'.
-  [0m [90m 26 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 27 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 28 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 29 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 30 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-  [0m [90m 31 |[39m                 src[33m=[39m{require([32m"../../assets/images/toolbar-image.png"[39m)}[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m29:16[22m[39m
-[90mTS2304: [39mCannot find name 'LogoImage'.
-  [0m [90m 27 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 28 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 29 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 30 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-  [0m [90m 31 |[39m                 src[33m=[39m{require([32m"../../assets/images/toolbar-image.png"[39m)}[0m
-  [0m [90m 32 |[39m               [33m/[39m[33m>[39m[0m
-
 Found [31m[1m5 errors[22m[39m in 660 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.aa4a8e6e9dd0a8de.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -1513,56 +1158,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/centres/centres.
 
 webpack compiled with [1m[31m1 error[39m[22m (187f5d260201055a)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m26:16[22m[39m
-[90mTS2304: [39mCannot find name 'TitleContainer'.
-  [0m [90m 24 |[39m                 [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m 25 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 26 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 27 |[39m                 [33m<[39m[33mIonTite[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 28 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 29 |[39m               [33m<[39m[33mLogoImage[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m27:18[22m[39m
-[90mTS2304: [39mCannot find name 'IonTite'.
-  [0m [90m 25 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 26 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 27 |[39m                 [33m<[39m[33mIonTite[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 28 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 29 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 30 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m27:39[22m[39m
-[90mTS2304: [39mCannot find name 'IonTitle'.
-  [0m [90m 25 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m [90m 26 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 27 |[39m                 [33m<[39m[33mIonTite[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 28 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 29 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 30 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m28:17[22m[39m
-[90mTS2304: [39mCannot find name 'TitleContainer'.
-  [0m [90m 26 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 27 |[39m                 [33m<[39m[33mIonTite[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 28 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 29 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 30 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-  [0m [90m 31 |[39m                 src[33m=[39m{require([32m"../../assets/images/toolbar-image.png"[39m)}[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m29:16[22m[39m
-[90mTS2304: [39mCannot find name 'LogoImage'.
-  [0m [90m 27 |[39m                 [33m<[39m[33mIonTite[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 28 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 29 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 30 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-  [0m [90m 31 |[39m                 src[33m=[39m{require([32m"../../assets/images/toolbar-image.png"[39m)}[0m
-  [0m [90m 32 |[39m               [33m/[39m[33m>[39m[0m
-
 Found [31m[1m5 errors[22m[39m in 703 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.aa4a8e6e9dd0a8de.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1577,36 +1172,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (d5d08c8a3350cca2)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m27:16[22m[39m
-[90mTS2304: [39mCannot find name 'TitleContainer'.
-  [0m [90m 25 |[39m                 [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m 26 |[39m               [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 27 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 28 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 29 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 30 |[39m               [33m<[39m[33mLogoImage[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m29:17[22m[39m
-[90mTS2304: [39mCannot find name 'TitleContainer'.
-  [0m [90m 27 |[39m               [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 28 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 29 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 30 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 31 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-  [0m [90m 32 |[39m                 src[33m=[39m{require([32m"../../assets/images/toolbar-image.png"[39m)}[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m30:16[22m[39m
-[90mTS2304: [39mCannot find name 'LogoImage'.
-  [0m [90m 28 |[39m                 [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 29 |[39m               [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 30 |[39m               [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 31 |[39m                 slot[33m=[39m[32m"end"[39m[0m
-  [0m [90m 32 |[39m                 src[33m=[39m{require([32m"../../assets/images/toolbar-image.png"[39m)}[0m
-  [0m [90m 33 |[39m               [33m/[39m[33m>[39m[0m
-
 Found [31m[1m3 errors[22m[39m in 790 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.d5d08c8a3350cca2.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -1621,16 +1186,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (c53e4b2215ac6586)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m72:26[22m[39m
-[90mTS2304: [39mCannot find name 'IonImg'.
-  [0m [90m 70 |[39m [32m`[39m[33m;[39m[0m
-  [0m [90m 71 |[39m[0m
-  [0m[31m[1m>[22m[39m[90m 72 |[39m [36mconst[39m [33mLogoImage[39m [33m=[39m styled([33mIonImg[39m)[32m`[39m[0m
-  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 73 |[39m [32m  width: 10%;[39m[0m
-  [0m [90m 74 |[39m [32m  height: 10%;[39m[0m
-  [0m [90m 75 |[39m [32m  margin-right: 2%;[39m[0m
-
 Found [31m[1m1 error[22m[39m in 1052 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.c53e4b2215ac6586.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2325,16 +1880,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/home/home.tsx: U
 
 webpack compiled with [1m[31m1 error[39m[22m (69a4e4d46d84d3c5)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/home/home.tsx[22m:[32m[1m22:13[22m[39m
-[90mTS2749: [39m'IonToolbar' refers to a value, but is being used as a type here. Did you mean 'typeof IonToolbar'?
-  [0m [90m 20 |[39m       [33m<[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m 21 |[39m         [33m<[39m[33mIonHeader[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 22 |[39m           [33m<<[39m[33mIonToolbar[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 23 |[39m             [33m<[39m[33mIonButtons[39m slot[33m=[39m[32m"start"[39m[33m>[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m 25 |[39m             [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 801 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.44 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.8206ccbdcc282af4.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2468,16 +2013,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/home/home.tsx: U
 
 webpack compiled with [1m[31m1 error[39m[22m (e7235b9362dd46a5)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/home/home.tsx[22m:[32m[1m22:13[22m[39m
-[90mTS2749: [39m'IonToolbar' refers to a value, but is being used as a type here. Did you mean 'typeof IonToolbar'?
-  [0m [90m 20 |[39m       [33m<[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m 21 |[39m         [33m<[39m[33mIonHeader[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 22 |[39m           [33m<<[39m[33mIonToolbar[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 23 |[39m             [33m<[39m[33mIonButtons[39m slot[33m=[39m[32m"start"[39m[33m>[39m[0m
-  [0m [90m 24 |[39m               [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m 25 |[39m             [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 909 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.a169e286f011b5f8.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2646,46 +2181,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/toolbar/too
 
 webpack compiled with [1m[31m1 error[39m[22m (ff38a3629e1e6a3c)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/toolbar/toolbar.tsx[22m:[32m[1m17:8[22m[39m
-[90mTS2304: [39mCannot find name 'TitleContainer'.
-  [0m [90m 15 |[39m         [33m<[39m[33mIonMenuButton[39m color[33m=[39m[32m"light"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonMenuButton[39m[33m>[39m[0m
-  [0m [90m 16 |[39m       [33m<[39m[33m/[39m[33mIonButtons[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 17 |[39m       [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 18 |[39m         [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 19 |[39m       [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 20 |[39m       [33m<[39m[33mLogoImage[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/toolbar/toolbar.tsx[22m:[32m[1m19:9[22m[39m
-[90mTS2304: [39mCannot find name 'TitleContainer'.
-  [0m [90m 17 |[39m       [33m<[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m 18 |[39m         [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 19 |[39m       [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 20 |[39m       [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m 21 |[39m         slot[33m=[39m[32m"end"[39m[0m
-  [0m [90m 22 |[39m         src[33m=[39m{require([32m"../../assets/images/toolbar-image.png"[39m)}[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/toolbar/toolbar.tsx[22m:[32m[1m20:8[22m[39m
-[90mTS2304: [39mCannot find name 'LogoImage'.
-  [0m [90m 18 |[39m         [33m<[39m[33mIonTitle[39m[33m>[39m[33mTouchSports[39m[33m<[39m[33m/[39m[33mIonTitle[39m[33m>[39m[0m
-  [0m [90m 19 |[39m       [33m<[39m[33m/[39m[33mTitleContainer[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 20 |[39m       [33m<[39m[33mLogoImage[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 21 |[39m         slot[33m=[39m[32m"end"[39m[0m
-  [0m [90m 22 |[39m         src[33m=[39m{require([32m"../../assets/images/toolbar-image.png"[39m)}[0m
-  [0m [90m 23 |[39m       [33m/[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m16:8[22m[39m
-[90mTS1192: [39mModule '"/Users/albapalomino/TouchSports/frontend/src/components/toolbar/toolbar"' has no default export.
-  [0m [90m 14 |[39m [36mimport[39m [33mMenu[39m [36mfrom[39m [32m"frontend/src/components/menu/menu"[39m[33m;[39m[0m
-  [0m [90m 15 |[39m [36mimport[39m [33mTabs[39m [36mfrom[39m [32m"frontend/src/components/tabs/tabs"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m [33mToolBar[39m [36mfrom[39m [32m"frontend/src/components/toolbar/toolbar"[39m[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 17 |[39m [36mimport[39m styled [36mfrom[39m [32m"styled-components"[39m[33m;[39m[0m
-  [0m [90m 18 |[39m[0m
-  [0m [90m 19 |[39m [36mconst[39m [33mCentres[39m [33m=[39m () [33m=>[39m {[0m
-
 Found [31m[1m4 errors[22m[39m in 733 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.dd390168a502742f.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2777,16 +2272,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/home/home.tsx: E
 
 webpack compiled with [1m[31m1 error[39m[22m (3d641eb099cfb90e)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/home/home.tsx[22m:[32m[1m23:12[22m[39m
-[90mTS2559: [39mType '{ children: never[]; }' has no properties in common with type 'IntrinsicAttributes'.
-  [0m [90m 21 |[39m       [33m<[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m 22 |[39m         [33m<[39m[33mIonHeader[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 23 |[39m           [33m<[39m[33mToolBar[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 24 |[39m         [33m<[39m[33m/[39m[33mIonHeader[39m[33m>[39m[0m
-  [0m [90m 25 |[39m         [33m<[39m[33mIonContent[39m fullscreen[33m>[39m[0m
-  [0m [90m 26 |[39m           [33m<[39m[33mMenu[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 782 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.851aef03b81c9e6f.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2828,7 +2313,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (1a0cd3ec3840eaf4)
-<i> [1m[32m[webpack-dev-middleware] wait until bundle finished: /runtime.8be1c39600b21a8f.hot-update.json[39m[22m
 [36mType-checking in progress...[39m
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.1a0cd3ec3840eaf4.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -2962,16 +2446,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/home/home.tsx: E
 
 webpack compiled with [1m[31m1 error[39m[22m (7f97c130cf1cf971)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/home/home.tsx[22m:[32m[1m23:12[22m[39m
-[90mTS2559: [39mType '{ children: never[]; }' has no properties in common with type 'IntrinsicAttributes'.
-  [0m [90m 21 |[39m       [33m<[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m 22 |[39m         [33m<[39m[33mIonHeader[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 23 |[39m           [33m<[39m[33mToolBar[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 24 |[39m         [33m<[39m[33m/[39m[33mIonHeader[39m[33m>[39m[0m
-  [0m [90m 25 |[39m         [33m<[39m[33mIonContent[39m fullscreen[33m>[39m[0m
-  [0m [90m 26 |[39m           [33m<[39m[33mMenu[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 882 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.f8fefe15dfd80c2d.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3014,16 +2488,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (d41fd43502ab12e3)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/player/player.tsx[22m:[32m[1m19:12[22m[39m
-[90mTS2552: [39mCannot find name 'ToolBar'. Did you mean 'toolbar'?
-  [0m [90m 17 |[39m       [33m<[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m 18 |[39m         [33m<[39m[33mIonHeader[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 19 |[39m           [33m<[39m[33mToolBar[39m [33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 20 |[39m         [33m<[39m[33m/[39m[33mIonHeader[39m[33m>[39m[0m
-  [0m [90m 21 |[39m         [33m<[39m[33mIonContent[39m fullscreen[33m>[39m[0m
-  [0m [90m 22 |[39m           [33m<[39m[33mMenu[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 785 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.d41fd43502ab12e3.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3052,16 +2516,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (1f4dcd62bc5e9906)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m18:12[22m[39m
-[90mTS2552: [39mCannot find name 'ToolBar'. Did you mean 'toolbar'?
-  [0m [90m 16 |[39m       [33m<[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m 17 |[39m         [33m<[39m[33mIonHeader[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 18 |[39m           [33m<[39m[33mToolBar[39m [33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 19 |[39m         [33m<[39m[33m/[39m[33mIonHeader[39m[33m>[39m[0m
-  [0m [90m 20 |[39m         [33m<[39m[33mIonContent[39m fullscreen[33m>[39m[0m
-  [0m [90m 21 |[39m           [33m<[39m[33mIonHeader[39m collapse[33m=[39m[32m"condense"[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 819 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.1f4dcd62bc5e9906.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3117,7 +2571,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (48d86904e6fcfc54)
-<i> [1m[32m[webpack-dev-middleware] wait until bundle finished: /runtime.5f2f3a09e03d1e7b.hot-update.json[39m[22m
 [36mType-checking in progress...[39m
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.44 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.48d86904e6fcfc54.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3132,16 +2585,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (f91cdc19d3c7bb20)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m60:12[22m[39m
-[90mTS2552: [39mCannot find name 'ToolBar'. Did you mean 'toolbar'?
-  [0m [90m 58 |[39m       [33m<[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m 59 |[39m         [33m<[39m[33mIonHeader[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 60 |[39m           [33m<[39m[33mToolBar[39m [33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 61 |[39m         [33m<[39m[33m/[39m[33mIonHeader[39m[33m>[39m[0m
-  [0m [90m 62 |[39m         [33m<[39m[33mIonContent[39m fullscreen[33m>[39m[0m
-  [0m [90m 63 |[39m           [33m<[39m[33mbr[39m[33m>[39m[33m<[39m[33m/[39m[33mbr[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 978 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.44 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.f91cdc19d3c7bb20.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3156,16 +2599,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (b114e7b1c723e3dc)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/reserve/reserve.tsx[22m:[32m[1m60:12[22m[39m
-[90mTS2552: [39mCannot find name 'ToolBar'. Did you mean 'toolbar'?
-  [0m [90m 58 |[39m       [33m<[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m 59 |[39m         [33m<[39m[33mIonHeader[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 60 |[39m           [33m<[39m[33mToolBar[39m [33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 61 |[39m         [33m<[39m[33m/[39m[33mIonHeader[39m[33m>[39m[0m
-  [0m [90m 62 |[39m         [33m<[39m[33mIonContent[39m fullscreen[33m>[39m[0m
-  [0m [90m 63 |[39m           [33m<[39m[33mMenu[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 617 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5 MiB (6.44 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.b114e7b1c723e3dc.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3235,16 +2668,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (1738d3e2a1dfd7bc)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m18:12[22m[39m
-[90mTS2552: [39mCannot find name 'ToolBar'. Did you mean 'toolbar'?
-  [0m [90m 16 |[39m       [33m<[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m 17 |[39m       [33m<[39m[33mIonHeader[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 18 |[39m           [33m<[39m[33mToolBar[39m [33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 19 |[39m         [33m<[39m[33m/[39m[33mIonHeader[39m[33m>[39m[0m
-  [0m [90m 20 |[39m         [33m<[39m[33mIonContent[39m fullscreen[33m>[39m[0m
-  [0m [90m 21 |[39m           [33m<[39m[33mMenu[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 645 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.1738d3e2a1dfd7bc.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3259,16 +2682,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (394beb7da7635fe4)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/team/team.tsx[22m:[32m[1m18:12[22m[39m
-[90mTS2552: [39mCannot find name 'ToolBar'. Did you mean 'toolbar'?
-  [0m [90m 16 |[39m       [33m<[39m[33mIonPage[39m[33m>[39m[0m
-  [0m [90m 17 |[39m         [33m<[39m[33mIonHeader[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 18 |[39m           [33m<[39m[33mToolBar[39m [33m/[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 19 |[39m         [33m<[39m[33m/[39m[33mIonHeader[39m[33m>[39m[0m
-  [0m [90m 20 |[39m         [33m<[39m[33mIonContent[39m fullscreen[33m>[39m[0m
-  [0m [90m 21 |[39m           [33m<[39m[33mMenu[39m [33m/[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 549 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.394beb7da7635fe4.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3393,216 +2806,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/centres/centres.
 
 webpack compiled with [1m[31m1 error[39m[22m (97bd067ae1a8bc61)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m26:8[22m[39m
-[90mTS1192: [39mModule '"/Users/albapalomino/TouchSports/frontend/src/pages/centres/centres"' has no default export.
-  [0m [90m 24 |[39m [36mimport[39m [32m"./theme/variables.css"[39m[33m;[39m[0m
-  [0m [90m 25 |[39m [36mimport[39m [33mReserve[39m [36mfrom[39m [32m"./pages/reserve/reserve"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 26 |[39m [36mimport[39m [33mCentres[39m [36mfrom[39m [32m"./pages/centres/centres"[39m[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 27 |[39m [36mimport[39m [33mTeam[39m [36mfrom[39m [32m"./pages/team/team"[39m[33m;[39m[0m
-  [0m [90m 28 |[39m [36mimport[39m [33mProfile[39m [36mfrom[39m [32m"./pages/profile/profile"[39m[33m;[39m[0m
-  [0m [90m 29 |[39m [36mimport[39m [33mSignIn[39m [36mfrom[39m [32m"./pages/sign-in/signIn"[39m[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m18:12[22m[39m
-[90mTS2304: [39mCannot find name 'CentresContainer'.
-  [0m [90m 16 |[39m           [33m<[39m[33mMenu[39m [33m/[39m[33m>[39m[0m
-  [0m [90m 17 |[39m           [33m<[39m[33mIonSearchbar[39m placeholder[33m=[39m[32m"Buscar"[39m[33m>[39m[33m<[39m[33m/[39m[33mIonSearchbar[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 18 |[39m           [33m<[39m[33mCentresContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 19 |[39m             [33m<[39m[33mCard[39m[0m
-  [0m [90m 20 |[39m               route[33m=[39m[32m""[39m[0m
-  [0m [90m 21 |[39m               title[33m=[39m[32m"Polideportivo 1"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m31:13[22m[39m
-[90mTS2304: [39mCannot find name 'CentresContainer'.
-  [0m [90m 29 |[39m               description[33m=[39m[32m""[39m[0m
-  [0m [90m 30 |[39m             [33m/[39m[33m>[39m[0m
-  [0m[31m[1m>[22m[39m[90m 31 |[39m           [33m<[39m[33m/[39m[33mCentresContainer[39m[33m>[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 32 |[39m           [33m<[39m[33mCard[39m[0m
-  [0m [90m 33 |[39m             route[33m=[39m[32m""[39m[0m
-  [0m [90m 34 |[39m             title[33m=[39m[32m"Polideportivo 3"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m50:3[22m[39m
-[90mTS2304: [39mCannot find name 'font'.
-  [0m [90m 48 |[39m[0m
-  [0m [90m 49 |[39m [32mconst Cards = styled.div`[39m[0m
-  [0m[31m[1m>[22m[39m[90m 50 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 51 |[39m   text[33m-[39malign[33m:[39m center[33m;[39m[0m
-  [0m [90m 52 |[39m   align[33m-[39mitems[33m:[39m center[33m;[39m[0m
-  [0m [90m 53 |[39m [32m`;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m50:8[22m[39m
-[90mTS2304: [39mCannot find name 'size'.
-  [0m [90m 48 |[39m[0m
-  [0m [90m 49 |[39m [32mconst Cards = styled.div`[39m[0m
-  [0m[31m[1m>[22m[39m[90m 50 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 51 |[39m   text[33m-[39malign[33m:[39m center[33m;[39m[0m
-  [0m [90m 52 |[39m   align[33m-[39mitems[33m:[39m center[33m;[39m[0m
-  [0m [90m 53 |[39m [32m`;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m50:14[22m[39m
-[90mTS2304: [39mCannot find name 'small'.
-  [0m [90m 48 |[39m[0m
-  [0m [90m 49 |[39m [32mconst Cards = styled.div`[39m[0m
-  [0m[31m[1m>[22m[39m[90m 50 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 51 |[39m   text[33m-[39malign[33m:[39m center[33m;[39m[0m
-  [0m [90m 52 |[39m   align[33m-[39mitems[33m:[39m center[33m;[39m[0m
-  [0m [90m 53 |[39m [32m`;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m51:3[22m[39m
-[90mTS2552: [39mCannot find name 'text'. Did you mean 'Text'?
-  [0m [90m 49 |[39m [32mconst Cards = styled.div`[39m[0m
-  [0m [90m 50 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 51 |[39m   text[33m-[39malign[33m:[39m center[33m;[39m[0m
-  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 52 |[39m   align[33m-[39mitems[33m:[39m center[33m;[39m[0m
-  [0m [90m 53 |[39m [32m`;[39m[0m
-  [0m [90m 54 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m51:8[22m[39m
-[90mTS2304: [39mCannot find name 'align'.
-  [0m [90m 49 |[39m [32mconst Cards = styled.div`[39m[0m
-  [0m [90m 50 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 51 |[39m   text[33m-[39malign[33m:[39m center[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 52 |[39m   align[33m-[39mitems[33m:[39m center[33m;[39m[0m
-  [0m [90m 53 |[39m [32m`;[39m[0m
-  [0m [90m 54 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m51:15[22m[39m
-[90mTS2304: [39mCannot find name 'center'.
-  [0m [90m 49 |[39m [32mconst Cards = styled.div`[39m[0m
-  [0m [90m 50 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 51 |[39m   text[33m-[39malign[33m:[39m center[33m;[39m[0m
-  [0m [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 52 |[39m   align[33m-[39mitems[33m:[39m center[33m;[39m[0m
-  [0m [90m 53 |[39m [32m`;[39m[0m
-  [0m [90m 54 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m52:3[22m[39m
-[90mTS2304: [39mCannot find name 'align'.
-  [0m [90m 50 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m [90m 51 |[39m   text[33m-[39malign[33m:[39m center[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 52 |[39m   align[33m-[39mitems[33m:[39m center[33m;[39m[0m
-  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 53 |[39m [32m`;[39m[0m
-  [0m [90m 54 |[39m[0m
-  [0m [90m 55 |[39m [32mconst CentresContainer = styled.div`[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m52:9[22m[39m
-[90mTS2304: [39mCannot find name 'items'.
-  [0m [90m 50 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m [90m 51 |[39m   text[33m-[39malign[33m:[39m center[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 52 |[39m   align[33m-[39mitems[33m:[39m center[33m;[39m[0m
-  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 53 |[39m [32m`;[39m[0m
-  [0m [90m 54 |[39m[0m
-  [0m [90m 55 |[39m [32mconst CentresContainer = styled.div`[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m52:16[22m[39m
-[90mTS2304: [39mCannot find name 'center'.
-  [0m [90m 50 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m [90m 51 |[39m   text[33m-[39malign[33m:[39m center[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 52 |[39m   align[33m-[39mitems[33m:[39m center[33m;[39m[0m
-  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 53 |[39m [32m`;[39m[0m
-  [0m [90m 54 |[39m[0m
-  [0m [90m 55 |[39m [32mconst CentresContainer = styled.div`[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m56:12[22m[39m
-[90mTS2304: [39mCannot find name 'flex'.
-  [0m [90m 54 |[39m[0m
-  [0m [90m 55 |[39m [32mconst CentresContainer = styled.div`[39m[0m
-  [0m[31m[1m>[22m[39m[90m 56 |[39m   display[33m:[39m flex[33m;[39m[0m
-  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 57 |[39m   justify[33m-[39mcontent[33m:[39m space[33m-[39mbetween[33m;[39m[0m
-  [0m [90m 58 |[39m   margin[33m:[39m [35m16[39mpx[33m;[39m[0m
-  [0m [90m 59 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m57:3[22m[39m
-[90mTS2304: [39mCannot find name 'justify'.
-  [0m [90m 55 |[39m [32mconst CentresContainer = styled.div`[39m[0m
-  [0m [90m 56 |[39m   display[33m:[39m flex[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   justify[33m-[39mcontent[33m:[39m space[33m-[39mbetween[33m;[39m[0m
-  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m   margin[33m:[39m [35m16[39mpx[33m;[39m[0m
-  [0m [90m 59 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m [90m 60 |[39m [32m`;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m57:11[22m[39m
-[90mTS2304: [39mCannot find name 'content'.
-  [0m [90m 55 |[39m [32mconst CentresContainer = styled.div`[39m[0m
-  [0m [90m 56 |[39m   display[33m:[39m flex[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   justify[33m-[39mcontent[33m:[39m space[33m-[39mbetween[33m;[39m[0m
-  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m   margin[33m:[39m [35m16[39mpx[33m;[39m[0m
-  [0m [90m 59 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m [90m 60 |[39m [32m`;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m57:20[22m[39m
-[90mTS2304: [39mCannot find name 'space'.
-  [0m [90m 55 |[39m [32mconst CentresContainer = styled.div`[39m[0m
-  [0m [90m 56 |[39m   display[33m:[39m flex[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   justify[33m-[39mcontent[33m:[39m space[33m-[39mbetween[33m;[39m[0m
-  [0m [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m   margin[33m:[39m [35m16[39mpx[33m;[39m[0m
-  [0m [90m 59 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m [90m 60 |[39m [32m`;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m57:26[22m[39m
-[90mTS2304: [39mCannot find name 'between'.
-  [0m [90m 55 |[39m [32mconst CentresContainer = styled.div`[39m[0m
-  [0m [90m 56 |[39m   display[33m:[39m flex[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 57 |[39m   justify[33m-[39mcontent[33m:[39m space[33m-[39mbetween[33m;[39m[0m
-  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 58 |[39m   margin[33m:[39m [35m16[39mpx[33m;[39m[0m
-  [0m [90m 59 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m [90m 60 |[39m [32m`;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m58:13[22m[39m
-[90mTS2304: [39mCannot find name 'px'.
-  [0m [90m 56 |[39m   display[33m:[39m flex[33m;[39m[0m
-  [0m [90m 57 |[39m   justify[33m-[39mcontent[33m:[39m space[33m-[39mbetween[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 58 |[39m   margin[33m:[39m [35m16[39mpx[33m;[39m[0m
-  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 59 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m [90m 60 |[39m [32m`;[39m[0m
-  [0m [90m 61 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m59:3[22m[39m
-[90mTS2304: [39mCannot find name 'font'.
-  [0m [90m 57 |[39m   justify[33m-[39mcontent[33m:[39m space[33m-[39mbetween[33m;[39m[0m
-  [0m [90m 58 |[39m   margin[33m:[39m [35m16[39mpx[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 59 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 60 |[39m [32m`;[39m[0m
-  [0m [90m 61 |[39m[0m
-  [0m [90m 62 |[39m [32mexport default Centres;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m59:8[22m[39m
-[90mTS2304: [39mCannot find name 'size'.
-  [0m [90m 57 |[39m   justify[33m-[39mcontent[33m:[39m space[33m-[39mbetween[33m;[39m[0m
-  [0m [90m 58 |[39m   margin[33m:[39m [35m16[39mpx[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 59 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 60 |[39m [32m`;[39m[0m
-  [0m [90m 61 |[39m[0m
-  [0m [90m 62 |[39m [32mexport default Centres;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/centres/centres.tsx[22m:[32m[1m59:14[22m[39m
-[90mTS2304: [39mCannot find name 'small'.
-  [0m [90m 57 |[39m   justify[33m-[39mcontent[33m:[39m space[33m-[39mbetween[33m;[39m[0m
-  [0m [90m 58 |[39m   margin[33m:[39m [35m16[39mpx[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 59 |[39m   font[33m-[39msize[33m:[39m small[33m;[39m[0m
-  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 60 |[39m [32m`;[39m[0m
-  [0m [90m 61 |[39m[0m
-  [0m [90m 62 |[39m [32mexport default Centres;[39m[0m
-
 Found [31m[1m21 errors[22m[39m in 515 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.b42afba07b1e232a.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
@@ -3722,16 +2925,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/player/player.ts
 
 webpack compiled with [1m[31m1 error[39m[22m (9ecfe55a18faa050)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m30:8[22m[39m
-[90mTS1192: [39mModule '"/Users/albapalomino/TouchSports/frontend/src/pages/player/player"' has no default export.
-  [0m [90m 28 |[39m [36mimport[39m [33mProfile[39m [36mfrom[39m [32m"./pages/profile/profile"[39m[33m;[39m[0m
-  [0m [90m 29 |[39m [36mimport[39m [33mSignIn[39m [36mfrom[39m [32m"./pages/sign-in/signIn"[39m[33m;[39m[0m
-  [0m[31m[1m>[22m[39m[90m 30 |[39m [36mimport[39m [33mPlayer[39m [36mfrom[39m [32m"./pages/player/player"[39m[0m
-  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
-  [0m [90m 31 |[39m[0m
-  [0m [90m 32 |[39m setupIonicReact()[33m;[39m[0m
-  [0m [90m 33 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 784 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 4.99 MiB (6.43 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.f3435e096f65e786.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets

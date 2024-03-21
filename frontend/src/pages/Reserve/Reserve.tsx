@@ -9,7 +9,6 @@ import {
   IonPage,
   IonText,
 } from "@ionic/react";
-import styled, { createGlobalStyle } from "styled-components";
 import Menu from "frontend/src/components/menu/menu";
 import { useState } from "react";
 import Tabs from "frontend/src/components/tabs/tabs";
@@ -18,35 +17,12 @@ import MultiSelect from "frontend/src/components/multi-select/multi-select";
 import Segment from "frontend/src/components/segment/segment";
 import DateTime from "frontend/src/components/datetime/datetime";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
+import styled from "styled-components";
+import { useHistory } from "react-router-dom";
 
 const Reserve = () => {
-  const [name, setName] = useState("");
-  const [telephoneNumber, setTelephoneNumber] = useState("");
-  const [email, setEmail] = useState("");
-  const [material, setMaterial] = useState("");
-
-  const [showOption, setShowOption] = useState(false);
-
-  const handleShowClick = () => {
-    setShowOption(!showOption);
-  };
-
-  // const [isEmailValid, setIsEmailValid] = useState(false);
-
-  // const validationEmail = (email: String) => {
-  //   const validateEmail = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
-  //   return validateEmail.test(String(email).toLowerCase());
-  // };
-
-  // const validationTelephone = (telephoneNumber: String) => {
-  //   const validateTelephone = /^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$/;
-  //   return validateTelephone.test(String(telephoneNumber));
-  // };
-
-  // const handleButtonClick = () => {
-  //   const isValid = validationEmail(email);
-  //   setIsEmailValid(isValid);
-  // };
+  const [showMultiSelect, setShowMultiSelect] = useState(false);
+  const history = useHistory();
 
   return (
     <>
@@ -66,11 +42,13 @@ const Reserve = () => {
           <IonList className="no-margin-padding">
             <Margin>
               <Input />
+              <Space></Space>
               <IonText>¿Desea reservar algún tipo de material?</IonText>
-              <Segment />
+              <Segment setShowMultiSelect={setShowMultiSelect} />
             </Margin>
           </IonList>
-          <MultiSelect />
+          {showMultiSelect && <MultiSelect />}
+          <Space></Space>
           <Margin>
             <IonText>Seleccione el día y la hora:</IonText>
             <DateTime />
@@ -84,22 +62,16 @@ const Reserve = () => {
                 {
                   text: "Eliminar",
                   role: "destructive",
-                  data: {
-                    action: "delete",
-                  },
+                  handler: () => history.push("/home/centres"),
                 },
                 {
                   text: "Reservar",
-                  data: {
-                    action: "reserve",
-                  },
+                  handler: () => history.push(""),
                 },
                 {
                   text: "Cancelar",
                   role: "cancel",
-                  data: {
-                    action: "cancel",
-                  },
+                  handler: () => history.push("/home/centres/reserve"),
                 },
               ]}
             ></IonActionSheet>

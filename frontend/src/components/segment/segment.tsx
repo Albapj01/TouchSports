@@ -1,10 +1,22 @@
 import { IonLabel, IonSegment, IonSegmentButton } from "@ionic/react";
+import { Dispatch, SetStateAction } from "react";
 import styled from "styled-components";
 
-const Segment = () => {
+const Segment = ({setShowMultiSelect,}: {setShowMultiSelect: Dispatch<SetStateAction<boolean>>;}) => {
+  const changeSegment = (value: string) => {
+    if (value === "segment") {
+      setShowMultiSelect(true);
+    } else {
+      setShowMultiSelect(false);
+    }
+  };
+
   return (
     <SegmentContainer>
-      <IonSegment value="default">
+      <IonSegment
+        value="default"
+        onIonChange={(e) => changeSegment(String(e.detail.value))}
+      >
         <IonSegmentButton value="default">
           <IonLabel>No</IonLabel>
         </IonSegmentButton>

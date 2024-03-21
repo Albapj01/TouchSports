@@ -1,8 +1,4 @@
-import {
-  IonCard,
-  IonCardContent,
-  IonCardHeader,
-} from "@ionic/react";
+import { IonCard, IonCardContent, IonCardHeader } from "@ionic/react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -22,20 +18,24 @@ const Card = ({ title, imageUrl, description, route }: CardProps) => {
   };
 
   return (
-    <IonCard>
-      <Link to={route} >
+    <StyledLink to={route}>
+      <IonCard>
         <img alt={title} src={imageUrl} />
         <IonCardHeader>
           <TitleText>{title}</TitleText>
         </IonCardHeader>
         <IonCardContent onClick={hideDescription}>{description}</IonCardContent>
-      </Link>
-    </IonCard>
+      </IonCard>
+    </StyledLink>
   );
 };
 
 const TitleText = styled.div`
   font-weight: 800;
+`;
+
+const StyledLink = styled(Link)`
+  text-decoration: none;
 `;
 
 export default Card;

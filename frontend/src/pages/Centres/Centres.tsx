@@ -17,20 +17,20 @@ const Centres = () => {
           <IonSearchbar placeholder="Buscar"></IonSearchbar>
           <CentresContainer>
             <Card
-              route=""
+              route="/home/centres/reserve"
               title="Polideportivo 1"
               imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
               description=""
             />
             <Card
-              route=""
+              route="/home/centres/reserve"
               title="Polideportivo 2"
               imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
               description=""
             />
           </CentresContainer>
           <Card
-            route=""
+            route="/home/centres/reserve"
             title="Polideportivo 3"
             imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
             description=""

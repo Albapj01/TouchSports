@@ -17,12 +17,14 @@ const Team = () => {
           <PersonsContainer>
             <Person>
               <Avatar
+                route="/home/team/player"
                 imageUrl="https://ionicframework.com/docs/img/demos/avatar.svg"
                 name="Nombre Apellidos"
               />
             </Person>
             <Person>
               <Avatar
+                route="/home/team/player"
                 imageUrl="https://ionicframework.com/docs/img/demos/avatar.svg"
                 name="Nombre Apellidos"
               />

@@ -1,30 +1,43 @@
-import { IonDatetime, IonInput } from "@ionic/react";
+import { IonInput } from "@ionic/react";
+import styled from "styled-components";
 
 const Input = () => {
   return (
     <>
-      <IonInput
-        label="Nombre"
-        labelPlacement="floating"
-        fill="outline"
-        placeholder="Nombre"
-      ></IonInput>
-      <br></br>
-      <IonInput
-        label="Teléfono"
-        labelPlacement="floating"
-        fill="outline"
-        placeholder="Teléfono"
-      ></IonInput>
-      <br></br>
-      <IonInput
-        label="Correo"
-        labelPlacement="floating"
-        fill="outline"
-        placeholder="Correo"
-      ></IonInput>
-      <br></br>
+      <InputContainer>
+        <IonInput
+          label="Nombre"
+          labelPlacement="floating"
+          fill="outline"
+          placeholder="Nombre"
+        />
+      </InputContainer>
+      <br />
+      <InputContainer>
+        <IonInput
+          label="Teléfono"
+          labelPlacement="floating"
+          fill="outline"
+          placeholder="Teléfono"
+        />
+      </InputContainer>
+      <br />
+      <InputContainer>
+        <IonInput
+          label="Correo"
+          labelPlacement="floating"
+          fill="outline"
+          placeholder="Correo"
+        />
+      </InputContainer>
     </>
   );
 };
+
+const InputContainer = styled.div`
+  border: solid lightgray;
+  border-radius: 10px;
+  padding-left: 2%;
+`;
+
 export default Input;
