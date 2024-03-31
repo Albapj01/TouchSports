@@ -85,12 +85,16 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".vscode/settings.json",
-        "hash": "4151221709318294451"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       },
       {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "13065267247832701499"
       },
       {
         "file": "jest.config.ts",
@@ -101,35 +105,84 @@
         "hash": "15553496959705771468"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "13065267247832701499"
-      },
-      {
         "file": "package.json",
         "hash": "9678811231227360245"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": "README.md",
+        "hash": "10104707244890837311"
       },
       {
         "file": "nx.json",
         "hash": "4595224623132836319"
       },
       {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
       },
       {
-        "file": "README.md",
-        "hash": "10104707244890837311"
+        "file": ".vscode/settings.json",
+        "hash": "4151221709318294451"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
       }
     ],
     "projectFileMap": {
+      "backend": [
+        {
+          "file": "backend/.eslintrc.json",
+          "hash": "11808533155536463924"
+        },
+        {
+          "file": "backend/jest.config.ts",
+          "hash": "16506059037693097726"
+        },
+        {
+          "file": "backend/project.json",
+          "hash": "9209280618898639585"
+        },
+        {
+          "file": "backend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "backend/src/main.ts",
+          "hash": "17773914587814559191",
+          "deps": [
+            "npm:express",
+            "npm:path"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/domain/Teams.ts",
+          "hash": "5510397731687055905"
+        },
+        {
+          "file": "backend/src/trainers/domain/Trainer.ts",
+          "hash": "3871844336218800991"
+        },
+        {
+          "file": "backend/tsconfig.app.json",
+          "hash": "3852056039976130118"
+        },
+        {
+          "file": "backend/tsconfig.json",
+          "hash": "9420862676426701392"
+        },
+        {
+          "file": "backend/tsconfig.spec.json",
+          "hash": "17313551537729802733"
+        },
+        {
+          "file": "backend/webpack.config.js",
+          "hash": "5708803163266262522",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ],
       "frontend-e2e": [
         {
           "file": "frontend-e2e/.eslintrc.json",
@@ -334,7 +387,7 @@
         },
         {
           "file": "frontend/src/components/input/input.tsx",
-          "hash": "13583901178190246153",
+          "hash": "3802987766798690786",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components"
@@ -377,9 +430,10 @@
         },
         {
           "file": "frontend/src/components/segment/segment.tsx",
-          "hash": "13083647248698637707",
+          "hash": "2823354059467397061",
           "deps": [
             "npm:@ionic/react",
+            "npm:react",
             "npm:styled-components"
           ]
         },
@@ -434,7 +488,7 @@
         },
         {
           "file": "frontend/src/pages/home/home.tsx",
-          "hash": "15241863131116418287",
+          "hash": "2969174935236912330",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components"
@@ -458,11 +512,12 @@
         },
         {
           "file": "frontend/src/pages/reserve/reserve.tsx",
-          "hash": "3140774043871892538",
+          "hash": "12135307533595525547",
           "deps": [
             "npm:@ionic/react",
+            "npm:react",
             "npm:styled-components",
-            "npm:react"
+            "npm:react-router-dom"
           ]
         },
         {
@@ -524,59 +579,6 @@
           "deps": [
             "npm:@nx/webpack",
             "npm:@nx/react"
-          ]
-        }
-      ],
-      "backend": [
-        {
-          "file": "backend/.eslintrc.json",
-          "hash": "11808533155536463924"
-        },
-        {
-          "file": "backend/jest.config.ts",
-          "hash": "16506059037693097726"
-        },
-        {
-          "file": "backend/project.json",
-          "hash": "9209280618898639585"
-        },
-        {
-          "file": "backend/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "backend/src/main.ts",
-          "hash": "17773914587814559191",
-          "deps": [
-            "npm:express",
-            "npm:path"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/domain/Teams.ts",
-          "hash": "5510397731687055905"
-        },
-        {
-          "file": "backend/src/trainers/domain/Trainer.ts",
-          "hash": "3871844336218800991"
-        },
-        {
-          "file": "backend/tsconfig.app.json",
-          "hash": "3852056039976130118"
-        },
-        {
-          "file": "backend/tsconfig.json",
-          "hash": "9420862676426701392"
-        },
-        {
-          "file": "backend/tsconfig.spec.json",
-          "hash": "17313551537729802733"
-        },
-        {
-          "file": "backend/webpack.config.js",
-          "hash": "5708803163266262522",
-          "deps": [
-            "npm:@nx/webpack"
           ]
         }
       ]

@@ -21,6 +21,9 @@ import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 
 const Reserve = () => {
+  const [name, setName] = useState("");
+  const [telephoneNumber, setTelephoneNumber] = useState("");
+  const [email, setEmail] = useState("");
   const [showMultiSelect, setShowMultiSelect] = useState(false);
   const history = useHistory();
 
@@ -41,7 +44,23 @@ const Reserve = () => {
           </Image>
           <IonList className="no-margin-padding">
             <Margin>
-              <Input />
+              <Input
+                label="Nombre"
+                placeholder="Nombre"
+                elements={(name) => setName(name)}
+              />
+              <br />
+              <Input
+                label="Teléfono"
+                placeholder="Teléfono"
+                elements={(telephoneNumber) => setTelephoneNumber(telephoneNumber)}
+              />
+              <br />
+              <Input
+                label="Correo"
+                placeholder="Correo"
+                elements={(email) => setEmail(email)}
+              />
               <Space></Space>
               <IonText>¿Desea reservar algún tipo de material?</IonText>
               <Segment setShowMultiSelect={setShowMultiSelect} />
