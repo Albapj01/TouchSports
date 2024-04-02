@@ -1,4 +1,4 @@
-import { Teams } from "./Teams";
+import { Team } from "./Team";
 
 export class Trainer {
     constructor(
@@ -7,7 +7,7 @@ export class Trainer {
       readonly surname: string,
       readonly email: string,
       readonly telephone: string,
-      readonly teams: Teams,
+      readonly teams: Team,
       readonly imageUrl: string,
     ) {}
   }

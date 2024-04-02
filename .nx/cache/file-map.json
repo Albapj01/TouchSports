@@ -85,36 +85,16 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
+        "file": "README.md",
+        "hash": "10104707244890837311"
       },
       {
         "file": ".vscode/settings.json",
         "hash": "4151221709318294451"
       },
       {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
-      },
-      {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
-      },
-      {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
       },
       {
         "file": "package-lock.json",
@@ -125,8 +105,28 @@
         "hash": "9678811231227360245"
       },
       {
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4595224623132836319"
+      },
+      {
         "file": "tsconfig.base.json",
         "hash": "16936441711144470533"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
       }
     ],
     "projectFileMap": {
@@ -481,12 +481,8 @@
           ]
         },
         {
-          "file": "backend/src/trainers/domain/Teams.ts",
-          "hash": "5510397731687055905"
-        },
-        {
           "file": "backend/src/trainers/domain/Trainer.ts",
-          "hash": "3871844336218800991"
+          "hash": "1411556045819395034"
         },
         {
           "file": "backend/tsconfig.app.json",
@@ -506,6 +502,14 @@
           "deps": [
             "npm:@nx/webpack"
           ]
+        },
+        {
+          "file": "backend/src/trainers/domain/Player.ts",
+          "hash": "15646250171086256876"
+        },
+        {
+          "file": "backend/src/trainers/domain/Team.ts",
+          "hash": "6654527424276676035"
         }
       ],
       "frontend-e2e": [
