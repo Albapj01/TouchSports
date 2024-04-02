@@ -4,6 +4,9 @@ import Avatar from "frontend/src/components/avatar/avatar";
 import Tabs from "frontend/src/components/tabs/tabs";
 import Menu from "frontend/src/components/menu/menu";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
+import Button from "frontend/src/components/button/button";
+import { personAdd } from "ionicons/icons";
+import { Link } from "react-router-dom"; 
 
 const Team = () => {
   return (
@@ -30,6 +33,12 @@ const Team = () => {
               />
             </Person>
           </PersonsContainer>
+          <Space />
+          <ButtonContainer>
+            <Link to="/home/team/add-player">
+              <Button color="primary" icon={personAdd} text="Añadir jugador" />
+            </Link>
+          </ButtonContainer>
         </IonContent>
         <IonFooter>
           <Tabs />
@@ -45,8 +54,17 @@ const PersonsContainer = styled.div`
   margin: 8%;
 `;
 
+const ButtonContainer = styled.div`
+  margin-left: 24%;
+  width: 50%;
+`;
+
 const Person = styled.div`
   flex-direction: row;
+`;
+
+const Space = styled.div`
+  margin-bottom: 10%;
 `;
 
 export default Team;

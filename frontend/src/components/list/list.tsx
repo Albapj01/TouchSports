@@ -17,13 +17,13 @@ const List = () => {
         </Margin>
       </IonItem>
       <IonItem color="light">
-        <IonLabel>Correo</IonLabel>
+        <IonLabel>Teléfono</IonLabel>
         <Margin>
           <IonLabel>Example</IonLabel>
         </Margin>
       </IonItem>
       <IonItem color="light">
-        <IonLabel>Teléfono</IonLabel>
+        <IonLabel>Correo</IonLabel>
         <Margin>
           <IonLabel>Example</IonLabel>
         </Margin>
