@@ -22,7 +22,17 @@ export class TrainerMapper {
       surname: trainer.surname,
       email: trainer.email,
       telephone: trainer.telephone,
-      teams: trainer.teams,
+      teams: trainer.teams.map((team) => ({
+        trainerId: team.trainerId,
+        teamId: team.teamId,
+        name: team.name,
+        players: team.players.map((player) => ({
+          playerId: player.playerId,
+          name: player.name,
+          surname: player.surname,
+          email: player.email,
+        })),
+      })),
       imageUrl: trainer.imageUrl,
     };
   }

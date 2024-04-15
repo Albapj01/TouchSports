@@ -14,7 +14,7 @@ export class CreateTrainerUseCase {
             trainerDTO.surname,
             trainerDTO.email,
             trainerDTO.telephone,
-            trainerDTO.teams,
+            [],
             trainerDTO.imageUrl,
         )
 

@@ -1,0 +1,113 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.41 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/PlayerMapper.ts:[32m[1m2:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../entities/PlayerEntity' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mPlayer[39m } [36mfrom[39m [32m"backend/src/trainers/domain/model/Player"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mPlayerEntity[39m } [36mfrom[39m [32m"../entities/PlayerEntity"[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mPlayerSchema[39m } [36mfrom[39m [32m"../schemas/PlayerSchema"[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36mexport[39m [36mclass[39m [33mPlayerMapper[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/PlayerMapper.ts:[32m[1m3:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../schemas/PlayerSchema' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mPlayer[39m } [36mfrom[39m [32m"backend/src/trainers/domain/model/Player"[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mPlayerEntity[39m } [36mfrom[39m [32m"../entities/PlayerEntity"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mPlayerSchema[39m } [36mfrom[39m [32m"../schemas/PlayerSchema"[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36mexport[39m [36mclass[39m [33mPlayerMapper[39m {[0m
+  [0m [90m 6 |[39m   [36mstatic[39m toDomain(playerEntity[33m:[39m [33mPlayerEntity[39m)[33m:[39m [33mPlayer[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/ReserveMapper.ts:[32m[1m1:31[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../entities/ReserveEntity' or its corresponding type declarations.
+  [0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m { [33mReserveEntity[39m } [36mfrom[39m [32m"../entities/ReserveEntity"[39m[33m;[39m[0m
+  [0m [90m   |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mReserve[39m } [36mfrom[39m [32m"backend/src/trainers/domain/model/Reserve"[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mReserveSchema[39m } [36mfrom[39m [32m"../schemas/ReserveSchema"[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/ReserveMapper.ts:[32m[1m3:31[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../schemas/ReserveSchema' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mReserveEntity[39m } [36mfrom[39m [32m"../entities/ReserveEntity"[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mReserve[39m } [36mfrom[39m [32m"backend/src/trainers/domain/model/Reserve"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mReserveSchema[39m } [36mfrom[39m [32m"../schemas/ReserveSchema"[39m[33m;[39m[0m
+  [0m [90m   |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36mexport[39m [36mclass[39m [33mReserveMapper[39m {[0m
+  [0m [90m 6 |[39m   [36mstatic[39m toDomain(reserveEntity[33m:[39m [33mReserveEntity[39m)[33m:[39m [33mReserve[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TeamMapper.ts:[32m[1m2:28[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../entities/TeamEntity' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mTeam[39m } [36mfrom[39m [32m"backend/src/trainers/domain/model/Team"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mTeamEntity[39m } [36mfrom[39m [32m"../entities/TeamEntity"[39m[33m;[39m[0m
+  [0m [90m   |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mTeamSchema[39m } [36mfrom[39m [32m"../schemas/TeamSchema"[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36mexport[39m [36mclass[39m [33mTeamMapper[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TeamMapper.ts:[32m[1m3:28[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../schemas/TeamSchema' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mTeam[39m } [36mfrom[39m [32m"backend/src/trainers/domain/model/Team"[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mTeamEntity[39m } [36mfrom[39m [32m"../entities/TeamEntity"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mTeamSchema[39m } [36mfrom[39m [32m"../schemas/TeamSchema"[39m[33m;[39m[0m
+  [0m [90m   |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36mexport[39m [36mclass[39m [33mTeamMapper[39m {[0m
+  [0m [90m 6 |[39m   [36mstatic[39m toDomain(teamEntity[33m:[39m [33mTeamEntity[39m)[33m:[39m [33mTeam[39m {[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (af5ea84cc704d149)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.41 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/PlayerMapper.ts:[32m[1m2:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../entities/PlayerEntity' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mPlayer[39m } [36mfrom[39m [32m"backend/src/trainers/domain/model/Player"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mPlayerEntity[39m } [36mfrom[39m [32m"../entities/PlayerEntity"[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mPlayerSchema[39m } [36mfrom[39m [32m"../schemas/PlayerSchema"[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36mexport[39m [36mclass[39m [33mPlayerMapper[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/PlayerMapper.ts:[32m[1m3:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../schemas/PlayerSchema' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mPlayer[39m } [36mfrom[39m [32m"backend/src/trainers/domain/model/Player"[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mPlayerEntity[39m } [36mfrom[39m [32m"../entities/PlayerEntity"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mPlayerSchema[39m } [36mfrom[39m [32m"../schemas/PlayerSchema"[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36mexport[39m [36mclass[39m [33mPlayerMapper[39m {[0m
+  [0m [90m 6 |[39m   [36mstatic[39m toDomain(playerEntity[33m:[39m [33mPlayerEntity[39m)[33m:[39m [33mPlayer[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/ReserveMapper.ts:[32m[1m1:31[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../entities/ReserveEntity' or its corresponding type declarations.
+  [0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m { [33mReserveEntity[39m } [36mfrom[39m [32m"../entities/ReserveEntity"[39m[33m;[39m[0m
+  [0m [90m   |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mReserve[39m } [36mfrom[39m [32m"backend/src/trainers/domain/model/Reserve"[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mReserveSchema[39m } [36mfrom[39m [32m"../schemas/ReserveSchema"[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/ReserveMapper.ts:[32m[1m3:31[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../schemas/ReserveSchema' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mReserveEntity[39m } [36mfrom[39m [32m"../entities/ReserveEntity"[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mReserve[39m } [36mfrom[39m [32m"backend/src/trainers/domain/model/Reserve"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mReserveSchema[39m } [36mfrom[39m [32m"../schemas/ReserveSchema"[39m[33m;[39m[0m
+  [0m [90m   |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36mexport[39m [36mclass[39m [33mReserveMapper[39m {[0m
+  [0m [90m 6 |[39m   [36mstatic[39m toDomain(reserveEntity[33m:[39m [33mReserveEntity[39m)[33m:[39m [33mReserve[39m {[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (af5ea84cc704d149)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.41 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/PlayerMapper.ts:[32m[1m2:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../entities/PlayerEntity' or its corresponding type declarations.
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/PlayerMapper.ts:[32m[1m3:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../schemas/PlayerSchema' or its corresponding type declarations.
+
+webpack compiled with [1m[31m2 errors[39m[22m (af5ea84cc704d149)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.41 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (af5ea84cc704d149)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

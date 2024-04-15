@@ -89,48 +89,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
-      },
-      {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "17572037081460435668"
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
       },
       {
         "file": "package.json",
         "hash": "5538018349824863577"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "17572037081460435668"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
+      },
+      {
+        "file": "README.md",
+        "hash": "10104707244890837311"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4595224623132836319"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
       }
     ],
     "projectFileMap": {
@@ -263,7 +263,7 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/CreateTrainerUseCase.ts",
-          "hash": "1503291653689226015"
+          "hash": "9426150637960687369"
         },
         {
           "file": "backend/src/trainers/domain/model/Player.ts",
@@ -275,11 +275,11 @@
         },
         {
           "file": "backend/src/trainers/domain/model/Team.ts",
-          "hash": "6654527424276676035"
+          "hash": "4806900840558689497"
         },
         {
           "file": "backend/src/trainers/domain/model/Trainer.ts",
-          "hash": "15808541904508708265"
+          "hash": "2767792111754209330"
         },
         {
           "file": "backend/src/trainers/domain/port/TrainerPort.ts",
@@ -293,80 +293,26 @@
           ]
         },
         {
-          "file": "backend/src/trainers/infrastructure/persistence/entities/PlayerEntity.ts",
-          "hash": "7464134736832505275",
-          "deps": [
-            "npm:mongoose"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/persistence/entities/ReserveEntity.ts",
-          "hash": "14438614981515756655",
-          "deps": [
-            "npm:mongoose"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/persistence/entities/TeamEntity.ts",
-          "hash": "11883998530944924018",
-          "deps": [
-            "npm:mongoose"
-          ]
-        },
-        {
           "file": "backend/src/trainers/infrastructure/persistence/entities/TrainerEntity.ts",
-          "hash": "18328917684836433346",
+          "hash": "5792303632987591128",
           "deps": [
             "npm:mongoose"
           ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/persistence/mapper/PlayerMapper.ts",
-          "hash": "6191547006630265536"
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/persistence/mapper/ReserveMapper.ts",
-          "hash": "8172078839749337140"
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/persistence/mapper/TeamMapper.ts",
-          "hash": "12453666580533078092"
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts",
-          "hash": "4870351977660883637"
+          "hash": "6907856480170061733"
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts",
-          "hash": "853435187504171123",
-          "deps": [
-            "npm:mongoose"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/persistence/schemas/PlayerSchema.ts",
-          "hash": "9423571118821780903",
-          "deps": [
-            "npm:mongoose"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/persistence/schemas/ReserveSchema.ts",
-          "hash": "16048550329170669088",
-          "deps": [
-            "npm:mongoose"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/persistence/schemas/TeamSchema.ts",
-          "hash": "17064452340131856757",
+          "hash": "7714279391918856559",
           "deps": [
             "npm:mongoose"
           ]
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/schemas/TrainerSchema.ts",
-          "hash": "2956000310174371646",
+          "hash": "12161089005982443636",
           "deps": [
             "npm:mongoose"
           ]

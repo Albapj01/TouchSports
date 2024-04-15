@@ -1,5 +1,4 @@
 import { Document } from "mongoose";
-import { TeamEntity } from "./TeamEntity";
 
 export interface TrainerEntity extends Document {
   trainerId: string;
@@ -7,6 +6,16 @@ export interface TrainerEntity extends Document {
   surname: string;
   email: string;
   telephone: string;
-  teams: TeamEntity;
+  teams: {
+    trainerId: string;
+    teamId: string;
+    name: string;
+    players: {
+      playerId: string;
+      name: string;
+      surname: string;
+      email: string;
+    }[]
+  }[]
   imageUrl: string;
 }

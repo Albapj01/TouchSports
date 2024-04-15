@@ -19,9 +19,32 @@ export const TrainerSchema = new mongoose.Schema(
     },
     teams: [
       {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Teams",
-      },
+        trainerId: {
+          type: String,
+        },
+        teamId: {
+          type: String,
+        },
+        name: {
+          type: String,
+        },
+        players: [
+          {
+            playerId: {
+              type: String,
+            },
+            name: {
+              type: String,
+            },
+            surname: {
+              type: String,
+            },
+            email: {
+              type: String,
+            },
+          },
+        ],
+      }
     ],
     imageUrl: {
       type: String,
