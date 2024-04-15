@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 export const TrainerSchema = new mongoose.Schema(
   {
-    trianerId: {
+    trainerId: {
       type: String,
     },
     name: {

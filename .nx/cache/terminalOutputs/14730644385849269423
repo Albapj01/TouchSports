@@ -1,0 +1,24 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.28 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m11:14[22m[39m[1m[39m[22m
+[90mTS2420: [39mClass 'MongoTrainerAdapter' incorrectly implements interface 'TrainerPort'.
+  Property 'saveTrainer' is missing in type 'MongoTrainerAdapter' but required in type 'TrainerPort'.
+  [0m [90m  9 |[39m [36mimport[39m { [33mTeamEntity[39m } [36mfrom[39m [32m"../entities/TeamEntity"[39m[33m;[39m[0m
+  [0m [90m 10 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m [36mexport[39m [36mclass[39m [33mMongoTrainerAdapter[39m [36mimplements[39m [33mTrainerPort[39m {[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m   [36mprivate[39m model[33m:[39m [33mModel[39m[33m<[39m[33mTrainerEntity[39m[33m>[39m[33m;[39m[0m
+  [0m [90m 13 |[39m   [36mprivate[39m modelTeam[33m:[39m [33mModel[39m[33m<[39m[33mTeamEntity[39m[33m>[39m[33m;[39m[0m
+  [0m [90m 14 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (1e31d90d7ccd7310)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.28 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1e31d90d7ccd7310)
+[1m[31mDebugger listening on ws://localhost:9229/82562580-88e6-422d-9a11-3c8e5c6b112b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/82562580-88e6-422d-9a11-3c8e5c6b112b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 0, waiting for changes to restart...[22m
+

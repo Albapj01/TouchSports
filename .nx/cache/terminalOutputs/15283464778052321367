@@ -1,0 +1,323 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.28 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1e31d90d7ccd7310)
+[1m[31mDebugger listening on ws://localhost:9229/af365171-c93a-4f83-99d9-512d5641e31d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/af365171-c93a-4f83-99d9-512d5641e31d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 0, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.19 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e1aa2012a24eec65)
+[1m[31mDebugger listening on ws://localhost:9229/b5bbcdf4-20b3-4037-82f3-d0d06c625d8f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b5bbcdf4-20b3-4037-82f3-d0d06c625d8f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 0, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.11 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2614: [39mModule '"express-promise-router"' has no exported member 'Router'. Did you mean to use 'import Router from "express-promise-router"' instead?
+  [0m [90m  8 |[39m [36mimport[39m cors [36mfrom[39m [32m'cors'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m dotenv [36mfrom[39m [32m'dotenv'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mRouter[39m } [36mfrom[39m [32m'express-promise-router'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m mongoose [36mfrom[39m [32m'mongoose'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m18:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'pc'.
+  [0m [90m 16 |[39m [36mconst[39m router [33m=[39m [33mRouter[39m()[33m;[39m[0m
+  [0m [90m 17 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m app[33m.[39muse(pc)[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m[0m
+  [0m [90m 20 |[39m app[33m.[39muse([32m'/assets'[39m[33m,[39m express[33m.[39m[36mstatic[39m(path[33m.[39mjoin(__dirname[33m,[39m [32m'assets'[39m)))[33m;[39m[0m
+  [0m [90m 21 |[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (1a34802792ef4cb0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.22 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2614: [39mModule '"express-promise-router"' has no exported member 'Router'. Did you mean to use 'import Router from "express-promise-router"' instead?
+  [0m [90m  8 |[39m [36mimport[39m cors [36mfrom[39m [32m'cors'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m dotenv [36mfrom[39m [32m'dotenv'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mRouter[39m } [36mfrom[39m [32m'express-promise-router'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m mongoose [36mfrom[39m [32m'mongoose'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (b4f20e6d98cbaa10)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.22 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/main.ts[39m[22m
+[1m./src/main.ts[39m[22m [1m[32m10:16-20[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/main.ts(10,17)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2614: [39mModule '"express-promise-router"' has no exported member 'Router'. Did you mean to use 'import Router from "express-promise-router"' instead?
+  [0m [90m  8 |[39m [36mimport[39m cors [36mfrom[39m [32m'cors'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m dotenv [36mfrom[39m [32m'dotenv'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mRouter[39m [36mfrom[39m [32m'express-promise-router'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m mongoose [36mfrom[39m [32m'mongoose'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (6c5cd7ced9f78bdf)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.25 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9ba5cdfd2b543234)
+[1m[31mDebugger listening on ws://localhost:9229/4a0450e2-9660-4176-9063-0039e6361bd4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4a0450e2-9660-4176-9063-0039e6361bd4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.25 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1123adb1df46b8ab)
+[1m[31mDebugger listening on ws://localhost:9229/c35d67f3-9143-46f4-b7fe-5faffa817cf3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c35d67f3-9143-46f4-b7fe-5faffa817cf3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.27 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b34fc31ff29b400b)
+[1m[31mDebugger listening on ws://localhost:9229/90095574-96bc-46cb-8a27-ab1d59380663[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/90095574-96bc-46cb-8a27-ab1d59380663[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.27 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1f1ffe9b17238acf)
+[1m[31mDebugger listening on ws://localhost:9229/1c17ae68-5a84-4e96-ae34-abf75eadd9f7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1c17ae68-5a84-4e96-ae34-abf75eadd9f7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.27 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1f1ffe9b17238acf)
+[1m[31mDebugger listening on ws://localhost:9229/96c56cad-2ea2-40fd-ae00-dadab21ef01b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/96c56cad-2ea2-40fd-ae00-dadab21ef01b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.03 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m28:0[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (28:0)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| server.on('[1m[31merror[39m[22m[1m', console.[1m[31merror[39m[22m[1m);
+| app.
+> ;
+| [39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/main.ts[39m[22m
+[1m./src/main.ts[39m[22m [1m[32m34:4[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/main.ts(34,5)[39m[22m
+[1m[31m      TS1003: Identifier expected.[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (999fb8344428da40)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.28 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m34:8[22m[39m[1m[39m[22m
+[90mTS2555: [39mExpected at least 1 arguments, but got 0.
+  [0m [90m 32 |[39m[0m
+  [0m [90m 33 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m router[33m.[39m[36mget[39m()[0m
+  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8682fc42b7ebf97c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ec964febcf1fce83)
+[1m[31mDebugger listening on ws://localhost:9229/83863d31-8396-4592-806e-1d3fd5b71ef4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/83863d31-8396-4592-806e-1d3fd5b71ef4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m34:28[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 're'.
+  [0m [90m 32 |[39m[0m
+  [0m [90m 33 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m router[33m.[39m[36mget[39m([32m'/api/status'[39m[33m,[39m (re))[0m
+  [0m [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a5690ead0c4f0df8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.31 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m34:28[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'req'.
+  [0m [90m 32 |[39m[0m
+  [0m [90m 33 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m router[33m.[39m[36mget[39m([32m'/api/status'[39m[33m,[39m (req[33m,[39mres))[0m
+  [0m [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m34:28[22m[39m[1m[39m[22m
+[90mTS2695: [39mLeft side of comma operator is unused and has no side effects.
+  [0m [90m 32 |[39m[0m
+  [0m [90m 33 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m router[33m.[39m[36mget[39m([32m'/api/status'[39m[33m,[39m (req[33m,[39mres))[0m
+  [0m [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m34:32[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'res'.
+  [0m [90m 32 |[39m[0m
+  [0m [90m 33 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m router[33m.[39m[36mget[39m([32m'/api/status'[39m[33m,[39m (req[33m,[39mres))[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (b24d83eda6d176a5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.31 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m34:28[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'req'.
+  [0m [90m 32 |[39m[0m
+  [0m [90m 33 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m router[33m.[39m[36mget[39m([32m'/api/status'[39m[33m,[39m (req[33m,[39m res))[0m
+  [0m [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m34:28[22m[39m[1m[39m[22m
+[90mTS2695: [39mLeft side of comma operator is unused and has no side effects.
+  [0m [90m 32 |[39m[0m
+  [0m [90m 33 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m router[33m.[39m[36mget[39m([32m'/api/status'[39m[33m,[39m (req[33m,[39m res))[0m
+  [0m [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m34:33[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'res'.
+  [0m [90m 32 |[39m[0m
+  [0m [90m 33 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m router[33m.[39m[36mget[39m([32m'/api/status'[39m[33m,[39m (req[33m,[39m res))[0m
+  [0m [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (177d4d3ca6a36aed)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.32 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f6ee9a9432063520)
+[1m[31mDebugger listening on ws://localhost:9229/a82d6169-65f7-4eb4-99d0-f8636c3aba1a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a82d6169-65f7-4eb4-99d0-f8636c3aba1a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.32 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m35:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'c'.
+  [0m [90m 33 |[39m[0m
+  [0m [90m 34 |[39m router[33m.[39m[36mget[39m([32m'/api/status'[39m[33m,[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m   c[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m })[0m
+  [0m [90m 37 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (913b907ed770a0a0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.32 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (069c4c9e1d8a2405)
+[1m[31mDebugger listening on ws://localhost:9229/9b8a68d6-b3e7-4884-9058-426a4639b902[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9b8a68d6-b3e7-4884-9058-426a4639b902[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.37 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f8daebef83427ad8)
+[1m[31mDebugger listening on ws://localhost:9229/f41aebfc-897e-4aa0-bcaa-0607a6c0f160[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f41aebfc-897e-4aa0-bcaa-0607a6c0f160[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.38 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (283f892566f8ec38)
+[1m[31mDebugger listening on ws://localhost:9229/07b8f6b8-814d-457e-b2b4-062ef0dc840a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/07b8f6b8-814d-457e-b2b4-062ef0dc840a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.39 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m35:7[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 1 arguments, but got 0.
+  [0m [90m 33 |[39m[0m
+  [0m [90m 34 |[39m router[33m.[39m[36mget[39m([32m'/api/status'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m   res[33m.[39mstatus()[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m })[0m
+  [0m [90m 37 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (524b9a526973b1d3)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.39 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (560556fc014568dc)
+[1m[31mDebugger listening on ws://localhost:9229/4c4b0421-d14d-4814-821d-8259fcec188b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4c4b0421-d14d-4814-821d-8259fcec188b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.39 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b316493d98b20343)
+[1m[31mDebugger listening on ws://localhost:9229/3e428303-902c-436a-bfa1-23a73be46a2d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3e428303-902c-436a-bfa1-23a73be46a2d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.15 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m29:4[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (29:4)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| router.get('/api/status', (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {
+|     res.status(200).
+>     ;
+| }));
+| [39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/main.ts[39m[22m
+[1m./src/main.ts[39m[22m [1m[32m36:0-1[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/main.ts(36,1)[39m[22m
+[1m[31m      TS1003: Identifier expected.[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (bb8ca5b6c8ee4dd7)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d93c0a1de06a05fd)
+[1m[31mDebugger listening on ws://localhost:9229/a78082b3-de67-4fbf-b203-7ca1be2aa909[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a78082b3-de67-4fbf-b203-7ca1be2aa909[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.41 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5b12f5b8ede194ba)
+[1m[31mDebugger listening on ws://localhost:9229/4f28ed0e-f982-46eb-a49b-fb214f3dfc0b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4f28ed0e-f982-46eb-a49b-fb214f3dfc0b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.41 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllTeams.ts:[32m[1m2:32[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../services/TrainerService' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mTeam[39m } [36mfrom[39m [32m"../../domain/model/Team"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mTrainerService[39m } [36mfrom[39m [32m"../services/TrainerService"[39m[33m;[39m[0m
+  [0m [90m   |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m[0m
+  [0m [90m 4 |[39m [36mexport[39m [36mclass[39m [33mGetAllTeams[39m {[0m
+  [0m [90m 5 |[39m   [36mprivate[39m trainerService[33m:[39m [33mTrainerService[39m[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (5b12f5b8ede194ba)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.41 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5b12f5b8ede194ba)
+[1m[31mDebugger listening on ws://localhost:9229/d3fbd589-2143-4f42-a818-c7a99e4cee03[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d3fbd589-2143-4f42-a818-c7a99e4cee03[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
