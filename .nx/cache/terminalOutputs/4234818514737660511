@@ -1,0 +1,64 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.93 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (59bbcc8590d1b47c)
+[1m[31mDebugger listening on ws://localhost:9229/598bdbe1-cef3-44d8-a58b-2f547187a0de[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/598bdbe1-cef3-44d8-a58b-2f547187a0de[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.89 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (36bd98521345fdad)
+[1m[31mDebugger listening on ws://localhost:9229/b370d63e-0f26-42f7-90fd-97340c5e1b1d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b370d63e-0f26-42f7-90fd-97340c5e1b1d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mMongoServerError: Authentication failed.[39m[22m
+[1m[31m    at Connection.sendCommand (/Users/albapalomino/TouchSports/node_modules/mongodb/src/cmap/connection.ts:498:17)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m[22m
+[1m[31m    at Connection.command (/Users/albapalomino/TouchSports/node_modules/mongodb/src/cmap/connection.ts:562:22)[39m[22m
+[1m[31m    at executeScram (/Users/albapalomino/TouchSports/node_modules/mongodb/src/cmap/auth/scram.ts:113:20)[39m[22m
+[1m[31m    at performInitialHandshake (/Users/albapalomino/TouchSports/node_modules/mongodb/src/cmap/connect.ts:157:7)[39m[22m
+[1m[31m    at connect (/Users/albapalomino/TouchSports/node_modules/mongodb/src/cmap/connect.ts:43:5) {[39m[22m
+[1m[31m  errorResponse: {[39m[22m
+[1m[31m    ok: 0,[39m[22m
+[1m[31m    errmsg: 'Authentication failed.',[39m[22m
+[1m[31m    code: 18,[39m[22m
+[1m[31m    codeName: 'AuthenticationFailed'[39m[22m
+[1m[31m  },[39m[22m
+[1m[31m  ok: 0,[39m[22m
+[1m[31m  code: 18,[39m[22m
+[1m[31m  codeName: 'AuthenticationFailed',[39m[22m
+[1m[31m  connectionGeneration: 0,[39m[22m
+[1m[31m  [Symbol(errorLabels)]: Set(2) { 'HandshakeError', 'ResetPool' }[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.89 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f6d0d8a59de809f3)
+[1m[31mDebugger listening on ws://localhost:9229/321096c4-1c2b-4910-a4e7-40afa000a811[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/321096c4-1c2b-4910-a4e7-40afa000a811[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mMongoServerError: Authentication failed.[39m[22m
+[1m[31m    at Connection.sendCommand (/Users/albapalomino/TouchSports/node_modules/mongodb/src/cmap/connection.ts:498:17)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m[22m
+[1m[31m    at Connection.command (/Users/albapalomino/TouchSports/node_modules/mongodb/src/cmap/connection.ts:562:22)[39m[22m
+[1m[31m    at executeScram (/Users/albapalomino/TouchSports/node_modules/mongodb/src/cmap/auth/scram.ts:113:20)[39m[22m
+[1m[31m    at performInitialHandshake (/Users/albapalomino/TouchSports/node_modules/mongodb/src/cmap/connect.ts:157:7)[39m[22m
+[1m[31m    at connect (/Users/albapalomino/TouchSports/node_modules/mongodb/src/cmap/connect.ts:43:5) {[39m[22m
+[1m[31m  errorResponse: {[39m[22m
+[1m[31m    ok: 0,[39m[22m
+[1m[31m    errmsg: 'Authentication failed.',[39m[22m
+[1m[31m    code: 18,[39m[22m
+[1m[31m    codeName: 'AuthenticationFailed'[39m[22m
+[1m[31m  },[39m[22m
+[1m[31m  ok: 0,[39m[22m
+[1m[31m  code: 18,[39m[22m
+[1m[31m  codeName: 'AuthenticationFailed',[39m[22m
+[1m[31m  connectionGeneration: 0,[39m[22m
+[1m[31m  [Symbol(errorLabels)]: Set(2) { 'HandshakeError', 'ResetPool' }[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+

@@ -4,5 +4,5 @@ export interface TeamDTO {
     trainerId: string,
     teamId: string,
     name: string,
-    players: PlayerDTO,
+    players: Array<PlayerDTO>,
   }

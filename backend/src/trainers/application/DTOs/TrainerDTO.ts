@@ -6,7 +6,7 @@ export interface TrainerDTO {
     surname: string,
     email: string,
     telephone?: string,
-    teams: TeamDTO,
+    teams: Array<TeamDTO>,
     imageUrl?: string
     //reservas
 }

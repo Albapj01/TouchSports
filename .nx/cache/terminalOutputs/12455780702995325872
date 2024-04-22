@@ -1,0 +1,972 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.89 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4020fe9599813f42)
+[1m[31mDebugger listening on ws://localhost:9229/f4a7501b-0bb4-4c9a-95c4-0e6b1ef11091[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f4a7501b-0bb4-4c9a-95c4-0e6b1ef11091[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.74 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (06d40cbc7ca7e543)
+[1m[31mDebugger listening on ws://localhost:9229/0e5e2bdd-03bf-4b7d-9df8-4ad9f68b69cc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0e5e2bdd-03bf-4b7d-9df8-4ad9f68b69cc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.74 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m25:34[22m[39m[1m[39m[22m
+[90mTS2355: [39mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+  [0m [90m 23 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 25 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 26 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTravelMapper[39m[33m.[39mtravelToTravelDocument(travel))[0m
+  [0m [90m 27 |[39m   }[0m
+  [0m [90m 28 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m26:5[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTravelMapper[39m[33m.[39mtravelToTravelDocument(travel))[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   }[0m
+  [0m [90m 28 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 29 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m26:29[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'TravelMapper'.
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTravelMapper[39m[33m.[39mtravelToTravelDocument(travel))[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   }[0m
+  [0m [90m 28 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 29 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m26:65[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travel'.
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTravelMapper[39m[33m.[39mtravelToTravelDocument(travel))[0m
+  [0m [90m    |[39m                                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   }[0m
+  [0m [90m 28 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 29 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (06d40cbc7ca7e543)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.74 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m26:34[22m[39m[1m[39m[22m
+[90mTS2355: [39mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+  [0m [90m 24 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+  [0m [90m 25 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mtravelToTravelDocument(travel))[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:5[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mtravelToTravelDocument(travel))[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 30 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:43[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'travelToTravelDocument' does not exist on type 'typeof TrainerMapper'.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mtravelToTravelDocument(travel))[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 30 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:66[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travel'.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mtravelToTravelDocument(travel))[0m
+  [0m [90m    |[39m                                                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 30 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (06d40cbc7ca7e543)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.74 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m26:34[22m[39m[1m[39m[22m
+[90mTS2355: [39mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+  [0m [90m 24 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+  [0m [90m 25 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mtravelToTravel(travel))[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:5[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mtravelToTravel(travel))[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 30 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:43[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'travelToTravel' does not exist on type 'typeof TrainerMapper'.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mtravelToTravel(travel))[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 30 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:58[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travel'.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mtravelToTravel(travel))[0m
+  [0m [90m    |[39m                                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 30 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (06d40cbc7ca7e543)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.74 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m26:34[22m[39m[1m[39m[22m
+[90mTS2355: [39mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+  [0m [90m 24 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+  [0m [90m 25 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mt(travel))[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:5[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mt(travel))[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 30 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:43[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 't' does not exist on type 'typeof TrainerMapper'.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mt(travel))[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 30 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:45[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travel'.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mt(travel))[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 30 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (06d40cbc7ca7e543)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.74 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m26:34[22m[39m[1m[39m[22m
+[90mTS2355: [39mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+  [0m [90m 24 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+  [0m [90m 25 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39m(travel))[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:5[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39m(travel))[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 30 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:29[22m[39m[1m[39m[22m
+[90mTS2348: [39mValue of type 'typeof TrainerMapper' is not callable. Did you mean to include 'new'?
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39m(travel))[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 30 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:43[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travel'.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39m(travel))[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 30 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (06d40cbc7ca7e543)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.74 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m26:34[22m[39m[1m[39m[22m
+[90mTS2355: [39mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+  [0m [90m 24 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+  [0m [90m 25 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39m(travel))[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:44[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travel'.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39m(travel))[0m
+  [0m [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 30 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (06d40cbc7ca7e543)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.74 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m26:34[22m[39m[1m[39m[22m
+[90mTS2355: [39mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+  [0m [90m 24 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+  [0m [90m 25 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mtoEntity(travel))[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:5[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mtoEntity(travel))[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 30 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:52[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travel'.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mtoEntity(travel))[0m
+  [0m [90m    |[39m                                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 30 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (06d40cbc7ca7e543)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.74 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m26:34[22m[39m[1m[39m[22m
+[90mTS2355: [39mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+  [0m [90m 24 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+  [0m [90m 25 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mtoEntity(trainer))[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:5[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mtoEntity(trainer))[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 30 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (06d40cbc7ca7e543)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.74 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (06d40cbc7ca7e543)
+[1m[31mDebugger listening on ws://localhost:9229/39dbbad1-b4d7-412c-a2aa-6bf6a4aaa589[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/39dbbad1-b4d7-412c-a2aa-6bf6a4aaa589[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.74 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (15b37a530d64ff99)
+[1m[31mDebugger listening on ws://localhost:9229/a30b5830-fe4b-438d-bd4a-8236983dda08[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a30b5830-fe4b-438d-bd4a-8236983dda08[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 1.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m32:30[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'MongoTravelRepository'. Did you mean 'travelRepository'?
+  [0m [90m 30 |[39m })[33m;[39m[0m
+  [0m [90m 31 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m [36mconst[39m travelRepository [33m=[39m [36mnew[39m [33mMongoTravelRepository[39m()[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m[0m
+  [0m [90m 34 |[39m[0m
+  [0m [90m 35 |[39m [36mconst[39m start [33m=[39m [36masync[39m () [33m=>[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (717cc0d427d72114)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 6.59 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (aba584b514410cad)
+[1m[31mDebugger listening on ws://localhost:9229/4f3e6338-d5f7-460e-825b-8ccb6cd430fa[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4f3e6338-d5f7-460e-825b-8ccb6cd430fa[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 6.59 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b9daf63f5a032ef6)
+[1m[31mDebugger listening on ws://localhost:9229/2f34491c-83a5-450e-9646-5fb8bd3c2c60[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2f34491c-83a5-450e-9646-5fb8bd3c2c60[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 6.59 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8553eeac56ae257b)
+[1m[31mDebugger listening on ws://localhost:9229/a93dfb99-7c4f-4f9e-84e0-9035d33383dc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a93dfb99-7c4f-4f9e-84e0-9035d33383dc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 6.88 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m34:27[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateTravel'.
+  [0m [90m 32 |[39m[0m
+  [0m [90m 33 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mCreateTravel[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 36 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 37 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m34:40[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travelRepository'.
+  [0m [90m 32 |[39m[0m
+  [0m [90m 33 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mCreateTravel[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 36 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 37 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m34:58[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'notifier'.
+  [0m [90m 32 |[39m[0m
+  [0m [90m 33 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mCreateTravel[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 36 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 37 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m35:36[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTravelController'. Did you mean 'createTravelController'?
+  [0m [90m 33 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 34 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mCreateTravel[39m(travelRepository[33m,[39m notifier)[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 37 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 38 |[39m })[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (854c3e965d1aabb9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 6.88 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m35:27[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateTravel'.
+  [0m [90m 33 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 34 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mCreateTravel[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 37 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 38 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m35:40[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travelRepository'.
+  [0m [90m 33 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 34 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mCreateTravel[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 37 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 38 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m35:58[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'notifier'.
+  [0m [90m 33 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 34 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mCreateTravel[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 37 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 38 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:36[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTravelController'. Did you mean 'createTravelController'?
+  [0m [90m 34 |[39m[0m
+  [0m [90m 35 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mCreateTravel[39m(travelRepository[33m,[39m notifier)[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 38 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 39 |[39m })[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (5d66686325879c23)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 6.88 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m35:27[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SaveTrainer'.
+  [0m [90m 33 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 34 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mSaveTrainer[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 37 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 38 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m35:39[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travelRepository'.
+  [0m [90m 33 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 34 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mSaveTrainer[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 37 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 38 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m35:57[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'notifier'.
+  [0m [90m 33 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 34 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mSaveTrainer[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 37 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 38 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:36[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTravelController'. Did you mean 'createTravelController'?
+  [0m [90m 34 |[39m[0m
+  [0m [90m 35 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mSaveTrainer[39m(travelRepository[33m,[39m notifier)[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 38 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 39 |[39m })[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (4db64a4617700095)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 6.88 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m35:27[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateTra'.
+  [0m [90m 33 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 34 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mCreateTra[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 37 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 38 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m35:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travelRepository'.
+  [0m [90m 33 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 34 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mCreateTra[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 37 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 38 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m35:55[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'notifier'.
+  [0m [90m 33 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 34 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mCreateTra[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 37 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 38 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:36[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTravelController'. Did you mean 'createTravelController'?
+  [0m [90m 34 |[39m[0m
+  [0m [90m 35 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mCreateTra[39m(travelRepository[33m,[39m notifier)[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 38 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 39 |[39m })[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (9523509e3c0e0809)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 7.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:48[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travelRepository'.
+  [0m [90m 34 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 35 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:66[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'notifier'.
+  [0m [90m 34 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 35 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:66[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 1 arguments, but got 2.
+  [0m [90m 34 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 35 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:36[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTravelController'. Did you mean 'createTravelController'?
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m travelUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (9dd2efcc865e18a3)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 7.69 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:39[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travelRepository'.
+  [0m [90m 34 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 35 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m trai [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:57[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'notifier'.
+  [0m [90m 34 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 35 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m trai [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:57[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 1 arguments, but got 2.
+  [0m [90m 34 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 35 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m trai [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:36[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTravelController'. Did you mean 'createTravelController'?
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m trai [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:59[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travelUseCase'.
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m trai [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (d055e85e11a420cb)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 7.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:49[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travelRepository'.
+  [0m [90m 34 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 35 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m trainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:67[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'notifier'.
+  [0m [90m 34 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 35 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m trainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:67[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 1 arguments, but got 2.
+  [0m [90m 34 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 35 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m trainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:36[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTravelController'. Did you mean 'createTravelController'?
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m trainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:59[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'travelUseCase'. Did you mean 'trainerUseCase'?
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m trainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (a9255dcc0a6fe3a3)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 7.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:55[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travelRepository'.
+  [0m [90m 34 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 35 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:73[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'notifier'.
+  [0m [90m 34 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 35 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:73[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 1 arguments, but got 2.
+  [0m [90m 34 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 35 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:36[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTravelController'. Did you mean 'createTravelController'?
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:59[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travelUseCase'.
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(travelRepository[33m,[39m notifier)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (38dc08cf18b1571f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 7.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:71[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'notifier'.
+  [0m [90m 34 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 35 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m36:71[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 1 arguments, but got 2.
+  [0m [90m 34 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 35 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter[33m,[39m notifier)[0m
+  [0m [90m    |[39m                                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:36[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTravelController'. Did you mean 'createTravelController'?
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter[33m,[39m notifier)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:59[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travelUseCase'.
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter[33m,[39m notifier)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (d0b453b10ac381fa)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 7.69 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:36[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTravelController'. Did you mean 'createTravelController'?
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:59[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travelUseCase'.
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTravelController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (6f8fd2dbd42a031e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 7.69 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:36[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTrainerController'. Did you mean 'createTravelController'?
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:60[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travelUseCase'.
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(travelUseCase)[0m
+  [0m [90m    |[39m                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (93725d76857e9a0a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 7.69 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:36[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTrainerController'. Did you mean 'createTravelController'?
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(create)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:60[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'create'.
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(create)[0m
+  [0m [90m    |[39m                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (e73352281e13fc5e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 7.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:36[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTrainerController'. Did you mean 'createTravelController'?
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (fb6f0f374971aced)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 7.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:36[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'createTrainerController'. Did you mean 'createTravelController'?
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m createTrainerController(createTrainerUseCase)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a5f2a31e3691fa0a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 7.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:36[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTrainerController'. Did you mean 'createTravelController'?
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTravelController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (419fa6b7b8122f34)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 7.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:37[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTrainerController'. Did you mean 'createTrainerController'?
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m39:10[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'createTravelController'. Did you mean 'createTrainerController'?
+  [0m [90m 37 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 40 |[39m })[0m
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m [36mconst[39m start [33m=[39m [36masync[39m () [33m=>[39m {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (6749ba69c50b506e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 7.68 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m37:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Create'.
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreate[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 40 |[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m39:10[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'createTravelController'. Did you mean 'createTrainerController'?
+  [0m [90m 37 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreate[39m(createTrainerUseCase)[0m
+  [0m [90m 38 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 39 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 40 |[39m })[0m
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m [36mconst[39m start [33m=[39m [36masync[39m () [33m=>[39m {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (aae3d3b7ed85db86)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 8.58 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m40:10[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'createTravelController'. Did you mean 'createTrainerController'?
+  [0m [90m 38 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m 39 |[39m router[33m.[39mpost([32m'/api/travels'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m   [36mreturn[39m createTravelController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m })[0m
+  [0m [90m 42 |[39m[0m
+  [0m [90m 43 |[39m [36mconst[39m start [33m=[39m [36masync[39m () [33m=>[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (aefabaab0e24d9e1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 8.58 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c228d2086f966fea)
+[1m[31mDebugger listening on ws://localhost:9229/73a1be04-32ab-470f-80ca-68a13ad83b6c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/73a1be04-32ab-470f-80ca-68a13ad83b6c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 8.58 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (85de50fb10f14d25)
+[1m[31mDebugger listening on ws://localhost:9229/a0ed5b99-0b50-46c6-83f4-52870f7588b3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a0ed5b99-0b50-46c6-83f4-52870f7588b3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
