@@ -1,0 +1,1155 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 11.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (357f0242d0435567)
+[1m[31mDebugger listening on ws://localhost:9229/a65edf8f-c0fa-4f78-a393-b73ccfa3f128[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a65edf8f-c0fa-4f78-a393-b73ccfa3f128[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 3.23 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m45:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'createTrainerUseCase' has already been declared (45:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     return getTrainerByIdUseController.handle(req, res);
+| }));
+> const createTrainerUseCase = new CreateTrainerUseCase_1.CreateTrainerUseCase(trainerAdapter);
+| const createTrainerController = new CreateTrainerController_1.CreateTrainerController(createTrainerUseCase);
+| router.post('/api/trainer', (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m41:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTrainerUseCase'.
+  [0m [90m 39 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 40 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 41 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 42 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m 43 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 44 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m42:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTrainerController'.
+  [0m [90m 40 |[39m[0m
+  [0m [90m 41 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 42 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 43 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 44 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 45 |[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m53:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTrainerUseCase'.
+  [0m [90m 51 |[39m })[0m
+  [0m [90m 52 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 53 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 54 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m 55 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 56 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m54:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTrainerController'.
+  [0m [90m 52 |[39m[0m
+  [0m [90m 53 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 54 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 55 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 56 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 57 |[39m })[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (d4a3e190aa2407c9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 3.23 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m46:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'createTrainerController' has already been declared (46:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| }));
+| const createTeamUseCase = new CreateTrainerUseCase_1.CreateTrainerUseCase(trainerAdapter);
+> const createTrainerController = new CreateTrainerController_1.CreateTrainerController(createTrainerUseCase);
+| router.post('/api/trainer', (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {
+|     return createTrainerController.handle(req, res);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m42:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTrainerController'.
+  [0m [90m 40 |[39m[0m
+  [0m [90m 41 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 42 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 43 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 44 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 45 |[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m54:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTrainerController'.
+  [0m [90m 52 |[39m[0m
+  [0m [90m 53 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 54 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 55 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 56 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 57 |[39m })[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (1462e51771ff8ca1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 3.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m46:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'createTrainerController' has already been declared (46:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| }));
+| const createTeamUseCase = new CreateTeamUseCase(trainerAdapter);
+> const createTrainerController = new CreateTrainerController_1.CreateTrainerController(createTrainerUseCase);
+| router.post('/api/trainer', (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {
+|     return createTrainerController.handle(req, res);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m42:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTrainerController'.
+  [0m [90m 40 |[39m[0m
+  [0m [90m 41 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 42 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 43 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 44 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 45 |[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m53:31[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTeamUseCase'. Did you mean 'createTeamUseCase'?
+  [0m [90m 51 |[39m })[0m
+  [0m [90m 52 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 53 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 54 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m 55 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 56 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m54:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTrainerController'.
+  [0m [90m 52 |[39m[0m
+  [0m [90m 53 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 54 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 55 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 56 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 57 |[39m })[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (b75ab6c8b5118c05)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 3.31 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m47:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'createTrainerController' has already been declared (47:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| }));
+| const createTeamUseCase = new CreateTeamUseCase_1.CreateTeamUseCase(trainerAdapter);
+> const createTrainerController = new CreateTrainerController_1.CreateTrainerController(createTrainerUseCase);
+| router.post('/api/trainer', (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {
+|     return createTrainerController.handle(req, res);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m43:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTrainerController'.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 45 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 46 |[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m55:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTrainerController'.
+  [0m [90m 53 |[39m[0m
+  [0m [90m 54 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 55 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 56 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 57 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 58 |[39m })[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (7396f373f7b8082f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 3.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m47:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'createTeamUseCase' has already been declared (47:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| }));
+| const createTeamUseCase = new CreateTeamUseCase_1.CreateTeamUseCase(trainerAdapter);
+> const createTeamUseCase = new CreateTrainerController_1.CreateTrainerController(createTrainerUseCase);
+| router.post('/api/trainer', (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {
+|     return createTrainerController.handle(req, res);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m54:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTeamUseCase'.
+  [0m [90m 52 |[39m })[0m
+  [0m [90m 53 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 54 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 55 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m 56 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 57 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m55:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTeamUseCase'.
+  [0m [90m 53 |[39m[0m
+  [0m [90m 54 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 55 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 56 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 57 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 58 |[39m })[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (73bfa3e26b7ba8fe)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 3.31 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m47:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'createTeamUseCase' has already been declared (47:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| }));
+| const createTeamUseCase = new CreateTeamUseCase_1.CreateTeamUseCase(trainerAdapter);
+> const createTeamUseCase = new CreateTrainerController_1.CreateTrainerController(createTrainerUseCase);
+| router.post('/api/trainer/team', (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {
+|     return createTrainerController.handle(req, res);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m54:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTeamUseCase'.
+  [0m [90m 52 |[39m })[0m
+  [0m [90m 53 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 54 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 55 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m 56 |[39m router[33m.[39mpost([32m'/api/trainer/team'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 57 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m55:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTeamUseCase'.
+  [0m [90m 53 |[39m[0m
+  [0m [90m 54 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 55 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 56 |[39m router[33m.[39mpost([32m'/api/trainer/team'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 57 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 58 |[39m })[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (2106f4a7aa686803)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 3.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m47:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'createTeamUseCase' has already been declared (47:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| }));
+| const createTeamUseCase = new CreateTeamUseCase_1.CreateTeamUseCase(trainerAdapter);
+> const createTeamUseCase = new CreateTeamUseCase_1.CreateTeamUseCase(createTrainerUseCase);
+| router.post('/api/trainer/team', (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {
+|     return createTrainerController.handle(req, res);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m54:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTeamUseCase'.
+  [0m [90m 52 |[39m })[0m
+  [0m [90m 53 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 54 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 55 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(createTrainerUseCase)[0m
+  [0m [90m 56 |[39m router[33m.[39mpost([32m'/api/trainer/team'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 57 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m55:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTeamUseCase'.
+  [0m [90m 53 |[39m[0m
+  [0m [90m 54 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 55 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 56 |[39m router[33m.[39mpost([32m'/api/trainer/team'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 57 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 58 |[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m55:49[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'CreateTrainerUseCase' is not assignable to parameter of type 'TrainerPort'.
+  Type 'CreateTrainerUseCase' is missing the following properties from type 'TrainerPort': saveTrainer, findById, deleteTeam, saveTeam, and 9 more.
+  [0m [90m 53 |[39m[0m
+  [0m [90m 54 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 55 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 56 |[39m router[33m.[39mpost([32m'/api/trainer/team'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 57 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 58 |[39m })[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (f8fdb04ca2467f7f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 3.29 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m47:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'createTeamUseCase' has already been declared (47:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| }));
+| const createTeamUseCase = new CreateTeamUseCase_1.CreateTeamUseCase(trainerAdapter);
+> const createTeamUseCase = new CreateTeamUseCase_1.CreateTeamUseCase(createTeamUseCase);
+| router.post('/api/trainer/team', (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {
+|     return createTrainerController.handle(req, res);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m54:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTeamUseCase'.
+  [0m [90m 52 |[39m })[0m
+  [0m [90m 53 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 54 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 55 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(createTeamUseCase)[0m
+  [0m [90m 56 |[39m router[33m.[39mpost([32m'/api/trainer/team'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 57 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m55:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTeamUseCase'.
+  [0m [90m 53 |[39m[0m
+  [0m [90m 54 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 55 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(createTeamUseCase)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 56 |[39m router[33m.[39mpost([32m'/api/trainer/team'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 57 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 58 |[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m55:49[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'CreateTeamUseCase' is not assignable to parameter of type 'TrainerPort'.
+  Type 'CreateTeamUseCase' is missing the following properties from type 'TrainerPort': saveTrainer, findById, deleteTeam, saveTeam, and 9 more.
+  [0m [90m 53 |[39m[0m
+  [0m [90m 54 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 55 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(createTeamUseCase)[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 56 |[39m router[33m.[39mpost([32m'/api/trainer/team'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 57 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 58 |[39m })[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (0dd549a6537c9af8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 3.31 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m47:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'createTrainerController' has already been declared (47:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| }));
+| const createTeamUseCase = new CreateTeamUseCase_1.CreateTeamUseCase(trainerAdapter);
+> const createTrainerController = new CreateTrainerController_1.CreateTrainerController(createTrainerUseCase);
+| router.post('/api/trainer', (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {
+|     return createTrainerController.handle(req, res);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m43:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTrainerController'.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 45 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 46 |[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m55:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'createTrainerController'.
+  [0m [90m 53 |[39m[0m
+  [0m [90m 54 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 55 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 56 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 57 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 58 |[39m })[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (7396f373f7b8082f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 12.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (083e144a9f62ee12)
+[1m[31mDebugger listening on ws://localhost:9229/f72ee0bc-d239-48ad-ad17-bfe1112be40d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f72ee0bc-d239-48ad-ad17-bfe1112be40d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 12.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m55:34[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'CreateTeamController'. Did you mean 'createTeamController'?
+  [0m [90m 53 |[39m[0m
+  [0m [90m 54 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 55 |[39m [36mconst[39m createTeamController [33m=[39m [36mnew[39m [33mCreateTeamController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 56 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 57 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 58 |[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (290cfc7f246e3d16)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m56:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'CreateTrainerUseCase' is not assignable to parameter of type 'CreateTeamUseCase'.
+  Types have separate declarations of a private property 'trainerPort'.
+  [0m [90m 54 |[39m[0m
+  [0m [90m 55 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m[31m[1m>[22m[39m[90m 56 |[39m [36mconst[39m createTeamController [33m=[39m [36mnew[39m [33mCreateTeamController[39m(createTrainerUseCase)[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 57 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 58 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+  [0m [90m 59 |[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (204ea9de726422c8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (56181f5fc922d399)
+[1m[31mDebugger listening on ws://localhost:9229/7c0d5afe-81c4-45c6-898d-ee0b9ad1d810[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7c0d5afe-81c4-45c6-898d-ee0b9ad1d810[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d586e5c4754c295d)
+[1m[31mDebugger listening on ws://localhost:9229/4bd7fb4f-3438-4652-a84e-eb71ac925316[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4bd7fb4f-3438-4652-a84e-eb71ac925316[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4facebaf64137da0)
+[1m[31mDebugger listening on ws://localhost:9229/439781ee-c5fb-4246-bd37-f80bc0d2567c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/439781ee-c5fb-4246-bd37-f80bc0d2567c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bb7bc9f80456b413)
+[1m[31mDebugger listening on ws://localhost:9229/e7bb91af-0f37-4298-8f26-5f8524615ed0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e7bb91af-0f37-4298-8f26-5f8524615ed0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14dffeb2cc88332c)
+[1m[31mDebugger listening on ws://localhost:9229/8253d9ad-d614-48dc-956d-152855737e1e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8253d9ad-d614-48dc-956d-152855737e1e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14dffeb2cc88332c)
+[1m[31mDebugger listening on ws://localhost:9229/fa05c501-3257-47a8-a924-0b789245c8da[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fa05c501-3257-47a8-a924-0b789245c8da[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14dffeb2cc88332c)
+[1m[31mDebugger listening on ws://localhost:9229/07dbe206-eb00-4e2c-a660-4175fe6fe686[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/07dbe206-eb00-4e2c-a660-4175fe6fe686[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14dffeb2cc88332c)
+[1m[31mDebugger listening on ws://localhost:9229/62ed4cc1-cf14-455d-91f2-85ada313b69e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/62ed4cc1-cf14-455d-91f2-85ada313b69e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14dffeb2cc88332c)
+[1m[31mDebugger listening on ws://localhost:9229/b22f5df2-c0d9-4e49-a8ad-98a7a2fe07b1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b22f5df2-c0d9-4e49-a8ad-98a7a2fe07b1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14dffeb2cc88332c)
+[1m[31mDebugger listening on ws://localhost:9229/7b055a54-a615-4b2b-8c6c-0d147fef226b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7b055a54-a615-4b2b-8c6c-0d147fef226b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14dffeb2cc88332c)
+[1m[31mDebugger listening on ws://localhost:9229/b4413622-22bd-4d49-b96d-a91a080fee54[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b4413622-22bd-4d49-b96d-a91a080fee54[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14dffeb2cc88332c)
+[1m[31mDebugger listening on ws://localhost:9229/84dbeee4-f556-4103-947c-d3fd0d6c73fe[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/84dbeee4-f556-4103-947c-d3fd0d6c73fe[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14dffeb2cc88332c)
+[1m[31mDebugger listening on ws://localhost:9229/efaff7a2-ec7a-42dc-bbaa-0d25fb857f36[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/efaff7a2-ec7a-42dc-bbaa-0d25fb857f36[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14dffeb2cc88332c)
+[1m[31mDebugger listening on ws://localhost:9229/d2f5980d-1c77-4566-bd4f-78e40c66be9f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d2f5980d-1c77-4566-bd4f-78e40c66be9f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14dffeb2cc88332c)
+[1m[31mDebugger listening on ws://localhost:9229/151a7c38-c6bb-4f96-ba5c-26121b890cb4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/151a7c38-c6bb-4f96-ba5c-26121b890cb4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14dffeb2cc88332c)
+[1m[31mDebugger listening on ws://localhost:9229/679aed05-89a0-41a6-ab50-2daaa57b02af[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/679aed05-89a0-41a6-ab50-2daaa57b02af[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14dffeb2cc88332c)
+[1m[31mDebugger listening on ws://localhost:9229/a6cdce9f-0c7b-4b40-8660-b0abde9e5be6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a6cdce9f-0c7b-4b40-8660-b0abde9e5be6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14dffeb2cc88332c)
+[1m[31mDebugger listening on ws://localhost:9229/fa99a512-3b47-4c30-bc4b-cdeada9bbb49[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fa99a512-3b47-4c30-bc4b-cdeada9bbb49[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14dffeb2cc88332c)
+[1m[31mDebugger listening on ws://localhost:9229/9710fc5e-d9ef-4ee2-a0a9-3f77ed17119a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9710fc5e-d9ef-4ee2-a0a9-3f77ed17119a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m43:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  Property 'findByTeamId' is missing in type 'MongoTrainerAdapter' but required in type 'TrainerPort'.
+  [0m [90m 41 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 42 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m 45 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 46 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m49:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 47 |[39m })[0m
+  [0m [90m 48 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 49 |[39m [36mconst[39m getTrainerByIdUseCase [33m=[39m [36mnew[39m [33mGetTrainerByIdUseCase[39m(trainerAdapter)[0m
+  [0m [90m    |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 50 |[39m [36mconst[39m getTrainerByIdUseController [33m=[39m [36mnew[39m [33mGetTrainerByIdController[39m(getTrainerByIdUseCase)[0m
+  [0m [90m 51 |[39m router[33m.[39m[36mget[39m([32m'/api/trainer/:id'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 52 |[39m   [36mreturn[39m getTrainerByIdUseController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m55:49[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 53 |[39m })[0m
+  [0m [90m 54 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 55 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 56 |[39m [36mconst[39m createTeamController [33m=[39m [36mnew[39m [33mCreateTeamController[39m(createTeamUseCase)[0m
+  [0m [90m 57 |[39m router[33m.[39mpost([32m'/api/trainer/team'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 58 |[39m   [36mreturn[39m createTeamController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m11:14[22m[39m[1m[39m[22m
+[90mTS2420: [39mClass 'MongoTrainerAdapter' incorrectly implements interface 'TrainerPort'.
+  Property 'findByTeamId' is missing in type 'MongoTrainerAdapter' but required in type 'TrainerPort'.
+  [0m [90m  9 |[39m [36mimport[39m { [33mTrainerMapper[39m } [36mfrom[39m [32m"../mapper/TrainerMapper"[39m[33m;[39m[0m
+  [0m [90m 10 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m [36mexport[39m [36mclass[39m [33mMongoTrainerAdapter[39m [36mimplements[39m [33mTrainerPort[39m {[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m   [36mprivate[39m model[33m:[39m [33mModel[39m[33m<[39m[33mTrainerEntity[39m[33m>[39m[33m;[39m[0m
+  [0m [90m 13 |[39m[0m
+  [0m [90m 14 |[39m   constructor() {[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (14dffeb2cc88332c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m43:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  Property 'findByTeamId' is missing in type 'MongoTrainerAdapter' but required in type 'TrainerPort'.
+  [0m [90m 41 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 42 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m 45 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 46 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m49:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 47 |[39m })[0m
+  [0m [90m 48 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 49 |[39m [36mconst[39m getTrainerByIdUseCase [33m=[39m [36mnew[39m [33mGetTrainerByIdUseCase[39m(trainerAdapter)[0m
+  [0m [90m    |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 50 |[39m [36mconst[39m getTrainerByIdUseController [33m=[39m [36mnew[39m [33mGetTrainerByIdController[39m(getTrainerByIdUseCase)[0m
+  [0m [90m 51 |[39m router[33m.[39m[36mget[39m([32m'/api/trainer/:id'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 52 |[39m   [36mreturn[39m getTrainerByIdUseController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m55:49[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 53 |[39m })[0m
+  [0m [90m 54 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 55 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 56 |[39m [36mconst[39m createTeamController [33m=[39m [36mnew[39m [33mCreateTeamController[39m(createTeamUseCase)[0m
+  [0m [90m 57 |[39m router[33m.[39mpost([32m'/api/trainer/team'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 58 |[39m   [36mreturn[39m createTeamController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/domain/port/TrainerPort.ts:[32m[1m10:37[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'Tea'. Did you mean 'Team'?
+  [0m [90m  8 |[39m   saveTrainer(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m[33m;[39m[0m
+  [0m [90m  9 |[39m   findById(id[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainer[39m[33m>[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m   findByTeamId(id[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTea[39m[33m>[39m[33m;[39m[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m[33m;[39m[0m
+  [0m [90m 12 |[39m   saveTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m[33m;[39m[0m
+  [0m [90m 13 |[39m   updateTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m11:14[22m[39m[1m[39m[22m
+[90mTS2420: [39mClass 'MongoTrainerAdapter' incorrectly implements interface 'TrainerPort'.
+  Property 'findByTeamId' is missing in type 'MongoTrainerAdapter' but required in type 'TrainerPort'.
+  [0m [90m  9 |[39m [36mimport[39m { [33mTrainerMapper[39m } [36mfrom[39m [32m"../mapper/TrainerMapper"[39m[33m;[39m[0m
+  [0m [90m 10 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m [36mexport[39m [36mclass[39m [33mMongoTrainerAdapter[39m [36mimplements[39m [33mTrainerPort[39m {[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m   [36mprivate[39m model[33m:[39m [33mModel[39m[33m<[39m[33mTrainerEntity[39m[33m>[39m[33m;[39m[0m
+  [0m [90m 13 |[39m[0m
+  [0m [90m 14 |[39m   constructor() {[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (14dffeb2cc88332c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.4 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m43:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  Property 'findByTeamId' is missing in type 'MongoTrainerAdapter' but required in type 'TrainerPort'.
+  [0m [90m 41 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[0m
+  [0m [90m 42 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m(createTrainerUseCase)[0m
+  [0m [90m 45 |[39m router[33m.[39mpost([32m'/api/trainer'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 46 |[39m   [36mreturn[39m createTrainerController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m49:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 47 |[39m })[0m
+  [0m [90m 48 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 49 |[39m [36mconst[39m getTrainerByIdUseCase [33m=[39m [36mnew[39m [33mGetTrainerByIdUseCase[39m(trainerAdapter)[0m
+  [0m [90m    |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 50 |[39m [36mconst[39m getTrainerByIdUseController [33m=[39m [36mnew[39m [33mGetTrainerByIdController[39m(getTrainerByIdUseCase)[0m
+  [0m [90m 51 |[39m router[33m.[39m[36mget[39m([32m'/api/trainer/:id'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 52 |[39m   [36mreturn[39m getTrainerByIdUseController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m55:49[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 53 |[39m })[0m
+  [0m [90m 54 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 55 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 56 |[39m [36mconst[39m createTeamController [33m=[39m [36mnew[39m [33mCreateTeamController[39m(createTeamUseCase)[0m
+  [0m [90m 57 |[39m router[33m.[39mpost([32m'/api/trainer/team'[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 58 |[39m   [36mreturn[39m createTeamController[33m.[39mhandle(req[33m,[39m res)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m11:14[22m[39m[1m[39m[22m
+[90mTS2420: [39mClass 'MongoTrainerAdapter' incorrectly implements interface 'TrainerPort'.
+  Property 'findByTeamId' is missing in type 'MongoTrainerAdapter' but required in type 'TrainerPort'.
+  [0m [90m  9 |[39m [36mimport[39m { [33mTrainerMapper[39m } [36mfrom[39m [32m"../mapper/TrainerMapper"[39m[33m;[39m[0m
+  [0m [90m 10 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m [36mexport[39m [36mclass[39m [33mMongoTrainerAdapter[39m [36mimplements[39m [33mTrainerPort[39m {[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m   [36mprivate[39m model[33m:[39m [33mModel[39m[33m<[39m[33mTrainerEntity[39m[33m>[39m[33m;[39m[0m
+  [0m [90m 13 |[39m[0m
+  [0m [90m 14 |[39m   constructor() {[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (14dffeb2cc88332c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bc8a1642324b95fd)
+[1m[31mDebugger listening on ws://localhost:9229/e369fcea-3486-44eb-829f-de8906f37e6a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e369fcea-3486-44eb-829f-de8906f37e6a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 11.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts[39m[22m [1m[32m21:24[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: The keyword 'yield' is reserved (21:24)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     }
+|     getTrainerById(trainerId) {
+>         const trainer = yield this.model.find({ id: id });
+|         const trainerFound = trainer[0];
+|         return TrainerMapper_1.TrainerMapper.toDomain(trainerFound);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m26:21[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   getTrainerById(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m 28 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 29 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m26:49[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   getTrainerById(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m 28 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 29 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m28:5[22m[39m[1m[39m[22m
+[90mTS2739: [39mType 'Trainer' is missing the following properties from type 'Promise<TrainerDTO>': then, catch, finally, [Symbol.toStringTag]
+  [0m [90m 26 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m 27 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   }[0m
+  [0m [90m 30 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 31 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (5e26fc67b6cd6776)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 11.2 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts[39m[22m [1m[32m21:24[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: The keyword 'yield' is reserved (21:24)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     }
+|     getTrainerById(trainerId) {
+>         const trainer = yield this.model.find({ id: id });
+|         const trainerFound = trainer[0];
+|         return TrainerMapper_1.TrainerMapper.toDomain(trainerFound);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m25:46[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'TeamDTO'.
+  [0m [90m 23 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)  [0m
+  [0m [90m 24 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 25 |[39m   getTrainerById(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m [90m    |[39m                                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 26 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m 27 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m 28 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m26:21[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   getTrainerById(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m 28 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 29 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m26:49[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   getTrainerById(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m 28 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 29 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m28:5[22m[39m[1m[39m[22m
+[90mTS2739: [39mType 'Trainer' is missing the following properties from type 'Promise<TeamDTO>': then, catch, finally, [Symbol.toStringTag]
+  [0m [90m 26 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m 27 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   }[0m
+  [0m [90m 30 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 31 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (5e26fc67b6cd6776)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 11.2 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts[39m[22m [1m[32m21:24[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: The keyword 'yield' is reserved (21:24)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     }
+|     getTrainerById(trainerId) {
+>         const trainer = yield this.model.find({ id: id });
+|         const trainerFound = trainer[0];
+|         return TrainerMapper_1.TrainerMapper.toDomain(trainerFound);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:21[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   getTrainerById(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 30 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:49[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   getTrainerById(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 30 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m29:5[22m[39m[1m[39m[22m
+[90mTS2739: [39mType 'Trainer' is missing the following properties from type 'Promise<TeamDTO>': then, catch, finally, [Symbol.toStringTag]
+  [0m [90m 27 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 32 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (5e26fc67b6cd6776)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 11.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts[39m[22m [1m[32m21:21[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: The keyword 'yield' is reserved (21:21)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     }
+|     getTrainerById(trainerId) {
+>         const team = yield this.model.find({ id: id });
+|         const trainerFound = trainer[0];
+|         return TrainerMapper_1.TrainerMapper.toDomain(trainerFound);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:18[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   getTrainerById(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 30 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:46[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   getTrainerById(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m    |[39m                                              [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 30 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m28:26[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'trainer'. Did you mean 'trainerId'?
+  [0m [90m 26 |[39m   getTrainerById(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m29:5[22m[39m[1m[39m[22m
+[90mTS2739: [39mType 'Trainer' is missing the following properties from type 'Promise<TeamDTO>': then, catch, finally, [Symbol.toStringTag]
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 32 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (ef5fa12d4f711ccf)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 11.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts[39m[22m [1m[32m21:21[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: The keyword 'yield' is reserved (21:21)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     }
+|     getTrainerById(tea) {
+>         const team = yield this.model.find({ id: id });
+|         const trainerFound = trainer[0];
+|         return TrainerMapper_1.TrainerMapper.toDomain(trainerFound);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:18[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   getTrainerById(tea[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 30 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:46[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   getTrainerById(tea[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m    |[39m                                              [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 30 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m28:26[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'trainer'. Did you mean 'Trainer'?
+  [0m [90m 26 |[39m   getTrainerById(tea[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m29:5[22m[39m[1m[39m[22m
+[90mTS2739: [39mType 'Trainer' is missing the following properties from type 'Promise<TeamDTO>': then, catch, finally, [Symbol.toStringTag]
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 32 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (bb5a1edff6126dea)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 11.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts[39m[22m [1m[32m21:21[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: The keyword 'yield' is reserved (21:21)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     }
+|     getTrainerById(teamId) {
+>         const team = yield this.model.find({ id: id });
+|         const trainerFound = trainer[0];
+|         return TrainerMapper_1.TrainerMapper.toDomain(trainerFound);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:18[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   getTrainerById(teamId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 30 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:46[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   getTrainerById(teamId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m    |[39m                                              [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 30 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m28:26[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'trainer'. Did you mean 'Trainer'?
+  [0m [90m 26 |[39m   getTrainerById(teamId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m29:5[22m[39m[1m[39m[22m
+[90mTS2739: [39mType 'Trainer' is missing the following properties from type 'Promise<TeamDTO>': then, catch, finally, [Symbol.toStringTag]
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 32 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (bab84018e8b43912)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 11.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts[39m[22m [1m[32m21:21[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: The keyword 'yield' is reserved (21:21)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     }
+|     getTrainerById(teamId) {
+>         const team = yield this.model.find({ id: teamId });
+|         const trainerFound = trainer[0];
+|         return TrainerMapper_1.TrainerMapper.toDomain(trainerFound);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m27:18[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   getTrainerById(teamId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m teamId })[0m
+  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 30 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m28:26[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'trainer'. Did you mean 'Trainer'?
+  [0m [90m 26 |[39m   getTrainerById(teamId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m teamId })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m29:5[22m[39m[1m[39m[22m
+[90mTS2739: [39mType 'Trainer' is missing the following properties from type 'Promise<TeamDTO>': then, catch, finally, [Symbol.toStringTag]
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m teamId })[0m
+  [0m [90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 32 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (840625b6e777e0fd)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m28:26[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'trainer'. Did you mean 'Trainer'?
+  [0m [90m 26 |[39m   [36masync[39m getTrainerById(teamId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m teamId })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m29:5[22m[39m[1m[39m[22m
+[90mTS2739: [39mType 'Trainer' is missing the following properties from type 'TeamDTO': teamId, players
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m teamId })[0m
+  [0m [90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 32 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (24b66774701251d3)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m29:5[22m[39m[1m[39m[22m
+[90mTS2739: [39mType 'Trainer' is missing the following properties from type 'TeamDTO': teamId, players
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m teamId })[0m
+  [0m [90m 28 |[39m     [36mconst[39m trainerFound [33m=[39m team[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 32 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c1ae7a20eeeab22d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m29:5[22m[39m[1m[39m[22m
+[90mTS2739: [39mType 'Trainer' is missing the following properties from type 'TeamDTO': teamId, players
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m teamId })[0m
+  [0m [90m 28 |[39m     [36mconst[39m teamFound [33m=[39m team[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 32 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m29:35[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'trainerFound'.
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m teamId })[0m
+  [0m [90m 28 |[39m     [36mconst[39m teamFound [33m=[39m team[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 32 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (4322194df1402373)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m29:5[22m[39m[1m[39m[22m
+[90mTS2739: [39mType 'Trainer' is missing the following properties from type 'TeamDTO': teamId, players
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m teamId })[0m
+  [0m [90m 28 |[39m     [36mconst[39m teamFound [33m=[39m team[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFteamound)[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 32 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m29:35[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'trainerFteamound'.
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m teamId })[0m
+  [0m [90m 28 |[39m     [36mconst[39m teamFound [33m=[39m team[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFteamound)[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 32 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (7dfce7cb60ac8889)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m29:5[22m[39m[1m[39m[22m
+[90mTS2739: [39mType 'Trainer' is missing the following properties from type 'TeamDTO': teamId, players
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m teamId })[0m
+  [0m [90m 28 |[39m     [36mconst[39m teamFound [33m=[39m team[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 32 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m29:35[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'trainerFound'.
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m teamId })[0m
+  [0m [90m 28 |[39m     [36mconst[39m teamFound [33m=[39m team[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 32 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (1dc3223b871ef02c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m29:5[22m[39m[1m[39m[22m
+[90mTS2739: [39mType 'Trainer' is missing the following properties from type 'TeamDTO': teamId, players
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m teamId })[0m
+  [0m [90m 28 |[39m     [36mconst[39m teamFound [33m=[39m team[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(teamFound)[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 32 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8a799e09615fe2f9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

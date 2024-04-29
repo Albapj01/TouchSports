@@ -1,0 +1,455 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c4ee61e84a856719)
+[1m[31mDebugger listening on ws://localhost:9229/27f1bfa6-d8bb-4184-bf32-2a1ebc8175c7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/27f1bfa6-d8bb-4184-bf32-2a1ebc8175c7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (247795fbb8b73970)
+[1m[31mDebugger listening on ws://localhost:9229/20de33b5-efc2-4aa1-ac20-dada7c717180[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/20de33b5-efc2-4aa1-ac20-dada7c717180[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (27f10e84ee0db3de)
+[1m[31mDebugger listening on ws://localhost:9229/2f9c0638-ebd4-4a51-b463-de0fb638e169[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2f9c0638-ebd4-4a51-b463-de0fb638e169[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a64c1eb1e6937cd1)
+[1m[31mDebugger listening on ws://localhost:9229/bb73d37c-8717-4924-b6b6-6a565abffeca[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/bb73d37c-8717-4924-b6b6-6a565abffeca[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6a95f92e4ca47f6b)
+[1m[31mDebugger listening on ws://localhost:9229/cda539f1-75b9-42fb-886a-9598d4322eb2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cda539f1-75b9-42fb-886a-9598d4322eb2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (45966c3a2de3ed79)
+[1m[31mDebugger listening on ws://localhost:9229/31bf5bbc-e17f-43cf-a34e-0c93cf767cfc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/31bf5bbc-e17f-43cf-a34e-0c93cf767cfc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (733ebdc301fc3d0f)
+[1m[31mDebugger listening on ws://localhost:9229/2ba177ce-24bb-4858-91dc-c00b261f4389[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2ba177ce-24bb-4858-91dc-c00b261f4389[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'Trainer'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             id[33m:[39m trainer[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m20:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'Trainer'.
+  [0m [90m 18 |[39m   [36mstatic[39m toEntity(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [36mtypeof[39m [33mTrainerSchema[39m {[0m
+  [0m [90m 19 |[39m     [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       trainerId[33m:[39m trainer[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 22 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 23 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (a3b54c4cf9a5bd74)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:13[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; name: string; surname: string; email: string; telephone: string; teams: Team[]; imageUrl: string; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'trainerId' does not exist in type 'TrainerDTO'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m20:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'Trainer'.
+  [0m [90m 18 |[39m   [36mstatic[39m toEntity(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [36mtypeof[39m [33mTrainerSchema[39m {[0m
+  [0m [90m 19 |[39m     [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       trainerId[33m:[39m trainer[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 22 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 23 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (26e5ad7be1c067fc)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTrainerUseCase.ts:[32m[1m12:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'TrainerDTO'.
+  [0m [90m 10 |[39m     [36masync[39m run(trainerDTO[33m:[39m [33mTrainerDTO[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m{[0m
+  [0m [90m 11 |[39m         [36mconst[39m trainer [33m=[39m [36mnew[39m [33mTrainer[39m([0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m             trainerDTO[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m             trainerDTO[33m.[39mname[33m,[39m[0m
+  [0m [90m 14 |[39m             trainerDTO[33m.[39msurname[33m,[39m[0m
+  [0m [90m 15 |[39m             trainerDTO[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m20:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'Trainer'.
+  [0m [90m 18 |[39m   [36mstatic[39m toEntity(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [36mtypeof[39m [33mTrainerSchema[39m {[0m
+  [0m [90m 19 |[39m     [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       trainerId[33m:[39m trainer[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 22 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 23 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (26e5ad7be1c067fc)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTrainerUseCase.ts:[32m[1m12:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'TrainerDTO'.
+  [0m [90m 10 |[39m     [36masync[39m run(trainerDTO[33m:[39m [33mTrainerDTO[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m{[0m
+  [0m [90m 11 |[39m         [36mconst[39m trainer [33m=[39m [36mnew[39m [33mTrainer[39m([0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m             trainerDTO[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m             trainerDTO[33m.[39mname[33m,[39m[0m
+  [0m [90m 14 |[39m             trainerDTO[33m.[39msurname[33m,[39m[0m
+  [0m [90m 15 |[39m             trainerDTO[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m20:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'Trainer'.
+  [0m [90m 18 |[39m   [36mstatic[39m toEntity(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [36mtypeof[39m [33mTrainerSchema[39m {[0m
+  [0m [90m 19 |[39m     [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       trainerId[33m:[39m trainer[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 22 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 23 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (9b1c535e3453afe2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/CreateTeamUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/CreateTeamUseCase.ts[39m[22m [1m[32m19:0-1[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/CreateTeamUseCase.ts(19,1)[39m[22m
+[1m[31m      TS1127: Invalid character.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTrainerUseCase.ts:[32m[1m12:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'TrainerDTO'.
+  [0m [90m 10 |[39m     [36masync[39m run(trainerDTO[33m:[39m [33mTrainerDTO[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m{[0m
+  [0m [90m 11 |[39m         [36mconst[39m trainer [33m=[39m [36mnew[39m [33mTrainer[39m([0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m             trainerDTO[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m             trainerDTO[33m.[39mname[33m,[39m[0m
+  [0m [90m 14 |[39m             trainerDTO[33m.[39msurname[33m,[39m[0m
+  [0m [90m 15 |[39m             trainerDTO[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m20:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'Trainer'.
+  [0m [90m 18 |[39m   [36mstatic[39m toEntity(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [36mtypeof[39m [33mTrainerSchema[39m {[0m
+  [0m [90m 19 |[39m     [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       trainerId[33m:[39m trainer[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 22 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 23 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (f960f04dbfadf7db)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTrainerUseCase.ts:[32m[1m12:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'TrainerDTO'.
+  [0m [90m 10 |[39m     [36masync[39m run(trainerDTO[33m:[39m [33mTrainerDTO[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m{[0m
+  [0m [90m 11 |[39m         [36mconst[39m trainer [33m=[39m [36mnew[39m [33mTrainer[39m([0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m             trainerDTO[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m             trainerDTO[33m.[39mname[33m,[39m[0m
+  [0m [90m 14 |[39m             trainerDTO[33m.[39msurname[33m,[39m[0m
+  [0m [90m 15 |[39m             trainerDTO[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m20:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'Trainer'.
+  [0m [90m 18 |[39m   [36mstatic[39m toEntity(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [36mtypeof[39m [33mTrainerSchema[39m {[0m
+  [0m [90m 19 |[39m     [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       trainerId[33m:[39m trainer[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 22 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 23 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (e72ec1c58de8b37f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTrainerUseCase.ts:[32m[1m12:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'TrainerDTO'.
+  [0m [90m 10 |[39m     [36masync[39m run(trainerDTO[33m:[39m [33mTrainerDTO[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m{[0m
+  [0m [90m 11 |[39m         [36mconst[39m trainer [33m=[39m [36mnew[39m [33mTrainer[39m([0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m             trainerDTO[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m             trainerDTO[33m.[39mname[33m,[39m[0m
+  [0m [90m 14 |[39m             trainerDTO[33m.[39msurname[33m,[39m[0m
+  [0m [90m 15 |[39m             trainerDTO[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m20:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'Trainer'.
+  [0m [90m 18 |[39m   [36mstatic[39m toEntity(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [36mtypeof[39m [33mTrainerSchema[39m {[0m
+  [0m [90m 19 |[39m     [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       trainerId[33m:[39m trainer[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 22 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 23 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (a860ec46dea42120)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m20:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'Trainer'.
+  [0m [90m 18 |[39m   [36mstatic[39m toEntity(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [36mtypeof[39m [33mTrainerSchema[39m {[0m
+  [0m [90m 19 |[39m     [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       trainerId[33m:[39m trainer[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 22 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 23 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (f93ddf4ad3299c9d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m8:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'TrainerEntity'.
+  [0m [90m  6 |[39m   [36mstatic[39m toDomain(trainerEntity[33m:[39m [33mTrainerEntity[39m)[33m:[39m [33mTrainer[39m {[0m
+  [0m [90m  7 |[39m     [36mreturn[39m [36mnew[39m [33mTrainer[39m([0m
+  [0m[31m[1m>[22m[39m[90m  8 |[39m       trainerEntity[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m  9 |[39m       trainerEntity[33m.[39mname[33m,[39m[0m
+  [0m [90m 10 |[39m       trainerEntity[33m.[39msurname[33m,[39m[0m
+  [0m [90m 11 |[39m       trainerEntity[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (36465ca09559f0ec)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (36465ca09559f0ec)
+[1m[31mDebugger listening on ws://localhost:9229/45a6a09d-84b4-4314-9326-c09090dbd727[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/45a6a09d-84b4-4314-9326-c09090dbd727[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (40d0eb846e440097)
+[1m[31mDebugger listening on ws://localhost:9229/fa180961-b5b3-4de4-a15a-679091eb7089[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fa180961-b5b3-4de4-a15a-679091eb7089[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (40d0eb846e440097)
+[1m[31mDebugger listening on ws://localhost:9229/843f8549-b563-483e-8f71-e9c139640a94[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/843f8549-b563-483e-8f71-e9c139640a94[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (40d0eb846e440097)
+[1m[31mDebugger listening on ws://localhost:9229/499c7c54-2627-4e1a-9906-a2c2d19aba8b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/499c7c54-2627-4e1a-9906-a2c2d19aba8b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m22:49[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [36masync[39m findById(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainer[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m id })[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m 24 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)  [0m
+  [0m [90m 25 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (26868ac0a0e7ff8e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m22:56[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [36masync[39m findById(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainer[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ trainerId[33m:[39m id })[0m
+  [0m [90m    |[39m                                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m     [36mconst[39m trainerFound [33m=[39m trainer[[35m0[39m][0m
+  [0m [90m 24 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)  [0m
+  [0m [90m 25 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (ed54b5fb82fdb72a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1ffbca2da034d6b4)
+[1m[31mDebugger listening on ws://localhost:9229/4fb2c0d0-89e9-4b30-a17e-87fcdf382018[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4fb2c0d0-89e9-4b30-a17e-87fcdf382018[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m23:35[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'trainerFound'.
+  [0m [90m 21 |[39m   [36masync[39m findById(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainer[39m[33m>[39m {[0m
+  [0m [90m 22 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ trainerId[33m:[39m trainerId })[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)  [0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [36masync[39m getTrainerById(teamId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m [90m 26 |[39m         [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (2cb8bf3034a0173f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m23:35[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'trainerFound'.
+  [0m [90m 21 |[39m   [36masync[39m findById(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainer[39m[33m>[39m {[0m
+  [0m [90m 22 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOne({ trainerId[33m:[39m trainerId })[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainerFound)  [0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [36masync[39m getTrainerById(teamId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m [90m 26 |[39m         [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (b2709c4769dee4bd)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (df0856a6b801bff0)
+[1m[31mDebugger listening on ws://localhost:9229/a0d178d3-2da2-4ebd-a226-6c982c87b3f1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a0d178d3-2da2-4ebd-a226-6c982c87b3f1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (33069d9fbaf1d306)
+[1m[31mDebugger listening on ws://localhost:9229/e60a74a3-5f59-437d-8e96-7ba75dcd8bd5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e60a74a3-5f59-437d-8e96-7ba75dcd8bd5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m23:17[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'traier'. Did you mean 'trainer'?
+  [0m [90m 21 |[39m   [36masync[39m findById(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainer[39m[33m>[39m {[0m
+  [0m [90m 22 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOne({ trainerId[33m:[39m trainerId })[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     console[33m.[39mlog(traier)[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainer)  [0m
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   [36masync[39m getTrainerById(teamId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (933c0d6ab0adbdd4)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (94b8c6708df693a3)
+[1m[31mDebugger listening on ws://localhost:9229/8b03adc1-fbb9-440d-a7e7-78d812437be9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8b03adc1-fbb9-440d-a7e7-78d812437be9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (49697334443e66f2)
+[1m[31mDebugger listening on ws://localhost:9229/135c14ef-44d8-4006-af38-319ed7c6897b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/135c14ef-44d8-4006-af38-319ed7c6897b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m24:35[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type '(Document<unknown, {}, TrainerEntity> & TrainerEntity & { _id: ObjectId; })[]' is not assignable to parameter of type 'TrainerEntity'.
+  Type '(Document<unknown, {}, TrainerEntity> & TrainerEntity & { _id: ObjectId; })[]' is missing the following properties from type 'TrainerEntity': trainerId, name, surname, email, and 54 more.
+  [0m [90m 22 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ trainerId[33m:[39m trainerId })[33m;[39m[0m
+  [0m [90m 23 |[39m     console[33m.[39mlog(trainer)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(trainer)[33m;[39m[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m   [36masync[39m getTrainerById(teamId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTeamDTO[39m[33m>[39m {[0m
+  [0m [90m 27 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (607ff881b50de0fc)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (586d2464158da7c1)
+[1m[31mDebugger listening on ws://localhost:9229/e02bae36-4a1c-4443-9f30-9a4445a3ba4c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e02bae36-4a1c-4443-9f30-9a4445a3ba4c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4ac664534ae51107)
+[1m[31mDebugger listening on ws://localhost:9229/a871e9c9-82e7-4cc2-bf0b-3d68c06ecdad[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a871e9c9-82e7-4cc2-bf0b-3d68c06ecdad[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 11.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (556d4beabef04c2b)
+[1m[31mDebugger listening on ws://localhost:9229/5c291b58-b123-48de-af73-68db0fcc7cfc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5c291b58-b123-48de-af73-68db0fcc7cfc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 11.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b36aaa141b796dd1)
+[1m[31mDebugger listening on ws://localhost:9229/ac4f0f44-dd7e-4e85-b495-263d45c2cb7f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ac4f0f44-dd7e-4e85-b495-263d45c2cb7f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 11.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (304decb3f7dd1b00)
+[1m[31mDebugger listening on ws://localhost:9229/97f9d97c-8f19-49ab-b6a7-2c6b5ab5e81d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/97f9d97c-8f19-49ab-b6a7-2c6b5ab5e81d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f23dccd3fa005473)
+[1m[31mDebugger listening on ws://localhost:9229/cab6622b-3740-45a1-888e-98a5ae8ebef1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cab6622b-3740-45a1-888e-98a5ae8ebef1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 11.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6e9d031a49bbed9b)
+[1m[31mDebugger listening on ws://localhost:9229/1473089d-bf75-46c9-aa4e-34e69864ef79[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1473089d-bf75-46c9-aa4e-34e69864ef79[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 11.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (02015060440e4b43)
+[1m[31mDebugger listening on ws://localhost:9229/3a6ac2c9-48f4-4d88-a9a9-1c37b1cd83d5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3a6ac2c9-48f4-4d88-a9a9-1c37b1cd83d5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 11.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6db0e93236ede0b0)
+[1m[31mDebugger listening on ws://localhost:9229/ef12fc51-4473-49ba-b59b-9807c9bc6b8a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ef12fc51-4473-49ba-b59b-9807c9bc6b8a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a5d0db0803874958)
+[1m[31mDebugger listening on ws://localhost:9229/73d2ccb6-fabb-40c1-9fc4-6ed868956262[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/73d2ccb6-fabb-40c1-9fc4-6ed868956262[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a5d0db0803874958)
+[1m[31mDebugger listening on ws://localhost:9229/6331ab32-81b3-465a-a471-ef8b6aa6a6cd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6331ab32-81b3-465a-a471-ef8b6aa6a6cd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a5d0db0803874958)
+[1m[31mDebugger listening on ws://localhost:9229/bd93bf1b-9bbd-4492-a3f3-93ad02969f29[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/bd93bf1b-9bbd-4492-a3f3-93ad02969f29[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

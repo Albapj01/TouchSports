@@ -7,6 +7,7 @@ import { Reserve } from "backend/src/trainers/domain/model/Reserve";
 import { Trainer } from "backend/src/trainers/domain/model/Trainer";
 import { TrainerDTO } from "backend/src/trainers/application/DTOs/TrainerDTO";
 import { TrainerMapper } from "../mapper/TrainerMapper";
+import { TeamDTO } from "backend/src/trainers/application/DTOs/TeamDTO";
 
 export class MongoTrainerAdapter implements TrainerPort {
   private model: Model<TrainerEntity>;
@@ -14,25 +15,27 @@ export class MongoTrainerAdapter implements TrainerPort {
   constructor() {
     this.model = require("backend/src/trainers/infrastructure/persistence/schemas/TrainerSchema.ts");
   }
-  async findById(id: string): Promise<Trainer> {
-    const trainer = await this.model.find({ id: id })
-    const trainerFound = trainer[0]
-    return TrainerMapper.toDomain(trainerFound)  
+  findByTeamId(id: string): Promise<Team> {
+    throw new Error("Method not implemented.");
   }
-  getTrainerById(trainerId: string): Promise<TrainerDTO> {
+  async findById(trainerId: string): Promise<Trainer> {
+    const trainer = await this.model.findOne({ trainerId: trainerId });
+    return TrainerMapper.toDomain(trainer);
+  }
+  async getTrainerById(teamId: string): Promise<TeamDTO> {
     throw new Error("Method not implemented.");
   }
   getTrainerInfo(trainerId: string): Promise<TrainerDTO> {
     throw new Error("Method not implemented.");
   }
   async saveTrainer(trainer: Trainer): Promise<void> {
-    await this.model.create(TrainerMapper.toEntity(trainer))
+    await this.model.create(TrainerMapper.toEntity(trainer));
   }
   deleteTeam(team: Team): Promise<void> {
     throw new Error("Method not implemented.");
   }
-  saveTeam(team: Team): Promise<void> {
-    throw new Error("Method not implemented.");
+  async saveTeam(team: Team): Promise<void> {
+    await this.model.create(team);
   }
   updateTeam(team: Team): Promise<void> {
     throw new Error("Method not implemented.");

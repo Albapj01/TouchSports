@@ -1,0 +1,463 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2460607bfbbccd81)
+[1m[31mDebugger listening on ws://localhost:9229/2b153048-c163-438d-ab33-e5ee8129e338[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2b153048-c163-438d-ab33-e5ee8129e338[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cf3683b940f2aa85)
+[1m[31mDebugger listening on ws://localhost:9229/8275de58-e98b-4811-b0d8-ea1f6c4b27eb[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8275de58-e98b-4811-b0d8-ea1f6c4b27eb[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cbbc460c5f2e9d9e)
+[1m[31mDebugger listening on ws://localhost:9229/040b9ed7-6627-462b-b7ea-533dc31af7c2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/040b9ed7-6627-462b-b7ea-533dc31af7c2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a9b12c95e4443358)
+[1m[31mDebugger listening on ws://localhost:9229/77a91478-799c-4979-a408-d5f53ace2424[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/77a91478-799c-4979-a408-d5f53ace2424[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (08eeead0e9035ffc)
+[1m[31mDebugger listening on ws://localhost:9229/27013697-18bb-4852-8010-8943beef7eec[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/27013697-18bb-4852-8010-8943beef7eec[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTrainerUseCase.ts:[32m[1m21:17[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty '_id' does not exist on type 'Trainer'.
+  [0m [90m 19 |[39m         )[0m
+  [0m [90m 20 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m         trainer[33m.[39m_id [33m=[39m trainerDTO[33m.[39mtrainerId[33m;[39m[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m[0m
+  [0m [90m 23 |[39m         [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msaveTrainer(trainer)[0m
+  [0m [90m 24 |[39m     }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (bd42a6ba9e5ecdbf)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTrainerUseCase.ts:[32m[1m21:17[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty '_id' does not exist on type 'Trainer'.
+  [0m [90m 19 |[39m         )[33m;[39m[0m
+  [0m [90m 20 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m         trainer[33m.[39m_id [33m=[39m trainerDTO[33m.[39mtrainerId[33m;[39m[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m[0m
+  [0m [90m 23 |[39m         [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msaveTrainer(trainer)[0m
+  [0m [90m 24 |[39m     }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (1f2e80eef01b3a65)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTrainerUseCase.ts:[32m[1m21:17[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty '_id' does not exist on type 'Trainer'.
+  [0m [90m 19 |[39m         )[0m
+  [0m [90m 20 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m         trainer[33m.[39m_id [33m=[39m trainerDTO[33m.[39mtrainerId[33m;[39m[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m[0m
+  [0m [90m 23 |[39m         [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msaveTrainer(trainer)[0m
+  [0m [90m 24 |[39m     }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (b44160d762360341)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (36832c7dff43c9e7)
+[1m[31mDebugger listening on ws://localhost:9229/dc08bd50-ce2a-4962-94ee-3364648432d4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/dc08bd50-ce2a-4962-94ee-3364648432d4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5f037b15f471a86b)
+[1m[31mDebugger listening on ws://localhost:9229/010a808e-917a-493f-b204-850ab64560ac[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/010a808e-917a-493f-b204-850ab64560ac[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTrainerUseCase.ts:[32m[1m12:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'TrainerDTO'.
+  [0m [90m 10 |[39m     [36masync[39m run(trainerDTO[33m:[39m [33mTrainerDTO[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m{[0m
+  [0m [90m 11 |[39m         [36mconst[39m trainer [33m=[39m [36mnew[39m [33mTrainer[39m([0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m             trainerDTO[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m             trainerDTO[33m.[39mname[33m,[39m[0m
+  [0m [90m 14 |[39m             trainerDTO[33m.[39msurname[33m,[39m[0m
+  [0m [90m 15 |[39m             trainerDTO[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:13[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; name: string; surname: string; email: string; telephone: string; teams: Team[]; imageUrl: string; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'trainerId' does not exist in type 'TrainerDTO'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (5f037b15f471a86b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:13[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; name: string; surname: string; email: string; telephone: string; teams: Team[]; imageUrl: string; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'trainerId' does not exist in type 'TrainerDTO'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (eb09d7fc0a720d4d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:13[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: any; name: string; surname: string; email: string; telephone: string; teams: Team[]; imageUrl: string; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'trainerId' does not exist in type 'TrainerDTO'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'Trainer'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m20:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'Trainer'.
+  [0m [90m 18 |[39m   [36mstatic[39m toEntity(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [36mtypeof[39m [33mTrainerSchema[39m {[0m
+  [0m [90m 19 |[39m     [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 22 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 23 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (a9fdef7640a749c8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:13[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: any; name: string; surname: string; email: string; telephone: string; teams: Team[]; imageUrl: string; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'trainerId' does not exist in type 'TrainerDTO'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'Trainer'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m20:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'Trainer'.
+  [0m [90m 18 |[39m   [36mstatic[39m toEntity(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [36mtypeof[39m [33mTrainerSchema[39m {[0m
+  [0m [90m 19 |[39m     [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 22 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 23 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (88bcb3151b3d26fc)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:13[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: any; name: string; surname: string; email: string; telephone: string; teams: Team[]; imageUrl: string; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'trainerId' does not exist in type 'TrainerDTO'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'Trainer'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m8:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'TrainerEntity'.
+  [0m [90m  6 |[39m   [36mstatic[39m toDomain(trainerEntity[33m:[39m [33mTrainerEntity[39m)[33m:[39m [33mTrainer[39m {[0m
+  [0m [90m  7 |[39m     [36mreturn[39m [36mnew[39m [33mTrainer[39m([0m
+  [0m[31m[1m>[22m[39m[90m  8 |[39m       trainerEntity[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m  9 |[39m       trainerEntity[33m.[39mname[33m,[39m[0m
+  [0m [90m 10 |[39m       trainerEntity[33m.[39msurname[33m,[39m[0m
+  [0m [90m 11 |[39m       trainerEntity[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m20:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'Trainer'.
+  [0m [90m 18 |[39m   [36mstatic[39m toEntity(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [36mtypeof[39m [33mTrainerSchema[39m {[0m
+  [0m [90m 19 |[39m     [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 22 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 23 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (88bcb3151b3d26fc)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:13[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: any; name: string; surname: string; email: string; telephone: string; teams: Team[]; imageUrl: string; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'trainerId' does not exist in type 'TrainerDTO'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'Trainer'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m8:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'TrainerEntity'.
+  [0m [90m  6 |[39m   [36mstatic[39m toDomain(trainerEntity[33m:[39m [33mTrainerEntity[39m)[33m:[39m [33mTrainer[39m {[0m
+  [0m [90m  7 |[39m     [36mreturn[39m [36mnew[39m [33mTrainer[39m([0m
+  [0m[31m[1m>[22m[39m[90m  8 |[39m       trainerEntity[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m  9 |[39m       trainerEntity[33m.[39mname[33m,[39m[0m
+  [0m [90m 10 |[39m       trainerEntity[33m.[39msurname[33m,[39m[0m
+  [0m [90m 11 |[39m       trainerEntity[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (431f528030683159)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:13[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: any; name: string; surname: string; email: string; telephone: string; teams: Team[]; imageUrl: string; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'trainerId' does not exist in type 'TrainerDTO'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'Trainer'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (4e5a5df32bc8cfb8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:13[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; name: string; surname: string; email: string; telephone: string; teams: Team[]; imageUrl: string; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'trainerId' does not exist in type 'TrainerDTO'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4b64c23c914d1a80)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (698a66667db73deb)
+[1m[31mDebugger listening on ws://localhost:9229/c1c1b1da-f9f0-47f0-8bdc-374d7be63e97[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c1c1b1da-f9f0-47f0-8bdc-374d7be63e97[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:13[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: any; name: string; surname: string; email: string; telephone: string; teams: Team[]; imageUrl: string; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'trainerId' does not exist in type 'TrainerDTO'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'Trainer'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (fa864e5ed1bc2a95)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTrainerUseCase.ts:[32m[1m12:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'TrainerDTO'.
+  [0m [90m 10 |[39m     [36masync[39m run(trainerDTO[33m:[39m [33mTrainerDTO[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m{[0m
+  [0m [90m 11 |[39m         [36mconst[39m trainer [33m=[39m [36mnew[39m [33mTrainer[39m([0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m             trainerDTO[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m             trainerDTO[33m.[39mname[33m,[39m[0m
+  [0m [90m 14 |[39m             trainerDTO[33m.[39msurname[33m,[39m[0m
+  [0m [90m 15 |[39m             trainerDTO[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'Trainer'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (fa864e5ed1bc2a95)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'Trainer'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (1f472ed8ee5db4c8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m20:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'Trainer'.
+  [0m [90m 18 |[39m   [36mstatic[39m toEntity(trainer[33m:[39m [33mTrainer[39m)[33m:[39m [36mtypeof[39m [33mTrainerSchema[39m {[0m
+  [0m [90m 19 |[39m     [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       trainerId[33m:[39m trainer[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 22 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 23 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (2ff037c34ca62707)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'Trainer'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (995b90aa16cad9e4)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d06678a9676baf8d)
+[1m[31mDebugger listening on ws://localhost:9229/0599e51e-0dcb-4ae1-935b-d911a87a822d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0599e51e-0dcb-4ae1-935b-d911a87a822d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:13[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ id: string; name: string; surname: string; email: string; telephone: string; teams: Team[]; imageUrl: string; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'id' does not exist in type 'TrainerDTO'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             id[33m:[39m trainer[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a4a775db3e55239a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTrainerUseCase.ts:[32m[1m12:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'TrainerDTO'.
+  [0m [90m 10 |[39m     [36masync[39m run(trainerDTO[33m:[39m [33mTrainerDTO[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m{[0m
+  [0m [90m 11 |[39m         [36mconst[39m trainer [33m=[39m [36mnew[39m [33mTrainer[39m([0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m             trainerDTO[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m             trainerDTO[33m.[39mname[33m,[39m[0m
+  [0m [90m 14 |[39m             trainerDTO[33m.[39msurname[33m,[39m[0m
+  [0m [90m 15 |[39m             trainerDTO[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m17:13[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ id: string; name: string; surname: string; email: string; telephone: string; teams: Team[]; imageUrl: string; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'id' does not exist in type 'TrainerDTO'.
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m         [36mreturn[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m             id[33m:[39m trainer[33m.[39mid[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m[0m
+  [0m [90m 19 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (89eb41653216a320)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (89eb41653216a320)
+[1m[31mDebugger listening on ws://localhost:9229/68bc015a-cf6a-4720-89fc-081bf83dc860[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/68bc015a-cf6a-4720-89fc-081bf83dc860[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

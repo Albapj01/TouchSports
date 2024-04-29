@@ -1,0 +1,358 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m29:5[22m[39m[1m[39m[22m
+[90mTS2739: [39mType 'Trainer' is missing the following properties from type 'TeamDTO': teamId, players
+  [0m [90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfind({ id[33m:[39m teamId })[0m
+  [0m [90m 28 |[39m     [36mconst[39m teamFound [33m=[39m team[[35m0[39m][0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m     [36mreturn[39m [33mTrainerMapper[39m[33m.[39mtoDomain(teamFound)[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   getTrainerInfo(trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mTrainerDTO[39m[33m>[39m {[0m
+  [0m [90m 32 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m"Method not implemented."[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (68594e5be5c6d422)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (be318e6b71a97391)
+[1m[31mDebugger listening on ws://localhost:9229/6e05810b-97a2-4476-af60-ef9689da6ef9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6e05810b-97a2-4476-af60-ef9689da6ef9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3be11b125a5a5705)
+[1m[31mDebugger listening on ws://localhost:9229/290087e0-1cc8-44be-b993-f17aa9b4214e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/290087e0-1cc8-44be-b993-f17aa9b4214e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (71abad7fabdeef1f)
+[1m[31mDebugger listening on ws://localhost:9229/71f56758-601e-4448-96b3-2aac3a699f06[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/71f56758-601e-4448-96b3-2aac3a699f06[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b265e72a619e4312)
+[1m[31mDebugger listening on ws://localhost:9229/ca293f66-bdc3-403a-8cf4-c4139141a765[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ca293f66-bdc3-403a-8cf4-c4139141a765[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6d92a589bd6c93be)
+[1m[31mDebugger listening on ws://localhost:9229/94bd3f6e-2c98-4ff0-96ac-b33f1bf758f2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/94bd3f6e-2c98-4ff0-96ac-b33f1bf758f2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5c6cbd7658d9825e)
+[1m[31mDebugger listening on ws://localhost:9229/0d36f0bc-639e-4ecc-9c87-7e3e662d6ed8[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0d36f0bc-639e-4ecc-9c87-7e3e662d6ed8[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m36:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'generarIdPersonalizado' does not exist on type 'MongoTrainerAdapter'.
+  [0m [90m 34 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 35 |[39m     [90m// Suponiendo que tu adaptador tenga un método para generar un ID personalizado[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m idPersonalizado [33m=[39m [36mthis[39m[33m.[39mgenerarIdPersonalizado()[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4843db95919a109d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m36:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'generarIdPersonalizado' does not exist on type 'MongoTrainerAdapter'.
+  [0m [90m 34 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 35 |[39m     [90m// Suponiendo que tu adaptador tenga un método para generar un ID personalizado[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m idPersonalizado [33m=[39m [36mthis[39m[33m.[39mgenerarIdPersonalizado()[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4843db95919a109d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m36:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'generarIdPersonalizado' does not exist on type 'MongoTrainerAdapter'.
+  [0m [90m 34 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 35 |[39m     [90m// Suponiendo que tu adaptador tenga un método para generar un ID personalizado[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m idPersonalizado [33m=[39m [36mthis[39m[33m.[39mgenerarIdPersonalizado()[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4843db95919a109d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m36:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'generarIdPersonalizado' does not exist on type 'MongoTrainerAdapter'.
+  [0m [90m 34 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 35 |[39m     [90m// Suponiendo que tu adaptador tenga un método para generar un ID personalizado[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m idPersonalizado [33m=[39m [36mthis[39m[33m.[39mgenerarIdPersonalizado()[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4843db95919a109d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m36:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'generarIdPersonalizado' does not exist on type 'MongoTrainerAdapter'.
+  [0m [90m 34 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 35 |[39m     [90m// Suponiendo que tu adaptador tenga un método para generar un ID personalizado[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m idPersonalizado [33m=[39m [36mthis[39m[33m.[39mgenerarIdPersonalizado()[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4843db95919a109d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m36:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'generarIdPersonalizado' does not exist on type 'MongoTrainerAdapter'.
+  [0m [90m 34 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 35 |[39m     [90m// Suponiendo que tu adaptador tenga un método para generar un ID personalizado[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m idPersonalizado [33m=[39m [36mthis[39m[33m.[39mgenerarIdPersonalizado()[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4843db95919a109d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m36:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'generarIdPersonalizado' does not exist on type 'MongoTrainerAdapter'.
+  [0m [90m 34 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 35 |[39m     [90m// Suponiendo que tu adaptador tenga un método para generar un ID personalizado[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m idPersonalizado [33m=[39m [36mthis[39m[33m.[39mgenerarIdPersonalizado()[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4843db95919a109d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m36:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'generarIdPersonalizado' does not exist on type 'MongoTrainerAdapter'.
+  [0m [90m 34 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 35 |[39m     [90m// Suponiendo que tu adaptador tenga un método para generar un ID personalizado[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m idPersonalizado [33m=[39m [36mthis[39m[33m.[39mgenerarIdPersonalizado()[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4843db95919a109d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m36:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'generarIdPersonalizado' does not exist on type 'MongoTrainerAdapter'.
+  [0m [90m 34 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 35 |[39m     [90m// Suponiendo que tu adaptador tenga un método para generar un ID personalizado[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m idPersonalizado [33m=[39m [36mthis[39m[33m.[39mgenerarIdPersonalizado()[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4843db95919a109d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m36:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'generarIdPersonalizado' does not exist on type 'MongoTrainerAdapter'.
+  [0m [90m 34 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 35 |[39m     [90m// Suponiendo que tu adaptador tenga un método para generar un ID personalizado[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m idPersonalizado [33m=[39m [36mthis[39m[33m.[39mgenerarIdPersonalizado()[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4843db95919a109d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m36:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'generarIdPersonalizado' does not exist on type 'MongoTrainerAdapter'.
+  [0m [90m 34 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 35 |[39m     [90m// Suponiendo que tu adaptador tenga un método para generar un ID personalizado[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m idPersonalizado [33m=[39m [36mthis[39m[33m.[39mgenerarIdPersonalizado()[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4843db95919a109d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m36:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'generarIdPersonalizado' does not exist on type 'MongoTrainerAdapter'.
+  [0m [90m 34 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 35 |[39m     [90m// Suponiendo que tu adaptador tenga un método para generar un ID personalizado[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m idPersonalizado [33m=[39m [36mthis[39m[33m.[39mgenerarIdPersonalizado()[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4843db95919a109d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m36:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'generarIdPersonalizado' does not exist on type 'MongoTrainerAdapter'.
+  [0m [90m 34 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 35 |[39m     [90m// Suponiendo que tu adaptador tenga un método para generar un ID personalizado[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m idPersonalizado [33m=[39m [36mthis[39m[33m.[39mgenerarIdPersonalizado()[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4843db95919a109d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m36:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'generateTrainer' does not exist on type 'MongoTrainerAdapter'.
+  [0m [90m 34 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 35 |[39m     [90m// Suponiendo que tu adaptador tenga un método para generar un ID personalizado[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m idPersonalizado [33m=[39m [36mthis[39m[33m.[39mgenerateTrainer()[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (07f42ba4c02080a4)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m36:29[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'generateTrainer'.
+  [0m [90m 34 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 35 |[39m     [90m// Suponiendo que tu adaptador tenga un método para generar un ID personalizado[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m idPersonalizado [33m=[39m generateTrainer()[33m;[39m[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (095f149f685ff6f1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d65d605b73599aff)
+[1m[31mDebugger listening on ws://localhost:9229/e8bbfd6d-9358-4849-ae3c-4c6e4e9e68c7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e8bbfd6d-9358-4849-ae3c-4c6e4e9e68c7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8c5322a6ab05b913)
+[1m[31mDebugger listening on ws://localhost:9229/c2159efe-f6f5-4cbc-8840-d4b4626f5bc5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c2159efe-f6f5-4cbc-8840-d4b4626f5bc5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (305ac00cd4a541db)
+[1m[31mDebugger listening on ws://localhost:9229/5db234d7-a7b3-4655-9a54-8ab3e46d9a82[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5db234d7-a7b3-4655-9a54-8ab3e46d9a82[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9917a306af93e83f)
+[1m[31mDebugger listening on ws://localhost:9229/4116a70b-31f7-4901-9343-7b71725edb75[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4116a70b-31f7-4901-9343-7b71725edb75[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 11.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts[39m[22m [1m[32m31:35[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (31:35)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         return tslib_1.__awaiter(this, void 0, void 0, function* () {
+|             const trainerEntity = TrainerMapper_1.TrainerMapper.toEntity(trainer);
+>             const generateTrainerId;
+|             ();
+|             trainerEntity._id = idPersonalizado;[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts[39m[22m
+[1m./src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts[39m[22m [1m[32m36:11-12[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts(36,12)[39m[22m
+[1m[31m      TS1134: Variable declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts[39m[22m
+[1m./src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts[39m[22m [1m[32m36:30-31[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts(36,31)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts[39m[22m
+[1m./src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts[39m[22m [1m[32m36:31-32[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts(36,32)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m37:25[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'idPersonalizado'.
+  [0m [90m 35 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 36 |[39m     [36mconst[39m  [33m=[39m generateTrainerId()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+  [0m [90m 40 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (c8272b16730d2271)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m37:25[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'idPersonalizado'.
+  [0m [90m 35 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 36 |[39m     [36mconst[39m generate [33m=[39m generateTrainerId()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+  [0m [90m 40 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (724b9ec94a902a94)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m37:25[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'idPersonalizado'.
+  [0m [90m 35 |[39m     [36mconst[39m trainerEntity [33m=[39m [33mTrainerMapper[39m[33m.[39mtoEntity(trainer)[33m;[39m[0m
+  [0m [90m 36 |[39m     [36mconst[39m generatedId [33m=[39m generateTrainerId()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 37 |[39m     trainerEntity[33m.[39m_id [33m=[39m idPersonalizado[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(trainerEntity)[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+  [0m [90m 40 |[39m   deleteTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (251837a954d72bf7)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4c8ccbbca9ee1995)
+[1m[31mDebugger listening on ws://localhost:9229/906f0b3b-4ba4-415d-808b-bee5092f6723[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/906f0b3b-4ba4-415d-808b-bee5092f6723[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
