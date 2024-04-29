@@ -10,6 +10,14 @@ export class CreateTeamUseCase {
     //una vez lo devuelva, en su array de team se añaden
 
     async run(teamDTO: TeamDTO): Promise<void>{
+        const trainer = await this.trainerPort.findById(
+          teamDTO.trainerId,
+        )
+
+        if(!trainer){
+          return null;
+        }
+
         const team = new Team(
             teamDTO.trainerId,
             teamDTO.teamId,
@@ -17,7 +25,8 @@ export class CreateTeamUseCase {
             [],
         )
 
-        await this.trainerPort.saveTeam(team)
+        trainer.teams.push(team);
+        await this.trainerPort.saveTeam(team, trainer)
     }
 
 }

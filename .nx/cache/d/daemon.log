@@ -37597,3 +37597,292 @@ Error: Failed to process project dependencies with "nx-js-graph-plugin".
 [NX Daemon Server] - 2024-04-29T19:26:14.292Z - [REQUEST]: 
 [NX Daemon Server] - 2024-04-29T19:26:14.292Z - [REQUEST]: backend/src/trainers/helpers
 [NX Daemon Server] - 2024-04-29T19:26:14.351Z - Time taken for 'hash changed files from watcher' 0.35023699700832367ms
+[NX Daemon Server] - 2024-04-29T19:27:47.323Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-29T20:53:39.883Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-29T20:53:39.885Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-04-29T20:53:39.886Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-29T20:53:39.891Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-29T20:53:39.892Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-29T20:53:39.895Z - Time taken for 'total for creating and serializing project graph' 1.0132609978318214ms
+[NX Daemon Server] - 2024-04-29T20:53:39.898Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-29T20:53:39.898Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 6.
+[NX Daemon Server] - 2024-04-29T20:53:39.955Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-04-29T20:53:39.955Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-04-29T20:53:39.955Z - Handled HASH_TASKS. Handling time: 23. Response time: 0.
+[NX Daemon Server] - 2024-04-29T20:53:41.502Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:53:45.743Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:54:37.905Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:54:37.907Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:54:38.008Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T20:54:38.009Z - [REQUEST]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts
+[NX Daemon Server] - 2024-04-29T20:54:38.009Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T20:54:38.076Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T20:54:38.077Z - Time taken for 'hash changed files from watcher' 0.38437799364328384ms
+[NX Daemon Server] - 2024-04-29T20:54:38.145Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:54:39.303Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:54:39.303Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:54:39.415Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:54:39.507Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T20:54:39.507Z - [REQUEST]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts
+[NX Daemon Server] - 2024-04-29T20:54:39.507Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T20:54:39.595Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T20:54:39.600Z - Time taken for 'hash changed files from watcher' 0.7510609999299049ms
+[NX Daemon Server] - 2024-04-29T20:54:41.000Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:54:41.001Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:54:41.077Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:54:41.402Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T20:54:41.402Z - [REQUEST]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts
+[NX Daemon Server] - 2024-04-29T20:54:41.402Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T20:54:41.435Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T20:54:41.436Z - Time taken for 'hash changed files from watcher' 0.35568300634622574ms
+[NX Daemon Server] - 2024-04-29T20:54:44.773Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:54:44.773Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:54:44.848Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:54:45.575Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T20:54:45.575Z - [REQUEST]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts
+[NX Daemon Server] - 2024-04-29T20:54:45.575Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T20:54:45.609Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T20:54:45.609Z - Time taken for 'hash changed files from watcher' 0.5736070051789284ms
+[NX Daemon Server] - 2024-04-29T20:56:45.405Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:56:45.406Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:56:47.007Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T20:56:47.007Z - [REQUEST]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts
+[NX Daemon Server] - 2024-04-29T20:56:47.007Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T20:56:47.045Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T20:56:47.045Z - Time taken for 'hash changed files from watcher' 0.23985899984836578ms
+[NX Daemon Server] - 2024-04-29T20:56:50.245Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:56:50.246Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:56:50.348Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:56:53.445Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T20:56:53.445Z - [REQUEST]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts
+[NX Daemon Server] - 2024-04-29T20:56:53.445Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T20:56:53.473Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T20:56:53.473Z - Time taken for 'hash changed files from watcher' 0.2705109938979149ms
+[NX Daemon Server] - 2024-04-29T20:56:54.313Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:56:54.314Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:56:54.391Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:57:00.716Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T20:57:00.716Z - [REQUEST]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts
+[NX Daemon Server] - 2024-04-29T20:57:00.716Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T20:57:00.742Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T20:57:00.742Z - Time taken for 'hash changed files from watcher' 0.2303299978375435ms
+[NX Daemon Server] - 2024-04-29T20:57:50.771Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:57:50.773Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:57:50.823Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:57:54.210Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:57:54.212Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:57:54.365Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:57:57.174Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T20:57:57.175Z - [REQUEST]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts
+[NX Daemon Server] - 2024-04-29T20:57:57.175Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T20:57:57.210Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T20:57:57.211Z - Time taken for 'hash changed files from watcher' 0.1968569979071617ms
+[NX Daemon Server] - 2024-04-29T20:57:58.892Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:57:58.892Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:57:58.952Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:58:05.293Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T20:58:05.293Z - [REQUEST]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts
+[NX Daemon Server] - 2024-04-29T20:58:05.293Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T20:58:05.326Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T20:58:05.326Z - Time taken for 'hash changed files from watcher' 0.4590499997138977ms
+[NX Daemon Server] - 2024-04-29T20:58:17.604Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:58:17.605Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:58:21.898Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:58:21.899Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:58:21.964Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:58:24.005Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T20:58:24.006Z - [REQUEST]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts
+[NX Daemon Server] - 2024-04-29T20:58:24.006Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T20:58:24.043Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T20:58:24.047Z - Time taken for 'hash changed files from watcher' 0.20998800545930862ms
+[NX Daemon Server] - 2024-04-29T20:58:33.905Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:58:33.906Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:58:33.979Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:58:40.308Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T20:58:40.308Z - [REQUEST]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts
+[NX Daemon Server] - 2024-04-29T20:58:40.308Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T20:58:40.344Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T20:58:40.344Z - Time taken for 'hash changed files from watcher' 0.2908559963107109ms
+[NX Daemon Server] - 2024-04-29T20:58:42.470Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:58:42.470Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:58:48.872Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T20:58:48.872Z - [REQUEST]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts
+[NX Daemon Server] - 2024-04-29T20:58:48.872Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T20:58:48.915Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T20:58:48.918Z - Time taken for 'hash changed files from watcher' 0.8412939980626106ms
+[NX Daemon Server] - 2024-04-29T20:58:49.082Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:58:49.082Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:58:49.161Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:58:53.254Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:58:53.254Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:58:53.327Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:58:55.483Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T20:58:55.483Z - [REQUEST]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts
+[NX Daemon Server] - 2024-04-29T20:58:55.483Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T20:58:55.513Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T20:58:55.513Z - Time taken for 'hash changed files from watcher' 0.2654789984226227ms
+[NX Daemon Server] - 2024-04-29T20:59:04.320Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:59:04.321Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T20:59:04.388Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:59:10.722Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T20:59:10.722Z - [REQUEST]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts
+[NX Daemon Server] - 2024-04-29T20:59:10.722Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T20:59:10.748Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T20:59:10.748Z - Time taken for 'hash changed files from watcher' 0.25675999373197556ms
+[NX Daemon Server] - 2024-04-29T20:59:18.822Z - [WATCHER]: backend/src/trainers/domain/port/TrainerPort.ts was modified
+[NX Daemon Server] - 2024-04-29T20:59:18.823Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T20:59:25.224Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T20:59:25.224Z - [REQUEST]: backend/src/trainers/domain/port/TrainerPort.ts
+[NX Daemon Server] - 2024-04-29T20:59:25.224Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T20:59:25.252Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T20:59:25.252Z - Time taken for 'hash changed files from watcher' 0.3342969939112663ms
+[NX Daemon Server] - 2024-04-29T21:02:15.937Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:02:15.940Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:02:16.179Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:02:19.521Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:02:19.522Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:02:19.729Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:02:22.341Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T21:02:22.342Z - [REQUEST]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts
+[NX Daemon Server] - 2024-04-29T21:02:22.342Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T21:02:22.389Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T21:02:22.391Z - Time taken for 'hash changed files from watcher' 0.21107099950313568ms
+[NX Daemon Server] - 2024-04-29T21:02:53.442Z - [WATCHER]: backend/src/trainers/application/usecases/UpdatedTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T21:02:53.443Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:02:56.098Z - [WATCHER]: backend/src/trainers/application/usecases/UpdatedTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T21:02:56.099Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:02:59.848Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T21:02:59.848Z - [REQUEST]: backend/src/trainers/application/usecases/UpdatedTeamUseCase.ts
+[NX Daemon Server] - 2024-04-29T21:02:59.848Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T21:02:59.884Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T21:02:59.884Z - Time taken for 'hash changed files from watcher' 0.35433799773454666ms
+[NX Daemon Server] - 2024-04-29T21:03:05.369Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:03:05.369Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:05.525Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:10.523Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:03:10.523Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:10.682Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:11.770Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T21:03:11.771Z - [REQUEST]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts
+[NX Daemon Server] - 2024-04-29T21:03:11.771Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T21:03:11.800Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T21:03:11.803Z - Time taken for 'hash changed files from watcher' 0.22129999846220016ms
+[NX Daemon Server] - 2024-04-29T21:03:16.193Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:03:16.193Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:16.355Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:22.596Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T21:03:22.596Z - [REQUEST]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts
+[NX Daemon Server] - 2024-04-29T21:03:22.596Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T21:03:22.634Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T21:03:22.634Z - Time taken for 'hash changed files from watcher' 0.8031120002269745ms
+[NX Daemon Server] - 2024-04-29T21:03:27.095Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:27.097Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:03:27.257Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:33.498Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T21:03:33.498Z - [REQUEST]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts
+[NX Daemon Server] - 2024-04-29T21:03:33.498Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T21:03:33.542Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T21:03:33.545Z - Time taken for 'hash changed files from watcher' 0.20824500173330307ms
+[NX Daemon Server] - 2024-04-29T21:03:36.939Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:36.942Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:03:37.059Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:39.069Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:03:39.069Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:39.298Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:43.255Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:03:43.256Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:43.343Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T21:03:43.343Z - [REQUEST]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts
+[NX Daemon Server] - 2024-04-29T21:03:43.344Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T21:03:43.380Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T21:03:43.381Z - Time taken for 'hash changed files from watcher' 0.34523699432611465ms
+[NX Daemon Server] - 2024-04-29T21:03:43.410Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:45.518Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:03:45.519Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:45.752Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:50.972Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:03:50.972Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:51.109Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:51.920Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T21:03:51.920Z - [REQUEST]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts
+[NX Daemon Server] - 2024-04-29T21:03:51.921Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T21:03:51.979Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T21:03:51.982Z - Time taken for 'hash changed files from watcher' 0.32318300008773804ms
+[NX Daemon Server] - 2024-04-29T21:03:55.073Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:03:55.073Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:55.271Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:56.788Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:03:56.789Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:03:56.930Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:04:01.294Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:04:01.294Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:04:01.404Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:04:01.474Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T21:04:01.474Z - [REQUEST]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts
+[NX Daemon Server] - 2024-04-29T21:04:01.474Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T21:04:01.501Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T21:04:01.502Z - Time taken for 'hash changed files from watcher' 0.22355899959802628ms
+[NX Daemon Server] - 2024-04-29T21:04:16.802Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:04:16.802Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:04:16.900Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:04:23.203Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T21:04:23.203Z - [REQUEST]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts
+[NX Daemon Server] - 2024-04-29T21:04:23.203Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T21:04:23.258Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T21:04:23.264Z - Time taken for 'hash changed files from watcher' 0.28911399841308594ms
+[NX Daemon Server] - 2024-04-29T21:07:35.528Z - [WATCHER]: backend/src/main.ts was modified
+[NX Daemon Server] - 2024-04-29T21:07:35.529Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:07:35.678Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:07:41.925Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T21:07:41.925Z - [REQUEST]: backend/src/main.ts
+[NX Daemon Server] - 2024-04-29T21:07:41.925Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T21:07:41.975Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T21:07:41.975Z - Time taken for 'hash changed files from watcher' 0.41815100610256195ms
+[NX Daemon Server] - 2024-04-29T21:16:01.817Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T21:16:01.818Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:16:03.839Z - [WATCHER]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts was modified
+[NX Daemon Server] - 2024-04-29T21:16:03.840Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:16:03.899Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:16:08.218Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T21:16:08.218Z - [REQUEST]: backend/src/trainers/application/usecases/CreateTeamUseCase.ts
+[NX Daemon Server] - 2024-04-29T21:16:08.218Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T21:16:08.271Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T21:16:08.275Z - Time taken for 'hash changed files from watcher' 0.34072399884462357ms
+[NX Daemon Server] - 2024-04-29T21:20:53.914Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:20:53.915Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:20:54.015Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:20:55.276Z - [WATCHER]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts was modified
+[NX Daemon Server] - 2024-04-29T21:20:55.276Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:20:55.412Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-29T21:21:00.315Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-29T21:21:00.317Z - [REQUEST]: backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts
+[NX Daemon Server] - 2024-04-29T21:21:00.317Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-29T21:21:00.359Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load /Users/albapalomino/TouchSports/backend/src/trainers/helpers/GenerateTrainerId.ts: No such file or directory (os error 2)"
+[NX Daemon Server] - 2024-04-29T21:21:00.359Z - Time taken for 'hash changed files from watcher' 0.4333859980106354ms

@@ -54,7 +54,7 @@ router.get('/api/trainer/:id', async (req, res) => {
 
 const createTeamUseCase = new CreateTeamUseCase(trainerAdapter)
 const createTeamController = new CreateTeamController(createTeamUseCase)
-router.post('/api/trainer/team', async (req, res) => {
+router.post('/api/trainer/:id/team', async (req, res) => {
   return createTeamController.handle(req, res)
 })
 

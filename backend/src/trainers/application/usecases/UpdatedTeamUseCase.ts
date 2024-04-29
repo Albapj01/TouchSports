@@ -17,7 +17,6 @@ export class CreateTeamUseCase {
             [],
         )
 
-        await this.trainerPort.saveTeam(team)
     }
 
 }

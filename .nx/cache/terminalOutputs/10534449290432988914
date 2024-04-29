@@ -1,0 +1,490 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (45e0532c29afc634)
+[1m[31mDebugger listening on ws://localhost:9229/695fa125-4c82-46f6-87a7-0244f06fda88[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/695fa125-4c82-46f6-87a7-0244f06fda88[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6205f2e2f015ee38)
+[1m[31mDebugger listening on ws://localhost:9229/93a7d886-b95c-4be9-8fe7-945be6e286b4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/93a7d886-b95c-4be9-8fe7-945be6e286b4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (94d34808820a13c5)
+[1m[31mDebugger listening on ws://localhost:9229/e660e1be-78b1-46de-be8a-cb1e4120d4e2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e660e1be-78b1-46de-be8a-cb1e4120d4e2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/CreateTeamUseCase.ts[39m[22m [1m[32m14:18[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (14:18)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     run(teamDTO) {
+|         return tslib_1.__awaiter(this, void 0, void 0, function* () {
+>             const ;
+|             const team = new Team_1.Team(teamDTO.trainerId, teamDTO.teamId, teamDTO.name, []);
+|             yield this.trainerPort.saveTeam(team);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTeamUseCase.ts[39m[22m
+[90mTS1123: [39mVariable declaration list cannot be empty.
+
+webpack compiled with [1m[31m2 errors[39m[22m (7b62679a16e17571)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/CreateTeamUseCase.ts[39m[22m [1m[32m14:28[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (14:28)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     run(teamDTO) {
+|         return tslib_1.__awaiter(this, void 0, void 0, function* () {
+>             const trainer = ;
+|             const team = new Team_1.Team(teamDTO.trainerId, teamDTO.teamId, teamDTO.name, []);
+|             yield this.trainerPort.saveTeam(team);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/CreateTeamUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/CreateTeamUseCase.ts[39m[22m [1m[32m15:8-13[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/CreateTeamUseCase.ts(15,9)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (c62a2cd8472e120c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/CreateTeamUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/CreateTeamUseCase.ts[39m[22m [1m[32m13:35[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/CreateTeamUseCase.ts(13,36)[39m[22m
+[1m[31m      TS1003: Identifier expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/CreateTeamUseCase.ts[39m[22m [1m[32m15:12[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (15:12)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         return tslib_1.__awaiter(this, void 0, void 0, function* () {
+|             const trainer = yield this.
+>             ;
+|             const team = new Team_1.Team(teamDTO.trainerId, teamDTO.teamId, teamDTO.name, []);
+|             yield this.trainerPort.saveTeam(team);[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (506d6d3bb91ef731)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/CreateTeamUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/CreateTeamUseCase.ts[39m[22m [1m[32m13:47[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/CreateTeamUseCase.ts(13,48)[39m[22m
+[1m[31m      TS1003: Identifier expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/CreateTeamUseCase.ts[39m[22m [1m[32m15:12[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (15:12)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         return tslib_1.__awaiter(this, void 0, void 0, function* () {
+|             const trainer = yield this.trainerPort.
+>             ;
+|             const team = new Team_1.Team(teamDTO.trainerId, teamDTO.teamId, teamDTO.name, []);
+|             yield this.trainerPort.saveTeam(team);[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (01530e30208457de)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTeamUseCase.ts:[32m[1m13:48[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 1 arguments, but got 0.
+  [0m [90m 11 |[39m[0m
+  [0m [90m 12 |[39m     [36masync[39m run(teamDTO[33m:[39m [33mTeamDTO[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m{[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m         [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindById()[0m
+  [0m [90m    |[39m                                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m[0m
+  [0m [90m 15 |[39m         [36mconst[39m team [33m=[39m [36mnew[39m [33mTeam[39m([0m
+  [0m [90m 16 |[39m             teamDTO[33m.[39mtrainerId[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7930dc9e561be1ca)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTeamUseCase.ts:[32m[1m14:11[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'Team' is not assignable to parameter of type 'string'.
+  [0m [90m 12 |[39m     [36masync[39m run(teamDTO[33m:[39m [33mTeamDTO[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m{[0m
+  [0m [90m 13 |[39m         [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindById([0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m           team[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m         )[0m
+  [0m [90m 16 |[39m[0m
+  [0m [90m 17 |[39m         [36mconst[39m team [33m=[39m [36mnew[39m [33mTeam[39m([0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTeamUseCase.ts:[32m[1m14:11[22m[39m[1m[39m[22m
+[90mTS2448: [39mBlock-scoped variable 'team' used before its declaration.
+  [0m [90m 12 |[39m     [36masync[39m run(teamDTO[33m:[39m [33mTeamDTO[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m{[0m
+  [0m [90m 13 |[39m         [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindById([0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m           team[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m         )[0m
+  [0m [90m 16 |[39m[0m
+  [0m [90m 17 |[39m         [36mconst[39m team [33m=[39m [36mnew[39m [33mTeam[39m([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (4af6720beb44e991)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2dc461c8e5ea3800)
+[1m[31mDebugger listening on ws://localhost:9229/497afd10-c52b-4ca2-a2c3-4b5ef9f20dbc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/497afd10-c52b-4ca2-a2c3-4b5ef9f20dbc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (893f5e38d0c2484b)
+[1m[31mDebugger listening on ws://localhost:9229/ed61debb-f2cb-402f-b362-772c4409f906[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ed61debb-f2cb-402f-b362-772c4409f906[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cd916dc32eb37558)
+[1m[31mDebugger listening on ws://localhost:9229/f63863ad-c522-46df-88b0-209e722a144d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f63863ad-c522-46df-88b0-209e722a144d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (86de155c49b161c8)
+[1m[31mDebugger listening on ws://localhost:9229/2b9e160e-4097-4956-a8e0-4b07b9be040c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2b9e160e-4097-4956-a8e0-4b07b9be040c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f834dd2904a6b2aa)
+[1m[31mDebugger listening on ws://localhost:9229/963e7c9d-1cf1-41ed-bae2-835690d2606c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/963e7c9d-1cf1-41ed-bae2-835690d2606c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/CreateTeamUseCase.ts[39m[22m [1m[32m20:12[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (20:12)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const team = new Team_1.Team(teamDTO.trainerId, teamDTO.teamId, teamDTO.name, []);
+|             trainer.
+>             ;
+|             yield this.trainerPort.saveTeam(team);
+|         });[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/CreateTeamUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/CreateTeamUseCase.ts[39m[22m [1m[32m28:16[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/CreateTeamUseCase.ts(28,17)[39m[22m
+[1m[31m      TS1003: Identifier expected.[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (4df9d9b9f998c4f4)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2b1dfb2d743b4645)
+[1m[31mDebugger listening on ws://localhost:9229/a0920f7b-672c-4a9c-8999-f8fa55ae1404[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a0920f7b-672c-4a9c-8999-f8fa55ae1404[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4408ceca20b0af8b)
+[1m[31mDebugger listening on ws://localhost:9229/b215c742-5f3f-4bc7-bd75-71689264fdd0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b215c742-5f3f-4bc7-bd75-71689264fdd0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTeamUseCase.ts:[32m[1m29:47[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 1 arguments, but got 2.
+  [0m [90m 27 |[39m[0m
+  [0m [90m 28 |[39m         trainer[33m.[39mteams[33m.[39mpush(team)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m         [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msaveTeam(team[33m,[39m trainer)[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     }[0m
+  [0m [90m 31 |[39m[0m
+  [0m [90m 32 |[39m }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (ef31435363a482b8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.8 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdatedTeamUseCase.ts:[32m[1m20:32[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 18 |[39m         )[0m
+  [0m [90m 19 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m         [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msaveTeam(team)[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m     }[0m
+  [0m [90m 22 |[39m[0m
+  [0m [90m 23 |[39m }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (ef31435363a482b8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdatedTeamUseCase.ts:[32m[1m20:32[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 18 |[39m         )[0m
+  [0m [90m 19 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m         [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msaveTeam(team)[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m     }[0m
+  [0m [90m 22 |[39m[0m
+  [0m [90m 23 |[39m }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (9b5008f11908502f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdatedTeamUseCase.ts:[32m[1m20:32[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 18 |[39m         )[0m
+  [0m [90m 19 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m         [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msaveTeam(team)[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m     }[0m
+  [0m [90m 22 |[39m[0m
+  [0m [90m 23 |[39m }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (980a0c7d2aaccd6f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (980a0c7d2aaccd6f)
+[1m[31mDebugger listening on ws://localhost:9229/c45651b5-88b0-4431-b868-7f5c59130507[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c45651b5-88b0-4431-b868-7f5c59130507[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (980a0c7d2aaccd6f)
+[1m[31mDebugger listening on ws://localhost:9229/8b187a2e-7a86-49e2-9c6e-19155509293d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8b187a2e-7a86-49e2-9c6e-19155509293d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m39:13[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'activity'.
+  [0m [90m 37 |[39m   [36masync[39m saveTeam(team[33m:[39m [33mTeam[39m[33m,[39m trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m[31m[1m>[22m[39m[90m 39 |[39m       { id[33m:[39m activity[33m.[39mtravelId }[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 40 |[39m       { $set[33m:[39m { activities[33m:[39m travel[33m.[39mactivities } }[33m,[39m[0m
+  [0m [90m 41 |[39m     )[0m
+  [0m [90m 42 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m40:29[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travel'.
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 39 |[39m       { id[33m:[39m activity[33m.[39mtravelId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m       { $set[33m:[39m { activities[33m:[39m travel[33m.[39mactivities } }[33m,[39m[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m     )[0m
+  [0m [90m 42 |[39m   }[0m
+  [0m [90m 43 |[39m   updateTeam(team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (74a531a1c4e90832)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1b4adbf3682cc00b)
+[1m[31mDebugger listening on ws://localhost:9229/1a8ee1d4-6697-4c93-9b77-56783f3c4900[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1a8ee1d4-6697-4c93-9b77-56783f3c4900[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m39:13[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'activity'.
+  [0m [90m 37 |[39m   [36masync[39m saveTeam(team[33m:[39m [33mTeam[39m[33m,[39m trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m[31m[1m>[22m[39m[90m 39 |[39m       { id[33m:[39m activity[33m.[39mtravelId }[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 40 |[39m       { $set[33m:[39m { activities[33m:[39m travel[33m.[39mactivities } }[33m,[39m[0m
+  [0m [90m 41 |[39m     )[0m
+  [0m [90m 42 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(team)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m40:29[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travel'.
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 39 |[39m       { id[33m:[39m activity[33m.[39mtravelId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m       { $set[33m:[39m { activities[33m:[39m travel[33m.[39mactivities } }[33m,[39m[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m     )[0m
+  [0m [90m 42 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(team)[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (2fc8207ba62f62fb)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m39:18[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'travelId' does not exist on type 'Team'.
+  [0m [90m 37 |[39m   [36masync[39m saveTeam(team[33m:[39m [33mTeam[39m[33m,[39m trainer[33m:[39m [33mTrainer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m[31m[1m>[22m[39m[90m 39 |[39m       { id[33m:[39m team[33m.[39mtravelId }[33m,[39m[0m
+  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 40 |[39m       { $set[33m:[39m { activities[33m:[39m travel[33m.[39mactivities } }[33m,[39m[0m
+  [0m [90m 41 |[39m     )[0m
+  [0m [90m 42 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(team)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m40:29[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travel'.
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 39 |[39m       { id[33m:[39m team[33m.[39mtravelId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m       { $set[33m:[39m { activities[33m:[39m travel[33m.[39mactivities } }[33m,[39m[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m     )[0m
+  [0m [90m 42 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(team)[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (5a4a80dc31317ff9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m40:29[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travel'.
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 39 |[39m       { id[33m:[39m team[33m.[39mtrainerId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m       { $set[33m:[39m { activities[33m:[39m travel[33m.[39mactivities } }[33m,[39m[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m     )[0m
+  [0m [90m 42 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(team)[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a16e50d3d00861b9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m40:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'activities' does not exist on type 'Team'.
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 39 |[39m       { id[33m:[39m team[33m.[39mtrainerId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m       { $set[33m:[39m { activities[33m:[39m team[33m.[39mactivities } }[33m,[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m     )[0m
+  [0m [90m 42 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(team)[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (5a900387fd11872f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m40:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'team' does not exist on type 'Team'.
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 39 |[39m       { id[33m:[39m team[33m.[39mtrainerId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m       { $set[33m:[39m { activities[33m:[39m team[33m.[39mteam } }[33m,[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m     )[0m
+  [0m [90m 42 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(team)[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7ef764bec3164144)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m40:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'team' does not exist on type 'Team'.
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 39 |[39m       { id[33m:[39m team[33m.[39mtrainerId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m       { $set[33m:[39m { teams[33m:[39m team[33m.[39mteam } }[33m,[39m[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m     )[0m
+  [0m [90m 42 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(team)[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (5b44d729a9fb6b46)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m40:29[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'travel'.
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 39 |[39m       { id[33m:[39m team[33m.[39mtrainerId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m       { $set[33m:[39m { activities[33m:[39m travel[33m.[39mactivities } }[33m,[39m[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m     )[0m
+  [0m [90m 42 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(team)[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (b020d26cd8de253d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m40:37[22m[39m[1m[39m[22m
+[90mTS2551: [39mProperty 'team' does not exist on type 'Trainer'. Did you mean 'teams'?
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 39 |[39m       { id[33m:[39m team[33m.[39mtrainerId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m       { $set[33m:[39m { activities[33m:[39m trainer[33m.[39mteam } }[33m,[39m[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m     )[0m
+  [0m [90m 42 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(team)[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (3586f01ffad4089d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m40:32[22m[39m[1m[39m[22m
+[90mTS2551: [39mProperty 'team' does not exist on type 'Trainer'. Did you mean 'teams'?
+  [0m [90m 38 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 39 |[39m       { id[33m:[39m team[33m.[39mtrainerId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m       { $set[33m:[39m { teams[33m:[39m trainer[33m.[39mteam } }[33m,[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m     )[0m
+  [0m [90m 42 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate(team)[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8c2808839cfa1447)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1ed71f1ab31fd013)
+[1m[31mDebugger listening on ws://localhost:9229/0366f82a-422e-422f-9797-32fb1801fe08[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0366f82a-422e-422f-9797-32fb1801fe08[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c88f8e6ffeaaba4f)
+[1m[31mDebugger listening on ws://localhost:9229/0a73b88e-6bba-426e-bed9-333d3473b2c3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0a73b88e-6bba-426e-bed9-333d3473b2c3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0bd8163e4042bf2b)
+[1m[31mDebugger listening on ws://localhost:9229/67f1206a-7a0c-46a8-a250-92b26bffcc83[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/67f1206a-7a0c-46a8-a250-92b26bffcc83[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateTeamUseCase.ts:[32m[1m14:11[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'trainerId'. Did you mean 'trainer'?
+  [0m [90m 12 |[39m     [36masync[39m run(teamDTO[33m:[39m [33mTeamDTO[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m{[0m
+  [0m [90m 13 |[39m         [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindById([0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m           trainerId[33m,[39m[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m         )[0m
+  [0m [90m 16 |[39m[0m
+  [0m [90m 17 |[39m         [36mif[39m([33m![39mtrainer){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (61a6d41c90078564)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (dd4c0cdd03280903)
+[1m[31mDebugger listening on ws://localhost:9229/16a062a4-6605-4502-8798-fe7e28d4d66c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/16a062a4-6605-4502-8798-fe7e28d4d66c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e70d78e0c008a41f)
+[1m[31mDebugger listening on ws://localhost:9229/15dce72d-706f-422c-beaa-51e119ceea47[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/15dce72d-706f-422c-beaa-51e119ceea47[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 13.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (59526d916fd39b41)
+[1m[31mDebugger listening on ws://localhost:9229/09870bc9-4a6a-4082-a0cc-5c1c600afffe[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/09870bc9-4a6a-4082-a0cc-5c1c600afffe[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

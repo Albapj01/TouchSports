@@ -9,7 +9,7 @@ export interface TrainerPort {
   findById(trainerId: string): Promise<Trainer>;
   findByTeamId(id: string): Promise<Team>;
   deleteTeam(team: Team): Promise<void>;
-  saveTeam(team: Team): Promise<void>;
+  saveTeam(team: Team, trainer: Trainer): Promise<void>;
   updateTeam(team: Team): Promise<void>;
   getAllTeams(trainerId: String): Promise<Team[]>;
   deletePlayer(playerId: String): Promise<void>;
