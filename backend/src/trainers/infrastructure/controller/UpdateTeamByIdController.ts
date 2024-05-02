@@ -13,7 +13,6 @@ export class UpdateTeamByIdController {
         req.body
       );
     } catch (error) {
-      console.error("Error updating team:", error);
       return res.status(500).send({ message: "Error" });
     }
 

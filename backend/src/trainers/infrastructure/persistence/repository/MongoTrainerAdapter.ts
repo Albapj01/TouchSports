@@ -15,6 +15,15 @@ export class MongoTrainerAdapter implements TrainerPort {
   constructor() {
     this.model = require("backend/src/trainers/infrastructure/persistence/schemas/TrainerSchema.ts");
   }
+  async updateTrainer(
+    oldTrainer: Trainer,
+    updateTrainer: Trainer
+  ): Promise<void> {
+    await this.model.updateOne(
+      { trainerId: updateTrainer.trainerId },
+      { $set: TrainerMapper.toEntity(updateTrainer) }
+    );
+  }
   findByTeamId(id: string): Promise<Team> {
     throw new Error("Method not implemented.");
   }
