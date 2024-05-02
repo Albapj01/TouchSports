@@ -17,6 +17,8 @@ import { GetTrainerByIdUseCase } from "./trainers/application/usecases/GetTraine
 import { GetTrainerByIdController } from "./trainers/infrastructure/controller/GetTrainerByIdController";
 import { CreateTeamUseCase } from "./trainers/application/usecases/CreateTeamUseCase";
 import { CreateTeamController } from "./trainers/infrastructure/controller/CreateTeamController";
+import { UpdateTeamByIdUseCase } from "./trainers/application/usecases/UpdateTeamByIdUseCase";
+import { UpdateTeamByIdController } from "./trainers/infrastructure/controller/UpdateTeamByIdController";
 
 dotenv.config();
 const app = express();
@@ -56,6 +58,12 @@ const createTeamUseCase = new CreateTeamUseCase(trainerAdapter)
 const createTeamController = new CreateTeamController(createTeamUseCase)
 router.post('/api/trainer/:id/team', async (req, res) => {
   return createTeamController.handle(req, res)
+})
+
+const updateTeamByIdUseCase = new UpdateTeamByIdUseCase(trainerAdapter)
+const updateTeamByIdController = new UpdateTeamByIdController(updateTeamByIdUseCase)
+router.put('/api/trainer/:trainerId/team/:teamId', async (req, res) => {
+  return updateTeamByIdController.handle(req, res)
 })
 
 const start = async () => {

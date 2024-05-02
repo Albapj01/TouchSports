@@ -90,36 +90,40 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "README.md",
-        "hash": "10104707244890837311"
-      },
-      {
         "file": "jest.config.ts",
         "hash": "12333515226966617182"
       },
       {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
-      },
-      {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "3674156215951047428"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
       },
       {
         "file": ".gitignore",
         "hash": "1398178998339616447"
       },
       {
+        "file": "package-lock.json",
+        "hash": "3674156215951047428"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4595224623132836319"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
+      },
+      {
         "file": "package.json",
         "hash": "1098629939364157896"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "README.md",
+        "hash": "10104707244890837311"
       },
       {
         "file": "LICENSE",
@@ -128,10 +132,6 @@
       {
         "file": ".vscode/settings.json",
         "hash": "6703405954808146235"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
       }
     ],
     "projectFileMap": {
@@ -196,7 +196,7 @@
         },
         {
           "file": "backend/src/main.ts",
-          "hash": "15193157846367404938",
+          "hash": "5473141957674793599",
           "deps": [
             "npm:express",
             "npm:path",
@@ -221,7 +221,7 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/CreateTeamUseCase.ts",
-          "hash": "13276508632679846255"
+          "hash": "10783972393688859719"
         },
         {
           "file": "backend/src/trainers/application/usecases/CreateTrainerUseCase.ts",
@@ -232,8 +232,8 @@
           "hash": "17954388114672346624"
         },
         {
-          "file": "backend/src/trainers/application/usecases/UpdatedTeamUseCase.ts",
-          "hash": "2430187603298934840"
+          "file": "backend/src/trainers/application/usecases/UpdateTeamByIdUseCase.ts",
+          "hash": "13839735774494877890"
         },
         {
           "file": "backend/src/trainers/domain/model/Player.ts",
@@ -245,15 +245,15 @@
         },
         {
           "file": "backend/src/trainers/domain/model/Team.ts",
-          "hash": "4806900840558689497"
+          "hash": "10232962870683341233"
         },
         {
           "file": "backend/src/trainers/domain/model/Trainer.ts",
-          "hash": "2767792111754209330"
+          "hash": "11305973768446591549"
         },
         {
           "file": "backend/src/trainers/domain/port/TrainerPort.ts",
-          "hash": "12170101812052606419"
+          "hash": "2226250247793304185"
         },
         {
           "file": "backend/src/trainers/infrastructure/controller/CreateTeamController.ts",
@@ -277,6 +277,13 @@
           ]
         },
         {
+          "file": "backend/src/trainers/infrastructure/controller/UpdateTeamByIdController.ts",
+          "hash": "10883461342628527413",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
           "file": "backend/src/trainers/infrastructure/persistence/entities/TrainerEntity.ts",
           "hash": "5792303632987591128",
           "deps": [
@@ -289,7 +296,7 @@
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts",
-          "hash": "18064720557847999458",
+          "hash": "2498329833727867085",
           "deps": [
             "npm:mongoose"
           ]
@@ -319,10 +326,6 @@
           "deps": [
             "npm:@nx/webpack"
           ]
-        },
-        {
-          "file": "backend/src/trainers/helpers/GenerateTrainerId.ts",
-          "hash": "10608461533535847425"
         }
       ],
       "backend-e2e": [

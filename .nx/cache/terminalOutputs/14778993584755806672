@@ -1,0 +1,233 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (30ee1c647e658481)
+[1m[31mDebugger listening on ws://localhost:9229/d0858e26-bfdd-4694-8551-2fe282480d90[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d0858e26-bfdd-4694-8551-2fe282480d90[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (40fa63969bee4d5d)
+[1m[31mDebugger listening on ws://localhost:9229/f3d97e3f-2a1f-4715-be3c-182d5e83fa6c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f3d97e3f-2a1f-4715-be3c-182d5e83fa6c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdateTeamByIdUseCase.ts:[32m[1m13:72[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'players' does not exist on type 'Trainer'.
+  [0m [90m 11 |[39m     }[0m
+  [0m [90m 12 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m     [36mconst[39m updatedTeam [33m=[39m [36mnew[39m [33mTeam[39m(trainerId[33m,[39m teamId[33m,[39m team[33m.[39mname[33m,[39m trainer[33m.[39mplayers)[33m;[39m[0m
+  [0m [90m    |[39m                                                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m[0m
+  [0m [90m 15 |[39m     trainer[33m.[39mteams [33m=[39m trainer[33m.[39mteams[33m.[39mfilter((team) [33m=>[39m team[33m.[39mteamId [33m!==[39m teamId)[33m;[39m[0m
+  [0m [90m 16 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8883f92dc425b076)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (09d96598dca89f78)
+[1m[31mDebugger listening on ws://localhost:9229/cd4dbb26-0aca-4bd6-9d68-dc25c274a550[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cd4dbb26-0aca-4bd6-9d68-dc25c274a550[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (79ac19fed2ed8245)
+[1m[31mDebugger listening on ws://localhost:9229/fe8ce1e9-eef4-4b1a-8e59-aafe4c93e29e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fe8ce1e9-eef4-4b1a-8e59-aafe4c93e29e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mError updating team: TypeError: Cannot read properties of null (reading 'trainerId')[39m[22m
+[1m[31m    at Function.toDomain (/Users/albapalomino/TouchSports/dist/backend/main.js:140:52)[39m[22m
+[1m[31m    at MongoTrainerAdapter.<anonymous> (/Users/albapalomino/TouchSports/dist/backend/main.js:71:50)[39m[22m
+[1m[31m    at Generator.next (<anonymous>)[39m[22m
+[1m[31m    at fulfilled (/Users/albapalomino/TouchSports/node_modules/tslib/tslib.js:166:62)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f9b2312e18b60ec6)
+[1m[31mDebugger listening on ws://localhost:9229/95dc8dff-d0f6-4e13-ba1b-8cc7f3f55fb0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/95dc8dff-d0f6-4e13-ba1b-8cc7f3f55fb0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mError updating team: TypeError: Cannot read properties of null (reading 'trainerId')[39m[22m
+[1m[31m    at Function.toDomain (/Users/albapalomino/TouchSports/dist/backend/main.js:140:52)[39m[22m
+[1m[31m    at MongoTrainerAdapter.<anonymous> (/Users/albapalomino/TouchSports/dist/backend/main.js:71:50)[39m[22m
+[1m[31m    at Generator.next (<anonymous>)[39m[22m
+[1m[31m    at fulfilled (/Users/albapalomino/TouchSports/node_modules/tslib/tslib.js:166:62)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (47c7c65b35349e71)
+[1m[31mDebugger listening on ws://localhost:9229/c8a7f161-2933-4237-8128-277c1e6caf94[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c8a7f161-2933-4237-8128-277c1e6caf94[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c85c175342d2435d)
+[1m[31mDebugger listening on ws://localhost:9229/4aec8aea-7f87-4714-8e39-bc26b5c7afd5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4aec8aea-7f87-4714-8e39-bc26b5c7afd5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (493fbfb43279532b)
+[1m[31mDebugger listening on ws://localhost:9229/2b3e1a52-9321-4438-9d40-f4cd0d47fb1f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2b3e1a52-9321-4438-9d40-f4cd0d47fb1f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5ffa18aa47c35dab)
+[1m[31mDebugger listening on ws://localhost:9229/3d453df6-4986-43fe-a37b-31683b5b88d7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3d453df6-4986-43fe-a37b-31683b5b88d7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mError updating team: TypeError: Cannot read properties of null (reading 'trainerId')[39m[22m
+[1m[31m    at Function.toDomain (/Users/albapalomino/TouchSports/dist/backend/main.js:141:52)[39m[22m
+[1m[31m    at MongoTrainerAdapter.<anonymous> (/Users/albapalomino/TouchSports/dist/backend/main.js:72:50)[39m[22m
+[1m[31m    at Generator.next (<anonymous>)[39m[22m
+[1m[31m    at fulfilled (/Users/albapalomino/TouchSports/node_modules/tslib/tslib.js:166:62)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1b513b0c243b51dc)
+[1m[31mDebugger listening on ws://localhost:9229/eceddb81-f9ea-406b-b5b4-a33f4be7670f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/eceddb81-f9ea-406b-b5b4-a33f4be7670f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (09aebe7253329e0f)
+[1m[31mDebugger listening on ws://localhost:9229/42a82018-1070-4e20-a127-9d59659b773a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/42a82018-1070-4e20-a127-9d59659b773a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cdb3dc766508365c)
+[1m[31mDebugger listening on ws://localhost:9229/e979cc41-352b-4dcf-b9c5-bbcd2fac4afe[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e979cc41-352b-4dcf-b9c5-bbcd2fac4afe[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdateTeamByIdUseCase.ts:[32m[1m8:17[22m[39m[1m[39m[22m
+[90mTS2448: [39mBlock-scoped variable 'trainer' used before its declaration.
+  [0m [90m  6 |[39m[0m
+  [0m [90m  7 |[39m   [36masync[39m run(trainerId[33m:[39m string[33m,[39m teamId[33m:[39m string[33m,[39m team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m  8 |[39m     console[33m.[39mlog(trainer)[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m  9 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindById(trainerId)[33m;[39m[0m
+  [0m [90m 10 |[39m     [36mif[39m ([33m![39mtrainer) {[0m
+  [0m [90m 11 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (0c791f4001e268ad)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d34c971201835647)
+[1m[31mDebugger listening on ws://localhost:9229/0af3c9c4-7904-4c23-ba19-881a837175b1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0af3c9c4-7904-4c23-ba19-881a837175b1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e22ada4a3e526f06)
+[1m[31mDebugger listening on ws://localhost:9229/983a0bb2-92fc-4ee2-b1c6-49def7c94960[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/983a0bb2-92fc-4ee2-b1c6-49def7c94960[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mError updating team: TypeError: Cannot read properties of null (reading 'trainerId')[39m[22m
+[1m[31m    at Function.toDomain (/Users/albapalomino/TouchSports/dist/backend/main.js:140:52)[39m[22m
+[1m[31m    at MongoTrainerAdapter.<anonymous> (/Users/albapalomino/TouchSports/dist/backend/main.js:71:50)[39m[22m
+[1m[31m    at Generator.next (<anonymous>)[39m[22m
+[1m[31m    at fulfilled (/Users/albapalomino/TouchSports/node_modules/tslib/tslib.js:166:62)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (466a44b43aa6b0a5)
+[1m[31mDebugger listening on ws://localhost:9229/8fd14801-9f8b-4961-8367-2ccf3acc0e6e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8fd14801-9f8b-4961-8367-2ccf3acc0e6e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8cedffb823fcaa0b)
+[1m[31mDebugger listening on ws://localhost:9229/faacbdcf-8cb0-46e8-aaaf-d4dce7430145[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/faacbdcf-8cb0-46e8-aaaf-d4dce7430145[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cf5f69e2e16993d2)
+[1m[31mDebugger listening on ws://localhost:9229/6aeda39a-6e8d-46e4-8321-d1b2ccdccd5f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6aeda39a-6e8d-46e4-8321-d1b2ccdccd5f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4e975b3a597dbf0d)
+[1m[31mDebugger listening on ws://localhost:9229/e7f7d1d4-a1fd-4789-a739-f2d3e286f091[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e7f7d1d4-a1fd-4789-a739-f2d3e286f091[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (174a3dc5f5043f3f)
+[1m[31mDebugger listening on ws://localhost:9229/8c611fe9-3a7a-482b-9d8b-6d37f7838dca[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8c611fe9-3a7a-482b-9d8b-6d37f7838dca[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (df79fc4871648653)
+[1m[31mDebugger listening on ws://localhost:9229/09075ddd-7663-41fd-87fa-f8bb53ef7db9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/09075ddd-7663-41fd-87fa-f8bb53ef7db9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mError updating team: TypeError: Cannot read properties of null (reading 'trainerId')[39m[22m
+[1m[31m    at Function.toDomain (/Users/albapalomino/TouchSports/dist/backend/main.js:140:52)[39m[22m
+[1m[31m    at MongoTrainerAdapter.<anonymous> (/Users/albapalomino/TouchSports/dist/backend/main.js:71:50)[39m[22m
+[1m[31m    at Generator.next (<anonymous>)[39m[22m
+[1m[31m    at fulfilled (/Users/albapalomino/TouchSports/node_modules/tslib/tslib.js:166:62)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31mError updating team: TypeError: Cannot read properties of null (reading 'trainerId')[39m[22m
+[1m[31m    at Function.toDomain (/Users/albapalomino/TouchSports/dist/backend/main.js:140:52)[39m[22m
+[1m[31m    at MongoTrainerAdapter.<anonymous> (/Users/albapalomino/TouchSports/dist/backend/main.js:71:50)[39m[22m
+[1m[31m    at Generator.next (<anonymous>)[39m[22m
+[1m[31m    at fulfilled (/Users/albapalomino/TouchSports/node_modules/tslib/tslib.js:166:62)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31mError updating team: TypeError: Cannot read properties of null (reading 'trainerId')[39m[22m
+[1m[31m    at Function.toDomain (/Users/albapalomino/TouchSports/dist/backend/main.js:140:52)[39m[22m
+[1m[31m    at MongoTrainerAdapter.<anonymous> (/Users/albapalomino/TouchSports/dist/backend/main.js:71:50)[39m[22m
+[1m[31m    at Generator.next (<anonymous>)[39m[22m
+[1m[31m    at fulfilled (/Users/albapalomino/TouchSports/node_modules/tslib/tslib.js:166:62)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2fd4b6a18e6f94fe)
+[1m[31mDebugger listening on ws://localhost:9229/10a7a535-32cd-4fbd-9349-dbd7c40b5b41[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/10a7a535-32cd-4fbd-9349-dbd7c40b5b41[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0fb77cb8eb7c5072)
+[1m[31mDebugger listening on ws://localhost:9229/3e3d9fcf-c84d-4533-8a5d-7e04527a827b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3e3d9fcf-c84d-4533-8a5d-7e04527a827b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6cee92eeaf7678f3)
+[1m[31mDebugger listening on ws://localhost:9229/42c69899-709a-4be2-90b4-a03f750ca663[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/42c69899-709a-4be2-90b4-a03f750ca663[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b9c4a898bb428359)
+[1m[31mDebugger listening on ws://localhost:9229/b0bbfbbc-6f36-4aa8-aed6-f763f3217d56[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b0bbfbbc-6f36-4aa8-aed6-f763f3217d56[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a38e7cf478fcfba9)
+[1m[31mDebugger listening on ws://localhost:9229/f45b76e0-cbe0-41ea-8781-a54f89709136[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f45b76e0-cbe0-41ea-8781-a54f89709136[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (78661941f39be6b3)
+[1m[31mDebugger listening on ws://localhost:9229/72f6d77a-347a-479e-b648-6cdfc0b9b391[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/72f6d77a-347a-479e-b648-6cdfc0b9b391[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

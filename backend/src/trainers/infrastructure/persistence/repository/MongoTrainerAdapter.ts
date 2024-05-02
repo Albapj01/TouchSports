@@ -37,11 +37,14 @@ export class MongoTrainerAdapter implements TrainerPort {
   async saveTeam(team: Team, trainer: Trainer): Promise<void> {
     await this.model.findOneAndUpdate(
       { trainerId: team.trainerId },
-      { $set: { teams: trainer.teams } },
-    )
+      { $set: { teams: trainer.teams } }
+    );
   }
-  updateTeam(team: Team): Promise<void> {
-    throw new Error("Method not implemented.");
+  async updateTeam(team: Team[], trainerId: string): Promise<void> {
+    await this.model.findOneAndUpdate(
+      { trainerId: trainerId },
+      { $set: { teams: team } }
+    );
   }
   async getAllTeams(trainerId: String): Promise<Team[]> {
     throw new Error("Method not implemented.");

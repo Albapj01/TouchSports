@@ -5,6 +5,6 @@ export class Team {
       readonly trainerId: string,
       readonly teamId: string,
       readonly name: string,
-      readonly players: Player[],
+      public players: Player[],
     ) {}
   }
