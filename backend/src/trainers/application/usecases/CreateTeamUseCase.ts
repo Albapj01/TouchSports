@@ -6,8 +6,6 @@ export class CreateTeamUseCase {
     constructor(
         private trainerPort: TrainerPort
     ) {}
-    //buscar entrenador
-    //una vez lo devuelva, en su array de team se añaden
 
     async run(teamDTO: TeamDTO): Promise<void>{
         const trainer = await this.trainerPort.findById(

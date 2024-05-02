@@ -40,8 +40,11 @@ export class MongoTrainerAdapter implements TrainerPort {
   async saveTrainer(trainer: Trainer): Promise<void> {
     await this.model.create(TrainerMapper.toEntity(trainer));
   }
-  deleteTeam(team: Team): Promise<void> {
-    throw new Error("Method not implemented.");
+  async deleteTeam(team: Team[], trainerId: string): Promise<void> {
+    await this.model.findOneAndUpdate(
+      { trainerId: trainerId },
+      { $set: { teams: team } },
+    )
   }
   async saveTeam(team: Team, trainer: Trainer): Promise<void> {
     await this.model.findOneAndUpdate(

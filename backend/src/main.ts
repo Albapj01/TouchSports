@@ -8,7 +8,7 @@ import * as path from "path";
 import cors from "cors";
 import dotenv from "dotenv";
 import Router from "express-promise-router";
-import bodyParser from 'body-parser'
+import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import { MongoTrainerAdapter } from "./trainers/infrastructure/persistence/repository/MongoTrainerAdapter";
 import { CreateTrainerUseCase } from "./trainers/application/usecases/CreateTrainerUseCase";
@@ -21,13 +21,15 @@ import { UpdateTeamByIdUseCase } from "./trainers/application/usecases/UpdateTea
 import { UpdateTeamByIdController } from "./trainers/infrastructure/controller/UpdateTeamByIdController";
 import { UpdateTrainerUseCase } from "./trainers/application/usecases/UpdateTrainerUseCase";
 import { UpdateTrainerController } from "./trainers/infrastructure/controller/UpdateTrainerController";
+import { DeleteTeamByIdUseCase } from "./trainers/application/usecases/DeleteTeamByIdUseCase";
+import { DeleteTeamByIdController } from "./trainers/infrastructure/controller/DeleteTeamByIdController";
 
 dotenv.config();
 const app = express();
 const router = Router();
 
 app.use(cors());
-app.use(bodyParser.json({ limit: '10mb' }))
+app.use(bodyParser.json({ limit: "10mb" }));
 app.use(router);
 
 app.use("/assets", express.static(path.join(__dirname, "assets")));
@@ -42,37 +44,53 @@ router.get("/api/status", async (req, res) => {
   res.status(200).send({ message: "OK" });
 });
 
-const trainerAdapter = new MongoTrainerAdapter()
+const trainerAdapter = new MongoTrainerAdapter();
 
-const createTrainerUseCase = new CreateTrainerUseCase(trainerAdapter)
-const createTrainerController = new CreateTrainerController(createTrainerUseCase)
-router.post('/api/trainer', async (req, res) => {
-  return createTrainerController.handle(req, res)
-})
+const createTrainerUseCase = new CreateTrainerUseCase(trainerAdapter);
+const createTrainerController = new CreateTrainerController(
+  createTrainerUseCase
+);
+router.post("/api/trainer", async (req, res) => {
+  return createTrainerController.handle(req, res);
+});
 
-const getTrainerByIdUseCase = new GetTrainerByIdUseCase(trainerAdapter)
-const getTrainerByIdUseController = new GetTrainerByIdController(getTrainerByIdUseCase)
-router.get('/api/trainer/:id', async (req, res) => {
-  return getTrainerByIdUseController.handle(req, res)
-})
+const getTrainerByIdUseCase = new GetTrainerByIdUseCase(trainerAdapter);
+const getTrainerByIdUseController = new GetTrainerByIdController(
+  getTrainerByIdUseCase
+);
+router.get("/api/trainer/:id", async (req, res) => {
+  return getTrainerByIdUseController.handle(req, res);
+});
 
-const updateTrainerUseCase = new UpdateTrainerUseCase(trainerAdapter)
-const updateTrainerController = new UpdateTrainerController(updateTrainerUseCase)
-router.put('/api/trainer/:trainerId', async (req, res) => {
-  return updateTrainerController.handle(req, res)
-})
+const updateTrainerUseCase = new UpdateTrainerUseCase(trainerAdapter);
+const updateTrainerController = new UpdateTrainerController(
+  updateTrainerUseCase
+);
+router.put("/api/trainer/:trainerId", async (req, res) => {
+  return updateTrainerController.handle(req, res);
+});
 
-const createTeamUseCase = new CreateTeamUseCase(trainerAdapter)
-const createTeamController = new CreateTeamController(createTeamUseCase)
-router.post('/api/trainer/:id/team', async (req, res) => {
-  return createTeamController.handle(req, res)
-})
+const createTeamUseCase = new CreateTeamUseCase(trainerAdapter);
+const createTeamController = new CreateTeamController(createTeamUseCase);
+router.post("/api/trainer/:id/team", async (req, res) => {
+  return createTeamController.handle(req, res);
+});
 
-const updateTeamByIdUseCase = new UpdateTeamByIdUseCase(trainerAdapter)
-const updateTeamByIdController = new UpdateTeamByIdController(updateTeamByIdUseCase)
-router.put('/api/trainer/:trainerId/team/:teamId', async (req, res) => {
-  return updateTeamByIdController.handle(req, res)
-})
+const updateTeamByIdUseCase = new UpdateTeamByIdUseCase(trainerAdapter);
+const updateTeamByIdController = new UpdateTeamByIdController(
+  updateTeamByIdUseCase
+);
+router.put("/api/trainer/:trainerId/team/:teamId", async (req, res) => {
+  return updateTeamByIdController.handle(req, res);
+});
+
+const deleteTeamByIdUseCase = new DeleteTeamByIdUseCase(trainerAdapter);
+const deleteTeamByIdController = new DeleteTeamByIdController(
+  deleteTeamByIdUseCase
+);
+router.delete("/api/trainer/:trainerId/team/:teamId", async (req, res) => {
+  return deleteTeamByIdController.handle(req, res);
+});
 
 const start = async () => {
   try {

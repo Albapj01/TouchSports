@@ -90,32 +90,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "3674156215951047428"
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
       },
       {
         "file": ".vscode/settings.json",
         "hash": "6703405954808146235"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
-      },
-      {
-        "file": "package.json",
-        "hash": "1098629939364157896"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
       },
       {
         "file": "LICENSE",
@@ -126,12 +106,32 @@
         "hash": "10104707244890837311"
       },
       {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
       },
       {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4595224623132836319"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3674156215951047428"
+      },
+      {
+        "file": "package.json",
+        "hash": "1098629939364157896"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
       }
     ],
     "projectFileMap": {
@@ -175,212 +175,6 @@
         {
           "file": "frontend-e2e/tsconfig.json",
           "hash": "4966899981699294432"
-        }
-      ],
-      "backend": [
-        {
-          "file": "backend/.eslintrc.json",
-          "hash": "11808533155536463924"
-        },
-        {
-          "file": "backend/jest.config.ts",
-          "hash": "16506059037693097726"
-        },
-        {
-          "file": "backend/project.json",
-          "hash": "9209280618898639585"
-        },
-        {
-          "file": "backend/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "backend/src/main.ts",
-          "hash": "11917937823860578392",
-          "deps": [
-            "npm:express",
-            "npm:path",
-            "npm:cors",
-            "npm:dotenv",
-            "npm:express-promise-router",
-            "npm:body-parser",
-            "npm:mongoose"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/application/DTOs/PlayerDTO.ts",
-          "hash": "7268604539774068539"
-        },
-        {
-          "file": "backend/src/trainers/application/DTOs/TeamDTO.ts",
-          "hash": "11258628062309180008"
-        },
-        {
-          "file": "backend/src/trainers/application/DTOs/TrainerDTO.ts",
-          "hash": "3330601858537236208"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/CreateTeamUseCase.ts",
-          "hash": "10783972393688859719"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/CreateTrainerUseCase.ts",
-          "hash": "9426150637960687369"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts",
-          "hash": "17954388114672346624"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/UpdateTeamByIdUseCase.ts",
-          "hash": "13839735774494877890"
-        },
-        {
-          "file": "backend/src/trainers/domain/model/Player.ts",
-          "hash": "2973711233273656745"
-        },
-        {
-          "file": "backend/src/trainers/domain/model/Reserve.ts",
-          "hash": "3585934988958457470"
-        },
-        {
-          "file": "backend/src/trainers/domain/model/Team.ts",
-          "hash": "10232962870683341233"
-        },
-        {
-          "file": "backend/src/trainers/domain/model/Trainer.ts",
-          "hash": "11305973768446591549"
-        },
-        {
-          "file": "backend/src/trainers/domain/port/TrainerPort.ts",
-          "hash": "17466568827280164253"
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/CreateTeamController.ts",
-          "hash": "2219188963493936857",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/CreateTrainerController.ts",
-          "hash": "17299752981234931747",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/GetTrainerByIdController.ts",
-          "hash": "6788445650915552404",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/UpdateTeamByIdController.ts",
-          "hash": "4845300273553570865",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/persistence/entities/TrainerEntity.ts",
-          "hash": "5792303632987591128",
-          "deps": [
-            "npm:mongoose"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts",
-          "hash": "6907856480170061733"
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts",
-          "hash": "3806307976836424843",
-          "deps": [
-            "npm:mongoose"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/persistence/schemas/TrainerSchema.ts",
-          "hash": "12161089005982443636",
-          "deps": [
-            "npm:mongoose"
-          ]
-        },
-        {
-          "file": "backend/tsconfig.app.json",
-          "hash": "3852056039976130118"
-        },
-        {
-          "file": "backend/tsconfig.json",
-          "hash": "9420862676426701392"
-        },
-        {
-          "file": "backend/tsconfig.spec.json",
-          "hash": "17313551537729802733"
-        },
-        {
-          "file": "backend/webpack.config.js",
-          "hash": "5708803163266262522",
-          "deps": [
-            "npm:@nx/webpack"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/UpdateTrainerUseCase.ts",
-          "hash": "8200916174738362673"
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/UpdateTrainerController.ts",
-          "hash": "5206658431590381834",
-          "deps": [
-            "npm:express"
-          ]
-        }
-      ],
-      "backend-e2e": [
-        {
-          "file": "backend-e2e/.eslintrc.json",
-          "hash": "11808533155536463924"
-        },
-        {
-          "file": "backend-e2e/jest.config.ts",
-          "hash": "2507509416108260741"
-        },
-        {
-          "file": "backend-e2e/project.json",
-          "hash": "1553543349876778842"
-        },
-        {
-          "file": "backend-e2e/src/backend/backend.spec.ts",
-          "hash": "4579662685003779048",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "backend-e2e/src/support/global-setup.ts",
-          "hash": "2568409276037275290"
-        },
-        {
-          "file": "backend-e2e/src/support/global-teardown.ts",
-          "hash": "5275447082211835490"
-        },
-        {
-          "file": "backend-e2e/src/support/test-setup.ts",
-          "hash": "10984585515912236441",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "backend-e2e/tsconfig.json",
-          "hash": "2346920493880922870"
-        },
-        {
-          "file": "backend-e2e/tsconfig.spec.json",
-          "hash": "14226830188665428950"
         }
       ],
       "frontend": [
@@ -706,6 +500,223 @@
             "npm:@nx/webpack",
             "npm:@nx/react"
           ]
+        }
+      ],
+      "backend": [
+        {
+          "file": "backend/.eslintrc.json",
+          "hash": "11808533155536463924"
+        },
+        {
+          "file": "backend/jest.config.ts",
+          "hash": "16506059037693097726"
+        },
+        {
+          "file": "backend/project.json",
+          "hash": "9209280618898639585"
+        },
+        {
+          "file": "backend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "backend/src/main.ts",
+          "hash": "17010024913671126660",
+          "deps": [
+            "npm:express",
+            "npm:path",
+            "npm:cors",
+            "npm:dotenv",
+            "npm:express-promise-router",
+            "npm:body-parser",
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/application/DTOs/PlayerDTO.ts",
+          "hash": "7268604539774068539"
+        },
+        {
+          "file": "backend/src/trainers/application/DTOs/TeamDTO.ts",
+          "hash": "11258628062309180008"
+        },
+        {
+          "file": "backend/src/trainers/application/DTOs/TrainerDTO.ts",
+          "hash": "3330601858537236208"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/CreateTeamUseCase.ts",
+          "hash": "8003720174007026063"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/CreateTrainerUseCase.ts",
+          "hash": "9426150637960687369"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/DeleteTeamByIdUseCase.ts",
+          "hash": "18300504018028987776"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts",
+          "hash": "17954388114672346624"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/UpdateTeamByIdUseCase.ts",
+          "hash": "13839735774494877890"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/UpdateTrainerUseCase.ts",
+          "hash": "8200916174738362673"
+        },
+        {
+          "file": "backend/src/trainers/domain/model/Player.ts",
+          "hash": "2973711233273656745"
+        },
+        {
+          "file": "backend/src/trainers/domain/model/Reserve.ts",
+          "hash": "3585934988958457470"
+        },
+        {
+          "file": "backend/src/trainers/domain/model/Team.ts",
+          "hash": "10232962870683341233"
+        },
+        {
+          "file": "backend/src/trainers/domain/model/Trainer.ts",
+          "hash": "11305973768446591549"
+        },
+        {
+          "file": "backend/src/trainers/domain/port/TrainerPort.ts",
+          "hash": "637551748734131580"
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/CreateTeamController.ts",
+          "hash": "2219188963493936857",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/CreateTrainerController.ts",
+          "hash": "17299752981234931747",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/DeleteTeamByIdController.ts",
+          "hash": "6659379283616269611",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/GetTrainerByIdController.ts",
+          "hash": "6788445650915552404",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/UpdateTeamByIdController.ts",
+          "hash": "4845300273553570865",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/UpdateTrainerController.ts",
+          "hash": "5206658431590381834",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/persistence/entities/TrainerEntity.ts",
+          "hash": "5792303632987591128",
+          "deps": [
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts",
+          "hash": "6907856480170061733"
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts",
+          "hash": "9894928382370997999",
+          "deps": [
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/persistence/schemas/TrainerSchema.ts",
+          "hash": "12161089005982443636",
+          "deps": [
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "backend/tsconfig.app.json",
+          "hash": "3852056039976130118"
+        },
+        {
+          "file": "backend/tsconfig.json",
+          "hash": "9420862676426701392"
+        },
+        {
+          "file": "backend/tsconfig.spec.json",
+          "hash": "17313551537729802733"
+        },
+        {
+          "file": "backend/webpack.config.js",
+          "hash": "5708803163266262522",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ],
+      "backend-e2e": [
+        {
+          "file": "backend-e2e/.eslintrc.json",
+          "hash": "11808533155536463924"
+        },
+        {
+          "file": "backend-e2e/jest.config.ts",
+          "hash": "2507509416108260741"
+        },
+        {
+          "file": "backend-e2e/project.json",
+          "hash": "1553543349876778842"
+        },
+        {
+          "file": "backend-e2e/src/backend/backend.spec.ts",
+          "hash": "4579662685003779048",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "backend-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "backend-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "backend-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "backend-e2e/tsconfig.json",
+          "hash": "2346920493880922870"
+        },
+        {
+          "file": "backend-e2e/tsconfig.spec.json",
+          "hash": "14226830188665428950"
         }
       ]
     }
