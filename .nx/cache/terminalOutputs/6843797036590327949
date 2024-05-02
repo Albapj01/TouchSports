@@ -1,0 +1,593 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3c628e26eaa8e2fe)
+[1m[31mDebugger listening on ws://localhost:9229/b58eb33f-0975-47f2-8d1e-97d85ba94a3e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b58eb33f-0975-47f2-8d1e-97d85ba94a3e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 5.52 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m73:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'deleteTeamByIdUseCase' has already been declared (73:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     return deleteTeamByIdController.handle(req, res);
+| }));
+> const deleteTeamByIdUseCase = new DeleteTeamByIdUseCase_1.DeleteTeamByIdUseCase(trainerAdapter);
+| const deleteTeamByIdController = new DeleteTeamByIdController_1.DeleteTeamByIdController(deleteTeamByIdUseCase);
+| router.delete("/api/trainer/:trainerId/team/:teamId", (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m87:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdUseCase'.
+  [0m [90m 85 |[39m })[33m;[39m[0m
+  [0m [90m 86 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 87 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 88 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m 89 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 90 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m88:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdController'.
+  [0m [90m 86 |[39m[0m
+  [0m [90m 87 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 88 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 89 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 90 |[39m )[33m;[39m[0m
+  [0m [90m 91 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m95:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdUseCase'.
+  [0m [90m 93 |[39m })[33m;[39m[0m
+  [0m [90m 94 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 95 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 96 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m 97 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 98 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m96:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdController'.
+  [0m [90m 94 |[39m[0m
+  [0m [90m 95 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 96 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 97 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 98 |[39m )[33m;[39m[0m
+  [0m [90m 99 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (0d71aa8813945a83)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 5.48 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m73:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'deleteTeamByIdUseCase' has already been declared (73:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     return deleteTeamByIdController.handle(req, res);
+| }));
+> const deleteTeamByIdUseCase = new Get(trainerAdapter);
+| const deleteTeamByIdController = new DeleteTeamByIdController_1.DeleteTeamByIdController(deleteTeamByIdUseCase);
+| router.delete("/api/trainer/:trainerId/team/:teamId", (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m87:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdUseCase'.
+  [0m [90m 85 |[39m })[33m;[39m[0m
+  [0m [90m 86 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 87 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 88 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m 89 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 90 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m88:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdController'.
+  [0m [90m 86 |[39m[0m
+  [0m [90m 87 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 88 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 89 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 90 |[39m )[33m;[39m[0m
+  [0m [90m 91 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m95:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdUseCase'.
+  [0m [90m 93 |[39m })[33m;[39m[0m
+  [0m [90m 94 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 95 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mGet[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 96 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m 97 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 98 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m95:35[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Get'.
+  [0m [90m 93 |[39m })[33m;[39m[0m
+  [0m [90m 94 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 95 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mGet[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 96 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m 97 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 98 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m96:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdController'.
+  [0m [90m 94 |[39m[0m
+  [0m [90m 95 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mGet[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 96 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 97 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 98 |[39m )[33m;[39m[0m
+  [0m [90m 99 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (c35d534e66d6be46)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 5.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m74:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'deleteTeamByIdUseCase' has already been declared (74:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     return deleteTeamByIdController.handle(req, res);
+| }));
+> const deleteTeamByIdUseCase = new GetAllTeamsUseCase_1.GetAllTeamsUseCase(trainerAdapter);
+| const deleteTeamByIdController = new DeleteTeamByIdController_1.DeleteTeamByIdController(deleteTeamByIdUseCase);
+| router.delete("/api/trainer/:trainerId/team/:teamId", (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m88:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdUseCase'.
+  [0m [90m 86 |[39m })[33m;[39m[0m
+  [0m [90m 87 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 88 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 89 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m 90 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 91 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m89:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdController'.
+  [0m [90m 87 |[39m[0m
+  [0m [90m 88 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 89 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 90 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 91 |[39m )[33m;[39m[0m
+  [0m [90m 92 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m96:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdUseCase'.
+  [0m [90m 94 |[39m })[33m;[39m[0m
+  [0m [90m 95 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 96 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mGetAllTeamsUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 97 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m 98 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 99 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m97:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdController'.
+  [0m [90m  95 |[39m[0m
+  [0m [90m  96 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mGetAllTeamsUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m  97 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m     |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m  98 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m  99 |[39m )[33m;[39m[0m
+  [0m [90m 100 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (8c12e6f9587b00c0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 5.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m75:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'deleteTeamByIdController' has already been declared (75:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| }));
+| const getAllTeamsUseCase = new GetAllTeamsUseCase_1.GetAllTeamsUseCase(trainerAdapter);
+> const deleteTeamByIdController = new DeleteTeamByIdController_1.DeleteTeamByIdController(deleteTeamByIdUseCase);
+| router.delete("/api/trainer/:trainerId/team/:teamId", (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {
+|     return deleteTeamByIdController.handle(req, res);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m89:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdController'.
+  [0m [90m 87 |[39m[0m
+  [0m [90m 88 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 89 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 90 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 91 |[39m )[33m;[39m[0m
+  [0m [90m 92 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m97:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdController'.
+  [0m [90m  95 |[39m[0m
+  [0m [90m  96 |[39m [36mconst[39m getAllTeamsUseCase [33m=[39m [36mnew[39m [33mGetAllTeamsUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m  97 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m     |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m  98 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m  99 |[39m )[33m;[39m[0m
+  [0m [90m 100 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (a14b3bdd18f51f4b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 5.69 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m76:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'deleteTeamByIdController' has already been declared (76:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| }));
+| const getAllTeamsUseCase = new GetAllTeamsUseCase_1.GetAllTeamsUseCase(trainerAdapter);
+> const deleteTeamByIdController = new GetAllTeamsController_1.GetAllTeamsController(deleteTeamByIdUseCase);
+| router.delete("/api/trainer/:trainerId/team/:teamId", (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {
+|     return deleteTeamByIdController.handle(req, res);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m90:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdController'.
+  [0m [90m 88 |[39m[0m
+  [0m [90m 89 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 90 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 91 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 92 |[39m )[33m;[39m[0m
+  [0m [90m 93 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m98:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdController'.
+  [0m [90m  96 |[39m[0m
+  [0m [90m  97 |[39m [36mconst[39m getAllTeamsUseCase [33m=[39m [36mnew[39m [33mGetAllTeamsUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m  98 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mGetAllTeamsController[39m([0m
+  [0m [90m     |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m  99 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 100 |[39m )[33m;[39m[0m
+  [0m [90m 101 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m99:3[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'DeleteTeamByIdUseCase' is not assignable to parameter of type 'GetAllTeamsUseCase'.
+  Types have separate declarations of a private property 'trainerPort'.
+  [0m [90m  97 |[39m [36mconst[39m getAllTeamsUseCase [33m=[39m [36mnew[39m [33mGetAllTeamsUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m  98 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mGetAllTeamsController[39m([0m
+  [0m[31m[1m>[22m[39m[90m  99 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m     |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 100 |[39m )[33m;[39m[0m
+  [0m [90m 101 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 102 |[39m   [36mreturn[39m deleteTeamByIdController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (53a253212327c85c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 5.69 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m76:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'deleteTeamByIdController' has already been declared (76:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| }));
+| const getAllTeamsUseCase = new GetAllTeamsUseCase_1.GetAllTeamsUseCase(trainerAdapter);
+> const deleteTeamByIdController = new GetAllTeamsController_1.GetAllTeamsController(getAllTeamsUseCase);
+| router.delete("/api/trainer/:trainerId/team/:teamId", (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {
+|     return deleteTeamByIdController.handle(req, res);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m90:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdController'.
+  [0m [90m 88 |[39m[0m
+  [0m [90m 89 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 90 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 91 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 92 |[39m )[33m;[39m[0m
+  [0m [90m 93 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m98:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdController'.
+  [0m [90m  96 |[39m[0m
+  [0m [90m  97 |[39m [36mconst[39m getAllTeamsUseCase [33m=[39m [36mnew[39m [33mGetAllTeamsUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m  98 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mGetAllTeamsController[39m([0m
+  [0m [90m     |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m  99 |[39m   getAllTeamsUseCase[0m
+  [0m [90m 100 |[39m )[33m;[39m[0m
+  [0m [90m 101 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (7e7f61535250b540)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m27:10[22m[39m[1m[39m[22m
+[90mTS2440: [39mImport declaration conflicts with local declaration of 'GetAllTeamsController'.
+  [0m [90m 25 |[39m [36mimport[39m { [33mDeleteTeamByIdController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/DeleteTeamByIdController"[39m[33m;[39m[0m
+  [0m [90m 26 |[39m [36mimport[39m { [33mGetAllTeamsUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/GetAllTeamsUseCase"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m [36mimport[39m { [33mGetAllTeamsController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetAllTeamsController"[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m[0m
+  [0m [90m 29 |[39m dotenv[33m.[39mconfig()[33m;[39m[0m
+  [0m [90m 30 |[39m [36mconst[39m app [33m=[39m express()[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m98:35[22m[39m[1m[39m[22m
+[90mTS2448: [39mBlock-scoped variable 'GetAllTeamsController' used before its declaration.
+  [0m [90m  96 |[39m[0m
+  [0m [90m  97 |[39m [36mconst[39m getAllTeamsUseCase [33m=[39m [36mnew[39m [33mGetAllTeamsUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m  98 |[39m [36mconst[39m [33mGetAllTeamsController[39m [33m=[39m [36mnew[39m [33mGetAllTeamsController[39m([0m
+  [0m [90m     |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m  99 |[39m   getAllTeamsUseCase[0m
+  [0m [90m 100 |[39m )[33m;[39m[0m
+  [0m [90m 101 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (557a64044f7b822f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d113fb05d9b6fa89)
+[1m[31mDebugger listening on ws://localhost:9229/7d38ba7a-9fb8-4682-9f71-5b52312406f2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7d38ba7a-9fb8-4682-9f71-5b52312406f2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (824cf7fe485068b5)
+[1m[31mDebugger listening on ws://localhost:9229/cb2a5932-166e-45af-a131-f4bbb104b845[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cb2a5932-166e-45af-a131-f4bbb104b845[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7d2293b9bbac53a0)
+[1m[31mDebugger listening on ws://localhost:9229/aecd66be-d5a7-4314-b552-bbb20bb95d41[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/aecd66be-d5a7-4314-b552-bbb20bb95d41[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0a631256a95a030c)
+[1m[31mDebugger listening on ws://localhost:9229/b2efffdb-941f-4993-83d7-4128c789beb4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b2efffdb-941f-4993-83d7-4128c789beb4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (20e4eb056dc25636)
+[1m[31mDebugger listening on ws://localhost:9229/45062dfa-4e92-4be4-b5d5-3962f75914bd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/45062dfa-4e92-4be4-b5d5-3962f75914bd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/main.ts[39m[22m
+[1m./src/main.ts[39m[22m [1m[32m102:52-53[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/main.ts(102,53)[39m[22m
+[1m[31m      TS1005: ')' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/main.ts[39m[22m
+[1m./src/main.ts[39m[22m [1m[32m102:53-54[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/main.ts(102,54)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/main.ts[39m[22m
+[1m./src/main.ts[39m[22m [1m[32m104:0-1[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/main.ts(104,1)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/main.ts[39m[22m
+[1m./src/main.ts[39m[22m [1m[32m104:1-2[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/main.ts(104,2)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+webpack compiled with [1m[31m4 errors[39m[22m (627768c83a62de06)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b2a6871e204d46ef)
+[1m[31mDebugger listening on ws://localhost:9229/bd647418-8ff1-44c8-96a2-cb3fb5b5911a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/bd647418-8ff1-44c8-96a2-cb3fb5b5911a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ec26785c7627431e)
+[1m[31mDebugger listening on ws://localhost:9229/eac485ae-4c5a-4016-8ad0-066d8c210663[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/eac485ae-4c5a-4016-8ad0-066d8c210663[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (58b433b524be26b2)
+[1m[31mDebugger listening on ws://localhost:9229/c86a7b2b-9991-41c0-bdb2-1ec7f633a451[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c86a7b2b-9991-41c0-bdb2-1ec7f633a451[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (64adba67e331faca)
+[1m[31mDebugger listening on ws://localhost:9229/cc06765b-eea5-4df5-8a89-af9ca21036e6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cc06765b-eea5-4df5-8a89-af9ca21036e6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a5a842c95c4b94fe)
+[1m[31mDebugger listening on ws://localhost:9229/eb55523b-5935-4633-9602-cc906e7544d7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/eb55523b-5935-4633-9602-cc906e7544d7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d75366e62950a60c)
+[1m[31mDebugger listening on ws://localhost:9229/42def9fa-0c4c-4e30-82ce-81588cd25ae0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/42def9fa-0c4c-4e30-82ce-81588cd25ae0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a5504cac34da50b2)
+[1m[31mDebugger listening on ws://localhost:9229/95e1aee9-98ff-4aa7-9b9a-c1311c0383d5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/95e1aee9-98ff-4aa7-9b9a-c1311c0383d5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3212f439333b445d)
+[1m[31mDebugger listening on ws://localhost:9229/99b18c24-b87e-45f8-b573-380b721de162[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/99b18c24-b87e-45f8-b573-380b721de162[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2e585bc9b0ad9948)
+[1m[31mDebugger listening on ws://localhost:9229/7a90049f-c3dd-4528-a6f2-717fc6b67505[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7a90049f-c3dd-4528-a6f2-717fc6b67505[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a0daeb1d37f38fcd)
+[1m[31mDebugger listening on ws://localhost:9229/2b743ee4-5893-4f3d-a5bc-2557abf64779[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2b743ee4-5893-4f3d-a5bc-2557abf64779[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (46eac054c2d88e59)
+[1m[31mDebugger listening on ws://localhost:9229/7a5c905e-e801-478d-b007-6b270defce89[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7a5c905e-e801-478d-b007-6b270defce89[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/controller/GetTrainerByIdController.ts:[32m[1m15:2[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 't'.
+  [0m [90m 13 |[39m             [36mreturn[39m res[33m.[39mstatus([35m500[39m)[33m.[39msend({message[33m:[39m [32m'Error'[39m})[0m
+  [0m [90m 14 |[39m         }[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m  t[0m
+  [0m [90m    |[39m  [31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m         res[33m.[39mstatus([35m201[39m)[33m.[39msend({message[33m:[39m [32m'Obtained '[39m})[0m
+  [0m [90m 17 |[39m     }[0m
+  [0m [90m 18 |[39m }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (51077353e6211393)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (01e6a29314d3d55a)
+[1m[31mDebugger listening on ws://localhost:9229/21113d52-ce12-45f4-babe-757c69092b61[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/21113d52-ce12-45f4-babe-757c69092b61[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (78a5ff3673cadfec)
+[1m[31mDebugger listening on ws://localhost:9229/f4409147-b312-49d9-8976-09d1892b3962[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f4409147-b312-49d9-8976-09d1892b3962[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4353d73fcdcf6c20)
+[1m[31mDebugger listening on ws://localhost:9229/3526f075-73ac-446d-8330-f0398c82eb26[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3526f075-73ac-446d-8330-f0398c82eb26[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ab08fc3e4233bc8f)
+[1m[31mDebugger listening on ws://localhost:9229/5015f1c8-99c7-4c69-a4ca-fae5919ed531[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5015f1c8-99c7-4c69-a4ca-fae5919ed531[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2f177bdf23d692d4)
+[1m[31mDebugger listening on ws://localhost:9229/d757c016-3e67-4a67-89e0-993b35352282[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d757c016-3e67-4a67-89e0-993b35352282[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (17eed8c77f7cb36c)
+[1m[31mDebugger listening on ws://localhost:9229/d0da76de-ce66-4088-9ea0-a7f79c09fd62[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d0da76de-ce66-4088-9ea0-a7f79c09fd62[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (406b7aa506a8e529)
+[1m[31mDebugger listening on ws://localhost:9229/92a53aaf-c623-4381-89d5-0c4ca060293b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/92a53aaf-c623-4381-89d5-0c4ca060293b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (75234b3863a29cc6)
+[1m[31mDebugger listening on ws://localhost:9229/48dd2977-54f7-4c3b-af12-a6a08a8857b6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/48dd2977-54f7-4c3b-af12-a6a08a8857b6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fae7cc1940bd915c)
+[1m[31mDebugger listening on ws://localhost:9229/77c94c14-3319-414a-9662-ab64347e777f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/77c94c14-3319-414a-9662-ab64347e777f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c7c37454228ba831)
+[1m[31mDebugger listening on ws://localhost:9229/2ff8e3b6-c2ca-4c77-8c4f-9a14e0e8bde6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2ff8e3b6-c2ca-4c77-8c4f-9a14e0e8bde6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (929dc2057100974f)
+[1m[31mDebugger listening on ws://localhost:9229/95b62500-207d-4523-91b5-67c1760766b1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/95b62500-207d-4523-91b5-67c1760766b1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mError: Cannot set headers after they are sent to the client[39m[22m
+[1m[31m    at new NodeError (node:internal/errors:399:5)[39m[22m
+[1m[31m    at ServerResponse.setHeader (node:_http_outgoing:645:11)[39m[22m
+[1m[31m    at ServerResponse.header (/Users/albapalomino/TouchSports/node_modules/express/lib/response.js:794:10)[39m[22m
+[1m[31m    at ServerResponse.send (/Users/albapalomino/TouchSports/node_modules/express/lib/response.js:174:12)[39m[22m
+[1m[31m    at ServerResponse.json (/Users/albapalomino/TouchSports/node_modules/express/lib/response.js:278:15)[39m[22m
+[1m[31m    at ServerResponse.send (/Users/albapalomino/TouchSports/node_modules/express/lib/response.js:162:21)[39m[22m
+[1m[31m    at GetTrainerByIdController.<anonymous> (/Users/albapalomino/TouchSports/dist/backend/main.js:363:29)[39m[22m
+[1m[31m    at Generator.next (<anonymous>)[39m[22m
+[1m[31m    at fulfilled (/Users/albapalomino/TouchSports/node_modules/tslib/tslib.js:166:62)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e1f73973121fbb9e)
+[1m[31mDebugger listening on ws://localhost:9229/b8a95759-7086-4f9d-b918-36b6096f87c3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b8a95759-7086-4f9d-b918-36b6096f87c3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (47f6ef0280318426)
+[1m[31mDebugger listening on ws://localhost:9229/76a694f0-aee7-4640-a669-01846251202f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/76a694f0-aee7-4640-a669-01846251202f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (63283226919a6244)
+[1m[31mDebugger listening on ws://localhost:9229/13bc61e5-bc11-4ffb-b845-9ff5be6ce389[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/13bc61e5-bc11-4ffb-b845-9ff5be6ce389[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c721b756675e5dd1)
+[1m[31mDebugger listening on ws://localhost:9229/9d643d39-751b-42e6-bbcd-965018c19215[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9d643d39-751b-42e6-bbcd-965018c19215[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d84898626a4803a6)
+[1m[31mDebugger listening on ws://localhost:9229/4507c34f-2e31-481c-a311-ac6d19147018[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4507c34f-2e31-481c-a311-ac6d19147018[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (312c53cbe6eadfa0)
+[1m[31mDebugger listening on ws://localhost:9229/1be0f072-c138-4ed8-9f0f-ffde4afecd47[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1be0f072-c138-4ed8-9f0f-ffde4afecd47[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (366f6dda2f607fff)
+[1m[31mDebugger listening on ws://localhost:9229/e4047cda-b001-4452-a008-142467772428[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e4047cda-b001-4452-a008-142467772428[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (44d621a8c53ce667)
+[1m[31mDebugger listening on ws://localhost:9229/dc2b3a57-4d94-4088-9c6c-f42e82e0e366[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/dc2b3a57-4d94-4088-9c6c-f42e82e0e366[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 23.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (663a7f5acf3ca013)
+[1m[31mDebugger listening on ws://localhost:9229/db0d9786-b8a2-4502-9348-00145ee9c73e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/db0d9786-b8a2-4502-9348-00145ee9c73e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 22.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (22737d1c569ed347)
+[1m[31mDebugger listening on ws://localhost:9229/75487cff-9cb8-4753-8c43-c958495a4f79[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/75487cff-9cb8-4753-8c43-c958495a4f79[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
