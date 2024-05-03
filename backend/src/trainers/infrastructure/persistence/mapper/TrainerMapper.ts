@@ -27,6 +27,7 @@ export class TrainerMapper {
         teamId: team.teamId,
         name: team.name,
         players: team.players.map((player) => ({
+          trainerId: player.teamId,
           playerId: player.playerId,
           name: player.name,
           surname: player.surname,

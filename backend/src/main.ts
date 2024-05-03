@@ -1,8 +1,3 @@
-/**
- * This is not a production server yet!
- * This is only a minimal backend to get started.
- */
-
 import express from "express";
 import * as path from "path";
 import cors from "cors";
@@ -25,6 +20,8 @@ import { DeleteTeamByIdUseCase } from "./trainers/application/usecases/DeleteTea
 import { DeleteTeamByIdController } from "./trainers/infrastructure/controller/DeleteTeamByIdController";
 import { GetAllTeamsUseCase } from "./trainers/application/usecases/GetAllTeamsUseCase";
 import { GetAllTeamsController } from "./trainers/infrastructure/controller/GetAllTeamsController";
+import { CreatePalyerUseCase } from "./trainers/application/usecases/CreatePlayerUseCase";
+import { CreatePlayerController } from "./trainers/infrastructure/controller/CreatePlayerController";
 
 dotenv.config();
 const app = express();
@@ -98,6 +95,12 @@ const getAllTeamsUseCase = new GetAllTeamsUseCase(trainerAdapter);
 const getAllTeamsController = new GetAllTeamsController(getAllTeamsUseCase);
 router.get("/api/trainer/:trainerId/teams", async (req, res) => {
   return getAllTeamsController.handle(req, res);
+});
+
+const createPlayerUseCase = new CreatePalyerUseCase(trainerAdapter);
+const createPlayerController = new CreatePlayerController(createPlayerUseCase);
+router.post("/api/trainer/:trainerId/team/:teamId/player", async (req, res) => {
+  return createPlayerController.handle(req, res);
 });
 
 const start = async () => {

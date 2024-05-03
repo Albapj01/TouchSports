@@ -1,0 +1,224 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cb0e4477208e739a)
+[1m[31mDebugger listening on ws://localhost:9229/fb31d9ea-4d83-4acf-b69c-ea0dbbd9c643[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fb31d9ea-4d83-4acf-b69c-ea0dbbd9c643[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m75:26[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'players'. Did you mean 'player'?
+  [0m [90m 73 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 74 |[39m       { teamId[33m:[39m player[33m.[39mteamId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 75 |[39m       { $set[33m:[39m { players[33m:[39m players } }[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 76 |[39m     )[33m;[39m[0m
+  [0m [90m 77 |[39m   }[0m
+  [0m [90m 78 |[39m   updatePlayer(player[33m:[39m [33mPlayer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (753497dc00d1b1a8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (57e01a36889cc85d)
+[1m[31mDebugger listening on ws://localhost:9229/b05c5758-a119-4303-aba1-488d1e0bfb37[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b05c5758-a119-4303-aba1-488d1e0bfb37[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m75:31[22m[39m[1m[39m[22m
+[90mTS2551: [39mProperty 'player' does not exist on type 'Team'. Did you mean 'players'?
+  [0m [90m 73 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 74 |[39m       { teamId[33m:[39m player[33m.[39mteamId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 75 |[39m       { $set[33m:[39m { players[33m:[39m team[33m.[39mplayer } }[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 76 |[39m     )[33m;[39m[0m
+  [0m [90m 77 |[39m   }[0m
+  [0m [90m 78 |[39m   updatePlayer(player[33m:[39m [33mPlayer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (79682136bfad15b8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (675c71601519b0c5)
+[1m[31mDebugger listening on ws://localhost:9229/9fafcaf4-539d-4d39-b55e-eb9885edc6ec[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9fafcaf4-539d-4d39-b55e-eb9885edc6ec[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fbfa3b02765b7f9a)
+[1m[31mDebugger listening on ws://localhost:9229/8f7584b2-1886-448f-928a-707dba5ff1b3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8f7584b2-1886-448f-928a-707dba5ff1b3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2508f3ccd91f1e65)
+[1m[31mDebugger listening on ws://localhost:9229/3724195b-411c-4185-ae38-8a7fc25ef237[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3724195b-411c-4185-ae38-8a7fc25ef237[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f63d074c46af23d8)
+[1m[31mDebugger listening on ws://localhost:9229/7ac1ab8c-8102-473e-9ca7-924ae87d7e58[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7ac1ab8c-8102-473e-9ca7-924ae87d7e58[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5bf3b9e4b3426c7a)
+[1m[31mDebugger listening on ws://localhost:9229/c82a43ce-a2a1-43e6-8bb0-c098abcfa6b2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c82a43ce-a2a1-43e6-8bb0-c098abcfa6b2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (75c788ad4614abd6)
+[1m[31mDebugger listening on ws://localhost:9229/e9906da4-422c-4791-a92f-350ed8bf570e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e9906da4-422c-4791-a92f-350ed8bf570e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6b00fc763a7bd557)
+[1m[31mDebugger listening on ws://localhost:9229/7d120534-e640-43d1-b386-271fa7d778a9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7d120534-e640-43d1-b386-271fa7d778a9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6b00fc763a7bd557)
+[1m[31mDebugger listening on ws://localhost:9229/6dd7fcd5-feb6-4205-9093-e0cd0a692bb3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6dd7fcd5-feb6-4205-9093-e0cd0a692bb3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (da1c94c6037a7962)
+[1m[31mDebugger listening on ws://localhost:9229/55d5c087-519b-43c2-93b1-900871f77192[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/55d5c087-519b-43c2-93b1-900871f77192[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (09c2bce9d162006a)
+[1m[31mDebugger listening on ws://localhost:9229/ed9c38b9-9894-46c0-b389-b81814d40bed[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ed9c38b9-9894-46c0-b389-b81814d40bed[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bc662ea74e746715)
+[1m[31mDebugger listening on ws://localhost:9229/a8a4a6bf-52ac-4396-9432-57d96d932e85[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a8a4a6bf-52ac-4396-9432-57d96d932e85[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (56bce74c8dc12206)
+[1m[31mDebugger listening on ws://localhost:9229/1da64f6d-e3ae-48f4-93e0-e6be49bf65c4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1da64f6d-e3ae-48f4-93e0-e6be49bf65c4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (71c78eb7f6633d1e)
+[1m[31mDebugger listening on ws://localhost:9229/e43acf8d-7634-45b4-a24d-c6bff38636a0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e43acf8d-7634-45b4-a24d-c6bff38636a0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (198cedceb8e5b937)
+[1m[31mDebugger listening on ws://localhost:9229/61a9fdfb-3e5d-4d6f-8acb-3a4665a85e6c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/61a9fdfb-3e5d-4d6f-8acb-3a4665a85e6c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (11803e622e186730)
+[1m[31mDebugger listening on ws://localhost:9229/9ddeaf91-bc9f-461e-aa2e-47b6f3764aad[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9ddeaf91-bc9f-461e-aa2e-47b6f3764aad[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m78:45[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'player' does not exist on type '(teamId: string, trainerId: string) => Promise<Team>'.
+  [0m [90m 76 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 77 |[39m       { teamId[33m:[39m player[33m.[39mteamId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 78 |[39m       { $push[33m:[39m { players[33m:[39m [36mthis[39m[33m.[39mfindByTeamId[33m.[39mplayer } }[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 79 |[39m     )[33m;[39m[0m
+  [0m [90m 80 |[39m   }[0m
+  [0m [90m 81 |[39m   updatePlayer(player[33m:[39m [33mPlayer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (285e62aa2af6a93c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m78:27[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'teamIdplayer'.
+  [0m [90m 76 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 77 |[39m       { teamId[33m:[39m player[33m.[39mteamId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 78 |[39m       { $push[33m:[39m { players[33m:[39m teamIdplayer } }[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 79 |[39m     )[33m;[39m[0m
+  [0m [90m 80 |[39m   }[0m
+  [0m [90m 81 |[39m   updatePlayer(player[33m:[39m [33mPlayer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (1b27720bbd4cfc66)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m78:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'yer' does not exist on type 'Team'.
+  [0m [90m 76 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 77 |[39m       { teamId[33m:[39m player[33m.[39mteamId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 78 |[39m       { $push[33m:[39m { players[33m:[39m team[33m.[39myer } }[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 79 |[39m     )[33m;[39m[0m
+  [0m [90m 80 |[39m   }[0m
+  [0m [90m 81 |[39m   updatePlayer(player[33m:[39m [33mPlayer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (aebfd5bdae16538e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m78:32[22m[39m[1m[39m[22m
+[90mTS2551: [39mProperty 'playersyer' does not exist on type 'Team'. Did you mean 'players'?
+  [0m [90m 76 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 77 |[39m       { teamId[33m:[39m player[33m.[39mteamId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 78 |[39m       { $push[33m:[39m { players[33m:[39m team[33m.[39mplayersyer } }[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 79 |[39m     )[33m;[39m[0m
+  [0m [90m 80 |[39m   }[0m
+  [0m [90m 81 |[39m   updatePlayer(player[33m:[39m [33mPlayer[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (ceebc37850eb1586)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3284ac8d0e9c58bc)
+[1m[31mDebugger listening on ws://localhost:9229/1a87cd81-cfbf-49de-b627-9faca40f50ad[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1a87cd81-cfbf-49de-b627-9faca40f50ad[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (54c61dc14a6647d3)
+[1m[31mDebugger listening on ws://localhost:9229/6611ba05-2354-42e5-90a1-69c882ffb1e4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6611ba05-2354-42e5-90a1-69c882ffb1e4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/CreatePlayerController.ts[39m[22m
+[1m./src/trainers/infrastructure/controller/CreatePlayerController.ts[39m[22m [1m[32m15:7-8[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/CreatePlayerController.ts(15,8)[39m[22m
+[1m[31m      TS1005: ')' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/CreatePlayerController.ts[39m[22m
+[1m./src/trainers/infrastructure/controller/CreatePlayerController.ts[39m[22m [1m[32m15:8-9[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/CreatePlayerController.ts(15,9)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (e2a762fd4b3a4369)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (62cddf1f1cad1c1f)
+[1m[31mDebugger listening on ws://localhost:9229/66ee0899-98de-493b-afd7-2572a3be6182[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/66ee0899-98de-493b-afd7-2572a3be6182[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (32829be49de6149e)
+[1m[31mDebugger listening on ws://localhost:9229/306bbaa3-8940-4a3e-8a16-94bb27e436a0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/306bbaa3-8940-4a3e-8a16-94bb27e436a0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
