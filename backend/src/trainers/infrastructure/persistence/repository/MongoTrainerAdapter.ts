@@ -85,8 +85,28 @@ export class MongoTrainerAdapter implements TrainerPort {
       throw new Error("Error al crear el jugador");
     }
   }
-  updatePlayer(player: Player): Promise<void> {
-    throw new Error("Method not implemented.");
+  async updatePlayer(players: Player[], trainerId: string, teamId: string): Promise<void> {
+    try {
+      const trainerDocument = await this.model.findOne({ trainerId: trainerId });
+  
+      if (trainerDocument) {
+        const teamToUpdate = trainerDocument.teams.find(team => team.teamId === team.teamId);
+        
+        if (teamToUpdate) {
+          for (const player of players) {
+            const playerToUpdate = teamToUpdate.players.find(p => p.playerId === player.playerId);
+            if (playerToUpdate) {
+              playerToUpdate.name = player.name;
+              playerToUpdate.surname = player.surname;
+              playerToUpdate.email = player.email;
+            }
+        }  
+          await trainerDocument.save();
+        }
+      } 
+    } catch (error) {
+      throw new Error("Error al actualizar el jugador");
+    }
   }
   getAllPlayers(): Promise<Player[]> {
     throw new Error("Method not implemented.");
