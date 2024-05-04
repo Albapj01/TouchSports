@@ -25,12 +25,12 @@ export class MongoTrainerAdapter implements TrainerPort {
     );
   }
   async findByTeamId(teamId: string, trainerId: string): Promise<Team> {
-    const trainer = await this.model.findOne({trainerId});
+    const trainer = await this.model.findOne({ trainerId });
     if (trainer) {
-        const team = trainer.teams.find(team => team.teamId === teamId);
-        return team;
+      const team = trainer.teams.find((team) => team.teamId === teamId);
+      return team;
     }
-    return null;  
+    return null;
   }
   async findById(trainerId: string): Promise<Trainer> {
     const trainer = await this.model.findOne({ trainerId: trainerId });
@@ -48,8 +48,8 @@ export class MongoTrainerAdapter implements TrainerPort {
   async deleteTeam(team: Team[], trainerId: string): Promise<void> {
     await this.model.findOneAndUpdate(
       { trainerId: trainerId },
-      { $set: { teams: team } },
-    )
+      { $set: { teams: team } }
+    );
   }
   async saveTeam(team: Team, trainer: Trainer): Promise<void> {
     await this.model.findOneAndUpdate(
@@ -66,47 +66,41 @@ export class MongoTrainerAdapter implements TrainerPort {
   async getAllTeams(trainerId: String): Promise<Team[]> {
     throw new Error("Method not implemented.");
   }
-  deletePlayer(playerId: String): Promise<void> {
-    throw new Error("Method not implemented.");
+  async deletePlayer(
+    players: Player[],
+    teamId: string,
+    trainerId: string
+  ): Promise<void> {
+    await this.model.findOneAndUpdate(
+      { trainerId: trainerId, "teams.teamId": teamId },
+      {
+        $pull: {
+          "teams.$.players": {
+            playerId: { $in: players.map((player) => player.playerId) },
+          },
+        },
+      }
+    );
   }
-  async savePlayer(player: Player, team: Team, trainer: Trainer): Promise<void> {
-    try {
-      const trainerDocument = await this.model.findOne({ trainerId: trainer.trainerId });
-  
-      if (trainerDocument) {
-        const teamToUpdate = trainerDocument.teams.find(team => team.teamId === team.teamId);
-        
-        if (teamToUpdate) {
-          teamToUpdate.players.push(player);   
-          await trainerDocument.save();
-        }
-      } 
-    } catch (error) {
-      throw new Error("Error al crear el jugador");
-    }
+  async savePlayer(
+    player: Player,
+    team: Team,
+    trainer: Trainer
+  ): Promise<void> {
+    await this.model.findOneAndUpdate(
+      { trainerId: team.trainerId, "teams.teamId": team.teamId },
+      { $push: { "teams.$.players": player } }
+    );
   }
-  async updatePlayer(players: Player[], trainerId: string, teamId: string): Promise<void> {
-    try {
-      const trainerDocument = await this.model.findOne({ trainerId: trainerId });
-  
-      if (trainerDocument) {
-        const teamToUpdate = trainerDocument.teams.find(team => team.teamId === team.teamId);
-        
-        if (teamToUpdate) {
-          for (const player of players) {
-            const playerToUpdate = teamToUpdate.players.find(p => p.playerId === player.playerId);
-            if (playerToUpdate) {
-              playerToUpdate.name = player.name;
-              playerToUpdate.surname = player.surname;
-              playerToUpdate.email = player.email;
-            }
-        }  
-          await trainerDocument.save();
-        }
-      } 
-    } catch (error) {
-      throw new Error("Error al actualizar el jugador");
-    }
+  async updatePlayer(
+    players: Player[],
+    trainerId: string,
+    teamId: string
+  ): Promise<void> {
+    await this.model.findOneAndUpdate(
+      { trainerId: trainerId, "teams.teamId": teamId },
+      { $set: { "teams.$.players": players } }
+    );
   }
   getAllPlayers(): Promise<Player[]> {
     throw new Error("Method not implemented.");

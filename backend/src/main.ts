@@ -24,6 +24,8 @@ import { CreatePalyerUseCase } from "./trainers/application/usecases/CreatePlaye
 import { CreatePlayerController } from "./trainers/infrastructure/controller/CreatePlayerController";
 import { UpdatePlayerByIdUseCase } from "./trainers/application/usecases/UpdatePlayerByIdUseCase";
 import { UpdatePlayerByIdController } from "./trainers/infrastructure/controller/UpdatePlayerByIdController";
+import { DeletePlayerByIdUseCase } from "./trainers/application/usecases/DeletePlayerByIdUseCase";
+import { DeletePlayerByIdController } from "./trainers/infrastructure/controller/DeletePlayerByIdController";
 
 dotenv.config();
 const app = express();
@@ -109,6 +111,12 @@ const updatePlayerByIdUseCase = new UpdatePlayerByIdUseCase(trainerAdapter);
 const updatePlayerByIdController = new UpdatePlayerByIdController(updatePlayerByIdUseCase);
 router.put("/api/trainer/:trainerId/team/:teamId/player/:playerId", async (req, res) => {
   return updatePlayerByIdController.handle(req, res);
+});
+
+const deletePlayerByIdUseCase = new DeletePlayerByIdUseCase(trainerAdapter);
+const deletePlayerByIdController = new DeletePlayerByIdController(deletePlayerByIdUseCase);
+router.delete("/api/trainer/:trainerId/team/:teamId/player/:playerId", async (req, res) => {
+  return deletePlayerByIdController.handle(req, res);
 });
 
 const start = async () => {
