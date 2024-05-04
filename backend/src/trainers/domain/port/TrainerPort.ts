@@ -8,6 +8,7 @@ export interface TrainerPort {
   updateTrainer(oldTrainer: Trainer, updateTrainer: Trainer): Promise<void>;
   findById(trainerId: string): Promise<Trainer>;
   findByTeamId(teamId: string, trainerId: string): Promise<Team>;
+  findByPlayerId(playerId: string, teamId: string, trainerId: string): Promise<Player>;
   deleteTeam(team: Team[], trainerId: string): Promise<void>;
   saveTeam(team: Team, trainer: Trainer): Promise<void>;
   updateTeam(team: Team[], trainerId: string): Promise<void>;
@@ -16,7 +17,6 @@ export interface TrainerPort {
   savePlayer(player: Player, team:Team, trainer: Trainer): Promise<void>;
   updatePlayer(player: Player[], trainerId: string, teamId: string): Promise<void>;
   getAllPlayers(trainerId: string, teamId: string): Promise<Player[]>;
-  getPlayerById(playerId: string): Promise<Player>;
   saveReserve(reserve: Reserve): Promise<void>;
   getAllReserve(): Promise<void>;
 }

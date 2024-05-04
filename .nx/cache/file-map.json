@@ -90,48 +90,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
-      },
-      {
         "file": "README.md",
         "hash": "10104707244890837311"
       },
       {
-        "file": "package-lock.json",
-        "hash": "3674156215951047428"
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
       },
       {
         "file": "package.json",
         "hash": "1098629939364157896"
       },
       {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3674156215951047428"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4595224623132836319"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       }
     ],
     "projectFileMap": {
@@ -565,7 +565,7 @@
         },
         {
           "file": "backend/src/main.ts",
-          "hash": "10120543714452741023",
+          "hash": "14880775162582492908",
           "deps": [
             "npm:express",
             "npm:path",
@@ -642,7 +642,7 @@
         },
         {
           "file": "backend/src/trainers/domain/port/TrainerPort.ts",
-          "hash": "16412557483183951217"
+          "hash": "4923492471725650391"
         },
         {
           "file": "backend/src/trainers/infrastructure/controller/CreatePlayerController.ts",
@@ -720,7 +720,7 @@
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts",
-          "hash": "2105497674592379570",
+          "hash": "3929518865574356626",
           "deps": [
             "npm:mongoose"
           ]
@@ -769,6 +769,17 @@
         {
           "file": "backend/src/trainers/infrastructure/controller/GetAllPlayersController.ts",
           "hash": "18230088675783554859",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts",
+          "hash": "9604754788415381816"
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/GetPlayerByIdController.ts",
+          "hash": "16623099418824023327",
           "deps": [
             "npm:express"
           ]

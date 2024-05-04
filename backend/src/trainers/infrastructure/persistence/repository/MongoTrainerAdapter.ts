@@ -32,15 +32,20 @@ export class MongoTrainerAdapter implements TrainerPort {
     }
     return null;
   }
+  async findByPlayerId(playerId: string, teamId: string, trainerId: string): Promise<Player> {
+    const trainer = await this.model.findOne({ trainerId });
+    if (trainer) {
+      const team = trainer.teams.find((team) => team.teamId === teamId);
+      if (team) {
+        const player = team.players.find((player) => player.playerId === playerId);
+        return player;
+      }
+    }
+    return null;
+  }
   async findById(trainerId: string): Promise<Trainer> {
     const trainer = await this.model.findOne({ trainerId: trainerId });
     return TrainerMapper.toDomain(trainer);
-  }
-  async getTrainerById(teamId: string): Promise<TeamDTO> {
-    throw new Error("Method not implemented.");
-  }
-  getTrainerInfo(trainerId: string): Promise<TrainerDTO> {
-    throw new Error("Method not implemented.");
   }
   async saveTrainer(trainer: Trainer): Promise<void> {
     await this.model.create(TrainerMapper.toEntity(trainer));
@@ -109,9 +114,6 @@ export class MongoTrainerAdapter implements TrainerPort {
     const domainTrainer = TrainerMapper.toDomain(trainer);
     const team = domainTrainer.teams.find((team) => team.teamId === teamId);
     return team.players;
-  }
-  getPlayerById(playerId: String): Promise<Player> {
-    throw new Error("Method not implemented.");
   }
   saveReserve(reserve: Reserve): Promise<void> {
     throw new Error("Method not implemented.");
