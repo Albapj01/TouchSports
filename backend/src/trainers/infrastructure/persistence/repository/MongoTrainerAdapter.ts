@@ -63,8 +63,10 @@ export class MongoTrainerAdapter implements TrainerPort {
       { $set: { teams: team } }
     );
   }
-  async getAllTeams(trainerId: String): Promise<Team[]> {
-    throw new Error("Method not implemented.");
+  async getAllTeams(trainerId: string): Promise<Team[]> {
+    const trainer = await this.model.findOne({ trainerId: trainerId });
+    const domainTrainer = TrainerMapper.toDomain(trainer);
+    return domainTrainer.teams;
   }
   async deletePlayer(
     players: Player[],
@@ -102,8 +104,11 @@ export class MongoTrainerAdapter implements TrainerPort {
       { $set: { "teams.$.players": players } }
     );
   }
-  getAllPlayers(): Promise<Player[]> {
-    throw new Error("Method not implemented.");
+  async getAllPlayers(trainerId: string, teamId: string): Promise<Player[]> {
+    const trainer = await this.model.findOne({ trainerId: trainerId });
+    const domainTrainer = TrainerMapper.toDomain(trainer);
+    const team = domainTrainer.teams.find((team) => team.teamId === teamId);
+    return team.players;
   }
   getPlayerById(playerId: String): Promise<Player> {
     throw new Error("Method not implemented.");

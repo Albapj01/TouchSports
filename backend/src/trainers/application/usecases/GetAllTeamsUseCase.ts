@@ -13,7 +13,7 @@ export class GetAllTeamsUseCase {
 
     const teams: Team[] = trainer.teams;
 
-    const teamDTOs: TeamDTO[] = teams.map(team => ({
+    const teamDTOs: TeamDTO[] = teams.map((team) => ({
       trainerId: trainerId,
       teamId: team.teamId,
       name: team.name,
