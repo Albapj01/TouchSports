@@ -21,6 +21,7 @@ export class UpdateTrainerUseCase {
             trainer.telephone,
             trainer.teams,
             trainer.imageUrl,
+            trainer.centres,
         )
 
         await this.trainerPort.updateTrainer(oldTrainer, updateTrainer);

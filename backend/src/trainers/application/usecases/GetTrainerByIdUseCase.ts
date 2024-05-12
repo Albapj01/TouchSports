@@ -21,6 +21,7 @@ export class GetTrainerByIdUseCase {
             telephone: trainer.telephone,
             teams: trainer.teams,
             imageUrl: trainer.imageUrl,
+            centres: trainer.centres,
         }
             
     }

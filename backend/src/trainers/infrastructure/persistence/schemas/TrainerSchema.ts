@@ -45,13 +45,66 @@ export const TrainerSchema = new mongoose.Schema(
             email: {
               type: String,
             },
+            telephone: {
+              type: String,
+            },
+            material: {
+              type: String,
+            },
+            date: {
+              type: Date,
+            },
           },
         ],
-      }
+      },
     ],
     imageUrl: {
       type: String,
     },
+    centres: [
+      {
+        trainerId: {
+          type: String,
+        },
+        centresId: {
+          type: String,
+        },
+        name: {
+          type: String,
+        },
+        location: {
+          type: String,
+        },
+        reserves: [
+          {
+            trainerId: {
+              type: String,
+            },
+            teamId: {
+              type: String,
+            },
+            centresId: {
+              type: String,
+            },
+            reserveId: {
+              type: String,
+            },
+            name: {
+              type: String,
+            },
+            surname: {
+              type: String,
+            },
+            email: {
+              type: String,
+            },
+          },
+        ],
+        imageUrl: {
+          type: String,
+        },
+      },
+    ],
   },
   {
     timestamps: true,

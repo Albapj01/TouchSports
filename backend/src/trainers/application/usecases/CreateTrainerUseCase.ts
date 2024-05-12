@@ -16,6 +16,7 @@ export class CreateTrainerUseCase {
             trainerDTO.telephone,
             [],
             trainerDTO.imageUrl,
+            [],
         )
 
         await this.trainerPort.saveTrainer(trainer)

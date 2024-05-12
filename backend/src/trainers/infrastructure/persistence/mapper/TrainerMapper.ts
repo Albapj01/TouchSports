@@ -11,7 +11,8 @@ export class TrainerMapper {
       trainerEntity.email,
       trainerEntity.telephone,
       trainerEntity.teams,
-      trainerEntity.imageUrl
+      trainerEntity.imageUrl,
+      trainerEntity.centres,
     );
   }
 
@@ -35,6 +36,24 @@ export class TrainerMapper {
         })),
       })),
       imageUrl: trainer.imageUrl,
+      centres: trainer.centres.map((centre) => ({
+        trainerId: centre.trainerId,
+        centresId: centre.centresId,
+        name: centre.name,
+        location: centre.location,
+        reserves: centre.reserves.map((reserve) => ({
+          trainerId: reserve.trainerId,
+          teamId: reserve.teamId,
+          centresId: reserve.centresId,
+          reserveId: reserve.reserveId,
+          name: reserve.name,
+          surname: reserve.surname,
+          email: reserve.email,
+          telephone: reserve.telephone,
+          material: reserve.meterial,
+          date: reserve.date,
+        }))
+      }))
     };
   }
 }

@@ -1,3 +1,4 @@
+import { Centres } from "./Centres";
 import { Team } from "./Team";
 
 export class Trainer {
@@ -8,6 +9,7 @@ export class Trainer {
     readonly email: string,
     readonly telephone: string,
     public teams: Team[],
-    readonly imageUrl: string
+    readonly imageUrl: string,
+    public centres: Centres[],
   ) {}
 }
