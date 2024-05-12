@@ -2626,3 +2626,1396 @@ webpack compiled [1m[32msuccessfully[39m[22m (b065b455b6032d76)
 [1m[31mDebugger listening on ws://localhost:9229/f524aeb9-c7d5-452d-8161-4fcfa41eb549[39m[22m
 [1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
 [1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5826b55ca6a9fe66)
+[1m[31mDebugger listening on ws://localhost:9229/43311813-336f-4cdc-8e33-572e2ad87b8f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/43311813-336f-4cdc-8e33-572e2ad87b8f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/GetAllCentresUseCase.ts[39m[22m [1m[32m1:0[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Unterminated string constant (1:0)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+> ";;
+| "use strict";
+| Object.defineProperty(exports, "__esModule", { value: true });[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetAllCentresUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/GetAllCentresUseCase.ts[39m[22m [1m[32m2:38-40[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetAllCentresUseCase.ts(2,39)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetAllCentresUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/GetAllCentresUseCase.ts[39m[22m [1m[32m2:40[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetAllCentresUseCase.ts(2,41)[39m[22m
+[1m[31m      TS1002: Unterminated string literal.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllCentresUseCase.ts:[32m[1m2:22[22m[39m[1m[39m[22m
+[90mTS1141: [39mString literal expected.
+  [0m [90m 1 |[39m [36mimport[39m { [33mCentres[39m } [36mfrom[39m [32m"../../domain/model/Centres"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mTeam[39m } [36mfrom[39m domain[33m/[39mmodel[33m/[39m[33mTeam[39m[32m";[39m[0m
+  [0m [90m   |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mTrainerPort[39m } [36mfrom[39m [32m"../../domain/port/TrainerPort"[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mCentresDTO[39m } [36mfrom[39m [32m"../DTOs/CentresDTO"[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (a8c7be3e9b201296)
+[1m[31mDebugger listening on ws://localhost:9229/8a3c7f83-165b-4caf-86da-c522c678814e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8a3c7f83-165b-4caf-86da-c522c678814e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m/Users/albapalomino/TouchSports/dist/backend/main.js:1280[39m[22m
+[1m[31mthrow new Error("Module parse failed: Unterminated string constant (1:0)\nFile was processed with these loaders:\n * ../node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n> \";;\n| \"use strict\";\n| Object.defineProperty(exports, \"__esModule\", { value: true });");[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31m[39m[22m
+[1m[31mError: Module parse failed: Unterminated string constant (1:0)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m> ";;[39m[22m
+[1m[31m| "use strict";[39m[22m
+[1m[31m| Object.defineProperty(exports, "__esModule", { value: true });[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (/Users/albapalomino/TouchSports/dist/backend/main.js:1280:7)[39m[22m
+[1m[31m    at __webpack_require__ (/Users/albapalomino/TouchSports/dist/backend/main.js:1332:41)[39m[22m
+[1m[31m    at /Users/albapalomino/TouchSports/dist/backend/main.js:1383:32[39m[22m
+[1m[31m    at /Users/albapalomino/TouchSports/dist/backend/main.js:1489:3[39m[22m
+[1m[31m    at Object.<anonymous> (/Users/albapalomino/TouchSports/dist/backend/main.js:1494:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1254:14)[39m[22m
+[1m[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)[39m[22m
+[1m[31m    at Module.load (node:internal/modules/cjs/loader:1117:32)[39m[22m
+[1m[31m    at Function.Module._load (node:internal/modules/cjs/loader:958:12)[39m[22m
+[1m[31m    at Function.Module._load (/Users/albapalomino/TouchSports/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js:10:31)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (98d48df2d706437c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fdea66e4ba2c40d1)
+[1m[31mDebugger listening on ws://localhost:9229/947ad9d2-e564-4d6d-a72f-2e73419250ee[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/947ad9d2-e564-4d6d-a72f-2e73419250ee[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fdea66e4ba2c40d1)
+[1m[31mDebugger listening on ws://localhost:9229/abde80c7-19ab-41cb-9113-2811030b4d34[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/abde80c7-19ab-41cb-9113-2811030b4d34[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fdea66e4ba2c40d1)
+[1m[31mDebugger listening on ws://localhost:9229/cf29ed48-963a-4579-a99d-ebdeb9b8b297[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cf29ed48-963a-4579-a99d-ebdeb9b8b297[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fdea66e4ba2c40d1)
+[1m[31mDebugger listening on ws://localhost:9229/5e8729b4-9e6c-4883-b3c8-8f4e18604184[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5e8729b4-9e6c-4883-b3c8-8f4e18604184[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fdea66e4ba2c40d1)
+[1m[31mDebugger listening on ws://localhost:9229/dfcd62d9-aa3c-41fa-be0a-c00e73c43328[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/dfcd62d9-aa3c-41fa-be0a-c00e73c43328[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fdea66e4ba2c40d1)
+[1m[31mDebugger listening on ws://localhost:9229/8df7f890-f21a-4e03-80cc-2d407b214337[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8df7f890-f21a-4e03-80cc-2d407b214337[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fdea66e4ba2c40d1)
+[1m[31mDebugger listening on ws://localhost:9229/35c9ead8-3b07-40bd-b971-c9b34b355bf3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/35c9ead8-3b07-40bd-b971-c9b34b355bf3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fdea66e4ba2c40d1)
+[1m[31mDebugger listening on ws://localhost:9229/377195a9-78b7-432a-9c59-7b446c5c1ee7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/377195a9-78b7-432a-9c59-7b446c5c1ee7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fdea66e4ba2c40d1)
+[1m[31mDebugger listening on ws://localhost:9229/f3f0841d-deca-4f1c-997c-255f60a64461[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f3f0841d-deca-4f1c-997c-255f60a64461[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fdea66e4ba2c40d1)
+[1m[31mDebugger listening on ws://localhost:9229/eba3b877-d357-4641-b90a-6dc32c44d542[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/eba3b877-d357-4641-b90a-6dc32c44d542[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fdea66e4ba2c40d1)
+[1m[31mDebugger listening on ws://localhost:9229/8ac11125-1374-44bb-8da7-f15100af249c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8ac11125-1374-44bb-8da7-f15100af249c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fdea66e4ba2c40d1)
+[1m[31mDebugger listening on ws://localhost:9229/65d04df6-d6fa-4cc8-8656-8966af822d42[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/65d04df6-d6fa-4cc8-8656-8966af822d42[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fdea66e4ba2c40d1)
+[1m[31mDebugger listening on ws://localhost:9229/fca3648e-220a-4eb8-8388-69a2f3f24bd6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fca3648e-220a-4eb8-8388-69a2f3f24bd6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fdea66e4ba2c40d1)
+[1m[31mDebugger listening on ws://localhost:9229/7cb665bb-89c9-4821-9bd4-03276f6017e2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7cb665bb-89c9-4821-9bd4-03276f6017e2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m62:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  Property 'deleteCentres' is missing in type 'MongoTrainerAdapter' but required in type 'TrainerPort'.
+  [0m [90m 60 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[33m;[39m[0m
+  [0m [90m 61 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 62 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 63 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m([0m
+  [0m [90m 64 |[39m   createTrainerUseCase[0m
+  [0m [90m 65 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m70:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 68 |[39m })[33m;[39m[0m
+  [0m [90m 69 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 70 |[39m [36mconst[39m getTrainerByIdUseCase [33m=[39m [36mnew[39m [33mGetTrainerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 71 |[39m [36mconst[39m getTrainerByIdUseController [33m=[39m [36mnew[39m [33mGetTrainerByIdController[39m([0m
+  [0m [90m 72 |[39m   getTrainerByIdUseCase[0m
+  [0m [90m 73 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m78:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 76 |[39m })[33m;[39m[0m
+  [0m [90m 77 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 78 |[39m [36mconst[39m updateTrainerUseCase [33m=[39m [36mnew[39m [33mUpdateTrainerUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 79 |[39m [36mconst[39m updateTrainerController [33m=[39m [36mnew[39m [33mUpdateTrainerController[39m([0m
+  [0m [90m 80 |[39m   updateTrainerUseCase[0m
+  [0m [90m 81 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m86:49[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 84 |[39m })[33m;[39m[0m
+  [0m [90m 85 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 86 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 87 |[39m [36mconst[39m createTeamController [33m=[39m [36mnew[39m [33mCreateTeamController[39m(createTeamUseCase)[33m;[39m[0m
+  [0m [90m 88 |[39m router[33m.[39mpost([32m"/api/trainer/:id/team"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 89 |[39m   [36mreturn[39m createTeamController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m92:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 90 |[39m })[33m;[39m[0m
+  [0m [90m 91 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 92 |[39m [36mconst[39m updateTeamByIdUseCase [33m=[39m [36mnew[39m [33mUpdateTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 93 |[39m [36mconst[39m updateTeamByIdController [33m=[39m [36mnew[39m [33mUpdateTeamByIdController[39m([0m
+  [0m [90m 94 |[39m   updateTeamByIdUseCase[0m
+  [0m [90m 95 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m100:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m  98 |[39m })[33m;[39m[0m
+  [0m [90m  99 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 100 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 101 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m 102 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 103 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m108:51[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 106 |[39m })[33m;[39m[0m
+  [0m [90m 107 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 108 |[39m [36mconst[39m getAllTeamsUseCase [33m=[39m [36mnew[39m [33mGetAllTeamsUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 109 |[39m [36mconst[39m getAllTeamsController [33m=[39m [36mnew[39m [33mGetAllTeamsController[39m(getAllTeamsUseCase)[33m;[39m[0m
+  [0m [90m 110 |[39m router[33m.[39m[36mget[39m([32m"/api/trainer/:trainerId/teams"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 111 |[39m   [36mreturn[39m getAllTeamsController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m114:53[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 112 |[39m })[33m;[39m[0m
+  [0m [90m 113 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 114 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 115 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m[0m
+  [0m [90m 116 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 117 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m120:61[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 118 |[39m })[33m;[39m[0m
+  [0m [90m 119 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 120 |[39m [36mconst[39m updatePlayerByIdUseCase [33m=[39m [36mnew[39m [33mUpdatePlayerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 121 |[39m [36mconst[39m updatePlayerByIdController [33m=[39m [36mnew[39m [33mUpdatePlayerByIdController[39m([0m
+  [0m [90m 122 |[39m   updatePlayerByIdUseCase[0m
+  [0m [90m 123 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m131:61[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 129 |[39m )[33m;[39m[0m
+  [0m [90m 130 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 131 |[39m [36mconst[39m deletePlayerByIdUseCase [33m=[39m [36mnew[39m [33mDeletePlayerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 132 |[39m [36mconst[39m deletePlayerByIdController [33m=[39m [36mnew[39m [33mDeletePlayerByIdController[39m([0m
+  [0m [90m 133 |[39m   deletePlayerByIdUseCase[0m
+  [0m [90m 134 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m142:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 140 |[39m )[33m;[39m[0m
+  [0m [90m 141 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 142 |[39m [36mconst[39m getAllPlayersUseCase [33m=[39m [36mnew[39m [33mGetAllPlayersUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 143 |[39m [36mconst[39m getAllPlayersController [33m=[39m [36mnew[39m [33mGetAllPlayersController[39m([0m
+  [0m [90m 144 |[39m   getAllPlayersUseCase[0m
+  [0m [90m 145 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m150:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 148 |[39m })[33m;[39m[0m
+  [0m [90m 149 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 150 |[39m [36mconst[39m getPlayerByIdUseCase [33m=[39m [36mnew[39m [33mGetPlayerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 151 |[39m [36mconst[39m getPlayerByIdController [33m=[39m [36mnew[39m [33mGetPlayerByIdController[39m([0m
+  [0m [90m 152 |[39m   getPlayerByIdUseCase[0m
+  [0m [90m 153 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m161:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 159 |[39m )[33m;[39m[0m
+  [0m [90m 160 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 161 |[39m [36mconst[39m createCentresUseCase [33m=[39m [36mnew[39m [33mCreateCentresUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 162 |[39m [36mconst[39m createCentresController [33m=[39m [36mnew[39m [33mCreateCentresController[39m([0m
+  [0m [90m 163 |[39m   createCentresUseCase[0m
+  [0m [90m 164 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m169:63[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 167 |[39m })[33m;[39m[0m
+  [0m [90m 168 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 169 |[39m [36mconst[39m updateCentresByIdUseCase [33m=[39m [36mnew[39m [33mUpdateCentresByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 170 |[39m [36mconst[39m updateCentresByIdController [33m=[39m [36mnew[39m [33mUpdateCentresmByIdController[39m([0m
+  [0m [90m 171 |[39m   updateCentresByIdUseCase[0m
+  [0m [90m 172 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m177:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 175 |[39m })[33m;[39m[0m
+  [0m [90m 176 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 177 |[39m [36mconst[39m getAllCentresUseCase [33m=[39m [36mnew[39m [33mGetAllCentresUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 178 |[39m [36mconst[39m getAllCentresController [33m=[39m [36mnew[39m [33mGetAllCentresController[39m(getAllCentresUseCase)[33m;[39m[0m
+  [0m [90m 179 |[39m router[33m.[39m[36mget[39m([32m"/api/trainer/:trainerId/centres"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 180 |[39m   [36mreturn[39m getAllCentresController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m13:14[22m[39m[1m[39m[22m
+[90mTS2420: [39mClass 'MongoTrainerAdapter' incorrectly implements interface 'TrainerPort'.
+  Property 'deleteCentres' is missing in type 'MongoTrainerAdapter' but required in type 'TrainerPort'.
+  [0m [90m 11 |[39m [36mimport[39m { [33mCentres[39m } [36mfrom[39m [32m"backend/src/trainers/domain/model/Centres"[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m [36mexport[39m [36mclass[39m [33mMongoTrainerAdapter[39m [36mimplements[39m [33mTrainerPort[39m {[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m   [36mprivate[39m model[33m:[39m [33mModel[39m[33m<[39m[33mTrainerEntity[39m[33m>[39m[33m;[39m[0m
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m   constructor() {[0m
+
+webpack compiled with [1m[31m16 errors[39m[22m (fdea66e4ba2c40d1)
+[1m[31mDebugger listening on ws://localhost:9229/a1870e1d-000b-45b9-aa05-2914bf6462bd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a1870e1d-000b-45b9-aa05-2914bf6462bd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m62:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  Property 'deleteCentres' is missing in type 'MongoTrainerAdapter' but required in type 'TrainerPort'.
+  [0m [90m 60 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[33m;[39m[0m
+  [0m [90m 61 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 62 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 63 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m([0m
+  [0m [90m 64 |[39m   createTrainerUseCase[0m
+  [0m [90m 65 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m70:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 68 |[39m })[33m;[39m[0m
+  [0m [90m 69 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 70 |[39m [36mconst[39m getTrainerByIdUseCase [33m=[39m [36mnew[39m [33mGetTrainerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 71 |[39m [36mconst[39m getTrainerByIdUseController [33m=[39m [36mnew[39m [33mGetTrainerByIdController[39m([0m
+  [0m [90m 72 |[39m   getTrainerByIdUseCase[0m
+  [0m [90m 73 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m78:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 76 |[39m })[33m;[39m[0m
+  [0m [90m 77 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 78 |[39m [36mconst[39m updateTrainerUseCase [33m=[39m [36mnew[39m [33mUpdateTrainerUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 79 |[39m [36mconst[39m updateTrainerController [33m=[39m [36mnew[39m [33mUpdateTrainerController[39m([0m
+  [0m [90m 80 |[39m   updateTrainerUseCase[0m
+  [0m [90m 81 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m86:49[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 84 |[39m })[33m;[39m[0m
+  [0m [90m 85 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 86 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 87 |[39m [36mconst[39m createTeamController [33m=[39m [36mnew[39m [33mCreateTeamController[39m(createTeamUseCase)[33m;[39m[0m
+  [0m [90m 88 |[39m router[33m.[39mpost([32m"/api/trainer/:id/team"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 89 |[39m   [36mreturn[39m createTeamController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m92:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 90 |[39m })[33m;[39m[0m
+  [0m [90m 91 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 92 |[39m [36mconst[39m updateTeamByIdUseCase [33m=[39m [36mnew[39m [33mUpdateTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 93 |[39m [36mconst[39m updateTeamByIdController [33m=[39m [36mnew[39m [33mUpdateTeamByIdController[39m([0m
+  [0m [90m 94 |[39m   updateTeamByIdUseCase[0m
+  [0m [90m 95 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m100:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m  98 |[39m })[33m;[39m[0m
+  [0m [90m  99 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 100 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 101 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m 102 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 103 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m108:51[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 106 |[39m })[33m;[39m[0m
+  [0m [90m 107 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 108 |[39m [36mconst[39m getAllTeamsUseCase [33m=[39m [36mnew[39m [33mGetAllTeamsUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 109 |[39m [36mconst[39m getAllTeamsController [33m=[39m [36mnew[39m [33mGetAllTeamsController[39m(getAllTeamsUseCase)[33m;[39m[0m
+  [0m [90m 110 |[39m router[33m.[39m[36mget[39m([32m"/api/trainer/:trainerId/teams"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 111 |[39m   [36mreturn[39m getAllTeamsController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m114:53[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 112 |[39m })[33m;[39m[0m
+  [0m [90m 113 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 114 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 115 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m[0m
+  [0m [90m 116 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 117 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m120:61[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 118 |[39m })[33m;[39m[0m
+  [0m [90m 119 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 120 |[39m [36mconst[39m updatePlayerByIdUseCase [33m=[39m [36mnew[39m [33mUpdatePlayerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 121 |[39m [36mconst[39m updatePlayerByIdController [33m=[39m [36mnew[39m [33mUpdatePlayerByIdController[39m([0m
+  [0m [90m 122 |[39m   updatePlayerByIdUseCase[0m
+  [0m [90m 123 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m131:61[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 129 |[39m )[33m;[39m[0m
+  [0m [90m 130 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 131 |[39m [36mconst[39m deletePlayerByIdUseCase [33m=[39m [36mnew[39m [33mDeletePlayerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 132 |[39m [36mconst[39m deletePlayerByIdController [33m=[39m [36mnew[39m [33mDeletePlayerByIdController[39m([0m
+  [0m [90m 133 |[39m   deletePlayerByIdUseCase[0m
+  [0m [90m 134 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m142:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 140 |[39m )[33m;[39m[0m
+  [0m [90m 141 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 142 |[39m [36mconst[39m getAllPlayersUseCase [33m=[39m [36mnew[39m [33mGetAllPlayersUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 143 |[39m [36mconst[39m getAllPlayersController [33m=[39m [36mnew[39m [33mGetAllPlayersController[39m([0m
+  [0m [90m 144 |[39m   getAllPlayersUseCase[0m
+  [0m [90m 145 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m150:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 148 |[39m })[33m;[39m[0m
+  [0m [90m 149 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 150 |[39m [36mconst[39m getPlayerByIdUseCase [33m=[39m [36mnew[39m [33mGetPlayerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 151 |[39m [36mconst[39m getPlayerByIdController [33m=[39m [36mnew[39m [33mGetPlayerByIdController[39m([0m
+  [0m [90m 152 |[39m   getPlayerByIdUseCase[0m
+  [0m [90m 153 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m161:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 159 |[39m )[33m;[39m[0m
+  [0m [90m 160 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 161 |[39m [36mconst[39m createCentresUseCase [33m=[39m [36mnew[39m [33mCreateCentresUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 162 |[39m [36mconst[39m createCentresController [33m=[39m [36mnew[39m [33mCreateCentresController[39m([0m
+  [0m [90m 163 |[39m   createCentresUseCase[0m
+  [0m [90m 164 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m169:63[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 167 |[39m })[33m;[39m[0m
+  [0m [90m 168 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 169 |[39m [36mconst[39m updateCentresByIdUseCase [33m=[39m [36mnew[39m [33mUpdateCentresByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 170 |[39m [36mconst[39m updateCentresByIdController [33m=[39m [36mnew[39m [33mUpdateCentresmByIdController[39m([0m
+  [0m [90m 171 |[39m   updateCentresByIdUseCase[0m
+  [0m [90m 172 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m177:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 175 |[39m })[33m;[39m[0m
+  [0m [90m 176 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 177 |[39m [36mconst[39m getAllCentresUseCase [33m=[39m [36mnew[39m [33mGetAllCentresUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 178 |[39m [36mconst[39m getAllCentresController [33m=[39m [36mnew[39m [33mGetAllCentresController[39m(getAllCentresUseCase)[33m;[39m[0m
+  [0m [90m 179 |[39m router[33m.[39m[36mget[39m([32m"/api/trainer/:trainerId/centres"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 180 |[39m   [36mreturn[39m getAllCentresController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m13:14[22m[39m[1m[39m[22m
+[90mTS2420: [39mClass 'MongoTrainerAdapter' incorrectly implements interface 'TrainerPort'.
+  Property 'deleteCentres' is missing in type 'MongoTrainerAdapter' but required in type 'TrainerPort'.
+  [0m [90m 11 |[39m [36mimport[39m { [33mCentres[39m } [36mfrom[39m [32m"backend/src/trainers/domain/model/Centres"[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m [36mexport[39m [36mclass[39m [33mMongoTrainerAdapter[39m [36mimplements[39m [33mTrainerPort[39m {[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m   [36mprivate[39m model[33m:[39m [33mModel[39m[33m<[39m[33mTrainerEntity[39m[33m>[39m[33m;[39m[0m
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m   constructor() {[0m
+
+webpack compiled with [1m[31m16 errors[39m[22m (fdea66e4ba2c40d1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m62:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  Property 'deleteCentres' is missing in type 'MongoTrainerAdapter' but required in type 'TrainerPort'.
+  [0m [90m 60 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[33m;[39m[0m
+  [0m [90m 61 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 62 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 63 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m([0m
+  [0m [90m 64 |[39m   createTrainerUseCase[0m
+  [0m [90m 65 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m70:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 68 |[39m })[33m;[39m[0m
+  [0m [90m 69 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 70 |[39m [36mconst[39m getTrainerByIdUseCase [33m=[39m [36mnew[39m [33mGetTrainerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 71 |[39m [36mconst[39m getTrainerByIdUseController [33m=[39m [36mnew[39m [33mGetTrainerByIdController[39m([0m
+  [0m [90m 72 |[39m   getTrainerByIdUseCase[0m
+  [0m [90m 73 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m78:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 76 |[39m })[33m;[39m[0m
+  [0m [90m 77 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 78 |[39m [36mconst[39m updateTrainerUseCase [33m=[39m [36mnew[39m [33mUpdateTrainerUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 79 |[39m [36mconst[39m updateTrainerController [33m=[39m [36mnew[39m [33mUpdateTrainerController[39m([0m
+  [0m [90m 80 |[39m   updateTrainerUseCase[0m
+  [0m [90m 81 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m86:49[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 84 |[39m })[33m;[39m[0m
+  [0m [90m 85 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 86 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 87 |[39m [36mconst[39m createTeamController [33m=[39m [36mnew[39m [33mCreateTeamController[39m(createTeamUseCase)[33m;[39m[0m
+  [0m [90m 88 |[39m router[33m.[39mpost([32m"/api/trainer/:id/team"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 89 |[39m   [36mreturn[39m createTeamController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m92:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 90 |[39m })[33m;[39m[0m
+  [0m [90m 91 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 92 |[39m [36mconst[39m updateTeamByIdUseCase [33m=[39m [36mnew[39m [33mUpdateTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 93 |[39m [36mconst[39m updateTeamByIdController [33m=[39m [36mnew[39m [33mUpdateTeamByIdController[39m([0m
+  [0m [90m 94 |[39m   updateTeamByIdUseCase[0m
+  [0m [90m 95 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m100:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m  98 |[39m })[33m;[39m[0m
+  [0m [90m  99 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 100 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 101 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m 102 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 103 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m108:51[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 106 |[39m })[33m;[39m[0m
+  [0m [90m 107 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 108 |[39m [36mconst[39m getAllTeamsUseCase [33m=[39m [36mnew[39m [33mGetAllTeamsUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 109 |[39m [36mconst[39m getAllTeamsController [33m=[39m [36mnew[39m [33mGetAllTeamsController[39m(getAllTeamsUseCase)[33m;[39m[0m
+  [0m [90m 110 |[39m router[33m.[39m[36mget[39m([32m"/api/trainer/:trainerId/teams"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 111 |[39m   [36mreturn[39m getAllTeamsController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m114:53[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 112 |[39m })[33m;[39m[0m
+  [0m [90m 113 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 114 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 115 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m[0m
+  [0m [90m 116 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 117 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m120:61[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 118 |[39m })[33m;[39m[0m
+  [0m [90m 119 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 120 |[39m [36mconst[39m updatePlayerByIdUseCase [33m=[39m [36mnew[39m [33mUpdatePlayerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 121 |[39m [36mconst[39m updatePlayerByIdController [33m=[39m [36mnew[39m [33mUpdatePlayerByIdController[39m([0m
+  [0m [90m 122 |[39m   updatePlayerByIdUseCase[0m
+  [0m [90m 123 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m131:61[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 129 |[39m )[33m;[39m[0m
+  [0m [90m 130 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 131 |[39m [36mconst[39m deletePlayerByIdUseCase [33m=[39m [36mnew[39m [33mDeletePlayerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 132 |[39m [36mconst[39m deletePlayerByIdController [33m=[39m [36mnew[39m [33mDeletePlayerByIdController[39m([0m
+  [0m [90m 133 |[39m   deletePlayerByIdUseCase[0m
+  [0m [90m 134 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m142:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 140 |[39m )[33m;[39m[0m
+  [0m [90m 141 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 142 |[39m [36mconst[39m getAllPlayersUseCase [33m=[39m [36mnew[39m [33mGetAllPlayersUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 143 |[39m [36mconst[39m getAllPlayersController [33m=[39m [36mnew[39m [33mGetAllPlayersController[39m([0m
+  [0m [90m 144 |[39m   getAllPlayersUseCase[0m
+  [0m [90m 145 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m150:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 148 |[39m })[33m;[39m[0m
+  [0m [90m 149 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 150 |[39m [36mconst[39m getPlayerByIdUseCase [33m=[39m [36mnew[39m [33mGetPlayerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 151 |[39m [36mconst[39m getPlayerByIdController [33m=[39m [36mnew[39m [33mGetPlayerByIdController[39m([0m
+  [0m [90m 152 |[39m   getPlayerByIdUseCase[0m
+  [0m [90m 153 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m161:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 159 |[39m )[33m;[39m[0m
+  [0m [90m 160 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 161 |[39m [36mconst[39m createCentresUseCase [33m=[39m [36mnew[39m [33mCreateCentresUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 162 |[39m [36mconst[39m createCentresController [33m=[39m [36mnew[39m [33mCreateCentresController[39m([0m
+  [0m [90m 163 |[39m   createCentresUseCase[0m
+  [0m [90m 164 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m169:63[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 167 |[39m })[33m;[39m[0m
+  [0m [90m 168 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 169 |[39m [36mconst[39m updateCentresByIdUseCase [33m=[39m [36mnew[39m [33mUpdateCentresByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 170 |[39m [36mconst[39m updateCentresByIdController [33m=[39m [36mnew[39m [33mUpdateCentresmByIdController[39m([0m
+  [0m [90m 171 |[39m   updateCentresByIdUseCase[0m
+  [0m [90m 172 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m177:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 175 |[39m })[33m;[39m[0m
+  [0m [90m 176 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 177 |[39m [36mconst[39m getAllCentresUseCase [33m=[39m [36mnew[39m [33mGetAllCentresUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 178 |[39m [36mconst[39m getAllCentresController [33m=[39m [36mnew[39m [33mGetAllCentresController[39m(getAllCentresUseCase)[33m;[39m[0m
+  [0m [90m 179 |[39m router[33m.[39m[36mget[39m([32m"/api/trainer/:trainerId/centres"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 180 |[39m   [36mreturn[39m getAllCentresController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m13:14[22m[39m[1m[39m[22m
+[90mTS2420: [39mClass 'MongoTrainerAdapter' incorrectly implements interface 'TrainerPort'.
+  Property 'deleteCentres' is missing in type 'MongoTrainerAdapter' but required in type 'TrainerPort'.
+  [0m [90m 11 |[39m [36mimport[39m { [33mCentres[39m } [36mfrom[39m [32m"backend/src/trainers/domain/model/Centres"[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m [36mexport[39m [36mclass[39m [33mMongoTrainerAdapter[39m [36mimplements[39m [33mTrainerPort[39m {[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m   [36mprivate[39m model[33m:[39m [33mModel[39m[33m<[39m[33mTrainerEntity[39m[33m>[39m[33m;[39m[0m
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m   constructor() {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m60:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 58 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mtoEntity(trainer))[33m;[39m[0m
+  [0m [90m 59 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 60 |[39m   [36masync[39m deleteTeam(team[33m:[39m [33mTeam[39m[][33m,[39m trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 61 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 62 |[39m       { trainerId[33m:[39m trainerId }[33m,[39m[0m
+  [0m [90m 63 |[39m       { $set[33m:[39m { teams[33m:[39m team } }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m143:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 141 |[39m   }[0m
+  [0m [90m 142 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 143 |[39m   [36masync[39m deleteTeam(team[33m:[39m [33mTeam[39m[][33m,[39m trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m     |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 144 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 145 |[39m       { trainerId[33m:[39m trainerId }[33m,[39m[0m
+  [0m [90m 146 |[39m       { $set[33m:[39m { teams[33m:[39m team } }[0m
+
+webpack compiled with [1m[31m18 errors[39m[22m (943de9b3ed38b3cc)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m62:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  Property 'deleteCentres' is missing in type 'MongoTrainerAdapter' but required in type 'TrainerPort'.
+  [0m [90m 60 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[33m;[39m[0m
+  [0m [90m 61 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 62 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 63 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m([0m
+  [0m [90m 64 |[39m   createTrainerUseCase[0m
+  [0m [90m 65 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m70:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 68 |[39m })[33m;[39m[0m
+  [0m [90m 69 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 70 |[39m [36mconst[39m getTrainerByIdUseCase [33m=[39m [36mnew[39m [33mGetTrainerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 71 |[39m [36mconst[39m getTrainerByIdUseController [33m=[39m [36mnew[39m [33mGetTrainerByIdController[39m([0m
+  [0m [90m 72 |[39m   getTrainerByIdUseCase[0m
+  [0m [90m 73 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m78:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 76 |[39m })[33m;[39m[0m
+  [0m [90m 77 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 78 |[39m [36mconst[39m updateTrainerUseCase [33m=[39m [36mnew[39m [33mUpdateTrainerUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 79 |[39m [36mconst[39m updateTrainerController [33m=[39m [36mnew[39m [33mUpdateTrainerController[39m([0m
+  [0m [90m 80 |[39m   updateTrainerUseCase[0m
+  [0m [90m 81 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m86:49[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 84 |[39m })[33m;[39m[0m
+  [0m [90m 85 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 86 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 87 |[39m [36mconst[39m createTeamController [33m=[39m [36mnew[39m [33mCreateTeamController[39m(createTeamUseCase)[33m;[39m[0m
+  [0m [90m 88 |[39m router[33m.[39mpost([32m"/api/trainer/:id/team"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 89 |[39m   [36mreturn[39m createTeamController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m92:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 90 |[39m })[33m;[39m[0m
+  [0m [90m 91 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 92 |[39m [36mconst[39m updateTeamByIdUseCase [33m=[39m [36mnew[39m [33mUpdateTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 93 |[39m [36mconst[39m updateTeamByIdController [33m=[39m [36mnew[39m [33mUpdateTeamByIdController[39m([0m
+  [0m [90m 94 |[39m   updateTeamByIdUseCase[0m
+  [0m [90m 95 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m100:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m  98 |[39m })[33m;[39m[0m
+  [0m [90m  99 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 100 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 101 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m 102 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 103 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m108:51[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 106 |[39m })[33m;[39m[0m
+  [0m [90m 107 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 108 |[39m [36mconst[39m getAllTeamsUseCase [33m=[39m [36mnew[39m [33mGetAllTeamsUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 109 |[39m [36mconst[39m getAllTeamsController [33m=[39m [36mnew[39m [33mGetAllTeamsController[39m(getAllTeamsUseCase)[33m;[39m[0m
+  [0m [90m 110 |[39m router[33m.[39m[36mget[39m([32m"/api/trainer/:trainerId/teams"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 111 |[39m   [36mreturn[39m getAllTeamsController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m114:53[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 112 |[39m })[33m;[39m[0m
+  [0m [90m 113 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 114 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 115 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m[0m
+  [0m [90m 116 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 117 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m120:61[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 118 |[39m })[33m;[39m[0m
+  [0m [90m 119 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 120 |[39m [36mconst[39m updatePlayerByIdUseCase [33m=[39m [36mnew[39m [33mUpdatePlayerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 121 |[39m [36mconst[39m updatePlayerByIdController [33m=[39m [36mnew[39m [33mUpdatePlayerByIdController[39m([0m
+  [0m [90m 122 |[39m   updatePlayerByIdUseCase[0m
+  [0m [90m 123 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m131:61[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 129 |[39m )[33m;[39m[0m
+  [0m [90m 130 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 131 |[39m [36mconst[39m deletePlayerByIdUseCase [33m=[39m [36mnew[39m [33mDeletePlayerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 132 |[39m [36mconst[39m deletePlayerByIdController [33m=[39m [36mnew[39m [33mDeletePlayerByIdController[39m([0m
+  [0m [90m 133 |[39m   deletePlayerByIdUseCase[0m
+  [0m [90m 134 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m142:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 140 |[39m )[33m;[39m[0m
+  [0m [90m 141 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 142 |[39m [36mconst[39m getAllPlayersUseCase [33m=[39m [36mnew[39m [33mGetAllPlayersUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 143 |[39m [36mconst[39m getAllPlayersController [33m=[39m [36mnew[39m [33mGetAllPlayersController[39m([0m
+  [0m [90m 144 |[39m   getAllPlayersUseCase[0m
+  [0m [90m 145 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m150:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 148 |[39m })[33m;[39m[0m
+  [0m [90m 149 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 150 |[39m [36mconst[39m getPlayerByIdUseCase [33m=[39m [36mnew[39m [33mGetPlayerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 151 |[39m [36mconst[39m getPlayerByIdController [33m=[39m [36mnew[39m [33mGetPlayerByIdController[39m([0m
+  [0m [90m 152 |[39m   getPlayerByIdUseCase[0m
+  [0m [90m 153 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m161:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 159 |[39m )[33m;[39m[0m
+  [0m [90m 160 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 161 |[39m [36mconst[39m createCentresUseCase [33m=[39m [36mnew[39m [33mCreateCentresUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 162 |[39m [36mconst[39m createCentresController [33m=[39m [36mnew[39m [33mCreateCentresController[39m([0m
+  [0m [90m 163 |[39m   createCentresUseCase[0m
+  [0m [90m 164 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m169:63[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 167 |[39m })[33m;[39m[0m
+  [0m [90m 168 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 169 |[39m [36mconst[39m updateCentresByIdUseCase [33m=[39m [36mnew[39m [33mUpdateCentresByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 170 |[39m [36mconst[39m updateCentresByIdController [33m=[39m [36mnew[39m [33mUpdateCentresmByIdController[39m([0m
+  [0m [90m 171 |[39m   updateCentresByIdUseCase[0m
+  [0m [90m 172 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m177:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 175 |[39m })[33m;[39m[0m
+  [0m [90m 176 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 177 |[39m [36mconst[39m getAllCentresUseCase [33m=[39m [36mnew[39m [33mGetAllCentresUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 178 |[39m [36mconst[39m getAllCentresController [33m=[39m [36mnew[39m [33mGetAllCentresController[39m(getAllCentresUseCase)[33m;[39m[0m
+  [0m [90m 179 |[39m router[33m.[39m[36mget[39m([32m"/api/trainer/:trainerId/centres"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 180 |[39m   [36mreturn[39m getAllCentresController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m13:14[22m[39m[1m[39m[22m
+[90mTS2420: [39mClass 'MongoTrainerAdapter' incorrectly implements interface 'TrainerPort'.
+  Property 'deleteCentres' is missing in type 'MongoTrainerAdapter' but required in type 'TrainerPort'.
+  [0m [90m 11 |[39m [36mimport[39m { [33mCentres[39m } [36mfrom[39m [32m"backend/src/trainers/domain/model/Centres"[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m [36mexport[39m [36mclass[39m [33mMongoTrainerAdapter[39m [36mimplements[39m [33mTrainerPort[39m {[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m   [36mprivate[39m model[33m:[39m [33mModel[39m[33m<[39m[33mTrainerEntity[39m[33m>[39m[33m;[39m[0m
+  [0m [90m 15 |[39m[0m
+  [0m [90m 16 |[39m   constructor() {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m60:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 58 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mcreate([33mTrainerMapper[39m[33m.[39mtoEntity(trainer))[33m;[39m[0m
+  [0m [90m 59 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 60 |[39m   [36masync[39m deleteTeam(team[33m:[39m [33mTeam[39m[][33m,[39m trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 61 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 62 |[39m       { trainerId[33m:[39m trainerId }[33m,[39m[0m
+  [0m [90m 63 |[39m       { $set[33m:[39m { teams[33m:[39m team } }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m142:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 140 |[39m     [36mreturn[39m domainTrainer[33m.[39mcentres[33m;[39m[0m
+  [0m [90m 141 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 142 |[39m   [36masync[39m deleteTeam(team[33m:[39m [33mTeam[39m[][33m,[39m trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m     |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 143 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 144 |[39m       { trainerId[33m:[39m trainerId }[33m,[39m[0m
+  [0m [90m 145 |[39m       { $set[33m:[39m { teams[33m:[39m team } }[0m
+
+webpack compiled with [1m[31m18 errors[39m[22m (82990ca2f8ee1c1a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m62:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  Types of property 'deleteCentres' are incompatible.
+    Type '(team: Team[], trainerId: string) => Promise<void>' is not assignable to type '(team: Centres[], trainerId: string) => Promise<void>'.
+  [0m [90m 60 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[33m;[39m[0m
+  [0m [90m 61 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 62 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 63 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m([0m
+  [0m [90m 64 |[39m   createTrainerUseCase[0m
+  [0m [90m 65 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m70:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 68 |[39m })[33m;[39m[0m
+  [0m [90m 69 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 70 |[39m [36mconst[39m getTrainerByIdUseCase [33m=[39m [36mnew[39m [33mGetTrainerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 71 |[39m [36mconst[39m getTrainerByIdUseController [33m=[39m [36mnew[39m [33mGetTrainerByIdController[39m([0m
+  [0m [90m 72 |[39m   getTrainerByIdUseCase[0m
+  [0m [90m 73 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m78:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 76 |[39m })[33m;[39m[0m
+  [0m [90m 77 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 78 |[39m [36mconst[39m updateTrainerUseCase [33m=[39m [36mnew[39m [33mUpdateTrainerUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 79 |[39m [36mconst[39m updateTrainerController [33m=[39m [36mnew[39m [33mUpdateTrainerController[39m([0m
+  [0m [90m 80 |[39m   updateTrainerUseCase[0m
+  [0m [90m 81 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m86:49[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 84 |[39m })[33m;[39m[0m
+  [0m [90m 85 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 86 |[39m [36mconst[39m createTeamUseCase [33m=[39m [36mnew[39m [33mCreateTeamUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 87 |[39m [36mconst[39m createTeamController [33m=[39m [36mnew[39m [33mCreateTeamController[39m(createTeamUseCase)[33m;[39m[0m
+  [0m [90m 88 |[39m router[33m.[39mpost([32m"/api/trainer/:id/team"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 89 |[39m   [36mreturn[39m createTeamController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m92:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 90 |[39m })[33m;[39m[0m
+  [0m [90m 91 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 92 |[39m [36mconst[39m updateTeamByIdUseCase [33m=[39m [36mnew[39m [33mUpdateTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m    |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 93 |[39m [36mconst[39m updateTeamByIdController [33m=[39m [36mnew[39m [33mUpdateTeamByIdController[39m([0m
+  [0m [90m 94 |[39m   updateTeamByIdUseCase[0m
+  [0m [90m 95 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m100:57[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m  98 |[39m })[33m;[39m[0m
+  [0m [90m  99 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 100 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 101 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m 102 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 103 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m108:51[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 106 |[39m })[33m;[39m[0m
+  [0m [90m 107 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 108 |[39m [36mconst[39m getAllTeamsUseCase [33m=[39m [36mnew[39m [33mGetAllTeamsUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 109 |[39m [36mconst[39m getAllTeamsController [33m=[39m [36mnew[39m [33mGetAllTeamsController[39m(getAllTeamsUseCase)[33m;[39m[0m
+  [0m [90m 110 |[39m router[33m.[39m[36mget[39m([32m"/api/trainer/:trainerId/teams"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 111 |[39m   [36mreturn[39m getAllTeamsController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m114:53[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 112 |[39m })[33m;[39m[0m
+  [0m [90m 113 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 114 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 115 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m[0m
+  [0m [90m 116 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 117 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m120:61[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 118 |[39m })[33m;[39m[0m
+  [0m [90m 119 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 120 |[39m [36mconst[39m updatePlayerByIdUseCase [33m=[39m [36mnew[39m [33mUpdatePlayerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 121 |[39m [36mconst[39m updatePlayerByIdController [33m=[39m [36mnew[39m [33mUpdatePlayerByIdController[39m([0m
+  [0m [90m 122 |[39m   updatePlayerByIdUseCase[0m
+  [0m [90m 123 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m131:61[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 129 |[39m )[33m;[39m[0m
+  [0m [90m 130 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 131 |[39m [36mconst[39m deletePlayerByIdUseCase [33m=[39m [36mnew[39m [33mDeletePlayerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 132 |[39m [36mconst[39m deletePlayerByIdController [33m=[39m [36mnew[39m [33mDeletePlayerByIdController[39m([0m
+  [0m [90m 133 |[39m   deletePlayerByIdUseCase[0m
+  [0m [90m 134 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m142:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 140 |[39m )[33m;[39m[0m
+  [0m [90m 141 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 142 |[39m [36mconst[39m getAllPlayersUseCase [33m=[39m [36mnew[39m [33mGetAllPlayersUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 143 |[39m [36mconst[39m getAllPlayersController [33m=[39m [36mnew[39m [33mGetAllPlayersController[39m([0m
+  [0m [90m 144 |[39m   getAllPlayersUseCase[0m
+  [0m [90m 145 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m150:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 148 |[39m })[33m;[39m[0m
+  [0m [90m 149 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 150 |[39m [36mconst[39m getPlayerByIdUseCase [33m=[39m [36mnew[39m [33mGetPlayerByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 151 |[39m [36mconst[39m getPlayerByIdController [33m=[39m [36mnew[39m [33mGetPlayerByIdController[39m([0m
+  [0m [90m 152 |[39m   getPlayerByIdUseCase[0m
+  [0m [90m 153 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m161:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 159 |[39m )[33m;[39m[0m
+  [0m [90m 160 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 161 |[39m [36mconst[39m createCentresUseCase [33m=[39m [36mnew[39m [33mCreateCentresUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 162 |[39m [36mconst[39m createCentresController [33m=[39m [36mnew[39m [33mCreateCentresController[39m([0m
+  [0m [90m 163 |[39m   createCentresUseCase[0m
+  [0m [90m 164 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m169:63[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 167 |[39m })[33m;[39m[0m
+  [0m [90m 168 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 169 |[39m [36mconst[39m updateCentresByIdUseCase [33m=[39m [36mnew[39m [33mUpdateCentresByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 170 |[39m [36mconst[39m updateCentresByIdController [33m=[39m [36mnew[39m [33mUpdateCentresmByIdController[39m([0m
+  [0m [90m 171 |[39m   updateCentresByIdUseCase[0m
+  [0m [90m 172 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m177:55[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'MongoTrainerAdapter' is not assignable to parameter of type 'TrainerPort'.
+  [0m [90m 175 |[39m })[33m;[39m[0m
+  [0m [90m 176 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 177 |[39m [36mconst[39m getAllCentresUseCase [33m=[39m [36mnew[39m [33mGetAllCentresUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 178 |[39m [36mconst[39m getAllCentresController [33m=[39m [36mnew[39m [33mGetAllCentresController[39m(getAllCentresUseCase)[33m;[39m[0m
+  [0m [90m 179 |[39m router[33m.[39m[36mget[39m([32m"/api/trainer/:trainerId/centres"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 180 |[39m   [36mreturn[39m getAllCentresController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m142:9[22m[39m[1m[39m[22m
+[90mTS2416: [39mProperty 'deleteCentres' in type 'MongoTrainerAdapter' is not assignable to the same property in base type 'TrainerPort'.
+  Type '(team: Team[], trainerId: string) => Promise<void>' is not assignable to type '(team: Centres[], trainerId: string) => Promise<void>'.
+    Types of parameters 'team' and 'team' are incompatible.
+      Type 'Centres[]' is not assignable to type 'Team[]'.
+        Type 'Centres' is missing the following properties from type 'Team': teamId, players
+  [0m [90m 140 |[39m     [36mreturn[39m domainTrainer[33m.[39mcentres[33m;[39m[0m
+  [0m [90m 141 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 142 |[39m   [36masync[39m deleteCentres(team[33m:[39m [33mTeam[39m[][33m,[39m trainerId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m     |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 143 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 144 |[39m       { trainerId[33m:[39m trainerId }[33m,[39m[0m
+  [0m [90m 145 |[39m       { $set[33m:[39m { teams[33m:[39m team } }[0m
+
+webpack compiled with [1m[31m16 errors[39m[22m (f52e0021ff6bfff6)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (116afd9a8fa31f13)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8c051fdfdd0680c6)
+[1m[31mDebugger listening on ws://localhost:9229/5ba99d55-e957-4469-b02e-9e05ec6ccab0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5ba99d55-e957-4469-b02e-9e05ec6ccab0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m145:26[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'centres'. Did you mean 'Centres'?
+  [0m [90m 143 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m [90m 144 |[39m       { trainerId[33m:[39m trainerId }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 145 |[39m       { $set[33m:[39m { centres[33m:[39m centres } }[0m
+  [0m [90m     |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 146 |[39m     )[33m;[39m[0m
+  [0m [90m 147 |[39m   }[0m
+  [0m [90m 148 |[39m   saveReserve(reserve[33m:[39m [33mReserve[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a80dad8aba406ecc)
+[1m[31mDebugger listening on ws://localhost:9229/e7d53e78-9a19-453f-99eb-27e7a4839fd5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e7d53e78-9a19-453f-99eb-27e7a4839fd5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a60cdd14d2cb2ddb)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a60cdd14d2cb2ddb)
+[1m[31mDebugger listening on ws://localhost:9229/dff55468-b97f-4bbe-a381-62df6569acf4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/dff55468-b97f-4bbe-a381-62df6569acf4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a60cdd14d2cb2ddb)
+[1m[31mDebugger listening on ws://localhost:9229/54b58259-4733-4eeb-b69a-6d0d40bf4e7e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/54b58259-4733-4eeb-b69a-6d0d40bf4e7e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a60cdd14d2cb2ddb)
+[1m[31mDebugger listening on ws://localhost:9229/95a715cf-c94f-4cd3-a079-422314311d1e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/95a715cf-c94f-4cd3-a079-422314311d1e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a60cdd14d2cb2ddb)
+[1m[31mDebugger listening on ws://localhost:9229/15dd1524-57bf-4dc9-834e-20087f9dd2eb[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/15dd1524-57bf-4dc9-834e-20087f9dd2eb[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a60cdd14d2cb2ddb)
+[1m[31mDebugger listening on ws://localhost:9229/d7cb139d-4fb9-4984-929e-370b793efd34[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d7cb139d-4fb9-4984-929e-370b793efd34[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a60cdd14d2cb2ddb)
+[1m[31mDebugger listening on ws://localhost:9229/1c9d76c3-92c1-4753-9222-16a948316fe5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1c9d76c3-92c1-4753-9222-16a948316fe5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a60cdd14d2cb2ddb)
+[1m[31mDebugger listening on ws://localhost:9229/f9a052a8-ad68-40b8-9671-35d7f611b164[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f9a052a8-ad68-40b8-9671-35d7f611b164[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a60cdd14d2cb2ddb)
+[1m[31mDebugger listening on ws://localhost:9229/1ef1a096-198b-4b0b-b739-986f771065d5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1ef1a096-198b-4b0b-b739-986f771065d5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a60cdd14d2cb2ddb)
+[1m[31mDebugger listening on ws://localhost:9229/0d0912bb-a7dd-468d-92c5-f4ba5c8fa540[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0d0912bb-a7dd-468d-92c5-f4ba5c8fa540[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a60cdd14d2cb2ddb)
+[1m[31mDebugger listening on ws://localhost:9229/fdebd509-dad2-436a-81f4-dab2d271747f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fdebd509-dad2-436a-81f4-dab2d271747f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a60cdd14d2cb2ddb)
+[1m[31mDebugger listening on ws://localhost:9229/bdd11d99-7ee0-4f24-8126-6b7bb47059c2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/bdd11d99-7ee0-4f24-8126-6b7bb47059c2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a60cdd14d2cb2ddb)
+[1m[31mDebugger listening on ws://localhost:9229/476e7c88-42a2-4c81-83d8-4d5a60a4a3d1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/476e7c88-42a2-4c81-83d8-4d5a60a4a3d1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a60cdd14d2cb2ddb)
+[1m[31mDebugger listening on ws://localhost:9229/f0172b36-27b9-4ece-ad35-209502bf4d81[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f0172b36-27b9-4ece-ad35-209502bf4d81[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 10.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m132:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'deleteTeamByIdUseCase' has already been declared (132:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     return getAllCentresController.handle(req, res);
+| }));
+> const deleteTeamByIdUseCase = new DeleteTeamByIdUseCase_1.DeleteTeamByIdUseCase(trainerAdapter);
+| const deleteTeamByIdController = new DeleteTeamByIdController_1.DeleteTeamByIdController(deleteTeamByIdUseCase);
+| router.delete("/api/trainer/:trainerId/team/:teamId", (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m100:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdUseCase'.
+  [0m [90m  98 |[39m })[33m;[39m[0m
+  [0m [90m  99 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 100 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 101 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m 102 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 103 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m101:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdController'.
+  [0m [90m  99 |[39m[0m
+  [0m [90m 100 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 101 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m     |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 102 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 103 |[39m )[33m;[39m[0m
+  [0m [90m 104 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m183:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdUseCase'.
+  [0m [90m 181 |[39m })[33m;[39m[0m
+  [0m [90m 182 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 183 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 184 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m 185 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 186 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m184:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdController'.
+  [0m [90m 182 |[39m[0m
+  [0m [90m 183 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 184 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m     |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 185 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 186 |[39m )[33m;[39m[0m
+  [0m [90m 187 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (f406b7a6d231eb20)
+[1m[31mDebugger listening on ws://localhost:9229/0e0d8fe1-97c4-473c-8fa9-e9944e49ab92[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0e0d8fe1-97c4-473c-8fa9-e9944e49ab92[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m/Users/albapalomino/TouchSports/dist/backend/main.js:6[39m[22m
+[1m[31mthrow new Error("Module parse failed: Identifier 'deleteTeamByIdUseCase' has already been declared (132:6)\nFile was processed with these loaders:\n * ../node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     return getAllCentresController.handle(req, res);\n| }));\n> const deleteTeamByIdUseCase = new DeleteTeamByIdUseCase_1.DeleteTeamByIdUseCase(trainerAdapter);\n| const deleteTeamByIdController = new DeleteTeamByIdController_1.DeleteTeamByIdController(deleteTeamByIdUseCase);\n| router.delete(\"/api/trainer/:trainerId/team/:teamId\", (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {");[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31m[39m[22m
+[1m[31mError: Module parse failed: Identifier 'deleteTeamByIdUseCase' has already been declared (132:6)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m|     return getAllCentresController.handle(req, res);[39m[22m
+[1m[31m| }));[39m[22m
+[1m[31m> const deleteTeamByIdUseCase = new DeleteTeamByIdUseCase_1.DeleteTeamByIdUseCase(trainerAdapter);[39m[22m
+[1m[31m| const deleteTeamByIdController = new DeleteTeamByIdController_1.DeleteTeamByIdController(deleteTeamByIdUseCase);[39m[22m
+[1m[31m| router.delete("/api/trainer/:trainerId/team/:teamId", (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {[39m[22m
+[1m[31m    at Array.__webpack_modules__ (/Users/albapalomino/TouchSports/dist/backend/main.js:6:7)[39m[22m
+[1m[31m    at /Users/albapalomino/TouchSports/dist/backend/main.js:16:33[39m[22m
+[1m[31m    at Object.<anonymous> (/Users/albapalomino/TouchSports/dist/backend/main.js:21:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1254:14)[39m[22m
+[1m[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)[39m[22m
+[1m[31m    at Module.load (node:internal/modules/cjs/loader:1117:32)[39m[22m
+[1m[31m    at Function.Module._load (node:internal/modules/cjs/loader:958:12)[39m[22m
+[1m[31m    at Function.Module._load (/Users/albapalomino/TouchSports/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js:10:31)[39m[22m
+[1m[31m    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:169:29)[39m[22m
+[1m[31m    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 10.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m133:6[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'deleteTeamByIdController' has already been declared (133:6)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| }));
+| const deleteCentresByIdUseCase = new DeleteTeamByIdUseCase_1.DeleteTeamByIdUseCase(trainerAdapter);
+> const deleteTeamByIdController = new DeleteTeamByIdController_1.DeleteTeamByIdController(deleteTeamByIdUseCase);
+| router.delete("/api/trainer/:trainerId/team/:teamId", (req, res) => tslib_1.__awaiter(void 0, void 0, void 0, function* () {
+|     return deleteTeamByIdController.handle(req, res);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m101:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdController'.
+  [0m [90m  99 |[39m[0m
+  [0m [90m 100 |[39m [36mconst[39m deleteTeamByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 101 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m     |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 102 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 103 |[39m )[33m;[39m[0m
+  [0m [90m 104 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m184:7[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'deleteTeamByIdController'.
+  [0m [90m 182 |[39m[0m
+  [0m [90m 183 |[39m [36mconst[39m deleteCentresByIdUseCase [33m=[39m [36mnew[39m [33mDeleteTeamByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 184 |[39m [36mconst[39m deleteTeamByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m     |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 185 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 186 |[39m )[33m;[39m[0m
+  [0m [90m 187 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (f6ff64a90b145615)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ff40c8d29671c7d6)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 47.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m183:38[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'DeleteCentresByIdUseCase'. Did you mean 'deleteCentresByIdUseCase'?
+  [0m [90m 181 |[39m })[33m;[39m[0m
+  [0m [90m 182 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 183 |[39m [36mconst[39m deleteCentresByIdUseCase [33m=[39m [36mnew[39m [33mDeleteCentresByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m     |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 184 |[39m [36mconst[39m deleteCentresByIdController [33m=[39m [36mnew[39m [33mDeleteTeamByIdController[39m([0m
+  [0m [90m 185 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 186 |[39m )[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (f31b3180d86c3781)
+[1m[31mDebugger listening on ws://localhost:9229/d6e72d58-3894-4a04-981d-0b043862e0e5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d6e72d58-3894-4a04-981d-0b043862e0e5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m/Users/albapalomino/TouchSports/dist/backend/main.js:1488[39m[22m
+[1m[31m/******/ })()[39m[22m
+[1m[31m           ^[39m[22m
+[1m[31mReferenceError: DeleteCentresByIdUseCase is not defined[39m[22m
+[1m[31m    at /Users/albapalomino/TouchSports/dist/backend/main.js:1464:34[39m[22m
+[1m[31m    at /Users/albapalomino/TouchSports/dist/backend/main.js:1483:3[39m[22m
+[1m[31m    at Object.<anonymous> (/Users/albapalomino/TouchSports/dist/backend/main.js:1488:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1254:14)[39m[22m
+[1m[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)[39m[22m
+[1m[31m    at Module.load (node:internal/modules/cjs/loader:1117:32)[39m[22m
+[1m[31m    at Function.Module._load (node:internal/modules/cjs/loader:958:12)[39m[22m
+[1m[31m    at Function.Module._load (/Users/albapalomino/TouchSports/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js:10:31)[39m[22m
+[1m[31m    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:169:29)[39m[22m
+[1m[31m    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 48.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7dc5f4dc5d0ea86d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 48.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m185:41[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'DeleteCentresByIdController'. Did you mean 'deleteCentresByIdController'?
+  [0m [90m 183 |[39m[0m
+  [0m [90m 184 |[39m [36mconst[39m deleteCentresByIdUseCase [33m=[39m [36mnew[39m [33mDeleteCentresByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 185 |[39m [36mconst[39m deleteCentresByIdController [33m=[39m [36mnew[39m [33mDeleteCentresByIdController[39m([0m
+  [0m [90m     |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 186 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m 187 |[39m )[33m;[39m[0m
+  [0m [90m 188 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (cd75aa2c1087dfad)
+[1m[31mDebugger listening on ws://localhost:9229/421911e6-836d-40cd-8ccf-c337f2839859[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/421911e6-836d-40cd-8ccf-c337f2839859[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m/Users/albapalomino/TouchSports/dist/backend/main.js:1515[39m[22m
+[1m[31m/******/ })()[39m[22m
+[1m[31m           ^[39m[22m
+[1m[31mReferenceError: DeleteCentresByIdController is not defined[39m[22m
+[1m[31m    at /Users/albapalomino/TouchSports/dist/backend/main.js:1492:37[39m[22m
+[1m[31m    at /Users/albapalomino/TouchSports/dist/backend/main.js:1510:3[39m[22m
+[1m[31m    at Object.<anonymous> (/Users/albapalomino/TouchSports/dist/backend/main.js:1515:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1254:14)[39m[22m
+[1m[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)[39m[22m
+[1m[31m    at Module.load (node:internal/modules/cjs/loader:1117:32)[39m[22m
+[1m[31m    at Function.Module._load (node:internal/modules/cjs/loader:958:12)[39m[22m
+[1m[31m    at Function.Module._load (/Users/albapalomino/TouchSports/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js:10:31)[39m[22m
+[1m[31m    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:169:29)[39m[22m
+[1m[31m    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m187:3[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'DeleteTeamByIdUseCase' is not assignable to parameter of type 'DeleteCentresByIdUseCase'.
+  Types have separate declarations of a private property 'trainerPort'.
+  [0m [90m 185 |[39m [36mconst[39m deleteCentresByIdUseCase [33m=[39m [36mnew[39m [33mDeleteCentresByIdUseCase[39m(trainerAdapter)[33m;[39m[0m
+  [0m [90m 186 |[39m [36mconst[39m deleteCentresByIdController [33m=[39m [36mnew[39m [33mDeleteCentresByIdController[39m([0m
+  [0m[31m[1m>[22m[39m[90m 187 |[39m   deleteTeamByIdUseCase[0m
+  [0m [90m     |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 188 |[39m )[33m;[39m[0m
+  [0m [90m 189 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m [90m 190 |[39m   [36mreturn[39m deleteTeamByIdController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (1df29be66ad5ac9a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ffce3e5a3fb68a44)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m190:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'handle' does not exist on type 'typeof DeleteCentresByIdController'.
+  [0m [90m 188 |[39m )[33m;[39m[0m
+  [0m [90m 189 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/team/:teamId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 190 |[39m   [36mreturn[39m [33mDeleteCentresByIdController[39m[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+  [0m [90m     |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 191 |[39m })[33m;[39m[0m
+  [0m [90m 192 |[39m[0m
+  [0m [90m 193 |[39m [36mconst[39m start [33m=[39m [36masync[39m () [33m=>[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8a14f2a4792ee06c)
+[1m[31mDebugger listening on ws://localhost:9229/0c2e0221-f7bb-4e6f-86e0-92bea42aeaff[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0c2e0221-f7bb-4e6f-86e0-92bea42aeaff[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m190:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'handle' does not exist on type 'typeof DeleteCentresByIdController'.
+  [0m [90m 188 |[39m )[33m;[39m[0m
+  [0m [90m 189 |[39m router[33m.[39m[36mdelete[39m([32m"/api/trainer/:trainerId/centres/:centresId"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 190 |[39m   [36mreturn[39m [33mDeleteCentresByIdController[39m[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+  [0m [90m     |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 191 |[39m })[33m;[39m[0m
+  [0m [90m 192 |[39m[0m
+  [0m [90m 193 |[39m [36mconst[39m start [33m=[39m [36masync[39m () [33m=>[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (95abfd756dc79d15)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (59e4764054239cf5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

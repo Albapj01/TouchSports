@@ -1,5 +1,4 @@
 import { Request, Response } from "express";
-import { GetAllTeamsUseCase } from "../../application/usecases/GetAllTeamsUseCase";
 import { GetAllCentresUseCase } from "../../application/usecases/GetAllCentresUseCase";
 
 export class GetAllCentresController {

@@ -1,8 +1,6 @@
 import { Centres } from "../../domain/model/Centres";
-import { Team } from "../../domain/model/Team";
 import { TrainerPort } from "../../domain/port/TrainerPort";
 import { CentresDTO } from "../DTOs/CentresDTO";
-import { TeamDTO } from "../DTOs/TeamDTO";
 
 export class GetAllCentresUseCase {
   constructor(private trainerPort: TrainerPort) {}
