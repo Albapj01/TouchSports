@@ -128,6 +128,12 @@ export class MongoTrainerAdapter implements TrainerPort {
       { $set: { centres: trainer.centres } }
     );
   }
+  async updateCentres(centres: Centres[], trainerId: string): Promise<void> {
+    await this.model.findOneAndUpdate(
+      { trainerId: trainerId },
+      { $set: { centres: centres } }
+    );
+  }
   saveReserve(reserve: Reserve): Promise<void> {
     throw new Error("Method not implemented.");
   }

@@ -32,6 +32,8 @@ import { GetPlayerByIdUseCase } from "./trainers/application/usecases/GetPlayerB
 import { GetPlayerByIdController } from "./trainers/infrastructure/controller/GetPlayerByIdController";
 import { CreateCentresUseCase } from "./trainers/application/usecases/CreateCentresUseCase";
 import { CreateCentresController } from "./trainers/infrastructure/controller/CreateCentresController";
+import { UpdateCentresByIdUseCase } from "./trainers/application/usecases/UpdateCentresByIdUseCase";
+import { UpdateCentresmByIdController } from "./trainers/infrastructure/controller/UpdateCentresByIdController";
 
 dotenv.config();
 const app = express();
@@ -114,33 +116,60 @@ router.post("/api/trainer/:trainerId/team/:teamId/player", async (req, res) => {
 });
 
 const updatePlayerByIdUseCase = new UpdatePlayerByIdUseCase(trainerAdapter);
-const updatePlayerByIdController = new UpdatePlayerByIdController(updatePlayerByIdUseCase);
-router.put("/api/trainer/:trainerId/team/:teamId/player/:playerId", async (req, res) => {
-  return updatePlayerByIdController.handle(req, res);
-});
+const updatePlayerByIdController = new UpdatePlayerByIdController(
+  updatePlayerByIdUseCase
+);
+router.put(
+  "/api/trainer/:trainerId/team/:teamId/player/:playerId",
+  async (req, res) => {
+    return updatePlayerByIdController.handle(req, res);
+  }
+);
 
 const deletePlayerByIdUseCase = new DeletePlayerByIdUseCase(trainerAdapter);
-const deletePlayerByIdController = new DeletePlayerByIdController(deletePlayerByIdUseCase);
-router.delete("/api/trainer/:trainerId/team/:teamId/player/:playerId", async (req, res) => {
-  return deletePlayerByIdController.handle(req, res);
-});
+const deletePlayerByIdController = new DeletePlayerByIdController(
+  deletePlayerByIdUseCase
+);
+router.delete(
+  "/api/trainer/:trainerId/team/:teamId/player/:playerId",
+  async (req, res) => {
+    return deletePlayerByIdController.handle(req, res);
+  }
+);
 
 const getAllPlayersUseCase = new GetAllPlayersUseCase(trainerAdapter);
-const getAllPlayersController = new GetAllPlayersController(getAllPlayersUseCase);
+const getAllPlayersController = new GetAllPlayersController(
+  getAllPlayersUseCase
+);
 router.get("/api/trainer/:trainerId/team/:teamId/players", async (req, res) => {
   return getAllPlayersController.handle(req, res);
 });
 
 const getPlayerByIdUseCase = new GetPlayerByIdUseCase(trainerAdapter);
-const getPlayerByIdController = new GetPlayerByIdController(getPlayerByIdUseCase);
-router.get("/api/trainer/:trainerId/team/:teamId/player/:playerId", async (req, res) => {
-  return getPlayerByIdController.handle(req, res);
-});
+const getPlayerByIdController = new GetPlayerByIdController(
+  getPlayerByIdUseCase
+);
+router.get(
+  "/api/trainer/:trainerId/team/:teamId/player/:playerId",
+  async (req, res) => {
+    return getPlayerByIdController.handle(req, res);
+  }
+);
 
 const createCentresUseCase = new CreateCentresUseCase(trainerAdapter);
-const createCentresController = new CreateCentresController(createCentresUseCase);
+const createCentresController = new CreateCentresController(
+  createCentresUseCase
+);
 router.post("/api/trainer/:id/centres", async (req, res) => {
   return createCentresController.handle(req, res);
+});
+
+const updateCentresByIdUseCase = new UpdateCentresByIdUseCase(trainerAdapter);
+const updateCentresByIdController = new UpdateCentresmByIdController(
+  updateCentresByIdUseCase
+);
+router.put("/api/trainer/:trainerId/centres/:centresId", async (req, res) => {
+  return updateCentresByIdController.handle(req, res);
 });
 
 const start = async () => {

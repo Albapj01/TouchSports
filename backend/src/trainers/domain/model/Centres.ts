@@ -6,7 +6,7 @@ export class Centres {
     readonly centresId: string,
     readonly name: string,
     readonly location: string,
-    readonly reserves: Reserve[],
+    public reserves: Reserve[],
     readonly imageUrl: string
   ) {}
 }
