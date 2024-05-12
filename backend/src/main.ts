@@ -30,6 +30,8 @@ import { GetAllPlayersUseCase } from "./trainers/application/usecases/GetAllPlay
 import { GetAllPlayersController } from "./trainers/infrastructure/controller/GetAllPlayersController";
 import { GetPlayerByIdUseCase } from "./trainers/application/usecases/GetPlayerByIdUseCase";
 import { GetPlayerByIdController } from "./trainers/infrastructure/controller/GetPlayerByIdController";
+import { CreateCentresUseCase } from "./trainers/application/usecases/CreateCentresUseCase";
+import { CreateCentresController } from "./trainers/infrastructure/controller/CreateCentresController";
 
 dotenv.config();
 const app = express();
@@ -133,6 +135,12 @@ const getPlayerByIdUseCase = new GetPlayerByIdUseCase(trainerAdapter);
 const getPlayerByIdController = new GetPlayerByIdController(getPlayerByIdUseCase);
 router.get("/api/trainer/:trainerId/team/:teamId/player/:playerId", async (req, res) => {
   return getPlayerByIdController.handle(req, res);
+});
+
+const createCentresUseCase = new CreateCentresUseCase(trainerAdapter);
+const createCentresController = new CreateCentresController(createCentresUseCase);
+router.post("/api/trainer/:id/centres", async (req, res) => {
+  return createCentresController.handle(req, res);
 });
 
 const start = async () => {

@@ -1,3 +1,4 @@
+import { Centres } from "../model/Centres";
 import { Player } from "../model/Player";
 import { Reserve } from "../model/Reserve";
 import { Team } from "../model/Team";
@@ -17,6 +18,7 @@ export interface TrainerPort {
   savePlayer(player: Player, team:Team, trainer: Trainer): Promise<void>;
   updatePlayer(player: Player[], trainerId: string, teamId: string): Promise<void>;
   getAllPlayers(trainerId: string, teamId: string): Promise<Player[]>;
+  saveCentres(centres: Centres, trainer: Trainer): Promise<void>;
   saveReserve(reserve: Reserve): Promise<void>;
   getAllReserve(): Promise<void>;
 }

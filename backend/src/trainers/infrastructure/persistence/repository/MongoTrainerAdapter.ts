@@ -8,6 +8,7 @@ import { Trainer } from "backend/src/trainers/domain/model/Trainer";
 import { TrainerDTO } from "backend/src/trainers/application/DTOs/TrainerDTO";
 import { TrainerMapper } from "../mapper/TrainerMapper";
 import { TeamDTO } from "backend/src/trainers/application/DTOs/TeamDTO";
+import { Centres } from "backend/src/trainers/domain/model/Centres";
 
 export class MongoTrainerAdapter implements TrainerPort {
   private model: Model<TrainerEntity>;
@@ -32,12 +33,18 @@ export class MongoTrainerAdapter implements TrainerPort {
     }
     return null;
   }
-  async findByPlayerId(playerId: string, teamId: string, trainerId: string): Promise<Player> {
+  async findByPlayerId(
+    playerId: string,
+    teamId: string,
+    trainerId: string
+  ): Promise<Player> {
     const trainer = await this.model.findOne({ trainerId });
     if (trainer) {
       const team = trainer.teams.find((team) => team.teamId === teamId);
       if (team) {
-        const player = team.players.find((player) => player.playerId === playerId);
+        const player = team.players.find(
+          (player) => player.playerId === playerId
+        );
         return player;
       }
     }
@@ -114,6 +121,12 @@ export class MongoTrainerAdapter implements TrainerPort {
     const domainTrainer = TrainerMapper.toDomain(trainer);
     const team = domainTrainer.teams.find((team) => team.teamId === teamId);
     return team.players;
+  }
+  async saveCentres(centres: Centres, trainer: Trainer): Promise<void> {
+    await this.model.findOneAndUpdate(
+      { trainerId: centres.trainerId },
+      { $set: { centres: trainer.centres } }
+    );
   }
   saveReserve(reserve: Reserve): Promise<void> {
     throw new Error("Method not implemented.");
