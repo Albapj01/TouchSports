@@ -20,6 +20,7 @@ export interface TrainerPort {
   getAllPlayers(trainerId: string, teamId: string): Promise<Player[]>;
   saveCentres(centres: Centres, trainer: Trainer): Promise<void>;
   updateCentres(centres: Centres[], trainerId: string): Promise<void>;
+  getAllCentres(trainerId: string): Promise<Centres[]>;
   saveReserve(reserve: Reserve): Promise<void>;
   getAllReserve(): Promise<void>;
 }

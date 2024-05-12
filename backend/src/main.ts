@@ -34,6 +34,8 @@ import { CreateCentresUseCase } from "./trainers/application/usecases/CreateCent
 import { CreateCentresController } from "./trainers/infrastructure/controller/CreateCentresController";
 import { UpdateCentresByIdUseCase } from "./trainers/application/usecases/UpdateCentresByIdUseCase";
 import { UpdateCentresmByIdController } from "./trainers/infrastructure/controller/UpdateCentresByIdController";
+import { GetAllCentresUseCase } from "./trainers/application/usecases/GetAllCentresUseCase";
+import { GetAllCentresController } from "./trainers/infrastructure/controller/GetAllCentresController";
 
 dotenv.config();
 const app = express();
@@ -170,6 +172,12 @@ const updateCentresByIdController = new UpdateCentresmByIdController(
 );
 router.put("/api/trainer/:trainerId/centres/:centresId", async (req, res) => {
   return updateCentresByIdController.handle(req, res);
+});
+
+const getAllCentresUseCase = new GetAllCentresUseCase(trainerAdapter);
+const getAllCentresController = new GetAllCentresController(getAllCentresUseCase);
+router.get("/api/trainer/:trainerId/centres", async (req, res) => {
+  return getAllCentresController.handle(req, res);
 });
 
 const start = async () => {
