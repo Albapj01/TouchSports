@@ -172,7 +172,10 @@ export class MongoTrainerAdapter implements TrainerPort {
       { $set: { "centres.$.reserves": reserves } }
     );
   }
-  getAllReserve(): Promise<void> {
-    throw new Error("Method not implemented.");
+  async getAllReserves(trainerId: string, centresId: string): Promise<Reserve[]> {
+    const trainer = await this.model.findOne({ trainerId: trainerId });
+    const domainTrainer = TrainerMapper.toDomain(trainer);
+    const centres = domainTrainer.centres.find((centre) => centre.centresId === centresId);
+    return centres.reserves;
   }
 }
