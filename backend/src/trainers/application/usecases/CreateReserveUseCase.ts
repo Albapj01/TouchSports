@@ -32,8 +32,6 @@ export class CreateReserveUseCase {
       reserveDTO.material,
       reserveDTO.date
     );
-    console.log(reserve);
-
 
     centres.reserves.push(reserve);
     await this.trainerPort.saveReserve(reserve, centres, trainer);

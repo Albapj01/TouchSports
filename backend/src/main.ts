@@ -40,6 +40,8 @@ import { DeleteCentresByIdUseCase } from "./trainers/application/usecases/Delete
 import { DeleteCentresByIdController } from "./trainers/infrastructure/controller/DeleteCentresByIdController";
 import { CreateReserveUseCase } from "./trainers/application/usecases/CreateReserveUseCase";
 import { CreateReserveController } from "./trainers/infrastructure/controller/CreateReserveController";
+import { UpdateReserveByIdUseCase } from "./trainers/application/usecases/UpdateReserveByIdUseCase";
+import { UpdateReserveByIdController } from "./trainers/infrastructure/controller/UpdateReserveByIdController";
 
 dotenv.config();
 const app = express();
@@ -198,6 +200,16 @@ router.post("/api/trainer/:trainerId/centres/:centresId/reserve", async (req, re
   return createReserveController.handle(req, res);
 });
 
+const updateReserveByIdUseCase = new UpdateReserveByIdUseCase(trainerAdapter);
+const updateReserveByIdController = new UpdateReserveByIdController(
+  updateReserveByIdUseCase
+);
+router.put(
+  "/api/trainer/:trainerId/centres/:centresId/reserve/:reserveId",
+  async (req, res) => {
+    return updateReserveByIdController.handle(req, res);
+  }
+);
 
 const start = async () => {
   try {
