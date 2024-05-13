@@ -3340,6 +3340,15 @@
         "hash": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g=="
       }
     },
+    "npm:@react-oauth/google": {
+      "type": "npm",
+      "name": "npm:@react-oauth/google",
+      "data": {
+        "version": "0.12.1",
+        "packageName": "@react-oauth/google",
+        "hash": "sha512-qagsy22t+7UdkYAiT5ZhfM4StXi9PPNvw0zuwNmabrWyMKddczMtBIOARflbaIj+wHiQjnMAsZmzsUYuXeyoSg=="
+      }
+    },
     "npm:@sinclair/typebox": {
       "type": "npm",
       "name": "npm:@sinclair/typebox",
@@ -13113,12 +13122,22 @@
       },
       {
         "source": "frontend",
+        "target": "npm:@react-oauth/google",
+        "type": "static"
+      },
+      {
+        "source": "frontend",
         "target": "npm:@nx/webpack",
         "type": "static"
       },
       {
         "source": "frontend",
         "target": "npm:@nx/react",
+        "type": "static"
+      },
+      {
+        "source": "frontend",
+        "target": "npm:axios",
         "type": "static"
       }
     ],
@@ -18418,6 +18437,18 @@
       {
         "source": "npm:@pmmmwh/react-refresh-webpack-plugin",
         "target": "npm:source-map@0.7.4",
+        "type": "static"
+      }
+    ],
+    "npm:@react-oauth/google": [
+      {
+        "source": "npm:@react-oauth/google",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "npm:@react-oauth/google",
+        "target": "npm:react-dom",
         "type": "static"
       }
     ],

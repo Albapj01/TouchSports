@@ -1,9 +1,4 @@
-import {
-  IonContent,
-  IonFooter,
-  IonHeader,
-  IonPage,
-} from "@ionic/react";
+import { IonContent, IonFooter, IonHeader, IonPage } from "@ionic/react";
 import Card from "frontend/src/components/card/card";
 import Menu from "frontend/src/components/menu/menu";
 import Tabs from "frontend/src/components/tabs/tabs";

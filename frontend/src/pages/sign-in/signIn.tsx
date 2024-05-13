@@ -3,8 +3,15 @@ import Button from "frontend/src/components/button/button";
 import Logo from "frontend/src/components/logo/logo";
 import { logoGoogle, logoFacebook, logoApple } from "ionicons/icons";
 import styled from "styled-components";
+import { GoogleLogin } from "@react-oauth/google";
 
 const SignInSecond = () => {
+  const responseMessage = (response: any) => {
+    console.log(response);
+  };
+  const errorMessage = (error: any) => {
+    console.log(error);
+  };
   return (
     <>
       <IonPage>
@@ -20,6 +27,7 @@ const SignInSecond = () => {
                 icon={logoGoogle}
                 text="Sign in with Google"
               />
+              <GoogleLogin onSuccess={responseMessage}/>
               <br></br>
               <Button
                 color="primary"
