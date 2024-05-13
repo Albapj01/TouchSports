@@ -3,9 +3,11 @@ import Card from "frontend/src/components/card/card";
 import Menu from "frontend/src/components/menu/menu";
 import Tabs from "frontend/src/components/tabs/tabs";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
+import { getStatus } from "frontend/src/utils/api";
 import styled from "styled-components";
 
 const Home = () => {
+  console.log(getStatus());
   return (
     <>
       <IonPage>
@@ -16,7 +18,7 @@ const Home = () => {
           <Menu />
           <Cards>
             <Card
-              route="/home/team"
+              route="/home/teams"
               title="Equipo"
               imageUrl="https://www.infisport.com/media/amasty/blog/SprintDeportesEquipo1_2.jpg"
               description=""

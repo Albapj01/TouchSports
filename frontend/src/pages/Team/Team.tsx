@@ -6,7 +6,7 @@ import Menu from "frontend/src/components/menu/menu";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
 import Button from "frontend/src/components/button/button";
 import { personAdd } from "ionicons/icons";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 
 const Team = () => {
   return (
@@ -20,14 +20,14 @@ const Team = () => {
           <PersonsContainer>
             <Person>
               <Avatar
-                route="/home/team/player"
+                route="/home/teams/team/player"
                 imageUrl="https://ionicframework.com/docs/img/demos/avatar.svg"
                 name="Nombre Apellidos"
               />
             </Person>
             <Person>
               <Avatar
-                route="/home/team/player"
+                route="/home/teams/team/player"
                 imageUrl="https://ionicframework.com/docs/img/demos/avatar.svg"
                 name="Nombre Apellidos"
               />
@@ -35,7 +35,7 @@ const Team = () => {
           </PersonsContainer>
           <Space />
           <ButtonContainer>
-            <Link to="/home/team/add-player">
+            <Link to="/home/teams/team/player/add-player">
               <Button color="primary" icon={personAdd} text="Añadir jugador" />
             </Link>
           </ButtonContainer>
