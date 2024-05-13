@@ -30,6 +30,7 @@ import SignIn from "./pages/sign-in/signIn";
 import Player from "./pages/player/player";
 import AddPlayer from "./pages/add-player/addPlayer";
 import Teams from "./pages/teams/teams";
+import AddTeam from "./pages/add-team/addTeam";
 
 setupIonicReact();
 
@@ -42,6 +43,7 @@ const App: React.FC = () => (
         <Route path="/home/profile" component={Profile} />
         <Route path="/home/teams" component={Teams} />
         <Route path="/home/teams/team" component={Team} />
+        <Route path="/home/teams/team/add-team" component={AddTeam}/>
         <Route path="/home/teams/team/player" component={Player} />
         <Route
           path="/home/teams/team/player/add-player"

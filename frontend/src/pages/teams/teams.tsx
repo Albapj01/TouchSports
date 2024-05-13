@@ -28,7 +28,7 @@ const Teams = () => {
             />
           </Cards>
           <ButtonContainer>
-            <Link to="/home/teams/team/player/add-player">
+            <Link to="/home/teams/team/add-team">
               <Button
                 color="primary"
                 icon={addCircleOutline}

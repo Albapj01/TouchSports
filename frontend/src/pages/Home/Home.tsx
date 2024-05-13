@@ -7,7 +7,6 @@ import { getStatus } from "frontend/src/utils/api";
 import styled from "styled-components";
 
 const Home = () => {
-  console.log(getStatus());
   return (
     <>
       <IonPage>
