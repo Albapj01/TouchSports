@@ -26,14 +26,14 @@ export interface TrainerEntity extends Document {
     location: string;
     reserves: {
       trainerId: string;
-      teamId: string;
       centresId: string;
       reserveId: string;
       name: string;
       surname: string;
       email: string;
       telephone: string;
-      meterial: string;
+      teamId: string;
+      material: string;
       date: Date;
     }[];
     imageUrl: string;

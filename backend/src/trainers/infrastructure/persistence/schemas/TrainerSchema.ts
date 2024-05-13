@@ -45,15 +45,6 @@ export const TrainerSchema = new mongoose.Schema(
             email: {
               type: String,
             },
-            telephone: {
-              type: String,
-            },
-            material: {
-              type: String,
-            },
-            date: {
-              type: Date,
-            },
           },
         ],
       },
@@ -80,9 +71,6 @@ export const TrainerSchema = new mongoose.Schema(
             trainerId: {
               type: String,
             },
-            teamId: {
-              type: String,
-            },
             centresId: {
               type: String,
             },
@@ -97,6 +85,18 @@ export const TrainerSchema = new mongoose.Schema(
             },
             email: {
               type: String,
+            },
+            telephone: {
+              type: String,
+            },
+            teamId: {
+              type: String,
+            },
+            material: {
+              type: String,
+            },
+            date: {
+              type: Date,
             },
           },
         ],

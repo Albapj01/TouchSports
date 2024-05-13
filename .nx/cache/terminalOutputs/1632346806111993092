@@ -1,0 +1,194 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e8939893e4945f7d)
+[1m[31mDebugger listening on ws://localhost:9229/8ea46728-4c7a-4389-83db-e31d239514d7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8ea46728-4c7a-4389-83db-e31d239514d7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateReserveUseCase.ts:[32m[1m23:21[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 10 arguments, but got 9.
+  [0m [90m 21 |[39m     }[0m
+  [0m [90m 22 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mconst[39m reserve [33m=[39m [36mnew[39m [33mReserve[39m([0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m       trainerId[33m,[39m[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m[31m[1m>[22m[39m[90m 25 |[39m       centresId[33m,[39m[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m       reserveDTO[33m.[39mreserveId[33m,[39m[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m       reserveDTO[33m.[39mname[33m,[39m[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m       reserveDTO[33m.[39msurname[33m,[39m[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       reserveDTO[33m.[39memail[33m,[39m[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m       reserveDTO[33m.[39mtelephone[33m,[39m[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       reserveDTO[33m.[39mmeterial[33m,[39m[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m       reserveDTO[33m.[39mdate[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m     )[33m;[39m[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m[0m
+  [0m [90m 35 |[39m[0m
+  [0m [90m 36 |[39m     centres[33m.[39mreserves[33m.[39mpush(reserve)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (6ee9c88b73fbe16e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c980a9c603210f45)
+[1m[31mDebugger listening on ws://localhost:9229/55a4f867-13e4-460a-8779-01dd1456e5e0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/55a4f867-13e4-460a-8779-01dd1456e5e0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c8c9283e6679b3dd)
+[1m[31mDebugger listening on ws://localhost:9229/00d36935-d6a5-4593-ae3c-e7b8a2b081be[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/00d36935-d6a5-4593-ae3c-e7b8a2b081be[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (deac82e84e3ef550)
+[1m[31mDebugger listening on ws://localhost:9229/45093fe4-1b11-4424-a615-a79d0fac66c0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/45093fe4-1b11-4424-a615-a79d0fac66c0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateReserveUseCase.ts:[32m[1m31:18[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'ReserveDTO'.
+  [0m [90m 29 |[39m       reserveDTO[33m.[39memail[33m,[39m[0m
+  [0m [90m 30 |[39m       reserveDTO[33m.[39mtelephone[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       reserveDTO[33m.[39mteamId[33m,[39m[0m
+  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m       reserveDTO[33m.[39mmeterial[33m,[39m[0m
+  [0m [90m 33 |[39m       reserveDTO[33m.[39mdate[0m
+  [0m [90m 34 |[39m     )[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (deac82e84e3ef550)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (deac82e84e3ef550)
+[1m[31mDebugger listening on ws://localhost:9229/f3a95d78-e4cc-419b-9482-e9fc6f4ac0dd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f3a95d78-e4cc-419b-9482-e9fc6f4ac0dd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateReserveUseCase.ts:[32m[1m31:18[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'ReserveDTO'.
+  [0m [90m 29 |[39m       reserveDTO[33m.[39memail[33m,[39m[0m
+  [0m [90m 30 |[39m       reserveDTO[33m.[39mtelephone[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       reserveDTO[33m.[39mteamId[33m,[39m[0m
+  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m       reserveDTO[33m.[39mmeterial[33m,[39m[0m
+  [0m [90m 33 |[39m       reserveDTO[33m.[39mdate[0m
+  [0m [90m 34 |[39m     )[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (deac82e84e3ef550)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (deac82e84e3ef550)
+[1m[31mDebugger listening on ws://localhost:9229/2532c4e9-3cba-4388-ad82-805987960e41[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2532c4e9-3cba-4388-ad82-805987960e41[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (deac82e84e3ef550)
+[1m[31mDebugger listening on ws://localhost:9229/356e4990-7bf9-49e3-8604-c212f8e345e6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/356e4990-7bf9-49e3-8604-c212f8e345e6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f4fa52be6770eff1)
+[1m[31mDebugger listening on ws://localhost:9229/99a50077-98f4-4a77-88c1-e193c37e2e05[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/99a50077-98f4-4a77-88c1-e193c37e2e05[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (66d9162b81222b86)
+[1m[31mDebugger listening on ws://localhost:9229/4b04678e-07e3-4c07-b9ab-2049ed59a1f9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4b04678e-07e3-4c07-b9ab-2049ed59a1f9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m15:7[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type '{ trainerId: string; centresId: string; name: string; location: string; reserves: { trainerId: string; centresId: string; reserveId: string; name: string; surname: string; email: string; telephone: string; meterial: string; date: Date; }[]; imageUrl: string; }[]' is not assignable to parameter of type 'Centres[]'.
+  Type '{ trainerId: string; centresId: string; name: string; location: string; reserves: { trainerId: string; centresId: string; reserveId: string; name: string; surname: string; email: string; telephone: string; meterial: string; date: Date; }[]; imageUrl: string; }' is not assignable to type 'Centres'.
+  [0m [90m 13 |[39m       trainerEntity[33m.[39mteams[33m,[39m[0m
+  [0m [90m 14 |[39m       trainerEntity[33m.[39mimageUrl[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m       trainerEntity[33m.[39mcentres[33m,[39m[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m     )[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+  [0m [90m 18 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m57:7[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; centresId: string; name: string; location: string; reserves: { trainerId: string; centresId: string; reserveId: string; name: string; surname: string; email: string; telephone: string; meterial: string; date: Date; }[]; imageUrl: string; }' is not assignable to type 'Centres'.
+  Types of property 'reserves' are incompatible.
+    Type '{ trainerId: string; centresId: string; reserveId: string; name: string; surname: string; email: string; telephone: string; meterial: string; date: Date; }[]' is not assignable to type 'Reserve[]'.
+      Property 'teamId' is missing in type '{ trainerId: string; centresId: string; reserveId: string; name: string; surname: string; email: string; telephone: string; meterial: string; date: Date; }' but required in type 'Reserve'.
+  [0m [90m 55 |[39m     [36mif[39m (trainer) {[0m
+  [0m [90m 56 |[39m       [36mconst[39m centres [33m=[39m trainer[33m.[39mcentres[33m.[39mfind((centre) [33m=>[39m centre[33m.[39mcentresId [33m===[39m centresId)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 57 |[39m       [36mreturn[39m centres[33m;[39m[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 58 |[39m     }[0m
+  [0m [90m 59 |[39m     [36mreturn[39m [36mnull[39m[33m;[39m[0m
+  [0m [90m 60 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (66d9162b81222b86)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (66d9162b81222b86)
+[1m[31mDebugger listening on ws://localhost:9229/95600402-73e9-4984-8360-ee06b4348151[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/95600402-73e9-4984-8360-ee06b4348151[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m161:20[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'centres'. Did you mean 'centre'?
+  [0m [90m 159 |[39m   )[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 160 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m[31m[1m>[22m[39m[90m 161 |[39m       { trainerId[33m:[39m centres[33m.[39mtrainerId[33m,[39m [32m"centres.centresId"[39m[33m:[39m centres[33m.[39mcentresId }[33m,[39m[0m
+  [0m [90m     |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 162 |[39m       { $push[33m:[39m { [32m"centres.$.reserves"[39m[33m:[39m reserve } }[0m
+  [0m [90m 163 |[39m     )[33m;[39m[0m
+  [0m [90m 164 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m161:60[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'centres'. Did you mean 'centre'?
+  [0m [90m 159 |[39m   )[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 160 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m[31m[1m>[22m[39m[90m 161 |[39m       { trainerId[33m:[39m centres[33m.[39mtrainerId[33m,[39m [32m"centres.centresId"[39m[33m:[39m centres[33m.[39mcentresId }[33m,[39m[0m
+  [0m [90m     |[39m                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 162 |[39m       { $push[33m:[39m { [32m"centres.$.reserves"[39m[33m:[39m reserve } }[0m
+  [0m [90m 163 |[39m     )[33m;[39m[0m
+  [0m [90m 164 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (8d45257d2efa302b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m161:59[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'centres'. Did you mean 'centre'?
+  [0m [90m 159 |[39m   )[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {[0m
+  [0m [90m 160 |[39m     [36mawait[39m [36mthis[39m[33m.[39mmodel[33m.[39mfindOneAndUpdate([0m
+  [0m[31m[1m>[22m[39m[90m 161 |[39m       { trainerId[33m:[39m centre[33m.[39mtrainerId[33m,[39m [32m"centres.centresId"[39m[33m:[39m centres[33m.[39mcentresId }[33m,[39m[0m
+  [0m [90m     |[39m                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 162 |[39m       { $push[33m:[39m { [32m"centres.$.reserves"[39m[33m:[39m reserve } }[0m
+  [0m [90m 163 |[39m     )[33m;[39m[0m
+  [0m [90m 164 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (67cd1eb64bb8acad)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4e23d2fbb41d5f11)
+[1m[31mDebugger listening on ws://localhost:9229/cbf5f12b-59f5-40ac-9f88-689bbe49417b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cbf5f12b-59f5-40ac-9f88-689bbe49417b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

@@ -1,0 +1,166 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9d42a67fb71779b6)
+[1m[31mDebugger listening on ws://localhost:9229/a0324f00-e2e4-4b5d-ab43-75e8b096946f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a0324f00-e2e4-4b5d-ab43-75e8b096946f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateReserveUseCase.ts:[32m[1m32:18[22m[39m[1m[39m[22m
+[90mTS2551: [39mProperty 'material' does not exist on type 'ReserveDTO'. Did you mean 'meterial'?
+  [0m [90m 30 |[39m       reserveDTO[33m.[39mtelephone[33m,[39m[0m
+  [0m [90m 31 |[39m       reserveDTO[33m.[39mteamId[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m       reserveDTO[33m.[39mmaterial[33m,[39m[0m
+  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m       reserveDTO[33m.[39mdate[0m
+  [0m [90m 34 |[39m     )[33m;[39m[0m
+  [0m [90m 35 |[39m     console[33m.[39mlog(reserve)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c7789100548426cf)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllCentresUseCase.ts:[32m[1m16:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; centresId: string; name: string; location: string; reserves: Reserve[]; imageUrl: string; }[]' is not assignable to type 'CentresDTO[]'.
+  Type '{ trainerId: string; centresId: string; name: string; location: string; reserves: Reserve[]; imageUrl: string; }' is not assignable to type 'CentresDTO'.
+    Types of property 'reserves' are incompatible.
+      Type 'Reserve[]' is not assignable to type 'ReserveDTO[]'.
+        Property 'material' is missing in type 'Reserve' but required in type 'ReserveDTO'.
+  [0m [90m 14 |[39m     [36mconst[39m centres[33m:[39m [33mCentres[39m[] [33m=[39m trainer[33m.[39mcentres[33m;[39m[0m
+  [0m [90m 15 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [36mconst[39m centresDTOs[33m:[39m [33mCentresDTO[39m[] [33m=[39m centres[33m.[39mmap((centre) [33m=>[39m ({[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m       trainerId[33m:[39m trainerId[33m,[39m[0m
+  [0m [90m 18 |[39m       centresId[33m:[39m centre[33m.[39mcentresId[33m,[39m[0m
+  [0m [90m 19 |[39m       name[33m:[39m centre[33m.[39mname[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m24:13[22m[39m[1m[39m[22m
+[90mTS2322: [39mType 'Centres[]' is not assignable to type 'CentresDTO[]'.
+  Type 'Centres' is not assignable to type 'CentresDTO'.
+    Types of property 'reserves' are incompatible.
+      Type 'Reserve[]' is not assignable to type 'ReserveDTO[]'.
+  [0m [90m 22 |[39m             teams[33m:[39m trainer[33m.[39mteams[33m,[39m[0m
+  [0m [90m 23 |[39m             imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m             centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m         }[0m
+  [0m [90m 26 |[39m             [0m
+  [0m [90m 27 |[39m     }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (c7789100548426cf)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m15:7[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type '{ trainerId: string; centresId: string; name: string; location: string; reserves: { trainerId: string; centresId: string; reserveId: string; name: string; surname: string; email: string; telephone: string; teamId: string; meterial: string; date: Date; }[]; imageUrl: string; }[]' is not assignable to parameter of type 'Centres[]'.
+  Type '{ trainerId: string; centresId: string; name: string; location: string; reserves: { trainerId: string; centresId: string; reserveId: string; name: string; surname: string; email: string; telephone: string; teamId: string; meterial: string; date: Date; }[]; imageUrl: string; }' is not assignable to type 'Centres'.
+  [0m [90m 13 |[39m       trainerEntity[33m.[39mteams[33m,[39m[0m
+  [0m [90m 14 |[39m       trainerEntity[33m.[39mimageUrl[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m       trainerEntity[33m.[39mcentres[33m,[39m[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m     )[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+  [0m [90m 18 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m53:29[22m[39m[1m[39m[22m
+[90mTS2551: [39mProperty 'meterial' does not exist on type 'Reserve'. Did you mean 'material'?
+  [0m [90m 51 |[39m           telephone[33m:[39m reserve[33m.[39mtelephone[33m,[39m[0m
+  [0m [90m 52 |[39m           teamId[33m:[39m reserve[33m.[39mteamId[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 53 |[39m           material[33m:[39m reserve[33m.[39mmeterial[33m,[39m[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 54 |[39m           date[33m:[39m reserve[33m.[39mdate[33m,[39m[0m
+  [0m [90m 55 |[39m         }))[33m,[39m[0m
+  [0m [90m 56 |[39m       }))[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts:[32m[1m57:7[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; centresId: string; name: string; location: string; reserves: { trainerId: string; centresId: string; reserveId: string; name: string; surname: string; email: string; telephone: string; teamId: string; meterial: string; date: Date; }[]; imageUrl: string; }' is not assignable to type 'Centres'.
+  Types of property 'reserves' are incompatible.
+    Type '{ trainerId: string; centresId: string; reserveId: string; name: string; surname: string; email: string; telephone: string; teamId: string; meterial: string; date: Date; }[]' is not assignable to type 'Reserve[]'.
+      Property 'material' is missing in type '{ trainerId: string; centresId: string; reserveId: string; name: string; surname: string; email: string; telephone: string; teamId: string; meterial: string; date: Date; }' but required in type 'Reserve'.
+  [0m [90m 55 |[39m     [36mif[39m (trainer) {[0m
+  [0m [90m 56 |[39m       [36mconst[39m centres [33m=[39m trainer[33m.[39mcentres[33m.[39mfind((centre) [33m=>[39m centre[33m.[39mcentresId [33m===[39m centresId)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 57 |[39m       [36mreturn[39m centres[33m;[39m[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 58 |[39m     }[0m
+  [0m [90m 59 |[39m     [36mreturn[39m [36mnull[39m[33m;[39m[0m
+  [0m [90m 60 |[39m   }[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (e35059cadd553f6b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m53:29[22m[39m[1m[39m[22m
+[90mTS2551: [39mProperty 'meterial' does not exist on type 'Reserve'. Did you mean 'material'?
+  [0m [90m 51 |[39m           telephone[33m:[39m reserve[33m.[39mtelephone[33m,[39m[0m
+  [0m [90m 52 |[39m           teamId[33m:[39m reserve[33m.[39mteamId[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 53 |[39m           material[33m:[39m reserve[33m.[39mmeterial[33m,[39m[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 54 |[39m           date[33m:[39m reserve[33m.[39mdate[33m,[39m[0m
+  [0m [90m 55 |[39m         }))[33m,[39m[0m
+  [0m [90m 56 |[39m       }))[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (e35059cadd553f6b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (da040ec0c997362a)
+[1m[31mDebugger listening on ws://localhost:9229/2780b10b-77b3-47ae-95ce-4efaed8a99e1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2780b10b-77b3-47ae-95ce-4efaed8a99e1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreateReserveUseCase.ts:[32m[1m33:7[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 9 arguments, but got 10.
+  [0m [90m 31 |[39m       reserveDTO[33m.[39mteamId[33m,[39m[0m
+  [0m [90m 32 |[39m       reserveDTO[33m.[39mmaterial[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m       reserveDTO[33m.[39mdate[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m     )[33m;[39m[0m
+  [0m [90m 35 |[39m     console[33m.[39mlog(reserve)[33m;[39m[0m
+  [0m [90m 36 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllCentresUseCase.ts:[32m[1m16:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; centresId: string; name: string; location: string; reserves: Reserve[]; imageUrl: string; }[]' is not assignable to type 'CentresDTO[]'.
+  Type '{ trainerId: string; centresId: string; name: string; location: string; reserves: Reserve[]; imageUrl: string; }' is not assignable to type 'CentresDTO'.
+    Types of property 'reserves' are incompatible.
+      Type 'Reserve[]' is not assignable to type 'ReserveDTO[]'.
+  [0m [90m 14 |[39m     [36mconst[39m centres[33m:[39m [33mCentres[39m[] [33m=[39m trainer[33m.[39mcentres[33m;[39m[0m
+  [0m [90m 15 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [36mconst[39m centresDTOs[33m:[39m [33mCentresDTO[39m[] [33m=[39m centres[33m.[39mmap((centre) [33m=>[39m ({[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m       trainerId[33m:[39m trainerId[33m,[39m[0m
+  [0m [90m 18 |[39m       centresId[33m:[39m centre[33m.[39mcentresId[33m,[39m[0m
+  [0m [90m 19 |[39m       name[33m:[39m centre[33m.[39mname[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m24:13[22m[39m[1m[39m[22m
+[90mTS2322: [39mType 'Centres[]' is not assignable to type 'CentresDTO[]'.
+  Type 'Centres' is not assignable to type 'CentresDTO'.
+    Types of property 'reserves' are incompatible.
+      Type 'Reserve[]' is not assignable to type 'ReserveDTO[]'.
+        Property 'teamId' is missing in type 'Reserve' but required in type 'ReserveDTO'.
+  [0m [90m 22 |[39m             teams[33m:[39m trainer[33m.[39mteams[33m,[39m[0m
+  [0m [90m 23 |[39m             imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m             centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m         }[0m
+  [0m [90m 26 |[39m             [0m
+  [0m [90m 27 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m52:27[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'Reserve'.
+  [0m [90m 50 |[39m           email[33m:[39m reserve[33m.[39memail[33m,[39m[0m
+  [0m [90m 51 |[39m           telephone[33m:[39m reserve[33m.[39mtelephone[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 52 |[39m           teamId[33m:[39m reserve[33m.[39mteamId[33m,[39m[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 53 |[39m           material[33m:[39m reserve[33m.[39mmaterial[33m,[39m[0m
+  [0m [90m 54 |[39m           date[33m:[39m reserve[33m.[39mdate[33m,[39m[0m
+  [0m [90m 55 |[39m         }))[33m,[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (5587900fe9540b19)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e5c9b0ef0f2566cc)
+[1m[31mDebugger listening on ws://localhost:9229/1a4420d6-41bd-4600-9e84-8cd166702fe2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1a4420d6-41bd-4600-9e84-8cd166702fe2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

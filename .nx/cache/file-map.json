@@ -90,32 +90,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
       },
       {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "3674156215951047428"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
       },
       {
         "file": "docker-compose.yml",
@@ -126,99 +106,339 @@
         "hash": "10104707244890837311"
       },
       {
-        "file": "package.json",
-        "hash": "1098629939364157896"
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
       },
       {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4595224623132836319"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3674156215951047428"
+      },
+      {
+        "file": "package.json",
+        "hash": "1098629939364157896"
       }
     ],
     "projectFileMap": {
-      "frontend-e2e": [
+      "backend": [
         {
-          "file": "frontend-e2e/.eslintrc.json",
-          "hash": "12199001048877152138"
-        },
-        {
-          "file": "frontend-e2e/cypress.config.ts",
-          "hash": "12586416982398116375",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "frontend-e2e/project.json",
-          "hash": "9587367518965578926"
-        },
-        {
-          "file": "frontend-e2e/src/e2e/app.cy.ts",
-          "hash": "16383929608521807846"
-        },
-        {
-          "file": "frontend-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "frontend-e2e/src/support/app.po.ts",
-          "hash": "11177559716139350958"
-        },
-        {
-          "file": "frontend-e2e/src/support/commands.ts",
-          "hash": "5397443931564808659"
-        },
-        {
-          "file": "frontend-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "frontend-e2e/tsconfig.json",
-          "hash": "4966899981699294432"
-        }
-      ],
-      "backend-e2e": [
-        {
-          "file": "backend-e2e/.eslintrc.json",
+          "file": "backend/.eslintrc.json",
           "hash": "11808533155536463924"
         },
         {
-          "file": "backend-e2e/jest.config.ts",
-          "hash": "2507509416108260741"
+          "file": "backend/jest.config.ts",
+          "hash": "16506059037693097726"
         },
         {
-          "file": "backend-e2e/project.json",
-          "hash": "1553543349876778842"
+          "file": "backend/project.json",
+          "hash": "9209280618898639585"
         },
         {
-          "file": "backend-e2e/src/backend/backend.spec.ts",
-          "hash": "4579662685003779048",
+          "file": "backend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "backend/src/main.ts",
+          "hash": "2138807333775988355",
           "deps": [
-            "npm:axios"
+            "npm:express",
+            "npm:path",
+            "npm:cors",
+            "npm:dotenv",
+            "npm:express-promise-router",
+            "npm:body-parser",
+            "npm:mongoose"
           ]
         },
         {
-          "file": "backend-e2e/src/support/global-setup.ts",
-          "hash": "2568409276037275290"
+          "file": "backend/src/trainers/application/DTOs/CentresDTO.ts",
+          "hash": "3725186235005053150"
         },
         {
-          "file": "backend-e2e/src/support/global-teardown.ts",
-          "hash": "5275447082211835490"
+          "file": "backend/src/trainers/application/DTOs/PlayerDTO.ts",
+          "hash": "4709164107403977870"
         },
         {
-          "file": "backend-e2e/src/support/test-setup.ts",
-          "hash": "10984585515912236441",
+          "file": "backend/src/trainers/application/DTOs/ReserveDTO.ts",
+          "hash": "3332032326161408518"
+        },
+        {
+          "file": "backend/src/trainers/application/DTOs/TeamDTO.ts",
+          "hash": "11258628062309180008"
+        },
+        {
+          "file": "backend/src/trainers/application/DTOs/TrainerDTO.ts",
+          "hash": "1042725470405942626"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/CreateCentresUseCase.ts",
+          "hash": "90895768009374889"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/CreatePlayerUseCase.ts",
+          "hash": "10172972496450674576"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/CreateReserveUseCase.ts",
+          "hash": "16368324596760208032"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/CreateTeamUseCase.ts",
+          "hash": "8003720174007026063"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/CreateTrainerUseCase.ts",
+          "hash": "9892720751765977336"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/DeleteCentresByIdUseCase.ts",
+          "hash": "6630697050058606574"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/DeletePlayerByIdUseCase.ts",
+          "hash": "11746786035604554913"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/DeleteTeamByIdUseCase.ts",
+          "hash": "18300504018028987776"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/GetAllCentresUseCase.ts",
+          "hash": "3814255810140162230"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts",
+          "hash": "11528774346434113398"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/GetAllTeamsUseCase.ts",
+          "hash": "3016656884726133755"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts",
+          "hash": "9604754788415381816"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts",
+          "hash": "11634067779822293355"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/UpdateCentresByIdUseCase.ts",
+          "hash": "6532748891905423613"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts",
+          "hash": "11746279394841885922"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/UpdateTeamByIdUseCase.ts",
+          "hash": "13839735774494877890"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/UpdateTrainerUseCase.ts",
+          "hash": "9166328798779446353"
+        },
+        {
+          "file": "backend/src/trainers/domain/model/Centres.ts",
+          "hash": "8421923958439484405"
+        },
+        {
+          "file": "backend/src/trainers/domain/model/Player.ts",
+          "hash": "15276234515945139951"
+        },
+        {
+          "file": "backend/src/trainers/domain/model/Reserve.ts",
+          "hash": "3455165417656818488"
+        },
+        {
+          "file": "backend/src/trainers/domain/model/Team.ts",
+          "hash": "10232962870683341233"
+        },
+        {
+          "file": "backend/src/trainers/domain/model/Trainer.ts",
+          "hash": "576915926768687131"
+        },
+        {
+          "file": "backend/src/trainers/domain/port/TrainerPort.ts",
+          "hash": "13632212549824128799"
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/CreateCentresController.ts",
+          "hash": "2428694326123916977",
           "deps": [
-            "npm:axios"
+            "npm:express"
           ]
         },
         {
-          "file": "backend-e2e/tsconfig.json",
-          "hash": "2346920493880922870"
+          "file": "backend/src/trainers/infrastructure/controller/CreatePlayerController.ts",
+          "hash": "10186907644024483245",
+          "deps": [
+            "npm:express"
+          ]
         },
         {
-          "file": "backend-e2e/tsconfig.spec.json",
-          "hash": "14226830188665428950"
+          "file": "backend/src/trainers/infrastructure/controller/CreateReserveController.ts",
+          "hash": "13322539875976926609",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/CreateTeamController.ts",
+          "hash": "2219188963493936857",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/CreateTrainerController.ts",
+          "hash": "17299752981234931747",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/DeleteCentresByIdController.ts",
+          "hash": "14249383894730580958",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/DeletePlayerByIdController.ts",
+          "hash": "12452485256867254917",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/DeleteTeamByIdController.ts",
+          "hash": "6659379283616269611",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/GetAllCentresController.ts",
+          "hash": "639907699218703003",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/GetAllPlayersController.ts",
+          "hash": "18230088675783554859",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/GetAllTeamsController.ts",
+          "hash": "13749774079613944277",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/GetPlayerByIdController.ts",
+          "hash": "16623099418824023327",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/GetTrainerByIdController.ts",
+          "hash": "6788445650915552404",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/UpdateCentresByIdController.ts",
+          "hash": "10933360237836632495",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/UpdatePlayerByIdController.ts",
+          "hash": "7211235521061842848",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/UpdateTeamByIdController.ts",
+          "hash": "4845300273553570865",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/UpdateTrainerController.ts",
+          "hash": "5206658431590381834",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/persistence/entities/TrainerEntity.ts",
+          "hash": "13506884229048807777",
+          "deps": [
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts",
+          "hash": "18157472516800432010"
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts",
+          "hash": "6320731591722268168",
+          "deps": [
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/persistence/schemas/TrainerSchema.ts",
+          "hash": "14124467235379886026",
+          "deps": [
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "backend/tsconfig.app.json",
+          "hash": "3852056039976130118"
+        },
+        {
+          "file": "backend/tsconfig.json",
+          "hash": "9420862676426701392"
+        },
+        {
+          "file": "backend/tsconfig.spec.json",
+          "hash": "17313551537729802733"
+        },
+        {
+          "file": "backend/webpack.config.js",
+          "hash": "5708803163266262522",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
         }
       ],
       "frontend": [
@@ -546,299 +766,90 @@
           ]
         }
       ],
-      "backend": [
+      "frontend-e2e": [
         {
-          "file": "backend/.eslintrc.json",
+          "file": "frontend-e2e/.eslintrc.json",
+          "hash": "12199001048877152138"
+        },
+        {
+          "file": "frontend-e2e/cypress.config.ts",
+          "hash": "12586416982398116375",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "frontend-e2e/project.json",
+          "hash": "9587367518965578926"
+        },
+        {
+          "file": "frontend-e2e/src/e2e/app.cy.ts",
+          "hash": "16383929608521807846"
+        },
+        {
+          "file": "frontend-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "frontend-e2e/src/support/app.po.ts",
+          "hash": "11177559716139350958"
+        },
+        {
+          "file": "frontend-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "frontend-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "frontend-e2e/tsconfig.json",
+          "hash": "4966899981699294432"
+        }
+      ],
+      "backend-e2e": [
+        {
+          "file": "backend-e2e/.eslintrc.json",
           "hash": "11808533155536463924"
         },
         {
-          "file": "backend/jest.config.ts",
-          "hash": "16506059037693097726"
+          "file": "backend-e2e/jest.config.ts",
+          "hash": "2507509416108260741"
         },
         {
-          "file": "backend/project.json",
-          "hash": "9209280618898639585"
+          "file": "backend-e2e/project.json",
+          "hash": "1553543349876778842"
         },
         {
-          "file": "backend/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "backend/src/main.ts",
-          "hash": "18192548598386049059",
+          "file": "backend-e2e/src/backend/backend.spec.ts",
+          "hash": "4579662685003779048",
           "deps": [
-            "npm:express",
-            "npm:path",
-            "npm:cors",
-            "npm:dotenv",
-            "npm:express-promise-router",
-            "npm:body-parser",
-            "npm:mongoose"
+            "npm:axios"
           ]
         },
         {
-          "file": "backend/src/trainers/application/DTOs/PlayerDTO.ts",
-          "hash": "4709164107403977870"
+          "file": "backend-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
         },
         {
-          "file": "backend/src/trainers/application/DTOs/ReserveDTO.ts",
-          "hash": "15550282481580830048"
+          "file": "backend-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
         },
         {
-          "file": "backend/src/trainers/application/DTOs/TeamDTO.ts",
-          "hash": "11258628062309180008"
-        },
-        {
-          "file": "backend/src/trainers/application/DTOs/TrainerDTO.ts",
-          "hash": "1042725470405942626"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/CreatePlayerUseCase.ts",
-          "hash": "10172972496450674576"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/CreateTeamUseCase.ts",
-          "hash": "8003720174007026063"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/CreateTrainerUseCase.ts",
-          "hash": "9892720751765977336"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/DeletePlayerByIdUseCase.ts",
-          "hash": "11746786035604554913"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/DeleteTeamByIdUseCase.ts",
-          "hash": "18300504018028987776"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts",
-          "hash": "11528774346434113398"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/GetAllTeamsUseCase.ts",
-          "hash": "3016656884726133755"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts",
-          "hash": "9604754788415381816"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts",
-          "hash": "11634067779822293355"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts",
-          "hash": "11746279394841885922"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/UpdateTeamByIdUseCase.ts",
-          "hash": "13839735774494877890"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/UpdateTrainerUseCase.ts",
-          "hash": "9166328798779446353"
-        },
-        {
-          "file": "backend/src/trainers/domain/model/Centres.ts",
-          "hash": "8421923958439484405"
-        },
-        {
-          "file": "backend/src/trainers/domain/model/Player.ts",
-          "hash": "15276234515945139951"
-        },
-        {
-          "file": "backend/src/trainers/domain/model/Reserve.ts",
-          "hash": "9456022240659272439"
-        },
-        {
-          "file": "backend/src/trainers/domain/model/Team.ts",
-          "hash": "10232962870683341233"
-        },
-        {
-          "file": "backend/src/trainers/domain/model/Trainer.ts",
-          "hash": "576915926768687131"
-        },
-        {
-          "file": "backend/src/trainers/domain/port/TrainerPort.ts",
-          "hash": "8866483906760033452"
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/CreatePlayerController.ts",
-          "hash": "10186907644024483245",
+          "file": "backend-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
           "deps": [
-            "npm:express"
+            "npm:axios"
           ]
         },
         {
-          "file": "backend/src/trainers/infrastructure/controller/CreateTeamController.ts",
-          "hash": "2219188963493936857",
-          "deps": [
-            "npm:express"
-          ]
+          "file": "backend-e2e/tsconfig.json",
+          "hash": "2346920493880922870"
         },
         {
-          "file": "backend/src/trainers/infrastructure/controller/CreateTrainerController.ts",
-          "hash": "17299752981234931747",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/DeletePlayerByIdController.ts",
-          "hash": "12452485256867254917",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/DeleteTeamByIdController.ts",
-          "hash": "6659379283616269611",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/GetAllPlayersController.ts",
-          "hash": "18230088675783554859",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/GetAllTeamsController.ts",
-          "hash": "13749774079613944277",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/GetPlayerByIdController.ts",
-          "hash": "16623099418824023327",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/GetTrainerByIdController.ts",
-          "hash": "6788445650915552404",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/UpdatePlayerByIdController.ts",
-          "hash": "7211235521061842848",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/UpdateTeamByIdController.ts",
-          "hash": "4845300273553570865",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/UpdateTrainerController.ts",
-          "hash": "5206658431590381834",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/persistence/entities/TrainerEntity.ts",
-          "hash": "5639602915463142836",
-          "deps": [
-            "npm:mongoose"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts",
-          "hash": "4007339651705229591"
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts",
-          "hash": "16980138954329128878",
-          "deps": [
-            "npm:mongoose"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/persistence/schemas/TrainerSchema.ts",
-          "hash": "5978733678824290871",
-          "deps": [
-            "npm:mongoose"
-          ]
-        },
-        {
-          "file": "backend/tsconfig.app.json",
-          "hash": "3852056039976130118"
-        },
-        {
-          "file": "backend/tsconfig.json",
-          "hash": "9420862676426701392"
-        },
-        {
-          "file": "backend/tsconfig.spec.json",
-          "hash": "17313551537729802733"
-        },
-        {
-          "file": "backend/webpack.config.js",
-          "hash": "5708803163266262522",
-          "deps": [
-            "npm:@nx/webpack"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/application/DTOs/CentresDTO.ts",
-          "hash": "3725186235005053150"
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/CreateCentresController.ts",
-          "hash": "2428694326123916977",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/CreateCentresUseCase.ts",
-          "hash": "90895768009374889"
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/UpdateCentresByIdUseCase.ts",
-          "hash": "6532748891905423613"
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/UpdateCentresByIdController.ts",
-          "hash": "10933360237836632495",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/GetAllCentresUseCase.ts",
-          "hash": "3814255810140162230"
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/GetAllCentresController.ts",
-          "hash": "639907699218703003",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/DeleteCentresByIdUseCase.ts",
-          "hash": "6630697050058606574"
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/DeleteCentresByIdController.ts",
-          "hash": "14249383894730580958",
-          "deps": [
-            "npm:express"
-          ]
+          "file": "backend-e2e/tsconfig.spec.json",
+          "hash": "14226830188665428950"
         }
       ]
     }

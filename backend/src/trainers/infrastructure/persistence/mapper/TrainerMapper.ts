@@ -43,17 +43,17 @@ export class TrainerMapper {
         location: centre.location,
         reserves: centre.reserves.map((reserve) => ({
           trainerId: reserve.trainerId,
-          teamId: reserve.teamId,
           centresId: reserve.centresId,
           reserveId: reserve.reserveId,
           name: reserve.name,
           surname: reserve.surname,
           email: reserve.email,
           telephone: reserve.telephone,
-          material: reserve.meterial,
+          teamId: reserve.teamId,
+          material: reserve.material,
           date: reserve.date,
-        }))
-      }))
+        })),
+      })),
     };
   }
 }

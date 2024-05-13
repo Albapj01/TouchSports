@@ -50,6 +50,14 @@ export class MongoTrainerAdapter implements TrainerPort {
     }
     return null;
   }
+  async findByCentresId(centresId: string, trainerId: string): Promise<Centres> {
+    const trainer = await this.model.findOne({ trainerId });
+    if (trainer) {
+      const centres = trainer.centres.find((centre) => centre.centresId === centresId);
+      return centres;
+    }
+    return null;
+  }
   async findById(trainerId: string): Promise<Trainer> {
     const trainer = await this.model.findOne({ trainerId: trainerId });
     return TrainerMapper.toDomain(trainer);
@@ -145,8 +153,14 @@ export class MongoTrainerAdapter implements TrainerPort {
       { $set: { centres: centres } }
     );
   }
-  saveReserve(reserve: Reserve): Promise<void> {
-    throw new Error("Method not implemented.");
+  async saveReserve(reserve: Reserve,
+    centre: Centres,
+    trainer: Trainer
+  ): Promise<void> {
+    await this.model.findOneAndUpdate(
+      { trainerId: centre.trainerId, "centres.centresId": centre.centresId },
+      { $push: { "centres.$.reserves": reserve } }
+    );
   }
   getAllReserve(): Promise<void> {
     throw new Error("Method not implemented.");
