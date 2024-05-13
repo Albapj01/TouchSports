@@ -26,4 +26,5 @@ export interface TrainerPort {
   saveReserve(reserve: Reserve, centres:Centres, trainer: Trainer): Promise<void>;
   updateReserve(reserve: Reserve[], trainerId: string, centresId: string): Promise<void>;
   getAllReserves(trainerId: string, centresId: string): Promise<Reserve[]>;
+  deleteReserve(reserve: Reserve[], centresId: string, trainerId: string): Promise<void>;
 }

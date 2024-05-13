@@ -91,44 +91,44 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": "package-lock.json",
+        "hash": "2053365614161734657"
+      },
+      {
         "file": ".gitignore",
         "hash": "1398178998339616447"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
       },
       {
         "file": "README.md",
         "hash": "10104707244890837311"
       },
       {
-        "file": "package-lock.json",
-        "hash": "2053365614161734657"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
-      },
-      {
         "file": "package.json",
         "hash": "9006815406624962352"
       },
       {
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
         "file": ".vscode/settings.json",
         "hash": "6703405954808146235"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
       },
       {
         "file": "nx.json",
@@ -533,7 +533,7 @@
         },
         {
           "file": "backend/src/main.ts",
-          "hash": "14427642264768421709",
+          "hash": "5676928322023108207",
           "deps": [
             "npm:express",
             "npm:path",
@@ -654,7 +654,7 @@
         },
         {
           "file": "backend/src/trainers/domain/port/TrainerPort.ts",
-          "hash": "14896965017600993866"
+          "hash": "963828224611053688"
         },
         {
           "file": "backend/src/trainers/infrastructure/controller/CreateCentresController.ts",
@@ -788,7 +788,7 @@
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts",
-          "hash": "6591118650362023158",
+          "hash": "613783270889738146",
           "deps": [
             "npm:mongoose"
           ]
@@ -837,6 +837,17 @@
         {
           "file": "backend/src/trainers/infrastructure/controller/GetAllReservesController.ts",
           "hash": "2383986104368275266",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts",
+          "hash": "3539013753468563107"
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/DeleteReserveByIdController.ts",
+          "hash": "2781021240453944927",
           "deps": [
             "npm:express"
           ]

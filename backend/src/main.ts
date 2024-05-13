@@ -44,6 +44,8 @@ import { UpdateReserveByIdUseCase } from "./trainers/application/usecases/Update
 import { UpdateReserveByIdController } from "./trainers/infrastructure/controller/UpdateReserveByIdController";
 import { GetAllReservesUseCase } from "./trainers/application/usecases/GetAllReservesUseCase";
 import { GetAllReservesController } from "./trainers/infrastructure/controller/GetAllReservesController";
+import { DeleteReserveByIdUseCase } from "./trainers/application/usecases/DeleteReserveByIdUseCase";
+import { DeleteReserveByIdController } from "./trainers/infrastructure/controller/DeleteReserveByIdController";
 
 dotenv.config();
 const app = express();
@@ -220,6 +222,17 @@ const getAllReservesController = new GetAllReservesController(
 router.get("/api/trainer/:trainerId/centres/:centresId/reserves", async (req, res) => {
   return getAllReservesController.handle(req, res);
 });
+
+const deleteReserveByIdUseCase = new DeleteReserveByIdUseCase(trainerAdapter);
+const deleteReserveByIdController = new DeleteReserveByIdController(
+  deleteReserveByIdUseCase
+);
+router.delete(
+  "/api/trainer/:trainerId/centres/:centresId/reserve/:reserveId",
+  async (req, res) => {
+    return deleteReserveByIdController.handle(req, res);
+  }
+);
 
 const start = async () => {
   try {

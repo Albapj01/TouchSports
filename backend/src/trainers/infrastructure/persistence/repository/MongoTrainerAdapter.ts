@@ -178,4 +178,20 @@ export class MongoTrainerAdapter implements TrainerPort {
     const centres = domainTrainer.centres.find((centre) => centre.centresId === centresId);
     return centres.reserves;
   }
+  async deleteReserve(
+    reserves: Reserve[],
+    centresId: string,
+    trainerId: string
+  ): Promise<void> {
+    await this.model.findOneAndUpdate(
+      { trainerId: trainerId, "centres.centresId": centresId },
+      {
+        $pull: {
+          "centres.$.reserves": {
+            reserveId: { $in: reserves.map((reserve) => reserve.reserveId) },
+          },
+        },
+      }
+    );
+  }
 }
