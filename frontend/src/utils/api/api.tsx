@@ -52,8 +52,14 @@ const createTeam = async (
   });
 };
 
+const getTeamById = async (trainerId: string, teamId: string) => {
+  const response = await axios.get(`${myApi}/trainer/${trainerId}/team/${teamId}`);
+  return response.data;
+};
+
 export default {
   createTrainer,
   getTrainerById,
   createTeam,
+  getTeamById,
 };
