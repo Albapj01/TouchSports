@@ -13307,17 +13307,17 @@
       },
       {
         "source": "frontend",
-        "target": "npm:axios",
-        "type": "static"
-      },
-      {
-        "source": "frontend",
         "target": "npm:@nx/webpack",
         "type": "static"
       },
       {
         "source": "frontend",
         "target": "npm:@nx/react",
+        "type": "static"
+      },
+      {
+        "source": "frontend",
+        "target": "npm:axios",
         "type": "static"
       }
     ],

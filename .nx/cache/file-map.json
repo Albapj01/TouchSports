@@ -97,44 +97,44 @@
         "hash": "10104707244890837311"
       },
       {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
-      },
-      {
         "file": "jest.config.ts",
         "hash": "12333515226966617182"
-      },
-      {
-        "file": "package.json",
-        "hash": "5054094051040038124"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
       },
       {
         "file": "package-lock.json",
         "hash": "15331977578383813160"
       },
       {
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "package.json",
+        "hash": "5054094051040038124"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
+      },
+      {
         "file": "nx.json",
         "hash": "4595224623132836319"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
       }
     ],
     "projectFileMap": {
@@ -378,7 +378,7 @@
         },
         {
           "file": "frontend/src/pages/home/home.tsx",
-          "hash": "15873991491424852212",
+          "hash": "18241204761860464805",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components"
@@ -394,7 +394,7 @@
         },
         {
           "file": "frontend/src/pages/profile/profile.tsx",
-          "hash": "7984784488004327171",
+          "hash": "100342954220419478",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components"
@@ -412,7 +412,7 @@
         },
         {
           "file": "frontend/src/pages/sign-in/signIn.tsx",
-          "hash": "14599277780262833398",
+          "hash": "7433219756648735156",
           "deps": [
             "npm:@ionic/react",
             "npm:ionicons",
@@ -433,7 +433,7 @@
         },
         {
           "file": "frontend/src/pages/teams/teams.tsx",
-          "hash": "17314263310397129797",
+          "hash": "8644817709259632419",
           "deps": [
             "npm:@ionic/react",
             "npm:react-router-dom",
@@ -455,13 +455,6 @@
         {
           "file": "frontend/src/theme/variables.css",
           "hash": "15012374211378204362"
-        },
-        {
-          "file": "frontend/src/utils/api.ts",
-          "hash": "17037900596529299464",
-          "deps": [
-            "npm:axios"
-          ]
         },
         {
           "file": "frontend/src/utils/funcions/storage.tsx",
@@ -495,6 +488,33 @@
             "npm:@nx/webpack",
             "npm:@nx/react"
           ]
+        },
+        {
+          "file": "frontend/src/utils/api/api.tsx",
+          "hash": "11888000268654102608",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "frontend/src/utils/interfaces/Trainer.tsx",
+          "hash": "1073607757179339107"
+        },
+        {
+          "file": "frontend/src/utils/interfaces/Team.tsx",
+          "hash": "11726616696654013841"
+        },
+        {
+          "file": "frontend/src/utils/interfaces/Centres.tsx",
+          "hash": "14196903492896955141"
+        },
+        {
+          "file": "frontend/src/utils/interfaces/Reserve.tsx",
+          "hash": "5978731001323999697"
+        },
+        {
+          "file": "frontend/src/utils/interfaces/Player.tsx",
+          "hash": "11464542914723053087"
         }
       ],
       "backend": [

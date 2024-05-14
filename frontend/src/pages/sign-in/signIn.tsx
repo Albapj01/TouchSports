@@ -6,22 +6,20 @@ import styled from "styled-components";
 import { GoogleLogin } from "@react-oauth/google";
 import { useHistory } from 'react-router-dom'
 import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
-
+import api from '../../utils/api/api'
 
 const SignInSecond = () => {
   const history = useHistory()
-  const response = (credentialResponse: any) => {
+
+  const response = async (credentialResponse: any) => {
     storage.set('token', credentialResponse.credential!)
     history.push('/')
-    if(credentialResponse.credential) {
-      const {payload} = decodeJwt(credentialResponse.credential);
-      console.log("payload.credential", payload);
-    }
   }
 
   const error = () => {
     console.log('Login Failed, please try again with another account')
   }
+
   return (
     <>
       <IonPage>

@@ -7,7 +7,6 @@ import {
   IonList,
   IonPage,
 } from "@ionic/react";
-import List from "frontend/src/components/list/list";
 import Menu from "frontend/src/components/menu/menu";
 import Tabs from "frontend/src/components/tabs/tabs";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
