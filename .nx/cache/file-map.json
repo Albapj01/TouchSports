@@ -95,32 +95,28 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": "package.json",
+        "hash": "5987517935751693412"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
         "file": ".gitignore",
         "hash": "1398178998339616447"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
       },
       {
         "file": "docker-compose.yml",
         "hash": "319288953677755740"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
       },
       {
         "file": "nx.json",
@@ -131,12 +127,16 @@
         "hash": "6139651942244948423"
       },
       {
-        "file": "package.json",
-        "hash": "5987517935751693412"
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "README.md",
+        "hash": "10104707244890837311"
       }
     ],
     "projectFileMap": {
@@ -625,7 +625,7 @@
         },
         {
           "file": "backend/src/main.ts",
-          "hash": "5676928322023108207",
+          "hash": "11787000723830478612",
           "deps": [
             "npm:express",
             "npm:path",
@@ -942,6 +942,17 @@
           "hash": "5708803163266262522",
           "deps": [
             "npm:@nx/webpack"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/GetTeamByIdUseCase.ts",
+          "hash": "18107593975870213467"
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/GetTeamByIdController.ts",
+          "hash": "8219838702765947577",
+          "deps": [
+            "npm:express"
           ]
         }
       ]
