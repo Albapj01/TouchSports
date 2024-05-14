@@ -93,24 +93,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "README.md",
-        "hash": "10104707244890837311"
-      },
-      {
         "file": "jest.config.ts",
         "hash": "12333515226966617182"
       },
       {
-        "file": "package-lock.json",
-        "hash": "15331977578383813160"
-      },
-      {
         "file": ".gitignore",
         "hash": "1398178998339616447"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
       },
       {
         "file": "jest.preset.js",
@@ -121,20 +109,32 @@
         "hash": "5054094051040038124"
       },
       {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
-      },
-      {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
+        "file": "package-lock.json",
+        "hash": "15331977578383813160"
       },
       {
         "file": "docker-compose.yml",
         "hash": "319288953677755740"
       },
       {
+        "file": "nx.json",
+        "hash": "4595224623132836319"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
+      },
+      {
         "file": "tsconfig.base.json",
         "hash": "16936441711144470533"
+      },
+      {
+        "file": "README.md",
+        "hash": "10104707244890837311"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
       }
     ],
     "projectFileMap": {
@@ -337,7 +337,7 @@
         },
         {
           "file": "frontend/src/main.tsx",
-          "hash": "11520829369603188694",
+          "hash": "17740792049349154559",
           "deps": [
             "npm:react",
             "npm:react-dom",
@@ -412,7 +412,7 @@
         },
         {
           "file": "frontend/src/pages/sign-in/signIn.tsx",
-          "hash": "7433219756648735156",
+          "hash": "12615006590774701214",
           "deps": [
             "npm:@ionic/react",
             "npm:ionicons",
@@ -491,7 +491,7 @@
         },
         {
           "file": "frontend/src/utils/api/api.tsx",
-          "hash": "11888000268654102608",
+          "hash": "5637254167471439156",
           "deps": [
             "npm:axios"
           ]

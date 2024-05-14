@@ -32,6 +32,12 @@ const createTrainer = async (
   return request.data;
 };
 
+const getTrainerById = async (id: string) => {
+  const response = await axios.get(`${myApi}/trainer/${id}`)
+  return response.data
+}
+
 export default {
   createTrainer,
+  getTrainerById,
 }

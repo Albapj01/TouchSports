@@ -4,21 +4,39 @@ import Logo from "frontend/src/components/logo/logo";
 import { logoGoogle, logoFacebook, logoApple } from "ionicons/icons";
 import styled from "styled-components";
 import { GoogleLogin } from "@react-oauth/google";
-import { useHistory } from 'react-router-dom'
+import { useHistory } from "react-router-dom";
 import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
-import api from '../../utils/api/api'
+import api from "../../utils/api/api";
 
 const SignInSecond = () => {
-  const history = useHistory()
+  const history = useHistory();
 
   const response = async (credentialResponse: any) => {
-    storage.set('token', credentialResponse.credential!)
-    history.push('/')
-  }
+    storage.set("token", credentialResponse.credential!);
+
+    const { payload } = decodeJwt(storage.get("token"));
+
+    const existingTrainer = await api.getTrainerById(payload.sub);
+
+    if (!existingTrainer) {
+      await api.createTrainer(
+        payload.sub,
+        payload.given_name,
+        payload.family_name,
+        payload.email,
+        "",
+        [],
+        "",
+        []
+      );
+    }
+
+    history.push("/");
+  };
 
   const error = () => {
-    console.log('Login Failed, please try again with another account')
-  }
+    console.log("Login Failed, please try again with another account");
+  };
 
   return (
     <>
@@ -35,7 +53,7 @@ const SignInSecond = () => {
                 icon={logoGoogle}
                 text="Sign in with Google"
               />
-              <GoogleLogin onSuccess={response} onError={error}/>
+              <GoogleLogin onSuccess={response} onError={error} />
               <br></br>
               <Button
                 color="primary"
