@@ -1,11 +1,23 @@
-import { IonContent, IonFooter, IonHeader, IonPage } from "@ionic/react";
+import {
+  IonContent,
+  IonFooter,
+  IonHeader,
+  IonItem,
+  IonLabel,
+  IonList,
+  IonPage,
+} from "@ionic/react";
 import List from "frontend/src/components/list/list";
 import Menu from "frontend/src/components/menu/menu";
 import Tabs from "frontend/src/components/tabs/tabs";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
 import styled from "styled-components";
+import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
 
 const Profile = () => {
+  const { payload } = decodeJwt(storage.get("token"));
+  const picture = payload.picture;
+
   return (
     <>
       <IonPage>
@@ -17,10 +29,43 @@ const Profile = () => {
           <Margin />
           <ImageContainer>
             <Image
-              src={"https://ionicframework.com/docs/img/demos/avatar.svg"}
+              src={picture}
             />
           </ImageContainer>
-          <List />
+          <IonList inset={true}>
+            <IonItem color="light">
+              <IonLabel>Nombre</IonLabel>
+              <MarginList>
+                <IonLabel>
+                  {" "}
+                  {payload ? payload.given_name : "Loading..."}
+                </IonLabel>
+              </MarginList>
+            </IonItem>
+            <IonItem color="light">
+              <IonLabel>Apellidos</IonLabel>
+              <MarginList>
+                <IonLabel>
+                  {payload ? payload.family_name : "Loading..."}
+                </IonLabel>
+              </MarginList>
+            </IonItem>
+            <IonItem color="light">
+              <IonLabel>Teléfono</IonLabel>
+              <MarginList>
+                <IonLabel>Example</IonLabel>
+              </MarginList>
+            </IonItem>
+            <IonItem color="light">
+              <IonLabel>Correo</IonLabel>
+              <MarginList>
+                <IonLabel>
+                  {" "}
+                  {payload ? payload.email : "Loading..."}
+                </IonLabel>
+              </MarginList>
+            </IonItem>
+          </IonList>
           <Space />
         </IonContent>
         <IonFooter>
@@ -48,6 +93,10 @@ const Margin = styled.div`
 
 const Space = styled.div`
   margin-top: 10%;
+`;
+
+const MarginList = styled.div`
+  margin-right: auto;
 `;
 
 export default Profile;

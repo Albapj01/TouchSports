@@ -16,6 +16,8 @@
     "dotenv": "^16.4.5",
     "express": "^4.18.1",
     "express-promise-router": "^4.1.1",
+    "google-auth-library": "^9.10.0",
+    "jwt-decode": "^4.0.0",
     "mongoose": "^8.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -91,48 +93,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": "README.md",
+        "hash": "10104707244890837311"
       },
       {
         "file": ".vscode/settings.json",
         "hash": "6703405954808146235"
       },
       {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "package.json",
+        "hash": "5054094051040038124"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
         "file": ".gitignore",
         "hash": "1398178998339616447"
       },
       {
-        "file": "package.json",
-        "hash": "9006815406624962352"
-      },
-      {
         "file": "package-lock.json",
-        "hash": "2053365614161734657"
+        "hash": "15331977578383813160"
       },
       {
         "file": "nx.json",
         "hash": "4595224623132836319"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
       }
     ],
     "projectFileMap": {
@@ -357,6 +359,16 @@
           ]
         },
         {
+          "file": "frontend/src/pages/add-team/addTeam.tsx",
+          "hash": "4880479184779848067",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:styled-components",
+            "npm:react-router-dom"
+          ]
+        },
+        {
           "file": "frontend/src/pages/centres/centres.tsx",
           "hash": "14613495355597200740",
           "deps": [
@@ -382,7 +394,7 @@
         },
         {
           "file": "frontend/src/pages/profile/profile.tsx",
-          "hash": "16527326252999736896",
+          "hash": "7984784488004327171",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components"
@@ -400,12 +412,13 @@
         },
         {
           "file": "frontend/src/pages/sign-in/signIn.tsx",
-          "hash": "7398091471059337376",
+          "hash": "14599277780262833398",
           "deps": [
             "npm:@ionic/react",
             "npm:ionicons",
             "npm:styled-components",
-            "npm:@react-oauth/google"
+            "npm:@react-oauth/google",
+            "npm:react-router-dom"
           ]
         },
         {
@@ -416,6 +429,16 @@
             "npm:styled-components",
             "npm:ionicons",
             "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/teams/teams.tsx",
+          "hash": "17314263310397129797",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react-router-dom",
+            "npm:styled-components",
+            "npm:ionicons"
           ]
         },
         {
@@ -432,6 +455,17 @@
         {
           "file": "frontend/src/theme/variables.css",
           "hash": "15012374211378204362"
+        },
+        {
+          "file": "frontend/src/utils/api.ts",
+          "hash": "17037900596529299464",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "frontend/src/utils/funcions/storage.tsx",
+          "hash": "16754717058250857404"
         },
         {
           "file": "frontend/tests/components/avatar/avatar.test.tsx",
@@ -461,77 +495,6 @@
             "npm:@nx/webpack",
             "npm:@nx/react"
           ]
-        },
-        {
-          "file": "frontend/src/utils/api.ts",
-          "hash": "17037900596529299464",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/teams/teams.tsx",
-          "hash": "17314263310397129797",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react-router-dom",
-            "npm:styled-components",
-            "npm:ionicons"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/add-team/addTeam.tsx",
-          "hash": "4880479184779848067",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react",
-            "npm:styled-components",
-            "npm:react-router-dom"
-          ]
-        }
-      ],
-      "backend-e2e": [
-        {
-          "file": "backend-e2e/.eslintrc.json",
-          "hash": "11808533155536463924"
-        },
-        {
-          "file": "backend-e2e/jest.config.ts",
-          "hash": "2507509416108260741"
-        },
-        {
-          "file": "backend-e2e/project.json",
-          "hash": "1553543349876778842"
-        },
-        {
-          "file": "backend-e2e/src/backend/backend.spec.ts",
-          "hash": "4579662685003779048",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "backend-e2e/src/support/global-setup.ts",
-          "hash": "2568409276037275290"
-        },
-        {
-          "file": "backend-e2e/src/support/global-teardown.ts",
-          "hash": "5275447082211835490"
-        },
-        {
-          "file": "backend-e2e/src/support/test-setup.ts",
-          "hash": "10984585515912236441",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "backend-e2e/tsconfig.json",
-          "hash": "2346920493880922870"
-        },
-        {
-          "file": "backend-e2e/tsconfig.spec.json",
-          "hash": "14226830188665428950"
         }
       ],
       "backend": [
@@ -613,6 +576,10 @@
           "hash": "11746786035604554913"
         },
         {
+          "file": "backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts",
+          "hash": "3539013753468563107"
+        },
+        {
           "file": "backend/src/trainers/application/usecases/DeleteTeamByIdUseCase.ts",
           "hash": "18300504018028987776"
         },
@@ -623,6 +590,10 @@
         {
           "file": "backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts",
           "hash": "11528774346434113398"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/GetAllReservesUseCase.ts",
+          "hash": "391280395900826703"
         },
         {
           "file": "backend/src/trainers/application/usecases/GetAllTeamsUseCase.ts",
@@ -643,6 +614,10 @@
         {
           "file": "backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts",
           "hash": "11746279394841885922"
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts",
+          "hash": "7787338383996098308"
         },
         {
           "file": "backend/src/trainers/application/usecases/UpdateTeamByIdUseCase.ts",
@@ -726,6 +701,13 @@
           ]
         },
         {
+          "file": "backend/src/trainers/infrastructure/controller/DeleteReserveByIdController.ts",
+          "hash": "2781021240453944927",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
           "file": "backend/src/trainers/infrastructure/controller/DeleteTeamByIdController.ts",
           "hash": "6659379283616269611",
           "deps": [
@@ -742,6 +724,13 @@
         {
           "file": "backend/src/trainers/infrastructure/controller/GetAllPlayersController.ts",
           "hash": "18230088675783554859",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/GetAllReservesController.ts",
+          "hash": "2383986104368275266",
           "deps": [
             "npm:express"
           ]
@@ -777,6 +766,13 @@
         {
           "file": "backend/src/trainers/infrastructure/controller/UpdatePlayerByIdController.ts",
           "hash": "7211235521061842848",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/UpdateReserveByIdController.ts",
+          "hash": "2126794051375831271",
           "deps": [
             "npm:express"
           ]
@@ -838,39 +834,6 @@
           "deps": [
             "npm:@nx/webpack"
           ]
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts",
-          "hash": "7787338383996098308"
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/UpdateReserveByIdController.ts",
-          "hash": "2126794051375831271",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/GetAllReservesUseCase.ts",
-          "hash": "391280395900826703"
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/GetAllReservesController.ts",
-          "hash": "2383986104368275266",
-          "deps": [
-            "npm:express"
-          ]
-        },
-        {
-          "file": "backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts",
-          "hash": "3539013753468563107"
-        },
-        {
-          "file": "backend/src/trainers/infrastructure/controller/DeleteReserveByIdController.ts",
-          "hash": "2781021240453944927",
-          "deps": [
-            "npm:express"
-          ]
         }
       ],
       "frontend-e2e": [
@@ -913,6 +876,50 @@
         {
           "file": "frontend-e2e/tsconfig.json",
           "hash": "4966899981699294432"
+        }
+      ],
+      "backend-e2e": [
+        {
+          "file": "backend-e2e/.eslintrc.json",
+          "hash": "11808533155536463924"
+        },
+        {
+          "file": "backend-e2e/jest.config.ts",
+          "hash": "2507509416108260741"
+        },
+        {
+          "file": "backend-e2e/project.json",
+          "hash": "1553543349876778842"
+        },
+        {
+          "file": "backend-e2e/src/backend/backend.spec.ts",
+          "hash": "4579662685003779048",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "backend-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "backend-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "backend-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "backend-e2e/tsconfig.json",
+          "hash": "2346920493880922870"
+        },
+        {
+          "file": "backend-e2e/tsconfig.spec.json",
+          "hash": "14226830188665428950"
         }
       ]
     }

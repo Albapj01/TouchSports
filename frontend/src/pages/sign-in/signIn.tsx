@@ -4,14 +4,24 @@ import Logo from "frontend/src/components/logo/logo";
 import { logoGoogle, logoFacebook, logoApple } from "ionicons/icons";
 import styled from "styled-components";
 import { GoogleLogin } from "@react-oauth/google";
+import { useHistory } from 'react-router-dom'
+import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+
 
 const SignInSecond = () => {
-  const responseMessage = (response: any) => {
-    console.log(response);
-  };
-  const errorMessage = (error: any) => {
-    console.log(error);
-  };
+  const history = useHistory()
+  const response = (credentialResponse: any) => {
+    storage.set('token', credentialResponse.credential!)
+    history.push('/')
+    if(credentialResponse.credential) {
+      const {payload} = decodeJwt(credentialResponse.credential);
+      console.log("payload.credential", payload);
+    }
+  }
+
+  const error = () => {
+    console.log('Login Failed, please try again with another account')
+  }
   return (
     <>
       <IonPage>
@@ -27,7 +37,7 @@ const SignInSecond = () => {
                 icon={logoGoogle}
                 text="Sign in with Google"
               />
-              <GoogleLogin onSuccess={responseMessage}/>
+              <GoogleLogin onSuccess={response} onError={error}/>
               <br></br>
               <Button
                 color="primary"
