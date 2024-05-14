@@ -1,6 +1,7 @@
 import axios from "axios";
 import { Team } from "../interfaces/Team";
 import { Centres } from "../interfaces/Centres";
+import { Player } from "../interfaces/Player";
 
 const myApi = "http://localhost:3333/api";
 
@@ -33,11 +34,26 @@ const createTrainer = async (
 };
 
 const getTrainerById = async (id: string) => {
-  const response = await axios.get(`${myApi}/trainer/${id}`)
-  return response.data
-}
+  const response = await axios.get(`${myApi}/trainer/${id}`);
+  return response.data;
+};
+
+const createTeam = async (
+  trainerId: string,
+  teamId: string,
+  name: string,
+  players: Player[]
+) => {
+  const request = await axios.post(`${myApi}/trainer/${trainerId}/team`, {
+    trainerId,
+    teamId,
+    name,
+    players,
+  });
+};
 
 export default {
   createTrainer,
   getTrainerById,
-}
+  createTeam,
+};

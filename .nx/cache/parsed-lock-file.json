@@ -1611,6 +1611,24 @@
         "hash": "sha512-tDNIz22aBzCDxLtVH++VnTfzxlfeK5CbqohpSqpJgj1Wg/cQbStNAz3NuqCs5vV+pjBsK4x4pN9HlVh7rcYRiA=="
       }
     },
+    "npm:uuid@8.3.2": {
+      "type": "npm",
+      "name": "npm:uuid@8.3.2",
+      "data": {
+        "version": "8.3.2",
+        "packageName": "uuid",
+        "hash": "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg=="
+      }
+    },
+    "npm:uuid": {
+      "type": "npm",
+      "name": "npm:uuid",
+      "data": {
+        "version": "9.0.1",
+        "packageName": "uuid",
+        "hash": "sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA=="
+      }
+    },
     "npm:@cypress/xvfb": {
       "type": "npm",
       "name": "npm:@cypress/xvfb",
@@ -3913,6 +3931,15 @@
         "version": "4.0.5",
         "packageName": "@types/tough-cookie",
         "hash": "sha512-/Ad8+nIOV7Rl++6f1BdKxFSMgmoqEoYbHRpPcx3JEfv8VRsQe9Z4mCXeJBzxs7mbHY/XOZZuXlRNfhpVPbs6ZA=="
+      }
+    },
+    "npm:@types/uuid": {
+      "type": "npm",
+      "name": "npm:@types/uuid",
+      "data": {
+        "version": "9.0.8",
+        "packageName": "@types/uuid",
+        "hash": "sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA=="
       }
     },
     "npm:@types/webidl-conversions": {
@@ -7594,24 +7621,6 @@
         "version": "5.0.1",
         "packageName": "https-proxy-agent",
         "hash": "sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA=="
-      }
-    },
-    "npm:uuid@9.0.1": {
-      "type": "npm",
-      "name": "npm:uuid@9.0.1",
-      "data": {
-        "version": "9.0.1",
-        "packageName": "uuid",
-        "hash": "sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA=="
-      }
-    },
-    "npm:uuid": {
-      "type": "npm",
-      "name": "npm:uuid",
-      "data": {
-        "version": "8.3.2",
-        "packageName": "uuid",
-        "hash": "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg=="
       }
     },
     "npm:gcp-metadata": {
@@ -15245,7 +15254,7 @@
     },
     {
       "source": "npm:@cypress/request",
-      "target": "npm:uuid",
+      "target": "npm:uuid@8.3.2",
       "type": "static"
     },
     {
@@ -23105,7 +23114,7 @@
     },
     {
       "source": "npm:gaxios",
-      "target": "npm:uuid@9.0.1",
+      "target": "npm:uuid",
       "type": "static"
     },
     {
@@ -27705,7 +27714,7 @@
     },
     {
       "source": "npm:sockjs",
-      "target": "npm:uuid",
+      "target": "npm:uuid@8.3.2",
       "type": "static"
     },
     {

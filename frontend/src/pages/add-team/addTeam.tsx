@@ -15,10 +15,21 @@ import ToolBar from "frontend/src/components/toolbar/toolbar";
 import Avatar from "frontend/src/components/avatar/avatar";
 import styled from "styled-components";
 import { useHistory } from "react-router-dom";
+import api from "../../utils/api/api";
+import { v4 as uuidv4 } from "uuid";
+import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
 
 const AddTeam = () => {
   const [name, setName] = useState("");
   const history = useHistory();
+
+  const { payload } = decodeJwt(storage.get("token"));
+
+  const handleAddTeam = async () => {
+    const id = uuidv4();
+    const teamId = id.toString();
+    const team = await api.createTeam(payload.sub, teamId, name, []);
+  };
 
   return (
     <>
@@ -58,7 +69,10 @@ const AddTeam = () => {
                 },
                 {
                   text: "Añadir",
-                  handler: () => history.push(""),
+                  handler: () => {
+                    handleAddTeam();
+                    history.push("");
+                  },
                 },
                 {
                   text: "Cancelar",

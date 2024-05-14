@@ -1,0 +1,569 @@
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4200/[22m
+
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.14 MiB (6.59 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.86 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 170 KiB 8 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 113 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3811bf2b5e9ce688)
+Found [31m[1m1 error[22m[39m in 5866 ms.
+Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.3811bf2b5e9ce688.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.3811bf2b5e9ce688.hot-update.js[39m[22m (main) 106 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.3811bf2b5e9ce688.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/pages/add-team/addTeam.tsx[39m[22m
+Module build failed (from ../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/add-team/addTeam.tsx: Unexpected token (34:2)
+
+[0m [90m 32 |[39m[0m
+[0m [90m 33 |[39m     [36mif[39m([33m![39mexistingTeam)[0m
+[0m[31m[1m>[22m[39m[90m 34 |[39m   }[33m;[39m[0m
+[0m [90m    |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 35 |[39m[0m
+[0m [90m 36 |[39m   [36mreturn[39m ([0m
+[0m [90m 37 |[39m     [33m<[39m[33m>[39m[0m
+    at constructor (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:356:19)
+    at TypeScriptParserMixin.raise (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:3223:19)
+    at TypeScriptParserMixin.unexpected (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:3253:16)
+    at TypeScriptParserMixin.parseExprAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11257:16)
+    at TypeScriptParserMixin.parseExprAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6932:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10857:23)
+    at TypeScriptParserMixin.parseUpdate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10840:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10816:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9696:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10654:61)
+    at TypeScriptParserMixin.parseExprOps (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10659:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10636:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10597:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9643:20)
+    at TypeScriptParserMixin.parseExpressionBase (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10551:23)
+    at /Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10547:39
+    at TypeScriptParserMixin.allowInAnd (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12279:16)
+    at TypeScriptParserMixin.parseExpression (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10547:17)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12737:23)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9340:18)
+    at TypeScriptParserMixin.parseStatementLike (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12588:17)
+    at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12578:17)
+    at TypeScriptParserMixin.parseIfStatement (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12989:28)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12619:21)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9340:18)
+    at TypeScriptParserMixin.parseStatementLike (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12588:17)
+    at TypeScriptParserMixin.parseStatementListItem (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12568:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13189:61)
+    at TypeScriptParserMixin.parseBlockBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13182:10)
+    at TypeScriptParserMixin.parseBlock (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13170:10)
+    at TypeScriptParserMixin.parseFunctionBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11935:24)
+    at TypeScriptParserMixin.parseArrowExpression (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11910:10)
+    at TypeScriptParserMixin.parseAsyncArrowFromCallExpression (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11066:10)
+    at TypeScriptParserMixin.parseAsyncArrowFromCallExpression (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9623:18)
+    at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10972:27)
+    at TypeScriptParserMixin.parseSubscript (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10899:19)
+    at TypeScriptParserMixin.parseSubscript (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9167:18)
+    at TypeScriptParserMixin.parseSubscripts (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10870:19)
+    at TypeScriptParserMixin.parseExprSubscripts (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10861:17)
+    at TypeScriptParserMixin.parseUpdate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10840:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10816:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9696:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10654:61)
+    at TypeScriptParserMixin.parseExprOps (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10659:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10636:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10597:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9643:20)
+    at /Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10567:39
+    at TypeScriptParserMixin.allowInAnd (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12279:16)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10567:17)
+
+webpack compiled with [1m[31m1 error[39m[22m (ab06f5d6c8583e5d)
+[36mType-checking in progress...[39m
+Found [31m[1m2 errors[22m[39m in 2059 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.15 MiB (6.6 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.3811bf2b5e9ce688.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.3811bf2b5e9ce688.hot-update.js[39m[22m (main) 113 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.3811bf2b5e9ce688.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (dbd403eb3fe58217)
+Found [31m[1m2 errors[22m[39m in 1494 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.15 MiB (6.6 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.dbd403eb3fe58217.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.dbd403eb3fe58217.hot-update.js[39m[22m (main) 113 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.dbd403eb3fe58217.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d6c8ec24daa7e14d)
+[36mType-checking in progress...[39m
+Found [31m[1m2 errors[22m[39m in 1557 ms.
+Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.d6c8ec24daa7e14d.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.d6c8ec24daa7e14d.hot-update.js[39m[22m (main) 111 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.d6c8ec24daa7e14d.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.66 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/utils/api/api.tsx[39m[22m
+Module build failed (from ../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: /Users/albapalomino/TouchSports/frontend/src/utils/api/api.tsx: Missing initializer in const declaration. (55:9)
+
+[0m [90m 53 |[39m }[33m;[39m[0m
+[0m [90m 54 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 55 |[39m [36mconst[39m [36mget[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 56 |[39m[0m
+[0m [90m 57 |[39m [36mexport[39m [36mdefault[39m {[0m
+[0m [90m 58 |[39m   createTrainer[33m,[39m[0m
+    at constructor (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:356:19)
+    at TypeScriptParserMixin.raise (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:3223:19)
+    at TypeScriptParserMixin.parseVar (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13267:16)
+    at TypeScriptParserMixin.parseVarStatement (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13100:10)
+    at TypeScriptParserMixin.parseVarStatement (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9306:31)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12683:23)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9340:18)
+    at TypeScriptParserMixin.parseStatementLike (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12588:17)
+    at TypeScriptParserMixin.parseModuleItem (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12565:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13189:36)
+    at TypeScriptParserMixin.parseBlockBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13182:10)
+    at TypeScriptParserMixin.parseProgram (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12464:10)
+    at TypeScriptParserMixin.parseTopLevel (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12454:25)
+    at TypeScriptParserMixin.parse (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:14376:10)
+    at TypeScriptParserMixin.parse (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9982:18)
+    at parse (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:14417:38)
+    at parser (/Users/albapalomino/TouchSports/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/albapalomino/TouchSports/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/albapalomino/TouchSports/node_modules/@babel/core/lib/transformation/index.js:21:50)
+    at run.next (<anonymous>)
+    at transform (/Users/albapalomino/TouchSports/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/Users/albapalomino/TouchSports/node_modules/gensync/index.js:261:32)
+    at /Users/albapalomino/TouchSports/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/albapalomino/TouchSports/node_modules/gensync/index.js:223:11)
+
+webpack compiled with [1m[31m1 error[39m[22m (f94e6ea04c6e36de)
+[36mType-checking in progress...[39m
+Found [31m[1m4 errors[22m[39m in 1636 ms.
+Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.d6c8ec24daa7e14d.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.d6c8ec24daa7e14d.hot-update.js[39m[22m (main) 111 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.d6c8ec24daa7e14d.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.66 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/utils/api/api.tsx[39m[22m
+Module build failed (from ../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: /Users/albapalomino/TouchSports/frontend/src/utils/api/api.tsx: Missing initializer in const declaration. (55:17)
+
+[0m [90m 53 |[39m }[33m;[39m[0m
+[0m [90m 54 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 55 |[39m [36mconst[39m getTeamById[0m
+[0m [90m    |[39m                  [31m[1m^[22m[39m[0m
+[0m [90m 56 |[39m[0m
+[0m [90m 57 |[39m [36mexport[39m [36mdefault[39m {[0m
+[0m [90m 58 |[39m   createTrainer[33m,[39m[0m
+    at constructor (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:356:19)
+    at TypeScriptParserMixin.raise (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:3223:19)
+    at TypeScriptParserMixin.parseVar (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13267:16)
+    at TypeScriptParserMixin.parseVarStatement (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13100:10)
+    at TypeScriptParserMixin.parseVarStatement (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9306:31)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12683:23)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9340:18)
+    at TypeScriptParserMixin.parseStatementLike (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12588:17)
+    at TypeScriptParserMixin.parseModuleItem (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12565:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13189:36)
+    at TypeScriptParserMixin.parseBlockBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13182:10)
+    at TypeScriptParserMixin.parseProgram (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12464:10)
+    at TypeScriptParserMixin.parseTopLevel (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12454:25)
+    at TypeScriptParserMixin.parse (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:14376:10)
+    at TypeScriptParserMixin.parse (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9982:18)
+    at parse (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:14417:38)
+    at parser (/Users/albapalomino/TouchSports/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/albapalomino/TouchSports/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/albapalomino/TouchSports/node_modules/@babel/core/lib/transformation/index.js:21:50)
+    at run.next (<anonymous>)
+    at transform (/Users/albapalomino/TouchSports/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/Users/albapalomino/TouchSports/node_modules/gensync/index.js:261:32)
+    at /Users/albapalomino/TouchSports/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/albapalomino/TouchSports/node_modules/gensync/index.js:223:11)
+
+webpack compiled with [1m[31m1 error[39m[22m (40db5572a2df49f9)
+Found [31m[1m4 errors[22m[39m in 482 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.14 MiB (6.59 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.d6c8ec24daa7e14d.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.d6c8ec24daa7e14d.hot-update.js[39m[22m (main) 113 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.d6c8ec24daa7e14d.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (570fe8b05491b9d5)
+Found [31m[1m2 errors[22m[39m in 803 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.14 MiB (6.59 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.570fe8b05491b9d5.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.570fe8b05491b9d5.hot-update.js[39m[22m (main) 113 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.570fe8b05491b9d5.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (26efe1512baf50b0)
+Found [31m[1m2 errors[22m[39m in 482 ms.
+Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.26efe1512baf50b0.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.26efe1512baf50b0.hot-update.js[39m[22m (main) 106 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.26efe1512baf50b0.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/pages/add-team/addTeam.tsx[39m[22m
+Module build failed (from ../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/add-team/addTeam.tsx: 'return' outside of function. (37:2)
+
+[0m [90m 35 |[39m   }[33m;[39m[0m
+[0m [90m 36 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 37 |[39m   [36mreturn[39m ([0m
+[0m [90m    |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 38 |[39m     [33m<[39m[33m>[39m[0m
+[0m [90m 39 |[39m       [33m<[39m[33mIonPage[39m[33m>[39m[0m
+[0m [90m 40 |[39m         [33m<[39m[33mIonHeader[39m color[33m=[39m[32m"primary"[39m[33m>[39m[0m
+    at constructor (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:356:19)
+    at TypeScriptParserMixin.raise (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:3223:19)
+    at TypeScriptParserMixin.parseReturnStatement (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12995:12)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12621:21)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9340:18)
+    at TypeScriptParserMixin.parseStatementLike (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12588:17)
+    at TypeScriptParserMixin.parseModuleItem (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12565:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13189:36)
+    at TypeScriptParserMixin.parseBlockBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13182:10)
+    at TypeScriptParserMixin.parseProgram (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12464:10)
+    at TypeScriptParserMixin.parseTopLevel (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12454:25)
+    at TypeScriptParserMixin.parse (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:14376:10)
+    at TypeScriptParserMixin.parse (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9982:18)
+    at parse (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:14417:38)
+    at parser (/Users/albapalomino/TouchSports/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/albapalomino/TouchSports/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/albapalomino/TouchSports/node_modules/@babel/core/lib/transformation/index.js:21:50)
+    at run.next (<anonymous>)
+    at transform (/Users/albapalomino/TouchSports/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/Users/albapalomino/TouchSports/node_modules/gensync/index.js:261:32)
+    at /Users/albapalomino/TouchSports/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/albapalomino/TouchSports/node_modules/gensync/index.js:223:11)
+
+webpack compiled with [1m[31m1 error[39m[22m (1ae3098ba6b88e1d)
+[36mType-checking in progress...[39m
+Found [31m[1m2 errors[22m[39m in 822 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.15 MiB (6.6 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.26efe1512baf50b0.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.26efe1512baf50b0.hot-update.js[39m[22m (main) 113 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.26efe1512baf50b0.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (87794a16c25df86b)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 1439 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.15 MiB (6.6 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.87794a16c25df86b.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.87794a16c25df86b.hot-update.js[39m[22m (main) 113 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.87794a16c25df86b.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c8389a0237464f93)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 1328 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.15 MiB (6.6 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.c8389a0237464f93.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.c8389a0237464f93.hot-update.js[39m[22m (main) 113 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.c8389a0237464f93.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d5375b6d874df2d4)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 1140 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.14 MiB (6.59 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.86 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 170 KiB 8 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 113 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d5375b6d874df2d4)
+Found [31m[1m1 error[22m[39m in 525 ms.
+Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.d5375b6d874df2d4.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.d5375b6d874df2d4.hot-update.js[39m[22m (main) 106 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.d5375b6d874df2d4.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/pages/add-team/addTeam.tsx[39m[22m
+Module build failed (from ../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/add-team/addTeam.tsx: Unexpected token, expected "," (72:44)
+
+[0m [90m 70 |[39m                 {[0m
+[0m [90m 71 |[39m                   text[33m:[39m [32m"Añadir"[39m[33m,[39m[0m
+[0m[31m[1m>[22m[39m[90m 72 |[39m                   handler[33m:[39m handleAddTeam () [33m=>[39m history[33m.[39mpush([32m""[39m)[33m,[39m[0m
+[0m [90m    |[39m                                             [31m[1m^[22m[39m[0m
+[0m [90m 73 |[39m                 }[33m,[39m[0m
+[0m [90m 74 |[39m                 {[0m
+[0m [90m 75 |[39m                   text[33m:[39m [32m"Cancelar"[39m[33m,[39m[0m
+    at constructor (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:356:19)
+    at TypeScriptParserMixin.raise (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:3223:19)
+    at TypeScriptParserMixin.unexpected (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:3253:16)
+    at TypeScriptParserMixin.expect (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:3585:28)
+    at TypeScriptParserMixin.parseObjectLike (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11650:14)
+    at TypeScriptParserMixin.parseExprAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11155:23)
+    at TypeScriptParserMixin.parseExprAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6932:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10857:23)
+    at TypeScriptParserMixin.parseUpdate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10840:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10816:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9696:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10654:61)
+    at TypeScriptParserMixin.parseExprOps (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10659:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10636:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10597:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9643:20)
+    at /Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10567:39
+    at TypeScriptParserMixin.allowInAnd (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12284:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10567:17)
+    at TypeScriptParserMixin.parseExprListItem (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12020:18)
+    at TypeScriptParserMixin.parseExprList (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11992:22)
+    at TypeScriptParserMixin.parseArrayLike (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11892:26)
+    at TypeScriptParserMixin.parseArrayLike (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9092:24)
+    at TypeScriptParserMixin.parseExprAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11146:23)
+    at TypeScriptParserMixin.parseExprAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6932:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10857:23)
+    at TypeScriptParserMixin.parseUpdate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10840:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10816:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9696:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10654:61)
+    at TypeScriptParserMixin.parseExprOps (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10659:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10636:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10597:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9643:20)
+    at TypeScriptParserMixin.parseExpressionBase (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10551:23)
+    at /Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10547:39
+    at TypeScriptParserMixin.allowInAnd (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12284:12)
+    at TypeScriptParserMixin.parseExpression (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10547:17)
+    at TypeScriptParserMixin.jsxParseExpressionContainer (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6792:31)
+    at TypeScriptParserMixin.jsxParseAttributeValue (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6760:21)
+    at TypeScriptParserMixin.jsxParseAttribute (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6813:38)
+    at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6827:28)
+    at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9903:18)
+    at TypeScriptParserMixin.jsxParseOpeningElementAt (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6822:17)
+    at TypeScriptParserMixin.jsxParseElementAt (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6846:33)
+    at TypeScriptParserMixin.jsxParseElementAt (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6858:32)
+    at TypeScriptParserMixin.jsxParseElementAt (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6858:32)
+    at TypeScriptParserMixin.jsxParseElementAt (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6858:32)
+    at TypeScriptParserMixin.jsxParseElementAt (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6858:32)
+    at TypeScriptParserMixin.jsxParseElement (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6915:17)
+
+webpack compiled with [1m[31m1 error[39m[22m (87c4ccb0d7e04741)
+[36mType-checking in progress...[39m
+Found [31m[1m3 errors[22m[39m in 1293 ms.
+Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.d5375b6d874df2d4.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.d5375b6d874df2d4.hot-update.js[39m[22m (main) 106 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.d5375b6d874df2d4.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/pages/add-team/addTeam.tsx[39m[22m
+Module build failed (from ../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/add-team/addTeam.tsx: Unexpected token (72:45)
+
+[0m [90m 70 |[39m                 {[0m
+[0m [90m 71 |[39m                   text[33m:[39m [32m"Añadir"[39m[33m,[39m[0m
+[0m[31m[1m>[22m[39m[90m 72 |[39m                   handler[33m:[39m handleAddTeam [33m&&[39m () [33m=>[39m history[33m.[39mpush([32m""[39m)[33m,[39m[0m
+[0m [90m    |[39m                                              [31m[1m^[22m[39m[0m
+[0m [90m 73 |[39m                 }[33m,[39m[0m
+[0m [90m 74 |[39m                 {[0m
+[0m [90m 75 |[39m                   text[33m:[39m [32m"Cancelar"[39m[33m,[39m[0m
+    at constructor (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:356:19)
+    at TypeScriptParserMixin.raise (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:3223:19)
+    at TypeScriptParserMixin.unexpected (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:3253:16)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11516:12)
+    at TypeScriptParserMixin.parseExprAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11137:23)
+    at TypeScriptParserMixin.parseExprAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6932:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10857:23)
+    at TypeScriptParserMixin.parseUpdate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10840:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10816:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9696:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10654:61)
+    at TypeScriptParserMixin.parseExprOpBaseRightExpr (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10747:34)
+    at TypeScriptParserMixin.parseExprOpRightExpr (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10742:21)
+    at TypeScriptParserMixin.parseExprOp (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10705:27)
+    at TypeScriptParserMixin.parseExprOp (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9202:18)
+    at TypeScriptParserMixin.parseExprOps (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10663:17)
+    at TypeScriptParserMixin.parseMaybeConditional (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10636:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10597:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9643:20)
+    at /Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10567:39
+    at TypeScriptParserMixin.allowInAnd (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12284:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10567:17)
+    at TypeScriptParserMixin.parseObjectProperty (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11784:83)
+    at TypeScriptParserMixin.parseObjPropValue (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11811:100)
+    at TypeScriptParserMixin.parseObjPropValue (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9601:18)
+    at TypeScriptParserMixin.parsePropertyDefinition (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11745:17)
+    at TypeScriptParserMixin.parseObjectLike (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11660:21)
+    at TypeScriptParserMixin.parseExprAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11155:23)
+    at TypeScriptParserMixin.parseExprAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6932:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10857:23)
+    at TypeScriptParserMixin.parseUpdate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10840:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10816:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9696:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10654:61)
+    at TypeScriptParserMixin.parseExprOps (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10659:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10636:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10597:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9643:20)
+    at /Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10567:39
+    at TypeScriptParserMixin.allowInAnd (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12284:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10567:17)
+    at TypeScriptParserMixin.parseExprListItem (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12020:18)
+    at TypeScriptParserMixin.parseExprList (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11992:22)
+    at TypeScriptParserMixin.parseArrayLike (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11892:26)
+    at TypeScriptParserMixin.parseArrayLike (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9092:24)
+    at TypeScriptParserMixin.parseExprAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11146:23)
+    at TypeScriptParserMixin.parseExprAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6932:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10857:23)
+    at TypeScriptParserMixin.parseUpdate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10840:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10816:23)
+
+webpack compiled with [1m[31m1 error[39m[22m (c2e1c5a008090ba3)
+[36mType-checking in progress...[39m
+Found [31m[1m3 errors[22m[39m in 824 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.15 MiB (6.6 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.d5375b6d874df2d4.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.d5375b6d874df2d4.hot-update.js[39m[22m (main) 113 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.d5375b6d874df2d4.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8efce62366525d3d)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 1362 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.15 MiB (6.6 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.8efce62366525d3d.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.8efce62366525d3d.hot-update.js[39m[22m (main) 113 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.8efce62366525d3d.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d93ed3ee3259fa5c)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 1105 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.15 MiB (6.6 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.d93ed3ee3259fa5c.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.d93ed3ee3259fa5c.hot-update.js[39m[22m (main) 113 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.d93ed3ee3259fa5c.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e8893e1fd854b516)
+[36mType-checking in progress...[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.15 MiB (6.6 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.e8893e1fd854b516.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.e8893e1fd854b516.hot-update.js[39m[22m (main) 113 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.e8893e1fd854b516.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e07ca6ecafd4163f)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 991 ms.
