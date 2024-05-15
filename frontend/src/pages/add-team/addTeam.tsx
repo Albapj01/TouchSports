@@ -28,9 +28,11 @@ const AddTeam = () => {
   const handleAddTeam = async () => {
     const id = uuidv4();
     const teamId = id.toString();
-    const existingTeam = await api.getTeamById(payload.sub, teamId)
 
-    if(!existingTeam){
+    const existingTeam = await api.getTeamById(payload.sub, teamId)
+    const obtainedTeamId = existingTeam && existingTeam.team ? existingTeam.team.id : null;
+    
+    if(!obtainedTeamId){
       await api.createTeam(payload.sub, teamId, name, []);
     }
 

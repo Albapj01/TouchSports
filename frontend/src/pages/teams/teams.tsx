@@ -7,8 +7,20 @@ import ToolBar from "frontend/src/components/toolbar/toolbar";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { addCircleOutline } from "ionicons/icons";
+import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import api from "frontend/src/utils/api/api";
+import { useEffect, useState } from "react";
+import { Team } from "frontend/src/utils/interfaces/Team";
 
 const Teams = () => {
+  const [teams, setTeams] = useState<Team[]>([]);
+
+  const { payload } = decodeJwt(storage.get("token"));
+
+  useEffect(() => {
+    api.getAllTeams(payload.sub).then((result) => setTeams(result.teams));
+  }, []);
+
   return (
     <>
       <IonPage>
@@ -18,12 +30,14 @@ const Teams = () => {
         <IonContent fullscreen>
           <Menu />
           <Cards>
-            <Card
-              route="/home/teams/team"
-              title="Equipo 1"
-              imageUrl="https://www.infisport.com/media/amasty/blog/SprintDeportesEquipo1_2.jpg"
-              description=""
-            />
+            {teams && teams.map((team) => (
+              <Card
+                route="/home/teams/team"
+                title={team.name}
+                imageUrl="https://www.infisport.com/media/amasty/blog/SprintDeportesEquipo1_2.jpg"
+                description=""
+              />
+            ))}
           </Cards>
           <ButtonContainer>
             <Link to="/home/teams/team/add-team">

@@ -6,11 +6,10 @@ export class GetTeamByIdController {
 
   async handle(req: Request, res: Response) {
     try {
-      await this.getTeamByidUseCase.run(req.params.trainerId, req.params.teamId);
+      const team = await this.getTeamByidUseCase.run(req.params.trainerId, req.params.teamId);
+      res.status(201).send({ message: "Obtained team", team });
     } catch (error) {
       return res.status(500).send({ message: "Error" });
     }
-
-    res.status(201).send({ message: "Obtained team" });
   }
 }

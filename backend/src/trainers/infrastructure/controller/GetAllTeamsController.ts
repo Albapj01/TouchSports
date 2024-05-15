@@ -8,11 +8,10 @@ export class GetAllTeamsController {
     const trainerId = req.params.trainerId;
 
     try {
-      await this.getAllTeamsUseCase.run(trainerId);
+      const teams = await this.getAllTeamsUseCase.run(trainerId);
+      res.status(201).send({ message: "Obtained teams", teams });
     } catch (error) {
       return res.status(500).send({ message: "Error" });
     }
-
-    res.status(201).send({ message: "Obtained teams" });
   }
 }
