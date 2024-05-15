@@ -48,6 +48,8 @@ import { DeleteReserveByIdUseCase } from "./trainers/application/usecases/Delete
 import { DeleteReserveByIdController } from "./trainers/infrastructure/controller/DeleteReserveByIdController";
 import { GetTeamByIdUseCase } from "./trainers/application/usecases/GetTeamByIdUseCase";
 import { GetTeamByIdController } from "./trainers/infrastructure/controller/GetTeamByIdController";
+import { GetCentresByIdUseCase } from "./trainers/application/usecases/GetCentresByIdUseCase";
+import { GetCentresByIdController } from "./trainers/infrastructure/controller/GetCentresByIdController";
 
 dotenv.config();
 const app = express();
@@ -202,6 +204,17 @@ const getAllCentresController = new GetAllCentresController(getAllCentresUseCase
 router.get("/api/trainer/:trainerId/centres", async (req, res) => {
   return getAllCentresController.handle(req, res);
 });
+
+const getCentresByIdUseCase = new GetCentresByIdUseCase(trainerAdapter);
+const getCentresByIdController = new GetCentresByIdController(
+  getCentresByIdUseCase
+);
+router.get(
+  "/api/trainer/:trainerId/centres/:centresId",
+  async (req, res) => {
+    return getCentresByIdController.handle(req, res);
+  }
+);
 
 const deleteCentresByIdUseCase = new DeleteCentresByIdUseCase(trainerAdapter);
 const deleteCentresByIdController = new DeleteCentresByIdController(
