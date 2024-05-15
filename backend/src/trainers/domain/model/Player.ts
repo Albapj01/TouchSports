@@ -1,5 +1,6 @@
 export class Player {
   constructor(
+    readonly trainerId: string,
     readonly teamId: string,
     readonly playerId: string,
     readonly name: string,

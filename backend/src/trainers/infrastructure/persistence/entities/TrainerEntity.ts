@@ -11,6 +11,7 @@ export interface TrainerEntity extends Document {
     teamId: string;
     name: string;
     players: {
+      trainerId: string;
       teamId: string;
       playerId: string;
       name: string;

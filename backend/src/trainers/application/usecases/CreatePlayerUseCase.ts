@@ -21,6 +21,7 @@ export class CreatePalyerUseCase {
     }
 
     const player = new Player(
+      trainerId,
       teamId,
       playerDTO.playerId,
       playerDTO.name,

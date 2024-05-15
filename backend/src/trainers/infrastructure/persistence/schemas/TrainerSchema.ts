@@ -30,6 +30,9 @@ export const TrainerSchema = new mongoose.Schema(
         },
         players: [
           {
+            trainerId: {
+              type: String,
+            },
             teamId: {
               type: String,
             },

@@ -1,4 +1,5 @@
 export interface PlayerDTO {
+    trainerId: string,
     teamId: string,
     playerId: string,
     name: string,
