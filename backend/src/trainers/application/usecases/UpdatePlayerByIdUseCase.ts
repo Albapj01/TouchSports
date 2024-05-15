@@ -15,7 +15,7 @@ export class UpdatePlayerByIdUseCase {
         return null;
     }
 
-    const updatedPlayer = new Player(teamId, playerId, player.name, player.surname, player.email);
+    const updatedPlayer = new Player(trainerId, teamId, playerId, player.name, player.surname, player.email);
 
     team.players = team.players.filter((player) => player.playerId !== playerId);
 
