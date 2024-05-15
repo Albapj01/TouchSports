@@ -64,10 +64,37 @@ const getAllTeams = async (trainerId: string) => {
   return response.data;
 };
 
+const createPlayer = async (
+  trainerId: string,
+  teamId: string,
+  playerId: string,
+  name: string,
+  surname: string,
+  email: string
+) => {
+  const request = await axios.post(`${myApi}/trainer/${trainerId}/team/${teamId}/player`, {
+    trainerId,
+    teamId,
+    playerId,
+    name,
+    surname,
+    email
+  });
+};
+
+const getPlayerById = async (trainerId: string, teamId: string, playerId: string) => {
+  const response = await axios.get(
+    `${myApi}/trainer/${trainerId}/team/${teamId}/player/${playerId}`
+  );
+  return response.data;
+};
+
 export default {
   createTrainer,
   getTrainerById,
   createTeam,
   getTeamById,
   getAllTeams,
+  createPlayer,
+  getPlayerById,
 };

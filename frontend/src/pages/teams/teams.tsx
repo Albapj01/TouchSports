@@ -30,18 +30,19 @@ const Teams = () => {
         <IonContent fullscreen>
           <Menu />
           <Cards>
-            {teams && teams.map((team) => (
-              <Card
-                key={team.teamId}
-                route="/home/teams/team"
-                title={team.name}
-                imageUrl="https://www.infisport.com/media/amasty/blog/SprintDeportesEquipo1_2.jpg"
-                description=""
-              />
-            ))}
+            {teams &&
+              teams.map((team) => (
+                <Card
+                  key={team.teamId}
+                  route={`/home/teams/${team.teamId}`}
+                  title={team.name}
+                  imageUrl="https://www.infisport.com/media/amasty/blog/SprintDeportesEquipo1_2.jpg"
+                  description=""
+                />
+              ))}
           </Cards>
           <ButtonContainer>
-            <Link to="/home/teams/team/add-team">
+            <Link to="/home/teams/add-team">
               <Button
                 color="primary"
                 icon={addCircleOutline}

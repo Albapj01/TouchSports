@@ -7,8 +7,15 @@ import ToolBar from "frontend/src/components/toolbar/toolbar";
 import Button from "frontend/src/components/button/button";
 import { personAdd } from "ionicons/icons";
 import { Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
+
+interface RouteParams {
+  teamId: string;
+}
 
 const Team = () => {
+  const { teamId } = useParams<RouteParams>();
+  
   return (
     <>
       <IonPage>
@@ -35,7 +42,7 @@ const Team = () => {
           </PersonsContainer>
           <Space />
           <ButtonContainer>
-            <Link to="/home/teams/team/player/add-player">
+            <Link to={`/home/teams/${teamId}/add-player`}>
               <Button color="primary" icon={personAdd} text="Añadir jugador" />
             </Link>
           </ButtonContainer>

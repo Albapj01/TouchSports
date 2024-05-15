@@ -95,48 +95,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
-      },
-      {
         "file": "tsconfig.base.json",
         "hash": "16936441711144470533"
-      },
-      {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
-      },
-      {
-        "file": "package.json",
-        "hash": "5987517935751693412"
       },
       {
         "file": "package-lock.json",
         "hash": "6139651942244948423"
       },
       {
+        "file": "README.md",
+        "hash": "10104707244890837311"
+      },
+      {
         "file": ".vscode/settings.json",
         "hash": "6703405954808146235"
       },
       {
+        "file": "nx.json",
+        "hash": "4595224623132836319"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
         "file": "docker-compose.yml",
         "hash": "319288953677755740"
+      },
+      {
+        "file": "package.json",
+        "hash": "5987517935751693412"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
       }
     ],
     "projectFileMap": {
@@ -218,7 +218,7 @@
         },
         {
           "file": "backend/src/trainers/application/DTOs/PlayerDTO.ts",
-          "hash": "4709164107403977870"
+          "hash": "12319734254609508220"
         },
         {
           "file": "backend/src/trainers/application/DTOs/ReserveDTO.ts",
@@ -238,7 +238,7 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/CreatePlayerUseCase.ts",
-          "hash": "10172972496450674576"
+          "hash": "16329898044632970899"
         },
         {
           "file": "backend/src/trainers/application/usecases/CreateReserveUseCase.ts",
@@ -274,7 +274,7 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts",
-          "hash": "11528774346434113398"
+          "hash": "6695454689789049273"
         },
         {
           "file": "backend/src/trainers/application/usecases/GetAllReservesUseCase.ts",
@@ -286,7 +286,7 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts",
-          "hash": "9604754788415381816"
+          "hash": "16588639868631067692"
         },
         {
           "file": "backend/src/trainers/application/usecases/GetTeamByIdUseCase.ts",
@@ -302,7 +302,7 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts",
-          "hash": "11746279394841885922"
+          "hash": "13548043210717279660"
         },
         {
           "file": "backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts",
@@ -322,7 +322,7 @@
         },
         {
           "file": "backend/src/trainers/domain/model/Player.ts",
-          "hash": "15276234515945139951"
+          "hash": "8271735492852173553"
         },
         {
           "file": "backend/src/trainers/domain/model/Reserve.ts",
@@ -433,7 +433,7 @@
         },
         {
           "file": "backend/src/trainers/infrastructure/controller/GetPlayerByIdController.ts",
-          "hash": "16623099418824023327",
+          "hash": "1851768017406895635",
           "deps": [
             "npm:express"
           ]
@@ -489,25 +489,25 @@
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/entities/TrainerEntity.ts",
-          "hash": "13506884229048807777",
+          "hash": "15096058852401906506",
           "deps": [
             "npm:mongoose"
           ]
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts",
-          "hash": "18157472516800432010"
+          "hash": "1717620895334973607"
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts",
-          "hash": "613783270889738146",
+          "hash": "1350181980442008673",
           "deps": [
             "npm:mongoose"
           ]
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/schemas/TrainerSchema.ts",
-          "hash": "14124467235379886026",
+          "hash": "2397463055627832991",
           "deps": [
             "npm:mongoose"
           ]
@@ -630,7 +630,7 @@
         },
         {
           "file": "frontend/src/App.tsx",
-          "hash": "17821149429730038074",
+          "hash": "6727120293310539999",
           "deps": [
             "npm:react-router-dom",
             "npm:@ionic/react",
@@ -775,7 +775,7 @@
         },
         {
           "file": "frontend/src/main.tsx",
-          "hash": "11520829369603188694",
+          "hash": "54954125331387455",
           "deps": [
             "npm:react",
             "npm:react-dom",
@@ -788,12 +788,13 @@
         },
         {
           "file": "frontend/src/pages/add-player/addPlayer.tsx",
-          "hash": "8666903968231865827",
+          "hash": "5894257199045682305",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
             "npm:styled-components",
-            "npm:react-router-dom"
+            "npm:react-router-dom",
+            "npm:uuid"
           ]
         },
         {
@@ -862,7 +863,7 @@
         },
         {
           "file": "frontend/src/pages/team/team.tsx",
-          "hash": "2018069920649777007",
+          "hash": "9235475746852781851",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components",
@@ -872,7 +873,7 @@
         },
         {
           "file": "frontend/src/pages/teams/teams.tsx",
-          "hash": "7218421474940435713",
+          "hash": "5792544476591109896",
           "deps": [
             "npm:@ionic/react",
             "npm:react-router-dom",
@@ -898,7 +899,7 @@
         },
         {
           "file": "frontend/src/utils/api/api.tsx",
-          "hash": "2116055332587835064",
+          "hash": "7707941752504063387",
           "deps": [
             "npm:axios"
           ]

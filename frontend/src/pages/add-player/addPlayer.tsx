@@ -15,15 +15,51 @@ import ToolBar from "frontend/src/components/toolbar/toolbar";
 import Avatar from "frontend/src/components/avatar/avatar";
 import styled from "styled-components";
 import { useHistory } from "react-router-dom";
+import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import api from "frontend/src/utils/api/api";
+import { v4 as uuidv4 } from "uuid";
+import { useParams } from "react-router-dom";
+
+interface RouteParams {
+  teamId: string;
+}
 
 const AddPlayer = () => {
+  const { teamId } = useParams<RouteParams>();
+
   const [name, setName] = useState("");
-  const [surNames, setSurNames] = useState("");
+  const [surname, setSurname] = useState("");
   const [telephoneNumber, setTelephoneNumber] = useState("");
   const [email, setEmail] = useState("");
   const [showMultiSelect, setShowMultiSelect] = useState(false);
   const history = useHistory();
 
+  const { payload } = decodeJwt(storage.get("token"));
+
+  const handleAddPlayer = async () => {
+    const id = uuidv4();
+    const playerId = id.toString();
+
+    const existingPlayer = await api.getPlayerById(
+      payload.sub,
+      teamId,
+      playerId
+    );
+
+    const obtainedPlayerId =
+      existingPlayer && existingPlayer.player ? existingPlayer.player.id : null;
+
+    if (!obtainedPlayerId) {
+      await api.createPlayer(
+        payload.sub,
+        teamId,
+        playerId,
+        name,
+        surname,
+        email
+      );
+    }
+  };
   return (
     <>
       <IonPage>
@@ -51,7 +87,7 @@ const AddPlayer = () => {
               <Input
                 label="Apellidos"
                 placeholder="Apellidos"
-                elements={(surNames) => setSurNames(surNames)}
+                elements={(surname) => setSurname(surname)}
               />
               <br />
               <Input
@@ -82,7 +118,10 @@ const AddPlayer = () => {
                 },
                 {
                   text: "Añadir",
-                  handler: () => history.push(""),
+                  handler: () => {
+                    handleAddPlayer();
+                    history.push(`/home/teams/${teamId}`);
+                  },
                 },
                 {
                   text: "Cancelar",

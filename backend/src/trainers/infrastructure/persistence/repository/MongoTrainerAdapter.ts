@@ -50,10 +50,15 @@ export class MongoTrainerAdapter implements TrainerPort {
     }
     return null;
   }
-  async findByCentresId(centresId: string, trainerId: string): Promise<Centres> {
+  async findByCentresId(
+    centresId: string,
+    trainerId: string
+  ): Promise<Centres> {
     const trainer = await this.model.findOne({ trainerId });
     if (trainer) {
-      const centres = trainer.centres.find((centre) => centre.centresId === centresId);
+      const centres = trainer.centres.find(
+        (centre) => centre.centresId === centresId
+      );
       return centres;
     }
     return null;
@@ -153,7 +158,8 @@ export class MongoTrainerAdapter implements TrainerPort {
       { $set: { centres: centres } }
     );
   }
-  async saveReserve(reserve: Reserve,
+  async saveReserve(
+    reserve: Reserve,
     centre: Centres,
     trainer: Trainer
   ): Promise<void> {
@@ -172,10 +178,15 @@ export class MongoTrainerAdapter implements TrainerPort {
       { $set: { "centres.$.reserves": reserves } }
     );
   }
-  async getAllReserves(trainerId: string, centresId: string): Promise<Reserve[]> {
+  async getAllReserves(
+    trainerId: string,
+    centresId: string
+  ): Promise<Reserve[]> {
     const trainer = await this.model.findOne({ trainerId: trainerId });
     const domainTrainer = TrainerMapper.toDomain(trainer);
-    const centres = domainTrainer.centres.find((centre) => centre.centresId === centresId);
+    const centres = domainTrainer.centres.find(
+      (centre) => centre.centresId === centresId
+    );
     return centres.reserves;
   }
   async deleteReserve(

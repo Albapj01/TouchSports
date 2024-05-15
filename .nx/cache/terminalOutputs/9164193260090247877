@@ -1,0 +1,128 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 64 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d8e42b00659f9618)
+[1m[31mDebugger listening on ws://localhost:9229/95ba3a99-4e13-4717-b341-f42de670381e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/95ba3a99-4e13-4717-b341-f42de670381e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 64 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3a4a324378a670f1)
+[1m[31mDebugger listening on ws://localhost:9229/b5d883f3-e787-4757-a2b4-367a8626fbd5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b5d883f3-e787-4757-a2b4-367a8626fbd5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 64 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/controller/GetPlayerByIdController.ts:[32m[1m14:56[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'player'. Either declare one or provide an initializer.
+  [0m [90m 12 |[39m     }[0m
+  [0m [90m 13 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     res[33m.[39mstatus([35m201[39m)[33m.[39msend({ message[33m:[39m [32m"Obtained player"[39m[33m,[39m player })[33m;[39m[0m
+  [0m [90m    |[39m                                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m   }[0m
+  [0m [90m 16 |[39m }[0m
+  [0m [90m 17 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (28dee3e3b9d09205)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 63.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7aba2a67dbd9f426)
+[1m[31mDebugger listening on ws://localhost:9229/62576b16-8f0e-45b2-9b26-7297607688ec[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/62576b16-8f0e-45b2-9b26-7297607688ec[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 63.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fef95d618c7e1891)
+[1m[31mDebugger listening on ws://localhost:9229/656a07cf-a7c0-4f30-9a31-adcd7fdfc496[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/656a07cf-a7c0-4f30-9a31-adcd7fdfc496[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 64 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/controller/GetPlayerByIdController.ts:[32m[1m10:58[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'player'. Either declare one or provide an initializer.
+  [0m [90m  8 |[39m     [36mtry[39m {[0m
+  [0m [90m  9 |[39m       [36mawait[39m [36mthis[39m[33m.[39mgetPlayerByidUseCase[33m.[39mrun(req[33m.[39mparams[33m.[39mtrainerId[33m,[39m req[33m.[39mparams[33m.[39mteamId[33m,[39m req[33m.[39mparams[33m.[39mplayerId)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m       res[33m.[39mstatus([35m201[39m)[33m.[39msend({ message[33m:[39m [32m"Obtained player"[39m[33m,[39m player })[33m;[39m[0m
+  [0m [90m    |[39m                                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m[0m
+  [0m [90m 12 |[39m     } [36mcatch[39m (error) {[0m
+  [0m [90m 13 |[39m       [36mreturn[39m res[33m.[39mstatus([35m500[39m)[33m.[39msend({ message[33m:[39m [32m"Error"[39m })[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (ea637640000dca39)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 64 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (dc6545502d10d578)
+[1m[31mDebugger listening on ws://localhost:9229/2827bead-70d5-4cb9-bc80-ca9b0cc5ac70[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2827bead-70d5-4cb9-bc80-ca9b0cc5ac70[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 64 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0c306c5ad07f26af)
+[1m[31mDebugger listening on ws://localhost:9229/cf291d26-f1ac-41d9-a1d7-78f1674cd5c9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cf291d26-f1ac-41d9-a1d7-78f1674cd5c9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 64 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/controller/GetPlayerByIdController.ts:[32m[1m9:33[22m[39m[1m[39m[22m
+[90mTS2551: [39mProperty 'getPlayerByidUseCase' does not exist on type 'GetPlayerByIdController'. Did you mean 'getPlayerByIdUseCase'?
+  [0m [90m  7 |[39m   [36masync[39m handle(req[33m:[39m [33mRequest[39m[33m,[39m res[33m:[39m [33mResponse[39m) {[0m
+  [0m [90m  8 |[39m     [36mtry[39m {[0m
+  [0m[31m[1m>[22m[39m[90m  9 |[39m       [36mconst[39m player [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mgetPlayerByidUseCase[33m.[39mrun(req[33m.[39mparams[33m.[39mtrainerId[33m,[39m req[33m.[39mparams[33m.[39mteamId[33m,[39m req[33m.[39mparams[33m.[39mplayerId)[33m;[39m[0m
+  [0m [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 10 |[39m       res[33m.[39mstatus([35m201[39m)[33m.[39msend({ message[33m:[39m [32m"Obtained player"[39m[33m,[39m player })[33m;[39m[0m
+  [0m [90m 11 |[39m     } [36mcatch[39m (error) {[0m
+  [0m [90m 12 |[39m       [36mreturn[39m res[33m.[39mstatus([35m500[39m)[33m.[39msend({ message[33m:[39m [32m"Error"[39m })[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (fddabfeb36a76e8e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 64 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a1308eb38b0f92cc)
+[1m[31mDebugger listening on ws://localhost:9229/e7549879-2cfb-4481-8062-33bcbae7bef0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e7549879-2cfb-4481-8062-33bcbae7bef0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 64 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/GetPlayerByIdUseCase.ts[39m[22m [1m[32m14:16-17[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts(14,17)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/GetPlayerByIdUseCase.ts[39m[22m [1m[32m15:26[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (15:26)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 trainerId: trainerId,
+|                 teamId: teamId,
+>                 playerId: .playerId,
+|                 name: player.name,
+|                 surname: player.surname,[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (4d8db82db3ca37dd)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 64 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f870b26d26367793)
+[1m[31mDebugger listening on ws://localhost:9229/8cf7d000-7b91-40af-8a93-5383b542fa36[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8cf7d000-7b91-40af-8a93-5383b542fa36[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 64 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9286c7dbbb411126)
+[1m[31mDebugger listening on ws://localhost:9229/d7994902-5446-4d86-b90e-3bcae5b4cbc2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d7994902-5446-4d86-b90e-3bcae5b4cbc2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 64 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (317f7f7e8c9619c2)
+[1m[31mDebugger listening on ws://localhost:9229/6cca06d7-6237-48d3-a284-3442f1029442[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6cca06d7-6237-48d3-a284-3442f1029442[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 64 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c3eb925c24d5f9ff)
+[1m[31mDebugger listening on ws://localhost:9229/92aa9ee9-7797-4907-b462-4d9fd0bf8f3c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/92aa9ee9-7797-4907-b462-4d9fd0bf8f3c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

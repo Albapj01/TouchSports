@@ -42,11 +42,11 @@ const App: React.FC = () => (
         <Route path="/sign-in" component={SignIn} />
         <Route path="/home/profile" component={Profile} />
         <Route path="/home/teams" component={Teams} />
-        <Route path="/home/teams/team" component={Team} />
-        <Route path="/home/teams/team/add-team" component={AddTeam}/>
-        <Route path="/home/teams/team/player" component={Player} />
+        <Route path="/home/teams/:teamId" component={Team} />
+        <Route path="/home/teams/add-team" component={AddTeam}/>
+        <Route path="/home/teams/:teamId/player" component={Player} />
         <Route
-          path="/home/teams/team/player/add-player"
+          path="/home/teams/:teamId/add-player"
           component={AddPlayer}
         />
         <Route path="/home/centres" component={Centres} />
