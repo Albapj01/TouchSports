@@ -2,6 +2,7 @@ import axios from "axios";
 import { Team } from "../interfaces/Team";
 import { Centres } from "../interfaces/Centres";
 import { Player } from "../interfaces/Player";
+import { Reserve } from "../interfaces/Reserve";
 
 const myApi = "http://localhost:3333/api";
 
@@ -94,6 +95,31 @@ const getAllPlayers = async (trainerId: string, teamId: string) => {
   return response.data;
 };
 
+const createCentres = async (
+  trainerId: string,
+  centresId: string,
+  name: string,
+  location: string,
+  reserves: Reserve[],
+  imageUrl: string,
+) => {
+  const request = await axios.post(`${myApi}/trainer/${trainerId}/centres`, {
+    trainerId,
+    centresId,
+    name,
+    location,
+    reserves,
+    imageUrl,
+  });
+};
+
+const getCentresById = async (trainerId: string, centresId: string) => {
+  const response = await axios.get(
+    `${myApi}/trainer/${trainerId}/centres/${centresId}`
+  );
+  return response.data;
+};
+
 export default {
   createTrainer,
   getTrainerById,
@@ -103,4 +129,6 @@ export default {
   createPlayer,
   getPlayerById,
   getAllPlayers,
+  createCentres,
+  getCentresById,
 };

@@ -1,0 +1,624 @@
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4200/[22m
+
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.14 MiB (6.6 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.86 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 178 KiB 8 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 118 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (035fd3eff05f2659)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.14 MiB (6.6 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.86 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 178 KiB 8 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 118 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (035fd3eff05f2659)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.14 MiB (6.6 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.86 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 178 KiB 8 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 118 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (035fd3eff05f2659)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.14 MiB (6.6 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.86 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 178 KiB 8 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 118 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (035fd3eff05f2659)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.14 MiB (6.6 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.86 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 178 KiB 8 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 118 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (035fd3eff05f2659)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.15 MiB (6.61 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.035fd3eff05f2659.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.035fd3eff05f2659.hot-update.js[39m[22m (main) 118 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.035fd3eff05f2659.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a49a0918fab71df3)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.15 MiB (6.61 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.a49a0918fab71df3.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.a49a0918fab71df3.hot-update.js[39m[22m (main) 118 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.a49a0918fab71df3.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c8bfcaacf4ea3fc8)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.18 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.c8bfcaacf4ea3fc8.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.c8bfcaacf4ea3fc8.hot-update.js[39m[22m (main) 125 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.c8bfcaacf4ea3fc8.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b3d826ac928e792b)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.16 MiB (6.61 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.b3d826ac928e792b.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.b3d826ac928e792b.hot-update.js[39m[22m (main) 125 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.b3d826ac928e792b.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e4e53ff83bff99be)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.e4e53ff83bff99be.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.e4e53ff83bff99be.hot-update.js[39m[22m (main) 125 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.e4e53ff83bff99be.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (eddb257cc048c2eb)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 1402 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.eddb257cc048c2eb.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.eddb257cc048c2eb.hot-update.js[39m[22m (main) 125 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.eddb257cc048c2eb.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (64b51766089e08be)
+[36mType-checking in progress...[39m
+Found [31m[1m4 errors[22m[39m in 911 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.64b51766089e08be.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.64b51766089e08be.hot-update.js[39m[22m (main) 125 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.64b51766089e08be.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14b321efbf9883fa)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 871 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.14b321efbf9883fa.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.14b321efbf9883fa.hot-update.js[39m[22m (main) 125 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.14b321efbf9883fa.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (255d12360e37f04c)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.16 MiB (6.61 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.86 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 189 KiB 8 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 125 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (255d12360e37f04c)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.255d12360e37f04c.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.255d12360e37f04c.hot-update.js[39m[22m (main) 127 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.255d12360e37f04c.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5c893dddf7e5318d)
+[36mType-checking in progress...[39m
+Found [31m[1m3 errors[22m[39m in 1093 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.16 MiB (6.61 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.86 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 191 KiB 8 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 127 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5c893dddf7e5318d)
+Found [31m[1m3 errors[22m[39m in 430 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.5c893dddf7e5318d.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.5c893dddf7e5318d.hot-update.js[39m[22m (main) 127 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.5c893dddf7e5318d.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bb8a2d2d116b2103)
+[36mType-checking in progress...[39m
+Found [31m[1m3 errors[22m[39m in 937 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.bb8a2d2d116b2103.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.bb8a2d2d116b2103.hot-update.js[39m[22m (main) 127 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.bb8a2d2d116b2103.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (50f858922174bc9c)
+[36mType-checking in progress...[39m
+Found [31m[1m3 errors[22m[39m in 1092 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.50f858922174bc9c.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.50f858922174bc9c.hot-update.js[39m[22m (main) 127 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.50f858922174bc9c.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (85ab82cab075c7e2)
+[36mType-checking in progress...[39m
+Found [31m[1m3 errors[22m[39m in 788 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.85ab82cab075c7e2.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.85ab82cab075c7e2.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.85ab82cab075c7e2.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4e3c61ba1bb0f8cb)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 1260 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.4e3c61ba1bb0f8cb.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.4e3c61ba1bb0f8cb.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.4e3c61ba1bb0f8cb.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (93964461f3777a18)
+[36mType-checking in progress...[39m
+Found [31m[1m2 errors[22m[39m in 1458 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.93964461f3777a18.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.93964461f3777a18.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.93964461f3777a18.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (621ae5c1b721289e)
+[36mType-checking in progress...[39m
+Found [31m[1m2 errors[22m[39m in 924 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.621ae5c1b721289e.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.621ae5c1b721289e.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.621ae5c1b721289e.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8abdb4e4d9d0185e)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 819 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.8abdb4e4d9d0185e.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.8abdb4e4d9d0185e.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.8abdb4e4d9d0185e.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (092c27e888f1d088)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 1054 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.092c27e888f1d088.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.092c27e888f1d088.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.092c27e888f1d088.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (dde08d2368dbe68a)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 879 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.dde08d2368dbe68a.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.dde08d2368dbe68a.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.dde08d2368dbe68a.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0fd7fc8d9b31b04f)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 909 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.0fd7fc8d9b31b04f.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.0fd7fc8d9b31b04f.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.0fd7fc8d9b31b04f.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0e5692e4a22ff2f3)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.0e5692e4a22ff2f3.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.0e5692e4a22ff2f3.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.0e5692e4a22ff2f3.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (33b767c8f334e329)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 1184 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.33b767c8f334e329.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.33b767c8f334e329.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.33b767c8f334e329.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (627b4fe5d7f6ba9f)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.627b4fe5d7f6ba9f.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.627b4fe5d7f6ba9f.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.627b4fe5d7f6ba9f.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (10bb8ab5ffd741a9)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 958 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.10bb8ab5ffd741a9.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.10bb8ab5ffd741a9.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.10bb8ab5ffd741a9.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c8849d3ed95120f9)
+[36mType-checking in progress...[39m
+Found [31m[1m4 errors[22m[39m in 721 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.c8849d3ed95120f9.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.c8849d3ed95120f9.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.c8849d3ed95120f9.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cb66e42681302b6e)
+[36mType-checking in progress...[39m
+Found [31m[1m5 errors[22m[39m in 1072 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.cb66e42681302b6e.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.cb66e42681302b6e.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.cb66e42681302b6e.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (67ad31e047d1870f)
+[36mType-checking in progress...[39m
+Found [31m[1m3 errors[22m[39m in 900 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.67ad31e047d1870f.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.67ad31e047d1870f.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.67ad31e047d1870f.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f2d82779da83395a)
+[36mType-checking in progress...[39m
+Found [31m[1m2 errors[22m[39m in 1024 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.f2d82779da83395a.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.f2d82779da83395a.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.f2d82779da83395a.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9187a6b46a0edbc1)
+[36mType-checking in progress...[39m
+Found [31m[1m2 errors[22m[39m in 1127 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.9187a6b46a0edbc1.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.9187a6b46a0edbc1.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.9187a6b46a0edbc1.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2671f2c01d3189dd)
+[36mType-checking in progress...[39m
+Found [31m[1m2 errors[22m[39m in 799 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.2671f2c01d3189dd.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.2671f2c01d3189dd.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.2671f2c01d3189dd.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f3120bcea94ba747)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 848 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.f3120bcea94ba747.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.f3120bcea94ba747.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.f3120bcea94ba747.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (06492f1f396963f1)
+[36mType-checking in progress...[39m
+Found [31m[1m2 errors[22m[39m in 762 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.06492f1f396963f1.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.06492f1f396963f1.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.06492f1f396963f1.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f58c60bce75d8e58)
+[36mType-checking in progress...[39m
+Found [31m[1m2 errors[22m[39m in 746 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.f58c60bce75d8e58.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.f58c60bce75d8e58.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.f58c60bce75d8e58.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0dcb54590a2ae933)
+[36mType-checking in progress...[39m
+Found [31m[1m2 errors[22m[39m in 855 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.0dcb54590a2ae933.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.0dcb54590a2ae933.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.0dcb54590a2ae933.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3a4c8390c178bf36)
+[36mType-checking in progress...[39m
+Found [31m[1m2 errors[22m[39m in 835 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.3a4c8390c178bf36.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.3a4c8390c178bf36.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.3a4c8390c178bf36.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e0cc11bfa00c982c)
+[36mType-checking in progress...[39m
+Found [31m[1m2 errors[22m[39m in 984 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.e0cc11bfa00c982c.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.e0cc11bfa00c982c.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.e0cc11bfa00c982c.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (96544109404ec479)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 763 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.96544109404ec479.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.96544109404ec479.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.96544109404ec479.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (048fb1e27f5e1b0f)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.17 MiB (6.62 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.048fb1e27f5e1b0f.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.048fb1e27f5e1b0f.hot-update.js[39m[22m (main) 126 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.048fb1e27f5e1b0f.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.74 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d3ea6404b5e921cc)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
