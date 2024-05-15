@@ -9,6 +9,7 @@ export class GetPlayerByIdUseCase {
     const player = await this.trainerPort.findByPlayerId(playerId, teamId, trainerId)
 
     return {
+      trainerId: trainerId,
       teamId: teamId,
       playerId: player.playerId,
       name: player.name,

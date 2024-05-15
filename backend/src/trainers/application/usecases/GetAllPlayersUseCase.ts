@@ -19,6 +19,7 @@ export class GetAllPlayersUseCase {
     const players: Player[] = team.players;
 
     const playerDTOs: PlayerDTO[] = players.map(player => ({
+      trainerId: trainerId,
       teamId: teamId,
       playerId: player.playerId,
       name: player.name,
