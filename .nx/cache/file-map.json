@@ -95,28 +95,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
+        "file": "package.json",
+        "hash": "5987517935751693412"
       },
       {
         "file": "LICENSE",
         "hash": "15553496959705771468"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "6139651942244948423"
       },
       {
         "file": "tsconfig.base.json",
@@ -127,16 +111,32 @@
         "hash": "4595224623132836319"
       },
       {
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "6139651942244948423"
+      },
+      {
         "file": "docker-compose.yml",
         "hash": "319288953677755740"
       },
       {
-        "file": "package.json",
-        "hash": "5987517935751693412"
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
+      },
+      {
+        "file": "README.md",
+        "hash": "10104707244890837311"
       },
       {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
       }
     ],
     "projectFileMap": {
@@ -630,7 +630,7 @@
         },
         {
           "file": "frontend/src/App.tsx",
-          "hash": "6727120293310539999",
+          "hash": "15037971301640703736",
           "deps": [
             "npm:react-router-dom",
             "npm:@ionic/react",
@@ -826,9 +826,11 @@
         },
         {
           "file": "frontend/src/pages/player/player.tsx",
-          "hash": "9914671900451560486",
+          "hash": "9204678439652177045",
           "deps": [
             "npm:@ionic/react",
+            "npm:react",
+            "npm:react-router-dom",
             "npm:styled-components"
           ]
         },
@@ -863,7 +865,7 @@
         },
         {
           "file": "frontend/src/pages/team/team.tsx",
-          "hash": "11978651185366486910",
+          "hash": "87934748136353185",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components",

@@ -27,7 +27,7 @@ import Centres from "./pages/centres/centres";
 import Team from "./pages/team/team";
 import Profile from "./pages/profile/profile";
 import SignIn from "./pages/sign-in/signIn";
-import Player from "./pages/player/player";
+import PlayerInfo from "./pages/player/player";
 import AddPlayer from "./pages/add-player/addPlayer";
 import Teams from "./pages/teams/teams";
 import AddTeam from "./pages/add-team/addTeam";
@@ -44,7 +44,7 @@ const App: React.FC = () => (
         <Route path="/home/teams" component={Teams} />
         <Route path="/home/teams/:teamId" component={Team} />
         <Route path="/home/teams/add-team" component={AddTeam}/>
-        <Route path="/home/teams/:teamId/player" component={Player} />
+        <Route path="/home/teams/:teamId/player/:playerId" component={PlayerInfo} />
         <Route
           path="/home/teams/:teamId/add-player"
           component={AddPlayer}

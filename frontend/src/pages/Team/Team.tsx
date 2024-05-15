@@ -28,7 +28,6 @@ const Team = () => {
     api
       .getAllPlayers(payload.sub, teamId)
       .then((result) => setPlayers(result.players));
-    console.log(players);
   }, []);
 
   return (
@@ -46,7 +45,7 @@ const Team = () => {
                   <AvatarContainer>
                     <Avatar
                       key={player.playerId}
-                      route={`/home/teams/${teamId}/player`}
+                      route={`/home/teams/${teamId}/player/${player.playerId}`}
                       imageUrl="https://ionicframework.com/docs/img/demos/avatar.svg"
                       name={player.name}
                       surname={player.surname}

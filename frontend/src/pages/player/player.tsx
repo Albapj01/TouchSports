@@ -1,12 +1,41 @@
-import { IonContent, IonFooter, IonHeader, IonPage } from "@ionic/react";
+import {
+  IonContent,
+  IonFooter,
+  IonHeader,
+  IonItem,
+  IonLabel,
+  IonList,
+  IonPage,
+} from "@ionic/react";
 import Card from "frontend/src/components/card/card";
-import List from "frontend/src/components/list/list";
 import Menu from "frontend/src/components/menu/menu";
 import Tabs from "frontend/src/components/tabs/tabs";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
+import api from "frontend/src/utils/api/api";
+import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import { Player } from "frontend/src/utils/interfaces/Player";
+import { useEffect, useState } from "react";
+import { useHistory, useParams } from "react-router-dom";
 import styled from "styled-components";
 
-const Player = () => {
+interface RouteParams {
+  teamId: string;
+  playerId: string;
+}
+
+const PlayerInfo = () => {
+  const { teamId, playerId } = useParams<RouteParams>();
+  const [player, setPlayer] = useState<Player>();
+
+  const history = useHistory();
+
+  const { payload } = decodeJwt(storage.get("token"));
+
+  useEffect(() => {
+    api.getPlayerById(payload.sub, teamId, playerId).then((result) => setPlayer(result.player));
+  }, []);
+
+  
   return (
     <>
       <IonPage>
@@ -21,7 +50,32 @@ const Player = () => {
               src={"https://ionicframework.com/docs/img/demos/avatar.svg"}
             />
           </ImageContainer>
-          <List />
+          <IonList inset={true}>
+            <IonItem color="light">
+              <IonLabel>Nombre</IonLabel>
+              <MarginList>
+                <IonLabel>{player ? player.name : ''}</IonLabel>
+              </MarginList>
+            </IonItem>
+            <IonItem color="light">
+              <IonLabel>Apellidos</IonLabel>
+              <MarginList>
+                <IonLabel>{player ? player.surname : ''}</IonLabel>
+              </MarginList>
+            </IonItem>
+            <IonItem color="light">
+              <IonLabel>Teléfono</IonLabel>
+              <MarginList>
+                <IonLabel>Example</IonLabel>
+              </MarginList>
+            </IonItem>
+            <IonItem color="light">
+              <IonLabel>Correo</IonLabel>
+              <MarginList>
+                <IonLabel>{player ? player.email : ''}</IonLabel>
+              </MarginList>
+            </IonItem>
+          </IonList>{" "}
           <Space />
           <Card
             route=""
@@ -63,4 +117,8 @@ const Space = styled.div`
   margin-top: 10%;
 `;
 
-export default Player;
+const MarginList = styled.div`
+  margin-right: auto;
+`;
+
+export default PlayerInfo;
