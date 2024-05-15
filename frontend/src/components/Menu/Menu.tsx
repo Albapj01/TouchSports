@@ -8,7 +8,7 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styled, { createGlobalStyle } from "styled-components";
 import {
   calendar,
@@ -18,6 +18,9 @@ import {
   logOut,
 } from "ionicons/icons";
 import { Link } from "react-router-dom";
+import { Team } from "frontend/src/utils/interfaces/Team";
+import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import api from "frontend/src/utils/api/api";
 
 const Menu = () => {
   const [showDropDown, setDropDown] = useState(false);
@@ -25,6 +28,14 @@ const Menu = () => {
   const handleDropDownClick = () => {
     setDropDown(!showDropDown);
   };
+
+  const [teams, setTeams] = useState<Team[]>([]);
+
+  const { payload } = decodeJwt(storage.get("token"));
+
+  useEffect(() => {
+    api.getAllTeams(payload.sub).then((result) => setTeams(result.teams));
+  }, []);
 
   return (
     <>
@@ -40,12 +51,16 @@ const Menu = () => {
           </StyledIonItem>
           <StyledIonItem color="primary" button onClick={handleDropDownClick}>
             <Icon icon={people} />
-            <StyledLink to="/home/team">Equipo</StyledLink>
+            <StyledLink to="/home/teams">Equipo</StyledLink>
           </StyledIonItem>
           {showDropDown && (
             <IonList className="no-margin-padding">
-              <StyledIonItem color="primary"> Equipo 1</StyledIonItem>
-              <StyledIonItem color="primary"> Equipo 2</StyledIonItem>
+              {teams.map((team, index) => (
+                <StyledIonItem key={index} color="primary">
+                  <Icon icon={""} />
+                  <StyledLink to="/home/teams/team">{team.name}</StyledLink>
+                </StyledIonItem>
+              ))}
             </IonList>
           )}
           <StyledIonItem color="primary">

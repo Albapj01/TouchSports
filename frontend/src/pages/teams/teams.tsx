@@ -32,6 +32,7 @@ const Teams = () => {
           <Cards>
             {teams && teams.map((team) => (
               <Card
+                key={team.teamId}
                 route="/home/teams/team"
                 title={team.name}
                 imageUrl="https://www.infisport.com/media/amasty/blog/SprintDeportesEquipo1_2.jpg"
