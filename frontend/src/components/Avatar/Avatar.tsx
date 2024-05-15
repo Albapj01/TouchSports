@@ -5,10 +5,11 @@ import styled from "styled-components";
 type AvatarProps = {
   imageUrl: string;
   name: string;
+  surname: string;
   route: string;
 };
 
-const Avatar = ({ imageUrl, name, route }: AvatarProps) => {
+const Avatar = ({ imageUrl, name, surname, route }: AvatarProps) => {
   return (
     <StyledLink to={route}>
       <AvatarContainer>
@@ -16,6 +17,7 @@ const Avatar = ({ imageUrl, name, route }: AvatarProps) => {
           <img alt={name} src={imageUrl} />
         </AvatarIcon>
         <div>{name}</div>
+        <div>{surname}</div>
       </AvatarContainer>
     </StyledLink>
   );

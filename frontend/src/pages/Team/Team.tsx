@@ -8,6 +8,10 @@ import Button from "frontend/src/components/button/button";
 import { personAdd } from "ionicons/icons";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
+import { Player } from "frontend/src/utils/interfaces/Player";
+import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import { useEffect, useState } from "react";
+import api from "frontend/src/utils/api/api";
 
 interface RouteParams {
   teamId: string;
@@ -15,7 +19,18 @@ interface RouteParams {
 
 const Team = () => {
   const { teamId } = useParams<RouteParams>();
-  
+
+  const [players, setPlayers] = useState<Player[]>([]);
+
+  const { payload } = decodeJwt(storage.get("token"));
+
+  useEffect(() => {
+    api
+      .getAllPlayers(payload.sub, teamId)
+      .then((result) => setPlayers(result.players));
+    console.log(players);
+  }, []);
+
   return (
     <>
       <IonPage>
@@ -25,20 +40,20 @@ const Team = () => {
         <IonContent fullscreen>
           <Menu />
           <PersonsContainer>
-            <Person>
-              <Avatar
-                route="/home/teams/team/player"
-                imageUrl="https://ionicframework.com/docs/img/demos/avatar.svg"
-                name="Nombre Apellidos"
-              />
-            </Person>
-            <Person>
-              <Avatar
-                route="/home/teams/team/player"
-                imageUrl="https://ionicframework.com/docs/img/demos/avatar.svg"
-                name="Nombre Apellidos"
-              />
-            </Person>
+            {players &&
+              players.map((player) => (
+                <Person>
+                  <AvatarContainer>
+                    <Avatar
+                      key={player.playerId}
+                      route={`/home/teams/${teamId}/player`}
+                      imageUrl="https://ionicframework.com/docs/img/demos/avatar.svg"
+                      name={player.name}
+                      surname={player.surname}
+                    />
+                  </AvatarContainer>
+                </Person>
+              ))}
           </PersonsContainer>
           <Space />
           <ButtonContainer>
@@ -72,6 +87,13 @@ const Person = styled.div`
 
 const Space = styled.div`
   margin-bottom: 10%;
+`;
+
+const AvatarContainer = styled.div`
+  text-align: center;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
 `;
 
 export default Team;

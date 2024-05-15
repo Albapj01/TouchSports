@@ -52,6 +52,7 @@ const AddTeam = () => {
               route=""
               imageUrl="https://ionicframework.com/docs/img/demos/avatar.svg"
               name=""
+              surname=""
             />
           </PersonContainer>
           <IonList className="no-margin-padding">

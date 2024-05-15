@@ -95,32 +95,36 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "6139651942244948423"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
-      },
-      {
         "file": ".vscode/settings.json",
         "hash": "6703405954808146235"
       },
       {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
       },
       {
         "file": "LICENSE",
         "hash": "15553496959705771468"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": "README.md",
+        "hash": "10104707244890837311"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "6139651942244948423"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4595224623132836319"
       },
       {
         "file": "docker-compose.yml",
@@ -131,12 +135,8 @@
         "hash": "5987517935751693412"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       }
     ],
     "projectFileMap": {
@@ -412,7 +412,7 @@
         },
         {
           "file": "backend/src/trainers/infrastructure/controller/GetAllPlayersController.ts",
-          "hash": "18230088675783554859",
+          "hash": "3597022860174076218",
           "deps": [
             "npm:express"
           ]
@@ -660,7 +660,7 @@
         },
         {
           "file": "frontend/src/components/avatar/avatar.tsx",
-          "hash": "6790340841036272774",
+          "hash": "2782772634911313445",
           "deps": [
             "npm:@ionic/react",
             "npm:react-router-dom",
@@ -788,7 +788,7 @@
         },
         {
           "file": "frontend/src/pages/add-player/addPlayer.tsx",
-          "hash": "5894257199045682305",
+          "hash": "14872618102135492064",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -799,7 +799,7 @@
         },
         {
           "file": "frontend/src/pages/add-team/addTeam.tsx",
-          "hash": "11232618836343659057",
+          "hash": "13491531921550391040",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -863,12 +863,13 @@
         },
         {
           "file": "frontend/src/pages/team/team.tsx",
-          "hash": "9235475746852781851",
+          "hash": "11978651185366486910",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components",
             "npm:ionicons",
-            "npm:react-router-dom"
+            "npm:react-router-dom",
+            "npm:react"
           ]
         },
         {
@@ -899,7 +900,7 @@
         },
         {
           "file": "frontend/src/utils/api/api.tsx",
-          "hash": "7707941752504063387",
+          "hash": "13449652710709182090",
           "deps": [
             "npm:axios"
           ]
