@@ -83,7 +83,7 @@ const AddCentres = () => {
                 {
                   text: "Eliminar",
                   role: "destructive",
-                  handler: () => history.push("/home/teams"),
+                  handler: () => history.push("/home/centres"),
                 },
                 {
                   text: "Añadir",
@@ -95,7 +95,7 @@ const AddCentres = () => {
                 {
                   text: "Cancelar",
                   role: "cancel",
-                  handler: () => history.push("/home/teams/team/add-team"),
+                  handler: () => history.push("/home/centres/add-centres"),
                 },
               ]}
             ></IonActionSheet>

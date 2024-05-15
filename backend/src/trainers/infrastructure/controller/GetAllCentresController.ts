@@ -8,11 +8,10 @@ export class GetAllCentresController {
     const trainerId = req.params.trainerId;
 
     try {
-      await this.getAllCentresUseCase.run(trainerId);
+      const centres = await this.getAllCentresUseCase.run(trainerId);
+      res.status(201).send({ message: "Obtained centres", centres });
     } catch (error) {
       return res.status(500).send({ message: "Error" });
     }
-
-    res.status(201).send({ message: "Obtained centres" });
   }
 }

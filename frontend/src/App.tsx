@@ -23,7 +23,7 @@ import "@ionic/react/css/display.css";
 /* Theme variables */
 import "./theme/variables.css";
 import Reserve from "./pages/reserve/reserve";
-import Centres from "./pages/centres/centres";
+import CentresInfo from "./pages/centres/centres";
 import Team from "./pages/team/team";
 import Profile from "./pages/profile/profile";
 import SignIn from "./pages/sign-in/signIn";
@@ -50,7 +50,7 @@ const App: React.FC = () => (
           path="/home/teams/:teamId/add-player"
           component={AddPlayer}
         />
-        <Route path="/home/centres" component={Centres} />
+        <Route path="/home/centres" component={CentresInfo} />
         <Route path="/home/centres/add-centres" component={AddCentres} />
         <Route path="/home/centres/reserve" component={Reserve} />
         <Route exact path="/">

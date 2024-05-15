@@ -120,6 +120,11 @@ const getCentresById = async (trainerId: string, centresId: string) => {
   return response.data;
 };
 
+const getAllCentres = async (trainerId: string) => {
+  const response = await axios.get(`${myApi}/trainer/${trainerId}/centres`);
+  return response.data;
+};
+
 export default {
   createTrainer,
   getTrainerById,
@@ -131,4 +136,5 @@ export default {
   getAllPlayers,
   createCentres,
   getCentresById,
+  getAllCentres,
 };

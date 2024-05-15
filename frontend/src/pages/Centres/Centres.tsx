@@ -1,4 +1,11 @@
-import { IonContent, IonFooter, IonHeader, IonImg, IonPage, IonSearchbar } from "@ionic/react";
+import {
+  IonContent,
+  IonFooter,
+  IonHeader,
+  IonImg,
+  IonPage,
+  IonSearchbar,
+} from "@ionic/react";
 import Button from "frontend/src/components/button/button";
 import Card from "frontend/src/components/card/card";
 import Menu from "frontend/src/components/menu/menu";
@@ -7,8 +14,19 @@ import ToolBar from "frontend/src/components/toolbar/toolbar";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { addCircleOutline } from "ionicons/icons";
+import { useEffect, useState } from "react";
+import { Centres } from "frontend/src/utils/interfaces/Centres";
+import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import api from "frontend/src/utils/api/api";
 
-const Centres = () => {
+const CentresInfo = () => {
+  const [centres, setCentres] = useState<Centres[]>([]);
+
+  const { payload } = decodeJwt(storage.get("token"));
+
+  useEffect(() => {
+    api.getAllCentres(payload.sub).then((result) => setCentres(result.centres));
+  }, []);
 
   return (
     <>
@@ -20,18 +38,16 @@ const Centres = () => {
           <Menu />
           <IonSearchbar placeholder="Buscar"></IonSearchbar>
           <CentresContainer>
-            <Card
-              route="/home/centres/reserve"
-              title="Polideportivo 1"
-              imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
-              description=""
-            />
-            <Card
-              route="/home/centres/reserve"
-              title="Polideportivo 2"
-              imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
-              description=""
-            />
+            {centres &&
+              centres.map((centre) => (
+                <Card
+                  key={centre.centresId}
+                  route="/home/centres/reserve"
+                  title={centre.name}
+                  imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
+                  description=""
+                />
+              ))}
           </CentresContainer>
           <ButtonContainer>
             <Link to="/home/centres/add-centres">
@@ -63,4 +79,4 @@ const ButtonContainer = styled.div`
   width: 50%;
 `;
 
-export default Centres;
+export default CentresInfo;
