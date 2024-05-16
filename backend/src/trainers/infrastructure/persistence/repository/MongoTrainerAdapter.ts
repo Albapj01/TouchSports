@@ -63,6 +63,23 @@ export class MongoTrainerAdapter implements TrainerPort {
     }
     return null;
   }
+  async findByReserveId(
+    reserveId: string,
+    centresId: string,
+    trainerId: string
+  ): Promise<Reserve> {
+    const trainer = await this.model.findOne({ trainerId });
+    if (trainer) {
+      const centres = trainer.centres.find((centre) => centre.centresId === centresId);
+      if (centres) {
+        const reserve = centres.reserves.find(
+          (reserve) => reserve.reserveId === reserveId
+        );
+        return reserve;
+      }
+    }
+    return null;
+  }
   async findById(trainerId: string): Promise<Trainer> {
     const trainer = await this.model.findOne({ trainerId: trainerId });
     return TrainerMapper.toDomain(trainer);
