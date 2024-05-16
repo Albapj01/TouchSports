@@ -42,7 +42,7 @@ const CentresInfo = () => {
               centres.map((centre) => (
                 <Card
                   key={centre.centresId}
-                  route="/home/centres/reserve"
+                  route={`/home/centres/${centre.centresId}`}
                   title={centre.name}
                   imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
                   description=""
