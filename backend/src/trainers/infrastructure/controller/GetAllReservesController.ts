@@ -6,11 +6,10 @@ export class GetAllReservesController {
 
   async handle(req: Request, res: Response) {
     try {
-      await this.getAllReservesUseCase.run(req.params.trainerId, req.params.centresId);
+      const reserves = await this.getAllReservesUseCase.run(req.params.trainerId, req.params.centresId);
+      res.status(201).send({ message: "Obtained reserves", reserves });
     } catch (error) {
       return res.status(500).send({ message: "Error" });
     }
-
-    res.status(201).send({ message: "Obtained reserves" });
   }
 }
