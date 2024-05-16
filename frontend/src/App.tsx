@@ -22,7 +22,6 @@ import "@ionic/react/css/display.css";
 
 /* Theme variables */
 import "./theme/variables.css";
-import Reserve from "./pages/reserve/reserve";
 import CentresInfo from "./pages/centres/centres";
 import Team from "./pages/team/team";
 import Profile from "./pages/profile/profile";
@@ -33,6 +32,7 @@ import Teams from "./pages/teams/teams";
 import AddTeam from "./pages/add-team/addTeam";
 import AddCentres from "./pages/add-centres/addCentres";
 import CentreInfo from "./pages/centre-info/centreInfo";
+import ReserveInfo from "./pages/reserve/reserve";
 
 setupIonicReact();
 
@@ -54,7 +54,7 @@ const App: React.FC = () => (
         <Route path="/home/centres" component={CentresInfo} />
         <Route path="/home/centres/:centresId" component={CentreInfo} />
         <Route path="/home/centres/add-centres" component={AddCentres} />
-        <Route path="/home/centres/:centresId/reserve" component={Reserve} />
+        <Route path="/home/centres/:centresId/reserve" component={ReserveInfo} />
         <Route exact path="/">
           <Redirect to="/home" />
         </Route>

@@ -1,14 +1,26 @@
 import { IonDatetime, IonDatetimeButton, IonModal } from "@ionic/react";
 import styled from "styled-components";
 
-const DateTime = () => {
+interface DateProps {
+  setDate: (date: Date) => void;
+}
+
+const DateTime = ({ setDate }: DateProps) => {
+  const handleDateChange = (e: CustomEvent) => {
+    const selectedDate = e.detail.value;
+    setDate(selectedDate);
+  };
+
   return (
     <>
       <DateTimeContainer>
         <IonDatetimeButton datetime="datetime"></IonDatetimeButton>
 
         <IonModal keepContentsMounted={true}>
-          <IonDatetime id="datetime"></IonDatetime>
+          <IonDatetime
+            id="datetime"
+            onIonChange={handleDateChange}
+          ></IonDatetime>
         </IonModal>
       </DateTimeContainer>
     </>

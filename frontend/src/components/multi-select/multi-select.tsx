@@ -1,7 +1,19 @@
 import { IonItem, IonList, IonSelect, IonSelectOption } from "@ionic/react";
+import { useState } from "react";
 import styled from "styled-components";
 
-const MultiSelect = () => {
+interface MultiSelectProps {
+  setMaterial: (material: string) => void;
+}
+
+const MultiSelect = ({setMaterial}: MultiSelectProps) => {
+  const [selectedMaterials, setSelectedMaterials] = useState<string[]>([]);
+
+  const handleMaterialSelection = (e: CustomEvent) => {
+    setSelectedMaterials(e.detail.value);
+    setMaterial(e.detail.value.join(", "));
+  };
+
   return (
     <SelectContainer>
       <IonList>
@@ -10,6 +22,8 @@ const MultiSelect = () => {
             aria-label="Material"
             placeholder="Selecciona el matrial a reservar"
             multiple={true}
+            value={selectedMaterials}
+            onIonChange={handleMaterialSelection}
           >
             <IonSelectOption value="Pelotas de fútbol">
               Pelotas de fútbol

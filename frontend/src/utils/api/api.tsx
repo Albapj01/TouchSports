@@ -73,17 +73,24 @@ const createPlayer = async (
   surname: string,
   email: string
 ) => {
-  const request = await axios.post(`${myApi}/trainer/${trainerId}/team/${teamId}/player`, {
-    trainerId,
-    teamId,
-    playerId,
-    name,
-    surname,
-    email
-  });
+  const request = await axios.post(
+    `${myApi}/trainer/${trainerId}/team/${teamId}/player`,
+    {
+      trainerId,
+      teamId,
+      playerId,
+      name,
+      surname,
+      email,
+    }
+  );
 };
 
-const getPlayerById = async (trainerId: string, teamId: string, playerId: string) => {
+const getPlayerById = async (
+  trainerId: string,
+  teamId: string,
+  playerId: string
+) => {
   const response = await axios.get(
     `${myApi}/trainer/${trainerId}/team/${teamId}/player/${playerId}`
   );
@@ -91,7 +98,9 @@ const getPlayerById = async (trainerId: string, teamId: string, playerId: string
 };
 
 const getAllPlayers = async (trainerId: string, teamId: string) => {
-  const response = await axios.get(`${myApi}/trainer/${trainerId}/team/${teamId}/players`);
+  const response = await axios.get(
+    `${myApi}/trainer/${trainerId}/team/${teamId}/players`
+  );
   return response.data;
 };
 
@@ -101,7 +110,7 @@ const createCentres = async (
   name: string,
   location: string,
   reserves: Reserve[],
-  imageUrl: string,
+  imageUrl: string
 ) => {
   const request = await axios.post(`${myApi}/trainer/${trainerId}/centres`, {
     trainerId,
@@ -125,6 +134,43 @@ const getAllCentres = async (trainerId: string) => {
   return response.data;
 };
 
+const createReserve = async (
+  trainerId: string,
+  centresId: string,
+  reserveId: string,
+  name: string,
+  surname: string,
+  email: string,
+  telephone: string,
+  teamId: string,
+  material: string,
+  date: Date
+) => {
+  const request = await axios.post(`${myApi}/trainer/${trainerId}/centres/${centresId}/reserve`, {
+    trainerId,
+    centresId,
+    reserveId,
+    name,
+    surname,
+    email,
+    telephone,
+    teamId,
+    material,
+    date,
+  });
+};
+
+const getReserveById = async (
+  trainerId: string,
+  centresId: string,
+  reserveId: string
+) => {
+  const response = await axios.get(
+    `${myApi}/trainer/${trainerId}/centres/${centresId}/reserve/${reserveId}`
+  );
+  return response.data;
+};
+
 export default {
   createTrainer,
   getTrainerById,
@@ -137,4 +183,6 @@ export default {
   createCentres,
   getCentresById,
   getAllCentres,
+  createReserve,
+  getReserveById,
 };

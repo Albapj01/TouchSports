@@ -5,12 +5,15 @@ import {
   IonFooter,
   IonHeader,
   IonImg,
+  IonItem,
   IonList,
   IonPage,
+  IonSelect,
+  IonSelectOption,
   IonText,
 } from "@ionic/react";
 import Menu from "frontend/src/components/menu/menu";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Tabs from "frontend/src/components/tabs/tabs";
 import Input from "frontend/src/components/input/input";
 import MultiSelect from "frontend/src/components/multi-select/multi-select";
@@ -18,14 +21,68 @@ import Segment from "frontend/src/components/segment/segment";
 import DateTime from "frontend/src/components/datetime/datetime";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
 import styled from "styled-components";
-import { useHistory } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
+import { Team } from "frontend/src/utils/interfaces/Team";
+import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import api from "frontend/src/utils/api/api";
+import { v4 as uuidv4 } from "uuid";
 
-const Reserve = () => {
+interface RouteParams {
+  centresId: string;
+}
+
+const ReserveInfo = () => {
+  const { centresId } = useParams<RouteParams>();
+
   const [name, setName] = useState("");
-  const [telephoneNumber, setTelephoneNumber] = useState("");
+  const [surname, setSurname] = useState("");
   const [email, setEmail] = useState("");
+  const [telephoneNumber, setTelephoneNumber] = useState("");
+  const [teamId, setTeamId] = useState("");
+  const [material, setMaterial] = useState("");
+  const [date, setDate] = useState(new Date());
+
   const [showMultiSelect, setShowMultiSelect] = useState(false);
   const history = useHistory();
+
+  const [teams, setTeams] = useState<Team[]>([]);
+
+  const { payload } = decodeJwt(storage.get("token"));
+
+  useEffect(() => {
+    api.getAllTeams(payload.sub).then((result) => setTeams(result.teams));
+  }, []);
+
+  const handleAddReserve = async () => {
+    const id = uuidv4();
+    const reserveId = id.toString();
+
+    const existingReserve = await api.getReserveById(
+      payload.sub,
+      centresId,
+      reserveId
+    );
+
+    const obtainedReserveId =
+      existingReserve && existingReserve.reserve
+        ? existingReserve.reserve.id
+        : null;
+
+    if (!obtainedReserveId) {
+      await api.createReserve(
+        payload.sub,
+        centresId,
+        reserveId,
+        name,
+        surname,
+        email,
+        telephoneNumber,
+        teamId,
+        material,
+        date
+      );
+    }
+  };
 
   return (
     <>
@@ -51,9 +108,9 @@ const Reserve = () => {
               />
               <br />
               <Input
-                label="Teléfono"
-                placeholder="Teléfono"
-                elements={(telephoneNumber) => setTelephoneNumber(telephoneNumber)}
+                label="Apellidos"
+                placeholder="Apellidos"
+                elements={(surname) => setSurname(surname)}
               />
               <br />
               <Input
@@ -61,16 +118,48 @@ const Reserve = () => {
                 placeholder="Correo"
                 elements={(email) => setEmail(email)}
               />
+              <br />
+              <Input
+                label="Teléfono"
+                placeholder="Teléfono"
+                elements={(telephoneNumber) =>
+                  setTelephoneNumber(telephoneNumber)
+                }
+              />
+              <Space></Space>
+              <IonText>Selecciona para qué equipo quieres la reserva</IonText>
+              <SelectContainer>
+                <IonList>
+                  <IonItem>
+                    <IonSelect
+                      aria-label="Teams"
+                      placeholder="Selecciona un equipo"
+                      value={teamId}
+                      onIonChange={(e) => setTeamId(e.detail.value)}
+                    >
+                      {teams &&
+                        teams.map((team) => (
+                          <IonSelectOption
+                            key={team.teamId}
+                            value={team.teamId}
+                          >
+                            {team.name}
+                          </IonSelectOption>
+                        ))}
+                    </IonSelect>
+                  </IonItem>
+                </IonList>
+              </SelectContainer>
               <Space></Space>
               <IonText>¿Desea reservar algún tipo de material?</IonText>
               <Segment setShowMultiSelect={setShowMultiSelect} />
             </Margin>
           </IonList>
-          {showMultiSelect && <MultiSelect />}
+          {showMultiSelect && <MultiSelect setMaterial={setMaterial} />}
           <Space></Space>
           <Margin>
             <IonText>Seleccione el día y la hora:</IonText>
-            <DateTime />
+            <DateTime setDate={setDate} />
           </Margin>
           <Space></Space>
           <Button>
@@ -85,7 +174,10 @@ const Reserve = () => {
                 },
                 {
                   text: "Reservar",
-                  handler: () => history.push(""),
+                  handler: () => {
+                    handleAddReserve();
+                    history.push(`/home/centres/${centresId}`);
+                  },
                 },
                 {
                   text: "Cancelar",
@@ -124,4 +216,13 @@ const Margin = styled.div`
   margin-left: 10%;
 `;
 
-export default Reserve;
+const SelectContainer = styled.div`
+  text-align: center;
+  align-items: center;
+  margin-left: -4%;
+  margin-right: 4%;
+  margin-top: 3%;
+  margin-bottom: 7%;
+`;
+
+export default ReserveInfo;
