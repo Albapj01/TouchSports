@@ -1,0 +1,38 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 69.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (dab139a13bfa0a6c)
+[1m[31mDebugger listening on ws://localhost:9229/db5448f2-0267-40fe-a08d-59922d30888f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/db5448f2-0267-40fe-a08d-59922d30888f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 69.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (88ab9258faf69ba6)
+[1m[31mDebugger listening on ws://localhost:9229/b26c85fa-36c0-4066-b253-ab7fba12df2e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b26c85fa-36c0-4066-b253-ab7fba12df2e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 69.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e9a31d58e1a4056b)
+[1m[31mDebugger listening on ws://localhost:9229/9b9b4f6c-d232-45dc-a0bc-40775497404e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9b9b4f6c-d232-45dc-a0bc-40775497404e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 69.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/controller/GetAllReservesController.ts:[32m[1m10:60[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'reserves'. Either declare one or provide an initializer.
+  [0m [90m  8 |[39m     [36mtry[39m {[0m
+  [0m [90m  9 |[39m       [36mawait[39m [36mthis[39m[33m.[39mgetAllReservesUseCase[33m.[39mrun(req[33m.[39mparams[33m.[39mtrainerId[33m,[39m req[33m.[39mparams[33m.[39mcentresId)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m       res[33m.[39mstatus([35m201[39m)[33m.[39msend({ message[33m:[39m [32m"Obtained reserves"[39m[33m,[39m reserves })[33m;[39m[0m
+  [0m [90m    |[39m                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m     } [36mcatch[39m (error) {[0m
+  [0m [90m 12 |[39m       [36mreturn[39m res[33m.[39mstatus([35m500[39m)[33m.[39msend({ message[33m:[39m [32m"Error"[39m })[33m;[39m[0m
+  [0m [90m 13 |[39m     }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (3b01053b1e260b2f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 69.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fd2a475d1e8f2bf4)
+[1m[31mDebugger listening on ws://localhost:9229/1db3122f-a56a-45dd-8f62-974e6dc75834[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1db3122f-a56a-45dd-8f62-974e6dc75834[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

@@ -134,6 +134,13 @@ const getAllCentres = async (trainerId: string) => {
   return response.data;
 };
 
+const getAllReserves = async (trainerId: string, centresId: string) => {
+  const response = await axios.get(
+    `${myApi}/trainer/${trainerId}/centres/${centresId}/reserves`
+  );
+  return response.data;
+};
+
 const createReserve = async (
   trainerId: string,
   centresId: string,
@@ -171,6 +178,13 @@ const getReserveById = async (
   return response.data;
 };
 
+const getTrainerReserves = async (trainerId: string) => {
+  const response = await axios.get(
+    `${myApi}/trainer/${trainerId}/reserves`
+  );
+  return response.data;
+}
+
 export default {
   createTrainer,
   getTrainerById,
@@ -185,4 +199,6 @@ export default {
   getAllCentres,
   createReserve,
   getReserveById,
+  getAllReserves,
+  getTrainerReserves,
 };

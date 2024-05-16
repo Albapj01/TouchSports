@@ -69,7 +69,7 @@ const Menu = () => {
           </StyledIonItem>
           <StyledIonItem color="primary">
             <Icon icon={fileTrayFull} />
-            <StyledLink to="">Reservas</StyledLink>
+            <StyledLink to="/home/reserves">Reservas</StyledLink>
           </StyledIonItem>
           <StyledIonItem color="primary">
             <Icon icon={logOut} />
