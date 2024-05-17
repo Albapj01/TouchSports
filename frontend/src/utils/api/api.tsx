@@ -205,6 +205,13 @@ const updateTeam = async (trainerId: string, teamId: string, name: string) => {
   return response.data;
 };
 
+const deleteCentre = async (trainerId: string, centresId: string) => {
+  const response = await axios.delete(
+    `${myApi}/trainer/${trainerId}/centres/${centresId}`
+  );
+  return response.data;
+};
+
 export default {
   createTrainer,
   getTrainerById,
@@ -223,4 +230,5 @@ export default {
   getTrainerReserves,
   deleteTeam,
   updateTeam,
+  deleteCentre,
 };

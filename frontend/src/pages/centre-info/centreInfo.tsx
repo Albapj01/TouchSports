@@ -1,9 +1,14 @@
 import {
   IonActionSheet,
+  IonAlert,
   IonButton,
   IonContent,
+  IonFab,
+  IonFabButton,
+  IonFabList,
   IonFooter,
   IonHeader,
+  IonIcon,
   IonItem,
   IonLabel,
   IonList,
@@ -20,6 +25,11 @@ import { useEffect, useState } from "react";
 import { Link, useHistory, useParams } from "react-router-dom";
 import styled from "styled-components";
 import { fileTrayFull } from "ionicons/icons";
+import {
+  ellipsisVerticalOutline,
+  pencilOutline,
+  trashOutline,
+} from "ionicons/icons";
 
 interface RouteParams {
   centresId: string;
@@ -28,6 +38,7 @@ interface RouteParams {
 const CentreInfo = () => {
   const { centresId } = useParams<RouteParams>();
   const [centres, setCentres] = useState<Centres>();
+  const [showAlert, setShowAlert] = useState(false);
 
   const history = useHistory();
 
@@ -39,6 +50,14 @@ const CentreInfo = () => {
       .then((result) => setCentres(result.centres));
   }, []);
 
+  const handleDeleteButtonClick = () => {
+    setShowAlert(true);
+  };
+
+  const handleDeleteCentre = async () => {
+    await api.deleteCentre(payload.sub, centresId);
+  };
+
   return (
     <>
       <IonPage>
@@ -47,6 +66,46 @@ const CentreInfo = () => {
         </IonHeader>
         <IonContent fullscreen>
           <Menu />
+          <IonFab slot="fixed" vertical="top" horizontal="end" edge={true}>
+            <FabContainer>
+              <TransparentFabButton>
+                <IonIcon
+                  color="primary"
+                  icon={ellipsisVerticalOutline}
+                ></IonIcon>
+              </TransparentFabButton>
+              <IonFabList side="bottom">
+                <IonFabButton>
+                  <IonIcon color="primary" icon={pencilOutline}></IonIcon>
+                </IonFabButton>
+                <IonFabButton onClick={handleDeleteButtonClick}>
+                  <IonIcon color="primary" icon={trashOutline}></IonIcon>
+                </IonFabButton>
+              </IonFabList>
+            </FabContainer>
+          </IonFab>
+          <IonAlert
+            isOpen={showAlert}
+            onDidDismiss={() => setShowAlert(false)}
+            header="¿Estás seguro de que quieres eliminar el centro?"
+            buttons={[
+              {
+                text: "Cancelar",
+                role: "cancel",
+                handler: () => {
+                  history.push(`/home/centres/${centresId}`);
+                },
+              },
+              {
+                text: "Eliminar",
+                role: "confirm",
+                handler: () => {
+                  handleDeleteCentre();
+                  history.push(`/home/centres`);
+                },
+              },
+            ]}
+          />
           <Margin />
           <ImageContainer>
             <Image
@@ -69,7 +128,11 @@ const CentreInfo = () => {
           </IonList>
           <ButtonContainer>
             <Link to={`/home/centres/${centresId}/reserve`}>
-              <Button color="primary" icon={fileTrayFull} text="Realizar reserva" />
+              <Button
+                color="primary"
+                icon={fileTrayFull}
+                text="Realizar reserva"
+              />
             </Link>
           </ButtonContainer>
           <Space />
@@ -108,6 +171,15 @@ const MarginList = styled.div`
 const ButtonContainer = styled.div`
   margin-left: 24%;
   width: 50%;
+`;
+
+const FabContainer = styled.div`
+  margin-top: 10%;
+`;
+
+const TransparentFabButton = styled(IonFabButton)`
+  --background: transparent;
+  --box-shadow: none;
 `;
 
 export default CentreInfo;
