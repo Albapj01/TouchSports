@@ -58,6 +58,10 @@ const CentreInfo = () => {
     await api.deleteCentre(payload.sub, centresId);
   };
 
+  const handleUpdateButtonClick = async () => {
+    history.push(`/home/centres/${centresId}/update-centre`);
+  };
+
   return (
     <>
       <IonPage>
@@ -75,7 +79,7 @@ const CentreInfo = () => {
                 ></IonIcon>
               </TransparentFabButton>
               <IonFabList side="bottom">
-                <IonFabButton>
+                <IonFabButton onClick={handleUpdateButtonClick}>
                   <IonIcon color="primary" icon={pencilOutline}></IonIcon>
                 </IonFabButton>
                 <IonFabButton onClick={handleDeleteButtonClick}>
