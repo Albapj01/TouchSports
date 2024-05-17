@@ -34,6 +34,7 @@ import AddCentres from "./pages/add-centres/addCentres";
 import CentreInfo from "./pages/centre-info/centreInfo";
 import ReserveInfo from "./pages/reserve/reserve";
 import Reserves from "./pages/reserves/reserves";
+import UpdateTeam from "./pages/update-team/updateTeam";
 
 setupIonicReact();
 
@@ -46,6 +47,7 @@ const App: React.FC = () => (
         <Route path="/home/profile" component={Profile} />
         <Route path="/home/teams" component={Teams} />
         <Route path="/home/teams/:teamId" component={Team} />
+        <Route path="/home/teams/:teamId/update-team" component={UpdateTeam} />
         <Route path="/home/teams/add-team" component={AddTeam}/>
         <Route path="/home/teams/:teamId/player/:playerId" component={PlayerInfo} />
         <Route

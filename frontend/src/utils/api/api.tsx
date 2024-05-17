@@ -153,18 +153,21 @@ const createReserve = async (
   material: string,
   date: Date
 ) => {
-  const request = await axios.post(`${myApi}/trainer/${trainerId}/centres/${centresId}/reserve`, {
-    trainerId,
-    centresId,
-    reserveId,
-    name,
-    surname,
-    email,
-    telephone,
-    teamId,
-    material,
-    date,
-  });
+  const request = await axios.post(
+    `${myApi}/trainer/${trainerId}/centres/${centresId}/reserve`,
+    {
+      trainerId,
+      centresId,
+      reserveId,
+      name,
+      surname,
+      email,
+      telephone,
+      teamId,
+      material,
+      date,
+    }
+  );
 };
 
 const getReserveById = async (
@@ -179,18 +182,28 @@ const getReserveById = async (
 };
 
 const getTrainerReserves = async (trainerId: string) => {
-  const response = await axios.get(
-    `${myApi}/trainer/${trainerId}/reserves`
-  );
+  const response = await axios.get(`${myApi}/trainer/${trainerId}/reserves`);
   return response.data;
-}
+};
 
 const deleteTeam = async (trainerId: string, teamId: string) => {
   const response = await axios.delete(
     `${myApi}/trainer/${trainerId}/team/${teamId}`
   );
   return response.data;
-}
+};
+
+const updateTeam = async (trainerId: string, teamId: string, name: string) => {
+  const response = await axios.put(
+    `${myApi}/trainer/${trainerId}/team/${teamId}`,
+    {
+      trainerId,
+      teamId,
+      name,
+    }
+  );
+  return response.data;
+};
 
 export default {
   createTrainer,
@@ -209,4 +222,5 @@ export default {
   getAllReserves,
   getTrainerReserves,
   deleteTeam,
+  updateTeam,
 };

@@ -47,12 +47,16 @@ const Team = () => {
       .then((result) => setPlayers(result.players));
   }, []);
 
-  const handleButtonClick = () => {
+  const handleDeleteButtonClick = () => {
     setShowAlert(true);
   };
 
   const handleDeleteTeam = async () => {
     await api.deleteTeam(payload.sub, teamId);
+  };
+
+  const handleUpdateButtonClick = () => {
+    history.push(`/home/teams/${teamId}/update-team`);
   };
 
   return (
@@ -72,10 +76,10 @@ const Team = () => {
                 ></IonIcon>
               </TransparentFabButton>
               <IonFabList side="bottom">
-                <IonFabButton>
+                <IonFabButton onClick={handleUpdateButtonClick}>
                   <IonIcon color="primary" icon={pencilOutline}></IonIcon>
                 </IonFabButton>
-                <IonFabButton onClick={handleButtonClick}>
+                <IonFabButton onClick={handleDeleteButtonClick}>
                   <IonIcon color="primary" icon={trashOutline}></IonIcon>
                 </IonFabButton>
               </IonFabList>
