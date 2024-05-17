@@ -58,7 +58,7 @@ const Menu = () => {
               {teams.map((team, index) => (
                 <StyledIonItem key={index} color="primary">
                   <Icon icon={""} />
-                  <StyledLink to="/home/teams/team">{team.name}</StyledLink>
+                  <StyledLink to={`/home/teams/${team.teamId}`}>{team.name}</StyledLink>
                 </StyledIonItem>
               ))}
             </IonList>

@@ -185,6 +185,13 @@ const getTrainerReserves = async (trainerId: string) => {
   return response.data;
 }
 
+const deleteTeam = async (trainerId: string, teamId: string) => {
+  const response = await axios.delete(
+    `${myApi}/trainer/${trainerId}/team/${teamId}`
+  );
+  return response.data;
+}
+
 export default {
   createTrainer,
   getTrainerById,
@@ -201,4 +208,5 @@ export default {
   getReserveById,
   getAllReserves,
   getTrainerReserves,
+  deleteTeam,
 };
