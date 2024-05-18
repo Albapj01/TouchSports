@@ -72,6 +72,11 @@ const Reserves = () => {
     setShowModal(true);
   };
 
+  const handleDeleteReserve = async (trainerId: string, centresId: string, reserveId: string) => {
+    await api.deleteReserve(trainerId, centresId, reserveId);
+    setShowModal(false);
+  };
+
   return (
     <>
       <IonPage>
@@ -144,7 +149,7 @@ const Reserves = () => {
               </IonButton>
               <IonButton
                 color="danger"
-                onClick={() => history.push(`/home/reserves`)}
+                onClick={() => {handleDeleteReserve(selectedReserve?.trainerId || "", selectedReserve?.centresId || "", selectedReserve?.reserveId || ""); history.push(`/home/reserves`)}}
               >
                 Borrar
               </IonButton>
