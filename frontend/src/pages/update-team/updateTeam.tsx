@@ -8,7 +8,7 @@ import {
   IonPage,
 } from "@ionic/react";
 import Menu from "frontend/src/components/menu/menu";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Tabs from "frontend/src/components/tabs/tabs";
 import Input from "frontend/src/components/input/input";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
@@ -29,6 +29,20 @@ const UpdateTeam = () => {
   const history = useHistory();
 
   const { payload } = decodeJwt(storage.get("token"));
+
+  useEffect(() => {
+    const fetchTeamData = async () => {
+      const existingTeam= await api.getTeamById(
+        payload.sub,
+        teamId
+      );
+      if (existingTeam && existingTeam.team) {
+        setName(existingTeam.team.name || "");
+      }
+    };
+
+    fetchTeamData();
+  }, [payload.sub, teamId]);
 
   const handleUpdateTeam = async () => {
     await api.updateTeam(payload.sub, teamId, name);
@@ -57,7 +71,7 @@ const UpdateTeam = () => {
                 label="Nombre"
                 placeholder="Nombre"
                 elements={(name) => setName(name)}
-                value=""
+                value={name}
               />
             </Margin>
           </IonList>
