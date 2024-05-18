@@ -1,7 +1,12 @@
 import {
+  IonAlert,
   IonContent,
+  IonFab,
+  IonFabButton,
+  IonFabList,
   IonFooter,
   IonHeader,
+  IonIcon,
   IonItem,
   IonLabel,
   IonList,
@@ -17,6 +22,11 @@ import { Player } from "frontend/src/utils/interfaces/Player";
 import { useEffect, useState } from "react";
 import { useHistory, useParams } from "react-router-dom";
 import styled from "styled-components";
+import {
+  ellipsisVerticalOutline,
+  pencilOutline,
+  trashOutline,
+} from "ionicons/icons";
 
 interface RouteParams {
   teamId: string;
@@ -26,16 +36,26 @@ interface RouteParams {
 const PlayerInfo = () => {
   const { teamId, playerId } = useParams<RouteParams>();
   const [player, setPlayer] = useState<Player>();
+  const [showAlert, setShowAlert] = useState(false);
 
   const history = useHistory();
 
   const { payload } = decodeJwt(storage.get("token"));
 
   useEffect(() => {
-    api.getPlayerById(payload.sub, teamId, playerId).then((result) => setPlayer(result.player));
+    api
+      .getPlayerById(payload.sub, teamId, playerId)
+      .then((result) => setPlayer(result.player));
   }, []);
 
-  
+  const handleDeleteButtonClick = () => {
+    setShowAlert(true);
+  };
+
+  const handleDeletePlayer = async () => {
+    await api.deletePlayer(payload.sub, teamId, playerId);
+  };
+
   return (
     <>
       <IonPage>
@@ -44,6 +64,46 @@ const PlayerInfo = () => {
         </IonHeader>
         <IonContent fullscreen>
           <Menu />
+          <IonFab slot="fixed" vertical="top" horizontal="end" edge={true}>
+            <FabContainer>
+              <TransparentFabButton>
+                <IonIcon
+                  color="primary"
+                  icon={ellipsisVerticalOutline}
+                ></IonIcon>
+              </TransparentFabButton>
+              <IonFabList side="bottom">
+                <IonFabButton>
+                  <IonIcon color="primary" icon={pencilOutline}></IonIcon>
+                </IonFabButton>
+                <IonFabButton onClick={handleDeleteButtonClick}>
+                  <IonIcon color="primary" icon={trashOutline}></IonIcon>
+                </IonFabButton>
+              </IonFabList>
+            </FabContainer>
+          </IonFab>
+          <IonAlert
+            isOpen={showAlert}
+            onDidDismiss={() => setShowAlert(false)}
+            header="¿Estás seguro de que quieres eliminar a este jugador?"
+            buttons={[
+              {
+                text: "Cancelar",
+                role: "cancel",
+                handler: () => {
+                  history.push(`/home/teams/${teamId}/player/${playerId}`);
+                },
+              },
+              {
+                text: "Eliminar",
+                role: "confirm",
+                handler: () => {
+                  handleDeletePlayer();
+                  history.push(`/home/teams/${teamId}`);
+                },
+              },
+            ]}
+          />
           <Margin />
           <ImageContainer>
             <Image
@@ -54,13 +114,13 @@ const PlayerInfo = () => {
             <IonItem color="light">
               <IonLabel>Nombre</IonLabel>
               <MarginList>
-                <IonLabel>{player ? player.name : ''}</IonLabel>
+                <IonLabel>{player ? player.name : ""}</IonLabel>
               </MarginList>
             </IonItem>
             <IonItem color="light">
               <IonLabel>Apellidos</IonLabel>
               <MarginList>
-                <IonLabel>{player ? player.surname : ''}</IonLabel>
+                <IonLabel>{player ? player.surname : ""}</IonLabel>
               </MarginList>
             </IonItem>
             <IonItem color="light">
@@ -72,7 +132,7 @@ const PlayerInfo = () => {
             <IonItem color="light">
               <IonLabel>Correo</IonLabel>
               <MarginList>
-                <IonLabel>{player ? player.email : ''}</IonLabel>
+                <IonLabel>{player ? player.email : ""}</IonLabel>
               </MarginList>
             </IonItem>
           </IonList>{" "}
@@ -119,6 +179,15 @@ const Space = styled.div`
 
 const MarginList = styled.div`
   margin-right: auto;
+`;
+
+const FabContainer = styled.div`
+  margin-top: 10%;
+`;
+
+const TransparentFabButton = styled(IonFabButton)`
+  --background: transparent;
+  --box-shadow: none;
 `;
 
 export default PlayerInfo;
