@@ -30,7 +30,8 @@ export class CreateReserveUseCase {
       reserveDTO.telephone,
       reserveDTO.teamId,
       reserveDTO.material,
-      reserveDTO.date
+      reserveDTO.startReserve,
+      reserveDTO.endReserve
     );
 
     centres.reserves.push(reserve);

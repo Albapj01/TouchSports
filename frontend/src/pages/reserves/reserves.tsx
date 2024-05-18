@@ -11,6 +11,7 @@ import {
   IonIcon,
   IonModal,
   IonPage,
+  IonText,
 } from "@ionic/react";
 import Menu from "frontend/src/components/menu/menu";
 import Tabs from "frontend/src/components/tabs/tabs";
@@ -72,7 +73,11 @@ const Reserves = () => {
     setShowModal(true);
   };
 
-  const handleDeleteReserve = async (trainerId: string, centresId: string, reserveId: string) => {
+  const handleDeleteReserve = async (
+    trainerId: string,
+    centresId: string,
+    reserveId: string
+  ) => {
     await api.deleteReserve(trainerId, centresId, reserveId);
     setShowModal(false);
   };
@@ -86,7 +91,7 @@ const Reserves = () => {
         <IonContent fullscreen>
           <Menu />
           <Cards>
-            {reserves &&
+            {reserves.length > 0 ? (
               reserves.map((reserve) => (
                 <IonCard
                   key={reserve.reserveId}
@@ -103,10 +108,22 @@ const Reserves = () => {
                   <IonCardContent>
                     {centreLocation(reserve.centresId)}
                     <br />
-                    {format(reserve.date, "MM/dd/yyyy HH:mm")}
+                    {format(
+                      new Date(reserve.startReserve),
+                      "MM/dd/yyyy HH:mm -"
+                    )}
+                    {format(
+                      new Date(reserve.endReserve),
+                      " MM/dd/yyyy HH:mm"
+                    )}
                   </IonCardContent>
                 </IonCard>
-              ))}
+              ))
+            ) : (
+              <TextContainer>
+                <IonText>Todavía no hay ninguna reserva.</IonText>
+              </TextContainer>
+            )}
           </Cards>
           <IonModal
             isOpen={showModal}
@@ -125,7 +142,11 @@ const Reserves = () => {
                   ? `Reserva en ${centreName(selectedReserve.centresId)}`
                   : "Información de la Reserva"}
               </h2>
-              <h4>{selectedReserve ? `Equipo: ${teamName(selectedReserve.teamId)}` : ""}</h4>
+              <h4>
+                {selectedReserve
+                  ? `Equipo: ${teamName(selectedReserve.teamId)}`
+                  : ""}
+              </h4>
               <p>
                 {selectedReserve
                   ? `Ubicación: ${centreLocation(selectedReserve.centresId)}`
@@ -133,8 +154,16 @@ const Reserves = () => {
               </p>
               <p>
                 {selectedReserve
-                  ? `Fecha: ${format(
-                      new Date(selectedReserve.date),
+                  ? `Inicio reserva: ${format(
+                      new Date(selectedReserve.startReserve),
+                      "MM/dd/yyyy HH:mm"
+                    )}`
+                  : ""}
+              </p>
+              <p>
+                {selectedReserve
+                  ? `Fin reserva: ${format(
+                      new Date(selectedReserve.endReserve),
                       "MM/dd/yyyy HH:mm"
                     )}`
                   : ""}
@@ -144,12 +173,26 @@ const Reserves = () => {
                   ? `Material reservado: ${selectedReserve.material}`
                   : ""}
               </p>
-              <IonButton onClick={() => {history.push(`/home/reserves/${selectedReserve?.centresId}/${selectedReserve?.reserveId}/update-reserve`); setShowModal(false); }}>
+              <IonButton
+                onClick={() => {
+                  history.push(
+                    `/home/reserves/${selectedReserve?.centresId}/${selectedReserve?.reserveId}/update-reserve`
+                  );
+                  setShowModal(false);
+                }}
+              >
                 Actualizar
               </IonButton>
               <IonButton
                 color="danger"
-                onClick={() => {handleDeleteReserve(selectedReserve?.trainerId || "", selectedReserve?.centresId || "", selectedReserve?.reserveId || ""); history.push(`/home/reserves`)}}
+                onClick={() => {
+                  handleDeleteReserve(
+                    selectedReserve?.trainerId || "",
+                    selectedReserve?.centresId || "",
+                    selectedReserve?.reserveId || ""
+                  );
+                  history.push(`/home/reserves`);
+                }}
               >
                 Borrar
               </IonButton>
@@ -182,6 +225,14 @@ const ModalWrapper = styled.div`
   margin: 0 auto;
   max-height: 80%;
   overflow-y: auto;
+`;
+
+const TextContainer = styled.div`
+  text-align: center;
+  color: #666;
+  margin-top: 5%;
+  font-size: 20px;
+  font-weight: bold;
 `;
 
 export default Reserves;

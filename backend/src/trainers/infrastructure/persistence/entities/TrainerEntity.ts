@@ -35,7 +35,8 @@ export interface TrainerEntity extends Document {
       telephone: string;
       teamId: string;
       material: string;
-      date: Date;
+      startReserve: Date;
+      endReserve: Date;
     }[];
     imageUrl: string;
   }[];

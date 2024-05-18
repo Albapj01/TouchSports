@@ -41,7 +41,8 @@ const UpdateReserve = () => {
   const [telephoneNumber, setTelephoneNumber] = useState("");
   const [teamId, setTeamId] = useState("");
   const [material, setMaterial] = useState("");
-  const [date, setDate] = useState(new Date());
+  const [startReserve, setStartReserve] = useState(new Date());
+  const [endReserve, setEndReserve] = useState(new Date());
 
   const [showMultiSelect, setShowMultiSelect] = useState(false);
   const history = useHistory();
@@ -68,7 +69,8 @@ const UpdateReserve = () => {
         setTelephoneNumber(existingReserve.reserve.telephone || "");
         setTeamId(existingReserve.reserve.teamId || "");
         setMaterial(existingReserve.reserve.material || "");
-        setDate(existingReserve.reserve.date || "");
+        setStartReserve(existingReserve.reserve.startReserve || "");
+        setEndReserve(existingReserve.reserve.endReserve || "");
       }
     };
 
@@ -86,7 +88,8 @@ const UpdateReserve = () => {
       telephoneNumber,
       teamId,
       material,
-      date
+      startReserve,
+      endReserve
     );
   };
 
@@ -168,10 +171,15 @@ const UpdateReserve = () => {
           {showMultiSelect && <MultiSelect setMaterial={setMaterial} />}
           <Space></Space>
           <Margin>
-            <IonText>Seleccione el día y la hora:</IonText>
-            <DateTime setDate={setDate}/>
+            <IonText>
+              Seleccione el día y la hora de inicio y de fin de la reserva:
+            </IonText>
+            <DateTime
+              setStartDate={setStartReserve}
+              setEndDate={setEndReserve}
+            />
+            <Space></Space>
           </Margin>
-          <Space></Space>
           <Button>
             <IonButton id="open-action-sheet">Actualizar</IonButton>
             <IonActionSheet
@@ -197,6 +205,7 @@ const UpdateReserve = () => {
               ]}
             ></IonActionSheet>
           </Button>
+          <br/>
         </IonContent>
         <IonFooter>
           <Tabs />

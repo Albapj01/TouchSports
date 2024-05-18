@@ -5,6 +5,7 @@ import {
   IonFooter,
   IonHeader,
   IonImg,
+  IonInput,
   IonItem,
   IonList,
   IonPage,
@@ -40,7 +41,8 @@ const ReserveInfo = () => {
   const [telephoneNumber, setTelephoneNumber] = useState("");
   const [teamId, setTeamId] = useState("");
   const [material, setMaterial] = useState("");
-  const [date, setDate] = useState(new Date());
+  const [startReserve, setStartReserve] = useState(new Date());
+  const [endReserve, setEndReserve] = useState(new Date());
 
   const [showMultiSelect, setShowMultiSelect] = useState(false);
   const history = useHistory();
@@ -79,7 +81,8 @@ const ReserveInfo = () => {
         telephoneNumber,
         teamId,
         material,
-        date
+        startReserve,
+        endReserve
       );
     }
   };
@@ -162,8 +165,14 @@ const ReserveInfo = () => {
           {showMultiSelect && <MultiSelect setMaterial={setMaterial} />}
           <Space></Space>
           <Margin>
-            <IonText>Seleccione el día y la hora:</IonText>
-            <DateTime setDate={setDate} />
+            <IonText>
+              Seleccione el día y la hora de inicio y de fin de la reserva:
+            </IonText>
+            <DateTime
+              setStartDate={setStartReserve}
+              setEndDate={setEndReserve}
+            />
+            <Space></Space>
           </Margin>
           <Space></Space>
           <Button>
@@ -191,6 +200,7 @@ const ReserveInfo = () => {
               ]}
             ></IonActionSheet>
           </Button>
+          <br/>
         </IonContent>
         <IonFooter>
           <Tabs />

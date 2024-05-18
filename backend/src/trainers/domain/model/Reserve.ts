@@ -9,6 +9,7 @@ export class Reserve {
     readonly telephone: string,
     readonly teamId: string,
     readonly material: string,
-    readonly date: Date
+    readonly startReserve: Date,
+    readonly endReserve: Date
   ) {}
 }

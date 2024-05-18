@@ -1,4 +1,3 @@
-import { Player } from "../../domain/model/Player";
 import { Reserve } from "../../domain/model/Reserve";
 import { TrainerPort } from "../../domain/port/TrainerPort";
 
@@ -34,7 +33,8 @@ export class UpdateReserveByIdUseCase {
       reserve.telephone,
       reserve.teamId,
       reserve.material,
-      reserve.date
+      reserve.startReserve,
+      reserve.endReserve
     );
 
     centres.reserves = centres.reserves.filter(

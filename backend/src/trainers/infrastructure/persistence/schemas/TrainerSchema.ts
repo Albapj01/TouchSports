@@ -98,7 +98,10 @@ export const TrainerSchema = new mongoose.Schema(
             material: {
               type: String,
             },
-            date: {
+            startReserve: {
+              type: Date,
+            },
+            endReserve: {
               type: Date,
             },
           },

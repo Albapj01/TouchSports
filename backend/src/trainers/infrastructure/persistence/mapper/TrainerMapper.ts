@@ -52,7 +52,8 @@ export class TrainerMapper {
           telephone: reserve.telephone,
           teamId: reserve.teamId,
           material: reserve.material,
-          date: reserve.date,
+          startReserve: reserve.startReserve,
+          endReserve: reserve.endReserve,
         })),
       })),
     };

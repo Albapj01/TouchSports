@@ -151,7 +151,8 @@ const createReserve = async (
   telephone: string,
   teamId: string,
   material: string,
-  date: Date
+  startReserve: Date,
+  endReserve: Date
 ) => {
   const request = await axios.post(
     `${myApi}/trainer/${trainerId}/centres/${centresId}/reserve`,
@@ -165,7 +166,8 @@ const createReserve = async (
       telephone,
       teamId,
       material,
-      date,
+      startReserve,
+      endReserve,
     }
   );
 };
@@ -212,7 +214,12 @@ const deleteCentre = async (trainerId: string, centresId: string) => {
   return response.data;
 };
 
-const updateCentre = async (trainerId: string, centresId: string, name: string, location: string) => {
+const updateCentre = async (
+  trainerId: string,
+  centresId: string,
+  name: string,
+  location: string
+) => {
   const response = await axios.put(
     `${myApi}/trainer/${trainerId}/centres/${centresId}`,
     {
@@ -225,14 +232,25 @@ const updateCentre = async (trainerId: string, centresId: string, name: string, 
   return response.data;
 };
 
-const deletePlayer = async (trainerId: string, teamId: string, playerId: string) => {
+const deletePlayer = async (
+  trainerId: string,
+  teamId: string,
+  playerId: string
+) => {
   const response = await axios.delete(
     `${myApi}/trainer/${trainerId}/team/${teamId}/player/${playerId}`
   );
   return response.data;
 };
 
-const updatePlayer = async (trainerId: string, teamId: string, playerId: string, name: string, surname: string, email: string) => {
+const updatePlayer = async (
+  trainerId: string,
+  teamId: string,
+  playerId: string,
+  name: string,
+  surname: string,
+  email: string
+) => {
   const response = await axios.put(
     `${myApi}/trainer/${trainerId}/team/${teamId}/player/${playerId}`,
     {
@@ -247,7 +265,19 @@ const updatePlayer = async (trainerId: string, teamId: string, playerId: string,
   return response.data;
 };
 
-const updateReserve = async (trainerId: string, centresId: string, reserveId: string, name: string, surname: string, email: string, telephone: string, teamId: string, material: string, date: Date) => {
+const updateReserve = async (
+  trainerId: string,
+  centresId: string,
+  reserveId: string,
+  name: string,
+  surname: string,
+  email: string,
+  telephone: string,
+  teamId: string,
+  material: string,
+  startReserve: Date,
+  endReserve: Date
+) => {
   const response = await axios.put(
     `${myApi}/trainer/${trainerId}/centres/${centresId}/reserve/${reserveId}`,
     {
@@ -260,13 +290,18 @@ const updateReserve = async (trainerId: string, centresId: string, reserveId: st
       telephone,
       teamId,
       material,
-      date,
+      startReserve,
+      endReserve,
     }
   );
   return response.data;
 };
 
-const deleteReserve = async (trainerId: string, centresId: string, reserveId: string) => {
+const deleteReserve = async (
+  trainerId: string,
+  centresId: string,
+  reserveId: string
+) => {
   const response = await axios.delete(
     `${myApi}/trainer/${trainerId}/centres/${centresId}/reserve/${reserveId}`
   );
