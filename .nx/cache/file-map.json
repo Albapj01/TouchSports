@@ -96,24 +96,24 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
-      },
-      {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
+        "file": "nx.json",
+        "hash": "4595224623132836319"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
       },
       {
         "file": ".vscode/settings.json",
         "hash": "6703405954808146235"
       },
       {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
       },
       {
         "file": ".gitignore",
@@ -124,20 +124,20 @@
         "hash": "15553496959705771468"
       },
       {
-        "file": "package.json",
-        "hash": "10523604583776342967"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
-      },
-      {
         "file": "package-lock.json",
         "hash": "803993032614011237"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "file": "package.json",
+        "hash": "10523604583776342967"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "README.md",
+        "hash": "10104707244890837311"
       }
     ],
     "projectFileMap": {
@@ -926,12 +926,14 @@
         },
         {
           "file": "frontend/src/pages/reserves/reserves.tsx",
-          "hash": "12516208553061678714",
+          "hash": "16283729605451373775",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components",
             "npm:react",
-            "npm:date-fns"
+            "npm:date-fns",
+            "npm:react-router-dom",
+            "npm:ionicons"
           ]
         },
         {
