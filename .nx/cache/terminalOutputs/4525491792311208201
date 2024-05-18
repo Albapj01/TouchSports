@@ -13150,3 +13150,1457 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_cli
 webpack compiled [1m[32msuccessfully[39m[22m (ebb4b2f64a182f49)
 [36mType-checking in progress...[39m
 [32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.ebb4b2f64a182f49.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.ebb4b2f64a182f49.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.ebb4b2f64a182f49.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (17d0cd29284e25b3)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m20:3[22m[39m
+[90mTS2304: [39mCannot find name 'useEffect'.
+  [0m [90m 18 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 19 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m     api[0m
+  [0m [90m 22 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 23 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m21:5[22m[39m
+[90mTS2304: [39mCannot find name 'api'.
+  [0m [90m 19 |[39m[0m
+  [0m [90m 20 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m     api[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 23 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 24 |[39m   }[33m,[39m [])[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m22:35[22m[39m
+[90mTS2304: [39mCannot find name 'teamId'.
+  [0m [90m 20 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 21 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 24 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 25 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m22:43[22m[39m
+[90mTS2304: [39mCannot find name 'playerId'.
+  [0m [90m 20 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 21 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 24 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 25 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m23:14[22m[39m
+[90mTS7006: [39mParameter 'result' implicitly has an 'any' type.
+  [0m [90m 21 |[39m     api[0m
+  [0m [90m 22 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 25 |[39m[0m
+  [0m [90m 26 |[39m   [36mreturn[39m ([0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m23:25[22m[39m
+[90mTS2304: [39mCannot find name 'setPlayer'.
+  [0m [90m 21 |[39m     api[0m
+  [0m [90m 22 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 25 |[39m[0m
+  [0m [90m 26 |[39m   [36mreturn[39m ([0m
+
+Found [31m[1m6 errors[22m[39m in 1048 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.17d0cd29284e25b3.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.17d0cd29284e25b3.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.17d0cd29284e25b3.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1080aaada4a974c8)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m18:3[22m[39m
+[90mTS2304: [39mCannot find name 'conwt'.
+  [0m [90m 16 |[39m [36mconst[39m [33mProfile[39m [33m=[39m () [33m=>[39m {[0m
+  [0m [90m 17 |[39m   [36mconst[39m { payload } [33m=[39m decodeJwt(storage[33m.[39m[36mget[39m([32m"token"[39m))[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   conwt[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 20 |[39m[0m
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m21:3[22m[39m
+[90mTS2304: [39mCannot find name 'useEffect'.
+  [0m [90m 19 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 20 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     api[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m22:5[22m[39m
+[90mTS2304: [39mCannot find name 'api'.
+  [0m [90m 20 |[39m[0m
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     api[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m23:35[22m[39m
+[90mTS2304: [39mCannot find name 'teamId'.
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 22 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m23:43[22m[39m
+[90mTS2304: [39mCannot find name 'playerId'.
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 22 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m24:14[22m[39m
+[90mTS7006: [39mParameter 'result' implicitly has an 'any' type.
+  [0m [90m 22 |[39m     api[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+  [0m [90m 27 |[39m   [36mreturn[39m ([0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m24:25[22m[39m
+[90mTS2304: [39mCannot find name 'setPlayer'.
+  [0m [90m 22 |[39m     api[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+  [0m [90m 27 |[39m   [36mreturn[39m ([0m
+
+Found [31m[1m7 errors[22m[39m in 866 ms.
+Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.1080aaada4a974c8.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.1080aaada4a974c8.hot-update.js[39m[22m (main) 177 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.1080aaada4a974c8.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/pages/profile/profile.tsx[39m[22m
+Module build failed (from ../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/profile/profile.tsx: Unexpected keyword 'const'. (19:2)
+
+[0m [90m 17 |[39m   [36mconst[39m { payload } [33m=[39m decodeJwt(storage[33m.[39m[36mget[39m([32m"token"[39m))[33m;[39m[0m
+[0m [90m 18 |[39m   [36mconst[39m [0m
+[0m[31m[1m>[22m[39m[90m 19 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+[0m [90m    |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 20 |[39m[0m
+[0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+[0m [90m 22 |[39m     api[0m
+    at constructor (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:356:19)
+    at TypeScriptParserMixin.raise (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:3223:19)
+    at TypeScriptParserMixin.checkReservedWord (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12064:12)
+    at TypeScriptParserMixin.checkReservedWord (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9206:13)
+    at TypeScriptParserMixin.parseIdentifierName (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12051:12)
+    at TypeScriptParserMixin.parseIdentifier (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12026:23)
+    at TypeScriptParserMixin.parseBindingAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:7294:17)
+    at TypeScriptParserMixin.parseBindingAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9800:18)
+    at TypeScriptParserMixin.parseVarId (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13279:21)
+    at TypeScriptParserMixin.parseVarId (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9609:11)
+    at TypeScriptParserMixin.parseVar (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13258:12)
+    at TypeScriptParserMixin.parseVarStatement (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13100:10)
+    at TypeScriptParserMixin.parseVarStatement (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9306:31)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12683:23)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9340:18)
+    at TypeScriptParserMixin.parseStatementLike (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12588:17)
+    at TypeScriptParserMixin.parseStatementListItem (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12568:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13189:61)
+    at TypeScriptParserMixin.parseBlockBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13182:10)
+    at TypeScriptParserMixin.parseBlock (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13170:10)
+    at TypeScriptParserMixin.parseFunctionBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11935:24)
+    at TypeScriptParserMixin.parseArrowExpression (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11910:10)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11511:12)
+    at TypeScriptParserMixin.parseExprAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11137:23)
+    at TypeScriptParserMixin.parseExprAtom (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:6932:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10857:23)
+    at TypeScriptParserMixin.parseUpdate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10840:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10816:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9696:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10654:61)
+    at TypeScriptParserMixin.parseExprOps (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10659:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10636:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10597:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9643:20)
+    at /Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10567:39
+    at TypeScriptParserMixin.allowInAnd (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12279:16)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10567:17)
+    at TypeScriptParserMixin.parseVar (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13259:91)
+    at TypeScriptParserMixin.parseVarStatement (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13100:10)
+    at TypeScriptParserMixin.parseVarStatement (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9306:31)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12683:23)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9340:18)
+    at TypeScriptParserMixin.parseStatementLike (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12588:17)
+    at TypeScriptParserMixin.parseModuleItem (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12565:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13189:36)
+    at TypeScriptParserMixin.parseBlockBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:13182:10)
+    at TypeScriptParserMixin.parseProgram (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12464:10)
+    at TypeScriptParserMixin.parseTopLevel (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12454:25)
+    at TypeScriptParserMixin.parse (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:14376:10)
+    at TypeScriptParserMixin.parse (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9982:18)
+
+webpack compiled with [1m[31m1 error[39m[22m (9c64413f8ede778a)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m
+[90mTS1123: [39mVariable declaration list cannot be empty.
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m21:3[22m[39m
+[90mTS2304: [39mCannot find name 'useEffect'.
+  [0m [90m 19 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 20 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     api[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m22:5[22m[39m
+[90mTS2304: [39mCannot find name 'api'.
+  [0m [90m 20 |[39m[0m
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     api[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m23:35[22m[39m
+[90mTS2304: [39mCannot find name 'teamId'.
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 22 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m23:43[22m[39m
+[90mTS2304: [39mCannot find name 'playerId'.
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 22 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m24:14[22m[39m
+[90mTS7006: [39mParameter 'result' implicitly has an 'any' type.
+  [0m [90m 22 |[39m     api[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+  [0m [90m 27 |[39m   [36mreturn[39m ([0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m24:25[22m[39m
+[90mTS2304: [39mCannot find name 'setPlayer'.
+  [0m [90m 22 |[39m     api[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+  [0m [90m 27 |[39m   [36mreturn[39m ([0m
+
+Found [31m[1m7 errors[22m[39m in 839 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.1080aaada4a974c8.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.1080aaada4a974c8.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.1080aaada4a974c8.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0d6c3433473ed765)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m18:32[22m[39m
+[90mTS2304: [39mCannot find name 'useState'.
+  [0m [90m 16 |[39m [36mconst[39m [33mProfile[39m [33m=[39m () [33m=>[39m {[0m
+  [0m [90m 17 |[39m   [36mconst[39m { payload } [33m=[39m decodeJwt(storage[33m.[39m[36mget[39m([32m"token"[39m))[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36mconst[39m [trainer[33m,[39m setPlayer] [33m=[39m useState[33m<[39m[33mPlayer[39m[33m>[39m()[33m;[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 20 |[39m[0m
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m18:41[22m[39m
+[90mTS2304: [39mCannot find name 'Player'.
+  [0m [90m 16 |[39m [36mconst[39m [33mProfile[39m [33m=[39m () [33m=>[39m {[0m
+  [0m [90m 17 |[39m   [36mconst[39m { payload } [33m=[39m decodeJwt(storage[33m.[39m[36mget[39m([32m"token"[39m))[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36mconst[39m [trainer[33m,[39m setPlayer] [33m=[39m useState[33m<[39m[33mPlayer[39m[33m>[39m()[33m;[39m[0m
+  [0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 20 |[39m[0m
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m21:3[22m[39m
+[90mTS2304: [39mCannot find name 'useEffect'.
+  [0m [90m 19 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 20 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     api[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m22:5[22m[39m
+[90mTS2304: [39mCannot find name 'api'.
+  [0m [90m 20 |[39m[0m
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     api[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m23:35[22m[39m
+[90mTS2304: [39mCannot find name 'teamId'.
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 22 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m23:43[22m[39m
+[90mTS2304: [39mCannot find name 'playerId'.
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 22 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m24:14[22m[39m
+[90mTS7006: [39mParameter 'result' implicitly has an 'any' type.
+  [0m [90m 22 |[39m     api[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+  [0m [90m 27 |[39m   [36mreturn[39m ([0m
+
+Found [31m[1m7 errors[22m[39m in 1234 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.0d6c3433473ed765.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.0d6c3433473ed765.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.0d6c3433473ed765.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b1575dc10ba93b2a)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m18:33[22m[39m
+[90mTS2304: [39mCannot find name 'useState'.
+  [0m [90m 16 |[39m [36mconst[39m [33mProfile[39m [33m=[39m () [33m=>[39m {[0m
+  [0m [90m 17 |[39m   [36mconst[39m { payload } [33m=[39m decodeJwt(storage[33m.[39m[36mget[39m([32m"token"[39m))[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36mconst[39m [trainer[33m,[39m setTrainer] [33m=[39m useState[33m<[39m[33mPlayer[39m[33m>[39m()[33m;[39m[0m
+  [0m [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 20 |[39m[0m
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m18:42[22m[39m
+[90mTS2304: [39mCannot find name 'Player'.
+  [0m [90m 16 |[39m [36mconst[39m [33mProfile[39m [33m=[39m () [33m=>[39m {[0m
+  [0m [90m 17 |[39m   [36mconst[39m { payload } [33m=[39m decodeJwt(storage[33m.[39m[36mget[39m([32m"token"[39m))[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36mconst[39m [trainer[33m,[39m setTrainer] [33m=[39m useState[33m<[39m[33mPlayer[39m[33m>[39m()[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 20 |[39m[0m
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m21:3[22m[39m
+[90mTS2304: [39mCannot find name 'useEffect'.
+  [0m [90m 19 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 20 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     api[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m22:5[22m[39m
+[90mTS2304: [39mCannot find name 'api'.
+  [0m [90m 20 |[39m[0m
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     api[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m23:35[22m[39m
+[90mTS2304: [39mCannot find name 'teamId'.
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 22 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m23:43[22m[39m
+[90mTS2304: [39mCannot find name 'playerId'.
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 22 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m24:14[22m[39m
+[90mTS7006: [39mParameter 'result' implicitly has an 'any' type.
+  [0m [90m 22 |[39m     api[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+  [0m [90m 27 |[39m   [36mreturn[39m ([0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m24:25[22m[39m
+[90mTS2304: [39mCannot find name 'setPlayer'.
+  [0m [90m 22 |[39m     api[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+  [0m [90m 27 |[39m   [36mreturn[39m ([0m
+
+Found [31m[1m8 errors[22m[39m in 784 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.b1575dc10ba93b2a.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.b1575dc10ba93b2a.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.b1575dc10ba93b2a.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (03b982af4aed42e1)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m18:33[22m[39m
+[90mTS2304: [39mCannot find name 'useState'.
+  [0m [90m 16 |[39m [36mconst[39m [33mProfile[39m [33m=[39m () [33m=>[39m {[0m
+  [0m [90m 17 |[39m   [36mconst[39m { payload } [33m=[39m decodeJwt(storage[33m.[39m[36mget[39m([32m"token"[39m))[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36mconst[39m [trainer[33m,[39m setTrainer] [33m=[39m useState[33m<[39m[33mPlTraayer[39m[33m>[39m()[33m;[39m[0m
+  [0m [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 20 |[39m[0m
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m18:42[22m[39m
+[90mTS2304: [39mCannot find name 'PlTraayer'.
+  [0m [90m 16 |[39m [36mconst[39m [33mProfile[39m [33m=[39m () [33m=>[39m {[0m
+  [0m [90m 17 |[39m   [36mconst[39m { payload } [33m=[39m decodeJwt(storage[33m.[39m[36mget[39m([32m"token"[39m))[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36mconst[39m [trainer[33m,[39m setTrainer] [33m=[39m useState[33m<[39m[33mPlTraayer[39m[33m>[39m()[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 20 |[39m[0m
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m21:3[22m[39m
+[90mTS2304: [39mCannot find name 'useEffect'.
+  [0m [90m 19 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 20 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     api[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m22:5[22m[39m
+[90mTS2304: [39mCannot find name 'api'.
+  [0m [90m 20 |[39m[0m
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     api[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m23:35[22m[39m
+[90mTS2304: [39mCannot find name 'teamId'.
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 22 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m23:43[22m[39m
+[90mTS2304: [39mCannot find name 'playerId'.
+  [0m [90m 21 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 22 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m24:14[22m[39m
+[90mTS7006: [39mParameter 'result' implicitly has an 'any' type.
+  [0m [90m 22 |[39m     api[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+  [0m [90m 27 |[39m   [36mreturn[39m ([0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m24:25[22m[39m
+[90mTS2304: [39mCannot find name 'setPlayer'.
+  [0m [90m 22 |[39m     api[0m
+  [0m [90m 23 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 26 |[39m[0m
+  [0m [90m 27 |[39m   [36mreturn[39m ([0m
+
+Found [31m[1m8 errors[22m[39m in 1053 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.03b982af4aed42e1.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.03b982af4aed42e1.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.03b982af4aed42e1.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c6353eb487f3476d)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m19:33[22m[39m
+[90mTS2304: [39mCannot find name 'useState'.
+  [0m [90m 17 |[39m [36mconst[39m [33mProfile[39m [33m=[39m () [33m=>[39m {[0m
+  [0m [90m 18 |[39m   [36mconst[39m { payload } [33m=[39m decodeJwt(storage[33m.[39m[36mget[39m([32m"token"[39m))[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m   [36mconst[39m [trainer[33m,[39m setTrainer] [33m=[39m useState[33m<[39m[33mTrainer[39m[33m>[39m()[33m;[39m[0m
+  [0m [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 21 |[39m[0m
+  [0m [90m 22 |[39m   useEffect(() [33m=>[39m {[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m22:3[22m[39m
+[90mTS2304: [39mCannot find name 'useEffect'.
+  [0m [90m 20 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 21 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m     api[0m
+  [0m [90m 24 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 25 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m23:5[22m[39m
+[90mTS2304: [39mCannot find name 'api'.
+  [0m [90m 21 |[39m[0m
+  [0m [90m 22 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     api[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 25 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 26 |[39m   }[33m,[39m [])[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m24:35[22m[39m
+[90mTS2304: [39mCannot find name 'teamId'.
+  [0m [90m 22 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 23 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 26 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 27 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m24:43[22m[39m
+[90mTS2304: [39mCannot find name 'playerId'.
+  [0m [90m 22 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 23 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 26 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 27 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m25:14[22m[39m
+[90mTS7006: [39mParameter 'result' implicitly has an 'any' type.
+  [0m [90m 23 |[39m     api[0m
+  [0m [90m 24 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 25 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 26 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 27 |[39m[0m
+  [0m [90m 28 |[39m   [36mreturn[39m ([0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m25:25[22m[39m
+[90mTS2304: [39mCannot find name 'setPlayer'.
+  [0m [90m 23 |[39m     api[0m
+  [0m [90m 24 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 25 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 26 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 27 |[39m[0m
+  [0m [90m 28 |[39m   [36mreturn[39m ([0m
+
+Found [31m[1m7 errors[22m[39m in 958 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.33 MiB (6.8 MiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mvendor.css[39m[22m 51.4 KiB [1m[32mvendor.js[39m[22m 4.95 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 277 KiB 8 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c6353eb487f3476d)
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m19:33[22m[39m
+[90mTS2304: [39mCannot find name 'useState'.
+  [0m [90m 17 |[39m [36mconst[39m [33mProfile[39m [33m=[39m () [33m=>[39m {[0m
+  [0m [90m 18 |[39m   [36mconst[39m { payload } [33m=[39m decodeJwt(storage[33m.[39m[36mget[39m([32m"token"[39m))[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m   [36mconst[39m [trainer[33m,[39m setTrainer] [33m=[39m useState[33m<[39m[33mTrainer[39m[33m>[39m()[33m;[39m[0m
+  [0m [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 21 |[39m[0m
+  [0m [90m 22 |[39m   useEffect(() [33m=>[39m {[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m22:3[22m[39m
+[90mTS2304: [39mCannot find name 'useEffect'.
+  [0m [90m 20 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 21 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m     api[0m
+  [0m [90m 24 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 25 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m23:5[22m[39m
+[90mTS2304: [39mCannot find name 'api'.
+  [0m [90m 21 |[39m[0m
+  [0m [90m 22 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     api[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 25 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 26 |[39m   }[33m,[39m [])[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m24:35[22m[39m
+[90mTS2304: [39mCannot find name 'teamId'.
+  [0m [90m 22 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 23 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 26 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 27 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m24:43[22m[39m
+[90mTS2304: [39mCannot find name 'playerId'.
+  [0m [90m 22 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 23 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 26 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 27 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m25:14[22m[39m
+[90mTS7006: [39mParameter 'result' implicitly has an 'any' type.
+  [0m [90m 23 |[39m     api[0m
+  [0m [90m 24 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 25 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 26 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 27 |[39m[0m
+  [0m [90m 28 |[39m   [36mreturn[39m ([0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m25:25[22m[39m
+[90mTS2304: [39mCannot find name 'setPlayer'.
+  [0m [90m 23 |[39m     api[0m
+  [0m [90m 24 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 25 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 26 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 27 |[39m[0m
+  [0m [90m 28 |[39m   [36mreturn[39m ([0m
+
+Found [31m[1m7 errors[22m[39m in 329 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.c6353eb487f3476d.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.c6353eb487f3476d.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.c6353eb487f3476d.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1b457df8b031a822)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m23:3[22m[39m
+[90mTS2304: [39mCannot find name 'useEffect'.
+  [0m [90m 21 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 22 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m     api[0m
+  [0m [90m 25 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 26 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m24:5[22m[39m
+[90mTS2304: [39mCannot find name 'api'.
+  [0m [90m 22 |[39m[0m
+  [0m [90m 23 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m     api[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 26 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 27 |[39m   }[33m,[39m [])[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m25:35[22m[39m
+[90mTS2304: [39mCannot find name 'teamId'.
+  [0m [90m 23 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 24 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 25 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 26 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 27 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 28 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m25:43[22m[39m
+[90mTS2304: [39mCannot find name 'playerId'.
+  [0m [90m 23 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 24 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 25 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 26 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 27 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 28 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m26:14[22m[39m
+[90mTS7006: [39mParameter 'result' implicitly has an 'any' type.
+  [0m [90m 24 |[39m     api[0m
+  [0m [90m 25 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 28 |[39m[0m
+  [0m [90m 29 |[39m   [36mreturn[39m ([0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m26:25[22m[39m
+[90mTS2304: [39mCannot find name 'setPlayer'.
+  [0m [90m 24 |[39m     api[0m
+  [0m [90m 25 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 28 |[39m[0m
+  [0m [90m 29 |[39m   [36mreturn[39m ([0m
+
+Found [31m[1m6 errors[22m[39m in 976 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.1b457df8b031a822.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.1b457df8b031a822.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.1b457df8b031a822.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (219c1a70af09c59c)
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m24:3[22m[39m
+[90mTS2304: [39mCannot find name 'useEffect'.
+  [0m [90m 22 |[39m   [36mconst[39m picture [33m=[39m payload[33m.[39mpicture[33m;[39m[0m
+  [0m [90m 23 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m     api[0m
+  [0m [90m 26 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 27 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m25:5[22m[39m
+[90mTS2304: [39mCannot find name 'api'.
+  [0m [90m 23 |[39m[0m
+  [0m [90m 24 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 25 |[39m     api[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 26 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 27 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 28 |[39m   }[33m,[39m [])[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m26:35[22m[39m
+[90mTS2304: [39mCannot find name 'teamId'.
+  [0m [90m 24 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 25 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 28 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 29 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m26:43[22m[39m
+[90mTS2304: [39mCannot find name 'playerId'.
+  [0m [90m 24 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 25 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 28 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 29 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m27:14[22m[39m
+[90mTS7006: [39mParameter 'result' implicitly has an 'any' type.
+  [0m [90m 25 |[39m     api[0m
+  [0m [90m 26 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [36mreturn[39m ([0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m27:25[22m[39m
+[90mTS2304: [39mCannot find name 'setPlayer'.
+  [0m [90m 25 |[39m     api[0m
+  [0m [90m 26 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [36mreturn[39m ([0m
+
+Found [31m[1m6 errors[22m[39m in 885 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.219c1a70af09c59c.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.219c1a70af09c59c.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.219c1a70af09c59c.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c2eaef99cda7c524)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m25:5[22m[39m
+[90mTS2304: [39mCannot find name 'api'.
+  [0m [90m 23 |[39m[0m
+  [0m [90m 24 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 25 |[39m     api[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 26 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m 27 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 28 |[39m   }[33m,[39m [])[33m;[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m26:35[22m[39m
+[90mTS2304: [39mCannot find name 'teamId'.
+  [0m [90m 24 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 25 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 28 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 29 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m26:43[22m[39m
+[90mTS2304: [39mCannot find name 'playerId'.
+  [0m [90m 24 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 25 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 28 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 29 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m27:14[22m[39m
+[90mTS7006: [39mParameter 'result' implicitly has an 'any' type.
+  [0m [90m 25 |[39m     api[0m
+  [0m [90m 26 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [36mreturn[39m ([0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m27:25[22m[39m
+[90mTS2304: [39mCannot find name 'setPlayer'.
+  [0m [90m 25 |[39m     api[0m
+  [0m [90m 26 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [36mreturn[39m ([0m
+
+Found [31m[1m5 errors[22m[39m in 1009 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.c2eaef99cda7c524.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.c2eaef99cda7c524.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.c2eaef99cda7c524.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (56f9204e8ef88e8f)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m27:35[22m[39m
+[90mTS2304: [39mCannot find name 'teamId'.
+  [0m [90m 25 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 26 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 29 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 30 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m27:43[22m[39m
+[90mTS2304: [39mCannot find name 'playerId'.
+  [0m [90m 25 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 26 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 29 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 30 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m28:25[22m[39m
+[90mTS2304: [39mCannot find name 'setPlayer'.
+  [0m [90m 26 |[39m     api[0m
+  [0m [90m 27 |[39m       [33m.[39mgetPlayerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 30 |[39m[0m
+  [0m [90m 31 |[39m   [36mreturn[39m ([0m
+
+Found [31m[1m3 errors[22m[39m in 946 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.56f9204e8ef88e8f.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.56f9204e8ef88e8f.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.56f9204e8ef88e8f.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fc086526a4dda49d)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m27:8[22m[39m
+[90mTS2339: [39mProperty 'getTrainer' does not exist on type '{ createTrainer: (trainerId: string, name: string, surname: string, email: string, telephone: string, teams: Team[], imageUrl: string, centres: Centres[]) => Promise<any>; ... 19 more ...; updatePlayer: (trainerId: string, teamId: string, playerId: string, name: string, surname: string, email: string) => Promise<......'.
+  [0m [90m 25 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 26 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m       [33m.[39mgetTrainer(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 29 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 30 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m27:32[22m[39m
+[90mTS2304: [39mCannot find name 'teamId'.
+  [0m [90m 25 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 26 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m       [33m.[39mgetTrainer(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 29 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 30 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m27:40[22m[39m
+[90mTS2304: [39mCannot find name 'playerId'.
+  [0m [90m 25 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 26 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m       [33m.[39mgetTrainer(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 29 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 30 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m28:14[22m[39m
+[90mTS7006: [39mParameter 'result' implicitly has an 'any' type.
+  [0m [90m 26 |[39m     api[0m
+  [0m [90m 27 |[39m       [33m.[39mgetTrainer(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 30 |[39m[0m
+  [0m [90m 31 |[39m   [36mreturn[39m ([0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m28:25[22m[39m
+[90mTS2304: [39mCannot find name 'setPlayer'.
+  [0m [90m 26 |[39m     api[0m
+  [0m [90m 27 |[39m       [33m.[39mgetTrainer(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 30 |[39m[0m
+  [0m [90m 31 |[39m   [36mreturn[39m ([0m
+
+Found [31m[1m5 errors[22m[39m in 732 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.fc086526a4dda49d.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.fc086526a4dda49d.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.fc086526a4dda49d.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a0c01676af8680a6)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m27:36[22m[39m
+[90mTS2304: [39mCannot find name 'teamId'.
+  [0m [90m 25 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 26 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m       [33m.[39mgetTrainerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 29 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 30 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m27:36[22m[39m
+[90mTS2554: [39mExpected 1 arguments, but got 3.
+  [0m [90m 25 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 26 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m       [33m.[39mgetTrainerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 29 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 30 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m27:44[22m[39m
+[90mTS2304: [39mCannot find name 'playerId'.
+  [0m [90m 25 |[39m   useEffect(() [33m=>[39m {[0m
+  [0m [90m 26 |[39m     api[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m       [33m.[39mgetTrainerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m 29 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 30 |[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m28:25[22m[39m
+[90mTS2304: [39mCannot find name 'setPlayer'.
+  [0m [90m 26 |[39m     api[0m
+  [0m [90m 27 |[39m       [33m.[39mgetTrainerById(payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId)[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 30 |[39m[0m
+  [0m [90m 31 |[39m   [36mreturn[39m ([0m
+
+Found [31m[1m4 errors[22m[39m in 713 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.a0c01676af8680a6.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.a0c01676af8680a6.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.a0c01676af8680a6.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b4331175fd45fb1c)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m28:25[22m[39m
+[90mTS2304: [39mCannot find name 'setPlayer'.
+  [0m [90m 26 |[39m     api[0m
+  [0m [90m 27 |[39m       [33m.[39mgetTrainerById(payload[33m.[39msub)[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m       [33m.[39mthen((result) [33m=>[39m setPlayer(result[33m.[39mplayer))[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 30 |[39m[0m
+  [0m [90m 31 |[39m   [36mreturn[39m ([0m
+
+Found [31m[1m1 error[22m[39m in 678 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.b4331175fd45fb1c.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.b4331175fd45fb1c.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.b4331175fd45fb1c.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (22d6b56e1406337e)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.22d6b56e1406337e.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.22d6b56e1406337e.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.22d6b56e1406337e.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3524368a47a9f784)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.3524368a47a9f784.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.3524368a47a9f784.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.3524368a47a9f784.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (df42e4c446f7a6c4)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.df42e4c446f7a6c4.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.df42e4c446f7a6c4.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.df42e4c446f7a6c4.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7d3c0bebf9ed8968)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m50:38[22m[39m
+[90mTS2339: [39mProperty 'given_name' does not exist on type 'Trainer'.
+  [0m [90m 48 |[39m               [33m<[39m[33mMarginList[39m[33m>[39m[0m
+  [0m [90m 49 |[39m                 [33m<[39m[33mIonLabel[39m[33m>[39m[0m
+  [0m[31m[1m>[22m[39m[90m 50 |[39m                   {trainer [33m?[39m trainer[33m.[39mgiven_name [33m:[39m [32m"Loading..."[39m}[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 51 |[39m                 [33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
+  [0m [90m 52 |[39m               [33m<[39m[33m/[39m[33mMarginList[39m[33m>[39m[0m
+  [0m [90m 53 |[39m             [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
+
+Found [31m[1m1 error[22m[39m in 606 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.7d3c0bebf9ed8968.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.7d3c0bebf9ed8968.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.7d3c0bebf9ed8968.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1da73b42881dc3bb)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.1da73b42881dc3bb.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.1da73b42881dc3bb.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.1da73b42881dc3bb.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c90a4d8229dc3498)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.c90a4d8229dc3498.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.c90a4d8229dc3498.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.c90a4d8229dc3498.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2be1d05fc4e12592)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m58:38[22m[39m
+[90mTS2339: [39mProperty 'family_name' does not exist on type 'Trainer'.
+  [0m [90m 56 |[39m               [33m<[39m[33mMarginList[39m[33m>[39m[0m
+  [0m [90m 57 |[39m                 [33m<[39m[33mIonLabel[39m[33m>[39m[0m
+  [0m[31m[1m>[22m[39m[90m 58 |[39m                   {trainer [33m?[39m trainer[33m.[39mfamily_name [33m:[39m [32m"Loading..."[39m}[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 59 |[39m                 [33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
+  [0m [90m 60 |[39m               [33m<[39m[33m/[39m[33mMarginList[39m[33m>[39m[0m
+  [0m [90m 61 |[39m             [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
+
+Found [31m[1m1 error[22m[39m in 679 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.2be1d05fc4e12592.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.2be1d05fc4e12592.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.2be1d05fc4e12592.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0b8d334653e69740)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m58:38[22m[39m
+[90mTS2339: [39mProperty 'sur' does not exist on type 'Trainer'.
+  [0m [90m 56 |[39m               [33m<[39m[33mMarginList[39m[33m>[39m[0m
+  [0m [90m 57 |[39m                 [33m<[39m[33mIonLabel[39m[33m>[39m[0m
+  [0m[31m[1m>[22m[39m[90m 58 |[39m                   {trainer [33m?[39m trainer[33m.[39msur [33m:[39m [32m"Loading..."[39m}[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 59 |[39m                 [33m<[39m[33m/[39m[33mIonLabel[39m[33m>[39m[0m
+  [0m [90m 60 |[39m               [33m<[39m[33m/[39m[33mMarginList[39m[33m>[39m[0m
+  [0m [90m 61 |[39m             [33m<[39m[33m/[39m[33mIonItem[39m[33m>[39m[0m
+
+Found [31m[1m1 error[22m[39m in 1090 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.0b8d334653e69740.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.0b8d334653e69740.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.0b8d334653e69740.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5c8272a301a1c50d)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.5c8272a301a1c50d.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.5c8272a301a1c50d.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.5c8272a301a1c50d.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2ed1da5704673c71)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.2ed1da5704673c71.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.2ed1da5704673c71.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.2ed1da5704673c71.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (85d7f82cfa86b013)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.85d7f82cfa86b013.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.85d7f82cfa86b013.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.85d7f82cfa86b013.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (345319677b774fbf)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.345319677b774fbf.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.345319677b774fbf.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.345319677b774fbf.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (708edb4f189bb963)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.708edb4f189bb963.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.708edb4f189bb963.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.708edb4f189bb963.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7c7ad72fef71b7c3)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.7c7ad72fef71b7c3.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.7c7ad72fef71b7c3.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.7c7ad72fef71b7c3.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (59f9fcc8228343b8)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./frontend/src/pages/profile/profile.tsx[22m:[32m[1m29:19[22m[39m
+[90mTS18048: [39m'trainer' is possibly 'undefined'.
+  [0m [90m 27 |[39m       [33m.[39mgetTrainerById(payload[33m.[39msub)[0m
+  [0m [90m 28 |[39m       [33m.[39mthen((result) [33m=>[39m setTrainer(result[33m.[39mtrainer))[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       console[33m.[39mlog(trainer[33m.[39mname)[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m   }[33m,[39m [])[33m;[39m[0m
+  [0m [90m 31 |[39m[0m
+  [0m [90m 32 |[39m   [36mreturn[39m ([0m
+
+Found [31m[1m1 error[22m[39m in 924 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.59f9fcc8228343b8.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.59f9fcc8228343b8.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.59f9fcc8228343b8.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0d59d861214d4806)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.0d59d861214d4806.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.0d59d861214d4806.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.0d59d861214d4806.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d05b3970f5207db2)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.d05b3970f5207db2.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.d05b3970f5207db2.hot-update.js[39m[22m (main) 186 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.d05b3970f5207db2.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bf868d267d6cd542)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.bf868d267d6cd542.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.bf868d267d6cd542.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.bf868d267d6cd542.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (074be2ee76821d2e)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.35 MiB (6.81 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 466 KiB (583 KiB) = [1m[32mruntime.js[39m[22m 53.5 KiB [1m[32mruntime.074be2ee76821d2e.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.074be2ee76821d2e.hot-update.js[39m[22m (main) 185 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.074be2ee76821d2e.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.84 MiB (javascript) 51.3 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 19.1 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4a6cc99f9755f10a)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m

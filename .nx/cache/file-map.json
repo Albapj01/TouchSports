@@ -96,20 +96,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package.json",
-        "hash": "10523604583776342967"
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "803993032614011237"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
+        "file": "nx.json",
+        "hash": "4595224623132836319"
       },
       {
         "file": ".vscode/settings.json",
@@ -120,24 +112,32 @@
         "hash": "9430166341120122740"
       },
       {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
+        "file": "package-lock.json",
+        "hash": "803993032614011237"
       },
       {
         "file": "docker-compose.yml",
         "hash": "319288953677755740"
       },
       {
+        "file": "README.md",
+        "hash": "10104707244890837311"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
+      },
+      {
+        "file": "package.json",
+        "hash": "10523604583776342967"
+      },
+      {
         "file": "tsconfig.base.json",
         "hash": "16936441711144470533"
       },
       {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
-      },
-      {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
       }
     ],
     "projectFileMap": {
@@ -518,7 +518,7 @@
         },
         {
           "file": "backend/src/trainers/infrastructure/controller/GetTrainerByIdController.ts",
-          "hash": "6788445650915552404",
+          "hash": "4832364604474350918",
           "deps": [
             "npm:express"
           ]
@@ -906,10 +906,11 @@
         },
         {
           "file": "frontend/src/pages/profile/profile.tsx",
-          "hash": "100342954220419478",
+          "hash": "8628649153142536982",
           "deps": [
             "npm:@ionic/react",
-            "npm:styled-components"
+            "npm:styled-components",
+            "npm:react"
           ]
         },
         {

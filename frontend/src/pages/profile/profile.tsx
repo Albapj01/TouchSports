@@ -12,10 +12,21 @@ import Tabs from "frontend/src/components/tabs/tabs";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
 import styled from "styled-components";
 import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import { Trainer } from "frontend/src/utils/interfaces/Trainer";
+import { useEffect, useState } from "react";
+import api from "frontend/src/utils/api/api";
 
 const Profile = () => {
+  const [trainer, setTrainer] = useState<Trainer>();
+
   const { payload } = decodeJwt(storage.get("token"));
   const picture = payload.picture;
+
+  useEffect(() => {
+    api
+      .getTrainerById(payload.sub)
+      .then((result) => setTrainer(result.trainer));
+  }, []);
 
   return (
     <>
@@ -36,8 +47,7 @@ const Profile = () => {
               <IonLabel>Nombre</IonLabel>
               <MarginList>
                 <IonLabel>
-                  {" "}
-                  {payload ? payload.given_name : "Loading..."}
+                  {trainer ? trainer.name : ""}
                 </IonLabel>
               </MarginList>
             </IonItem>
@@ -45,7 +55,7 @@ const Profile = () => {
               <IonLabel>Apellidos</IonLabel>
               <MarginList>
                 <IonLabel>
-                  {payload ? payload.family_name : "Loading..."}
+                  {trainer ? trainer.surname : ""}
                 </IonLabel>
               </MarginList>
             </IonItem>
@@ -59,8 +69,7 @@ const Profile = () => {
               <IonLabel>Correo</IonLabel>
               <MarginList>
                 <IonLabel>
-                  {" "}
-                  {payload ? payload.email : "Loading..."}
+                  {trainer ? trainer.email : ""}
                 </IonLabel>
               </MarginList>
             </IonItem>

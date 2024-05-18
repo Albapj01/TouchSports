@@ -8,11 +8,10 @@ export class GetTrainerByIdController {
         const trainerData = req.params.id
 
         try {
-            await this.getTrainerByIdUseCase.run(trainerData)
+            const trainer = await this.getTrainerByIdUseCase.run(trainerData)
+            res.status(201).send({message: 'Obtained', trainer})
         } catch (error) {
             return res.status(500).send({message: 'Error'})
         }
-
-        res.status(201).send({message: 'Obtained'})
     }
 }
