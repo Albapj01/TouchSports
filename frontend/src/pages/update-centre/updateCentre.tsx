@@ -8,7 +8,7 @@ import {
   IonPage,
 } from "@ionic/react";
 import Menu from "frontend/src/components/menu/menu";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Tabs from "frontend/src/components/tabs/tabs";
 import Input from "frontend/src/components/input/input";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
@@ -30,6 +30,21 @@ const UpdateCentre = () => {
   const history = useHistory();
 
   const { payload } = decodeJwt(storage.get("token"));
+
+  useEffect(() => {
+    const fetchCentreData = async () => {
+      const existingCentre = await api.getCentresById(
+        payload.sub,
+        centresId
+      );
+      if (existingCentre && existingCentre.centres) {
+        setName(existingCentre.centres.name || "");
+        setLocation(existingCentre.centres.location || "");
+      }
+    };
+
+    fetchCentreData();
+  }, [payload.sub, centresId]);
 
   const handleUpdateCentre = async () => {
     await api.updateCentre(payload.sub, centresId, name, location);
@@ -58,21 +73,21 @@ const UpdateCentre = () => {
                 label="Nombre"
                 placeholder="Nombre"
                 elements={(name) => setName(name)}
-                value=""
+                value={name}
               />
               <br />
               <Input
                 label="Ubicación"
                 placeholder="Ubicación"
                 elements={(location) => setLocation(location)}
-                value=""
+                value={location}
               />
               <br />
             </Margin>
           </IonList>
           <Space />
           <Button>
-            <AddButton id="open-action-sheet">Añadir</AddButton>
+            <AddButton id="open-action-sheet">Actualizar</AddButton>
             <IonActionSheet
               trigger="open-action-sheet"
               buttons={[
