@@ -139,7 +139,7 @@ const Reserves = () => {
                   ? `Material reservado: ${selectedReserve.material}`
                   : ""}
               </p>
-              <IonButton onClick={() => history.push(`/home/reserves`)}>
+              <IonButton onClick={() => {history.push(`/home/reserves/${selectedReserve?.centresId}/${selectedReserve?.reserveId}/update-reserve`); setShowModal(false); }}>
                 Actualizar
               </IonButton>
               <IonButton

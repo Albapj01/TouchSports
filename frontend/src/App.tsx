@@ -37,6 +37,7 @@ import Reserves from "./pages/reserves/reserves";
 import UpdateTeam from "./pages/update-team/updateTeam";
 import UpdateCentre from "./pages/update-centre/updateCentre";
 import UpdatePlayer from "./pages/update-player/updatePlayer";
+import UpdateReserve from "./pages/update-reserve/updateReserve";
 
 setupIonicReact();
 
@@ -63,6 +64,7 @@ const App: React.FC = () => (
         <Route path="/home/centres/add-centres" component={AddCentres} />
         <Route path="/home/centres/:centresId/reserve" component={ReserveInfo} />
         <Route path="/home/reserves" component={Reserves} />
+        <Route path="/home/reserves/:centresId/:reserveId/update-reserve" component={UpdateReserve} />
         <Route exact path="/">
           <Redirect to="/home" />
         </Route>
