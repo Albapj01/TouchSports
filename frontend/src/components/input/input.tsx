@@ -5,9 +5,10 @@ type InputProps = {
   label: string;
   placeholder: string;
   elements: (value: string) => void;
+  value: string;
 };
 
-const Input = ({ label, placeholder, elements }: InputProps) => {
+const Input = ({ label, placeholder, elements, value }: InputProps) => {
   const validation = (event: CustomEvent) => {
     if (label == "Teléfono") {
       const telephoneNumber = event.detail.value as string;
@@ -36,6 +37,7 @@ const Input = ({ label, placeholder, elements }: InputProps) => {
           fill="outline"
           placeholder={placeholder}
           onIonChange={validation}
+          value={value}
         />
       </InputContainer>
     </>

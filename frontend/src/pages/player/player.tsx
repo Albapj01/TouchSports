@@ -56,6 +56,10 @@ const PlayerInfo = () => {
     await api.deletePlayer(payload.sub, teamId, playerId);
   };
 
+  const handleUpdateButtonClick = async () => {
+    history.push(`/home/teams/${teamId}/player/${playerId}/update-player`);
+  };
+
   return (
     <>
       <IonPage>
@@ -73,7 +77,7 @@ const PlayerInfo = () => {
                 ></IonIcon>
               </TransparentFabButton>
               <IonFabList side="bottom">
-                <IonFabButton>
+                <IonFabButton onClick={handleUpdateButtonClick}>
                   <IonIcon color="primary" icon={pencilOutline}></IonIcon>
                 </IonFabButton>
                 <IonFabButton onClick={handleDeleteButtonClick}>

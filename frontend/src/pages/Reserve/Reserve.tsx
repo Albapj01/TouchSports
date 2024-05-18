@@ -105,18 +105,21 @@ const ReserveInfo = () => {
                 label="Nombre"
                 placeholder="Nombre"
                 elements={(name) => setName(name)}
+                value=""
               />
               <br />
               <Input
                 label="Apellidos"
                 placeholder="Apellidos"
                 elements={(surname) => setSurname(surname)}
+                value=""
               />
               <br />
               <Input
                 label="Correo"
                 placeholder="Correo"
                 elements={(email) => setEmail(email)}
+                value=""
               />
               <br />
               <Input
@@ -125,6 +128,7 @@ const ReserveInfo = () => {
                 elements={(telephoneNumber) =>
                   setTelephoneNumber(telephoneNumber)
                 }
+                value=""
               />
               <Space></Space>
               <IonText>Selecciona para qué equipo quieres la reserva</IonText>

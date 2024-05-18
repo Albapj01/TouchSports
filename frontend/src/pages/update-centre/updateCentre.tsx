@@ -58,12 +58,14 @@ const UpdateCentre = () => {
                 label="Nombre"
                 placeholder="Nombre"
                 elements={(name) => setName(name)}
+                value=""
               />
               <br />
               <Input
                 label="Ubicación"
                 placeholder="Ubicación"
                 elements={(location) => setLocation(location)}
+                value=""
               />
               <br />
             </Margin>

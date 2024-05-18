@@ -8,7 +8,7 @@ import {
   IonPage,
 } from "@ionic/react";
 import Menu from "frontend/src/components/menu/menu";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Tabs from "frontend/src/components/tabs/tabs";
 import Input from "frontend/src/components/input/input";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
@@ -22,10 +22,12 @@ import { useParams } from "react-router-dom";
 
 interface RouteParams {
   teamId: string;
+  playerId: string;
 }
 
-const AddPlayer = () => {
+const UpdatePlayer = () => {
   const { teamId } = useParams<RouteParams>();
+  const { playerId } = useParams<RouteParams>();
 
   const [name, setName] = useState("");
   const [surname, setSurname] = useState("");
@@ -36,30 +38,27 @@ const AddPlayer = () => {
 
   const { payload } = decodeJwt(storage.get("token"));
 
-  const handleAddPlayer = async () => {
-    const id = uuidv4();
-    const playerId = id.toString();
-
-    const existingPlayer = await api.getPlayerById(
-      payload.sub,
-      teamId,
-      playerId
-    );
-
-    const obtainedPlayerId =
-      existingPlayer && existingPlayer.player ? existingPlayer.player.id : null;
-
-    if (!obtainedPlayerId) {
-      await api.createPlayer(
+  useEffect(() => {
+    const fetchPlayerData = async () => {
+      const existingPlayer = await api.getPlayerById(
         payload.sub,
         teamId,
-        playerId,
-        name,
-        surname,
-        email
+        playerId
       );
-    }
+      if (existingPlayer && existingPlayer.player) {
+        setName(existingPlayer.player.name || "");
+        setSurname(existingPlayer.player.surname || "");
+        setEmail(existingPlayer.player.email || "");
+      }
+    };
+
+    fetchPlayerData();
+  }, [payload.sub, teamId, playerId]);
+
+  const handleUpdatePlayer = async () => {
+    await api.updatePlayer(payload.sub, teamId, playerId, name, surname, email);
   };
+
   return (
     <>
       <IonPage>
@@ -83,14 +82,14 @@ const AddPlayer = () => {
                 label="Nombre"
                 placeholder="Nombre"
                 elements={(name) => setName(name)}
-                value=""
+                value={name}
               />
               <br />
               <Input
                 label="Apellidos"
                 placeholder="Apellidos"
                 elements={(surname) => setSurname(surname)}
-                value=""
+                value={surname}
               />
               <br />
               <Input
@@ -106,32 +105,32 @@ const AddPlayer = () => {
                 label="Correo"
                 placeholder="Correo"
                 elements={(email) => setEmail(email)}
-                value=""
+                value={email}
               />
             </Margin>
           </IonList>
           <Space />
           <Button>
-            <AddButton id="open-action-sheet">Añadir</AddButton>
+            <AddButton id="open-action-sheet">Actualizar</AddButton>
             <IonActionSheet
               trigger="open-action-sheet"
               buttons={[
                 {
                   text: "Eliminar",
                   role: "destructive",
-                  handler: () => history.push("/home/team"),
+                  handler: () => history.push(`/home/teams/${teamId}`),
                 },
                 {
-                  text: "Añadir",
+                  text: "Actualizar",
                   handler: () => {
-                    handleAddPlayer();
+                    handleUpdatePlayer();
                     history.push(`/home/teams/${teamId}`);
                   },
                 },
                 {
                   text: "Cancelar",
                   role: "cancel",
-                  handler: () => history.push("/home/team/add-player"),
+                  handler: () => history.push(`/home/teams/${teamId}/player/${playerId}/update-player`),
                 },
               ]}
             ></IonActionSheet>
@@ -168,4 +167,4 @@ const AddButton = styled(IonButton)`
   width: 30%;
 `;
 
-export default AddPlayer;
+export default UpdatePlayer;

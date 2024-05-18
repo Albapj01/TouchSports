@@ -57,6 +57,7 @@ const UpdateTeam = () => {
                 label="Nombre"
                 placeholder="Nombre"
                 elements={(name) => setName(name)}
+                value=""
               />
             </Margin>
           </IonList>

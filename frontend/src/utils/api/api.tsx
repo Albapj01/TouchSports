@@ -232,6 +232,21 @@ const deletePlayer = async (trainerId: string, teamId: string, playerId: string)
   return response.data;
 };
 
+const updatePlayer = async (trainerId: string, teamId: string, playerId: string, name: string, surname: string, email: string) => {
+  const response = await axios.put(
+    `${myApi}/trainer/${trainerId}/team/${teamId}/player/${playerId}`,
+    {
+      trainerId,
+      teamId,
+      playerId,
+      name,
+      surname,
+      email,
+    }
+  );
+  return response.data;
+};
+
 export default {
   createTrainer,
   getTrainerById,
@@ -253,4 +268,5 @@ export default {
   deleteCentre,
   updateCentre,
   deletePlayer,
+  updatePlayer,
 };
