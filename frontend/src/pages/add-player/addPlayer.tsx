@@ -83,14 +83,14 @@ const AddPlayer = () => {
                 label="Nombre"
                 placeholder="Nombre"
                 elements={(name) => setName(name)}
-                value=""
+                value={name}
               />
               <br />
               <Input
                 label="Apellidos"
                 placeholder="Apellidos"
                 elements={(surname) => setSurname(surname)}
-                value=""
+                value={surname}
               />
               <br />
               <Input
@@ -99,14 +99,14 @@ const AddPlayer = () => {
                 elements={(telephoneNumber) =>
                   setTelephoneNumber(telephoneNumber)
                 }
-                value=""
+                value={telephoneNumber}
               />
               <br />
               <Input
                 label="Correo"
                 placeholder="Correo"
                 elements={(email) => setEmail(email)}
-                value=""
+                value={email}
               />
             </Margin>
           </IonList>

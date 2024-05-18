@@ -98,7 +98,7 @@ const UpdatePlayer = () => {
                 elements={(telephoneNumber) =>
                   setTelephoneNumber(telephoneNumber)
                 }
-                value=""
+                value={telephoneNumber}
               />
               <br />
               <Input

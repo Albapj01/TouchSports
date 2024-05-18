@@ -64,14 +64,14 @@ const AddCentres = () => {
                 label="Nombre"
                 placeholder="Nombre"
                 elements={(name) => setName(name)}
-                value=""
+                value={name}
               />
               <br />
               <Input
                 label="Ubicación"
                 placeholder="Ubicación"
                 elements={(location) => setLocation(location)}
-                value=""
+                value={location}
               />
               <br />
             </Margin>

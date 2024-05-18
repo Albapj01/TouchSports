@@ -61,7 +61,7 @@ const AddTeam = () => {
                 label="Nombre"
                 placeholder="Nombre"
                 elements={(name) => setName(name)}
-                value=""
+                value={name}
               />
             </Margin>
           </IonList>
