@@ -96,32 +96,8 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
-      },
-      {
         "file": "docker-compose.yml",
         "hash": "319288953677755740"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
       },
       {
         "file": "nx.json",
@@ -132,12 +108,36 @@
         "hash": "803993032614011237"
       },
       {
-        "file": "package.json",
-        "hash": "10523604583776342967"
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "16936441711144470533"
+      },
+      {
+        "file": "package.json",
+        "hash": "10523604583776342967"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "README.md",
+        "hash": "10104707244890837311"
       }
     ],
     "projectFileMap": {
@@ -819,7 +819,7 @@
         },
         {
           "file": "frontend/src/main.tsx",
-          "hash": "2171854319535659178",
+          "hash": "3607165177240350611",
           "deps": [
             "npm:react",
             "npm:react-dom",
@@ -950,7 +950,7 @@
         },
         {
           "file": "frontend/src/pages/sign-in/signIn.tsx",
-          "hash": "11402984287904492003",
+          "hash": "8790933019010322631",
           "deps": [
             "npm:@ionic/react",
             "npm:ionicons",
@@ -1047,7 +1047,7 @@
         },
         {
           "file": "frontend/src/utils/functions/storage.tsx",
-          "hash": "16754717058250857404"
+          "hash": "6679079495538601397"
         },
         {
           "file": "frontend/src/utils/interfaces/Centres.tsx",

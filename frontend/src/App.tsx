@@ -56,10 +56,7 @@ const App: React.FC = () => (
         <Route path="/home/teams/add-team" component={AddTeam}/>
         <Route path="/home/teams/:teamId/player/:playerId" component={PlayerInfo} />
         <Route path="/home/teams/:teamId/player/:playerId/update-player" component={UpdatePlayer} />
-        <Route
-          path="/home/teams/:teamId/add-player"
-          component={AddPlayer}
-        />
+        <Route path="/home/teams/:teamId/add-player" component={AddPlayer}/>
         <Route path="/home/centres" component={CentresInfo} />
         <Route path="/home/centres/:centresId" component={CentreInfo} />
         <Route path="/home/centres/:centresId/update-centre" component={UpdateCentre} />

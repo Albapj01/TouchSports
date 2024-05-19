@@ -32,6 +32,7 @@ const Card = ({ title, imageUrl, description, route }: CardProps) => {
 
 const TitleText = styled.div`
   font-weight: 800;
+  font-size: 18px;
 `;
 
 const StyledLink = styled(Link)`

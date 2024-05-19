@@ -1,14 +1,12 @@
 import { IonContent, IonFooter, IonImg, IonPage } from "@ionic/react";
-import Button from "frontend/src/components/button/button";
 import Logo from "frontend/src/components/logo/logo";
-import { logoGoogle, logoFacebook, logoApple } from "ionicons/icons";
 import styled from "styled-components";
 import { GoogleLogin } from "@react-oauth/google";
 import { useHistory } from "react-router-dom";
 import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import api from "../../utils/api/api";
 
-const SignInSecond = () => {
+const SignIn = () => {
   const history = useHistory();
 
   const response = async (credentialResponse: any) => {
@@ -48,20 +46,10 @@ const SignInSecond = () => {
           <ContentContainer>
             <SignInContainer>
               <Logo />
-              <Button
-                color="light"
-                icon={logoGoogle}
-                text="Sign in with Google"
-              />
-              <GoogleLogin onSuccess={response} onError={error} />
-              <br></br>
-              <Button
-                color="primary"
-                icon={logoFacebook}
-                text="Sign in with Facebook"
-              />
-              <br></br>
-              <Button color="dark" icon={logoApple} text="Sign in with Apple" />
+              <Space></Space>
+              <StyledButton>
+                <GoogleLogin onSuccess={response} onError={error} />
+              </StyledButton>
             </SignInContainer>
           </ContentContainer>
         </IonContent>
@@ -74,7 +62,7 @@ const SignInSecond = () => {
 const BackgroundContainer = styled.div`
   position: absolute;
   width: 100%;
-  height: 100vh; /* Usar 100vh para ocupar el 100% de la altura de la ventana */
+  height: 100vh; 
 `;
 
 const BackgroundImage = styled(IonImg)`
@@ -101,4 +89,14 @@ const SignInContainer = styled.div`
   align-items: center;
 `;
 
-export default SignInSecond;
+const StyledButton = styled.div`
+  border-radius: 15px;
+  box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+  margin-bottom: 3%;
+`;
+
+const Space = styled.div`
+  margin-bottom: 30%;
+`;
+
+export default SignIn;
