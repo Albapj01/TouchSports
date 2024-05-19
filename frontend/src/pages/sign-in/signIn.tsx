@@ -5,7 +5,7 @@ import { logoGoogle, logoFacebook, logoApple } from "ionicons/icons";
 import styled from "styled-components";
 import { GoogleLogin } from "@react-oauth/google";
 import { useHistory } from "react-router-dom";
-import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import api from "../../utils/api/api";
 
 const SignInSecond = () => {

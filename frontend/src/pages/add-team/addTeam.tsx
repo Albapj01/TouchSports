@@ -17,7 +17,7 @@ import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 import api from "../../utils/api/api";
 import { v4 as uuidv4 } from "uuid";
-import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 
 const AddTeam = () => {
   const [name, setName] = useState("");
@@ -29,13 +29,13 @@ const AddTeam = () => {
     const id = uuidv4();
     const teamId = id.toString();
 
-    const existingTeam = await api.getTeamById(payload.sub, teamId)
-    const obtainedTeamId = existingTeam && existingTeam.team ? existingTeam.team.id : null;
-    
-    if(!obtainedTeamId){
+    const existingTeam = await api.getTeamById(payload.sub, teamId);
+    const obtainedTeamId =
+      existingTeam && existingTeam.team ? existingTeam.team.id : null;
+
+    if (!obtainedTeamId) {
       await api.createTeam(payload.sub, teamId, name, []);
     }
-
   };
 
   return (

@@ -16,7 +16,7 @@ import Avatar from "frontend/src/components/avatar/avatar";
 import styled from "styled-components";
 import { useHistory, useParams } from "react-router-dom";
 import api from "../../utils/api/api";
-import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 
 interface RouteParams {
   centresId: string;
@@ -33,10 +33,7 @@ const UpdateCentre = () => {
 
   useEffect(() => {
     const fetchCentreData = async () => {
-      const existingCentre = await api.getCentresById(
-        payload.sub,
-        centresId
-      );
+      const existingCentre = await api.getCentresById(payload.sub, centresId);
       if (existingCentre && existingCentre.centres) {
         setName(existingCentre.centres.name || "");
         setLocation(existingCentre.centres.location || "");
@@ -106,7 +103,8 @@ const UpdateCentre = () => {
                 {
                   text: "Cancelar",
                   role: "cancel",
-                  handler: () => history.push(`/home/centres/${centresId}/update-centre`),
+                  handler: () =>
+                    history.push(`/home/centres/${centresId}/update-centre`),
                 },
               ]}
             ></IonActionSheet>

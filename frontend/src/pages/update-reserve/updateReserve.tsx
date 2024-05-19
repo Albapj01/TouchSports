@@ -23,7 +23,7 @@ import ToolBar from "frontend/src/components/toolbar/toolbar";
 import styled from "styled-components";
 import { useHistory, useParams } from "react-router-dom";
 import { Team } from "frontend/src/utils/interfaces/Team";
-import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import api from "frontend/src/utils/api/api";
 
 interface RouteParams {
@@ -205,7 +205,7 @@ const UpdateReserve = () => {
               ]}
             ></IonActionSheet>
           </Button>
-          <br/>
+          <br />
         </IonContent>
         <IonFooter>
           <Tabs />

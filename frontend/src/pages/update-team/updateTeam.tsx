@@ -17,7 +17,7 @@ import styled from "styled-components";
 import { useHistory, useParams } from "react-router-dom";
 import api from "../../utils/api/api";
 import { v4 as uuidv4 } from "uuid";
-import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 
 interface RouteParams {
   teamId: string;
@@ -32,10 +32,7 @@ const UpdateTeam = () => {
 
   useEffect(() => {
     const fetchTeamData = async () => {
-      const existingTeam= await api.getTeamById(
-        payload.sub,
-        teamId
-      );
+      const existingTeam = await api.getTeamById(payload.sub, teamId);
       if (existingTeam && existingTeam.team) {
         setName(existingTeam.team.name || "");
       }

@@ -17,7 +17,7 @@ import Menu from "frontend/src/components/menu/menu";
 import Tabs from "frontend/src/components/tabs/tabs";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
 import styled from "styled-components";
-import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import api from "frontend/src/utils/api/api";
 import { useEffect, useState } from "react";
 import { Reserve } from "frontend/src/utils/interfaces/Reserve";
@@ -112,10 +112,7 @@ const Reserves = () => {
                       new Date(reserve.startReserve),
                       "MM/dd/yyyy HH:mm -"
                     )}
-                    {format(
-                      new Date(reserve.endReserve),
-                      " MM/dd/yyyy HH:mm"
-                    )}
+                    {format(new Date(reserve.endReserve), " MM/dd/yyyy HH:mm")}
                   </IonCardContent>
                 </IonCard>
               ))

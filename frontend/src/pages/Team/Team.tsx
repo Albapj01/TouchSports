@@ -19,7 +19,7 @@ import { personAdd } from "ionicons/icons";
 import { Link, useHistory } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { Player } from "frontend/src/utils/interfaces/Player";
-import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import { useEffect, useState } from "react";
 import api from "frontend/src/utils/api/api";
 import {
@@ -111,10 +111,9 @@ const Team = () => {
           <PersonsContainer>
             {players &&
               players.map((player) => (
-                <Person>
+                <Person key={player.playerId}>
                   <AvatarContainer>
                     <Avatar
-                      key={player.playerId}
                       route={`/home/teams/${teamId}/player/${player.playerId}`}
                       imageUrl="https://ionicframework.com/docs/img/demos/avatar.svg"
                       name={player.name}

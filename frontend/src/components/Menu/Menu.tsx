@@ -19,7 +19,7 @@ import {
 } from "ionicons/icons";
 import { Link } from "react-router-dom";
 import { Team } from "frontend/src/utils/interfaces/Team";
-import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import api from "frontend/src/utils/api/api";
 
 const Menu = () => {
@@ -58,7 +58,9 @@ const Menu = () => {
               {teams.map((team, index) => (
                 <StyledIonItem key={index} color="primary">
                   <Icon icon={""} />
-                  <StyledLink to={`/home/teams/${team.teamId}`}>{team.name}</StyledLink>
+                  <StyledLink to={`/home/teams/${team.teamId}`}>
+                    {team.name}
+                  </StyledLink>
                 </StyledIonItem>
               ))}
             </IonList>

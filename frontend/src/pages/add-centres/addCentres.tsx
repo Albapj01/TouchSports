@@ -17,7 +17,7 @@ import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 import api from "../../utils/api/api";
 import { v4 as uuidv4 } from "uuid";
-import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 
 const AddCentres = () => {
   const [name, setName] = useState("");

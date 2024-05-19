@@ -7,7 +7,7 @@ import ToolBar from "frontend/src/components/toolbar/toolbar";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { addCircleOutline } from "ionicons/icons";
-import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import api from "frontend/src/utils/api/api";
 import { useEffect, useState } from "react";
 import { Team } from "frontend/src/utils/interfaces/Team";

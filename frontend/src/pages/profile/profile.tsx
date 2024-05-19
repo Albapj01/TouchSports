@@ -11,7 +11,7 @@ import Menu from "frontend/src/components/menu/menu";
 import Tabs from "frontend/src/components/tabs/tabs";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
 import styled from "styled-components";
-import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import { Trainer } from "frontend/src/utils/interfaces/Trainer";
 import { useEffect, useState } from "react";
 import api from "frontend/src/utils/api/api";
@@ -38,25 +38,19 @@ const Profile = () => {
           <Menu />
           <Margin />
           <ImageContainer>
-            <Image
-              src={picture}
-            />
+            <Image src={picture} />
           </ImageContainer>
           <IonList inset={true}>
             <IonItem color="light">
               <IonLabel>Nombre</IonLabel>
               <MarginList>
-                <IonLabel>
-                  {trainer ? trainer.name : ""}
-                </IonLabel>
+                <IonLabel>{trainer ? trainer.name : ""}</IonLabel>
               </MarginList>
             </IonItem>
             <IonItem color="light">
               <IonLabel>Apellidos</IonLabel>
               <MarginList>
-                <IonLabel>
-                  {trainer ? trainer.surname : ""}
-                </IonLabel>
+                <IonLabel>{trainer ? trainer.surname : ""}</IonLabel>
               </MarginList>
             </IonItem>
             <IonItem color="light">
@@ -68,9 +62,7 @@ const Profile = () => {
             <IonItem color="light">
               <IonLabel>Correo</IonLabel>
               <MarginList>
-                <IonLabel>
-                  {trainer ? trainer.email : ""}
-                </IonLabel>
+                <IonLabel>{trainer ? trainer.email : ""}</IonLabel>
               </MarginList>
             </IonItem>
           </IonList>

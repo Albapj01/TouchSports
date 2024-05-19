@@ -16,7 +16,7 @@ import styled from "styled-components";
 import { addCircleOutline } from "ionicons/icons";
 import { useEffect, useState } from "react";
 import { Centres } from "frontend/src/utils/interfaces/Centres";
-import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import api from "frontend/src/utils/api/api";
 
 const CentresInfo = () => {

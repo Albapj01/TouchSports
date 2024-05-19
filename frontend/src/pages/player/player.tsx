@@ -17,7 +17,7 @@ import Menu from "frontend/src/components/menu/menu";
 import Tabs from "frontend/src/components/tabs/tabs";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
 import api from "frontend/src/utils/api/api";
-import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import { Player } from "frontend/src/utils/interfaces/Player";
 import { useEffect, useState } from "react";
 import { useHistory, useParams } from "react-router-dom";

@@ -15,7 +15,7 @@ import ToolBar from "frontend/src/components/toolbar/toolbar";
 import Avatar from "frontend/src/components/avatar/avatar";
 import styled from "styled-components";
 import { useHistory } from "react-router-dom";
-import decodeJwt, { storage } from "frontend/src/utils/funcions/storage";
+import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import api from "frontend/src/utils/api/api";
 import { v4 as uuidv4 } from "uuid";
 import { useParams } from "react-router-dom";
