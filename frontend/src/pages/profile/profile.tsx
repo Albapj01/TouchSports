@@ -1,7 +1,12 @@
 import {
+  IonAlert,
   IonContent,
+  IonFab,
+  IonFabButton,
+  IonFabList,
   IonFooter,
   IonHeader,
+  IonIcon,
   IonItem,
   IonLabel,
   IonList,
@@ -15,9 +20,18 @@ import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import { Trainer } from "frontend/src/utils/interfaces/Trainer";
 import { useEffect, useState } from "react";
 import api from "frontend/src/utils/api/api";
+import {
+  ellipsisVerticalOutline,
+  pencilOutline,
+  trashOutline,
+} from "ionicons/icons";
+import { useHistory } from "react-router-dom";
 
 const Profile = () => {
   const [trainer, setTrainer] = useState<Trainer>();
+  const [showAlert, setShowAlert] = useState(false);
+
+  const history = useHistory();
 
   const { payload } = decodeJwt(storage.get("token"));
   const picture = payload.picture;
@@ -28,6 +42,15 @@ const Profile = () => {
       .then((result) => setTrainer(result.trainer));
   }, []);
 
+  const handleDeleteButtonClick = () => {
+    setShowAlert(true);
+  };
+
+  const handleUpdateButtonClick = async () => {
+    // history.push(`/home/profile/${trainer?.trainerId}/update-trainer`);
+    history.push(`/home/profile`);
+  };
+
   return (
     <>
       <IonPage>
@@ -36,6 +59,45 @@ const Profile = () => {
         </IonHeader>
         <IonContent fullscreen>
           <Menu />
+          <IonFab slot="fixed" vertical="top" horizontal="end" edge={true}>
+            <FabContainer>
+              <TransparentFabButton>
+                <IonIcon
+                  color="primary"
+                  icon={ellipsisVerticalOutline}
+                ></IonIcon>
+              </TransparentFabButton>
+              <IonFabList side="bottom">
+                <IonFabButton onClick={handleUpdateButtonClick}>
+                  <IonIcon color="primary" icon={pencilOutline}></IonIcon>
+                </IonFabButton>
+                <IonFabButton onClick={handleDeleteButtonClick}>
+                  <IonIcon color="primary" icon={trashOutline}></IonIcon>
+                </IonFabButton>
+              </IonFabList>
+            </FabContainer>
+          </IonFab>
+          <IonAlert
+            isOpen={showAlert}
+            onDidDismiss={() => setShowAlert(false)}
+            header="¿Estás seguro de que quieres eliminar el entrenador?"
+            buttons={[
+              {
+                text: "Cancelar",
+                role: "cancel",
+                handler: () => {
+                  history.push(`/home/profile`);
+                },
+              },
+              {
+                text: "Eliminar",
+                role: "confirm",
+                handler: () => {
+                  history.push(`/home/profile`);
+                },
+              },
+            ]}
+          />
           <Margin />
           <ImageContainer>
             <Image src={picture} />
@@ -97,6 +159,15 @@ const Space = styled.div`
 
 const MarginList = styled.div`
   margin-right: auto;
+`;
+
+const FabContainer = styled.div`
+  margin-top: 10%;
+`;
+
+const TransparentFabButton = styled(IonFabButton)`
+  --background: transparent;
+  --box-shadow: none;
 `;
 
 export default Profile;

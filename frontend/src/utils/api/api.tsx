@@ -308,6 +308,24 @@ const deleteReserve = async (
   return response.data;
 };
 
+const updateTrainer = async (
+  trainerId: string,
+  name: string,
+  surname: string,
+  email: string
+) => {
+  const response = await axios.put(
+    `${myApi}/trainer/${trainerId}`,
+    {
+      trainerId,
+      name,
+      surname,
+      email,
+    }
+  );
+  return response.data;
+};
+
 export default {
   createTrainer,
   getTrainerById,
@@ -332,4 +350,5 @@ export default {
   updatePlayer,
   updateReserve,
   deleteReserve,
+  updateTrainer,
 };

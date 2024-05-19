@@ -5,9 +5,7 @@ import { TrainerPort } from "backend/src/trainers/domain/port/TrainerPort";
 import { Player } from "backend/src/trainers/domain/model/Player";
 import { Reserve } from "backend/src/trainers/domain/model/Reserve";
 import { Trainer } from "backend/src/trainers/domain/model/Trainer";
-import { TrainerDTO } from "backend/src/trainers/application/DTOs/TrainerDTO";
 import { TrainerMapper } from "../mapper/TrainerMapper";
-import { TeamDTO } from "backend/src/trainers/application/DTOs/TeamDTO";
 import { Centres } from "backend/src/trainers/domain/model/Centres";
 
 export class MongoTrainerAdapter implements TrainerPort {

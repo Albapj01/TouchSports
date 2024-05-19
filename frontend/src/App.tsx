@@ -39,6 +39,7 @@ import UpdateCentre from "./pages/update-centre/updateCentre";
 import UpdatePlayer from "./pages/update-player/updatePlayer";
 import UpdateReserve from "./pages/update-reserve/updateReserve";
 import Calendar from "./pages/calendar/calendar";
+import UpdateTrainer from "./pages/update-trainer/updateTrainer";
 
 setupIonicReact();
 
@@ -49,6 +50,7 @@ const App: React.FC = () => (
         <Route exact path="/home" component={Home} />
         <Route path="/sign-in" component={SignIn} />
         <Route path="/home/profile" component={Profile} />
+        <Route path="/home/profile/:trainerId/update-trainer" component={UpdateTrainer} />
         <Route path="/home/calendar" component={Calendar} />
         <Route path="/home/teams" component={Teams} />
         <Route path="/home/teams/:teamId" component={Team} />
