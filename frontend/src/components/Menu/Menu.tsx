@@ -47,7 +47,7 @@ const Menu = () => {
           </IonToolbar>
           <StyledIonItem color="primary">
             <Icon icon={calendar} />
-            Calendario
+            <StyledLink to="/home/calendar">Calendario</StyledLink>
           </StyledIonItem>
           <StyledIonItem color="primary" button onClick={handleDropDownClick}>
             <Icon icon={people} />
