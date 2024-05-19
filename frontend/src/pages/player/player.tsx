@@ -142,13 +142,13 @@ const PlayerInfo = () => {
           </IonList>{" "}
           <Space />
           <Card
-            route=""
+            route={`/home/teams/${teamId}/player/${playerId}/diet`}
             title="Alimentación"
             imageUrl="https://s1.eestatic.com/2021/08/06/ciencia/nutricion/602206906_199716223_1706x960.jpg"
             description=""
           />
           <Card
-            route=""
+            route={`/home/teams/${teamId}/player/${playerId}`}
             title="Entrenamientos personalizados"
             imageUrl="https://cope-cdnmed.cope.es/resources/jpg/1/3/1686821467631.jpg"
             description="Estiramientos y ejercicios adicionales para mejorar el rendimiento y fortalecer lesiones"

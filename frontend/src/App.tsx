@@ -40,6 +40,7 @@ import UpdatePlayer from "./pages/update-player/updatePlayer";
 import UpdateReserve from "./pages/update-reserve/updateReserve";
 import Calendar from "./pages/calendar/calendar";
 import UpdateTrainer from "./pages/update-trainer/updateTrainer";
+import Diet from "./pages/diet/diet";
 
 setupIonicReact();
 
@@ -57,6 +58,7 @@ const App: React.FC = () => (
         <Route path="/home/teams/:teamId/update-team" component={UpdateTeam} />
         <Route path="/home/teams/add-team" component={AddTeam}/>
         <Route path="/home/teams/:teamId/player/:playerId" component={PlayerInfo} />
+        <Route path="/home/teams/:teamId/player/:playerId/diet" component={Diet} />
         <Route path="/home/teams/:teamId/player/:playerId/update-player" component={UpdatePlayer} />
         <Route path="/home/teams/:teamId/add-player" component={AddPlayer}/>
         <Route path="/home/centres" component={CentresInfo} />
