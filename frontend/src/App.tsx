@@ -1,5 +1,10 @@
 import { Redirect, Route } from "react-router-dom";
-import { IonApp, IonRouterOutlet, setupIonicReact } from "@ionic/react";
+import {
+  IonApp,
+  IonPage,
+  IonRouterOutlet,
+  setupIonicReact,
+} from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import React from "react";
 import Home from "./pages/home/home";
@@ -51,23 +56,44 @@ const App: React.FC = () => (
         <Route exact path="/home" component={Home} />
         <Route path="/sign-in" component={SignIn} />
         <Route path="/home/profile" component={Profile} />
-        <Route path="/home/profile/:trainerId/update-trainer" component={UpdateTrainer} />
+        <Route
+          path="/home/profile/:trainerId/update-trainer"
+          component={UpdateTrainer}
+        />
         <Route path="/home/calendar" component={Calendar} />
         <Route path="/home/teams" component={Teams} />
         <Route path="/home/teams/:teamId" component={Team} />
         <Route path="/home/teams/:teamId/update-team" component={UpdateTeam} />
-        <Route path="/home/teams/add-team" component={AddTeam}/>
-        <Route path="/home/teams/:teamId/player/:playerId" component={PlayerInfo} />
-        <Route path="/home/teams/:teamId/player/:playerId/diet" component={Diet} />
-        <Route path="/home/teams/:teamId/player/:playerId/update-player" component={UpdatePlayer} />
-        <Route path="/home/teams/:teamId/add-player" component={AddPlayer}/>
+        <Route path="/home/teams/add-team" component={AddTeam} />
+        <Route
+          path="/home/teams/:teamId/player/:playerId"
+          component={PlayerInfo}
+        />
+        <Route
+          path="/home/teams/:teamId/player/:playerId/diet"
+          component={Diet}
+        />
+        <Route
+          path="/home/teams/:teamId/player/:playerId/update-player"
+          component={UpdatePlayer}
+        />
+        <Route path="/home/teams/:teamId/add-player" component={AddPlayer} />
         <Route path="/home/centres" component={CentresInfo} />
         <Route path="/home/centres/:centresId" component={CentreInfo} />
-        <Route path="/home/centres/:centresId/update-centre" component={UpdateCentre} />
+        <Route
+          path="/home/centres/:centresId/update-centre"
+          component={UpdateCentre}
+        />
         <Route path="/home/centres/add-centres" component={AddCentres} />
-        <Route path="/home/centres/:centresId/reserve" component={ReserveInfo} />
+        <Route
+          path="/home/centres/:centresId/reserve"
+          component={ReserveInfo}
+        />
         <Route path="/home/reserves" component={Reserves} />
-        <Route path="/home/reserves/:centresId/:reserveId/update-reserve" component={UpdateReserve} />
+        <Route
+          path="/home/reserves/:centresId/:reserveId/update-reserve"
+          component={UpdateReserve}
+        />
         <Route exact path="/">
           <Redirect to="/home" />
         </Route>
