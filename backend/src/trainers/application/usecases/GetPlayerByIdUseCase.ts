@@ -18,6 +18,11 @@ export class GetPlayerByIdUseCase {
       name: player.name,
       surname: player.surname,
       email: player.email,
+      imageUrl: player.imageUrl,
+      diet: player.diet,
+      technicalTraining: player.technicalTraining,
+      physicalTraining: player.physicalTraining,
+      improvements: player.improvements,
     };
   }
 }

@@ -48,6 +48,21 @@ export const TrainerSchema = new mongoose.Schema(
             email: {
               type: String,
             },
+            imageUrl: {
+              type: String,
+            },
+            diet: {
+              type: String,
+            },
+            technicalTraining: {
+              type: String,
+            },
+            physicalTraining: {
+              type: String,
+            },
+            improvements: {
+              type: String,
+            },
           },
         ],
       },

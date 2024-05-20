@@ -17,6 +17,11 @@ export interface TrainerEntity extends Document {
       name: string;
       surname: string;
       email: string;
+      imageUrl: string;
+      diet: string;
+      technicalTraining: string;
+      physicalTraining: string;
+      improvements: string;
     }[];
   }[];
   imageUrl: string;

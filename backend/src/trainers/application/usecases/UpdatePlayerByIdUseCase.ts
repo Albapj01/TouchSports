@@ -4,20 +4,39 @@ import { TrainerPort } from "../../domain/port/TrainerPort";
 export class UpdatePlayerByIdUseCase {
   constructor(private trainerPort: TrainerPort) {}
 
-  async run(trainerId: string, teamId: string, playerId: string, player: Player): Promise<void> {
+  async run(
+    trainerId: string,
+    teamId: string,
+    playerId: string,
+    player: Player
+  ): Promise<void> {
     const trainer = await this.trainerPort.findById(trainerId);
     if (!trainer) {
       return null;
     }
 
-    const team = await this.trainerPort.findByTeamId(teamId, trainerId)
+    const team = await this.trainerPort.findByTeamId(teamId, trainerId);
     if (!team) {
-        return null;
+      return null;
     }
 
-    const updatedPlayer = new Player(trainerId, teamId, playerId, player.name, player.surname, player.email);
+    const updatedPlayer = new Player(
+      trainerId,
+      teamId,
+      playerId,
+      player.name,
+      player.surname,
+      player.email,
+      player.imageUrl,
+      player.diet,
+      player.technicalTraining,
+      player.physicalTraining,
+      player.improvements
+    );
 
-    team.players = team.players.filter((player) => player.playerId !== playerId);
+    team.players = team.players.filter(
+      (player) => player.playerId !== playerId
+    );
 
     team.players.push(updatedPlayer);
     await this.trainerPort.updatePlayer(team.players, trainerId, teamId);

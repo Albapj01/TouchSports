@@ -26,7 +26,12 @@ export class CreatePalyerUseCase {
       playerDTO.playerId,
       playerDTO.name,
       playerDTO.surname,
-      playerDTO.email
+      playerDTO.email,
+      playerDTO.imageUrl,
+      playerDTO.diet,
+      playerDTO.technicalTraining,
+      playerDTO.physicalTraining,
+      playerDTO.improvements
     );
 
 
