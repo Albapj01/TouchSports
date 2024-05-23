@@ -139,9 +139,10 @@ const Team = () => {
 };
 
 const PersonsContainer = styled.div`
-  display: flex;
+  display: grid;
   justify-content: space-around;
   margin: 8%;
+  grid-template-columns: repeat(2, 1fr);
 `;
 
 const ButtonContainer = styled.div`
@@ -150,7 +151,9 @@ const ButtonContainer = styled.div`
 `;
 
 const Person = styled.div`
-  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15%;
 `;
 
 const Space = styled.div`

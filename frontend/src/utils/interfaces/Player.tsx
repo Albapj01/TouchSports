@@ -3,5 +3,10 @@ export interface Player {
     playerId: string,
     name: string,
     surname: string,
-    email: string
+    email: string,
+    imageUrl: string,
+    diet: string,
+    technicalTraining: string,
+    physicalTraining: string,
+    improvements: string
 }

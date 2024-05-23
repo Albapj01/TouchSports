@@ -1,6 +1,3 @@
-<i> [1m[32m[webpack-dev-server] Project is running at:[39m[22m
-<i> [1m[32m[webpack-dev-server] Loopback: [36mhttp://localhost:4200/[39m, [36mhttp://[::1]:4200/[39m[39m[22m
-<i> [1m[32m[webpack-dev-server] 404s will fallback to '[36m/index.html[39m'[39m[22m
 
 [36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4200/[22m
 
@@ -29,16 +26,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (bd8336946c800595)
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m57:48[22m[39m
-[90mTS2304: [39mCannot find name 'Tabs'.
-  [0m [90m 55 |[39m       [33m<[39m[33mIonRouterOutlet[39m[33m>[39m
-   [90m 56 |[39m         [33m<[39m[33mRoute[39m exact path[33m=[39m[32m"/home"[39m component[33m=[39m{[33mHome[39m} [33m/[39m[33m>[39m
-  [31m[1m>[22m[39m[90m 57 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/sign-in"[39m  render[33m=[39m{() [33m=>[39m [33m<[39m[33mTabs[39m [35m/>} component={SignIn} /[39m[33m>[39m
-   [90m    |[39m                                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 58 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/profile"[39m component[33m=[39m{[33mProfile[39m} [33m/[39m[33m>[39m
-   [90m 59 |[39m         [33m<[39m[33mRoute[39m
-   [90m 60 |[39m           path[33m=[39m[32m"/home/profile/:trainerId/update-trainer"[39m[0m
-
 Found [31m[1m1 error[22m[39m in 1520 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.43 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.bd8336946c800595.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
@@ -65,16 +52,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (602f0945e0acb532)
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m65:58[22m[39m
-[90mTS2304: [39mCannot find name 'Tabs'.
-  [0m [90m 63 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/calendar"[39m component[33m=[39m{[33mCalendar[39m} [33m/[39m[33m>[39m
-   [90m 64 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams"[39m component[33m=[39m{[33mTeams[39m} [33m/[39m[33m>[39m
-  [31m[1m>[22m[39m[90m 65 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams/:teamId"[39m render[33m=[39m{() [33m=>[39m [33m<[39m[33mTabs[39m [35m/>} component={Team} /[39m[33m>[39m
-   [90m    |[39m                                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 66 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams/:teamId/update-team"[39m component[33m=[39m{[33mUpdateTeam[39m} [33m/[39m[33m>[39m
-   [90m 67 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams/add-team"[39m component[33m=[39m{[33mAddTeam[39m} [33m/[39m[33m>[39m
-   [90m 68 |[39m         [33m<[39m[33mRoute[39m[0m
-
 Found [31m[1m1 error[22m[39m in 675 ms.
 Entrypoint [1mmain[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.602f0945e0acb532.hot-update.js[39m[22m [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m [1m[32mmain.602f0945e0acb532.hot-update.js[39m[22m 4 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.602f0945e0acb532.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -147,26 +124,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/App.tsx: JSX attribute
 
 webpack compiled with [1m[31m1 error[39m[22m (248bbd50b63eb8a4)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m65:58[22m[39m
-[90mTS2304: [39mCannot find name 'Tabs'.
-  [0m [90m 63 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/calendar"[39m component[33m=[39m{[33mCalendar[39m} [33m/[39m[33m>[39m
-   [90m 64 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams"[39m component[33m=[39m{[33mTeams[39m} [33m/[39m[33m>[39m
-  [31m[1m>[22m[39m[90m 65 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams/:teamId"[39m render[33m=[39m{() [33m=>[39m [33m<[39m[33mTabs[39m [35m/>} component={} /[39m[33m>[39m
-   [90m    |[39m                                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 66 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams/:teamId/update-team"[39m component[33m=[39m{[33mUpdateTeam[39m} [33m/[39m[33m>[39m
-   [90m 67 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams/add-team"[39m component[33m=[39m{[33mAddTeam[39m} [33m/[39m[33m>[39m
-   [90m 68 |[39m         [33m<[39m[33mRoute[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m65:77[22m[39m
-[90mTS17000: [39mJSX attributes must only be assigned a non-empty 'expression'.
-  [0m [90m 63 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/calendar"[39m component[33m=[39m{[33mCalendar[39m} [33m/[39m[33m>[39m
-   [90m 64 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams"[39m component[33m=[39m{[33mTeams[39m} [33m/[39m[33m>[39m
-  [31m[1m>[22m[39m[90m 65 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams/:teamId"[39m render[33m=[39m{() [33m=>[39m [33m<[39m[33mTabs[39m [35m/>} component={} /[39m[33m>[39m
-   [90m    |[39m                                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 66 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams/:teamId/update-team"[39m component[33m=[39m{[33mUpdateTeam[39m} [33m/[39m[33m>[39m
-   [90m 67 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams/add-team"[39m component[33m=[39m{[33mAddTeam[39m} [33m/[39m[33m>[39m
-   [90m 68 |[39m         [33m<[39m[33mRoute[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 643 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.41 MiB (6.94 MiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mvendor.css[39m[22m 21.5 KiB [1m[32mvendor.js[39m[22m 4.98 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 358 KiB 8 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 3 auxiliary assets
@@ -180,16 +137,6 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (602f0945e0acb532)
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m65:58[22m[39m
-[90mTS2304: [39mCannot find name 'Tabs'.
-  [0m [90m 63 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/calendar"[39m component[33m=[39m{[33mCalendar[39m} [33m/[39m[33m>[39m
-   [90m 64 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams"[39m component[33m=[39m{[33mTeams[39m} [33m/[39m[33m>[39m
-  [31m[1m>[22m[39m[90m 65 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams/:teamId"[39m render[33m=[39m{() [33m=>[39m [33m<[39m[33mTabs[39m [35m/>} component={Team} /[39m[33m>[39m
-   [90m    |[39m                                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 66 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams/:teamId/update-team"[39m component[33m=[39m{[33mUpdateTeam[39m} [33m/[39m[33m>[39m
-   [90m 67 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams/add-team"[39m component[33m=[39m{[33mAddTeam[39m} [33m/[39m[33m>[39m
-   [90m 68 |[39m         [33m<[39m[33mRoute[39m[0m
-
 Found [31m[1m1 error[22m[39m in 868 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.43 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.602f0945e0acb532.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
@@ -414,26 +361,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (7f5e9834d2b58185)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m17:43[22m[39m
-[90mTS2304: [39mCannot find name 'useState'.
-  [0m [90m 15 |[39m
-   [90m 16 |[39m [36mconst[39m [33mDiet[39m [33m=[39m () [33m=>[39m {
-  [31m[1m>[22m[39m[90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 18 |[39m
-   [90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m19:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 18 |[39m
-  [31m[1m>[22m[39m[90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 21 |[39m   }[33m;[39m
-   [90m 22 |[39m   [0m
-
 Found [31m[1m2 errors[22m[39m in 1286 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.7f5e9834d2b58185.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -511,26 +438,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
 
 webpack compiled with [1m[31m1 error[39m[22m (f7cc6618f2e1578c)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m17:43[22m[39m
-[90mTS2304: [39mCannot find name 'useState'.
-  [0m [90m 15 |[39m
-   [90m 16 |[39m [36mconst[39m [33mDiet[39m [33m=[39m () [33m=>[39m {
-  [31m[1m>[22m[39m[90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 18 |[39m
-   [90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m19:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 18 |[39m
-  [31m[1m>[22m[39m[90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 21 |[39m   }[33m;[39m
-   [90m 22 |[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 771 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.7f5e9834d2b58185.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -608,26 +515,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
 
 webpack compiled with [1m[31m1 error[39m[22m (f7cc6618f2e1578c)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m17:43[22m[39m
-[90mTS2304: [39mCannot find name 'useState'.
-  [0m [90m 15 |[39m
-   [90m 16 |[39m [36mconst[39m [33mDiet[39m [33m=[39m () [33m=>[39m {
-  [31m[1m>[22m[39m[90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 18 |[39m
-   [90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m19:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 18 |[39m
-  [31m[1m>[22m[39m[90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 21 |[39m   }[33m;[39m
-   [90m 22 |[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 867 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.7f5e9834d2b58185.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -704,26 +591,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
     at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10568:23)
 
 webpack compiled with [1m[31m1 error[39m[22m (f7cc6618f2e1578c)
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m17:43[22m[39m
-[90mTS2304: [39mCannot find name 'useState'.
-  [0m [90m 15 |[39m
-   [90m 16 |[39m [36mconst[39m [33mDiet[39m [33m=[39m () [33m=>[39m {
-  [31m[1m>[22m[39m[90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 18 |[39m
-   [90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m19:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 18 |[39m
-  [31m[1m>[22m[39m[90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 21 |[39m   }[33m;[39m
-   [90m 22 |[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 278 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.7f5e9834d2b58185.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -800,26 +667,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
     at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10568:23)
 
 webpack compiled with [1m[31m1 error[39m[22m (f7cc6618f2e1578c)
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m17:43[22m[39m
-[90mTS2304: [39mCannot find name 'useState'.
-  [0m [90m 15 |[39m
-   [90m 16 |[39m [36mconst[39m [33mDiet[39m [33m=[39m () [33m=>[39m {
-  [31m[1m>[22m[39m[90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 18 |[39m
-   [90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m19:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 18 |[39m
-  [31m[1m>[22m[39m[90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 21 |[39m   }[33m;[39m
-   [90m 22 |[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 194 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.7f5e9834d2b58185.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -896,26 +743,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
     at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10568:23)
 
 webpack compiled with [1m[31m1 error[39m[22m (f7cc6618f2e1578c)
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m17:43[22m[39m
-[90mTS2304: [39mCannot find name 'useState'.
-  [0m [90m 15 |[39m
-   [90m 16 |[39m [36mconst[39m [33mDiet[39m [33m=[39m () [33m=>[39m {
-  [31m[1m>[22m[39m[90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 18 |[39m
-   [90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m19:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 18 |[39m
-  [31m[1m>[22m[39m[90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 21 |[39m   }[33m;[39m
-   [90m 22 |[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 336 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.7f5e9834d2b58185.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -993,36 +820,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
 
 webpack compiled with [1m[31m1 error[39m[22m (f7cc6618f2e1578c)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m17:9[22m[39m
-[90mTS2488: [39mType 'boolean' must have a '[Symbol.iterator]()' method that returns an iterator.
-  [0m [90m 15 |[39m
-   [90m 16 |[39m [36mconst[39m [33mDiet[39m [33m=[39m () [33m=>[39m {
-  [31m[1m>[22m[39m[90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState[33m>[39m([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 18 |[39m
-   [90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m17:43[22m[39m
-[90mTS2304: [39mCannot find name 'useState'.
-  [0m [90m 15 |[39m
-   [90m 16 |[39m [36mconst[39m [33mDiet[39m [33m=[39m () [33m=>[39m {
-  [31m[1m>[22m[39m[90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState[33m>[39m([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 18 |[39m
-   [90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m19:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState[33m>[39m([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 18 |[39m
-  [31m[1m>[22m[39m[90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 21 |[39m   }[33m;[39m
-   [90m 22 |[39m[0m
-
 Found [31m[1m3 errors[22m[39m in 806 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.7f5e9834d2b58185.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -1100,26 +897,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
 
 webpack compiled with [1m[31m1 error[39m[22m (f7cc6618f2e1578c)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m17:43[22m[39m
-[90mTS2304: [39mCannot find name 'useState'.
-  [0m [90m 15 |[39m
-   [90m 16 |[39m [36mconst[39m [33mDiet[39m [33m=[39m () [33m=>[39m {
-  [31m[1m>[22m[39m[90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 18 |[39m
-   [90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m19:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 18 |[39m
-  [31m[1m>[22m[39m[90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 21 |[39m   }[33m;[39m
-   [90m 22 |[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 740 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.7f5e9834d2b58185.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -1196,26 +973,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
     at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10568:23)
 
 webpack compiled with [1m[31m1 error[39m[22m (f7cc6618f2e1578c)
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m17:43[22m[39m
-[90mTS2304: [39mCannot find name 'useState'.
-  [0m [90m 15 |[39m
-   [90m 16 |[39m [36mconst[39m [33mDiet[39m [33m=[39m () [33m=>[39m {
-  [31m[1m>[22m[39m[90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 18 |[39m
-   [90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m19:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 18 |[39m
-  [31m[1m>[22m[39m[90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 21 |[39m   }[33m;[39m
-   [90m 22 |[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 350 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.7f5e9834d2b58185.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -1293,26 +1050,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
 
 webpack compiled with [1m[31m1 error[39m[22m (64969b56644b4ec8)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m17:43[22m[39m
-[90mTS2304: [39mCannot find name 'useState'.
-  [0m [90m 15 |[39m
-   [90m 16 |[39m [36mconst[39m [33mDiet[39m [33m=[39m () [33m=>[39m {
-  [31m[1m>[22m[39m[90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 18 |[39m
-   [90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m19:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 18 |[39m
-  [31m[1m>[22m[39m[90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 21 |[39m   }[33m;[39m
-   [90m 22 |[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 1368 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.7f5e9834d2b58185.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -1390,26 +1127,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
 
 webpack compiled with [1m[31m1 error[39m[22m (64969b56644b4ec8)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m17:43[22m[39m
-[90mTS2304: [39mCannot find name 'useState'.
-  [0m [90m 15 |[39m
-   [90m 16 |[39m [36mconst[39m [33mDiet[39m [33m=[39m () [33m=>[39m {
-  [31m[1m>[22m[39m[90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 18 |[39m
-   [90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m19:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 17 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 18 |[39m
-  [31m[1m>[22m[39m[90m 19 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 20 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 21 |[39m   }[33m;[39m
-   [90m 22 |[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 746 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.7f5e9834d2b58185.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -1487,16 +1204,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
 
 webpack compiled with [1m[31m1 error[39m[22m (421672c69d767f94)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m20:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 18 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 19 |[39m
-  [31m[1m>[22m[39m[90m 20 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 21 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 22 |[39m   }[33m;[39m
-   [90m 23 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 720 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.7f5e9834d2b58185.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -1833,16 +1540,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (23fdc361f8e95ed2)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m20:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 18 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 19 |[39m
-  [31m[1m>[22m[39m[90m 20 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 21 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 22 |[39m   }[33m;[39m
-   [90m 23 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 1102 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.23fdc361f8e95ed2.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -1920,16 +1617,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
 
 webpack compiled with [1m[31m1 error[39m[22m (3d8ebd31b135bbe6)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m20:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 18 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 19 |[39m
-  [31m[1m>[22m[39m[90m 20 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 21 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 22 |[39m   }[33m;[39m
-   [90m 23 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 1042 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.23fdc361f8e95ed2.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -2007,16 +1694,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
 
 webpack compiled with [1m[31m1 error[39m[22m (3d8ebd31b135bbe6)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m20:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 18 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 19 |[39m
-  [31m[1m>[22m[39m[90m 20 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 21 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 22 |[39m   }[33m;[39m
-   [90m 23 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 828 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.23fdc361f8e95ed2.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -2093,16 +1770,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
     at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10568:23)
 
 webpack compiled with [1m[31m1 error[39m[22m (3d8ebd31b135bbe6)
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m20:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 18 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 19 |[39m
-  [31m[1m>[22m[39m[90m 20 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 21 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 22 |[39m   }[33m;[39m
-   [90m 23 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 174 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.23fdc361f8e95ed2.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -2180,16 +1847,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
 
 webpack compiled with [1m[31m1 error[39m[22m (9b63f6c068fdf623)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m20:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 18 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 19 |[39m
-  [31m[1m>[22m[39m[90m 20 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 21 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 22 |[39m   }[33m;[39m
-   [90m 23 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 882 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.23fdc361f8e95ed2.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -2267,16 +1924,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
 
 webpack compiled with [1m[31m1 error[39m[22m (e77f0c2ed425f0a2)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m20:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 18 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 19 |[39m
-  [31m[1m>[22m[39m[90m 20 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 21 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 22 |[39m   }[33m;[39m
-   [90m 23 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 674 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.23fdc361f8e95ed2.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -2354,16 +2001,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: A
 
 webpack compiled with [1m[31m1 error[39m[22m (cc393158039a1f71)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m20:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 18 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 19 |[39m
-  [31m[1m>[22m[39m[90m 20 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 21 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 22 |[39m   }[33m;[39m
-   [90m 23 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 1012 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.43 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.23fdc361f8e95ed2.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
@@ -2378,16 +2015,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (abce7b1abbab99ba)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m20:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 18 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 19 |[39m
-  [31m[1m>[22m[39m[90m 20 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 21 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 22 |[39m   }[33m;[39m
-   [90m 23 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 954 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.43 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.abce7b1abbab99ba.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
@@ -2402,16 +2029,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (acc192be904dd807)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m20:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 18 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 19 |[39m
-  [31m[1m>[22m[39m[90m 20 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 21 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 22 |[39m   }[33m;[39m
-   [90m 23 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 795 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.acc192be904dd807.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -2488,42 +2105,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: B
     at /Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10335:39
 
 webpack compiled with [1m[31m1 error[39m[22m (f1938df764d880fd)
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m74:11[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: (RouteProps<"/home/teams/:teamId/player/:playerId/diet", { teamId: string; } & { playerId: string; }> & OmitNative<{}, keyof RouteProps<string, { [x: string]: string | undefined; }>>) | Readonly<...>): Route<...>', gave the following error.
-    Type '() => void' is not assignable to type 'ComponentType<any> | ComponentType<RouteComponentProps<any, StaticContext, unknown>> | undefined'.
-      Type '() => void' is not assignable to type 'FunctionComponent<any>'.
-        Type 'void' is not assignable to type 'ReactNode'.
-  Overload 2 of 2, '(props: RouteProps<"/home/teams/:teamId/player/:playerId/diet", { teamId: string; } & { playerId: string; }> & OmitNative<{}, keyof RouteProps<string, { [x: string]: string | undefined; }>>, context: any): Route<...>', gave the following error.
-    Type '() => void' is not assignable to type 'ComponentType<any> | ComponentType<RouteComponentProps<any, StaticContext, unknown>> | undefined'.
-  [0m [90m 72 |[39m         [33m<[39m[33mRoute[39m
-   [90m 73 |[39m           path[33m=[39m[32m"/home/teams/:teamId/player/:playerId/diet"[39m
-  [31m[1m>[22m[39m[90m 74 |[39m           component[33m=[39m{[33mDiet[39m}
-   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 75 |[39m         [33m/[39m[33m>[39m
-   [90m 76 |[39m         [33m<[39m[33mRoute[39m
-   [90m 77 |[39m           path[33m=[39m[32m"/home/teams/:teamId/player/:playerId/update-player"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m21:5[22m[39m
-[90mTS2304: [39mCannot find name 'setSelectedDiet'.
-  [0m [90m 19 |[39m
-   [90m 20 |[39m   [36mconst[39m handleDietChange [33m=[39m ([32m"PERDER_GRASA"[39m) [33m=>[39m {
-  [31m[1m>[22m[39m[90m 21 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 22 |[39m   }[33m;[39m
-   [90m 23 |[39m
-   [90m 24 |[39m   [36mreturn[39m ([0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m21:21[22m[39m
-[90mTS2552: [39mCannot find name 'diet'. Did you mean 'Diet'?
-  [0m [90m 19 |[39m
-   [90m 20 |[39m   [36mconst[39m handleDietChange [33m=[39m ([32m"PERDER_GRASA"[39m) [33m=>[39m {
-  [31m[1m>[22m[39m[90m 21 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 22 |[39m   }[33m;[39m
-   [90m 23 |[39m
-   [90m 24 |[39m   [36mreturn[39m ([0m
-
 Found [31m[1m3 errors[22m[39m in 411 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.41 MiB (6.94 MiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mvendor.css[39m[22m 21.5 KiB [1m[32mvendor.js[39m[22m 4.98 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 359 KiB 8 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 3 auxiliary assets
@@ -2538,16 +2119,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (acc192be904dd807)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m20:29[22m[39m
-[90mTS7006: [39mParameter 'diet' implicitly has an 'any' type.
-  [0m [90m 18 |[39m   [36mconst[39m [selectedDiet[33m,[39m setSelectedDiet] [33m=[39m useState([32m"PERDER_GRASA"[39m)[33m;[39m
-   [90m 19 |[39m
-  [31m[1m>[22m[39m[90m 20 |[39m   [36mconst[39m handleDietChange [33m=[39m (diet) [33m=>[39m {
-   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 21 |[39m     setSelectedDiet(diet)[33m;[39m
-   [90m 22 |[39m   }[33m;[39m
-   [90m 23 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 838 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.43 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.acc192be904dd807.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
@@ -2619,3 +2190,215 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_cli
 webpack compiled [1m[32msuccessfully[39m[22m (e2ef595c75b7447b)
 [36mType-checking in progress...[39m
 [32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.41 MiB (6.94 MiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mvendor.css[39m[22m 21.5 KiB [1m[32mvendor.js[39m[22m 4.98 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 359 KiB 8 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 242 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e2ef595c75b7447b)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.41 MiB (6.94 MiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mvendor.css[39m[22m 21.5 KiB [1m[32mvendor.js[39m[22m 4.98 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 359 KiB 8 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 242 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e2ef595c75b7447b)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.42 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.e2ef595c75b7447b.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.e2ef595c75b7447b.hot-update.js[39m[22m (main) 242 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.e2ef595c75b7447b.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d1abe4d65350f328)
+[36mType-checking in progress...[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.42 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.d1abe4d65350f328.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.d1abe4d65350f328.hot-update.js[39m[22m (main) 242 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.d1abe4d65350f328.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6d02fb01403ba48a)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 881 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.42 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.6d02fb01403ba48a.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.6d02fb01403ba48a.hot-update.js[39m[22m (main) 242 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.6d02fb01403ba48a.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f4b00c934eb4296a)
+Found [31m[1m1 error[22m[39m in 428 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.42 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.f4b00c934eb4296a.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.f4b00c934eb4296a.hot-update.js[39m[22m (main) 242 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.f4b00c934eb4296a.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d5ec60541a698e08)
+Found [31m[1m1 error[22m[39m in 383 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.42 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.d5ec60541a698e08.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.d5ec60541a698e08.hot-update.js[39m[22m (main) 242 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.d5ec60541a698e08.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (54151e9cb594baf9)
+Found [31m[1m1 error[22m[39m in 512 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.42 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.54151e9cb594baf9.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.54151e9cb594baf9.hot-update.js[39m[22m (main) 242 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.54151e9cb594baf9.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (864ef24acd22003d)
+Found [31m[1m6 errors[22m[39m in 910 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.42 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.864ef24acd22003d.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.864ef24acd22003d.hot-update.js[39m[22m (main) 242 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.864ef24acd22003d.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (72933ded9801e118)
+Found [31m[1m6 errors[22m[39m in 625 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.42 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.72933ded9801e118.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.72933ded9801e118.hot-update.js[39m[22m (main) 242 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.72933ded9801e118.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f54831e1e573667f)
+Found [31m[1m6 errors[22m[39m in 433 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.42 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.f54831e1e573667f.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.f54831e1e573667f.hot-update.js[39m[22m (main) 242 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.f54831e1e573667f.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b95395086a741b92)
+Found [31m[1m6 errors[22m[39m in 440 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.41 MiB (6.94 MiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mvendor.css[39m[22m 21.5 KiB [1m[32mvendor.js[39m[22m 4.98 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 360 KiB 8 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 242 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b95395086a741b92)
+Found [31m[1m6 errors[22m[39m in 383 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.41 MiB (6.94 MiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mvendor.css[39m[22m 21.5 KiB [1m[32mvendor.js[39m[22m 4.98 MiB [1m[32mmain.css[39m[22m 6.96 KiB [1m[32mmain.js[39m[22m 360 KiB 8 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 242 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b95395086a741b92)
+Found [31m[1m6 errors[22m[39m in 271 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.42 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.b95395086a741b92.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.b95395086a741b92.hot-update.js[39m[22m (main) 242 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.b95395086a741b92.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (beac1ae1c92dfcfb)
+Found [31m[1m1 error[22m[39m in 331 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.42 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.beac1ae1c92dfcfb.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.beac1ae1c92dfcfb.hot-update.js[39m[22m (main) 242 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.beac1ae1c92dfcfb.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (33d23efd2ebad36d)
+Found [31m[1m6 errors[22m[39m in 523 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.42 MiB (6.95 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.33d23efd2ebad36d.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.33d23efd2ebad36d.hot-update.js[39m[22m (main) 242 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.33d23efd2ebad36d.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c00ccd4347a589d2)
+[36mType-checking in progress...[39m
+Found [31m[1m2 errors[22m[39m in 2296 ms.

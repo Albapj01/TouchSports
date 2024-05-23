@@ -71,7 +71,12 @@ const createPlayer = async (
   playerId: string,
   name: string,
   surname: string,
-  email: string
+  email: string,
+  imageUrl: string,
+  diet: string,
+  technicalTraining: string,
+  physicalTraining: string,
+  improvements: string
 ) => {
   const request = await axios.post(
     `${myApi}/trainer/${trainerId}/team/${teamId}/player`,
@@ -82,6 +87,11 @@ const createPlayer = async (
       name,
       surname,
       email,
+      imageUrl,
+      diet,
+      technicalTraining,
+      physicalTraining,
+      improvements,
     }
   );
 };
@@ -249,7 +259,12 @@ const updatePlayer = async (
   playerId: string,
   name: string,
   surname: string,
-  email: string
+  email: string,
+  imageUrl: string,
+  diet: string,
+  technicalTraining: string,
+  physicalTraining: string,
+  improvements: string
 ) => {
   const response = await axios.put(
     `${myApi}/trainer/${trainerId}/team/${teamId}/player/${playerId}`,
@@ -260,6 +275,11 @@ const updatePlayer = async (
       name,
       surname,
       email,
+      imageUrl,
+      diet,
+      technicalTraining,
+      physicalTraining,
+      improvements,
     }
   );
   return response.data;
@@ -314,15 +334,12 @@ const updateTrainer = async (
   surname: string,
   email: string
 ) => {
-  const response = await axios.put(
-    `${myApi}/trainer/${trainerId}`,
-    {
-      trainerId,
-      name,
-      surname,
-      email,
-    }
-  );
+  const response = await axios.put(`${myApi}/trainer/${trainerId}`, {
+    trainerId,
+    name,
+    surname,
+    email,
+  });
   return response.data;
 };
 

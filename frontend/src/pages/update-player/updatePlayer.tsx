@@ -33,6 +33,11 @@ const UpdatePlayer = () => {
   const [surname, setSurname] = useState("");
   const [telephoneNumber, setTelephoneNumber] = useState("");
   const [email, setEmail] = useState("");
+  const [imageUrl, setImageUrl] = useState("");
+  const [diet, setDiet] = useState("");
+  const [technicalTraining, setTechnicalTraining] = useState("");
+  const [physicalTraining, setPhysicalTraining] = useState("");
+  const [improvements, setImprovements] = useState("");
   const [showMultiSelect, setShowMultiSelect] = useState(false);
   const history = useHistory();
 
@@ -56,7 +61,19 @@ const UpdatePlayer = () => {
   }, [payload.sub, teamId, playerId]);
 
   const handleUpdatePlayer = async () => {
-    await api.updatePlayer(payload.sub, teamId, playerId, name, surname, email);
+    await api.updatePlayer(
+      payload.sub,
+      teamId,
+      playerId,
+      name,
+      surname,
+      email,
+      imageUrl,
+      diet,
+      technicalTraining,
+      physicalTraining,
+      improvements
+    );
   };
 
   return (
