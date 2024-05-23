@@ -42,10 +42,17 @@ const Team = () => {
   const { payload } = decodeJwt(storage.get("token"));
 
   useEffect(() => {
-    api
-      .getAllPlayers(payload.sub, teamId)
-      .then((result) => setPlayers(result.players));
-  }, []);
+    const fetchPlayers = async () => {
+        try {
+            const result = await api.getAllPlayers(payload.sub, teamId);
+            setPlayers(result.players);
+        } catch (error) {
+            console.error("Error al obtener jugadores:", error);
+        }
+    };
+    fetchPlayers();
+}, []);
+
 
   const handleDeleteButtonClick = () => {
     setShowAlert(true);

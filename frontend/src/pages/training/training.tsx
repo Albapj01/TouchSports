@@ -31,9 +31,15 @@ const Training = () => {
   const physicalTrainingItems = player?.physicalTraining.split(",") || [];
 
   useEffect(() => {
-    api
-      .getPlayerById(payload.sub, teamId, playerId)
-      .then((result) => setPlayer(result.player));
+    const fetchPlayerData = async () => {
+      try {
+        const result = await api.getPlayerById(payload.sub, teamId, playerId);
+        setPlayer(result.player);
+      } catch (error) {
+        console.error("Error al obtener el jugador:", error);
+      }
+    };
+    fetchPlayerData();
   }, []);
 
   return (
@@ -57,8 +63,8 @@ const Training = () => {
                 <div key={index}>- {item.trim()}</div>
               ))}{" "}
               <Space></Space>
-              Para mejorar el físico y la resistencia, durante los entrenos o en sus ratos
-              libres, se debe de enfocar en la realización de:              
+              Para mejorar el físico y la resistencia, durante los entrenos o en
+              sus ratos libres, se debe de enfocar en la realización de:
               {physicalTrainingItems.map((item, index) => (
                 <div key={index}>- {item.trim()}</div>
               ))}{" "}

@@ -43,9 +43,15 @@ const PlayerInfo = () => {
   const { payload } = decodeJwt(storage.get("token"));
 
   useEffect(() => {
-    api
-      .getPlayerById(payload.sub, teamId, playerId)
-      .then((result) => setPlayer(result.player));
+    const fetchPlayer = async () => {
+      try {
+        const result = await api.getPlayerById(payload.sub, teamId, playerId);
+        setPlayer(result.player);
+      } catch (error) {
+        console.error("Error al obtener el jugador:", error);
+      }
+    };
+    fetchPlayer();
   }, []);
 
   const handleDeleteButtonClick = () => {

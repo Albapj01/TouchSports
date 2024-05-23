@@ -52,7 +52,14 @@ const ReserveInfo = () => {
   const { payload } = decodeJwt(storage.get("token"));
 
   useEffect(() => {
-    api.getAllTeams(payload.sub).then((result) => setTeams(result.teams));
+    const fetchTeams = async () => {
+      try {
+        api.getAllTeams(payload.sub).then((result) => setTeams(result.teams));
+      } catch (error) {
+        console.error("Error al obtener equipos:", error);
+      }
+    };
+    fetchTeams();
   }, []);
 
   const handleAddReserve = async () => {

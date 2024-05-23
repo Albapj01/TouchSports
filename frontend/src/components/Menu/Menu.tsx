@@ -34,7 +34,15 @@ const Menu = () => {
   const { payload } = decodeJwt(storage.get("token"));
 
   useEffect(() => {
-    api.getAllTeams(payload.sub).then((result) => setTeams(result.teams));
+    const fetchTeams = async () => {
+      try {
+        const result = await api.getAllTeams(payload.sub);
+        setTeams(result.teams);
+      } catch (error) {
+        console.error("Error al obtener equipos:", error);
+      }
+    };
+    fetchTeams();
   }, []);
 
   return (

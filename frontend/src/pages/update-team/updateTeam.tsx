@@ -32,10 +32,16 @@ const UpdateTeam = () => {
 
   useEffect(() => {
     const fetchTeamData = async () => {
-      const existingTeam = await api.getTeamById(payload.sub, teamId);
-      if (existingTeam && existingTeam.team) {
-        setName(existingTeam.team.name || "");
+      try {
+        const response = await api.getTeamById(payload.sub, teamId);
+        const existingTeam = response.json();
+        if (existingTeam && existingTeam.team) {
+          setName(existingTeam.team.name || "");
+        }
+      } catch(error) {
+        console.error("Error al obtener datos del equipo:", error);
       }
+      
     };
 
     fetchTeamData();

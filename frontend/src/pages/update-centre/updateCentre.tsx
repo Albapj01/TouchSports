@@ -33,10 +33,14 @@ const UpdateCentre = () => {
 
   useEffect(() => {
     const fetchCentreData = async () => {
-      const existingCentre = await api.getCentresById(payload.sub, centresId);
-      if (existingCentre && existingCentre.centres) {
-        setName(existingCentre.centres.name || "");
-        setLocation(existingCentre.centres.location || "");
+      try {
+        const existingCentre = await api.getCentresById(payload.sub, centresId);
+        if (existingCentre && existingCentre.centres) {
+          setName(existingCentre.centres.name || "");
+          setLocation(existingCentre.centres.location || "");
+        }
+      } catch (error) {
+        console.error("Error al obtener el centro:", error);
       }
     };
 

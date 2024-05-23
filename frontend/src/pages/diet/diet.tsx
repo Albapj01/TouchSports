@@ -1,4 +1,10 @@
-import { IonContent, IonFooter, IonHeader, IonPage, IonText } from "@ionic/react";
+import {
+  IonContent,
+  IonFooter,
+  IonHeader,
+  IonPage,
+  IonText,
+} from "@ionic/react";
 import Menu from "frontend/src/components/menu/menu";
 import Tabs from "frontend/src/components/tabs/tabs";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
@@ -23,20 +29,24 @@ const Diet = () => {
 
   useEffect(() => {
     const fetchPlayerData = async () => {
-      const existingPlayer = await api.getPlayerById(
-        payload.sub,
-        teamId,
-        playerId
-      );
-      if (existingPlayer && existingPlayer.player) {
-        const playerDiet = existingPlayer.player.diet;
-        if (playerDiet === "Dieta para perder grasa") {
-          setSelectedDiet("Dieta para perder grasa");
-        } else if (playerDiet === "Dieta para aumentar la masa muscular") {
-          setSelectedDiet("Dieta para aumentar la masa muscular");
-        } else {
-          setSelectedDiet("Ninguna");
+      try {
+        const existingPlayer = await api.getPlayerById(
+          payload.sub,
+          teamId,
+          playerId
+        );
+        if (existingPlayer && existingPlayer.player) {
+          const playerDiet = existingPlayer.player.diet;
+          if (playerDiet === "Dieta para perder grasa") {
+            setSelectedDiet("Dieta para perder grasa");
+          } else if (playerDiet === "Dieta para aumentar la masa muscular") {
+            setSelectedDiet("Dieta para aumentar la masa muscular");
+          } else {
+            setSelectedDiet("Ninguna");
+          }
         }
+      } catch (error) {
+        console.error("Error al obtener los datos del jugador:", error);
       }
     };
     fetchPlayerData();

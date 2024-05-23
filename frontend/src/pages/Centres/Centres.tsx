@@ -25,7 +25,15 @@ const CentresInfo = () => {
   const { payload } = decodeJwt(storage.get("token"));
 
   useEffect(() => {
-    api.getAllCentres(payload.sub).then((result) => setCentres(result.centres));
+    const fetchCentres = async () => {
+      try {
+        const result = await api.getAllCentres(payload.sub);
+        setCentres(result.centres);
+      } catch (error) {
+        console.error("Error al obtener los centros:", error);
+      }
+    };
+    fetchCentres();
   }, []);
 
   return (

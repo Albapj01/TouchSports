@@ -57,22 +57,30 @@ const UpdatePlayer = () => {
 
   useEffect(() => {
     const fetchPlayerData = async () => {
-      const existingPlayer = await api.getPlayerById(
-        payload.sub,
-        teamId,
-        playerId
-      );
-      if (existingPlayer && existingPlayer.player) {
-        setName(existingPlayer.player.name || "");
-        setSurname(existingPlayer.player.surname || "");
-        setEmail(existingPlayer.player.email || "");
-        setDiet(existingPlayer.player.diet || "");
-        setTechnicalTraining(existingPlayer.player.technicalTraining || "");
-        setPhysicalTraining(existingPlayer.player.physicalTraining || "");
-        setImprovements(existingPlayer.player.improvements || "");
+      try {
+        const existingPlayer = await api.getPlayerById(
+          payload.sub,
+          teamId,
+          playerId
+        );
+        if (existingPlayer && existingPlayer.player) {
+          setName(existingPlayer.player.name || "");
+          setSurname(existingPlayer.player.surname || "");
+          setEmail(existingPlayer.player.email || "");
+          setDiet(existingPlayer.player.diet || "");
+          setTechnicalTraining(existingPlayer.player.technicalTraining || "");
+          setPhysicalTraining(existingPlayer.player.physicalTraining || "");
+          setImprovements(existingPlayer.player.improvements || "");
 
-        setSelectedTechnicalTraining(existingPlayer.player.technicalTraining.split(", "));
-        setSelectedPhysicalTraining(existingPlayer.player.physicalTraining.split(", "));
+          setSelectedTechnicalTraining(
+            existingPlayer.player.technicalTraining.split(", ")
+          );
+          setSelectedPhysicalTraining(
+            existingPlayer.player.physicalTraining.split(", ")
+          );
+        }
+      } catch (error) {
+        console.error("Error al obtener el jugador:", error);
       }
     };
 

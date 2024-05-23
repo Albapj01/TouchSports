@@ -37,11 +37,16 @@ const UpdateTrainer = () => {
 
   useEffect(() => {
     const fetchTrainerData = async () => {
-      const existingTrainer = await api.getTrainerById(trainerId);
-      if (existingTrainer && existingTrainer.trainer) {
-        setName(existingTrainer.trainer.name || "");
-        setSurname(existingTrainer.trainer.surname || "");
-        setEmail(existingTrainer.trainer.email || "");
+      try {
+        const response = await api.getTrainerById(trainerId);
+        const existingTrainer = response.json();
+        if (existingTrainer && existingTrainer.trainer) {
+          setName(existingTrainer.trainer.name || "");
+          setSurname(existingTrainer.trainer.surname || "");
+          setEmail(existingTrainer.trainer.email || "");
+        }
+      } catch (error) {
+        console.error("Error al obtener datos del entrenador:", error);
       }
     };
     fetchTrainerData();
@@ -117,10 +122,7 @@ const UpdateTrainer = () => {
                 {
                   text: "Cancelar",
                   role: "cancel",
-                  handler: () =>
-                    history.push(
-                      `/home/profile`
-                    ),
+                  handler: () => history.push(`/home/profile`),
                 },
               ]}
             ></IonActionSheet>

@@ -45,10 +45,14 @@ const Reserves = () => {
 
   useEffect(() => {
     const fetchCentresAndTeams = async () => {
-      const obtainedCentres = await api.getAllCentres(payload.sub);
-      const obtainedTeams = await api.getAllTeams(payload.sub);
-      setCentres(obtainedCentres.centres);
-      setTeams(obtainedTeams.teams);
+      try {
+        const obtainedCentres = await api.getAllCentres(payload.sub);
+        const obtainedTeams = await api.getAllTeams(payload.sub);
+        setCentres(obtainedCentres.centres);
+        setTeams(obtainedTeams.teams);
+      } catch (error) {
+        console.error("Error al obtener centros y equipos:", error);
+      }
     };
     fetchCentresAndTeams();
   }, [reserves]);

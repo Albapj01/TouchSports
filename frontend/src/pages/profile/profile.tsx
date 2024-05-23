@@ -37,9 +37,15 @@ const Profile = () => {
   const picture = payload.picture;
 
   useEffect(() => {
-    api
-      .getTrainerById(payload.sub)
-      .then((result) => setTrainer(result.trainer));
+    const fetchTrainer = async () => {
+      try {
+        const result = await api.getTrainerById(payload.sub);
+        setTrainer(result.trainer);
+      } catch (error) {
+        console.error("Error al obtener el entrenador:", error);
+      }
+    };
+    fetchTrainer();
   }, []);
 
   const handleDeleteButtonClick = () => {

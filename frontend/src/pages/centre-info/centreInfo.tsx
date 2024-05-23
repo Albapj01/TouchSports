@@ -45,9 +45,15 @@ const CentreInfo = () => {
   const { payload } = decodeJwt(storage.get("token"));
 
   useEffect(() => {
-    api
-      .getCentresById(payload.sub, centresId)
-      .then((result) => setCentres(result.centres));
+    const fetchCentresById = async () => {
+      try {
+        const result = await api.getCentresById(payload.sub, centresId);
+        setCentres(result.centres);
+      } catch (error) {
+        console.error("Error al obtener el centro por ID:", error);
+      }
+    };
+    fetchCentresById();
   }, []);
 
   const handleDeleteButtonClick = () => {

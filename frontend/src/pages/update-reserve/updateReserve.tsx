@@ -52,28 +52,39 @@ const UpdateReserve = () => {
   const { payload } = decodeJwt(storage.get("token"));
 
   useEffect(() => {
-    api.getAllTeams(payload.sub).then((result) => setTeams(result.teams));
+    const fetchTeams = async () => {
+      try {
+        const result = await api.getAllTeams(payload.sub);
+        setTeams(result.teams);
+      } catch (error) {
+        console.error("Error al obtener equipos:", error);
+      }
+    };
+    fetchTeams();
   }, []);
 
   useEffect(() => {
     const fetchReserveData = async () => {
-      const existingReserve = await api.getReserveById(
-        payload.sub,
-        centresId,
-        reserveId
-      );
-      if (existingReserve && existingReserve.reserve) {
-        setName(existingReserve.reserve.name || "");
-        setSurname(existingReserve.reserve.surname || "");
-        setEmail(existingReserve.reserve.email || "");
-        setTelephoneNumber(existingReserve.reserve.telephone || "");
-        setTeamId(existingReserve.reserve.teamId || "");
-        setMaterial(existingReserve.reserve.material || "");
-        setStartReserve(existingReserve.reserve.startReserve || "");
-        setEndReserve(existingReserve.reserve.endReserve || "");
+      try {
+        const existingReserve = await api.getReserveById(
+          payload.sub,
+          centresId,
+          reserveId
+        );
+        if (existingReserve && existingReserve.reserve) {
+          setName(existingReserve.reserve.name || "");
+          setSurname(existingReserve.reserve.surname || "");
+          setEmail(existingReserve.reserve.email || "");
+          setTelephoneNumber(existingReserve.reserve.telephone || "");
+          setTeamId(existingReserve.reserve.teamId || "");
+          setMaterial(existingReserve.reserve.material || "");
+          setStartReserve(existingReserve.reserve.startReserve || "");
+          setEndReserve(existingReserve.reserve.endReserve || "");
+        }
+      } catch (error) {
+        console.error("Error al obtener reserva:", error);
       }
     };
-
     fetchReserveData();
   }, [payload.sub, centresId, reserveId]);
 

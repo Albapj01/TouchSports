@@ -23,9 +23,13 @@ const Calendar = () => {
 
   useEffect(() => {
     const fetchReserves = async () => {
-      const { payload } = decodeJwt(storage.get("token"));
-      const obtainedReserves = await api.getTrainerReserves(payload.sub);
-      setReserves(obtainedReserves.reserves);
+      try {
+        const { payload } = decodeJwt(storage.get("token"));
+        const obtainedReserves = await api.getTrainerReserves(payload.sub);
+        setReserves(obtainedReserves.reserves);
+      } catch (error) {
+        console.error("Error al obtener las reservas:", error);
+      }
     };
     fetchReserves();
   }, []);
@@ -44,17 +48,23 @@ const Calendar = () => {
   };
 
   const handleDateChange = (event: CustomEvent) => {
-    const selectedDate = format(new Date(event.detail.value), 'yyyy-MM-dd');
-    const selectedReserve = reserves.find(reserve => {
-      const reserveStartDate = format(new Date(reserve.startReserve), 'yyyy-MM-dd');
-      const reserveEndDate = format(new Date(reserve.endReserve), 'yyyy-MM-dd');
-      return selectedDate >= reserveStartDate && selectedDate <= reserveEndDate || selectedDate === reserveStartDate || selectedDate === reserveEndDate;
+    const selectedDate = format(new Date(event.detail.value), "yyyy-MM-dd");
+    const selectedReserve = reserves.find((reserve) => {
+      const reserveStartDate = format(
+        new Date(reserve.startReserve),
+        "yyyy-MM-dd"
+      );
+      const reserveEndDate = format(new Date(reserve.endReserve), "yyyy-MM-dd");
+      return (
+        (selectedDate >= reserveStartDate && selectedDate <= reserveEndDate) ||
+        selectedDate === reserveStartDate ||
+        selectedDate === reserveEndDate
+      );
     });
     if (selectedReserve) {
       history.push(`/home/reserves`);
-    } 
+    }
   };
-  
 
   return (
     <>
@@ -75,8 +85,8 @@ const Calendar = () => {
               highlightedDates={(dateWithReserve) => {
                 if (hasReservation(dateWithReserve)) {
                   return {
-                    textColor: "#ffffff", 
-                    backgroundColor: "#1f7189", 
+                    textColor: "#ffffff",
+                    backgroundColor: "#1f7189",
                   };
                 }
                 return undefined;
