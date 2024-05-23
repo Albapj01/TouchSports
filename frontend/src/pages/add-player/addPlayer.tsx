@@ -38,7 +38,6 @@ const AddPlayer = () => {
   const [email, setEmail] = useState("");
   const [imageUrl, setImageUrl] = useState("");
   const [diet, setDiet] = useState("");
-  const [selectedDiet, setSelectedDiet] = useState("");
   const [technicalTraining, setTechnicalTraining] = useState("");
   const [physicalTraining, setPhysicalTraining] = useState("");
   const [improvements, setImprovements] = useState("");
