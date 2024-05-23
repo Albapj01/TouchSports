@@ -139,6 +139,11 @@ const PlayerInfo = () => {
                 <IonLabel>{player ? player.email : ""}</IonLabel>
               </MarginList>
             </IonItem>
+            <Space />
+            <TextContainer>Mejoras</TextContainer>
+            <ImprovementsContainer>
+              {player ? player.improvements : ""}
+            </ImprovementsContainer>
           </IonList>{" "}
           <Space />
           <Card
@@ -148,7 +153,7 @@ const PlayerInfo = () => {
             description=""
           />
           <Card
-            route={`/home/teams/${teamId}/player/${playerId}`}
+            route={`/home/teams/${teamId}/player/${playerId}/training`}
             title="Entrenamientos personalizados"
             imageUrl="https://cope-cdnmed.cope.es/resources/jpg/1/3/1686821467631.jpg"
             description="Estiramientos y ejercicios adicionales para mejorar el rendimiento y fortalecer lesiones"
@@ -192,6 +197,18 @@ const FabContainer = styled.div`
 const TransparentFabButton = styled(IonFabButton)`
   --background: transparent;
   --box-shadow: none;
+`;
+
+const ImprovementsContainer = styled.div`
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 10px;
+`;
+
+const TextContainer = styled.div`
+  font-size: 17px;
+  margin-left: 1%;
 `;
 
 export default PlayerInfo;

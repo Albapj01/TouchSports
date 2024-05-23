@@ -17,7 +17,7 @@ const Diet = () => {
   const { teamId } = useParams<RouteParams>();
   const { playerId } = useParams<RouteParams>();
 
-  const [selectedDiet, setSelectedDiet] = useState("PERDER_GRASA");
+  const [selectedDiet, setSelectedDiet] = useState("");
 
   const { payload } = decodeJwt(storage.get("token"));
 

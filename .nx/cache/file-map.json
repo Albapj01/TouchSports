@@ -96,24 +96,40 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "README.md",
-        "hash": "10104707244890837311"
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
       },
       {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
+        "file": "package.json",
+        "hash": "1457800509390039032"
       },
       {
         "file": "package-lock.json",
         "hash": "2052500721662776235"
       },
       {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
-      },
-      {
         "file": "nx.json",
         "hash": "4595224623132836319"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "README.md",
+        "hash": "10104707244890837311"
       },
       {
         "file": "jest.preset.js",
@@ -122,22 +138,6 @@
       {
         "file": "tsconfig.base.json",
         "hash": "16936441711144470533"
-      },
-      {
-        "file": "package.json",
-        "hash": "1457800509390039032"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
       }
     ],
     "projectFileMap": {
@@ -285,7 +285,7 @@
         },
         {
           "file": "frontend/src/App.tsx",
-          "hash": "6388786714475940797",
+          "hash": "74726289241702335",
           "deps": [
             "npm:react-router-dom",
             "npm:@ionic/react",
@@ -519,7 +519,7 @@
         },
         {
           "file": "frontend/src/pages/diet/diet.tsx",
-          "hash": "11645431046563745203",
+          "hash": "14620499359755113700",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -537,7 +537,7 @@
         },
         {
           "file": "frontend/src/pages/player/player.tsx",
-          "hash": "8615495190208860412",
+          "hash": "118751228751345798",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -737,6 +737,16 @@
           "deps": [
             "npm:@nx/webpack",
             "npm:@nx/react"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/training/training.tsx",
+          "hash": "2525620594249670503",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:styled-components"
           ]
         }
       ],
