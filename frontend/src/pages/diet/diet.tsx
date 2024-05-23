@@ -1,21 +1,46 @@
-import {
-  IonContent,
-  IonFooter,
-  IonHeader,
-  IonItem,
-  IonList,
-  IonPage,
-} from "@ionic/react";
-import Button from "frontend/src/components/button/button";
+import { IonContent, IonFooter, IonHeader, IonPage, IonText } from "@ionic/react";
 import Menu from "frontend/src/components/menu/menu";
 import Tabs from "frontend/src/components/tabs/tabs";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
+import api from "frontend/src/utils/api/api";
+import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import styled from "styled-components";
-import { addCircleOutline } from "ionicons/icons";
-import { useState } from "react";
+
+interface RouteParams {
+  teamId: string;
+  playerId: string;
+}
 
 const Diet = () => {
+  const { teamId } = useParams<RouteParams>();
+  const { playerId } = useParams<RouteParams>();
+
   const [selectedDiet, setSelectedDiet] = useState("PERDER_GRASA");
+
+  const { payload } = decodeJwt(storage.get("token"));
+
+  useEffect(() => {
+    const fetchPlayerData = async () => {
+      const existingPlayer = await api.getPlayerById(
+        payload.sub,
+        teamId,
+        playerId
+      );
+      if (existingPlayer && existingPlayer.player) {
+        const playerDiet = existingPlayer.player.diet;
+        if (playerDiet === "Dieta para perder grasa") {
+          setSelectedDiet("Dieta para perder grasa");
+        } else if (playerDiet === "Dieta para aumentar la masa muscular") {
+          setSelectedDiet("Dieta para aumentar la masa muscular");
+        } else {
+          setSelectedDiet("Ninguna");
+        }
+      }
+    };
+    fetchPlayerData();
+  }, [payload.sub, teamId, playerId]);
 
   return (
     <>
@@ -90,10 +115,11 @@ const Diet = () => {
               <Space></Space>
               <MealsContainer>COMIDA</MealsContainer>
               <TextMeals>
-                • Macarrones con pisto. Filete de buey con patata al horno. Yogur
-                natural con frutos rojos.
-                <p />• Crema de champiñones, puerro y patata. Espaguetis salteados
-                con rebozuelos y dos huevos poché. Macedonia de frutas.
+                • Macarrones con pisto. Filete de buey con patata al horno.
+                Yogur natural con frutos rojos.
+                <p />• Crema de champiñones, puerro y patata. Espaguetis
+                salteados con rebozuelos y dos huevos poché. Macedonia de
+                frutas.
               </TextMeals>
               <Space></Space>
               <MealsContainer>MERIENDA</MealsContainer>
@@ -112,8 +138,8 @@ const Diet = () => {
               <TextMeals>
                 • Ensalada de arroz. Lubina al horno con verduras y patata.
                 Requesón.
-                <p />• Ensalada de patata. Sardinas plancha acompañadas de pan con
-                tomate. Yogur con mermelada.
+                <p />• Ensalada de patata. Sardinas plancha acompañadas de pan
+                con tomate. Yogur con mermelada.
               </TextMeals>
               <Space></Space>
               <MealsContainer>RECENA</MealsContainer>
@@ -122,6 +148,11 @@ const Diet = () => {
                 <p />• Galletas caseras de plátano y avena (ver receta abajo)
               </TextMeals>
             </>
+          )}
+          {selectedDiet === "Ninguna" && (
+            <TextContainer>
+              <IonText>No tienes ninguna dieta asignada.</IonText>
+            </TextContainer>
           )}
         </IonContent>
         <IonFooter>
@@ -165,6 +196,14 @@ const DietName = styled.h1`
   margin: 4%;
   text-align: center;
   align-items: center;
+  font-weight: bold;
+`;
+
+const TextContainer = styled.div`
+  text-align: center;
+  color: #666;
+  margin-top: 5%;
+  font-size: 20px;
   font-weight: bold;
 `;
 

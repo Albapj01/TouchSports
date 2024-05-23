@@ -175,8 +175,8 @@ const UpdatePlayer = () => {
                     <IonSelectOption value="Dieta para perder grasa">
                       Dieta para perder grasa
                     </IonSelectOption>
-                    <IonSelectOption value="Dieta para aumentar la masa muscula">
-                      Dieta para aumentar la masa muscula
+                    <IonSelectOption value="Dieta para aumentar la masa muscular">
+                      Dieta para aumentar la masa muscular
                     </IonSelectOption>
                   </IonSelect>
                 </IonItem>
