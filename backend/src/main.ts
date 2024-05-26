@@ -54,6 +54,7 @@ import { GetReserveByIdUseCase } from "./trainers/application/usecases/GetReserv
 import { GetReserveByIdController } from "./trainers/infrastructure/controller/GetReserveByIdController";
 import { GetTrainerReservesUseCase } from "./trainers/application/usecases/GetTrainerReservesUseCase";
 import { GetTrainerReservesController } from "./trainers/infrastructure/controller/GetTrainerReservesController";
+import { NodemailerNotifier } from "./trainers/infrastructure/nodemailer/NodemailerNotifier";
 
 dotenv.config();
 const app = express();
@@ -76,6 +77,7 @@ router.get("/api/status", async (req, res) => {
 });
 
 const trainerAdapter = new MongoTrainerAdapter();
+const notifier = new NodemailerNotifier();
 
 const createTrainerUseCase = new CreateTrainerUseCase(trainerAdapter);
 const createTrainerController = new CreateTrainerController(
@@ -140,7 +142,7 @@ router.get(
   }
 );
 
-const createPlayerUseCase = new CreatePalyerUseCase(trainerAdapter);
+const createPlayerUseCase = new CreatePalyerUseCase(trainerAdapter, notifier);
 const createPlayerController = new CreatePlayerController(createPlayerUseCase);
 router.post("/api/trainer/:trainerId/team/:teamId/player", async (req, res) => {
   return createPlayerController.handle(req, res);

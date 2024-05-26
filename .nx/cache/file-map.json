@@ -19,6 +19,7 @@
     "express-promise-router": "^4.1.1",
     "google-auth-library": "^9.10.0",
     "mongoose": "^8.3.1",
+    "nodemailer": "^6.9.13",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "5.3.3",
@@ -96,20 +97,16 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "README.md",
-        "hash": "10104707244890837311"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
       },
       {
         "file": ".gitignore",
         "hash": "1398178998339616447"
-      },
-      {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
-      },
-      {
-        "file": "package.json",
-        "hash": "1457800509390039032"
       },
       {
         "file": "nx.json",
@@ -120,24 +117,28 @@
         "hash": "12333515226966617182"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
       },
       {
         "file": "package-lock.json",
-        "hash": "2052500721662776235"
+        "hash": "15155952317156726532"
+      },
+      {
+        "file": "README.md",
+        "hash": "10104707244890837311"
+      },
+      {
+        "file": "package.json",
+        "hash": "16079508552978807636"
       },
       {
         "file": "LICENSE",
         "hash": "15553496959705771468"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
       }
     ],
     "projectFileMap": {
@@ -664,48 +665,6 @@
           ]
         }
       ],
-      "frontend-e2e": [
-        {
-          "file": "frontend-e2e/.eslintrc.json",
-          "hash": "12199001048877152138"
-        },
-        {
-          "file": "frontend-e2e/cypress.config.ts",
-          "hash": "12586416982398116375",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "frontend-e2e/project.json",
-          "hash": "9587367518965578926"
-        },
-        {
-          "file": "frontend-e2e/src/e2e/app.cy.ts",
-          "hash": "16383929608521807846"
-        },
-        {
-          "file": "frontend-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "frontend-e2e/src/support/app.po.ts",
-          "hash": "11177559716139350958"
-        },
-        {
-          "file": "frontend-e2e/src/support/commands.ts",
-          "hash": "5397443931564808659"
-        },
-        {
-          "file": "frontend-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "frontend-e2e/tsconfig.json",
-          "hash": "4966899981699294432"
-        }
-      ],
       "backend-e2e": [
         {
           "file": "backend-e2e/.eslintrc.json",
@@ -769,7 +728,7 @@
         },
         {
           "file": "backend/src/main.ts",
-          "hash": "15775362378850178824",
+          "hash": "12545163086191775686",
           "deps": [
             "npm:express",
             "npm:path",
@@ -806,7 +765,7 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/CreatePlayerUseCase.ts",
-          "hash": "13527115787498727847"
+          "hash": "6762884278892563653"
         },
         {
           "file": "backend/src/trainers/application/usecases/CreateReserveUseCase.ts",
@@ -918,7 +877,7 @@
         },
         {
           "file": "backend/src/trainers/domain/notifier/Notifier.ts",
-          "hash": "8868606734400912223"
+          "hash": "124515049195254747"
         },
         {
           "file": "backend/src/trainers/domain/port/TrainerPort.ts",
@@ -1094,7 +1053,10 @@
         },
         {
           "file": "backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts",
-          "hash": "1324768422607016233"
+          "hash": "5443686280156431958",
+          "deps": [
+            "npm:nodemailer"
+          ]
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/entities/TrainerEntity.ts",
@@ -1139,6 +1101,48 @@
           "deps": [
             "npm:@nx/webpack"
           ]
+        }
+      ],
+      "frontend-e2e": [
+        {
+          "file": "frontend-e2e/.eslintrc.json",
+          "hash": "12199001048877152138"
+        },
+        {
+          "file": "frontend-e2e/cypress.config.ts",
+          "hash": "12586416982398116375",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "frontend-e2e/project.json",
+          "hash": "9587367518965578926"
+        },
+        {
+          "file": "frontend-e2e/src/e2e/app.cy.ts",
+          "hash": "16383929608521807846"
+        },
+        {
+          "file": "frontend-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "frontend-e2e/src/support/app.po.ts",
+          "hash": "11177559716139350958"
+        },
+        {
+          "file": "frontend-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "frontend-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "frontend-e2e/tsconfig.json",
+          "hash": "4966899981699294432"
         }
       ]
     }

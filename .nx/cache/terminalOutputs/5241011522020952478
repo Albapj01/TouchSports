@@ -203,3 +203,129 @@ webpack compiled [1m[32msuccessfully[39m[22m (e0063e2ca634f599)
 [1m[31mDebugger listening on ws://localhost:9229/683abf18-3423-4f9b-ad53-575e86564daa[39m[22m
 [1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
 [1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 74 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e0063e2ca634f599)
+[1m[31mDebugger listening on ws://localhost:9229/b31fa48a-5a6f-433e-9f98-ac370f51047b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b31fa48a-5a6f-433e-9f98-ac370f51047b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 74 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts:[32m[1m5:41[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module 'nodemailer' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTrainer[39m } [36mfrom[39m [32m"../../domain/model/Trainer"[39m[33m;[39m
+   [90m 4 |[39m [36mimport[39m { [33mNotifier[39m } [36mfrom[39m [32m"../../domain/notifier/Notifier"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m nodemailer[33m,[39m { [33mTransporter[39m } [36mfrom[39m [32m"nodemailer"[39m[33m;[39m
+   [90m   |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [36mconst[39m nodemailer [33m=[39m require([32m"nodemailer"[39m)[33m;[39m
+   [90m 8 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts:[32m[1m7:28[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module 'nodemailer' or its corresponding type declarations.
+  [0m [90m  5 |[39m [36mimport[39m nodemailer[33m,[39m { [33mTransporter[39m } [36mfrom[39m [32m"nodemailer"[39m[33m;[39m
+   [90m  6 |[39m
+  [31m[1m>[22m[39m[90m  7 |[39m [36mconst[39m nodemailer [33m=[39m require([32m"nodemailer"[39m)[33m;[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m  8 |[39m
+   [90m  9 |[39m [36mexport[39m [36mclass[39m [33mNodemailerNotifier[39m [36mimplements[39m [33mNotifier[39m {
+   [90m 10 |[39m   [36mprivate[39m transporter[33m:[39m [33mTransporter[39m[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (e0063e2ca634f599)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 74 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts:[32m[1m5:41[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module 'nodemailer' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTrainer[39m } [36mfrom[39m [32m"../../domain/model/Trainer"[39m[33m;[39m
+   [90m 4 |[39m [36mimport[39m { [33mNotifier[39m } [36mfrom[39m [32m"../../domain/notifier/Notifier"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m nodemailer[33m,[39m { [33mTransporter[39m } [36mfrom[39m [32m"nodemailer"[39m[33m;[39m
+   [90m   |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [36mconst[39m nodemailer [33m=[39m require([32m"nodemailer"[39m)[33m;[39m
+   [90m 8 |[39m c[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts:[32m[1m7:28[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module 'nodemailer' or its corresponding type declarations.
+  [0m [90m  5 |[39m [36mimport[39m nodemailer[33m,[39m { [33mTransporter[39m } [36mfrom[39m [32m"nodemailer"[39m[33m;[39m
+   [90m  6 |[39m
+  [31m[1m>[22m[39m[90m  7 |[39m [36mconst[39m nodemailer [33m=[39m require([32m"nodemailer"[39m)[33m;[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m  8 |[39m c
+   [90m  9 |[39m [36mexport[39m [36mclass[39m [33mNodemailerNotifier[39m [36mimplements[39m [33mNotifier[39m {
+   [90m 10 |[39m   [36mprivate[39m transporter[33m:[39m [33mTransporter[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts:[32m[1m8:1[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'c'.
+  [0m [90m  6 |[39m
+   [90m  7 |[39m [36mconst[39m nodemailer [33m=[39m require([32m"nodemailer"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m  8 |[39m c
+   [90m    |[39m [31m[1m^[22m[39m
+   [90m  9 |[39m [36mexport[39m [36mclass[39m [33mNodemailerNotifier[39m [36mimplements[39m [33mNotifier[39m {
+   [90m 10 |[39m   [36mprivate[39m transporter[33m:[39m [33mTransporter[39m[33m;[39m
+   [90m 11 |[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (e0063e2ca634f599)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 74 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts:[32m[1m5:41[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module 'nodemailer' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTrainer[39m } [36mfrom[39m [32m"../../domain/model/Trainer"[39m[33m;[39m
+   [90m 4 |[39m [36mimport[39m { [33mNotifier[39m } [36mfrom[39m [32m"../../domain/notifier/Notifier"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m nodemailer[33m,[39m { [33mTransporter[39m } [36mfrom[39m [32m"nodemailer"[39m[33m;[39m
+   [90m   |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [36mconst[39m nodemailer [33m=[39m require([32m"nodemailer"[39m)[33m;[39m
+   [90m 8 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts:[32m[1m7:28[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module 'nodemailer' or its corresponding type declarations.
+  [0m [90m  5 |[39m [36mimport[39m nodemailer[33m,[39m { [33mTransporter[39m } [36mfrom[39m [32m"nodemailer"[39m[33m;[39m
+   [90m  6 |[39m
+  [31m[1m>[22m[39m[90m  7 |[39m [36mconst[39m nodemailer [33m=[39m require([32m"nodemailer"[39m)[33m;[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m  8 |[39m
+   [90m  9 |[39m [36mexport[39m [36mclass[39m [33mNodemailerNotifier[39m [36mimplements[39m [33mNotifier[39m {
+   [90m 10 |[39m   [36mprivate[39m transporter[33m:[39m [33mTransporter[39m[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (e0063e2ca634f599)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 74 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts:[32m[1m5:41[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module 'nodemailer' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTrainer[39m } [36mfrom[39m [32m"../../domain/model/Trainer"[39m[33m;[39m
+   [90m 4 |[39m [36mimport[39m { [33mNotifier[39m } [36mfrom[39m [32m"../../domain/notifier/Notifier"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m nodemailer[33m,[39m { [33mTransporter[39m } [36mfrom[39m [32m"nodemailer"[39m[33m;[39m
+   [90m   |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m
+   [90m 7 |[39m
+   [90m 8 |[39m [36mexport[39m [36mclass[39m [33mNodemailerNotifier[39m [36mimplements[39m [33mNotifier[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (e0063e2ca634f599)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 74 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts:[32m[1m5:41[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module 'nodemailer' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTrainer[39m } [36mfrom[39m [32m"../../domain/model/Trainer"[39m[33m;[39m
+   [90m 4 |[39m [36mimport[39m { [33mNotifier[39m } [36mfrom[39m [32m"../../domain/notifier/Notifier"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m nodemailer[33m,[39m { [33mTransporter[39m } [36mfrom[39m [32m"nodemailer"[39m[33m;[39m
+   [90m   |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [36mconst[39m nodemailer [33m=[39m require([32m"nodemailer"[39m)[33m;[39m
+   [90m 8 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts:[32m[1m7:28[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module 'nodemailer' or its corresponding type declarations.
+  [0m [90m  5 |[39m [36mimport[39m nodemailer[33m,[39m { [33mTransporter[39m } [36mfrom[39m [32m"nodemailer"[39m[33m;[39m
+   [90m  6 |[39m
+  [31m[1m>[22m[39m[90m  7 |[39m [36mconst[39m nodemailer [33m=[39m require([32m"nodemailer"[39m)[33m;[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m  8 |[39m
+   [90m  9 |[39m [36mexport[39m [36mclass[39m [33mNodemailerNotifier[39m [36mimplements[39m [33mNotifier[39m {
+   [90m 10 |[39m   [36mprivate[39m transporter[33m:[39m [33mTransporter[39m[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (e0063e2ca634f599)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

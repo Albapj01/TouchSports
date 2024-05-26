@@ -1,9 +1,10 @@
 import { Player } from "../../domain/model/Player";
+import { Notifier } from "../../domain/notifier/Notifier";
 import { TrainerPort } from "../../domain/port/TrainerPort";
 import { PlayerDTO } from "../DTOs/PlayerDTO";
 
 export class CreatePalyerUseCase {
-  constructor(private trainerPort: TrainerPort) {}
+  constructor(private trainerPort: TrainerPort, private notifier: Notifier) {}
 
   async run(
     trainerId: string,
@@ -34,8 +35,8 @@ export class CreatePalyerUseCase {
       playerDTO.improvements
     );
 
-
     team.players.push(player);
     await this.trainerPort.savePlayer(player, team, trainer);
+    await this.notifier.createPlayerNotification(player, team, trainer);
   }
 }
