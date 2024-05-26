@@ -25,14 +25,9 @@ import api from "frontend/src/utils/api/api";
 import { v4 as uuidv4 } from "uuid";
 import { useParams } from "react-router-dom";
 
-interface RouteParams {
-  teamId: string;
-  playerId: string;
-}
-
 const UpdatePlayer = () => {
-  const { teamId } = useParams<RouteParams>();
-  const { playerId } = useParams<RouteParams>();
+  const { teamId } = useParams<{ teamId: string }>();
+  const { playerId } = useParams<{ playerId: string }>();
 
   const [name, setName] = useState("");
   const [surname, setSurname] = useState("");
@@ -56,51 +51,59 @@ const UpdatePlayer = () => {
   const { payload } = decodeJwt(storage.get("token"));
 
   useEffect(() => {
-    const fetchPlayerData = async () => {
-      try {
-        const existingPlayer = await api.getPlayerById(
-          payload.sub,
-          teamId,
-          playerId
-        );
-        if (existingPlayer && existingPlayer.player) {
-          setName(existingPlayer.player.name || "");
-          setSurname(existingPlayer.player.surname || "");
-          setEmail(existingPlayer.player.email || "");
-          setDiet(existingPlayer.player.diet || "");
-          setTechnicalTraining(existingPlayer.player.technicalTraining || "");
-          setPhysicalTraining(existingPlayer.player.physicalTraining || "");
-          setImprovements(existingPlayer.player.improvements || "");
+    if (teamId && playerId) {
+      const fetchPlayerData = async () => {
+        try {
+          const existingPlayer = await api.getPlayerById(
+            payload.sub,
+            teamId,
+            playerId
+          );
+          if (existingPlayer && existingPlayer.player) {
+            setName(existingPlayer.player.name || "");
+            setSurname(existingPlayer.player.surname || "");
+            setEmail(existingPlayer.player.email || "");
+            setDiet(existingPlayer.player.diet || "");
+            setTechnicalTraining(existingPlayer.player.technicalTraining || "");
+            setPhysicalTraining(existingPlayer.player.physicalTraining || "");
+            setImprovements(existingPlayer.player.improvements || "");
 
-          setSelectedTechnicalTraining(
-            existingPlayer.player.technicalTraining.split(", ")
-          );
-          setSelectedPhysicalTraining(
-            existingPlayer.player.physicalTraining.split(", ")
-          );
+            setSelectedTechnicalTraining(
+              existingPlayer.player.technicalTraining.split(", ")
+            );
+            setSelectedPhysicalTraining(
+              existingPlayer.player.physicalTraining.split(", ")
+            );
+          }
+        } catch (error) {
+          console.error("Error al obtener el jugador:", error);
         }
-      } catch (error) {
-        console.error("Error al obtener el jugador:", error);
-      }
-    };
+      };
 
-    fetchPlayerData();
+      fetchPlayerData();
+    } else {
+      console.error("El jugador no existe.");
+    }
   }, [payload.sub, teamId, playerId]);
 
   const handleUpdatePlayer = async () => {
-    await api.updatePlayer(
-      payload.sub,
-      teamId,
-      playerId,
-      name,
-      surname,
-      email,
-      imageUrl,
-      diet,
-      technicalTraining,
-      physicalTraining,
-      improvements
-    );
+    if (teamId && playerId) {
+      await api.updatePlayer(
+        payload.sub,
+        teamId,
+        playerId,
+        name,
+        surname,
+        email,
+        imageUrl,
+        diet,
+        technicalTraining,
+        physicalTraining,
+        improvements
+      );
+    } else {
+      console.error("El jugador no existe.");
+    }
   };
 
   const handleTechnicalTrainingSelection = (e: CustomEvent) => {

@@ -14,42 +14,41 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
 
-interface RouteParams {
-  teamId: string;
-  playerId: string;
-}
-
 const Diet = () => {
-  const { teamId } = useParams<RouteParams>();
-  const { playerId } = useParams<RouteParams>();
+  const { teamId } = useParams<{ teamId: string }>();
+  const { playerId } = useParams<{ playerId: string }>();
 
   const [selectedDiet, setSelectedDiet] = useState("");
 
   const { payload } = decodeJwt(storage.get("token"));
 
   useEffect(() => {
-    const fetchPlayerData = async () => {
-      try {
-        const existingPlayer = await api.getPlayerById(
-          payload.sub,
-          teamId,
-          playerId
-        );
-        if (existingPlayer && existingPlayer.player) {
-          const playerDiet = existingPlayer.player.diet;
-          if (playerDiet === "Dieta para perder grasa") {
-            setSelectedDiet("Dieta para perder grasa");
-          } else if (playerDiet === "Dieta para aumentar la masa muscular") {
-            setSelectedDiet("Dieta para aumentar la masa muscular");
-          } else {
-            setSelectedDiet("Ninguna");
+    if (teamId && playerId) {
+      const fetchPlayerData = async () => {
+        try {
+          const existingPlayer = await api.getPlayerById(
+            payload.sub,
+            teamId,
+            playerId
+          );
+          if (existingPlayer && existingPlayer.player) {
+            const playerDiet = existingPlayer.player.diet;
+            if (playerDiet === "Dieta para perder grasa") {
+              setSelectedDiet("Dieta para perder grasa");
+            } else if (playerDiet === "Dieta para aumentar la masa muscular") {
+              setSelectedDiet("Dieta para aumentar la masa muscular");
+            } else {
+              setSelectedDiet("Ninguna");
+            }
           }
+        } catch (error) {
+          console.error("Error al obtener los datos del jugador:", error);
         }
-      } catch (error) {
-        console.error("Error al obtener los datos del jugador:", error);
-      }
-    };
-    fetchPlayerData();
+      };
+      fetchPlayerData();
+    } else {
+      console.error("El jugador no existe.");
+    }
   }, [payload.sub, teamId, playerId]);
 
   return (

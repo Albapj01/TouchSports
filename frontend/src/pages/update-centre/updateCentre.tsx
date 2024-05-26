@@ -18,12 +18,8 @@ import { useHistory, useParams } from "react-router-dom";
 import api from "../../utils/api/api";
 import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 
-interface RouteParams {
-  centresId: string;
-}
-
 const UpdateCentre = () => {
-  const { centresId } = useParams<RouteParams>();
+  const { centresId } = useParams<{ centresId: string }>();
 
   const [name, setName] = useState("");
   const [location, setLocation] = useState("");
@@ -32,23 +28,34 @@ const UpdateCentre = () => {
   const { payload } = decodeJwt(storage.get("token"));
 
   useEffect(() => {
-    const fetchCentreData = async () => {
-      try {
-        const existingCentre = await api.getCentresById(payload.sub, centresId);
-        if (existingCentre && existingCentre.centres) {
-          setName(existingCentre.centres.name || "");
-          setLocation(existingCentre.centres.location || "");
+    if (centresId) {
+      const fetchCentreData = async () => {
+        try {
+          const existingCentre = await api.getCentresById(
+            payload.sub,
+            centresId
+          );
+          if (existingCentre && existingCentre.centres) {
+            setName(existingCentre.centres.name || "");
+            setLocation(existingCentre.centres.location || "");
+          }
+        } catch (error) {
+          console.error("Error al obtener el centro:", error);
         }
-      } catch (error) {
-        console.error("Error al obtener el centro:", error);
-      }
-    };
+      };
 
-    fetchCentreData();
+      fetchCentreData();
+    } else {
+      console.error("El centro no existe.");
+    }
   }, [payload.sub, centresId]);
 
   const handleUpdateCentre = async () => {
-    await api.updateCentre(payload.sub, centresId, name, location);
+    if (centresId) {
+      await api.updateCentre(payload.sub, centresId, name, location);
+    } else {
+      console.error("El centro no existe.");
+    }
   };
 
   return (

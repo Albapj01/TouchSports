@@ -15,7 +15,7 @@ export class CreatePalyerUseCase {
       return null;
     }
 
-    const team = await this.trainerPort.findByTeamId(teamId, trainerId)
+    const team = await this.trainerPort.findByTeamId(teamId, trainerId);
     if (!team) {
       return null;
     }

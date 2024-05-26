@@ -28,12 +28,8 @@ import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import api from "frontend/src/utils/api/api";
 import { v4 as uuidv4 } from "uuid";
 
-interface RouteParams {
-  centresId: string;
-}
-
 const ReserveInfo = () => {
-  const { centresId } = useParams<RouteParams>();
+  const { centresId } = useParams<{ centresId: string }>();
 
   const [name, setName] = useState("");
   const [surname, setSurname] = useState("");
@@ -65,32 +61,35 @@ const ReserveInfo = () => {
   const handleAddReserve = async () => {
     const id = uuidv4();
     const reserveId = id.toString();
-
-    const existingReserve = await api.getReserveById(
-      payload.sub,
-      centresId,
-      reserveId
-    );
-
-    const obtainedReserveId =
-      existingReserve && existingReserve.reserve
-        ? existingReserve.reserve.id
-        : null;
-
-    if (!obtainedReserveId) {
-      await api.createReserve(
+    if (centresId) {
+      const existingReserve = await api.getReserveById(
         payload.sub,
         centresId,
-        reserveId,
-        name,
-        surname,
-        email,
-        telephoneNumber,
-        teamId,
-        material,
-        startReserve,
-        endReserve
+        reserveId
       );
+
+      const obtainedReserveId =
+        existingReserve && existingReserve.reserve
+          ? existingReserve.reserve.id
+          : null;
+
+      if (!obtainedReserveId) {
+        await api.createReserve(
+          payload.sub,
+          centresId,
+          reserveId,
+          name,
+          surname,
+          email,
+          telephoneNumber,
+          teamId,
+          material,
+          startReserve,
+          endReserve
+        );
+      }
+    } else {
+      console.error("El centro no existe.");
     }
   };
 

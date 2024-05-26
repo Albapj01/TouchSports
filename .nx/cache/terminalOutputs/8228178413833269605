@@ -1,0 +1,67 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ee493f221266774b)
+[1m[31mDebugger listening on ws://localhost:9229/85ae7373-575e-4038-b00a-534516be68a3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/85ae7373-575e-4038-b00a-534516be68a3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts[39m[22m [1m[32m30:20[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Unterminated string constant (30:20)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             yield this.transporter.sendMail({
+|                 from: '"TouchSport" <${process.env.NODEMAILER_USER}>',
+>                 to: "${player.email, ,
+|                 subject: "Has sido creado como jugador en un equipo 👏🏻",
+|                 html: `[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts[39m[22m
+[1m./src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts[39m[22m [1m[32m34:27[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts(34,28)[39m[22m
+[1m[31m      TS1002: Unterminated string literal.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts[39m[22m
+[1m./src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts[39m[22m [1m[32m35:6-13[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts(35,7)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+webpack compiled with [1m[31m3 errors[39m[22m (805d6553e756d3a1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (86ba17fc452426b1)
+[1m[31mDebugger listening on ws://localhost:9229/c63f544e-16e7-4937-a1c8-275e031a8d24[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c63f544e-16e7-4937-a1c8-275e031a8d24[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (835c5de682149d67)
+[1m[31mDebugger listening on ws://localhost:9229/68d81670-7b7f-4f97-b32f-335cbe41288a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/68d81670-7b7f-4f97-b32f-335cbe41288a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (09d9f7b05de0c5b3)
+[1m[31mDebugger listening on ws://localhost:9229/568797a8-da0a-4770-abfd-c69b744835b1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/568797a8-da0a-4770-abfd-c69b744835b1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a40f2c9be97b6d57)
+[1m[31mDebugger listening on ws://localhost:9229/29a2bbeb-d4c7-4686-b862-fe4213eccdc4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/29a2bbeb-d4c7-4686-b862-fe4213eccdc4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1e8b0f3428d62f87)
+[1m[31mDebugger listening on ws://localhost:9229/765ca7d1-f350-44d9-8e9b-862b5dff63b9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/765ca7d1-f350-44d9-8e9b-862b5dff63b9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (67869977b2eee9d8)
+[1m[31mDebugger listening on ws://localhost:9229/723cc407-1709-4df2-9a1f-8e5901c3673f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/723cc407-1709-4df2-9a1f-8e5901c3673f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

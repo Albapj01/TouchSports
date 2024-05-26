@@ -28,12 +28,8 @@ import {
   trashOutline,
 } from "ionicons/icons";
 
-interface RouteParams {
-  teamId: string;
-}
-
 const Team = () => {
-  const { teamId } = useParams<RouteParams>();
+  const { teamId } = useParams<{ teamId: string }>();
 
   const [players, setPlayers] = useState<Player[]>([]);
   const [showAlert, setShowAlert] = useState(false);
@@ -42,24 +38,31 @@ const Team = () => {
   const { payload } = decodeJwt(storage.get("token"));
 
   useEffect(() => {
-    const fetchPlayers = async () => {
+    if (teamId) {
+      const fetchPlayers = async () => {
         try {
-            const result = await api.getAllPlayers(payload.sub, teamId);
-            setPlayers(result.players);
+          const result = await api.getAllPlayers(payload.sub, teamId);
+          setPlayers(result.players);
         } catch (error) {
-            console.error("Error al obtener jugadores:", error);
+          console.error("Error al obtener jugadores:", error);
         }
-    };
-    fetchPlayers();
-}, []);
-
+      };
+      fetchPlayers();
+    } else {
+      console.error("El equipo no existe.");
+    }
+  }, []);
 
   const handleDeleteButtonClick = () => {
     setShowAlert(true);
   };
 
   const handleDeleteTeam = async () => {
-    await api.deleteTeam(payload.sub, teamId);
+    if (teamId) {
+      await api.deleteTeam(payload.sub, teamId);
+    } else {
+      console.error("El equipo no existe.");
+    }
   };
 
   const handleUpdateButtonClick = () => {

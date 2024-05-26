@@ -15,14 +15,9 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
 
-interface RouteParams {
-  teamId: string;
-  playerId: string;
-}
-
 const Training = () => {
-  const { teamId } = useParams<RouteParams>();
-  const { playerId } = useParams<RouteParams>();
+  const { teamId } = useParams<{ teamId: string }>();
+  const { playerId } = useParams<{ playerId: string }>();
   const [player, setPlayer] = useState<Player>();
 
   const { payload } = decodeJwt(storage.get("token"));
@@ -31,15 +26,19 @@ const Training = () => {
   const physicalTrainingItems = player?.physicalTraining.split(",") || [];
 
   useEffect(() => {
-    const fetchPlayerData = async () => {
-      try {
-        const result = await api.getPlayerById(payload.sub, teamId, playerId);
-        setPlayer(result.player);
-      } catch (error) {
-        console.error("Error al obtener el jugador:", error);
-      }
-    };
-    fetchPlayerData();
+    if (teamId && playerId) {
+      const fetchPlayerData = async () => {
+        try {
+          const result = await api.getPlayerById(payload.sub, teamId, playerId);
+          setPlayer(result.player);
+        } catch (error) {
+          console.error("Error al obtener el jugador:", error);
+        }
+      };
+      fetchPlayerData();
+    } else {
+      console.error("El jugador no existe.");
+    }
   }, []);
 
   return (

@@ -26,14 +26,9 @@ import { Team } from "frontend/src/utils/interfaces/Team";
 import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import api from "frontend/src/utils/api/api";
 
-interface RouteParams {
-  centresId: string;
-  reserveId: string;
-}
-
 const UpdateReserve = () => {
-  const { centresId } = useParams<RouteParams>();
-  const { reserveId } = useParams<RouteParams>();
+  const { centresId } = useParams<{ centresId: string }>();
+  const { reserveId } = useParams<{ reserveId: string }>();
 
   const [name, setName] = useState("");
   const [surname, setSurname] = useState("");
@@ -64,44 +59,52 @@ const UpdateReserve = () => {
   }, []);
 
   useEffect(() => {
-    const fetchReserveData = async () => {
-      try {
-        const existingReserve = await api.getReserveById(
-          payload.sub,
-          centresId,
-          reserveId
-        );
-        if (existingReserve && existingReserve.reserve) {
-          setName(existingReserve.reserve.name || "");
-          setSurname(existingReserve.reserve.surname || "");
-          setEmail(existingReserve.reserve.email || "");
-          setTelephoneNumber(existingReserve.reserve.telephone || "");
-          setTeamId(existingReserve.reserve.teamId || "");
-          setMaterial(existingReserve.reserve.material || "");
-          setStartReserve(existingReserve.reserve.startReserve || "");
-          setEndReserve(existingReserve.reserve.endReserve || "");
+    if (centresId && reserveId) {
+      const fetchReserveData = async () => {
+        try {
+          const existingReserve = await api.getReserveById(
+            payload.sub,
+            centresId,
+            reserveId
+          );
+          if (existingReserve && existingReserve.reserve) {
+            setName(existingReserve.reserve.name || "");
+            setSurname(existingReserve.reserve.surname || "");
+            setEmail(existingReserve.reserve.email || "");
+            setTelephoneNumber(existingReserve.reserve.telephone || "");
+            setTeamId(existingReserve.reserve.teamId || "");
+            setMaterial(existingReserve.reserve.material || "");
+            setStartReserve(existingReserve.reserve.startReserve || "");
+            setEndReserve(existingReserve.reserve.endReserve || "");
+          }
+        } catch (error) {
+          console.error("Error al obtener reserva:", error);
         }
-      } catch (error) {
-        console.error("Error al obtener reserva:", error);
-      }
-    };
-    fetchReserveData();
+      };
+      fetchReserveData();
+    } else {
+      console.error("La reserva no existe.");
+    }
   }, [payload.sub, centresId, reserveId]);
 
   const handleUpdateReserve = async () => {
-    await api.updateReserve(
-      payload.sub,
-      centresId,
-      reserveId,
-      name,
-      surname,
-      email,
-      telephoneNumber,
-      teamId,
-      material,
-      startReserve,
-      endReserve
-    );
+    if (centresId && reserveId) {
+      await api.updateReserve(
+        payload.sub,
+        centresId,
+        reserveId,
+        name,
+        surname,
+        email,
+        telephoneNumber,
+        teamId,
+        material,
+        startReserve,
+        endReserve
+      );
+    } else {
+      console.error("La reserva no existe.");
+    }
   };
 
   return (

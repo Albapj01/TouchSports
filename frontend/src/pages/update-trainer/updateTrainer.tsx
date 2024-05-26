@@ -18,12 +18,8 @@ import api from "frontend/src/utils/api/api";
 import { useHistory, useParams } from "react-router-dom";
 import Input from "frontend/src/components/input/input";
 
-interface RouteParams {
-  trainerId: string;
-}
-
 const UpdateTrainer = () => {
-  const { trainerId } = useParams<RouteParams>();
+  const { trainerId } = useParams<{ trainerId: string }>();
 
   const [name, setName] = useState("");
   const [surname, setSurname] = useState("");
@@ -36,24 +32,32 @@ const UpdateTrainer = () => {
   const picture = payload.picture;
 
   useEffect(() => {
-    const fetchTrainerData = async () => {
-      try {
-        const response = await api.getTrainerById(trainerId);
-        const existingTrainer = response.json();
-        if (existingTrainer && existingTrainer.trainer) {
-          setName(existingTrainer.trainer.name || "");
-          setSurname(existingTrainer.trainer.surname || "");
-          setEmail(existingTrainer.trainer.email || "");
+    if (trainerId) {
+      const fetchTrainerData = async () => {
+        try {
+          const response = await api.getTrainerById(trainerId);
+          const existingTrainer = response.json();
+          if (existingTrainer && existingTrainer.trainer) {
+            setName(existingTrainer.trainer.name || "");
+            setSurname(existingTrainer.trainer.surname || "");
+            setEmail(existingTrainer.trainer.email || "");
+          }
+        } catch (error) {
+          console.error("Error al obtener datos del entrenador:", error);
         }
-      } catch (error) {
-        console.error("Error al obtener datos del entrenador:", error);
-      }
-    };
-    fetchTrainerData();
+      };
+      fetchTrainerData();
+    } else {
+      console.error("El usuario no existe.");
+    }
   }, [trainerId]);
 
   const handleUpdateTrainer = async () => {
-    await api.updateTrainer(trainerId, name, surname, email);
+    if (trainerId) {
+      await api.updateTrainer(trainerId, name, surname, email);
+    } else {
+      console.error("El usuario no existe.");
+    }
   };
 
   return (

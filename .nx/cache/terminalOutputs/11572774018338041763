@@ -1,0 +1,102 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 74.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m143:29[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 141 |[39m )[33m;[39m
+   [90m 142 |[39m
+  [31m[1m>[22m[39m[90m 143 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 144 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m
+   [90m 145 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {
+   [90m 146 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4dbe2fd657eabef5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m75:21[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (75:21)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| }));
+| const trainerAdapter = new MongoTrainerAdapter_1.MongoTrainerAdapter();
+> const notifier = new ;
+| const createTrainerUseCase = new CreateTrainerUseCase_1.CreateTrainerUseCase(trainerAdapter);
+| const createTrainerController = new CreateTrainerController_1.CreateTrainerController(createTrainerUseCase);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/main.ts[39m[22m
+[1m./src/main.ts[39m[22m [1m[32m81:0-5[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/main.ts(81,1)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m144:29[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 142 |[39m )[33m;[39m
+   [90m 143 |[39m
+  [31m[1m>[22m[39m[90m 144 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 145 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m
+   [90m 146 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {
+   [90m 147 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (6505e63e1cab81f7)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 74.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m79:22[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Nodemai'.
+  [0m [90m 77 |[39m
+   [90m 78 |[39m [36mconst[39m trainerAdapter [33m=[39m [36mnew[39m [33mMongoTrainerAdapter[39m()[33m;[39m
+  [31m[1m>[22m[39m[90m 79 |[39m [36mconst[39m notifier [33m=[39m [36mnew[39m [33mNodemai[39m
+   [90m    |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 80 |[39m
+   [90m 81 |[39m [36mconst[39m createTrainerUseCase [33m=[39m [36mnew[39m [33mCreateTrainerUseCase[39m(trainerAdapter)[33m;[39m
+   [90m 82 |[39m [36mconst[39m createTrainerController [33m=[39m [36mnew[39m [33mCreateTrainerController[39m([0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m144:29[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 142 |[39m )[33m;[39m
+   [90m 143 |[39m
+  [31m[1m>[22m[39m[90m 144 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 145 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m
+   [90m 146 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {
+   [90m 147 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (eb76870dab32fe37)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m145:29[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 143 |[39m )[33m;[39m
+   [90m 144 |[39m
+  [31m[1m>[22m[39m[90m 145 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 146 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m
+   [90m 147 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {
+   [90m 148 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (ff778c0cf33a795f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m145:29[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 143 |[39m )[33m;[39m
+   [90m 144 |[39m
+  [31m[1m>[22m[39m[90m 145 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 146 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m
+   [90m 147 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {
+   [90m 148 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (f3aa291ca192ef80)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4287e20af6c4e976)
+[1m[31mDebugger listening on ws://localhost:9229/d75ca9e7-19f6-4501-a6dc-099efa18800e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d75ca9e7-19f6-4501-a6dc-099efa18800e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

@@ -19,36 +19,39 @@ import api from "../../utils/api/api";
 import { v4 as uuidv4 } from "uuid";
 import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 
-interface RouteParams {
-  teamId: string;
-}
-
 const UpdateTeam = () => {
-  const { teamId } = useParams<RouteParams>();
+  const { teamId } = useParams<{ teamId: string }>();
   const [name, setName] = useState("");
   const history = useHistory();
 
   const { payload } = decodeJwt(storage.get("token"));
 
   useEffect(() => {
-    const fetchTeamData = async () => {
-      try {
-        const response = await api.getTeamById(payload.sub, teamId);
-        const existingTeam = response.json();
-        if (existingTeam && existingTeam.team) {
-          setName(existingTeam.team.name || "");
+    if (teamId) {
+      const fetchTeamData = async () => {
+        try {
+          const response = await api.getTeamById(payload.sub, teamId);
+          const existingTeam = response.json();
+          if (existingTeam && existingTeam.team) {
+            setName(existingTeam.team.name || "");
+          }
+        } catch (error) {
+          console.error("Error al obtener datos del equipo:", error);
         }
-      } catch(error) {
-        console.error("Error al obtener datos del equipo:", error);
-      }
-      
-    };
+      };
 
-    fetchTeamData();
+      fetchTeamData();
+    } else {
+      console.error("El equipo no existe.");
+    }
   }, [payload.sub, teamId]);
 
   const handleUpdateTeam = async () => {
-    await api.updateTeam(payload.sub, teamId, name);
+    if (teamId) {
+      await api.updateTeam(payload.sub, teamId, name);
+    } else {
+      console.error("El equipo no existe.");
+    }
   };
 
   return (
@@ -99,8 +102,7 @@ const UpdateTeam = () => {
                 {
                   text: "Cancelar",
                   role: "cancel",
-                  handler: () =>
-                    history.push(`/home/teams/${teamId}/update-team`),
+                  handler: () => history.push(`/home/teams/${teamId}/update-team`),
                 },
               ]}
             ></IonActionSheet>

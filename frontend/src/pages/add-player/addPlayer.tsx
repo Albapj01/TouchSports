@@ -25,12 +25,8 @@ import api from "frontend/src/utils/api/api";
 import { v4 as uuidv4 } from "uuid";
 import { useParams } from "react-router-dom";
 
-interface RouteParams {
-  teamId: string;
-}
-
 const AddPlayer = () => {
-  const { teamId } = useParams<RouteParams>();
+  const { teamId } = useParams<{ teamId: string }>();
 
   const [name, setName] = useState("");
   const [surname, setSurname] = useState("");
@@ -57,29 +53,35 @@ const AddPlayer = () => {
     const id = uuidv4();
     const playerId = id.toString();
 
-    const existingPlayer = await api.getPlayerById(
-      payload.sub,
-      teamId,
-      playerId
-    );
-
-    const obtainedPlayerId =
-      existingPlayer && existingPlayer.player ? existingPlayer.player.id : null;
-
-    if (!obtainedPlayerId) {
-      await api.createPlayer(
+    if (teamId) {
+      const existingPlayer = await api.getPlayerById(
         payload.sub,
         teamId,
-        playerId,
-        name,
-        surname,
-        email,
-        imageUrl,
-        diet,
-        technicalTraining,
-        physicalTraining,
-        improvements
+        playerId
       );
+
+      const obtainedPlayerId =
+        existingPlayer && existingPlayer.player
+          ? existingPlayer.player.id
+          : null;
+
+      if (!obtainedPlayerId) {
+        await api.createPlayer(
+          payload.sub,
+          teamId,
+          playerId,
+          name,
+          surname,
+          email,
+          imageUrl,
+          diet,
+          technicalTraining,
+          physicalTraining,
+          improvements
+        );
+      }
+    } else {
+      console.error("El equipo no existe.");
     }
   };
 

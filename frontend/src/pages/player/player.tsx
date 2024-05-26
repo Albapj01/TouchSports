@@ -28,13 +28,9 @@ import {
   trashOutline,
 } from "ionicons/icons";
 
-interface RouteParams {
-  teamId: string;
-  playerId: string;
-}
-
 const PlayerInfo = () => {
-  const { teamId, playerId } = useParams<RouteParams>();
+  const { teamId } = useParams<{ teamId: string }>();
+  const { playerId } = useParams<{ playerId: string }>();
   const [player, setPlayer] = useState<Player>();
   const [showAlert, setShowAlert] = useState(false);
 
@@ -43,15 +39,19 @@ const PlayerInfo = () => {
   const { payload } = decodeJwt(storage.get("token"));
 
   useEffect(() => {
-    const fetchPlayer = async () => {
-      try {
-        const result = await api.getPlayerById(payload.sub, teamId, playerId);
-        setPlayer(result.player);
-      } catch (error) {
-        console.error("Error al obtener el jugador:", error);
-      }
-    };
-    fetchPlayer();
+    if (teamId && playerId) {
+      const fetchPlayer = async () => {
+        try {
+          const result = await api.getPlayerById(payload.sub, teamId, playerId);
+          setPlayer(result.player);
+        } catch (error) {
+          console.error("Error al obtener el jugador:", error);
+        }
+      };
+      fetchPlayer();
+    } else {
+      console.error("El jugador no existe.");
+    }
   }, []);
 
   const handleDeleteButtonClick = () => {
@@ -59,7 +59,11 @@ const PlayerInfo = () => {
   };
 
   const handleDeletePlayer = async () => {
-    await api.deletePlayer(payload.sub, teamId, playerId);
+    if (teamId && playerId) {
+      await api.deletePlayer(payload.sub, teamId, playerId);
+    } else {
+      console.error("El jugador no existe.");
+    }
   };
 
   const handleUpdateButtonClick = async () => {

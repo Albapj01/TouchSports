@@ -1,0 +1,94 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 74.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7cfb477c9a62d16b)
+[1m[31mDebugger listening on ws://localhost:9229/af4e8295-17e7-425d-b11f-28a399438141[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/af4e8295-17e7-425d-b11f-28a399438141[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 74.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7cfb477c9a62d16b)
+[1m[31mDebugger listening on ws://localhost:9229/7fdcc5cd-919f-462e-a73c-ff1e1f5f9874[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7fdcc5cd-919f-462e-a73c-ff1e1f5f9874[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 74.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m145:69[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'notifier'.
+  [0m [90m 143 |[39m )[33m;[39m
+   [90m 144 |[39m
+  [31m[1m>[22m[39m[90m 145 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 146 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m
+   [90m 147 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {
+   [90m 148 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m145:69[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 1 arguments, but got 2.
+  [0m [90m 143 |[39m )[33m;[39m
+   [90m 144 |[39m
+  [31m[1m>[22m[39m[90m 145 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 146 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m
+   [90m 147 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {
+   [90m 148 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (84a70bf37f741344)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m57:36[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile '/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts' is not a module.
+  [0m [90m 55 |[39m [36mimport[39m { [33mGetTrainerReservesUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/GetTrainerReservesUseCase"[39m[33m;[39m
+   [90m 56 |[39m [36mimport[39m { [33mGetTrainerReservesController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetTrainerReservesController"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 57 |[39m [36mimport[39m { [33mNodemailerNotifier[39m } [36mfrom[39m [32m"./trainers/infrastructure/nodemailer/NodemailerNotifier"[39m[33m;[39m
+   [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 58 |[39m
+   [90m 59 |[39m dotenv[33m.[39mconfig()[33m;[39m
+   [90m 60 |[39m [36mconst[39m app [33m=[39m express()[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m145:69[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 1 arguments, but got 2.
+  [0m [90m 143 |[39m )[33m;[39m
+   [90m 144 |[39m
+  [31m[1m>[22m[39m[90m 145 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 146 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m
+   [90m 147 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {
+   [90m 148 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (c995d6dd84cd3897)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m57:36[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile '/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts' is not a module.
+  [0m [90m 55 |[39m [36mimport[39m { [33mGetTrainerReservesUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/GetTrainerReservesUseCase"[39m[33m;[39m
+   [90m 56 |[39m [36mimport[39m { [33mGetTrainerReservesController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetTrainerReservesController"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 57 |[39m [36mimport[39m { [33mNodemailerNotifier[39m } [36mfrom[39m [32m"./trainers/infrastructure/nodemailer/NodemailerNotifier"[39m[33m;[39m
+   [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 58 |[39m
+   [90m 59 |[39m dotenv[33m.[39mconfig()[33m;[39m
+   [90m 60 |[39m [36mconst[39m app [33m=[39m express()[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (d04cd16aee4a9ed9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m57:36[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile '/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts' is not a module.
+  [0m [90m 55 |[39m [36mimport[39m { [33mGetTrainerReservesUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/GetTrainerReservesUseCase"[39m[33m;[39m
+   [90m 56 |[39m [36mimport[39m { [33mGetTrainerReservesController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetTrainerReservesController"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 57 |[39m [36mimport[39m { [33mNodemailerNotifier[39m } [36mfrom[39m [32m"./trainers/infrastructure/nodemailer/NodemailerNotifier"[39m[33m;[39m
+   [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 58 |[39m
+   [90m 59 |[39m dotenv[33m.[39mconfig()[33m;[39m
+   [90m 60 |[39m [36mconst[39m app [33m=[39m express()[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (ac7e8f46b11ea96f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3617f39342638917)
+[1m[31mDebugger listening on ws://localhost:9229/97d32c71-68f9-4069-8de1-599caff1152c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/97d32c71-68f9-4069-8de1-599caff1152c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

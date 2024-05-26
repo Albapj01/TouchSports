@@ -31,12 +31,8 @@ import {
   trashOutline,
 } from "ionicons/icons";
 
-interface RouteParams {
-  centresId: string;
-}
-
 const CentreInfo = () => {
-  const { centresId } = useParams<RouteParams>();
+  const { centresId } = useParams<{ centresId: string }>();
   const [centres, setCentres] = useState<Centres>();
   const [showAlert, setShowAlert] = useState(false);
 
@@ -45,15 +41,19 @@ const CentreInfo = () => {
   const { payload } = decodeJwt(storage.get("token"));
 
   useEffect(() => {
-    const fetchCentresById = async () => {
-      try {
-        const result = await api.getCentresById(payload.sub, centresId);
-        setCentres(result.centres);
-      } catch (error) {
-        console.error("Error al obtener el centro por ID:", error);
-      }
-    };
-    fetchCentresById();
+    if (centresId) {
+      const fetchCentresById = async () => {
+        try {
+          const result = await api.getCentresById(payload.sub, centresId);
+          setCentres(result.centres);
+        } catch (error) {
+          console.error("Error al obtener el centro por ID:", error);
+        }
+      };
+      fetchCentresById();
+    } else {
+      console.error("El centro no existe.");
+    }
   }, []);
 
   const handleDeleteButtonClick = () => {
@@ -61,7 +61,11 @@ const CentreInfo = () => {
   };
 
   const handleDeleteCentre = async () => {
-    await api.deleteCentre(payload.sub, centresId);
+    if (centresId) {
+      await api.deleteCentre(payload.sub, centresId);
+    } else {
+      console.error("El centro no existe.");
+    }
   };
 
   const handleUpdateButtonClick = async () => {
