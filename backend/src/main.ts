@@ -236,7 +236,7 @@ router.post("/api/trainer/:trainerId/centres/:centresId/reserve", async (req, re
   return createReserveController.handle(req, res);
 });
 
-const updateReserveByIdUseCase = new UpdateReserveByIdUseCase(trainerAdapter);
+const updateReserveByIdUseCase = new UpdateReserveByIdUseCase(trainerAdapter, notifier);
 const updateReserveByIdController = new UpdateReserveByIdController(
   updateReserveByIdUseCase
 );

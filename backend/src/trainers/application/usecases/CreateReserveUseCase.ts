@@ -2,7 +2,6 @@ import { Reserve } from "../../domain/model/Reserve";
 import { Notifier } from "../../domain/notifier/Notifier";
 import { TrainerPort } from "../../domain/port/TrainerPort";
 import { ReserveDTO } from "../DTOs/ReserveDTO";
-import { GetAllPlayersUseCase } from "./GetAllPlayersUseCase";
 
 export class CreateReserveUseCase {
   constructor(private trainerPort: TrainerPort, private notifier: Notifier) {}
@@ -43,7 +42,7 @@ export class CreateReserveUseCase {
     if (!team) {
       return null;
     }
-    const players = await this.trainerPort.getAllPlayers(trainerId, reserve.teamId)
+    const players = await this.trainerPort.getAllPlayers(trainerId, reserve.teamId);
     await this.notifier.createReserveNotification(players, team, centres, reserve);
 
   }

@@ -1,8 +1,9 @@
 import { Reserve } from "../../domain/model/Reserve";
+import { Notifier } from "../../domain/notifier/Notifier";
 import { TrainerPort } from "../../domain/port/TrainerPort";
 
 export class UpdateReserveByIdUseCase {
-  constructor(private trainerPort: TrainerPort) {}
+  constructor(private trainerPort: TrainerPort, private notifier: Notifier) {}
 
   async run(
     trainerId: string,
@@ -43,5 +44,12 @@ export class UpdateReserveByIdUseCase {
 
     centres.reserves.push(updatedReserve);
     await this.trainerPort.updateReserve(centres.reserves, trainerId, centresId);
+
+    const team = await this.trainerPort.findByTeamId(reserve.teamId, trainerId);
+    if (!team) {
+      return null;
+    }
+    const players = await this.trainerPort.getAllPlayers(trainerId, reserve.teamId);
+    await this.notifier.updateReserveNotification(players, team, centres, reserve);
   }
 }

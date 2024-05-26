@@ -8,4 +8,5 @@ export interface Notifier {
   createPlayerNotification(player: Player, team: Team, trainer: Trainer): Promise<void>;
   updatePlayerNotification(player: Player, team: Team, trainer: Trainer): Promise<void>;
   createReserveNotification(players: Player[], team: Team, centre: Centres, reserve: Reserve): Promise<void>;
+  updateReserveNotification(players: Player[], team: Team, centre: Centres, reserve: Reserve): Promise<void>;
 }

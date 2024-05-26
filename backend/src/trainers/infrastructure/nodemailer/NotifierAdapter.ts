@@ -95,4 +95,27 @@ export class NodemailerNotifier implements Notifier {
       });
     }
   }
+
+  async updateReserveNotification(
+    players: Player[],
+    team: Team,
+    centre: Centres,
+    reserve: Reserve
+  ) {
+    for (const player of players) {
+      console.log(player);
+      await this.transporter.sendMail({
+        from: '"TouchSport" <${process.env.NODEMAILER_USER}>',
+        to: player.email,
+        subject: "Se ha actualizado el entrenamiento.",
+        html: `
+              <p>Hola ${player.name},</p>
+              <p>Se va ha actualizado el entrenamiento para tu equipo ${team.name}.</p>
+              <p>Los nuevos datos del entrenamiento son:</p>
+              <p>El lugar del entreno es ${centre.name} localizado en ${centre.location}.</p>
+              <p>El horario del entreno es de ${reserve.startReserve} a ${reserve.endReserve}.</p>
+          `,
+      });
+    }
+  }
 }

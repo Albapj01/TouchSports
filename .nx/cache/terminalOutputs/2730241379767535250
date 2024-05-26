@@ -4,3 +4,523 @@ webpack compiled [1m[32msuccessfully[39m[22m (9c53361ce441e43f)
 [1m[31mDebugger listening on ws://localhost:9229/e2094b0e-41ac-4d47-b7d6-b0f25d8634ab[39m[22m
 [1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
 [1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 78.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9c53361ce441e43f)
+[1m[31mDebugger listening on ws://localhost:9229/92bdaaf8-6443-4b15-9f5b-c37e009e2a10[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/92bdaaf8-6443-4b15-9f5b-c37e009e2a10[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 78.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m145:69[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'NodemailerNotifier' is not assignable to parameter of type 'Notifier'.
+  Property 'updateReserveNotification' is missing in type 'NodemailerNotifier' but required in type 'Notifier'.
+  [0m [90m 143 |[39m )[33m;[39m
+   [90m 144 |[39m
+  [31m[1m>[22m[39m[90m 145 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 146 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m
+   [90m 147 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {
+   [90m 148 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m151:77[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'NodemailerNotifier' is not assignable to parameter of type 'Notifier'.
+  [0m [90m 149 |[39m })[33m;[39m
+   [90m 150 |[39m
+  [31m[1m>[22m[39m[90m 151 |[39m [36mconst[39m updatePlayerByIdUseCase [33m=[39m [36mnew[39m [33mUpdatePlayerByIdUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 152 |[39m [36mconst[39m updatePlayerByIdController [33m=[39m [36mnew[39m [33mUpdatePlayerByIdController[39m(
+   [90m 153 |[39m   updatePlayerByIdUseCase
+   [90m 154 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m233:71[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'NodemailerNotifier' is not assignable to parameter of type 'Notifier'.
+  [0m [90m 231 |[39m })[33m;[39m
+   [90m 232 |[39m
+  [31m[1m>[22m[39m[90m 233 |[39m [36mconst[39m createReserveUseCase [33m=[39m [36mnew[39m [33mCreateReserveUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 234 |[39m [36mconst[39m createReserveController [33m=[39m [36mnew[39m [33mCreateReserveController[39m(createReserveUseCase)[33m;[39m
+   [90m 235 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/centres/:centresId/reserve"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {
+   [90m 236 |[39m   [36mreturn[39m createReserveController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NotifierAdapter.ts:[32m[1m11:14[22m[39m[1m[39m[22m
+[90mTS2420: [39mClass 'NodemailerNotifier' incorrectly implements interface 'Notifier'.
+  Property 'updateReserveNotification' is missing in type 'NodemailerNotifier' but required in type 'Notifier'.
+  [0m [90m  9 |[39m [36mconst[39m nodemailer [33m=[39m require([32m"nodemailer"[39m)[33m;[39m
+   [90m 10 |[39m
+  [31m[1m>[22m[39m[90m 11 |[39m [36mexport[39m [36mclass[39m [33mNodemailerNotifier[39m [36mimplements[39m [33mNotifier[39m {
+   [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 12 |[39m   [36mprivate[39m transporter[33m:[39m [33mTransporter[39m[33m;[39m
+   [90m 13 |[39m
+   [90m 14 |[39m   constructor() {[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (9c53361ce441e43f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m145:69[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'NodemailerNotifier' is not assignable to parameter of type 'Notifier'.
+  Property 'updateReserveNotification' is missing in type 'NodemailerNotifier' but required in type 'Notifier'.
+  [0m [90m 143 |[39m )[33m;[39m
+   [90m 144 |[39m
+  [31m[1m>[22m[39m[90m 145 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 146 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m
+   [90m 147 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {
+   [90m 148 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m151:77[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'NodemailerNotifier' is not assignable to parameter of type 'Notifier'.
+  [0m [90m 149 |[39m })[33m;[39m
+   [90m 150 |[39m
+  [31m[1m>[22m[39m[90m 151 |[39m [36mconst[39m updatePlayerByIdUseCase [33m=[39m [36mnew[39m [33mUpdatePlayerByIdUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 152 |[39m [36mconst[39m updatePlayerByIdController [33m=[39m [36mnew[39m [33mUpdatePlayerByIdController[39m(
+   [90m 153 |[39m   updatePlayerByIdUseCase
+   [90m 154 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m233:71[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'NodemailerNotifier' is not assignable to parameter of type 'Notifier'.
+  [0m [90m 231 |[39m })[33m;[39m
+   [90m 232 |[39m
+  [31m[1m>[22m[39m[90m 233 |[39m [36mconst[39m createReserveUseCase [33m=[39m [36mnew[39m [33mCreateReserveUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 234 |[39m [36mconst[39m createReserveController [33m=[39m [36mnew[39m [33mCreateReserveController[39m(createReserveUseCase)[33m;[39m
+   [90m 235 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/centres/:centresId/reserve"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {
+   [90m 236 |[39m   [36mreturn[39m createReserveController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NotifierAdapter.ts:[32m[1m11:14[22m[39m[1m[39m[22m
+[90mTS2420: [39mClass 'NodemailerNotifier' incorrectly implements interface 'Notifier'.
+  Property 'updateReserveNotification' is missing in type 'NodemailerNotifier' but required in type 'Notifier'.
+  [0m [90m  9 |[39m [36mconst[39m nodemailer [33m=[39m require([32m"nodemailer"[39m)[33m;[39m
+   [90m 10 |[39m
+  [31m[1m>[22m[39m[90m 11 |[39m [36mexport[39m [36mclass[39m [33mNodemailerNotifier[39m [36mimplements[39m [33mNotifier[39m {
+   [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 12 |[39m   [36mprivate[39m transporter[33m:[39m [33mTransporter[39m[33m;[39m
+   [90m 13 |[39m
+   [90m 14 |[39m   constructor() {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NotifierAdapter.ts:[32m[1m77:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 75 |[39m   }
+   [90m 76 |[39m
+  [31m[1m>[22m[39m[90m 77 |[39m   [36masync[39m createReserveNotification(
+   [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 78 |[39m     players[33m:[39m [33mPlayer[39m[][33m,[39m
+   [90m 79 |[39m     team[33m:[39m [33mTeam[39m[33m,[39m
+   [90m 80 |[39m     centre[33m:[39m [33mCentres[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NotifierAdapter.ts:[32m[1m99:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m  97 |[39m   }
+   [90m  98 |[39m
+  [31m[1m>[22m[39m[90m  99 |[39m   [36masync[39m createReserveNotification(
+   [90m     |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 100 |[39m     players[33m:[39m [33mPlayer[39m[][33m,[39m
+   [90m 101 |[39m     team[33m:[39m [33mTeam[39m[33m,[39m
+   [90m 102 |[39m     centre[33m:[39m [33mCentres[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (336b8cd5ffe52433)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ef414bbfec813573)
+[1m[31mDebugger listening on ws://localhost:9229/cf784463-fe1a-47a7-a7f1-048241769755[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cf784463-fe1a-47a7-a7f1-048241769755[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (be580762ba7d81cc)
+[1m[31mDebugger listening on ws://localhost:9229/eb93add7-e94d-4ce2-a2a4-8aedb92f0e92[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/eb93add7-e94d-4ce2-a2a4-8aedb92f0e92[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f5dbc9ea810cb21c)
+[1m[31mDebugger listening on ws://localhost:9229/d34ffa86-358f-4bbd-b595-3265584cfc27[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d34ffa86-358f-4bbd-b595-3265584cfc27[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d323ac98e4a39b46)
+[1m[31mDebugger listening on ws://localhost:9229/6fe43a21-e4a4-4f21-b953-51c188e47f46[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6fe43a21-e4a4-4f21-b953-51c188e47f46[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ab4478475c519f75)
+[1m[31mDebugger listening on ws://localhost:9229/9b7dcfc5-ef97-4378-89cf-72d3720e875e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9b7dcfc5-ef97-4378-89cf-72d3720e875e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8eabc79a4af7e86b)
+[1m[31mDebugger listening on ws://localhost:9229/13283b90-f4b5-45ae-8d6f-8c2ad9c7bc14[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/13283b90-f4b5-45ae-8d6f-8c2ad9c7bc14[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (10a58ebf3bf6a505)
+[1m[31mDebugger listening on ws://localhost:9229/9e95ad46-3795-467e-828b-c496c289360f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9e95ad46-3795-467e-828b-c496c289360f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7d57b4e0ce5492c8)
+[1m[31mDebugger listening on ws://localhost:9229/5a03981a-4b7b-4ae7-9cbc-b7504decf602[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5a03981a-4b7b-4ae7-9cbc-b7504decf602[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts:[32m[1m46:16[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'tr' does not exist on type 'UpdateReserveByIdUseCase'.
+  [0m [90m 44 |[39m     centres[33m.[39mreserves[33m.[39mpush(updatedReserve)[33m;[39m
+   [90m 45 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mupdateReserve(centres[33m.[39mreserves[33m,[39m trainerId[33m,[39m centresId)[33m;[39m
+  [31m[1m>[22m[39m[90m 46 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtr
+   [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 47 |[39m   }
+   [90m 48 |[39m }
+   [90m 49 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (e9110d5768b838b5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c47882e94cd876eb)
+[1m[31mDebugger listening on ws://localhost:9229/c8c4b279-13a1-4bc7-b7ef-f50825bc31c3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c8c4b279-13a1-4bc7-b7ef-f50825bc31c3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m239:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 237 |[39m })[33m;[39m
+   [90m 238 |[39m
+  [31m[1m>[22m[39m[90m 239 |[39m [36mconst[39m updateReserveByIdUseCase [33m=[39m [36mnew[39m [33mUpdateReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 240 |[39m [36mconst[39m updateReserveByIdController [33m=[39m [36mnew[39m [33mUpdateReserveByIdController[39m(
+   [90m 241 |[39m   updateReserveByIdUseCase
+   [90m 242 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts:[32m[1m5:67[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Notifier'.
+  [0m [90m 3 |[39m
+   [90m 4 |[39m [36mexport[39m [36mclass[39m [33mUpdateReserveByIdUseCase[39m {
+  [31m[1m>[22m[39m[90m 5 |[39m   constructor([36mprivate[39m trainerPort[33m:[39m [33mTrainerPort[39m[33m,[39m [36mprivate[39m notifier[33m:[39m [33mNotifier[39m) {}
+   [90m   |[39m                                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m
+   [90m 7 |[39m   [36masync[39m run(
+   [90m 8 |[39m     trainerId[33m:[39m string[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (02b68efecf54dffc)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m239:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 237 |[39m })[33m;[39m
+   [90m 238 |[39m
+  [31m[1m>[22m[39m[90m 239 |[39m [36mconst[39m updateReserveByIdUseCase [33m=[39m [36mnew[39m [33mUpdateReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 240 |[39m [36mconst[39m updateReserveByIdController [33m=[39m [36mnew[39m [33mUpdateReserveByIdController[39m(
+   [90m 241 |[39m   updateReserveByIdUseCase
+   [90m 242 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts:[32m[1m5:67[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Notifier'.
+  [0m [90m 3 |[39m
+   [90m 4 |[39m [36mexport[39m [36mclass[39m [33mUpdateReserveByIdUseCase[39m {
+  [31m[1m>[22m[39m[90m 5 |[39m   constructor([36mprivate[39m trainerPort[33m:[39m [33mTrainerPort[39m[33m,[39m [36mprivate[39m notifier[33m:[39m [33mNotifier[39m) {}
+   [90m   |[39m                                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m
+   [90m 7 |[39m   [36masync[39m run(
+   [90m 8 |[39m     trainerId[33m:[39m string[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (02b68efecf54dffc)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m239:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 237 |[39m })[33m;[39m
+   [90m 238 |[39m
+  [31m[1m>[22m[39m[90m 239 |[39m [36mconst[39m updateReserveByIdUseCase [33m=[39m [36mnew[39m [33mUpdateReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 240 |[39m [36mconst[39m updateReserveByIdController [33m=[39m [36mnew[39m [33mUpdateReserveByIdController[39m(
+   [90m 241 |[39m   updateReserveByIdUseCase
+   [90m 242 |[39m )[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (979eb53724b61403)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m239:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 237 |[39m })[33m;[39m
+   [90m 238 |[39m
+  [31m[1m>[22m[39m[90m 239 |[39m [36mconst[39m updateReserveByIdUseCase [33m=[39m [36mnew[39m [33mUpdateReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 240 |[39m [36mconst[39m updateReserveByIdController [33m=[39m [36mnew[39m [33mUpdateReserveByIdController[39m(
+   [90m 241 |[39m   updateReserveByIdUseCase
+   [90m 242 |[39m )[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8abac542dfe57cd3)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/UpdateReserveByIdUseCase.ts[39m[22m [1m[32m26:12[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (26:12)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             yield this.trainerPort.updateReserve(centres.reserves, trainerId, centresId);
+|             yield this.
+>             ;
+|         });
+|     }[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/UpdateReserveByIdUseCase.ts[39m[22m [1m[32m48:2-3[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts(48,3)[39m[22m
+[1m[31m      TS1003: Identifier expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m239:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 237 |[39m })[33m;[39m
+   [90m 238 |[39m
+  [31m[1m>[22m[39m[90m 239 |[39m [36mconst[39m updateReserveByIdUseCase [33m=[39m [36mnew[39m [33mUpdateReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 240 |[39m [36mconst[39m updateReserveByIdController [33m=[39m [36mnew[39m [33mUpdateReserveByIdController[39m(
+   [90m 241 |[39m   updateReserveByIdUseCase
+   [90m 242 |[39m )[33m;[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (5a9b7436e438f4dd)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/UpdateReserveByIdUseCase.ts[39m[22m [1m[32m26:12[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (26:12)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             yield this.trainerPort.updateReserve(centres.reserves, trainerId, centresId);
+|             yield this.notifier.
+>             ;
+|         });
+|     }[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/UpdateReserveByIdUseCase.ts[39m[22m [1m[32m48:2-3[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts(48,3)[39m[22m
+[1m[31m      TS1003: Identifier expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m239:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 237 |[39m })[33m;[39m
+   [90m 238 |[39m
+  [31m[1m>[22m[39m[90m 239 |[39m [36mconst[39m updateReserveByIdUseCase [33m=[39m [36mnew[39m [33mUpdateReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 240 |[39m [36mconst[39m updateReserveByIdController [33m=[39m [36mnew[39m [33mUpdateReserveByIdController[39m(
+   [90m 241 |[39m   updateReserveByIdUseCase
+   [90m 242 |[39m )[33m;[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (68180433cba50121)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m239:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 237 |[39m })[33m;[39m
+   [90m 238 |[39m
+  [31m[1m>[22m[39m[90m 239 |[39m [36mconst[39m updateReserveByIdUseCase [33m=[39m [36mnew[39m [33mUpdateReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 240 |[39m [36mconst[39m updateReserveByIdController [33m=[39m [36mnew[39m [33mUpdateReserveByIdController[39m(
+   [90m 241 |[39m   updateReserveByIdUseCase
+   [90m 242 |[39m )[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (3fe4df1e93a05dab)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m239:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 237 |[39m })[33m;[39m
+   [90m 238 |[39m
+  [31m[1m>[22m[39m[90m 239 |[39m [36mconst[39m updateReserveByIdUseCase [33m=[39m [36mnew[39m [33mUpdateReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 240 |[39m [36mconst[39m updateReserveByIdController [33m=[39m [36mnew[39m [33mUpdateReserveByIdController[39m(
+   [90m 241 |[39m   updateReserveByIdUseCase
+   [90m 242 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts:[32m[1m47:25[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 4 arguments, but got 0.
+  [0m [90m 45 |[39m     centres[33m.[39mreserves[33m.[39mpush(updatedReserve)[33m;[39m
+   [90m 46 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mupdateReserve(centres[33m.[39mreserves[33m,[39m trainerId[33m,[39m centresId)[33m;[39m
+  [31m[1m>[22m[39m[90m 47 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification()
+   [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 48 |[39m   }
+   [90m 49 |[39m }
+   [90m 50 |[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (b71380be6e686a05)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m239:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 237 |[39m })[33m;[39m
+   [90m 238 |[39m
+  [31m[1m>[22m[39m[90m 239 |[39m [36mconst[39m updateReserveByIdUseCase [33m=[39m [36mnew[39m [33mUpdateReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 240 |[39m [36mconst[39m updateReserveByIdController [33m=[39m [36mnew[39m [33mUpdateReserveByIdController[39m(
+   [90m 241 |[39m   updateReserveByIdUseCase
+   [90m 242 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts:[32m[1m47:25[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 4 arguments, but got 3.
+  [0m [90m 45 |[39m     centres[33m.[39mreserves[33m.[39mpush(updatedReserve)[33m;[39m
+   [90m 46 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mupdateReserve(centres[33m.[39mreserves[33m,[39m trainerId[33m,[39m centresId)[33m;[39m
+  [31m[1m>[22m[39m[90m 47 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m)
+   [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 48 |[39m   }
+   [90m 49 |[39m }
+   [90m 50 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts:[32m[1m47:51[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'players'.
+  [0m [90m 45 |[39m     centres[33m.[39mreserves[33m.[39mpush(updatedReserve)[33m;[39m
+   [90m 46 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mupdateReserve(centres[33m.[39mreserves[33m,[39m trainerId[33m,[39m centresId)[33m;[39m
+  [31m[1m>[22m[39m[90m 47 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m)
+   [90m    |[39m                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 48 |[39m   }
+   [90m 49 |[39m }
+   [90m 50 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts:[32m[1m47:60[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'team'.
+  [0m [90m 45 |[39m     centres[33m.[39mreserves[33m.[39mpush(updatedReserve)[33m;[39m
+   [90m 46 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mupdateReserve(centres[33m.[39mreserves[33m,[39m trainerId[33m,[39m centresId)[33m;[39m
+  [31m[1m>[22m[39m[90m 47 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m)
+   [90m    |[39m                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 48 |[39m   }
+   [90m 49 |[39m }
+   [90m 50 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (597a782617302202)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m239:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 237 |[39m })[33m;[39m
+   [90m 238 |[39m
+  [31m[1m>[22m[39m[90m 239 |[39m [36mconst[39m updateReserveByIdUseCase [33m=[39m [36mnew[39m [33mUpdateReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 240 |[39m [36mconst[39m updateReserveByIdController [33m=[39m [36mnew[39m [33mUpdateReserveByIdController[39m(
+   [90m 241 |[39m   updateReserveByIdUseCase
+   [90m 242 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts:[32m[1m47:51[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'players'.
+  [0m [90m 45 |[39m     centres[33m.[39mreserves[33m.[39mpush(updatedReserve)[33m;[39m
+   [90m 46 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mupdateReserve(centres[33m.[39mreserves[33m,[39m trainerId[33m,[39m centresId)[33m;[39m
+  [31m[1m>[22m[39m[90m 47 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)
+   [90m    |[39m                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 48 |[39m   }
+   [90m 49 |[39m }
+   [90m 50 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts:[32m[1m47:60[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'team'.
+  [0m [90m 45 |[39m     centres[33m.[39mreserves[33m.[39mpush(updatedReserve)[33m;[39m
+   [90m 46 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mupdateReserve(centres[33m.[39mreserves[33m,[39m trainerId[33m,[39m centresId)[33m;[39m
+  [31m[1m>[22m[39m[90m 47 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)
+   [90m    |[39m                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 48 |[39m   }
+   [90m 49 |[39m }
+   [90m 50 |[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (ce8774b3a21a7b65)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m239:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 237 |[39m })[33m;[39m
+   [90m 238 |[39m
+  [31m[1m>[22m[39m[90m 239 |[39m [36mconst[39m updateReserveByIdUseCase [33m=[39m [36mnew[39m [33mUpdateReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 240 |[39m [36mconst[39m updateReserveByIdController [33m=[39m [36mnew[39m [33mUpdateReserveByIdController[39m(
+   [90m 241 |[39m   updateReserveByIdUseCase
+   [90m 242 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts:[32m[1m47:51[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'players'.
+  [0m [90m 45 |[39m     centres[33m.[39mreserves[33m.[39mpush(updatedReserve)[33m;[39m
+   [90m 46 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mupdateReserve(centres[33m.[39mreserves[33m,[39m trainerId[33m,[39m centresId)[33m;[39m
+  [31m[1m>[22m[39m[90m 47 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 48 |[39m   }
+   [90m 49 |[39m }
+   [90m 50 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts:[32m[1m47:60[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'team'.
+  [0m [90m 45 |[39m     centres[33m.[39mreserves[33m.[39mpush(updatedReserve)[33m;[39m
+   [90m 46 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mupdateReserve(centres[33m.[39mreserves[33m,[39m trainerId[33m,[39m centresId)[33m;[39m
+  [31m[1m>[22m[39m[90m 47 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 48 |[39m   }
+   [90m 49 |[39m }
+   [90m 50 |[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (03b15f763b9bfd93)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m239:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 237 |[39m })[33m;[39m
+   [90m 238 |[39m
+  [31m[1m>[22m[39m[90m 239 |[39m [36mconst[39m updateReserveByIdUseCase [33m=[39m [36mnew[39m [33mUpdateReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 240 |[39m [36mconst[39m updateReserveByIdController [33m=[39m [36mnew[39m [33mUpdateReserveByIdController[39m(
+   [90m 241 |[39m   updateReserveByIdUseCase
+   [90m 242 |[39m )[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (f2b8fd2d8ab386ca)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m239:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 237 |[39m })[33m;[39m
+   [90m 238 |[39m
+  [31m[1m>[22m[39m[90m 239 |[39m [36mconst[39m updateReserveByIdUseCase [33m=[39m [36mnew[39m [33mUpdateReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 240 |[39m [36mconst[39m updateReserveByIdController [33m=[39m [36mnew[39m [33mUpdateReserveByIdController[39m(
+   [90m 241 |[39m   updateReserveByIdUseCase
+   [90m 242 |[39m )[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (2432749b6ce609ce)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m239:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 237 |[39m })[33m;[39m
+   [90m 238 |[39m
+  [31m[1m>[22m[39m[90m 239 |[39m [36mconst[39m updateReserveByIdUseCase [33m=[39m [36mnew[39m [33mUpdateReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 240 |[39m [36mconst[39m updateReserveByIdController [33m=[39m [36mnew[39m [33mUpdateReserveByIdController[39m(
+   [90m 241 |[39m   updateReserveByIdUseCase
+   [90m 242 |[39m )[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (781296ba286319c6)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ec84731b74d1c471)
+[1m[31mDebugger listening on ws://localhost:9229/fbdbc295-3cdc-452e-bab6-7afd1362a1df[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fbdbc295-3cdc-452e-bab6-7afd1362a1df[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
