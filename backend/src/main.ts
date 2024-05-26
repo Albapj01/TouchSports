@@ -230,7 +230,7 @@ router.delete("/api/trainer/:trainerId/centres/:centresId", async (req, res) => 
   return deleteCentresByIdController.handle(req, res);
 });
 
-const createReserveUseCase = new CreateReserveUseCase(trainerAdapter);
+const createReserveUseCase = new CreateReserveUseCase(trainerAdapter, notifier);
 const createReserveController = new CreateReserveController(createReserveUseCase);
 router.post("/api/trainer/:trainerId/centres/:centresId/reserve", async (req, res) => {
   return createReserveController.handle(req, res);

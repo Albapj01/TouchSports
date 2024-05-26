@@ -1,4 +1,6 @@
+import { Centres } from "../../domain/model/Centres";
 import { Player } from "../../domain/model/Player";
+import { Reserve } from "../../domain/model/Reserve";
 import { Team } from "../../domain/model/Team";
 import { Trainer } from "../../domain/model/Trainer";
 import { Notifier } from "../../domain/notifier/Notifier";
@@ -70,5 +72,27 @@ export class NodemailerNotifier implements Notifier {
             <p>Las mejoras que te ha escrito tu entrenador son: ${player.improvements}</p>
         `,
     });
+  }
+
+  async createReserveNotification(
+    players: Player[],
+    team: Team,
+    centre: Centres,
+    reserve: Reserve
+  ) {
+    for (const player of players) {
+      console.log(player);
+      await this.transporter.sendMail({
+        from: '"TouchSport" <${process.env.NODEMAILER_USER}>',
+        to: player.email,
+        subject: "Tienes un nuevo entrenamiento.",
+        html: `
+              <p>Hola ${player.name},</p>
+              <p>Se va ha realizar un nuevo entrenamiento para tu equipo ${team.name}.</p>
+              <p>El lugar del entreno es ${centre.name} localizado en ${centre.location}.</p>
+              <p>El horario del entreno es de ${reserve.startReserve} a ${reserve.endReserve}.</p>
+          `,
+      });
+    }
   }
 }
