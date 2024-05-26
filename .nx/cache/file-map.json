@@ -97,48 +97,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
-      },
-      {
         "file": "nx.json",
         "hash": "4595224623132836319"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
-      },
-      {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "15155952317156726532"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
       },
       {
         "file": "package.json",
         "hash": "16079508552978807636"
       },
       {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "15155952317156726532"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
+      },
+      {
         "file": "LICENSE",
         "hash": "15553496959705771468"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "README.md",
+        "hash": "10104707244890837311"
       }
     ],
     "projectFileMap": {
@@ -728,7 +728,7 @@
         },
         {
           "file": "backend/src/main.ts",
-          "hash": "12545163086191775686",
+          "hash": "15351806203269422943",
           "deps": [
             "npm:express",
             "npm:path",
@@ -841,7 +841,7 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts",
-          "hash": "11396173066746386379"
+          "hash": "13464268523345032995"
         },
         {
           "file": "backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts",
@@ -877,7 +877,7 @@
         },
         {
           "file": "backend/src/trainers/domain/notifier/Notifier.ts",
-          "hash": "124515049195254747"
+          "hash": "14126776344778216813"
         },
         {
           "file": "backend/src/trainers/domain/port/TrainerPort.ts",
@@ -1052,13 +1052,6 @@
           ]
         },
         {
-          "file": "backend/src/trainers/infrastructure/nodemailer/NodemailerNotifier.ts",
-          "hash": "5443686280156431958",
-          "deps": [
-            "npm:nodemailer"
-          ]
-        },
-        {
           "file": "backend/src/trainers/infrastructure/persistence/entities/TrainerEntity.ts",
           "hash": "2399686967507407507",
           "deps": [
@@ -1100,6 +1093,13 @@
           "hash": "5708803163266262522",
           "deps": [
             "npm:@nx/webpack"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/nodemailer/NotifierAdapter.ts",
+          "hash": "12171501893834032957",
+          "deps": [
+            "npm:nodemailer"
           ]
         }
       ],

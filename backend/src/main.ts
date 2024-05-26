@@ -54,7 +54,7 @@ import { GetReserveByIdUseCase } from "./trainers/application/usecases/GetReserv
 import { GetReserveByIdController } from "./trainers/infrastructure/controller/GetReserveByIdController";
 import { GetTrainerReservesUseCase } from "./trainers/application/usecases/GetTrainerReservesUseCase";
 import { GetTrainerReservesController } from "./trainers/infrastructure/controller/GetTrainerReservesController";
-import { NodemailerNotifier } from "./trainers/infrastructure/nodemailer/NodemailerNotifier";
+import { NodemailerNotifier } from "./trainers/infrastructure/nodemailer/NotifierAdapter";
 
 dotenv.config();
 const app = express();
@@ -148,7 +148,7 @@ router.post("/api/trainer/:trainerId/team/:teamId/player", async (req, res) => {
   return createPlayerController.handle(req, res);
 });
 
-const updatePlayerByIdUseCase = new UpdatePlayerByIdUseCase(trainerAdapter);
+const updatePlayerByIdUseCase = new UpdatePlayerByIdUseCase(trainerAdapter, notifier);
 const updatePlayerByIdController = new UpdatePlayerByIdController(
   updatePlayerByIdUseCase
 );

@@ -44,7 +44,30 @@ export class NodemailerNotifier implements Notifier {
             <p>Entrenamientos personalizados:</p>
             <p>Los entrenamientos técnicos a seguir son: ${player.technicalTraining}</p>
             <p>Los entrenamientos físicos a seguir son: ${player.physicalTraining}</p>
-            <p>Las mejoras que te ha escrito tu entrenador son:${player.improvements}</p>
+            <br></br>
+            <p>Las mejoras que te ha escrito tu entrenador son: ${player.improvements}</p>
+        `,
+    });
+  }
+
+  async updatePlayerNotification(player: Player, team: Team, trainer: Trainer) {
+    await this.transporter.sendMail({
+      from: '"TouchSport" <${process.env.NODEMAILER_USER}>',
+      to: player.email,
+      subject: "El entrenador ha modificado tus datos.",
+      html: `
+            <p>Las actualizaciones son: </p>
+            <p>Nombre: ${player.name}</p>
+            <p>Apellidos: ${player.surname}</p>
+            <p>Correo electrónico: ${player.email}</p>
+            <br></br>
+            <p>Tu dieta asignada es: ${player.diet}</p>
+            <br></br>
+            <p>Entrenamientos personalizados:</p>
+            <p>Los entrenamientos técnicos a seguir son: ${player.technicalTraining}</p>
+            <p>Los entrenamientos físicos a seguir son: ${player.physicalTraining}</p>
+            <br></br>
+            <p>Las mejoras que te ha escrito tu entrenador son: ${player.improvements}</p>
         `,
     });
   }

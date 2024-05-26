@@ -1,8 +1,9 @@
 import { Player } from "../../domain/model/Player";
+import { Notifier } from "../../domain/notifier/Notifier";
 import { TrainerPort } from "../../domain/port/TrainerPort";
 
 export class UpdatePlayerByIdUseCase {
-  constructor(private trainerPort: TrainerPort) {}
+  constructor(private trainerPort: TrainerPort, private notifier: Notifier) {}
 
   async run(
     trainerId: string,
@@ -40,5 +41,6 @@ export class UpdatePlayerByIdUseCase {
 
     team.players.push(updatedPlayer);
     await this.trainerPort.updatePlayer(team.players, trainerId, teamId);
+    await this.notifier.updatePlayerNotification(updatedPlayer, team, trainer);
   }
 }
