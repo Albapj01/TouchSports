@@ -524,3 +524,1534 @@ webpack compiled [1m[32msuccessfully[39m[22m (ec84731b74d1c471)
 [1m[31mDebugger listening on ws://localhost:9229/fbdbc295-3cdc-452e-bab6-7afd1362a1df[39m[22m
 [1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
 [1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ec84731b74d1c471)
+[1m[31mDebugger listening on ws://localhost:9229/920d6dc5-6159-432e-ad6a-4746148b472f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/920d6dc5-6159-432e-ad6a-4746148b472f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 79.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m145:69[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'NodemailerNotifier' is not assignable to parameter of type 'Notifier'.
+  Property 'deleteReserveNotification' is missing in type 'NodemailerNotifier' but required in type 'Notifier'.
+  [0m [90m 143 |[39m )[33m;[39m
+   [90m 144 |[39m
+  [31m[1m>[22m[39m[90m 145 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 146 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m
+   [90m 147 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {
+   [90m 148 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m151:77[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'NodemailerNotifier' is not assignable to parameter of type 'Notifier'.
+  [0m [90m 149 |[39m })[33m;[39m
+   [90m 150 |[39m
+  [31m[1m>[22m[39m[90m 151 |[39m [36mconst[39m updatePlayerByIdUseCase [33m=[39m [36mnew[39m [33mUpdatePlayerByIdUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 152 |[39m [36mconst[39m updatePlayerByIdController [33m=[39m [36mnew[39m [33mUpdatePlayerByIdController[39m(
+   [90m 153 |[39m   updatePlayerByIdUseCase
+   [90m 154 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m233:71[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'NodemailerNotifier' is not assignable to parameter of type 'Notifier'.
+  [0m [90m 231 |[39m })[33m;[39m
+   [90m 232 |[39m
+  [31m[1m>[22m[39m[90m 233 |[39m [36mconst[39m createReserveUseCase [33m=[39m [36mnew[39m [33mCreateReserveUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 234 |[39m [36mconst[39m createReserveController [33m=[39m [36mnew[39m [33mCreateReserveController[39m(createReserveUseCase)[33m;[39m
+   [90m 235 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/centres/:centresId/reserve"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {
+   [90m 236 |[39m   [36mreturn[39m createReserveController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m239:79[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'NodemailerNotifier' is not assignable to parameter of type 'Notifier'.
+  [0m [90m 237 |[39m })[33m;[39m
+   [90m 238 |[39m
+  [31m[1m>[22m[39m[90m 239 |[39m [36mconst[39m updateReserveByIdUseCase [33m=[39m [36mnew[39m [33mUpdateReserveByIdUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 240 |[39m [36mconst[39m updateReserveByIdController [33m=[39m [36mnew[39m [33mUpdateReserveByIdController[39m(
+   [90m 241 |[39m   updateReserveByIdUseCase
+   [90m 242 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NotifierAdapter.ts:[32m[1m11:14[22m[39m[1m[39m[22m
+[90mTS2420: [39mClass 'NodemailerNotifier' incorrectly implements interface 'Notifier'.
+  Property 'deleteReserveNotification' is missing in type 'NodemailerNotifier' but required in type 'Notifier'.
+  [0m [90m  9 |[39m [36mconst[39m nodemailer [33m=[39m require([32m"nodemailer"[39m)[33m;[39m
+   [90m 10 |[39m
+  [31m[1m>[22m[39m[90m 11 |[39m [36mexport[39m [36mclass[39m [33mNodemailerNotifier[39m [36mimplements[39m [33mNotifier[39m {
+   [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 12 |[39m   [36mprivate[39m transporter[33m:[39m [33mTransporter[39m[33m;[39m
+   [90m 13 |[39m
+   [90m 14 |[39m   constructor() {[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (ec84731b74d1c471)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 80.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m145:69[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'NodemailerNotifier' is not assignable to parameter of type 'Notifier'.
+  Property 'deleteReserveNotification' is missing in type 'NodemailerNotifier' but required in type 'Notifier'.
+  [0m [90m 143 |[39m )[33m;[39m
+   [90m 144 |[39m
+  [31m[1m>[22m[39m[90m 145 |[39m [36mconst[39m createPlayerUseCase [33m=[39m [36mnew[39m [33mCreatePalyerUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 146 |[39m [36mconst[39m createPlayerController [33m=[39m [36mnew[39m [33mCreatePlayerController[39m(createPlayerUseCase)[33m;[39m
+   [90m 147 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/team/:teamId/player"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {
+   [90m 148 |[39m   [36mreturn[39m createPlayerController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m151:77[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'NodemailerNotifier' is not assignable to parameter of type 'Notifier'.
+  [0m [90m 149 |[39m })[33m;[39m
+   [90m 150 |[39m
+  [31m[1m>[22m[39m[90m 151 |[39m [36mconst[39m updatePlayerByIdUseCase [33m=[39m [36mnew[39m [33mUpdatePlayerByIdUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 152 |[39m [36mconst[39m updatePlayerByIdController [33m=[39m [36mnew[39m [33mUpdatePlayerByIdController[39m(
+   [90m 153 |[39m   updatePlayerByIdUseCase
+   [90m 154 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m233:71[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'NodemailerNotifier' is not assignable to parameter of type 'Notifier'.
+  [0m [90m 231 |[39m })[33m;[39m
+   [90m 232 |[39m
+  [31m[1m>[22m[39m[90m 233 |[39m [36mconst[39m createReserveUseCase [33m=[39m [36mnew[39m [33mCreateReserveUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 234 |[39m [36mconst[39m createReserveController [33m=[39m [36mnew[39m [33mCreateReserveController[39m(createReserveUseCase)[33m;[39m
+   [90m 235 |[39m router[33m.[39mpost([32m"/api/trainer/:trainerId/centres/:centresId/reserve"[39m[33m,[39m [36masync[39m (req[33m,[39m res) [33m=>[39m {
+   [90m 236 |[39m   [36mreturn[39m createReserveController[33m.[39mhandle(req[33m,[39m res)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m239:79[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'NodemailerNotifier' is not assignable to parameter of type 'Notifier'.
+  [0m [90m 237 |[39m })[33m;[39m
+   [90m 238 |[39m
+  [31m[1m>[22m[39m[90m 239 |[39m [36mconst[39m updateReserveByIdUseCase [33m=[39m [36mnew[39m [33mUpdateReserveByIdUseCase[39m(trainerAdapter[33m,[39m notifier)[33m;[39m
+   [90m     |[39m                                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 240 |[39m [36mconst[39m updateReserveByIdController [33m=[39m [36mnew[39m [33mUpdateReserveByIdController[39m(
+   [90m 241 |[39m   updateReserveByIdUseCase
+   [90m 242 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NotifierAdapter.ts:[32m[1m11:14[22m[39m[1m[39m[22m
+[90mTS2420: [39mClass 'NodemailerNotifier' incorrectly implements interface 'Notifier'.
+  Property 'deleteReserveNotification' is missing in type 'NodemailerNotifier' but required in type 'Notifier'.
+  [0m [90m  9 |[39m [36mconst[39m nodemailer [33m=[39m require([32m"nodemailer"[39m)[33m;[39m
+   [90m 10 |[39m
+  [31m[1m>[22m[39m[90m 11 |[39m [36mexport[39m [36mclass[39m [33mNodemailerNotifier[39m [36mimplements[39m [33mNotifier[39m {
+   [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 12 |[39m   [36mprivate[39m transporter[33m:[39m [33mTransporter[39m[33m;[39m
+   [90m 13 |[39m
+   [90m 14 |[39m   constructor() {[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NotifierAdapter.ts:[32m[1m99:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m  97 |[39m   }
+   [90m  98 |[39m
+  [31m[1m>[22m[39m[90m  99 |[39m   [36masync[39m updateReserveNotification(
+   [90m     |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 100 |[39m     players[33m:[39m [33mPlayer[39m[][33m,[39m
+   [90m 101 |[39m     team[33m:[39m [33mTeam[39m[33m,[39m
+   [90m 102 |[39m     centre[33m:[39m [33mCentres[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/nodemailer/NotifierAdapter.ts:[32m[1m122:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 120 |[39m   }
+   [90m 121 |[39m
+  [31m[1m>[22m[39m[90m 122 |[39m   [36masync[39m updateReserveNotification(
+   [90m     |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 123 |[39m     players[33m:[39m [33mPlayer[39m[][33m,[39m
+   [90m 124 |[39m     team[33m:[39m [33mTeam[39m[33m,[39m
+   [90m 125 |[39m     centre[33m:[39m [33mCentres[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m7 errors[39m[22m (0a2119da8fc1387a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 80.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8f85ea893e526985)
+[1m[31mDebugger listening on ws://localhost:9229/76119899-94ad-4650-a414-f642126d3830[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/76119899-94ad-4650-a414-f642126d3830[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 80.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (691558779bdce889)
+[1m[31mDebugger listening on ws://localhost:9229/e04df316-ff06-4ca4-a973-ac17a48fcbe8[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e04df316-ff06-4ca4-a973-ac17a48fcbe8[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 80.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (287a680d09996211)
+[1m[31mDebugger listening on ws://localhost:9229/434b96db-22d3-4cb2-9f30-960634f7af6f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/434b96db-22d3-4cb2-9f30-960634f7af6f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 80.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2d43b587fe6a98dc)
+[1m[31mDebugger listening on ws://localhost:9229/dc160449-a099-4286-b2c1-b05979994df6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/dc160449-a099-4286-b2c1-b05979994df6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 80.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9f424b58a25bd8fc)
+[1m[31mDebugger listening on ws://localhost:9229/0e8dd8ca-904c-45bd-8255-395341ebb0cc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0e8dd8ca-904c-45bd-8255-395341ebb0cc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 80.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (40d23a8b95ea716c)
+[1m[31mDebugger listening on ws://localhost:9229/3f8adfd9-829d-498f-81af-1889f49333b0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3f8adfd9-829d-498f-81af-1889f49333b0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 80.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4836a7d518bbe099)
+[1m[31mDebugger listening on ws://localhost:9229/82575e90-33e4-4fcc-8882-948788f745cf[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/82575e90-33e4-4fcc-8882-948788f745cf[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 80.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4f8ee3a56ed731d1)
+[1m[31mDebugger listening on ws://localhost:9229/e9edee6e-1db4-4db5-b432-692fe97c55b6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e9edee6e-1db4-4db5-b432-692fe97c55b6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 80.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (52aab6265ccdcea9)
+[1m[31mDebugger listening on ws://localhost:9229/6982feda-6d11-4c30-b6ef-ed122b696881[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6982feda-6d11-4c30-b6ef-ed122b696881[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 80.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4f0e1760cacd6191)
+[1m[31mDebugger listening on ws://localhost:9229/87cc297f-5a8c-4820-94a0-d62d6247479a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/87cc297f-5a8c-4820-94a0-d62d6247479a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 80.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (feb8754157b1f1f5)
+[1m[31mDebugger listening on ws://localhost:9229/29af7211-ebef-4679-96d2-086d03bc277a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/29af7211-ebef-4679-96d2-086d03bc277a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 80.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (30d3b9567be38833)
+[1m[31mDebugger listening on ws://localhost:9229/86ac4e29-70ae-421c-be57-4d4f99302b26[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/86ac4e29-70ae-421c-be57-4d4f99302b26[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 80.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2632589b476452db)
+[1m[31mDebugger listening on ws://localhost:9229/6816714f-9b30-4448-92a9-0a116322b1b6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6816714f-9b30-4448-92a9-0a116322b1b6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 80.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m4:67[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Notifier'.
+  [0m [90m 2 |[39m
+   [90m 3 |[39m [36mexport[39m [36mclass[39m [33mDeleteReserveByIdUseCase[39m {
+  [31m[1m>[22m[39m[90m 4 |[39m   constructor([36mprivate[39m trainerPort[33m:[39m [33mTrainerPort[39m[33m,[39m [36mprivate[39m notifier[33m:[39m [33mNotifier[39m) {}
+   [90m   |[39m                                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 5 |[39m
+   [90m 6 |[39m   [36masync[39m run(
+   [90m 7 |[39m     trainerId[33m:[39m string[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (d41b6350b7aca2e3)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 80.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (476564dc9f871ebb)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m27:54[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 25 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mdeleteReserve(centres[33m.[39mreserves[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 26 |[39m
+  [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m    |[39m                                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 29 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 30 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m31:69[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 29 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 30 |[39m     }
+  [31m[1m>[22m[39m[90m 31 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 33 |[39m   }
+   [90m 34 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m32:75[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 30 |[39m     }
+   [90m 31 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+  [31m[1m>[22m[39m[90m 32 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 33 |[39m   }
+   [90m 34 |[39m }
+   [90m 35 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (8a0103e0121526e9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m30:54[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 28 |[39m       (reserve) [33m=>[39m reserve[33m.[39mreserveId [33m==[39m reserveId
+   [90m 29 |[39m     )[33m;[39m
+  [31m[1m>[22m[39m[90m 30 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m    |[39m                                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:69[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 36 |[39m   }
+   [90m 37 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m35:75[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 33 |[39m     }
+   [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+  [31m[1m>[22m[39m[90m 35 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m   }
+   [90m 37 |[39m }
+   [90m 38 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (4f6145baf244d671)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m30:54[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserves'?
+  [0m [90m 28 |[39m       (reserve) [33m=>[39m reserve[33m.[39mreserveId [33m==[39m reserveId
+   [90m 29 |[39m     )[33m;[39m
+  [31m[1m>[22m[39m[90m 30 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m    |[39m                                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:69[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserves'?
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 36 |[39m   }
+   [90m 37 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m35:75[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserves'?
+  [0m [90m 33 |[39m     }
+   [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+  [31m[1m>[22m[39m[90m 35 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m   }
+   [90m 37 |[39m }
+   [90m 38 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (78f4620707998baa)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m30:62[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'Reserve[]'.
+  [0m [90m 28 |[39m       (reserve) [33m=>[39m reserve[33m.[39mreserveId [33m==[39m reserveId
+   [90m 29 |[39m     )[33m;[39m
+  [31m[1m>[22m[39m[90m 30 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m    |[39m                                                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:77[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'Reserve[]'.
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 36 |[39m   }
+   [90m 37 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m35:75[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'Reserve[]' is not assignable to parameter of type 'Reserve'.
+  Type 'Reserve[]' is missing the following properties from type 'Reserve': trainerId, centresId, reserveId, name, and 7 more.
+  [0m [90m 33 |[39m     }
+   [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+  [31m[1m>[22m[39m[90m 35 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m   }
+   [90m 37 |[39m }
+   [90m 38 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (4597de8e3a079335)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m30:62[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'number'.
+  [0m [90m 28 |[39m       (reserve) [33m=>[39m reserve[33m.[39mreserveId [33m===[39m reserveId
+   [90m 29 |[39m     )[33m;[39m
+  [31m[1m>[22m[39m[90m 30 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m    |[39m                                                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:77[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'number'.
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 36 |[39m   }
+   [90m 37 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m35:75[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'Reserve'.
+  [0m [90m 33 |[39m     }
+   [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+  [31m[1m>[22m[39m[90m 35 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m   }
+   [90m 37 |[39m }
+   [90m 38 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (2b45ebc5c0bf3ebf)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/DeleteReserveByIdUseCase.ts[39m[22m [1m[32m27:18[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'reserve' has already been declared (27:18)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 return null;
+|             }
+>             const reserve = yield this.trainerPort.
+|             ;
+|             const players = yield this.trainerPort.getAllPlayers(trainerId, reserve.teamId);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/DeleteReserveByIdUseCase.ts[39m[22m [1m[32m34:43[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts(34,44)[39m[22m
+[1m[31m      TS1003: Identifier expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m27:11[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'reserve'.
+  [0m [90m 25 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mdeleteReserve(centres[33m.[39mreserves[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 26 |[39m
+  [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m reserve [33m=[39m centres[33m.[39mreserves[33m.[39mfindIndex(
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m       (reserve) [33m=>[39m reserve[33m.[39mreserveId [33m===[39m reserveId
+   [90m 29 |[39m     )[33m;[39m
+   [90m 30 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m30:62[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'number'.
+  [0m [90m 28 |[39m       (reserve) [33m=>[39m reserve[33m.[39mreserveId [33m===[39m reserveId
+   [90m 29 |[39m     )[33m;[39m
+  [31m[1m>[22m[39m[90m 30 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m    |[39m                                                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:11[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'reserve'.
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39m
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m35:77[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'number'.
+  [0m [90m 33 |[39m     }
+   [90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39m
+  [31m[1m>[22m[39m[90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m36:75[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'Reserve'.
+  [0m [90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39m
+   [90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }
+   [90m 39 |[39m[0m
+
+webpack compiled with [1m[31m8 errors[39m[22m (a5c3a83485d859db)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/DeleteReserveByIdUseCase.ts[39m[22m [1m[32m27:18[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'reserve' has already been declared (27:18)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 return null;
+|             }
+>             const reserve = yield this.trainerPort.fi;
+|             const players = yield this.trainerPort.getAllPlayers(trainerId, reserve.teamId);
+|             yield this.notifier.updateReserveNotification(players, team, centres, reserve);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m27:11[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'reserve'.
+  [0m [90m 25 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mdeleteReserve(centres[33m.[39mreserves[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 26 |[39m
+  [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m reserve [33m=[39m centres[33m.[39mreserves[33m.[39mfindIndex(
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m       (reserve) [33m=>[39m reserve[33m.[39mreserveId [33m===[39m reserveId
+   [90m 29 |[39m     )[33m;[39m
+   [90m 30 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m30:62[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'number'.
+  [0m [90m 28 |[39m       (reserve) [33m=>[39m reserve[33m.[39mreserveId [33m===[39m reserveId
+   [90m 29 |[39m     )[33m;[39m
+  [31m[1m>[22m[39m[90m 30 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m    |[39m                                                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:11[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'reserve'.
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfi
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:44[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'fi' does not exist on type 'TrainerPort'.
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfi
+   [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m35:77[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'number'.
+  [0m [90m 33 |[39m     }
+   [90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfi
+  [31m[1m>[22m[39m[90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m36:75[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'Reserve'.
+  [0m [90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfi
+   [90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }
+   [90m 39 |[39m[0m
+
+webpack compiled with [1m[31m8 errors[39m[22m (4721e17c7b8ead65)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/DeleteReserveByIdUseCase.ts[39m[22m [1m[32m27:18[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'reserve' has already been declared (27:18)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 return null;
+|             }
+>             const reserve = yield this.trainerPort.findByReserveId;
+|             const players = yield this.trainerPort.getAllPlayers(trainerId, reserve.teamId);
+|             yield this.notifier.updateReserveNotification(players, team, centres, reserve);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m27:11[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'reserve'.
+  [0m [90m 25 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mdeleteReserve(centres[33m.[39mreserves[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 26 |[39m
+  [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m reserve [33m=[39m centres[33m.[39mreserves[33m.[39mfindIndex(
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m       (reserve) [33m=>[39m reserve[33m.[39mreserveId [33m===[39m reserveId
+   [90m 29 |[39m     )[33m;[39m
+   [90m 30 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m30:62[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'number'.
+  [0m [90m 28 |[39m       (reserve) [33m=>[39m reserve[33m.[39mreserveId [33m===[39m reserveId
+   [90m 29 |[39m     )[33m;[39m
+  [31m[1m>[22m[39m[90m 30 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m    |[39m                                                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:11[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'reserve'.
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m35:77[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'number'.
+  [0m [90m 33 |[39m     }
+   [90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId
+  [31m[1m>[22m[39m[90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m36:75[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'Reserve'.
+  [0m [90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId
+   [90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }
+   [90m 39 |[39m[0m
+
+webpack compiled with [1m[31m7 errors[39m[22m (e876cc4ad11f209a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/DeleteReserveByIdUseCase.ts[39m[22m [1m[32m27:18[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'reserve' has already been declared (27:18)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 return null;
+|             }
+>             const reserve = yield this.trainerPort.findByReserveId();
+|             const players = yield this.trainerPort.getAllPlayers(trainerId, reserve.teamId);
+|             yield this.notifier.updateReserveNotification(players, team, centres, reserve);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m27:11[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'reserve'.
+  [0m [90m 25 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mdeleteReserve(centres[33m.[39mreserves[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 26 |[39m
+  [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m reserve [33m=[39m centres[33m.[39mreserves[33m.[39mfindIndex(
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m       (reserve) [33m=>[39m reserve[33m.[39mreserveId [33m===[39m reserveId
+   [90m 29 |[39m     )[33m;[39m
+   [90m 30 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m30:62[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'number'.
+  [0m [90m 28 |[39m       (reserve) [33m=>[39m reserve[33m.[39mreserveId [33m===[39m reserveId
+   [90m 29 |[39m     )[33m;[39m
+  [31m[1m>[22m[39m[90m 30 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m    |[39m                                                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:11[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'reserve'.
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId()
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:44[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 3 arguments, but got 0.
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId()
+   [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m35:77[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'number'.
+  [0m [90m 33 |[39m     }
+   [90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId()
+  [31m[1m>[22m[39m[90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m36:75[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'Reserve'.
+  [0m [90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId()
+   [90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }
+   [90m 39 |[39m[0m
+
+webpack compiled with [1m[31m8 errors[39m[22m (c623499cbc348356)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/DeleteReserveByIdUseCase.ts[39m[22m [1m[32m27:18[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'reserve' has already been declared (27:18)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 return null;
+|             }
+>             const reserve = yield this.trainerPort.findByReserveId();
+|             const players = yield this.trainerPort.getAllPlayers(trainerId, reserve.teamId);
+|             yield this.notifier.updateReserveNotification(players, team, centres, reserve);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m27:11[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'reserve'.
+  [0m [90m 25 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mdeleteReserve(centres[33m.[39mreserves[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 26 |[39m
+  [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m reserve [33m=[39m centres[33m.[39mreserves[33m.[39mfindIndex(
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m       (reserve) [33m=>[39m reserve[33m.[39mreserveId [33m===[39m reserveId
+   [90m 29 |[39m     )[33m;[39m
+   [90m 30 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m30:62[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'number'.
+  [0m [90m 28 |[39m       (reserve) [33m=>[39m reserve[33m.[39mreserveId [33m===[39m reserveId
+   [90m 29 |[39m     )[33m;[39m
+  [31m[1m>[22m[39m[90m 30 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m    |[39m                                                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:11[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'reserve'.
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId()[33m;[39m
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:44[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 3 arguments, but got 0.
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId()[33m;[39m
+   [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m35:77[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'number'.
+  [0m [90m 33 |[39m     }
+   [90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId()[33m;[39m
+  [31m[1m>[22m[39m[90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m36:75[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'Reserve'.
+  [0m [90m 34 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId()[33m;[39m
+   [90m 35 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }
+   [90m 39 |[39m[0m
+
+webpack compiled with [1m[31m8 errors[39m[22m (c623499cbc348356)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m27:54[22m[39m[1m[39m[22m
+[90mTS2448: [39mBlock-scoped variable 'reserve' used before its declaration.
+  [0m [90m 25 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mdeleteReserve(centres[33m.[39mreserves[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 26 |[39m
+  [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m    |[39m                                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 29 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 30 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m31:44[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 3 arguments, but got 0.
+  [0m [90m 29 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 30 |[39m     }
+  [31m[1m>[22m[39m[90m 31 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId()[33m;[39m
+   [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m 33 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 34 |[39m   }[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (74fdb0a43c0c7dd2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m27:54[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 25 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mdeleteReserve(centres[33m.[39mreserves[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 26 |[39m
+  [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m    |[39m                                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 29 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 30 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m31:69[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 29 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 30 |[39m     }
+  [31m[1m>[22m[39m[90m 31 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 33 |[39m   }
+   [90m 34 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m32:75[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 30 |[39m     }
+   [90m 31 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+  [31m[1m>[22m[39m[90m 32 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 33 |[39m   }
+   [90m 34 |[39m }
+   [90m 35 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (65f83cdb3bbc0f0a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m26:44[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 3 arguments, but got 0.
+  [0m [90m 24 |[39m     )[33m;[39m
+   [90m 25 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mdeleteReserve(centres[33m.[39mreserves[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+  [31m[1m>[22m[39m[90m 26 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId()[33m;[39m
+   [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 27 |[39m
+   [90m 28 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m 29 |[39m     [36mif[39m ([33m![39mteam) {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (f3464a0689efc441)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m27:44[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 3 arguments, but got 0.
+  [0m [90m 25 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mdeleteReserve(centres[33m.[39mreserves[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 26 |[39m   
+  [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId()[33m;[39m
+   [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m
+   [90m 29 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m 30 |[39m     [36mif[39m ([33m![39mteam) {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (af7d0bedffa0bad3)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m27:44[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 3 arguments, but got 0.
+  [0m [90m 25 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mdeleteReserve(centres[33m.[39mreserves[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 26 |[39m   
+  [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId()[33m;[39m
+   [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m 29 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 30 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (fc28e7e7400c6aa4)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m27:44[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 3 arguments, but got 2.
+  [0m [90m 25 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mdeleteReserve(centres[33m.[39mreserves[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 26 |[39m   
+  [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId(reserveId[33m,[39m cen)[33m;[39m
+   [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m 29 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 30 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m27:71[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'cen'.
+  [0m [90m 25 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mdeleteReserve(centres[33m.[39mreserves[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 26 |[39m   
+  [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId(reserveId[33m,[39m cen)[33m;[39m
+   [90m    |[39m                                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m 29 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 30 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (680b18882a27d804)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m27:82[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'Trainer' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mdeleteReserve(centres[33m.[39mreserves[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 26 |[39m   
+  [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId(reserveId[33m,[39m centresId[33m,[39m trainer)[33m;[39m
+   [90m    |[39m                                                                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m 29 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 30 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (2cda9d741483527d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m269:34[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 267 |[39m )[33m;[39m
+   [90m 268 |[39m
+  [31m[1m>[22m[39m[90m 269 |[39m [36mconst[39m deleteReserveByIdUseCase [33m=[39m [36mnew[39m [33mDeleteReserveByIdUseCase[39m(trainerAdapter)[33m;[39m
+   [90m     |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 270 |[39m [36mconst[39m deleteReserveByIdController [33m=[39m [36mnew[39m [33mDeleteReserveByIdController[39m(
+   [90m 271 |[39m   deleteReserveByIdUseCase
+   [90m 272 |[39m )[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (66ce10aa3ddf44cf)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0d74bba9f5aa24eb)
+[1m[31mDebugger listening on ws://localhost:9229/5987fee2-3b7b-4858-9bf6-13ada5e0d0d9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5987fee2-3b7b-4858-9bf6-13ada5e0d0d9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c83a8155895a10e9)
+[1m[31mDebugger listening on ws://localhost:9229/43473947-d72b-44b8-aa9f-d80acc95a02a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/43473947-d72b-44b8-aa9f-d80acc95a02a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c83a8155895a10e9)
+[1m[31mDebugger listening on ws://localhost:9229/f38312a6-b202-4e7d-943e-dfe1f6089276[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f38312a6-b202-4e7d-943e-dfe1f6089276[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m26:13[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'lo' does not exist on type 'Console'.
+  [0m [90m 24 |[39m     )[33m;[39m
+   [90m 25 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mdeleteReserve(centres[33m.[39mreserves[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+  [31m[1m>[22m[39m[90m 26 |[39m     console[33m.[39mlo
+   [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 27 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId(reserveId[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 28 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m 29 |[39m     [36mif[39m ([33m![39mteam [33m&&[39m [33m![39mreserve) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (15f9bedca787dd50)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d69b16641dafb157)
+[1m[31mDebugger listening on ws://localhost:9229/51820a3d-e8a6-477e-b64e-ab18f0e015b0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/51820a3d-e8a6-477e-b64e-ab18f0e015b0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d69b16641dafb157)
+[1m[31mDebugger listening on ws://localhost:9229/0b3a8621-fd69-4e01-b07c-497331a49f0e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0b3a8621-fd69-4e01-b07c-497331a49f0e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (877f6f8d52d81f57)
+[1m[31mDebugger listening on ws://localhost:9229/06831c2b-a9cf-470a-9caf-f55e2aae2d15[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/06831c2b-a9cf-470a-9caf-f55e2aae2d15[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (07a6b4157b874ddc)
+[1m[31mDebugger listening on ws://localhost:9229/aad6f05f-641c-4788-851d-3407eb4d85de[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/aad6f05f-641c-4788-851d-3407eb4d85de[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (19e75ddbe4574354)
+[1m[31mDebugger listening on ws://localhost:9229/0ae1474b-1fe3-4f14-9df3-b4360aacc7dc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0ae1474b-1fe3-4f14-9df3-b4360aacc7dc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a40e22eb73f959c9)
+[1m[31mDebugger listening on ws://localhost:9229/29a408a3-9a72-4c72-9b67-7fe33bd40384[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/29a408a3-9a72-4c72-9b67-7fe33bd40384[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (789e8929f36ddf19)
+[1m[31mDebugger listening on ws://localhost:9229/68fccf3c-5775-4705-8a6c-f6e5e2d9113c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/68fccf3c-5775-4705-8a6c-f6e5e2d9113c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (37c57f60f71d2d5f)
+[1m[31mDebugger listening on ws://localhost:9229/1f866215-0328-4bb3-8a34-2514d3aadc94[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1f866215-0328-4bb3-8a34-2514d3aadc94[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7a01737cc331ea18)
+[1m[31mDebugger listening on ws://localhost:9229/4eebb163-d5b4-488c-8b9d-7ed6da56039a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4eebb163-d5b4-488c-8b9d-7ed6da56039a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ca67a424f2cf8a4b)
+[1m[31mDebugger listening on ws://localhost:9229/a14180bb-e647-4ddb-9c3f-c5361dde8039[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a14180bb-e647-4ddb-9c3f-c5361dde8039[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bb4e5b973d2955cb)
+[1m[31mDebugger listening on ws://localhost:9229/ed9d8c15-427e-4f52-b2dd-af672ab073ea[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ed9d8c15-427e-4f52-b2dd-af672ab073ea[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ee0bb26206a88618)
+[1m[31mDebugger listening on ws://localhost:9229/283e1032-8332-4653-b22d-1871d942bd51[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/283e1032-8332-4653-b22d-1871d942bd51[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m29:54[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 27 |[39m     [36mconst[39m reserveToDelete [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId(reserveId[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 28 |[39m     console[33m.[39mlog([32m"llego hasta aquí 2"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 29 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m    |[39m                                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 30 |[39m     console[33m.[39mlog([32m"llego hasta aquí 3"[39m)[33m;[39m
+   [90m 31 |[39m     [36mif[39m ([33m![39mteam [33m&&[39m [33m![39mreserve) {
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m31:19[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 29 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m 30 |[39m     console[33m.[39mlog([32m"llego hasta aquí 3"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 31 |[39m     [36mif[39m ([33m![39mteam [33m&&[39m [33m![39mreserve) {
+   [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+   [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:69[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     console[33m.[39mlog([32m"llego hasta aquí 4"[39m)[33m;[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m36:75[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m 35 |[39m     console[33m.[39mlog([32m"llego hasta aquí 4"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }
+   [90m 39 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (f9425f29233e46bf)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m31:19[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 29 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserveToDelete[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m 30 |[39m     console[33m.[39mlog([32m"llego hasta aquí 3"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 31 |[39m     [36mif[39m ([33m![39mteam [33m&&[39m [33m![39mreserve) {
+   [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+   [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:69[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     console[33m.[39mlog([32m"llego hasta aquí 4"[39m)[33m;[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m36:75[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m 35 |[39m     console[33m.[39mlog([32m"llego hasta aquí 4"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }
+   [90m 39 |[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (672e08e7380056a3)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:69[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     console[33m.[39mlog([32m"llego hasta aquí 4"[39m)[33m;[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m36:75[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m 35 |[39m     console[33m.[39mlog([32m"llego hasta aquí 4"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }
+   [90m 39 |[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (787001dbe7b1fadd)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m36:75[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserveToDelete[33m.[39mteamId)[33m;[39m
+   [90m 35 |[39m     console[33m.[39mlog([32m"llego hasta aquí 4"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }
+   [90m 39 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (b0e3de048d6aa241)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4fc292fe8ca13afa)
+[1m[31mDebugger listening on ws://localhost:9229/4194dc59-ece3-454c-b7d3-271b539be94a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4194dc59-ece3-454c-b7d3-271b539be94a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m31:19[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 29 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserveToDelete[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m 30 |[39m     console[33m.[39mlog([32m"llego hasta aquí 3"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 31 |[39m     [36mif[39m ([33m![39mteam [33m&&[39m [33m![39mreserve) {
+   [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+   [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:69[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     console[33m.[39mlog([32m"llego hasta aquí 4"[39m)[33m;[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m36:75[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m 35 |[39m     console[33m.[39mlog([32m"llego hasta aquí 4"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }
+   [90m 39 |[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (f0cc2d1cb5e9cd22)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m29:54[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 27 |[39m     [36mconst[39m reserveToDelete [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId(reserveId[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 28 |[39m     console[33m.[39mlog([32m"llego hasta aquí 2"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 29 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m    |[39m                                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 30 |[39m     console[33m.[39mlog([32m"llego hasta aquí 3"[39m)[33m;[39m
+   [90m 31 |[39m     [36mif[39m ([33m![39mteam [33m&&[39m [33m![39mreserve) {
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m31:19[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 29 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m 30 |[39m     console[33m.[39mlog([32m"llego hasta aquí 3"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 31 |[39m     [36mif[39m ([33m![39mteam [33m&&[39m [33m![39mreserve) {
+   [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+   [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:69[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     console[33m.[39mlog([32m"llego hasta aquí 4"[39m)[33m;[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m36:75[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m 35 |[39m     console[33m.[39mlog([32m"llego hasta aquí 4"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }
+   [90m 39 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (b226767d1197a53d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m29:54[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveT'?
+  [0m [90m 27 |[39m     [36mconst[39m reserveT [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId(reserveId[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 28 |[39m     console[33m.[39mlog([32m"llego hasta aquí 2"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 29 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m    |[39m                                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 30 |[39m     console[33m.[39mlog([32m"llego hasta aquí 3"[39m)[33m;[39m
+   [90m 31 |[39m     [36mif[39m ([33m![39mteam [33m&&[39m [33m![39mreserve) {
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m31:19[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveT'?
+  [0m [90m 29 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m 30 |[39m     console[33m.[39mlog([32m"llego hasta aquí 3"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 31 |[39m     [36mif[39m ([33m![39mteam [33m&&[39m [33m![39mreserve) {
+   [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+   [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:69[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveT'?
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     console[33m.[39mlog([32m"llego hasta aquí 4"[39m)[33m;[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m36:75[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveT'?
+  [0m [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m 35 |[39m     console[33m.[39mlog([32m"llego hasta aquí 4"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }
+   [90m 39 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (2405fc622206ee03)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m29:54[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 27 |[39m     [36mconst[39m reserveTO [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId(reserveId[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 28 |[39m     console[33m.[39mlog([32m"llego hasta aquí 2"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 29 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m    |[39m                                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 30 |[39m     console[33m.[39mlog([32m"llego hasta aquí 3"[39m)[33m;[39m
+   [90m 31 |[39m     [36mif[39m ([33m![39mteam [33m&&[39m [33m![39mreserve) {
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m31:19[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 29 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m
+   [90m 30 |[39m     console[33m.[39mlog([32m"llego hasta aquí 3"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 31 |[39m     [36mif[39m ([33m![39mteam [33m&&[39m [33m![39mreserve) {
+   [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+   [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m34:69[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 32 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 33 |[39m     }
+  [31m[1m>[22m[39m[90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m    |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m     console[33m.[39mlog([32m"llego hasta aquí 4"[39m)[33m;[39m
+   [90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m 37 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m36:75[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'reserve'. Did you mean 'reserveId'?
+  [0m [90m 34 |[39m     [36mconst[39m players [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllPlayers(trainerId[33m,[39m reserve[33m.[39mteamId)[33m;[39m
+   [90m 35 |[39m     console[33m.[39mlog([32m"llego hasta aquí 4"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     [36mawait[39m [36mthis[39m[33m.[39mnotifier[33m.[39mupdateReserveNotification(players[33m,[39m team[33m,[39m centres[33m,[39m reserve)[33m;[39m
+   [90m    |[39m                                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m   }
+   [90m 38 |[39m }
+   [90m 39 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (314b8318ab621abf)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (461d383a05a3aaf0)
+[1m[31mDebugger listening on ws://localhost:9229/c651a875-f31d-46eb-8c53-b0972efe360a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c651a875-f31d-46eb-8c53-b0972efe360a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (26a05ca9135145ff)
+[1m[31mDebugger listening on ws://localhost:9229/7fefb2a3-5f08-46f3-938d-8cb0eb8efe44[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7fefb2a3-5f08-46f3-938d-8cb0eb8efe44[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts:[32m[1m29:10[22m[39m[1m[39m[22m
+[90mTS2448: [39mBlock-scoped variable 'team' used before its declaration.
+  [0m [90m 27 |[39m     [36mconst[39m reserve [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByReserveId(reserveId[33m,[39m centresId[33m,[39m trainerId)[33m;[39m
+   [90m 28 |[39m     console[33m.[39mlog([32m"llego hasta aquí 2"[39m)[33m;[39m
+  [31m[1m>[22m[39m[90m 29 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 30 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 31 |[39m     }
+   [90m 32 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(reserve[33m.[39mteamId[33m,[39m trainerId)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (5f97b35a5433624b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 81.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4a29144301126970)
+[1m[31mDebugger listening on ws://localhost:9229/0c5a83bd-3f70-4297-a94d-3c9a877d5b63[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0c5a83bd-3f70-4297-a94d-3c9a877d5b63[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

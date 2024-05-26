@@ -266,7 +266,7 @@ router.get(
   }
 );
 
-const deleteReserveByIdUseCase = new DeleteReserveByIdUseCase(trainerAdapter);
+const deleteReserveByIdUseCase = new DeleteReserveByIdUseCase(trainerAdapter, notifier);
 const deleteReserveByIdController = new DeleteReserveByIdController(
   deleteReserveByIdUseCase
 );

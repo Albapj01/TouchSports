@@ -81,7 +81,6 @@ export class NodemailerNotifier implements Notifier {
     reserve: Reserve
   ) {
     for (const player of players) {
-      console.log(player);
       await this.transporter.sendMail({
         from: '"TouchSport" <${process.env.NODEMAILER_USER}>',
         to: player.email,
@@ -103,7 +102,6 @@ export class NodemailerNotifier implements Notifier {
     reserve: Reserve
   ) {
     for (const player of players) {
-      console.log(player);
       await this.transporter.sendMail({
         from: '"TouchSport" <${process.env.NODEMAILER_USER}>',
         to: player.email,
@@ -114,6 +112,27 @@ export class NodemailerNotifier implements Notifier {
               <p>Los nuevos datos del entrenamiento son:</p>
               <p>El lugar del entreno es ${centre.name} localizado en ${centre.location}.</p>
               <p>El horario del entreno es de ${reserve.startReserve} a ${reserve.endReserve}.</p>
+          `,
+      });
+    }
+  }
+
+  async deleteReserveNotification(
+    players: Player[],
+    team: Team,
+    centre: Centres,
+    reserve: Reserve
+  ) {
+    for (const player of players) {
+      await this.transporter.sendMail({
+        from: '"TouchSport" <${process.env.NODEMAILER_USER}>',
+        to: player.email,
+        subject: "Se ha cancelado el entrenamiento.",
+        html: `
+              <p>Hola ${player.name},</p>
+              <p>Se va ha cancelado el entrenamiento para tu equipo ${team.name} con los datos:</p>
+              <p>El lugar del entreno era en ${centre.name} localizado en ${centre.location}.</p>
+              <p>El horario del entreno era de ${reserve.startReserve} a ${reserve.endReserve}.</p>
           `,
       });
     }

@@ -1,7 +1,8 @@
+import { Notifier } from "../../domain/notifier/Notifier";
 import { TrainerPort } from "../../domain/port/TrainerPort";
 
 export class DeleteReserveByIdUseCase {
-  constructor(private trainerPort: TrainerPort) {}
+  constructor(private trainerPort: TrainerPort, private notifier: Notifier) {}
 
   async run(
     trainerId: string,
@@ -13,7 +14,10 @@ export class DeleteReserveByIdUseCase {
       return null;
     }
 
-    const centres = await this.trainerPort.findByCentresId(centresId, trainerId);
+    const centres = await this.trainerPort.findByCentresId(
+      centresId,
+      trainerId
+    );
     if (!centres) {
       return null;
     }
@@ -21,6 +25,35 @@ export class DeleteReserveByIdUseCase {
     centres.reserves = centres.reserves.filter(
       (reserve) => reserve.reserveId == reserveId
     );
-    await this.trainerPort.deleteReserve(centres.reserves, centresId, trainerId);
+    
+    const reserve = await this.trainerPort.findByReserveId(
+      reserveId,
+      centresId,
+      trainerId
+    );
+    if (!reserve) {
+      return null;
+    }
+
+    const team = await this.trainerPort.findByTeamId(reserve.teamId, trainerId);
+    if (!team) {
+      return null;
+    }
+
+    const players = await this.trainerPort.getAllPlayers(
+      trainerId,
+      reserve.teamId
+    );
+    await this.notifier.deleteReserveNotification(
+      players,
+      team,
+      centres,
+      reserve
+    );
+    await this.trainerPort.deleteReserve(
+      centres.reserves,
+      centresId,
+      trainerId
+    );
   }
 }
