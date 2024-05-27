@@ -48,6 +48,16 @@ export class MongoTrainerAdapter implements TrainerPort {
     }
     return null;
   }
+  async findByPlayerEmail(
+    email: string,
+    team: Team,
+  ): Promise<Player> {
+  
+    const player = team.players.find(
+      (player) => player.email === email
+    );
+    return player;
+  }
   async findByCentresId(
     centresId: string,
     trainerId: string
@@ -80,6 +90,10 @@ export class MongoTrainerAdapter implements TrainerPort {
   }
   async findById(trainerId: string): Promise<Trainer> {
     const trainer = await this.model.findOne({ trainerId: trainerId });
+    return TrainerMapper.toDomain(trainer);
+  }
+  async findByEmail(email: string): Promise<Trainer> {
+    const trainer = await this.model.findOne({ email: email });
     return TrainerMapper.toDomain(trainer);
   }
   async saveTrainer(trainer: Trainer): Promise<void> {

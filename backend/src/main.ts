@@ -55,6 +55,10 @@ import { GetReserveByIdController } from "./trainers/infrastructure/controller/G
 import { GetTrainerReservesUseCase } from "./trainers/application/usecases/GetTrainerReservesUseCase";
 import { GetTrainerReservesController } from "./trainers/infrastructure/controller/GetTrainerReservesController";
 import { NodemailerNotifier } from "./trainers/infrastructure/nodemailer/NotifierAdapter";
+import { GetPlayerByEmailUseCase } from "./trainers/application/usecases/GetPlayerByEmailUseCase";
+import { GetPlayerByEmailController } from "./trainers/infrastructure/controller/GetPlayerByEmailController";
+import { GetTrainerByEmailUseCase } from "./trainers/application/usecases/GetTrainerByEmailUseCase";
+import { GetTrainerByEmailController } from "./trainers/infrastructure/controller/GetTrainerByEmailController";
 
 dotenv.config();
 const app = express();
@@ -93,6 +97,14 @@ const getTrainerByIdUseController = new GetTrainerByIdController(
 );
 router.get("/api/trainer/:id", async (req, res) => {
   return getTrainerByIdUseController.handle(req, res);
+});
+
+const getTrainerByEmailUseCase = new GetTrainerByEmailUseCase(trainerAdapter);
+const getTrainerByEmailUseController = new GetTrainerByEmailController(
+  getTrainerByEmailUseCase
+);
+router.get("/api/trainer/:email", async (req, res) => {
+  return getTrainerByEmailUseController.handle(req, res);
 });
 
 const updateTrainerUseCase = new UpdateTrainerUseCase(trainerAdapter);
@@ -186,6 +198,17 @@ router.get(
   "/api/trainer/:trainerId/team/:teamId/player/:playerId",
   async (req, res) => {
     return getPlayerByIdController.handle(req, res);
+  }
+);
+
+const getPlayerByEmailUseCase = new GetPlayerByEmailUseCase(trainerAdapter);
+const getPlayerByEmailController = new GetPlayerByEmailController(
+  getPlayerByEmailUseCase
+);
+router.get(
+  "/api/trainer/:trainerId/team/:teamId/player/:email",
+  async (req, res) => {
+    return getPlayerByEmailController.handle(req, res);
   }
 );
 
