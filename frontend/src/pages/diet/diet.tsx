@@ -172,11 +172,6 @@ const Diet = () => {
   );
 };
 
-const ButtonContainer = styled.div`
-  margin-top: 10%;
-  margin-left: 24%;
-  width: 50%;
-`;
 
 const MealsContainer = styled.div`
   background-color: #1f7189;

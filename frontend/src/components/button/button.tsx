@@ -5,12 +5,13 @@ type ButtonProps = {
   color: string;
   icon: string;
   text: string;
+  onClick?: () => void;
 };
 
-const Button = ({ color, icon, text }: ButtonProps) => {
+const Button = ({ color, icon, text, onClick }: ButtonProps) => {
   return (
     <>
-      <StyledButton color={color}>
+      <StyledButton color={color} onClick={onClick}>
         <IonIcon slot="start" icon={icon} />
         {text}
       </StyledButton>

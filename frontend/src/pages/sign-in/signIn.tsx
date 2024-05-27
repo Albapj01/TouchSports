@@ -1,15 +1,21 @@
-import { IonContent, IonFooter, IonImg, IonPage } from "@ionic/react";
+import { IonContent, IonFooter, IonImg, IonList, IonPage } from "@ionic/react";
 import Logo from "frontend/src/components/logo/logo";
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 import { GoogleLogin } from "@react-oauth/google";
 import { useHistory } from "react-router-dom";
 import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import api from "../../utils/api/api";
+import Button from "frontend/src/components/button/button";
+import { personOutline, peopleOutline } from "ionicons/icons";
+import { useState } from "react";
+import Input from "frontend/src/components/input/input";
 
 const SignIn = () => {
   const history = useHistory();
+  const [selectedRole, setSelectedRole] = useState<String | null>(null);
+  const [email, setEmail] = useState("");
 
-  const response = async (credentialResponse: any) => {
+  const trainerResponse = async (credentialResponse: any) => {
     storage.set("token", credentialResponse.credential!);
 
     const { payload } = decodeJwt(storage.get("token"));
@@ -32,12 +38,33 @@ const SignIn = () => {
     history.push("/");
   };
 
+  const playerResponse = async (credentialResponse: any) => {
+    storage.set("token", credentialResponse.credential!);
+
+    const { payload } = decodeJwt(storage.get("token"));
+
+    const existingTrainer = await api.getTrainerById(email);
+
+    if(existingTrainer) {
+
+    }
+  
+
+    history.push("/");
+  };
+
+
   const error = () => {
     console.log("Login Failed, please try again with another account");
   };
 
+  const handleRoleSelection = (role: String) => {
+    setSelectedRole(role);
+  };
+
   return (
     <>
+      <GlobalStyle />
       <IonPage>
         <IonContent fullscreen>
           <BackgroundContainer>
@@ -47,9 +74,45 @@ const SignIn = () => {
             <SignInContainer>
               <Logo />
               <Space></Space>
-              <StyledButton>
-                <GoogleLogin onSuccess={response} onError={error} />
-              </StyledButton>
+              {!selectedRole && (
+                <>
+                  <Button
+                    color="primary"
+                    icon={personOutline}
+                    text="Entrenador"
+                    onClick={() => handleRoleSelection("entrenador")}
+                  />
+                  <Button
+                    color="primary"
+                    icon={peopleOutline}
+                    text="Jugador"
+                    onClick={() => handleRoleSelection("jugador")}
+                  />
+                </>
+              )}
+              {selectedRole === "entrenador" && (
+                <StyledButton>
+                  <GoogleLogin onSuccess={trainerResponse} onError={error} />
+                </StyledButton>
+              )}
+              {selectedRole === "jugador" && (
+                <>
+                  <IonList>
+                      <InputContainer>
+                        <Input
+                          label="Correo del entrenador"
+                          placeholder="Correo del entrenador"
+                          elements={(email) => setEmail(email)}
+                          value={email}
+                        />
+                      </InputContainer>
+                  </IonList>
+                  <br></br>
+                  <StyledButton>
+                    <GoogleLogin onSuccess={playerResponse} onError={error} />
+                  </StyledButton>
+                </>
+              )}
             </SignInContainer>
           </ContentContainer>
         </IonContent>
@@ -62,7 +125,7 @@ const SignIn = () => {
 const BackgroundContainer = styled.div`
   position: absolute;
   width: 100%;
-  height: 100vh; 
+  height: 100vh;
 `;
 
 const BackgroundImage = styled(IonImg)`
@@ -98,5 +161,25 @@ const StyledButton = styled.div`
 const Space = styled.div`
   margin-bottom: 30%;
 `;
+
+const InputContainer = styled.div`
+  width: 100%;
+`;
+
+const GlobalStyle = createGlobalStyle`
+    :root {
+      --ion-color-primary: #1f7189;
+    }
+
+    .no-margin-padding {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    ion-item {
+      border-color: white !important;
+    }
+
+  `;
 
 export default SignIn;
