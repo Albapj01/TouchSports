@@ -5,8 +5,17 @@ export class GetReserveByIdUseCase {
   constructor(private trainerPort: TrainerPort) {}
 
   async run(trainerId: string, centresId: string, reserveId: string): Promise<ReserveDTO> {
+    const trainer = await this.trainerPort.findById(trainerId);
+    if (!trainer) {
+      return null;
+    }
 
-    const reserve = await this.trainerPort.findByReserveId(reserveId, centresId, trainerId)
+    const centres = trainer.centres.find((centre) => centre.centresId === centresId);
+    if (!centres) {
+      return null;
+    }
+
+    const reserve = centres.reserves.find((reserve) => reserve.reserveId === reserveId);
     if (!reserve) {
       return null;
     }

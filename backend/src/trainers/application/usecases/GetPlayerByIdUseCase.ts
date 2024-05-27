@@ -6,7 +6,17 @@ export class GetPlayerByIdUseCase {
 
   async run(trainerId: string, teamId: string, playerId: string): Promise<PlayerDTO> {
 
-    const player = await this.trainerPort.findByPlayerId(playerId, teamId, trainerId)
+    const trainer = await this.trainerPort.findById(trainerId);
+    if (!trainer) {
+      return null;
+    }
+
+    const team = trainer.teams.find((team) => team.teamId === teamId);
+    if (!team) {
+      return null;
+    }
+
+    const player = team.players.find((player) => player.playerId === playerId);
     if (!player) {
       return null;
     }

@@ -9,11 +9,7 @@ export interface TrainerPort {
   updateTrainer(oldTrainer: Trainer, updateTrainer: Trainer): Promise<void>;
   findById(trainerId: string): Promise<Trainer>;
   findByEmail(email: string): Promise<Trainer>;
-  findByTeamId(teamId: string, trainerId: string): Promise<Team>;
-  findByPlayerId(playerId: string, teamId: string, trainerId: string): Promise<Player>;
   findByPlayerEmail(email: string, team: Team): Promise<Player>;
-  findByCentresId(centresId: string, trainerId: string): Promise<Centres>
-  findByReserveId(reserveId: string, centresId: string, trainerId: string): Promise<Reserve>;
   deleteTeam(team: Team[], trainerId: string): Promise<void>;
   saveTeam(team: Team, trainer: Trainer): Promise<void>;
   updateTeam(team: Team[], trainerId: string): Promise<void>;
@@ -21,13 +17,12 @@ export interface TrainerPort {
   deletePlayer(player: Player[], teamId: string, trainerId: string): Promise<void>;
   savePlayer(player: Player, team:Team, trainer: Trainer): Promise<void>;
   updatePlayer(player: Player[], trainerId: string, teamId: string): Promise<void>;
-  getAllPlayers(trainerId: string, teamId: string): Promise<Player[]>;
+  getAllPlayers(trainer: Trainer, teamId: string): Promise<Player[]>;
   saveCentres(centres: Centres, trainer: Trainer): Promise<void>;
   updateCentres(centres: Centres[], trainerId: string): Promise<void>;
   getAllCentres(trainerId: string): Promise<Centres[]>;
   deleteCentres(team: Centres[], trainerId: string): Promise<void>;
   saveReserve(reserve: Reserve, centres:Centres, trainer: Trainer): Promise<void>;
   updateReserve(reserve: Reserve[], trainerId: string, centresId: string): Promise<void>;
-  getAllReserves(trainerId: string, centresId: string): Promise<Reserve[]>;
   deleteReserve(reserve: Reserve[], centresId: string, trainerId: string): Promise<void>;
 }

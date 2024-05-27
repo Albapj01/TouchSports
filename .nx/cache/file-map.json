@@ -97,16 +97,36 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "15155952317156726532"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
       },
       {
         "file": "package.json",
         "hash": "16079508552978807636"
       },
       {
-        "file": "package-lock.json",
-        "hash": "15155952317156726532"
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "README.md",
+        "hash": "10104707244890837311"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
       },
       {
         "file": "nx.json",
@@ -117,28 +137,8 @@
         "hash": "16936441711144470533"
       },
       {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
-      },
-      {
         "file": "LICENSE",
         "hash": "15553496959705771468"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
       }
     ],
     "projectFileMap": {
@@ -767,11 +767,11 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/CreatePlayerUseCase.ts",
-          "hash": "6762884278892563653"
+          "hash": "12541093409524220268"
         },
         {
           "file": "backend/src/trainers/application/usecases/CreateReserveUseCase.ts",
-          "hash": "13904795689801249221"
+          "hash": "10598753690339406028"
         },
         {
           "file": "backend/src/trainers/application/usecases/CreateTeamUseCase.ts",
@@ -787,11 +787,11 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/DeletePlayerByIdUseCase.ts",
-          "hash": "11746786035604554913"
+          "hash": "4482636262426831614"
         },
         {
           "file": "backend/src/trainers/application/usecases/DeleteReserveByIdUseCase.ts",
-          "hash": "8269261390271610989"
+          "hash": "3684903968475844447"
         },
         {
           "file": "backend/src/trainers/application/usecases/DeleteTeamByIdUseCase.ts",
@@ -803,11 +803,11 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts",
-          "hash": "8055234883380719366"
+          "hash": "5261800743179273520"
         },
         {
           "file": "backend/src/trainers/application/usecases/GetAllReservesUseCase.ts",
-          "hash": "18013705301279418606"
+          "hash": "9088987196727494759"
         },
         {
           "file": "backend/src/trainers/application/usecases/GetAllTeamsUseCase.ts",
@@ -815,19 +815,19 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/GetCentresByIdUseCase.ts",
-          "hash": "15070494430945663606"
+          "hash": "8273869447253244093"
         },
         {
           "file": "backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts",
-          "hash": "17707765228805135200"
+          "hash": "4561750629413456616"
         },
         {
           "file": "backend/src/trainers/application/usecases/GetReserveByIdUseCase.ts",
-          "hash": "13346675405131306672"
+          "hash": "8328887063750017847"
         },
         {
           "file": "backend/src/trainers/application/usecases/GetTeamByIdUseCase.ts",
-          "hash": "18107593975870213467"
+          "hash": "11414325335703869658"
         },
         {
           "file": "backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts",
@@ -843,11 +843,11 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts",
-          "hash": "13464268523345032995"
+          "hash": "16612687216744877140"
         },
         {
           "file": "backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts",
-          "hash": "6341849148143954187"
+          "hash": "8109017317057489808"
         },
         {
           "file": "backend/src/trainers/application/usecases/UpdateTeamByIdUseCase.ts",
@@ -883,7 +883,7 @@
         },
         {
           "file": "backend/src/trainers/domain/port/TrainerPort.ts",
-          "hash": "1853643836462162544"
+          "hash": "3263202731958076132"
         },
         {
           "file": "backend/src/trainers/infrastructure/controller/CreateCentresController.ts",
@@ -1073,7 +1073,7 @@
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts",
-          "hash": "13450238702877398132",
+          "hash": "12423820658564870670",
           "deps": [
             "npm:mongoose"
           ]
@@ -1106,7 +1106,7 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts",
-          "hash": "9645970891822800221"
+          "hash": "13623227075866014170"
         },
         {
           "file": "backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts",

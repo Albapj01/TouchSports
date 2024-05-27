@@ -16,7 +16,7 @@ export class CreateReserveUseCase {
       return null;
     }
 
-    const centres = await this.trainerPort.findByCentresId(centresId, trainerId)
+    const centres = trainer.centres.find((centre) => centre.centresId === centresId);
     if (!centres) {
       return null;
     }
@@ -38,11 +38,12 @@ export class CreateReserveUseCase {
     centres.reserves.push(reserve);
     await this.trainerPort.saveReserve(reserve, centres, trainer);
 
-    const team = await this.trainerPort.findByTeamId(reserve.teamId, trainerId);
+    const team = trainer.teams.find((team) => team.teamId === reserve.teamId);
     if (!team) {
       return null;
     }
-    const players = await this.trainerPort.getAllPlayers(trainerId, reserve.teamId);
+
+    const players = await this.trainerPort.getAllPlayers(trainer, reserve.teamId);
     await this.notifier.createReserveNotification(players, team, centres, reserve);
 
   }

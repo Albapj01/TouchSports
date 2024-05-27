@@ -23,31 +23,6 @@ export class MongoTrainerAdapter implements TrainerPort {
       { $set: TrainerMapper.toEntity(updateTrainer) }
     );
   }
-  async findByTeamId(teamId: string, trainerId: string): Promise<Team> {
-    const trainer = await this.model.findOne({ trainerId });
-    if (trainer) {
-      const team = trainer.teams.find((team) => team.teamId === teamId);
-      return team;
-    }
-    return null;
-  }
-  async findByPlayerId(
-    playerId: string,
-    teamId: string,
-    trainerId: string
-  ): Promise<Player> {
-    const trainer = await this.model.findOne({ trainerId });
-    if (trainer) {
-      const team = trainer.teams.find((team) => team.teamId === teamId);
-      if (team) {
-        const player = team.players.find(
-          (player) => player.playerId === playerId
-        );
-        return player;
-      }
-    }
-    return null;
-  }
   async findByPlayerEmail(
     email: string,
     team: Team,
@@ -57,36 +32,6 @@ export class MongoTrainerAdapter implements TrainerPort {
       (player) => player.email === email
     );
     return player;
-  }
-  async findByCentresId(
-    centresId: string,
-    trainerId: string
-  ): Promise<Centres> {
-    const trainer = await this.model.findOne({ trainerId });
-    if (trainer) {
-      const centres = trainer.centres.find(
-        (centre) => centre.centresId === centresId
-      );
-      return centres;
-    }
-    return null;
-  }
-  async findByReserveId(
-    reserveId: string,
-    centresId: string,
-    trainerId: string
-  ): Promise<Reserve> {
-    const trainer = await this.model.findOne({ trainerId });
-    if (trainer) {
-      const centres = trainer.centres.find((centre) => centre.centresId === centresId);
-      if (centres) {
-        const reserve = centres.reserves.find(
-          (reserve) => reserve.reserveId === reserveId
-        );
-        return reserve;
-      }
-    }
-    return null;
   }
   async findById(trainerId: string): Promise<Trainer> {
     const trainer = await this.model.findOne({ trainerId: trainerId });
@@ -158,10 +103,8 @@ export class MongoTrainerAdapter implements TrainerPort {
       { $set: { "teams.$.players": players } }
     );
   }
-  async getAllPlayers(trainerId: string, teamId: string): Promise<Player[]> {
-    const trainer = await this.model.findOne({ trainerId: trainerId });
-    const domainTrainer = TrainerMapper.toDomain(trainer);
-    const team = domainTrainer.teams.find((team) => team.teamId === teamId);
+  async getAllPlayers(trainer: Trainer, teamId: string): Promise<Player[]> {
+    const team = trainer.teams.find((team) => team.teamId === teamId);
     return team.players;
   }
   async saveCentres(centres: Centres, trainer: Trainer): Promise<void> {
@@ -206,17 +149,6 @@ export class MongoTrainerAdapter implements TrainerPort {
       { trainerId: trainerId, "centres.centresId": centresId },
       { $set: { "centres.$.reserves": reserves } }
     );
-  }
-  async getAllReserves(
-    trainerId: string,
-    centresId: string
-  ): Promise<Reserve[]> {
-    const trainer = await this.model.findOne({ trainerId: trainerId });
-    const domainTrainer = TrainerMapper.toDomain(trainer);
-    const centres = domainTrainer.centres.find(
-      (centre) => centre.centresId === centresId
-    );
-    return centres.reserves;
   }
   async deleteReserve(
     reserves: Reserve[],

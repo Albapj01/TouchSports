@@ -6,7 +6,12 @@ export class GetPlayerByEmailUseCase {
 
   async run(trainerId: string, teamId: string, email: string): Promise<PlayerDTO> {
 
-    const team = await this.trainerPort.findByTeamId(teamId, trainerId);
+    const trainer = await this.trainerPort.findById(trainerId);
+    if(!trainer){
+        return null;
+    }
+
+    const team = trainer.teams.find((team) => team.teamId === teamId);
     if (!team) {
       return null;
     }

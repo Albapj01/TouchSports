@@ -14,10 +14,7 @@ export class DeleteReserveByIdUseCase {
       return null;
     }
 
-    const centres = await this.trainerPort.findByCentresId(
-      centresId,
-      trainerId
-    );
+    const centres = trainer.centres.find((centre) => centre.centresId === centresId);
     if (!centres) {
       return null;
     }
@@ -26,22 +23,18 @@ export class DeleteReserveByIdUseCase {
       (reserve) => reserve.reserveId == reserveId
     );
     
-    const reserve = await this.trainerPort.findByReserveId(
-      reserveId,
-      centresId,
-      trainerId
-    );
+    const reserve = centres.reserves.find((reserve) => reserve.reserveId === reserveId);
     if (!reserve) {
       return null;
     }
 
-    const team = await this.trainerPort.findByTeamId(reserve.teamId, trainerId);
+    const team = trainer.teams.find((team) => team.teamId === reserve.teamId);
     if (!team) {
       return null;
     }
 
     const players = await this.trainerPort.getAllPlayers(
-      trainerId,
+      trainer,
       reserve.teamId
     );
     await this.notifier.deleteReserveNotification(

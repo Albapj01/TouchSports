@@ -5,7 +5,12 @@ export class GetCentresByIdUseCase {
   constructor(private trainerPort: TrainerPort) {}
 
   async run(trainerId: string, centresId: string): Promise<CentresDTO> {
-    const centres = await this.trainerPort.findByCentresId(centresId, trainerId);
+    const trainer = await this.trainerPort.findById(trainerId);
+    if (!trainer) {
+      return null;
+    }
+    
+    const centres = trainer.centres.find((centre) => centre.centresId === centresId);
     if (!centres) {
       return null;
     }

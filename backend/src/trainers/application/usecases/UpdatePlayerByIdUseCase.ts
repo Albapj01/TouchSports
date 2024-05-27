@@ -16,7 +16,7 @@ export class UpdatePlayerByIdUseCase {
       return null;
     }
 
-    const team = await this.trainerPort.findByTeamId(teamId, trainerId);
+    const team = trainer.teams.find((team) => team.teamId === teamId);
     if (!team) {
       return null;
     }

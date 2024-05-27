@@ -11,7 +11,7 @@ export class GetAllReservesUseCase {
       return null;
     }
 
-    const centres = await this.trainerPort.findByCentresId(centresId, trainerId)
+    const centres = trainer.centres.find((centre) => centre.centresId === centresId);
     if (!centres) {
         return null;
     }
