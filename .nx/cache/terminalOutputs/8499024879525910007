@@ -1,0 +1,318 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 84.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (39ad7741dbcfa788)
+[1m[31mDebugger listening on ws://localhost:9229/c780e62a-c60e-4f11-8349-7d6112dc84b9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c780e62a-c60e-4f11-8349-7d6112dc84b9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 84.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0616391d1e88734d)
+[1m[31mDebugger listening on ws://localhost:9229/c364fec2-fbee-49fa-b01c-a3084e301bde[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c364fec2-fbee-49fa-b01c-a3084e301bde[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 84.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f55ad4d419046e76)
+[1m[31mDebugger listening on ws://localhost:9229/2b2c5531-79d8-4582-a610-4d9626fa9fb6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2b2c5531-79d8-4582-a610-4d9626fa9fb6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 84.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1e8f5476a372edfa)
+[1m[31mDebugger listening on ws://localhost:9229/33bd7b93-e9ff-42f1-9d55-04553708cdbc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/33bd7b93-e9ff-42f1-9d55-04553708cdbc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 84.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (35b3fbcad287bc1a)
+[1m[31mDebugger listening on ws://localhost:9229/fa0d7437-0a38-4bba-9857-730af0580aa5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fa0d7437-0a38-4bba-9857-730af0580aa5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/GetPlayerByEmailUseCase.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open '/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m58:41[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './trainers/application/usecases/GetPlayerByEmailUseCase' or its corresponding type declarations.
+  [0m [90m 56 |[39m [36mimport[39m { [33mGetTrainerReservesController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetTrainerReservesController"[39m[33m;[39m
+   [90m 57 |[39m [36mimport[39m { [33mNodemailerNotifier[39m } [36mfrom[39m [32m"./trainers/infrastructure/nodemailer/NotifierAdapter"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 58 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+   [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 59 |[39m [36mimport[39m { [33mGetPlayerByEmailController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetPlayerByEmailController"[39m[33m;[39m
+   [90m 60 |[39m
+   [90m 61 |[39m dotenv[33m.[39mconfig()[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts:[32m[1m2:41[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../application/usecases/GetPlayerByEmailUseCase' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mRequest[39m[33m,[39m [33mResponse[39m } [36mfrom[39m [32m"express"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"../../application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+   [90m   |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 3 |[39m
+   [90m 4 |[39m [36mexport[39m [36mclass[39m [33mGetPlayerByEmailController[39m {
+   [90m 5 |[39m   constructor([36mprivate[39m getPlayerByEmailUseCase[33m:[39m [33mGetPlayerByEmailUseCase[39m) {}[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (23ba223d37527608)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.2 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/GetPlayerByEmailUseCase.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open '/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m58:41[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './trainers/application/usecases/GetPlayerByEmailUseCase' or its corresponding type declarations.
+  [0m [90m 56 |[39m [36mimport[39m { [33mGetTrainerReservesController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetTrainerReservesController"[39m[33m;[39m
+   [90m 57 |[39m [36mimport[39m { [33mNodemailerNotifier[39m } [36mfrom[39m [32m"./trainers/infrastructure/nodemailer/NotifierAdapter"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 58 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+   [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 59 |[39m [36mimport[39m { [33mGetPlayerByEmailController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetPlayerByEmailController"[39m[33m;[39m
+   [90m 60 |[39m
+   [90m 61 |[39m dotenv[33m.[39mconfig()[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts:[32m[1m2:41[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../application/usecases/GetPlayerByEmailUseCase' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mRequest[39m[33m,[39m [33mResponse[39m } [36mfrom[39m [32m"express"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"../../application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+   [90m   |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 3 |[39m
+   [90m 4 |[39m [36mexport[39m [36mclass[39m [33mGetPlayerByEmailController[39m {
+   [90m 5 |[39m   constructor([36mprivate[39m getPlayerByEmailUseCase[33m:[39m [33mGetPlayerByEmailUseCase[39m) {}[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (23ba223d37527608)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.2 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/GetPlayerByEmailUseCase.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open '/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m58:41[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './trainers/application/usecases/GetPlayerByEmailUseCase' or its corresponding type declarations.
+  [0m [90m 56 |[39m [36mimport[39m { [33mGetTrainerReservesController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetTrainerReservesController"[39m[33m;[39m
+   [90m 57 |[39m [36mimport[39m { [33mNodemailerNotifier[39m } [36mfrom[39m [32m"./trainers/infrastructure/nodemailer/NotifierAdapter"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 58 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+   [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 59 |[39m [36mimport[39m { [33mGetPlayerByEmailController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetPlayerByEmailController"[39m[33m;[39m
+   [90m 60 |[39m
+   [90m 61 |[39m dotenv[33m.[39mconfig()[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts:[32m[1m2:41[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../application/usecases/GetPlayerByEmailUseCase' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mRequest[39m[33m,[39m [33mResponse[39m } [36mfrom[39m [32m"express"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"../../application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+   [90m   |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 3 |[39m
+   [90m 4 |[39m [36mexport[39m [36mclass[39m [33mGetPlayerByEmailController[39m {
+   [90m 5 |[39m   constructor([36mprivate[39m getPlayerByEmailUseCase[33m:[39m [33mGetPlayerByEmailUseCase[39m) {}[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (23ba223d37527608)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m58:41[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile '/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts' is not a module.
+  [0m [90m 56 |[39m [36mimport[39m { [33mGetTrainerReservesController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetTrainerReservesController"[39m[33m;[39m
+   [90m 57 |[39m [36mimport[39m { [33mNodemailerNotifier[39m } [36mfrom[39m [32m"./trainers/infrastructure/nodemailer/NotifierAdapter"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 58 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+   [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 59 |[39m [36mimport[39m { [33mGetPlayerByEmailController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetPlayerByEmailController"[39m[33m;[39m
+   [90m 60 |[39m
+   [90m 61 |[39m dotenv[33m.[39mconfig()[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts:[32m[1m2:41[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../application/usecases/GetPlayerByEmailUseCase' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mRequest[39m[33m,[39m [33mResponse[39m } [36mfrom[39m [32m"express"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"../../application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+   [90m   |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 3 |[39m
+   [90m 4 |[39m [36mexport[39m [36mclass[39m [33mGetPlayerByEmailController[39m {
+   [90m 5 |[39m   constructor([36mprivate[39m getPlayerByEmailUseCase[33m:[39m [33mGetPlayerByEmailUseCase[39m) {}[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (7f3ffc00754b2e1d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m58:41[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile '/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts' is not a module.
+  [0m [90m 56 |[39m [36mimport[39m { [33mGetTrainerReservesController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetTrainerReservesController"[39m[33m;[39m
+   [90m 57 |[39m [36mimport[39m { [33mNodemailerNotifier[39m } [36mfrom[39m [32m"./trainers/infrastructure/nodemailer/NotifierAdapter"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 58 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+   [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 59 |[39m [36mimport[39m { [33mGetPlayerByEmailController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetPlayerByEmailController"[39m[33m;[39m
+   [90m 60 |[39m
+   [90m 61 |[39m dotenv[33m.[39mconfig()[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts:[32m[1m2:41[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../application/usecases/GetPlayerByEmailUseCase' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mRequest[39m[33m,[39m [33mResponse[39m } [36mfrom[39m [32m"express"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"../../application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+   [90m   |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 3 |[39m
+   [90m 4 |[39m [36mexport[39m [36mclass[39m [33mGetPlayerByEmailController[39m {
+   [90m 5 |[39m   constructor([36mprivate[39m getPlayerByEmailUseCase[33m:[39m [33mGetPlayerByEmailUseCase[39m) {}[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (7f3ffc00754b2e1d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 84.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0298eda074acf1d3)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m59:44[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile '/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts' is not a module.
+  [0m [90m 57 |[39m [36mimport[39m { [33mNodemailerNotifier[39m } [36mfrom[39m [32m"./trainers/infrastructure/nodemailer/NotifierAdapter"[39m[33m;[39m
+   [90m 58 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 59 |[39m [36mimport[39m { [33mGetPlayerByEmailController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetPlayerByEmailController"[39m[33m;[39m
+   [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 60 |[39m
+   [90m 61 |[39m dotenv[33m.[39mconfig()[33m;[39m
+   [90m 62 |[39m [36mconst[39m app [33m=[39m express()[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (9f0357585ace0316)
+[1m[31mDebugger listening on ws://localhost:9229/09f892e7-3c2b-4382-98fb-cf3996907ce9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/09f892e7-3c2b-4382-98fb-cf3996907ce9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m/Users/albapalomino/TouchSports/dist/backend/main.js:2504[39m[22m
+[1m[31m/******/ })()[39m[22m
+[1m[31m           ^[39m[22m
+[1m[31m[39m[22m
+[1m[31mTypeError: GetPlayerByEmailController_1.GetPlayerByEmailController is not a constructor[39m[22m
+[1m[31m    at /Users/albapalomino/TouchSports/dist/backend/main.js:2426:36[39m[22m
+[1m[31m    at /Users/albapalomino/TouchSports/dist/backend/main.js:2499:3[39m[22m
+[1m[31m    at Object.<anonymous> (/Users/albapalomino/TouchSports/dist/backend/main.js:2504:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1254:14)[39m[22m
+[1m[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)[39m[22m
+[1m[31m    at Module.load (node:internal/modules/cjs/loader:1117:32)[39m[22m
+[1m[31m    at Function.Module._load (node:internal/modules/cjs/loader:958:12)[39m[22m
+[1m[31m    at Function.Module._load (/Users/albapalomino/TouchSports/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js:10:31)[39m[22m
+[1m[31m    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:169:29)[39m[22m
+[1m[31m    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open '/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m59:44[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile '/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts' is not a module.
+  [0m [90m 57 |[39m [36mimport[39m { [33mNodemailerNotifier[39m } [36mfrom[39m [32m"./trainers/infrastructure/nodemailer/NotifierAdapter"[39m[33m;[39m
+   [90m 58 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 59 |[39m [36mimport[39m { [33mGetPlayerByEmailController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetPlayerByEmailController"[39m[33m;[39m
+   [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 60 |[39m
+   [90m 61 |[39m dotenv[33m.[39mconfig()[33m;[39m
+   [90m 62 |[39m [36mconst[39m app [33m=[39m express()[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (10e64db8ae648e72)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open '/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m59:44[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile '/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts' is not a module.
+  [0m [90m 57 |[39m [36mimport[39m { [33mNodemailerNotifier[39m } [36mfrom[39m [32m"./trainers/infrastructure/nodemailer/NotifierAdapter"[39m[33m;[39m
+   [90m 58 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 59 |[39m [36mimport[39m { [33mGetPlayerByEmailController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetPlayerByEmailController"[39m[33m;[39m
+   [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 60 |[39m
+   [90m 61 |[39m dotenv[33m.[39mconfig()[33m;[39m
+   [90m 62 |[39m [36mconst[39m app [33m=[39m express()[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (10e64db8ae648e72)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open '/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m59:44[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile '/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts' is not a module.
+  [0m [90m 57 |[39m [36mimport[39m { [33mNodemailerNotifier[39m } [36mfrom[39m [32m"./trainers/infrastructure/nodemailer/NotifierAdapter"[39m[33m;[39m
+   [90m 58 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 59 |[39m [36mimport[39m { [33mGetPlayerByEmailController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetPlayerByEmailController"[39m[33m;[39m
+   [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 60 |[39m
+   [90m 61 |[39m dotenv[33m.[39mconfig()[33m;[39m
+   [90m 62 |[39m [36mconst[39m app [33m=[39m express()[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (10e64db8ae648e72)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m62:37-111[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './trainers/infrastructure/controller/GetPlayerByEmailController' in '/Users/albapalomino/TouchSports/backend/src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m59:44[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile '/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts' is not a module.
+  [0m [90m 57 |[39m [36mimport[39m { [33mNodemailerNotifier[39m } [36mfrom[39m [32m"./trainers/infrastructure/nodemailer/NotifierAdapter"[39m[33m;[39m
+   [90m 58 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 59 |[39m [36mimport[39m { [33mGetPlayerByEmailController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetPlayerByEmailController"[39m[33m;[39m
+   [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 60 |[39m
+   [90m 61 |[39m dotenv[33m.[39mconfig()[33m;[39m
+   [90m 62 |[39m [36mconst[39m app [33m=[39m express()[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (a3e14d21ce33a5c2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.4 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m62:37-111[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './trainers/infrastructure/controller/GetPlayerByEmailController' in '/Users/albapalomino/TouchSports/backend/src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m59:44[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile '/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts' is not a module.
+  [0m [90m 57 |[39m [36mimport[39m { [33mNodemailerNotifier[39m } [36mfrom[39m [32m"./trainers/infrastructure/nodemailer/NotifierAdapter"[39m[33m;[39m
+   [90m 58 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 59 |[39m [36mimport[39m { [33mGetPlayerByEmailController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetPlayerByEmailController"[39m[33m;[39m
+   [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 60 |[39m
+   [90m 61 |[39m dotenv[33m.[39mconfig()[33m;[39m
+   [90m 62 |[39m [36mconst[39m app [33m=[39m express()[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (a3e14d21ce33a5c2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.4 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m62:37-111[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './trainers/infrastructure/controller/GetPlayerByEmailController' in '/Users/albapalomino/TouchSports/backend/src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m59:44[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile '/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts' is not a module.
+  [0m [90m 57 |[39m [36mimport[39m { [33mNodemailerNotifier[39m } [36mfrom[39m [32m"./trainers/infrastructure/nodemailer/NotifierAdapter"[39m[33m;[39m
+   [90m 58 |[39m [36mimport[39m { [33mGetPlayerByEmailUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/GetPlayerByEmailUseCase"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 59 |[39m [36mimport[39m { [33mGetPlayerByEmailController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/GetPlayerByEmailController"[39m[33m;[39m
+   [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 60 |[39m
+   [90m 61 |[39m dotenv[33m.[39mconfig()[33m;[39m
+   [90m 62 |[39m [36mconst[39m app [33m=[39m express()[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (a3e14d21ce33a5c2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m194:40[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'GetPlayerByEmailController'. Did you mean 'getPlayerByEmailController'?
+  [0m [90m 192 |[39m
+   [90m 193 |[39m [36mconst[39m getPlayerByEmailUseCase [33m=[39m [36mnew[39m [33mGetPlayerByEmailUseCase[39m(trainerAdapter)[33m;[39m
+  [31m[1m>[22m[39m[90m 194 |[39m [36mconst[39m getPlayerByEmailController [33m=[39m [36mnew[39m [33mGetPlayerByEmailController[39m(
+   [90m     |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 195 |[39m   getPlayerByEmailUseCase
+   [90m 196 |[39m )[33m;[39m
+   [90m 197 |[39m router[33m.[39m[36mget[39m([0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4e4cea974187fa1e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 84.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d2a6ebcd2c63a8b4)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

@@ -97,48 +97,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
       },
       {
         "file": "package.json",
         "hash": "16079508552978807636"
       },
       {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
+        "file": "package-lock.json",
+        "hash": "15155952317156726532"
       },
       {
         "file": "nx.json",
         "hash": "4595224623132836319"
       },
       {
-        "file": "package-lock.json",
-        "hash": "15155952317156726532"
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
       },
       {
         "file": "README.md",
         "hash": "10104707244890837311"
       },
       {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       }
     ],
     "projectFileMap": {
@@ -239,7 +239,7 @@
         },
         {
           "file": "frontend/src/components/button/button.tsx",
-          "hash": "3830504778247971286",
+          "hash": "9744404881555705206",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components"
@@ -434,7 +434,7 @@
         },
         {
           "file": "frontend/src/pages/diet/diet.tsx",
-          "hash": "12821877819665665131",
+          "hash": "8536828342569961861",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -497,12 +497,14 @@
         },
         {
           "file": "frontend/src/pages/sign-in/signIn.tsx",
-          "hash": "6846005458471718440",
+          "hash": "13521308908912261675",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components",
             "npm:@react-oauth/google",
-            "npm:react-router-dom"
+            "npm:react-router-dom",
+            "npm:ionicons",
+            "npm:react"
           ]
         },
         {
@@ -728,7 +730,7 @@
         },
         {
           "file": "backend/src/main.ts",
-          "hash": "6708391797868212073",
+          "hash": "16972866807265463100",
           "deps": [
             "npm:express",
             "npm:path",
@@ -881,7 +883,7 @@
         },
         {
           "file": "backend/src/trainers/domain/port/TrainerPort.ts",
-          "hash": "7141867255047100720"
+          "hash": "1853643836462162544"
         },
         {
           "file": "backend/src/trainers/infrastructure/controller/CreateCentresController.ts",
@@ -1052,6 +1054,13 @@
           ]
         },
         {
+          "file": "backend/src/trainers/infrastructure/nodemailer/NotifierAdapter.ts",
+          "hash": "7923116778807277657",
+          "deps": [
+            "npm:nodemailer"
+          ]
+        },
+        {
           "file": "backend/src/trainers/infrastructure/persistence/entities/TrainerEntity.ts",
           "hash": "2399686967507407507",
           "deps": [
@@ -1064,7 +1073,7 @@
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts",
-          "hash": "6872967057430479779",
+          "hash": "13450238702877398132",
           "deps": [
             "npm:mongoose"
           ]
@@ -1096,10 +1105,25 @@
           ]
         },
         {
-          "file": "backend/src/trainers/infrastructure/nodemailer/NotifierAdapter.ts",
-          "hash": "7923116778807277657",
+          "file": "backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts",
+          "hash": "9645970891822800221"
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts",
+          "hash": "12110912006140093895",
           "deps": [
-            "npm:nodemailer"
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/GetTrainerByEmailUseCase.ts",
+          "hash": "8412919379600157279"
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/GetTrainerByEmailController.ts",
+          "hash": "8995690294984251783",
+          "deps": [
+            "npm:express"
           ]
         }
       ],

@@ -1,0 +1,1711 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (aab3d8b0da744cbf)
+[1m[31mDebugger listening on ws://localhost:9229/80da7da0-9caa-46a0-9e8d-bc1b6e8d8033[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/80da7da0-9caa-46a0-9e8d-bc1b6e8d8033[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m11:9[22m[39m[1m[39m[22m
+[90mTS2740: [39mType 'Trainer' is missing the following properties from type 'PlayerDTO': teamId, playerId, diet, technicalTraining, and 2 more.
+  [0m [90m  9 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindById(trainerId)[33m;[39m
+   [90m 10 |[39m     [36mif[39m([33m![39mtrainer){
+  [31m[1m>[22m[39m[90m 11 |[39m         [36mreturn[39m trainer[33m;[39m
+   [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 12 |[39m     }
+   [90m 13 |[39m
+   [90m 14 |[39m     [36mconst[39m team [33m=[39m trainer[33m.[39mteams[33m.[39mfind((team) [33m=>[39m team[33m.[39mteamId [33m===[39m teamId)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7df8094cc44a7dce)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (db24c167d998d897)
+[1m[31mDebugger listening on ws://localhost:9229/376be55d-4aeb-4d14-8db9-b45a86a9c939[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/376be55d-4aeb-4d14-8db9-b45a86a9c939[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m11:9[22m[39m[1m[39m[22m
+[90mTS2740: [39mType 'Trainer' is missing the following properties from type 'PlayerDTO': teamId, playerId, diet, technicalTraining, and 2 more.
+  [0m [90m  9 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindById(trainerId)[33m;[39m
+   [90m 10 |[39m     [36mif[39m([33m![39mtrainer){
+  [31m[1m>[22m[39m[90m 11 |[39m         [36mreturn[39m trainer[33m;[39m
+   [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 12 |[39m     }
+   [90m 13 |[39m
+   [90m 14 |[39m     [36mconst[39m team [33m=[39m trainer[33m.[39mteams[33m.[39mfind((team) [33m=>[39m team[33m.[39mteamId [33m===[39m teamId)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a796e97f7580d4f2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (61b36b0fae8f50da)
+[1m[31mDebugger listening on ws://localhost:9229/429a3716-9508-4579-9945-f8bbfe323ac6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/429a3716-9508-4579-9945-f8bbfe323ac6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m16:16[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'undefin'. Did you mean 'undefined'?
+  [0m [90m 14 |[39m     [36mconst[39m team [33m=[39m trainer[33m.[39mteams[33m.[39mfind((team) [33m=>[39m team[33m.[39mteamId [33m===[39m teamId)[33m;[39m
+   [90m 15 |[39m     [36mif[39m([33m![39mteam){
+  [31m[1m>[22m[39m[90m 16 |[39m         [36mreturn[39m undefin[33m;[39m
+   [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 17 |[39m     }
+   [90m 18 |[39m
+   [90m 19 |[39m     [36mconst[39m player [33m=[39m team[33m.[39mplayers[33m.[39mfind((player) [33m=>[39m player[33m.[39memail [33m===[39m email)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (01e74d1a875f2006)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3b2fe318b814c52e)
+[1m[31mDebugger listening on ws://localhost:9229/15aea392-3b23-4944-a338-f7e65af1938e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/15aea392-3b23-4944-a338-f7e65af1938e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m16:16[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'undefinednu'. Did you mean 'undefined'?
+  [0m [90m 14 |[39m     [36mconst[39m team [33m=[39m trainer[33m.[39mteams[33m.[39mfind((team) [33m=>[39m team[33m.[39mteamId [33m===[39m teamId)[33m;[39m
+   [90m 15 |[39m     [36mif[39m([33m![39mteam){
+  [31m[1m>[22m[39m[90m 16 |[39m         [36mreturn[39m undefinednu[33m;[39m
+   [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 17 |[39m     }
+   [90m 18 |[39m
+   [90m 19 |[39m     [36mconst[39m player [33m=[39m team[33m.[39mplayers[33m.[39mfind((player) [33m=>[39m player[33m.[39memail [33m===[39m email)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (0c4a63270ac825a3)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1ad2b6bd3c0a848b)
+[1m[31mDebugger listening on ws://localhost:9229/c51226c0-cb69-4ade-99f3-3cbe9b6fe013[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c51226c0-cb69-4ade-99f3-3cbe9b6fe013[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fd5047af4bf06ed6)
+[1m[31mDebugger listening on ws://localhost:9229/f1484729-98a8-4584-9d6c-7b972fb2db28[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f1484729-98a8-4584-9d6c-7b972fb2db28[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a78614fda3308d0f)
+[1m[31mDebugger listening on ws://localhost:9229/fa4129f5-7d7d-407f-b6d5-b593d47b0e41[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fa4129f5-7d7d-407f-b6d5-b593d47b0e41[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m16:16[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'un'.
+  [0m [90m 14 |[39m     [36mconst[39m team [33m=[39m trainer[33m.[39mteams[33m.[39mfind((team) [33m=>[39m team[33m.[39mteamId [33m===[39m teamId)[33m;[39m
+   [90m 15 |[39m     [36mif[39m([33m![39mteam){
+  [31m[1m>[22m[39m[90m 16 |[39m         [36mreturn[39m un[33m;[39m
+   [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 17 |[39m     }
+   [90m 18 |[39m
+   [90m 19 |[39m     [36mconst[39m player [33m=[39m team[33m.[39mplayers[33m.[39mfind((player) [33m=>[39m player[33m.[39memail [33m===[39m email)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (e88abee4ebb63b1f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (40685853a2448a58)
+[1m[31mDebugger listening on ws://localhost:9229/6b403fe1-3859-4526-af42-2123c9af1669[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6b403fe1-3859-4526-af42-2123c9af1669[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m19:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'players' does not exist on type 'Team[]'.
+  [0m [90m 17 |[39m     }
+   [90m 18 |[39m
+  [31m[1m>[22m[39m[90m 19 |[39m     [36mconst[39m player [33m=[39m team[33m.[39mplayers[33m.[39mfind((player) [33m=>[39m player[33m.[39memail [33m===[39m email)[33m;[39m
+   [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 20 |[39m     [36mif[39m ([33m![39mplayer) {
+   [90m 21 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 22 |[39m     }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (50ae060d7819b658)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m19:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'players' does not exist on type 'Team[]'.
+  [0m [90m 17 |[39m     }
+   [90m 18 |[39m
+  [31m[1m>[22m[39m[90m 19 |[39m     [36mconst[39m player [33m=[39m team[33m.[39mplayers[33m.[39mfind((player) [33m=>[39m player[33m.[39memail [33m===[39m email)[33m;[39m
+   [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 20 |[39m     [36mif[39m ([33m![39mplayer) {
+   [90m 21 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 22 |[39m     }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (50ae060d7819b658)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m19:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'players' does not exist on type 'Team[]'.
+  [0m [90m 17 |[39m     }
+   [90m 18 |[39m
+  [31m[1m>[22m[39m[90m 19 |[39m     [36mconst[39m player [33m=[39m team[33m.[39mplayers[33m.[39mfilter((player) [33m=>[39m player[33m.[39memail [33m===[39m email)[33m;[39m
+   [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 20 |[39m     [36mif[39m ([33m![39mplayer) {
+   [90m 21 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 22 |[39m     }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (9164b27d3da1dfa8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/GetPlayerByEmailUseCase.ts[39m[22m [1m[32m19:24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts(19,25)[39m[22m
+[1m[31m      TS1011: An element access expression should take an argument.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/GetPlayerByEmailUseCase.ts[39m[22m [1m[32m19:32[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (19:32)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 return undefined;
+|             }
+>             const player = team[].players.filter((player) => player.email === email);
+|             if (!player) {
+|                 return null;[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m27:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'Player[]'.
+  [0m [90m 25 |[39m     
+   [90m 26 |[39m     [36mreturn[39m {
+  [31m[1m>[22m[39m[90m 27 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m28:22[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'Player[]'.
+  [0m [90m 26 |[39m     [36mreturn[39m {
+   [90m 27 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m    |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m29:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'playerId' does not exist on type 'Player[]'.
+  [0m [90m 27 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m30:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'name' does not exist on type 'Player[]'.
+  [0m [90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m31:23[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'surname' does not exist on type 'Player[]'.
+  [0m [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m32:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'email' does not exist on type 'Player[]'.
+  [0m [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m33:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'imageUrl' does not exist on type 'Player[]'.
+  [0m [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m34:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'diet' does not exist on type 'Player[]'.
+  [0m [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m35:33[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'technicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m36:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'physicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m37:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'improvements' does not exist on type 'Player[]'.
+  [0m [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }
+   [90m 40 |[39m }[0m
+
+webpack compiled with [1m[31m13 errors[39m[22m (bb85dad9837d6b5d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m27:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'Player[]'.
+  [0m [90m 25 |[39m     
+   [90m 26 |[39m     [36mreturn[39m {
+  [31m[1m>[22m[39m[90m 27 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m28:22[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'Player[]'.
+  [0m [90m 26 |[39m     [36mreturn[39m {
+   [90m 27 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m    |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m29:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'playerId' does not exist on type 'Player[]'.
+  [0m [90m 27 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m30:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'name' does not exist on type 'Player[]'.
+  [0m [90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m31:23[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'surname' does not exist on type 'Player[]'.
+  [0m [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m32:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'email' does not exist on type 'Player[]'.
+  [0m [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m33:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'imageUrl' does not exist on type 'Player[]'.
+  [0m [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m34:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'diet' does not exist on type 'Player[]'.
+  [0m [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m35:33[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'technicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m36:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'physicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m37:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'improvements' does not exist on type 'Player[]'.
+  [0m [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }
+   [90m 40 |[39m }[0m
+
+webpack compiled with [1m[31m11 errors[39m[22m (e5dc7e72e4ae15da)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/GetPlayerByEmailUseCase.ts[39m[22m [1m[32m25:34[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (25:34)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             console.log(player);
+|             return {
+>                 trainerId: player[].trainerId,
+|                 teamId: player.teamId,
+|                 playerId: player.playerId,[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/GetPlayerByEmailUseCase.ts[39m[22m [1m[32m27:24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts(27,25)[39m[22m
+[1m[31m      TS1011: An element access expression should take an argument.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m28:22[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'Player[]'.
+  [0m [90m 26 |[39m     [36mreturn[39m {
+   [90m 27 |[39m       trainerId[33m:[39m player[][33m.[39mtrainerId[33m,[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m    |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m29:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'playerId' does not exist on type 'Player[]'.
+  [0m [90m 27 |[39m       trainerId[33m:[39m player[][33m.[39mtrainerId[33m,[39m
+   [90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m30:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'name' does not exist on type 'Player[]'.
+  [0m [90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m31:23[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'surname' does not exist on type 'Player[]'.
+  [0m [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m32:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'email' does not exist on type 'Player[]'.
+  [0m [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m33:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'imageUrl' does not exist on type 'Player[]'.
+  [0m [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m34:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'diet' does not exist on type 'Player[]'.
+  [0m [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m35:33[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'technicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m36:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'physicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m37:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'improvements' does not exist on type 'Player[]'.
+  [0m [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }
+   [90m 40 |[39m }[0m
+
+webpack compiled with [1m[31m12 errors[39m[22m (741a0c138541376a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m28:22[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'Player[]'.
+  [0m [90m 26 |[39m     [36mreturn[39m {
+   [90m 27 |[39m       trainerId[33m:[39m player[[35m0[39m][33m.[39mtrainerId[33m,[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m    |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m29:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'playerId' does not exist on type 'Player[]'.
+  [0m [90m 27 |[39m       trainerId[33m:[39m player[[35m0[39m][33m.[39mtrainerId[33m,[39m
+   [90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m30:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'name' does not exist on type 'Player[]'.
+  [0m [90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m31:23[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'surname' does not exist on type 'Player[]'.
+  [0m [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m32:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'email' does not exist on type 'Player[]'.
+  [0m [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m33:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'imageUrl' does not exist on type 'Player[]'.
+  [0m [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m34:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'diet' does not exist on type 'Player[]'.
+  [0m [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m35:33[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'technicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m36:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'physicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m37:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'improvements' does not exist on type 'Player[]'.
+  [0m [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }
+   [90m 40 |[39m }[0m
+
+webpack compiled with [1m[31m10 errors[39m[22m (27f514cdf025c777)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m29:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'playerId' does not exist on type 'Player[]'.
+  [0m [90m 27 |[39m       trainerId[33m:[39m player[[35m0[39m][33m.[39mtrainerId[33m,[39m
+   [90m 28 |[39m       teamId[33m:[39m player[[35m0[39m][33m.[39mteamId[33m,[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m30:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'name' does not exist on type 'Player[]'.
+  [0m [90m 28 |[39m       teamId[33m:[39m player[[35m0[39m][33m.[39mteamId[33m,[39m
+   [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m31:23[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'surname' does not exist on type 'Player[]'.
+  [0m [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m32:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'email' does not exist on type 'Player[]'.
+  [0m [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m33:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'imageUrl' does not exist on type 'Player[]'.
+  [0m [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m34:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'diet' does not exist on type 'Player[]'.
+  [0m [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m35:33[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'technicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m36:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'physicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m37:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'improvements' does not exist on type 'Player[]'.
+  [0m [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }
+   [90m 40 |[39m }[0m
+
+webpack compiled with [1m[31m9 errors[39m[22m (c5b698455507c36a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m30:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'name' does not exist on type 'Player[]'.
+  [0m [90m 28 |[39m       teamId[33m:[39m player[[35m0[39m][33m.[39mteamId[33m,[39m
+   [90m 29 |[39m       playerId[33m:[39m player[[35m0[39m][33m.[39mplayerId[33m,[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m31:23[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'surname' does not exist on type 'Player[]'.
+  [0m [90m 29 |[39m       playerId[33m:[39m player[[35m0[39m][33m.[39mplayerId[33m,[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m32:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'email' does not exist on type 'Player[]'.
+  [0m [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m33:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'imageUrl' does not exist on type 'Player[]'.
+  [0m [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m34:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'diet' does not exist on type 'Player[]'.
+  [0m [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m35:33[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'technicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m36:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'physicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m37:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'improvements' does not exist on type 'Player[]'.
+  [0m [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }
+   [90m 40 |[39m }[0m
+
+webpack compiled with [1m[31m8 errors[39m[22m (03c7009884564362)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m31:23[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'surname' does not exist on type 'Player[]'.
+  [0m [90m 29 |[39m       playerId[33m:[39m player[[35m0[39m][33m.[39mplayerId[33m,[39m
+   [90m 30 |[39m       name[33m:[39m player[[35m0[39m][33m.[39mname[33m,[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m32:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'email' does not exist on type 'Player[]'.
+  [0m [90m 30 |[39m       name[33m:[39m player[[35m0[39m][33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m33:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'imageUrl' does not exist on type 'Player[]'.
+  [0m [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m34:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'diet' does not exist on type 'Player[]'.
+  [0m [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m35:33[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'technicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m36:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'physicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m37:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'improvements' does not exist on type 'Player[]'.
+  [0m [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }
+   [90m 40 |[39m }[0m
+
+webpack compiled with [1m[31m7 errors[39m[22m (79e6e600fe9ee404)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m32:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'email' does not exist on type 'Player[]'.
+  [0m [90m 30 |[39m       name[33m:[39m player[[35m0[39m][33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[[35m0[39m][33m.[39msurname[33m,[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m33:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'imageUrl' does not exist on type 'Player[]'.
+  [0m [90m 31 |[39m       surname[33m:[39m player[[35m0[39m][33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m34:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'diet' does not exist on type 'Player[]'.
+  [0m [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m35:33[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'technicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m36:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'physicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m37:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'improvements' does not exist on type 'Player[]'.
+  [0m [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }
+   [90m 40 |[39m }[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (0e63a02c10e22c8b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m33:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'imageUrl' does not exist on type 'Player[]'.
+  [0m [90m 31 |[39m       surname[33m:[39m player[[35m0[39m][33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[[35m0[39m][33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m34:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'diet' does not exist on type 'Player[]'.
+  [0m [90m 32 |[39m       email[33m:[39m player[[35m0[39m][33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m35:33[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'technicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m36:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'physicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m37:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'improvements' does not exist on type 'Player[]'.
+  [0m [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }
+   [90m 40 |[39m }[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (7d47c8945b21e6c9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m34:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'diet' does not exist on type 'Player[]'.
+  [0m [90m 32 |[39m       email[33m:[39m player[[35m0[39m][33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[[35m0[39m][33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m35:33[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'technicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 33 |[39m       imageUrl[33m:[39m player[[35m0[39m][33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m36:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'physicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m37:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'improvements' does not exist on type 'Player[]'.
+  [0m [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }
+   [90m 40 |[39m }[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (e9d6ebd596f4704c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m35:33[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'technicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 33 |[39m       imageUrl[33m:[39m player[[35m0[39m][33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[[35m0[39m][33m.[39mdiet[33m,[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m36:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'physicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 34 |[39m       diet[33m:[39m player[[35m0[39m][33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m37:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'improvements' does not exist on type 'Player[]'.
+  [0m [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }
+   [90m 40 |[39m }[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (5a5f876c15ca1541)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m36:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'physicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 34 |[39m       diet[33m:[39m player[[35m0[39m][33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[[35m0[39m][33m.[39mtechnicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m37:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'improvements' does not exist on type 'Player[]'.
+  [0m [90m 35 |[39m       technicalTraining[33m:[39m player[[35m0[39m][33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }
+   [90m 40 |[39m }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (78cd4aca1f38a4b3)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m37:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'improvements' does not exist on type 'Player[]'.
+  [0m [90m 35 |[39m       technicalTraining[33m:[39m player[[35m0[39m][33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[[35m0[39m][33m.[39mphysicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }
+   [90m 40 |[39m }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7821391c8402756b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (87b8172e6b0a4f5e)
+[1m[31mDebugger listening on ws://localhost:9229/91bc0adf-97ca-4254-a5b6-eb540579e7fb[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/91bc0adf-97ca-4254-a5b6-eb540579e7fb[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/GetPlayerByEmailUseCase.ts[39m[22m [1m[32m19:24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts(19,25)[39m[22m
+[1m[31m      TS1011: An element access expression should take an argument.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/GetPlayerByEmailUseCase.ts[39m[22m [1m[32m19:32[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (19:32)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 return undefined;
+|             }
+>             const player = team[].players.filter((player) => player.email === email);
+|             if (!player) {
+|                 return null;[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m27:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'trainerId' does not exist on type 'Player[]'.
+  [0m [90m 25 |[39m     
+   [90m 26 |[39m     [36mreturn[39m {
+  [31m[1m>[22m[39m[90m 27 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m28:22[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'teamId' does not exist on type 'Player[]'.
+  [0m [90m 26 |[39m     [36mreturn[39m {
+   [90m 27 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m    |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m29:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'playerId' does not exist on type 'Player[]'.
+  [0m [90m 27 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m30:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'name' does not exist on type 'Player[]'.
+  [0m [90m 28 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m31:23[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'surname' does not exist on type 'Player[]'.
+  [0m [90m 29 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m
+   [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m32:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'email' does not exist on type 'Player[]'.
+  [0m [90m 30 |[39m       name[33m:[39m player[33m.[39mname[33m,[39m
+   [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m33:24[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'imageUrl' does not exist on type 'Player[]'.
+  [0m [90m 31 |[39m       surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m34:20[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'diet' does not exist on type 'Player[]'.
+  [0m [90m 32 |[39m       email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m35:33[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'technicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 33 |[39m       imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m36:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'physicalTraining' does not exist on type 'Player[]'.
+  [0m [90m 34 |[39m       diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m37:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'improvements' does not exist on type 'Player[]'.
+  [0m [90m 35 |[39m       technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 36 |[39m       physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 37 |[39m       improvements[33m:[39m player[33m.[39mimprovements[33m,[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m     }[33m;[39m
+   [90m 39 |[39m   }
+   [90m 40 |[39m }[0m
+
+webpack compiled with [1m[31m13 errors[39m[22m (a6a7c32c5c171760)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m19:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'players' does not exist on type 'Team[]'.
+  [0m [90m 17 |[39m     }
+   [90m 18 |[39m
+  [31m[1m>[22m[39m[90m 19 |[39m     [36mconst[39m player [33m=[39m team[33m.[39mplayers[33m.[39mfilter((player) [33m=>[39m player[33m.[39memail [33m===[39m email)[33m;[39m
+   [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 20 |[39m     [36mif[39m ([33m![39mplayer) {
+   [90m 21 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 22 |[39m     }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (cb7810113608ad16)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e0189573e8a986cb)
+[1m[31mDebugger listening on ws://localhost:9229/58ebbf65-a890-4ae3-9c09-209860ecb750[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/58ebbf65-a890-4ae3-9c09-209860ecb750[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a30b58805f97f10c)
+[1m[31mDebugger listening on ws://localhost:9229/cd346e76-efee-4382-bf96-cc464b907853[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cd346e76-efee-4382-bf96-cc464b907853[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8ff90b992d867939)
+[1m[31mDebugger listening on ws://localhost:9229/ca8cd102-e44a-4115-8b20-9cbfe7324c03[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ca8cd102-e44a-4115-8b20-9cbfe7324c03[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8657bd8090f30aff)
+[1m[31mDebugger listening on ws://localhost:9229/64c2717d-913d-4cef-9e0f-ad51065ec311[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/64c2717d-913d-4cef-9e0f-ad51065ec311[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cfe78762254fe3c1)
+[1m[31mDebugger listening on ws://localhost:9229/9697afd6-22c1-4c2e-acff-0e73cd15d37a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9697afd6-22c1-4c2e-acff-0e73cd15d37a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (71e8f2731cd52a5d)
+[1m[31mDebugger listening on ws://localhost:9229/5c0315ce-2f5d-4d98-a1a4-30fd52d2b40f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5c0315ce-2f5d-4d98-a1a4-30fd52d2b40f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (24724f6d8452ff86)
+[1m[31mDebugger listening on ws://localhost:9229/df1f8c89-ba15-452d-bc21-2448e3d539d6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/df1f8c89-ba15-452d-bc21-2448e3d539d6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m20:5[22m[39m[1m[39m[22m
+[90mTS2740: [39mType 'Team' is missing the following properties from type 'PlayerDTO': playerId, surname, email, imageUrl, and 4 more.
+  [0m [90m 18 |[39m
+   [90m 19 |[39m     console[33m.[39mlog(player)[33m;[39m
+  [31m[1m>[22m[39m[90m 20 |[39m     [36mreturn[39m team[33m;[39m
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 21 |[39m     [36mreturn[39m {
+   [90m 22 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a963e97936695b83)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (141b808e8dcfdcf8)
+[1m[31mDebugger listening on ws://localhost:9229/0a0c262c-2753-4b3c-ae82-1d4ec1be742f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0a0c262c-2753-4b3c-ae82-1d4ec1be742f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m11:14[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 't'.
+  [0m [90m  9 |[39m     [36mconst[39m team [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindByTeamId(teamId[33m,[39m trainerId)[33m;[39m
+   [90m 10 |[39m     [36mif[39m ([33m![39mteam) {
+  [31m[1m>[22m[39m[90m 11 |[39m       [36mreturn[39m t[33m;[39m
+   [90m    |[39m              [31m[1m^[22m[39m
+   [90m 12 |[39m     }
+   [90m 13 |[39m
+   [90m 14 |[39m     [36mconst[39m player [33m=[39m team[33m.[39mplayers[33m.[39mfind((player) [33m=>[39m player[33m.[39memail [33m===[39m email)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (ca12239380833b6e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5155f315a2096045)
+[1m[31mDebugger listening on ws://localhost:9229/9c0ddd8f-7ac7-4b9e-b497-6c5c2323a46c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9c0ddd8f-7ac7-4b9e-b497-6c5c2323a46c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (867f3de074058e16)
+[1m[31mDebugger listening on ws://localhost:9229/f4c7e0ad-d095-40be-a5e1-2d7b2b39604b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f4c7e0ad-d095-40be-a5e1-2d7b2b39604b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/GetPlayerByEmailUseCase.ts[39m[22m [1m[32m20:24-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts(20,25)[39m[22m
+[1m[31m      TS1003: Identifier expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/GetPlayerByEmailUseCase.ts[39m[22m [1m[32m20:32[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (20:32)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             }
+|             console.log(player);
+>             return team.players.;
+|             return {
+|                 trainerId: player.trainerId,[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (138b8b6b5430b6ee)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1446216c7e54d6ed)
+[1m[31mDebugger listening on ws://localhost:9229/62c8ab0d-f23c-40ad-bb88-05dfca5c425c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/62c8ab0d-f23c-40ad-bb88-05dfca5c425c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (819973509a1e5912)
+[1m[31mDebugger listening on ws://localhost:9229/46333306-6b6b-4767-ac38-718a2eba958e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/46333306-6b6b-4767-ac38-718a2eba958e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2d2d49527d655b79)
+[1m[31mDebugger listening on ws://localhost:9229/3f267cfe-bbe9-4ff1-babc-5f42b6ed2c5f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3f267cfe-bbe9-4ff1-babc-5f42b6ed2c5f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5b56f90f595cb9a2)
+[1m[31mDebugger listening on ws://localhost:9229/c4481391-0357-4889-8012-3c3d4f5300eb[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c4481391-0357-4889-8012-3c3d4f5300eb[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts:[32m[1m18:5[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'debugPrintEmail'.
+  [0m [90m 16 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 17 |[39m     }
+  [31m[1m>[22m[39m[90m 18 |[39m     debugPrintEmail(email)[33m;[39m
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m
+   [90m 20 |[39m     console[33m.[39mlog(player)[33m;[39m
+   [90m 21 |[39m     [36mreturn[39m {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (64e08d70c661477e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (452fccb6920f7c39)
+[1m[31mDebugger listening on ws://localhost:9229/cfc7bed5-13d5-4706-9ab4-55511fe47f9f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cfc7bed5-13d5-4706-9ab4-55511fe47f9f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2d5daa2ea41e3ba5)
+[1m[31mDebugger listening on ws://localhost:9229/2d39d7fc-f696-4032-b726-da0240f83439[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2d39d7fc-f696-4032-b726-da0240f83439[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/controller/GetTrainerByEmailController.ts:[32m[1m12:51[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'email'. Either declare one or provide an initializer.
+  [0m [90m 10 |[39m     [36mtry[39m {
+   [90m 11 |[39m       [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mgetTrainerByEmailUseCase[33m.[39mrun(trainerData)[33m;[39m
+  [31m[1m>[22m[39m[90m 12 |[39m       res[33m.[39mstatus([35m201[39m)[33m.[39msend({ message[33m:[39m [32m"Obtained"[39m[33m,[39m email })[33m;[39m
+   [90m    |[39m                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 13 |[39m     } [36mcatch[39m (error) {
+   [90m 14 |[39m       [36mreturn[39m res[33m.[39mstatus([35m500[39m)[33m.[39msend({ message[33m:[39m [32m"Error"[39m[33m,[39m error })[33m;[39m
+   [90m 15 |[39m     }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (6fd9b7ff527aa952)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7c4d674110669d02)
+[1m[31mDebugger listening on ws://localhost:9229/6c8732db-e7b6-420f-863b-02d82d61bbb1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6c8732db-e7b6-420f-863b-02d82d61bbb1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts:[32m[1m10:58[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'email'. Either declare one or provide an initializer.
+  [0m [90m  8 |[39m     [36mtry[39m {
+   [90m  9 |[39m       [36mconst[39m player [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mgetPlayerByEmailUseCase[33m.[39mrun(req[33m.[39mparams[33m.[39mtrainerId[33m,[39m req[33m.[39mparams[33m.[39mteamId[33m,[39m req[33m.[39mparams[33m.[39memail)[33m;[39m
+  [31m[1m>[22m[39m[90m 10 |[39m       res[33m.[39mstatus([35m201[39m)[33m.[39msend({ message[33m:[39m [32m"Obtained player"[39m[33m,[39m email })[33m;[39m
+   [90m    |[39m                                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 11 |[39m     } [36mcatch[39m (error) {
+   [90m 12 |[39m       [36mreturn[39m res[33m.[39mstatus([35m500[39m)[33m.[39msend({ message[33m:[39m [32m"Error"[39m })[33m;[39m
+   [90m 13 |[39m     }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7896b3439455ac42)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m10:60-61[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts(10,61)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m13:72[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (13:72)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             try {
+|                 const player = yield this.getPlayerByEmailUseCase.run(req.params.trainerId, req.params.teamId, req.params.email);
+>                 res.status(201).send({ message: "Obtained player", req, : .params.email });
+|             }
+|             catch ([1m[31merror[39m[22m[1m) {[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (48d3905ba56be724)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m10:60-61[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts(10,61)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m13:72[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (13:72)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             try {
+|                 const player = yield this.getPlayerByEmailUseCase.run(req.params.trainerId, req.params.teamId, req.params.email);
+>                 res.status(201).send({ message: "Obtained player", req, : .params.email, });
+|             }
+|             catch ([1m[31merror[39m[22m[1m) {[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (a68382a90e917fb7)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m10:60-61[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts(10,61)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m13:72[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (13:72)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             try {
+|                 const player = yield this.getPlayerByEmailUseCase.run(req.params.trainerId, req.params.teamId, req.params.email);
+>                 res.status(201).send({ message: "Obtained player", req, : .params.email });
+|             }
+|             catch ([1m[31merror[39m[22m[1m) {[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (48d3905ba56be724)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m10:56-59[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts(10,57)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m10:59-60[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts(10,60)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m13:72[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (13:72)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             try {
+|                 const player = yield this.getPlayerByEmailUseCase.run(req.params.trainerId, req.params.teamId, req.params.email);
+>                 res.status(201).send({ message: "Obtained player", req, : .params.email });
+|             }
+|             catch ([1m[31merror[39m[22m[1m) {[39m[22m
+
+webpack compiled with [1m[31m3 errors[39m[22m (839764623cc22652)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m10:60-61[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts(10,61)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m13:72[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (13:72)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             try {
+|                 const player = yield this.getPlayerByEmailUseCase.run(req.params.trainerId, req.params.teamId, req.params.email);
+>                 res.status(201).send({ message: "Obtained player", req, : .params.email });
+|             }
+|             catch ([1m[31merror[39m[22m[1m) {[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (48d3905ba56be724)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m10:57-58[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts(10,58)[39m[22m
+[1m[31m      TS1136: Property assignment expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m10:62-63[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts(10,63)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m13:72[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (13:72)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             try {
+|                 const player = yield this.getPlayerByEmailUseCase.run(req.params.trainerId, req.params.teamId, req.params.email);
+>                 res.status(201).send({ message: "Obtained player", req, : .params.email });
+|             }
+|             catch ([1m[31merror[39m[22m[1m) {[39m[22m
+
+webpack compiled with [1m[31m3 errors[39m[22m (5a564f15367e64c6)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m10:56-59[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts(10,57)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m10:59-60[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts(10,60)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m13:72[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (13:72)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             try {
+|                 const player = yield this.getPlayerByEmailUseCase.run(req.params.trainerId, req.params.teamId, req.params.email);
+>                 res.status(201).send({ message: "Obtained player", req, : .params.email });
+|             }
+|             catch ([1m[31merror[39m[22m[1m) {[39m[22m
+
+webpack compiled with [1m[31m3 errors[39m[22m (839764623cc22652)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m11:56-59[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts(11,57)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m11:59-60[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts(11,60)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m14:72[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (14:72)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 const email = req.params.email;
+|                 const player = yield this.getPlayerByEmailUseCase.run(req.params.trainerId, req.params.teamId, req.params.email);
+>                 res.status(201).send({ message: "Obtained player", req, : .params.email });
+|             }
+|             catch ([1m[31merror[39m[22m[1m) {[39m[22m
+
+webpack compiled with [1m[31m3 errors[39m[22m (6131e39c8a8d1f00)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m11:56-61[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts(11,57)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m (41704c794cc0ba70)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0cf8f0c4fc8e7e27)
+[1m[31mDebugger listening on ws://localhost:9229/6055c615-4a22-4d7d-b73b-5800e7031dd8[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6055c615-4a22-4d7d-b73b-5800e7031dd8[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts:[32m[1m11:58[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'teamId'. Either declare one or provide an initializer.
+  [0m [90m  9 |[39m         [36mconst[39m email [33m=[39m req[33m.[39mparams[33m.[39memail[33m;[39m
+   [90m 10 |[39m       [36mconst[39m player [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mgetPlayerByEmailUseCase[33m.[39mrun(req[33m.[39mparams[33m.[39mtrainerId[33m,[39m req[33m.[39mparams[33m.[39mteamId[33m,[39m req[33m.[39mparams[33m.[39memail)[33m;[39m
+  [31m[1m>[22m[39m[90m 11 |[39m       res[33m.[39mstatus([35m201[39m)[33m.[39msend({ message[33m:[39m [32m"Obtained player"[39m[33m,[39m teamId })[33m;[39m
+   [90m    |[39m                                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 12 |[39m     } [36mcatch[39m (error) {
+   [90m 13 |[39m       [36mreturn[39m res[33m.[39mstatus([35m500[39m)[33m.[39msend({ message[33m:[39m [32m"Error"[39m })[33m;[39m
+   [90m 14 |[39m     }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (9c8e24c3d9536e31)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts:[32m[1m11:58[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'teamId'. Either declare one or provide an initializer.
+  [0m [90m  9 |[39m         [36mconst[39m email [33m=[39m req[33m.[39mparams[33m.[39mteamId[33m;[39m
+   [90m 10 |[39m       [36mconst[39m player [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mgetPlayerByEmailUseCase[33m.[39mrun(req[33m.[39mparams[33m.[39mtrainerId[33m,[39m req[33m.[39mparams[33m.[39mteamId[33m,[39m req[33m.[39mparams[33m.[39memail)[33m;[39m
+  [31m[1m>[22m[39m[90m 11 |[39m       res[33m.[39mstatus([35m201[39m)[33m.[39msend({ message[33m:[39m [32m"Obtained player"[39m[33m,[39m teamId })[33m;[39m
+   [90m    |[39m                                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 12 |[39m     } [36mcatch[39m (error) {
+   [90m 13 |[39m       [36mreturn[39m res[33m.[39mstatus([35m500[39m)[33m.[39msend({ message[33m:[39m [32m"Error"[39m })[33m;[39m
+   [90m 14 |[39m     }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (0614a838f43ace17)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts:[32m[1m11:58[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'teamId'. Either declare one or provide an initializer.
+  [0m [90m  9 |[39m         [36mconst[39m email [33m=[39m req[33m.[39mparams[33m.[39mteamId[33m;[39m
+   [90m 10 |[39m       [36mconst[39m player [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mgetPlayerByEmailUseCase[33m.[39mrun(req[33m.[39mparams[33m.[39mtrainerId[33m,[39m req[33m.[39mparams[33m.[39mteamId[33m,[39m req[33m.[39mparams[33m.[39memail)[33m;[39m
+  [31m[1m>[22m[39m[90m 11 |[39m       res[33m.[39mstatus([35m201[39m)[33m.[39msend({ message[33m:[39m [32m"Obtained player"[39m[33m,[39m teamId })[33m;[39m
+   [90m    |[39m                                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 12 |[39m     } [36mcatch[39m (error) {
+   [90m 13 |[39m       [36mreturn[39m res[33m.[39mstatus([35m500[39m)[33m.[39msend({ message[33m:[39m [32m"Error"[39m })[33m;[39m
+   [90m 14 |[39m     }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (0614a838f43ace17)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b97c49987ff86b06)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m
+[1m./src/trainers/infrastructure/controller/GetPlayerByEmailController.ts[39m[22m [1m[32m11:56-61[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts(11,57)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m (83479f1d47504133)
+[1m[31mDebugger listening on ws://localhost:9229/88420266-c748-4e2e-b94c-9d2c5a896a31[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/88420266-c748-4e2e-b94c-9d2c5a896a31[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 86.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (11918b2e7b3c719c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
