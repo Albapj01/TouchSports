@@ -343,6 +343,16 @@ const updateTrainer = async (
   return response.data;
 };
 
+const getPlayerByEmail = async (
+  trainerEmail: string,
+  playerEmail: string
+) => {
+  const response = await axios.get(
+    `${myApi}/trainer/${trainerEmail}/team/player/${playerEmail}`
+  );
+  return response.data;
+};
+
 export default {
   createTrainer,
   getTrainerById,
@@ -368,4 +378,5 @@ export default {
   updateReserve,
   deleteReserve,
   updateTrainer,
+  getPlayerByEmail,
 };

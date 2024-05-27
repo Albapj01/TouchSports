@@ -7,13 +7,15 @@ import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import api from "../../utils/api/api";
 import Button from "frontend/src/components/button/button";
 import { personOutline, peopleOutline } from "ionicons/icons";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Input from "frontend/src/components/input/input";
+import { Trainer } from "frontend/src/utils/interfaces/Trainer";
 
 const SignIn = () => {
   const history = useHistory();
   const [selectedRole, setSelectedRole] = useState<String | null>(null);
   const [email, setEmail] = useState("");
+  const [trainers, setTrainers] = useState<Trainer[]>([]);
 
   const trainerResponse = async (credentialResponse: any) => {
     storage.set("token", credentialResponse.credential!);
@@ -39,20 +41,18 @@ const SignIn = () => {
   };
 
   const playerResponse = async (credentialResponse: any) => {
-    storage.set("token", credentialResponse.credential!);
+    try {
+      storage.set("token", credentialResponse.credential!);
 
-    const { payload } = decodeJwt(storage.get("token"));
+      const { payload } = decodeJwt(storage.get("token"));
 
-    const existingTrainer = await api.getTrainerById(email);
+      const player = await api.getPlayerByEmail(email, payload.email);
 
-    if(existingTrainer) {
-
+      history.push(`/home/teams/${player?.teamId}/player/${player?.playerId}`);
+    } catch (error) {
+      console.error("Error handling player response:", error);
     }
-  
-
-    history.push("/");
   };
-
 
   const error = () => {
     console.log("Login Failed, please try again with another account");
@@ -98,14 +98,14 @@ const SignIn = () => {
               {selectedRole === "jugador" && (
                 <>
                   <IonList>
-                      <InputContainer>
-                        <Input
-                          label="Correo del entrenador"
-                          placeholder="Correo del entrenador"
-                          elements={(email) => setEmail(email)}
-                          value={email}
-                        />
-                      </InputContainer>
+                    <InputContainer>
+                      <Input
+                        label="Correo del entrenador"
+                        placeholder="Correo del entrenador"
+                        elements={(email) => setEmail(email)}
+                        value={email}
+                      />
+                    </InputContainer>
                   </IonList>
                   <br></br>
                   <StyledButton>

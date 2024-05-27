@@ -1,39 +1,39 @@
+import { Trainer } from "../../domain/model/Trainer";
 import { TrainerPort } from "../../domain/port/TrainerPort";
 import { PlayerDTO } from "../DTOs/PlayerDTO";
 
 export class GetPlayerByEmailUseCase {
   constructor(private trainerPort: TrainerPort) {}
 
-  async run(trainerId: string, teamId: string, email: string): Promise<PlayerDTO> {
+  async run(trainerEmail: string, playerEmail: string): Promise<PlayerDTO> {
 
-    const trainer = await this.trainerPort.findById(trainerId);
-    if(!trainer){
+    const trainers = await this.trainerPort.getAllTrainers();
+    if(!trainers){
         return null;
     }
 
-    const team = trainer.teams.find((team) => team.teamId === teamId);
-    if (!team) {
-      return null;
+    let matchingTrainer: Trainer | null = null;
+    for (const trainer of trainers) {
+      if (trainer.email === trainerEmail) {
+        matchingTrainer = trainer;
+        break; 
+      }
     }
 
-    const player = team.players.find((player) => player.email === email);
-    if (!player) {
-      return null;
-    }
+    let obtainedPlayer;
+      if (matchingTrainer) {
+        const teams = matchingTrainer.teams;
+        for(const team of teams){
+          for(const player of team.players){
+            if(player.email == playerEmail){
+              obtainedPlayer = player;
+            }
+          }
+        }
+      } else {
+        console.log("Trainer not found");
+      }
 
-    console.log(player);
-    return {
-      trainerId: player.trainerId,
-      teamId: player.teamId,
-      playerId: player.playerId,
-      name: player.name,
-      surname: player.surname,
-      email: player.email,
-      imageUrl: player.imageUrl,
-      diet: player.diet,
-      technicalTraining: player.technicalTraining,
-      physicalTraining: player.physicalTraining,
-      improvements: player.improvements,
-    };
+    return obtainedPlayer;
   }
 }

@@ -97,28 +97,32 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": "nx.json",
+        "hash": "4595224623132836319"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
         "file": ".vscode/settings.json",
         "hash": "6703405954808146235"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
       },
       {
         "file": "package-lock.json",
         "hash": "15155952317156726532"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "package.json",
-        "hash": "16079508552978807636"
-      },
-      {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
-      },
-      {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
       },
       {
         "file": "README.md",
@@ -129,16 +133,12 @@
         "hash": "1398178998339616447"
       },
       {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
+        "file": "package.json",
+        "hash": "16079508552978807636"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
       }
     ],
     "projectFileMap": {
@@ -355,7 +355,7 @@
         },
         {
           "file": "frontend/src/main.tsx",
-          "hash": "14707755481520172423",
+          "hash": "8098156182234119907",
           "deps": [
             "npm:react",
             "npm:react-dom",
@@ -497,7 +497,7 @@
         },
         {
           "file": "frontend/src/pages/sign-in/signIn.tsx",
-          "hash": "13521308908912261675",
+          "hash": "1502809299077442529",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components",
@@ -608,7 +608,7 @@
         },
         {
           "file": "frontend/src/utils/api/api.tsx",
-          "hash": "6781073469041404751",
+          "hash": "15415716664474290782",
           "deps": [
             "npm:axios"
           ]
@@ -730,7 +730,7 @@
         },
         {
           "file": "backend/src/main.ts",
-          "hash": "16972866807265463100",
+          "hash": "9120014768681578310",
           "deps": [
             "npm:express",
             "npm:path",
@@ -883,7 +883,7 @@
         },
         {
           "file": "backend/src/trainers/domain/port/TrainerPort.ts",
-          "hash": "3263202731958076132"
+          "hash": "3226664237216863547"
         },
         {
           "file": "backend/src/trainers/infrastructure/controller/CreateCentresController.ts",
@@ -1073,7 +1073,7 @@
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts",
-          "hash": "12423820658564870670",
+          "hash": "2844788173098750984",
           "deps": [
             "npm:mongoose"
           ]
@@ -1106,11 +1106,11 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/GetPlayerByEmailUseCase.ts",
-          "hash": "13623227075866014170"
+          "hash": "12313495802013038266"
         },
         {
           "file": "backend/src/trainers/infrastructure/controller/GetPlayerByEmailController.ts",
-          "hash": "12110912006140093895",
+          "hash": "1933477165135838995",
           "deps": [
             "npm:express"
           ]
@@ -1125,6 +1125,21 @@
           "deps": [
             "npm:express"
           ]
+        },
+        {
+          "file": "backend/test/Trainer/application/usecases/GetTrainerByIdUseCase.test.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "backend/src/trainers/infrastructure/controller/GetAllTrainersController.ts",
+          "hash": "1110616014989834971",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "backend/src/trainers/application/usecases/GetAllTrainersUseCase.ts",
+          "hash": "12866623378057515852"
         }
       ],
       "frontend-e2e": [
