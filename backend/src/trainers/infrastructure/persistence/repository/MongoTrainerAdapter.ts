@@ -166,4 +166,8 @@ export class MongoTrainerAdapter implements TrainerPort {
       }
     );
   }
+  async getAllTrainers(): Promise<Trainer[]> {
+    const trainers = await this.model.find().exec();
+    return trainers.map(TrainerMapper.toDomain);
+  }
 }
