@@ -1,4 +1,5 @@
 export interface Player {
+    trainerId: string,
     teamId: string,
     playerId: string,
     name: string,

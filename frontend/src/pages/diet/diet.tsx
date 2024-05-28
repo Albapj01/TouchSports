@@ -17,6 +17,7 @@ import styled from "styled-components";
 const Diet = () => {
   const { teamId } = useParams<{ teamId: string }>();
   const { playerId } = useParams<{ playerId: string }>();
+  const [trainerId, setTrainerId] = useState("");
 
   const [selectedDiet, setSelectedDiet] = useState("");
 
@@ -26,11 +27,27 @@ const Diet = () => {
     if (teamId && playerId) {
       const fetchPlayerData = async () => {
         try {
-          const existingPlayer = await api.getPlayerById(
-            payload.sub,
-            teamId,
-            playerId
-          );
+          const storedTrainerId = localStorage.getItem("trainerId");
+          if(!storedTrainerId){
+            return null;
+          }
+
+          setTrainerId(storedTrainerId);
+          let existingPlayer;
+          if (storedTrainerId) {
+            existingPlayer = await api.getPlayerById(
+              storedTrainerId,
+              teamId,
+              playerId
+            );
+          } else {
+            existingPlayer = await api.getPlayerById(
+              payload.sub,
+              teamId,
+              playerId
+            );
+          }
+          
           if (existingPlayer && existingPlayer.player) {
             const playerDiet = existingPlayer.player.diet;
             if (playerDiet === "Dieta para perder grasa") {

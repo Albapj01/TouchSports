@@ -10,12 +10,14 @@ import { personOutline, peopleOutline } from "ionicons/icons";
 import { useEffect, useState } from "react";
 import Input from "frontend/src/components/input/input";
 import { Trainer } from "frontend/src/utils/interfaces/Trainer";
+import { Player } from "frontend/src/utils/interfaces/Player";
 
 const SignIn = () => {
   const history = useHistory();
   const [selectedRole, setSelectedRole] = useState<String | null>(null);
   const [email, setEmail] = useState("");
   const [trainers, setTrainers] = useState<Trainer[]>([]);
+  const [player, setPlayer] = useState<Player>();
 
   const trainerResponse = async (credentialResponse: any) => {
     storage.set("token", credentialResponse.credential!);
@@ -46,7 +48,14 @@ const SignIn = () => {
 
       const { payload } = decodeJwt(storage.get("token"));
 
-      const player = await api.getPlayerByEmail(email, payload.email);
+      const result = await api.getPlayerByEmail(email, payload.email);
+      setPlayer(result.player);
+
+      if(!player){
+        return null;
+      }
+      
+      localStorage.setItem('trainerId', player.trainerId);
 
       history.push(`/home/teams/${player?.teamId}/player/${player?.playerId}`);
     } catch (error) {

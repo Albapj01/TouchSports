@@ -33,6 +33,7 @@ const PlayerInfo = () => {
   const { playerId } = useParams<{ playerId: string }>();
   const [player, setPlayer] = useState<Player>();
   const [showAlert, setShowAlert] = useState(false);
+  const [trainerId, setTrainerId] = useState("");
 
   const history = useHistory();
 
@@ -42,7 +43,28 @@ const PlayerInfo = () => {
     if (teamId && playerId) {
       const fetchPlayer = async () => {
         try {
-          const result = await api.getPlayerById(payload.sub, teamId, playerId);
+          const storedTrainerId = localStorage.getItem("trainerId");
+          if(!storedTrainerId){
+            return null;
+          }
+
+          setTrainerId(storedTrainerId);
+          let result;
+
+          if (storedTrainerId) {
+            result = await api.getPlayerById(
+              storedTrainerId,
+              teamId,
+              playerId
+            );
+          } else {
+            result = await api.getPlayerById(
+              payload.sub,
+              teamId,
+              playerId
+            );
+          }
+
           setPlayer(result.player);
         } catch (error) {
           console.error("Error al obtener el jugador:", error);
