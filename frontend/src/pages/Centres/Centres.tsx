@@ -43,7 +43,7 @@ const CentresInfo = () => {
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu />
+          <Menu disabled={false}/>
           <IonSearchbar placeholder="Buscar"></IonSearchbar>
           <CentresContainer>
             {centres &&
@@ -68,7 +68,7 @@ const CentresInfo = () => {
           </ButtonContainer>
         </IonContent>
         <IonFooter>
-          <Tabs />
+          <Tabs disabled={false}/>
         </IonFooter>
       </IonPage>
     </>

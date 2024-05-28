@@ -79,7 +79,7 @@ const CentreInfo = () => {
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu />
+          <Menu disabled={false}/>
           <IonFab slot="fixed" vertical="top" horizontal="end" edge={true}>
             <FabContainer>
               <TransparentFabButton>
@@ -152,7 +152,7 @@ const CentreInfo = () => {
           <Space />
         </IonContent>
         <IonFooter>
-          <Tabs />
+          <Tabs disabled={false}/>
         </IonFooter>
       </IonPage>
     </>

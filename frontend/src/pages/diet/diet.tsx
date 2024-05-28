@@ -12,12 +12,13 @@ import api from "frontend/src/utils/api/api";
 import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 const Diet = () => {
   const { teamId } = useParams<{ teamId: string }>();
   const { playerId } = useParams<{ playerId: string }>();
   const [trainerId, setTrainerId] = useState("");
+  const [disabled, setDisabled] = useState(false);
 
   const [selectedDiet, setSelectedDiet] = useState("");
 
@@ -40,6 +41,7 @@ const Diet = () => {
               teamId,
               playerId
             );
+            setDisabled(true);
           } else {
             existingPlayer = await api.getPlayerById(
               payload.sub,
@@ -70,12 +72,13 @@ const Diet = () => {
 
   return (
     <>
+      <GlobalStyle />
       <IonPage>
         <IonHeader color="primary">
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu />
+          <Menu disabled={disabled}/>
           {selectedDiet === "Dieta para perder grasa" && (
             <>
               <DietName>DIETA PARA PERDER GRASA</DietName>
@@ -182,7 +185,7 @@ const Diet = () => {
           )}
         </IonContent>
         <IonFooter>
-          <Tabs />
+          <Tabs disabled={disabled}/>
         </IonFooter>
       </IonPage>
     </>
@@ -227,5 +230,11 @@ const TextContainer = styled.div`
   font-size: 20px;
   font-weight: bold;
 `;
+
+const GlobalStyle = createGlobalStyle`
+    :root {
+      --ion-color-primary: #1f7189;
+    }
+  `;
 
 export default Diet;

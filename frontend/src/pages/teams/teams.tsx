@@ -36,7 +36,7 @@ const Teams = () => {
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu />
+          <Menu disabled={false}/>
           <Cards>
             {teams &&
               teams.map((team) => (
@@ -60,7 +60,7 @@ const Teams = () => {
           </ButtonContainer>
         </IonContent>
         <IonFooter>
-          <Tabs />
+          <Tabs disabled={false}/>
         </IonFooter>
       </IonPage>
     </>

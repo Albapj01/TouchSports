@@ -101,7 +101,7 @@ const ReserveInfo = () => {
         </IonHeader>
         <IonContent fullscreen>
           <br></br>
-          <Menu />
+          <Menu disabled={false}/>
           <Image>
             <IonImg
               src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Palacio_Municipal_de_Deportes_Vista_Alegre_-_C%C3%B3rdoba_%28Espa%C3%B1a%29.jpg"
@@ -209,7 +209,7 @@ const ReserveInfo = () => {
           <br />
         </IonContent>
         <IonFooter>
-          <Tabs />
+          <Tabs disabled={false}/>
         </IonFooter>
       </IonPage>
     </>

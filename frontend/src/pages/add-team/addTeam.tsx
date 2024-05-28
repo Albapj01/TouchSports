@@ -46,7 +46,7 @@ const AddTeam = () => {
         </IonHeader>
         <IonContent fullscreen>
           <br></br>
-          <Menu />
+          <Menu disabled={false}/>
           <PersonContainer>
             <Avatar
               route=""
@@ -93,7 +93,7 @@ const AddTeam = () => {
           </Button>
         </IonContent>
         <IonFooter>
-          <Tabs />
+          <Tabs disabled={false}/>
         </IonFooter>
       </IonPage>
     </>

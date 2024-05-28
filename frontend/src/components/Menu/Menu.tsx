@@ -22,7 +22,11 @@ import { Team } from "frontend/src/utils/interfaces/Team";
 import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import api from "frontend/src/utils/api/api";
 
-const Menu = () => {
+type MenuProps = {
+  disabled: boolean;
+};
+
+const Menu = ({ disabled }: MenuProps) => {
   const [showDropDown, setDropDown] = useState(false);
 
   const handleDropDownClick = () => {
@@ -45,10 +49,14 @@ const Menu = () => {
     fetchTeams();
   }, []);
 
+  if (disabled) {
+    return null; 
+  }
+
   return (
     <>
       <GlobalStyle />
-      <IonMenu contentId="main-content">
+      <IonMenu contentId="main-content" >
         <IonContent content="main-content" color="primary">
           <IonToolbar color="primary">
             <IonTitle>Menu</IonTitle>

@@ -3,15 +3,23 @@ import { IonTabBar, IonTabButton, IonIcon, IonLabel } from "@ionic/react";
 import { home, person } from "ionicons/icons";
 import { useHistory } from "react-router-dom";
 
-const Tabs = () => {
+type TabProps = {
+  disabled: boolean;
+};
+
+const Tabs = ({ disabled }: TabProps) => {
   const history = useHistory();
 
   const handleRedirectProfile = () => {
-    history.push("/home/profile");
+    if (!disabled) {
+      history.push("/home/profile");
+    }
   };
 
   const handleRedirectHome = () => {
-    history.push("/home");
+    if (!disabled) {
+      history.push("/home");
+    }
   };
 
   return (

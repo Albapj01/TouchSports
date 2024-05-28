@@ -93,7 +93,7 @@ const Reserves = () => {
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu />
+          <Menu disabled={false}/>
           <Cards>
             {reserves.length > 0 ? (
               reserves.map((reserve) => (
@@ -201,7 +201,7 @@ const Reserves = () => {
           </IonModal>
         </IonContent>
         <IonFooter>
-          <Tabs />
+          <Tabs disabled={false}/>
         </IonFooter>
       </IonPage>
     </>

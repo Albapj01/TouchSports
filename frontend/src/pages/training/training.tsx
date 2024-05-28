@@ -13,13 +13,14 @@ import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import { Player } from "frontend/src/utils/interfaces/Player";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 const Training = () => {
   const { teamId } = useParams<{ teamId: string }>();
   const { playerId } = useParams<{ playerId: string }>();
   const [player, setPlayer] = useState<Player>();
   const [trainerId, setTrainerId] = useState("");
+  const [disabled, setDisabled] = useState(false);
 
   const { payload } = decodeJwt(storage.get("token"));
 
@@ -39,6 +40,7 @@ const Training = () => {
           let result;
           if (storedTrainerId) {
             result = await api.getPlayerById(storedTrainerId, teamId, playerId);
+            setDisabled(true);
           } else {
             result = await api.getPlayerById(payload.sub, teamId, playerId);
           }
@@ -56,12 +58,13 @@ const Training = () => {
 
   return (
     <>
+      <GlobalStyle />
       <IonPage>
         <IonHeader color="primary">
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu />
+          <Menu disabled={disabled}/>
           <Container>
             <TextContainer>
               <IonText>Entrenamientos personalizados</IonText>
@@ -84,7 +87,7 @@ const Training = () => {
           </Container>
         </IonContent>
         <IonFooter>
-          <Tabs />
+          <Tabs disabled={disabled}/>
         </IonFooter>
       </IonPage>
     </>
@@ -110,5 +113,11 @@ const Space = styled.div`
 const TextStyles = styled.div`
   font-size: 20px;
 `;
+
+const GlobalStyle = createGlobalStyle`
+    :root {
+      --ion-color-primary: #1f7189;
+    }
+  `;
 
 export default Training;

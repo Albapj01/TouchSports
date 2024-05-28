@@ -13,7 +13,7 @@ const Home = () => {
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu />
+          <Menu disabled={false}/>
           <Cards>
             <Card
               route="/home/teams"
@@ -30,7 +30,7 @@ const Home = () => {
           </Cards>
         </IonContent>
         <IonFooter>
-          <Tabs />
+          <Tabs disabled={false}/>
         </IonFooter>
       </IonPage>
     </>

@@ -74,7 +74,7 @@ const Calendar = () => {
         </IonHeader>
         <IonContent fullscreen>
           <br></br>
-          <Menu />
+          <Menu disabled={false}/>
           <TextContainer>
             <IonText>Calendario de reservas</IonText>
           </TextContainer>
@@ -95,7 +95,7 @@ const Calendar = () => {
           </CalendarContainer>
         </IonContent>
         <IonFooter>
-          <Tabs />
+          <Tabs disabled={false}/>
         </IonFooter>
       </IonPage>
     </>

@@ -64,7 +64,7 @@ const Profile = () => {
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu />
+          <Menu disabled={false}/>
           <IonFab slot="fixed" vertical="top" horizontal="end" edge={true}>
             <FabContainer>
               <TransparentFabButton>
@@ -137,7 +137,7 @@ const Profile = () => {
           <Space />
         </IonContent>
         <IonFooter>
-          <Tabs />
+          <Tabs disabled={false}/>
         </IonFooter>
       </IonPage>
     </>

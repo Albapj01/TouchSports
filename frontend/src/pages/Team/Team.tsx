@@ -76,7 +76,7 @@ const Team = () => {
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu />
+          <Menu disabled={false}/>
           <IonFab slot="fixed" vertical="top" horizontal="end" edge={true}>
             <FabContainer>
               <TransparentFabButton>
@@ -141,7 +141,7 @@ const Team = () => {
           </ButtonContainer>
         </IonContent>
         <IonFooter>
-          <Tabs />
+          <Tabs disabled={false}/>
         </IonFooter>
       </IonPage>
     </>

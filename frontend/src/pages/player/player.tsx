@@ -20,13 +20,15 @@ import api from "frontend/src/utils/api/api";
 import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import { Player } from "frontend/src/utils/interfaces/Player";
 import { useEffect, useState } from "react";
-import { useHistory, useParams } from "react-router-dom";
-import styled from "styled-components";
+import { Link, useHistory, useParams } from "react-router-dom";
+import styled, { createGlobalStyle } from "styled-components";
 import {
   ellipsisVerticalOutline,
   pencilOutline,
   trashOutline,
+  logOut,
 } from "ionicons/icons";
+import { googleLogout } from "@react-oauth/google";
 
 const PlayerInfo = () => {
   const { teamId } = useParams<{ teamId: string }>();
@@ -34,6 +36,7 @@ const PlayerInfo = () => {
   const [player, setPlayer] = useState<Player>();
   const [showAlert, setShowAlert] = useState(false);
   const [trainerId, setTrainerId] = useState("");
+  const [disabled, setDisabled] = useState(false);
 
   const history = useHistory();
 
@@ -44,7 +47,7 @@ const PlayerInfo = () => {
       const fetchPlayer = async () => {
         try {
           const storedTrainerId = localStorage.getItem("trainerId");
-          if(!storedTrainerId){
+          if (!storedTrainerId) {
             return null;
           }
 
@@ -52,17 +55,10 @@ const PlayerInfo = () => {
           let result;
 
           if (storedTrainerId) {
-            result = await api.getPlayerById(
-              storedTrainerId,
-              teamId,
-              playerId
-            );
+            result = await api.getPlayerById(storedTrainerId, teamId, playerId);
+            setDisabled(true);
           } else {
-            result = await api.getPlayerById(
-              payload.sub,
-              teamId,
-              playerId
-            );
+            result = await api.getPlayerById(payload.sub, teamId, playerId);
           }
 
           setPlayer(result.player);
@@ -92,32 +88,49 @@ const PlayerInfo = () => {
     history.push(`/home/teams/${teamId}/player/${playerId}/update-player`);
   };
 
+  const handleLogOut = () => {
+    googleLogout();
+    storage.remove('token');
+  };
+
   return (
     <>
+      <GlobalStyle />
       <IonPage>
         <IonHeader color="primary">
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu />
-          <IonFab slot="fixed" vertical="top" horizontal="end" edge={true}>
-            <FabContainer>
-              <TransparentFabButton>
-                <IonIcon
-                  color="primary"
-                  icon={ellipsisVerticalOutline}
-                ></IonIcon>
-              </TransparentFabButton>
-              <IonFabList side="bottom">
-                <IonFabButton onClick={handleUpdateButtonClick}>
-                  <IonIcon color="primary" icon={pencilOutline}></IonIcon>
-                </IonFabButton>
-                <IonFabButton onClick={handleDeleteButtonClick}>
-                  <IonIcon color="primary" icon={trashOutline}></IonIcon>
-                </IonFabButton>
-              </IonFabList>
-            </FabContainer>
-          </IonFab>
+          <Menu disabled={disabled} />
+          {disabled ? (
+            <Link to="/sign-in">
+              <LogOutContainer onClick={handleLogOut}>
+                <StyledIonIcon icon={logOut} color="primary" />
+              </LogOutContainer>
+            </Link>
+          ) : (
+            <>
+              <IonFab slot="fixed" vertical="top" horizontal="end" edge={true}>
+                <FabContainer>
+                  <TransparentFabButton>
+                    <IonIcon
+                      color="primary"
+                      icon={ellipsisVerticalOutline}
+                    ></IonIcon>
+                  </TransparentFabButton>
+                  <IonFabList side="bottom">
+                    <IonFabButton onClick={handleUpdateButtonClick}>
+                      <IonIcon color="primary" icon={pencilOutline}></IonIcon>
+                    </IonFabButton>
+                    <IonFabButton onClick={handleDeleteButtonClick}>
+                      <IonIcon color="primary" icon={trashOutline}></IonIcon>
+                    </IonFabButton>
+                  </IonFabList>
+                </FabContainer>
+              </IonFab>
+              <Margin />
+            </>
+          )}
           <IonAlert
             isOpen={showAlert}
             onDidDismiss={() => setShowAlert(false)}
@@ -140,7 +153,6 @@ const PlayerInfo = () => {
               },
             ]}
           />
-          <Margin />
           <ImageContainer>
             <Image
               src={"https://ionicframework.com/docs/img/demos/avatar.svg"}
@@ -192,7 +204,7 @@ const PlayerInfo = () => {
           />
         </IonContent>
         <IonFooter>
-          <Tabs />
+          <Tabs disabled={disabled} />
         </IonFooter>
       </IonPage>
     </>
@@ -241,6 +253,21 @@ const ImprovementsContainer = styled.div`
 const TextContainer = styled.div`
   font-size: 17px;
   margin-left: 1%;
+`;
+
+const GlobalStyle = createGlobalStyle`
+    :root {
+      --ion-color-primary: #1f7189;
+    }
+  `;
+
+const LogOutContainer = styled.div`
+  text-align: right;
+`;
+
+const StyledIonIcon = styled(IonIcon)`
+  font-size: 250%;
+  margin: 1%;
 `;
 
 export default PlayerInfo;

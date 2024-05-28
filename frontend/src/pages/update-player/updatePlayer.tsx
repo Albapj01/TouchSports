@@ -132,7 +132,7 @@ const UpdatePlayer = () => {
         </IonHeader>
         <IonContent fullscreen>
           <br></br>
-          <Menu />
+          <Menu disabled={false}/>
           <PersonContainer>
             <Avatar
               route=""
@@ -316,7 +316,7 @@ const UpdatePlayer = () => {
           </Button>
         </IonContent>
         <IonFooter>
-          <Tabs />
+          <Tabs disabled={false}/>
         </IonFooter>
       </IonPage>
     </>

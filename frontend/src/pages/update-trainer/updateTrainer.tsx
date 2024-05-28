@@ -67,7 +67,7 @@ const UpdateTrainer = () => {
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu />
+          <Menu disabled={false}/>
           <Margin />
           <ImageContainer>
             <Image src={picture} />
@@ -133,7 +133,7 @@ const UpdateTrainer = () => {
           </Button>
         </IonContent>
         <IonFooter>
-          <Tabs />
+          <Tabs disabled={false}/>
         </IonFooter>
       </IonPage>
     </>

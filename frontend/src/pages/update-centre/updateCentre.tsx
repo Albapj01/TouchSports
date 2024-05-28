@@ -66,7 +66,7 @@ const UpdateCentre = () => {
         </IonHeader>
         <IonContent fullscreen>
           <br></br>
-          <Menu />
+          <Menu disabled={false}/>
           <PersonContainer>
             <Avatar
               route=""
@@ -122,7 +122,7 @@ const UpdateCentre = () => {
           </Button>
         </IonContent>
         <IonFooter>
-          <Tabs />
+          <Tabs disabled={false}/>
         </IonFooter>
       </IonPage>
     </>
