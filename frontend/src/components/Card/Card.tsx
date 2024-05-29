@@ -17,16 +17,18 @@ const Card = ({ title, imageUrl, description, route }: CardProps) => {
     return false;
   };
 
+  const handleRedirect = () => {
+    window.location.href = route;
+  };
+
   return (
-    <StyledLink to={route}>
-      <IonCard>
-        <img alt={title} src={imageUrl} />
-        <IonCardHeader>
-          <TitleText>{title}</TitleText>
-        </IonCardHeader>
-        <IonCardContent onClick={hideDescription}>{description}</IonCardContent>
-      </IonCard>
-    </StyledLink>
+    <IonCard onClick={handleRedirect}>
+      <img alt={title} src={imageUrl} />
+      <IonCardHeader>
+        <TitleText>{title}</TitleText>
+      </IonCardHeader>
+      <IonCardContent onClick={hideDescription}>{description}</IonCardContent>
+    </IonCard>
   );
 };
 

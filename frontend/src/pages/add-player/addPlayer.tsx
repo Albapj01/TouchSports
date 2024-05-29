@@ -273,7 +273,7 @@ const AddPlayer = () => {
                 {
                   text: "Eliminar",
                   role: "destructive",
-                  handler: () => history.push("/home/team"),
+                  handler: () => history.push(`/home/teams/${teamId}`),
                 },
                 {
                   text: "Añadir",
@@ -285,7 +285,7 @@ const AddPlayer = () => {
                 {
                   text: "Cancelar",
                   role: "cancel",
-                  handler: () => history.push("/home/team/add-player"),
+                  handler: () => history.push(`/home/teams/${teamId}/add-player`),
                 },
               ]}
             ></IonActionSheet>

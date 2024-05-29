@@ -76,7 +76,7 @@ const Team = () => {
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu disabled={false}/>
+          <Menu disabled={false} />
           <IonFab slot="fixed" vertical="top" horizontal="end" edge={true}>
             <FabContainer>
               <TransparentFabButton>
@@ -135,13 +135,18 @@ const Team = () => {
           </PersonsContainer>
           <Space />
           <ButtonContainer>
-            <Link to={`/home/teams/${teamId}/add-player`}>
-              <Button color="primary" icon={personAdd} text="Añadir jugador" />
-            </Link>
+            <Button
+              onClick={() => {
+                window.location.href = `/home/teams/${teamId}/add-player`;
+              }}
+              color="primary"
+              icon={personAdd}
+              text="Añadir jugador"
+            />
           </ButtonContainer>
         </IonContent>
         <IonFooter>
-          <Tabs disabled={false}/>
+          <Tabs disabled={false} />
         </IonFooter>
       </IonPage>
     </>

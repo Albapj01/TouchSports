@@ -1,6 +1,3 @@
-<i> [1m[32m[webpack-dev-server] Project is running at:[39m[22m
-<i> [1m[32m[webpack-dev-server] Loopback: [36mhttp://localhost:4200/[39m, [36mhttp://[::1]:4200/[39m[39m[22m
-<i> [1m[32m[webpack-dev-server] 404s will fallback to '[36m/index.html[39m'[39m[22m
 
 [36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4200/[22m
 
@@ -93,26 +90,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/components/card/card.t
 
 webpack compiled with [1m[31m1 error[39m[22m (dec4789fd1514e7e)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m33:7[22m[39m
-[90mTS2448: [39mBlock-scoped variable 'StyledLink' used before its declaration.
-  [0m [90m 31 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m
-   [90m 32 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m
-  [31m[1m>[22m[39m[90m 33 |[39m     [33m<[39m[33m/[39m[33mStyledLink[39m[33m>[39m
-   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 34 |[39m   )[33m;[39m
-   [90m 35 |[39m }[33m;[39m
-   [90m 36 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/components/card/card.tsx[22m:[32m[1m33:7[22m[39m
-[90mTS2454: [39mVariable 'StyledLink' is used before being assigned.
-  [0m [90m 31 |[39m         [33m<[39m[33mIonCardContent[39m onClick[33m=[39m{hideDescription}[33m>[39m{description}[33m<[39m[33m/[39m[33mIonCardContent[39m[33m>[39m
-   [90m 32 |[39m       [33m<[39m[33m/[39m[33mIonCard[39m[33m>[39m
-  [31m[1m>[22m[39m[90m 33 |[39m     [33m<[39m[33m/[39m[33mStyledLink[39m[33m>[39m
-   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 34 |[39m   )[33m;[39m
-   [90m 35 |[39m }[33m;[39m
-   [90m 36 |[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 1815 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.49 MiB (7 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.91f4ded831a06313.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
@@ -295,26 +272,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/player/player.ts
 
 webpack compiled with [1m[31m1 error[39m[22m (ec5a65f9e8a6d5b2)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/player/player.tsx[22m:[32m[1m72:7[22m[39m
-[90mTS7031: [39mBinding element 'console' implicitly has an 'any' type.
-  [0m [90m 70 |[39m       fetchPlayer()[33m;[39m
-   [90m 71 |[39m     } [36melse[39m {
-  [31m[1m>[22m[39m[90m 72 |[39m       console[33m.[39merror([32m"El jugador no existe."[39m)[33m;[39m
-   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 73 |[39m     }
-   [90m 74 |[39m   }[33m,[39m [])[33m;[39m
-   [90m 75 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/player/player.tsx[22m:[32m[1m72:15[22m[39m
-[90mTS7031: [39mBinding element 'error' implicitly has an 'any' type.
-  [0m [90m 70 |[39m       fetchPlayer()[33m;[39m
-   [90m 71 |[39m     } [36melse[39m {
-  [31m[1m>[22m[39m[90m 72 |[39m       console[33m.[39merror([32m"El jugador no existe."[39m)[33m;[39m
-   [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 73 |[39m     }
-   [90m 74 |[39m   }[33m,[39m [])[33m;[39m
-   [90m 75 |[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 892 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.f8b2cd4c089b3e38.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -756,113 +713,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/diet/diet.tsx: M
 
 webpack compiled with [1m[31m1 error[39m[22m (57fa286d904b1cea)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m75:11[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: (RouteProps<"/home/teams/:teamId/player/:playerId/diet", { teamId: string; } & { playerId: string; }> & OmitNative<{}, keyof RouteProps<string, { [x: string]: string | undefined; }>>) | Readonly<...>): Route<...>', gave the following error.
-    Type '() => void' is not assignable to type 'ComponentType<any> | ComponentType<RouteComponentProps<any, StaticContext, unknown>> | undefined'.
-      Type '() => void' is not assignable to type 'FunctionComponent<any>'.
-        Type 'void' is not assignable to type 'ReactNode'.
-  Overload 2 of 2, '(props: RouteProps<"/home/teams/:teamId/player/:playerId/diet", { teamId: string; } & { playerId: string; }> & OmitNative<{}, keyof RouteProps<string, { [x: string]: string | undefined; }>>, context: any): Route<...>', gave the following error.
-    Type '() => void' is not assignable to type 'ComponentType<any> | ComponentType<RouteComponentProps<any, StaticContext, unknown>> | undefined'.
-  [0m [90m 73 |[39m         [33m<[39m[33mRoute[39m
-   [90m 74 |[39m           path[33m=[39m[32m"/home/teams/:teamId/player/:playerId/diet"[39m
-  [31m[1m>[22m[39m[90m 75 |[39m           component[33m=[39m{[33mDiet[39m}
-   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 76 |[39m         [33m/[39m[33m>[39m
-   [90m 77 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams/:teamId/player/:playerId/training"[39m component[33m=[39m{[33mTraining[39m}[33m>[39m[33m<[39m[33m/[39m[33mRoute[39m[33m>[39m
-   [90m 78 |[39m         [33m<[39m[33mRoute[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m53:15[22m[39m
-[90mTS2304: [39mCannot find name 'existingPlayer'.
-  [0m [90m 51 |[39m           }
-   [90m 52 |[39m           
-  [31m[1m>[22m[39m[90m 53 |[39m           [36mif[39m (existingPlayer [33m&&[39m existingPlayer[33m.[39mplayer) {
-   [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 54 |[39m             [36mconst[39m playerDiet [33m=[39m existingPlayer[33m.[39mplayer[33m.[39mdiet[33m;[39m
-   [90m 55 |[39m             [36mif[39m (playerDiet [33m===[39m [32m"Dieta para perder grasa"[39m) {
-   [90m 56 |[39m               setSelectedDiet([32m"Dieta para perder grasa"[39m)[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m53:33[22m[39m
-[90mTS2304: [39mCannot find name 'existingPlayer'.
-  [0m [90m 51 |[39m           }
-   [90m 52 |[39m           
-  [31m[1m>[22m[39m[90m 53 |[39m           [36mif[39m (existingPlayer [33m&&[39m existingPlayer[33m.[39mplayer) {
-   [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 54 |[39m             [36mconst[39m playerDiet [33m=[39m existingPlayer[33m.[39mplayer[33m.[39mdiet[33m;[39m
-   [90m 55 |[39m             [36mif[39m (playerDiet [33m===[39m [32m"Dieta para perder grasa"[39m) {
-   [90m 56 |[39m               setSelectedDiet([32m"Dieta para perder grasa"[39m)[33m;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m54:32[22m[39m
-[90mTS2304: [39mCannot find name 'existingPlayer'.
-  [0m [90m 52 |[39m           
-   [90m 53 |[39m           [36mif[39m (existingPlayer [33m&&[39m existingPlayer[33m.[39mplayer) {
-  [31m[1m>[22m[39m[90m 54 |[39m             [36mconst[39m playerDiet [33m=[39m existingPlayer[33m.[39mplayer[33m.[39mdiet[33m;[39m
-   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 55 |[39m             [36mif[39m (playerDiet [33m===[39m [32m"Dieta para perder grasa"[39m) {
-   [90m 56 |[39m               setSelectedDiet([32m"Dieta para perder grasa"[39m)[33m;[39m
-   [90m 57 |[39m             } [36melse[39m [36mif[39m (playerDiet [33m===[39m [32m"Dieta para aumentar la masa muscular"[39m) {[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m67:7[22m[39m
-[90mTS2304: [39mCannot find name 'fetchPlayerData'.
-  [0m [90m 65 |[39m         }
-   [90m 66 |[39m       }[33m;[39m
-  [31m[1m>[22m[39m[90m 67 |[39m       fetchPlayerData()[33m;[39m
-   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 68 |[39m     } [36melse[39m {
-   [90m 69 |[39m       console[33m.[39merror([32m"El jugador no existe."[39m)[33m;[39m
-   [90m 70 |[39m     }[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m69:7[22m[39m
-[90mTS2345: [39mArgument of type '{ console: Console; "": any; }' is not assignable to parameter of type 'readonly unknown[]'.
-  Object literal may only specify known properties, and 'console' does not exist in type 'readonly unknown[]'.
-  [0m [90m 67 |[39m       fetchPlayerData()[33m;[39m
-   [90m 68 |[39m     } [36melse[39m {
-  [31m[1m>[22m[39m[90m 69 |[39m       console[33m.[39merror([32m"El jugador no existe."[39m)[33m;[39m
-   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 70 |[39m     }
-   [90m 71 |[39m   }[33m,[39m [payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId])[33m;[39m
-   [90m 72 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m71:7[22m[39m
-[90mTS7031: [39mBinding element 'payload' implicitly has an 'any' type.
-  [0m [90m 69 |[39m       console[33m.[39merror([32m"El jugador no existe."[39m)[33m;[39m
-   [90m 70 |[39m     }
-  [31m[1m>[22m[39m[90m 71 |[39m   }[33m,[39m [payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId])[33m;[39m
-   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 72 |[39m
-   [90m 73 |[39m   [36mreturn[39m (
-   [90m 74 |[39m     [33m<[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m71:15[22m[39m
-[90mTS7031: [39mBinding element 'sub' implicitly has an 'any' type.
-  [0m [90m 69 |[39m       console[33m.[39merror([32m"El jugador no existe."[39m)[33m;[39m
-   [90m 70 |[39m     }
-  [31m[1m>[22m[39m[90m 71 |[39m   }[33m,[39m [payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId])[33m;[39m
-   [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 72 |[39m
-   [90m 73 |[39m   [36mreturn[39m (
-   [90m 74 |[39m     [33m<[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m71:20[22m[39m
-[90mTS7031: [39mBinding element 'teamId' implicitly has an 'any' type.
-  [0m [90m 69 |[39m       console[33m.[39merror([32m"El jugador no existe."[39m)[33m;[39m
-   [90m 70 |[39m     }
-  [31m[1m>[22m[39m[90m 71 |[39m   }[33m,[39m [payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId])[33m;[39m
-   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 72 |[39m
-   [90m 73 |[39m   [36mreturn[39m (
-   [90m 74 |[39m     [33m<[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m71:28[22m[39m
-[90mTS7031: [39mBinding element 'playerId' implicitly has an 'any' type.
-  [0m [90m 69 |[39m       console[33m.[39merror([32m"El jugador no existe."[39m)[33m;[39m
-   [90m 70 |[39m     }
-  [31m[1m>[22m[39m[90m 71 |[39m   }[33m,[39m [payload[33m.[39msub[33m,[39m teamId[33m,[39m playerId])[33m;[39m
-   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 72 |[39m
-   [90m 73 |[39m   [36mreturn[39m (
-   [90m 74 |[39m     [33m<[39m[33m>[39m[0m
-
 Found [31m[1m10 errors[22m[39m in 566 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.51 MiB (7.02 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.bbaa1ad906307a7e.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
@@ -891,17 +741,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (dcfa9a3e7ce1b2a6)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m33:24[22m[39m
-[90mTS2345: [39mArgument of type 'string | null' is not assignable to parameter of type 'SetStateAction<string>'.
-  Type 'null' is not assignable to type 'SetStateAction<string>'.
-  [0m [90m 31 |[39m           [36mconst[39m storedTrainerId [33m=[39m localStorage[33m.[39mgetItem([32m"trainerId"[39m)[33m;[39m
-   [90m 32 |[39m
-  [31m[1m>[22m[39m[90m 33 |[39m           setTrainerId(storedTrainerId)[33m;[39m
-   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 34 |[39m           [36mlet[39m existingPlayer[33m;[39m
-   [90m 35 |[39m           [36mif[39m (storedTrainerId) {
-   [90m 36 |[39m             existingPlayer [33m=[39m [36mawait[39m api[33m.[39mgetPlayerById([0m
-
 Found [31m[1m1 error[22m[39m in 764 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.51 MiB (7.02 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.dcfa9a3e7ce1b2a6.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
@@ -916,27 +755,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (2600ac5b8dd96d75)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m33:24[22m[39m
-[90mTS2345: [39mArgument of type 'string | null' is not assignable to parameter of type 'SetStateAction<string>'.
-  Type 'null' is not assignable to type 'SetStateAction<string>'.
-  [0m [90m 31 |[39m           [36mconst[39m storedTrainerId [33m=[39m localStorage[33m.[39mgetItem([32m"trainerId"[39m)[33m;[39m
-   [90m 32 |[39m
-  [31m[1m>[22m[39m[90m 33 |[39m           setTrainerId(storedTrainerId)[33m;[39m
-   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 34 |[39m           [36mlet[39m existingPlayer[33m;[39m
-   [90m 35 |[39m           [36mif[39m (storedTrainerId [33m&&[39m stor) {
-   [90m 36 |[39m             existingPlayer [33m=[39m [36mawait[39m api[33m.[39mgetPlayerById([0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m35:34[22m[39m
-[90mTS2304: [39mCannot find name 'stor'.
-  [0m [90m 33 |[39m           setTrainerId(storedTrainerId)[33m;[39m
-   [90m 34 |[39m           [36mlet[39m existingPlayer[33m;[39m
-  [31m[1m>[22m[39m[90m 35 |[39m           [36mif[39m (storedTrainerId [33m&&[39m stor) {
-   [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 36 |[39m             existingPlayer [33m=[39m [36mawait[39m api[33m.[39mgetPlayerById(
-   [90m 37 |[39m               storedTrainerId[33m,[39m
-   [90m 38 |[39m               teamId[33m,[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 878 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.51 MiB (7.02 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.2600ac5b8dd96d75.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
@@ -951,17 +769,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (6bd4515809b2c190)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/diet/diet.tsx[22m:[32m[1m33:24[22m[39m
-[90mTS2345: [39mArgument of type 'string | null' is not assignable to parameter of type 'SetStateAction<string>'.
-  Type 'null' is not assignable to type 'SetStateAction<string>'.
-  [0m [90m 31 |[39m           [36mconst[39m storedTrainerId [33m=[39m localStorage[33m.[39mgetItem([32m"trainerId"[39m)[33m;[39m
-   [90m 32 |[39m
-  [31m[1m>[22m[39m[90m 33 |[39m           setTrainerId(storedTrainerId)[33m;[39m
-   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 34 |[39m           [36mlet[39m existingPlayer[33m;[39m
-   [90m 35 |[39m           [36mif[39m (storedTrainerId [33m&&[39m storedTrainerId [33m!==[39m payload[33m.[39msub) {
-   [90m 36 |[39m             existingPlayer [33m=[39m [36mawait[39m api[33m.[39mgetPlayerById([0m
-
 Found [31m[1m1 error[22m[39m in 748 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.51 MiB (7.02 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.6bd4515809b2c190.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
@@ -1123,26 +930,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/training/trainin
 
 webpack compiled with [1m[31m1 error[39m[22m (6729cbf70e277833)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m55:7[22m[39m
-[90mTS7031: [39mBinding element 'console' implicitly has an 'any' type.
-  [0m [90m 53 |[39m       fetchPlayerData()[33m;[39m
-   [90m 54 |[39m     } [36melse[39m {
-  [31m[1m>[22m[39m[90m 55 |[39m       console[33m.[39merror([32m"El jugador no existe."[39m)[33m;[39m
-   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 56 |[39m     }
-   [90m 57 |[39m   }[33m,[39m [])[33m;[39m
-   [90m 58 |[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m55:15[22m[39m
-[90mTS7031: [39mBinding element 'error' implicitly has an 'any' type.
-  [0m [90m 53 |[39m       fetchPlayerData()[33m;[39m
-   [90m 54 |[39m     } [36melse[39m {
-  [31m[1m>[22m[39m[90m 55 |[39m       console[33m.[39merror([32m"El jugador no existe."[39m)[33m;[39m
-   [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 56 |[39m     }
-   [90m 57 |[39m   }[33m,[39m [])[33m;[39m
-   [90m 58 |[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 859 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.49 MiB (7.01 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.c9dc0f4134d1e0fb.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets

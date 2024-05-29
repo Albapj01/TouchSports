@@ -36,7 +36,7 @@ const Teams = () => {
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu disabled={false}/>
+          <Menu disabled={false} />
           <Cards>
             {teams &&
               teams.map((team) => (
@@ -50,17 +50,18 @@ const Teams = () => {
               ))}
           </Cards>
           <ButtonContainer>
-            <Link to="/home/teams/add-team">
-              <Button
-                color="primary"
-                icon={addCircleOutline}
-                text="Añadir equipo"
-              />
-            </Link>
+            <Button
+              onClick={() => {
+                window.location.href = "/home/teams/add-team";
+              }}
+              color="primary"
+              icon={addCircleOutline}
+              text="Añadir equipo"
+            />
           </ButtonContainer>
         </IonContent>
         <IonFooter>
-          <Tabs disabled={false}/>
+          <Tabs disabled={false} />
         </IonFooter>
       </IonPage>
     </>

@@ -12,13 +12,13 @@ const Tabs = ({ disabled }: TabProps) => {
 
   const handleRedirectProfile = () => {
     if (!disabled) {
-      history.push("/home/profile");
+      history.push(window.location.href = "/home/profile");
     }
   };
 
   const handleRedirectHome = () => {
     if (!disabled) {
-      history.push("/home");
+      history.push(window.location.href = "/home");
     }
   };
 

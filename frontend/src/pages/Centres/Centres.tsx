@@ -43,7 +43,7 @@ const CentresInfo = () => {
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu disabled={false}/>
+          <Menu disabled={false} />
           <IonSearchbar placeholder="Buscar"></IonSearchbar>
           <CentresContainer>
             {centres &&
@@ -58,17 +58,18 @@ const CentresInfo = () => {
               ))}
           </CentresContainer>
           <ButtonContainer>
-            <Link to="/home/centres/add-centres">
-              <Button
-                color="primary"
-                icon={addCircleOutline}
-                text="Añadir centro"
-              />
-            </Link>
+            <Button
+              onClick={() => {
+                window.location.href = "/home/centres/add-centres";
+              }}
+              color="primary"
+              icon={addCircleOutline}
+              text="Añadir centro"
+            />
           </ButtonContainer>
         </IonContent>
         <IonFooter>
-          <Tabs disabled={false}/>
+          <Tabs disabled={false} />
         </IonFooter>
       </IonPage>
     </>

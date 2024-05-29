@@ -63,18 +63,18 @@ const Menu = ({ disabled }: MenuProps) => {
           </IonToolbar>
           <StyledIonItem color="primary">
             <Icon icon={calendar} />
-            <StyledLink to="/home/calendar">Calendario</StyledLink>
+            <StyledLink onClick={() => {window.location.href ="/home/calendar"}}>Calendario</StyledLink>
           </StyledIonItem>
           <StyledIonItem color="primary" button onClick={handleDropDownClick}>
             <Icon icon={people} />
-            <StyledLink to="/home/teams">Equipo</StyledLink>
+            <StyledLink onClick={() => {window.location.href ="/home/teams"}}>Equipo</StyledLink>
           </StyledIonItem>
           {showDropDown && (
             <IonList className="no-margin-padding">
               {teams.map((team, index) => (
                 <StyledIonItem key={index} color="primary">
                   <Icon icon={""} />
-                  <StyledLink to={`/home/teams/${team.teamId}`}>
+                  <StyledLink onClick={() => {window.location.href =`/home/teams/${team.teamId}`}}>
                     {team.name}
                   </StyledLink>
                 </StyledIonItem>
@@ -83,15 +83,15 @@ const Menu = ({ disabled }: MenuProps) => {
           )}
           <StyledIonItem color="primary">
             <Icon icon={business} />
-            <StyledLink to="/home/centres">Instalaciones</StyledLink>
+            <StyledLink onClick={() => {window.location.href ="/home/centres"}}>Instalaciones</StyledLink>
           </StyledIonItem>
           <StyledIonItem color="primary">
             <Icon icon={fileTrayFull} />
-            <StyledLink to="/home/reserves">Reservas</StyledLink>
+            <StyledLink onClick={() => {window.location.href ="/home/reserves"}}>Reservas</StyledLink>
           </StyledIonItem>
           <StyledIonItem color="primary">
             <Icon icon={logOut} />
-            <StyledLink to="/sign-in">Cerrar Sesión</StyledLink>
+            <StyledLink onClick={() => {window.location.href ="/sign-in"}}>Cerrar Sesión</StyledLink>
           </StyledIonItem>
         </IonContent>
       </IonMenu>
@@ -137,7 +137,7 @@ const StyledIonItem = styled(IonItem)`
   border: 1px solid #ccc;
 `;
 
-const StyledLink = styled(Link)`
+const StyledLink = styled.div`
   display: flex;
   align-items: center;
   text-decoration: none;

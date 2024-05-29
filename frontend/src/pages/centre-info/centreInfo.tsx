@@ -79,7 +79,7 @@ const CentreInfo = () => {
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu disabled={false}/>
+          <Menu disabled={false} />
           <IonFab slot="fixed" vertical="top" horizontal="end" edge={true}>
             <FabContainer>
               <TransparentFabButton>
@@ -141,18 +141,19 @@ const CentreInfo = () => {
             </IonItem>
           </IonList>
           <ButtonContainer>
-            <Link to={`/home/centres/${centresId}/reserve`}>
-              <Button
-                color="primary"
-                icon={fileTrayFull}
-                text="Realizar reserva"
-              />
-            </Link>
+            <Button
+              onClick={() => {
+                window.location.href = `/home/centres/${centresId}/reserve`;
+              }}
+              color="primary"
+              icon={fileTrayFull}
+              text="Realizar reserva"
+            />
           </ButtonContainer>
           <Space />
         </IonContent>
         <IonFooter>
-          <Tabs disabled={false}/>
+          <Tabs disabled={false} />
         </IonFooter>
       </IonPage>
     </>

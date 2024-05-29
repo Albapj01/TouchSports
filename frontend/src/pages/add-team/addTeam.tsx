@@ -86,7 +86,7 @@ const AddTeam = () => {
                 {
                   text: "Cancelar",
                   role: "cancel",
-                  handler: () => history.push("/home/teams/team/add-team"),
+                  handler: () => history.push("/home/teams/add-team"),
                 },
               ]}
             ></IonActionSheet>
