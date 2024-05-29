@@ -32,17 +32,16 @@ const Training = () => {
       const fetchPlayerData = async () => {
         try {
           const storedTrainerId = localStorage.getItem("trainerId");
-          if (!storedTrainerId) {
-            return null;
-          }
 
-          setTrainerId(storedTrainerId);
           let result;
-          if (storedTrainerId) {
+
+          if (storedTrainerId && storedTrainerId !== payload.sub) {
+            setTrainerId(storedTrainerId);
             result = await api.getPlayerById(storedTrainerId, teamId, playerId);
             setDisabled(true);
           } else {
             result = await api.getPlayerById(payload.sub, teamId, playerId);
+            setDisabled(false);
           }
 
           setPlayer(result.player);

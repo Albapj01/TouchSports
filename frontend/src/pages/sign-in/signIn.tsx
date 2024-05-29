@@ -21,26 +21,43 @@ const SignIn = () => {
 
   const trainerResponse = async (credentialResponse: any) => {
     storage.set("token", credentialResponse.credential!);
-
+  
     const { payload } = decodeJwt(storage.get("token"));
-
-    const existingTrainer = await api.getTrainerById(payload.sub);
-
-    if (!existingTrainer) {
-      await api.createTrainer(
-        payload.sub,
-        payload.given_name,
-        payload.family_name,
-        payload.email,
-        "",
-        [],
-        "",
-        []
-      );
+  
+    try {
+      const existingTrainer = await api.getTrainerById(payload.sub);
+      if (!existingTrainer) {
+        await api.createTrainer(
+          payload.sub,
+          payload.given_name,
+          payload.family_name,
+          payload.email,
+          "",
+          [],
+          "",
+          []
+        );
+      }
+    } catch (error: any) {
+      if (error.response && error.response.status === 500) {
+        await api.createTrainer(
+          payload.sub,
+          payload.given_name,
+          payload.family_name,
+          payload.email,
+          "",
+          [],
+          "",
+          []
+        );
+      } else {
+        console.error("Error handling trainer response:", error);
+      }
     }
-
+  
     history.push("/");
   };
+  
 
   const playerResponse = async (credentialResponse: any) => {
     try {

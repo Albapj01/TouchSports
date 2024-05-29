@@ -29,13 +29,11 @@ const Diet = () => {
       const fetchPlayerData = async () => {
         try {
           const storedTrainerId = localStorage.getItem("trainerId");
-          if(!storedTrainerId){
-            return null;
-          }
 
-          setTrainerId(storedTrainerId);
           let existingPlayer;
-          if (storedTrainerId) {
+
+          if (storedTrainerId && storedTrainerId !== payload.sub) {
+            setTrainerId(storedTrainerId);
             existingPlayer = await api.getPlayerById(
               storedTrainerId,
               teamId,
@@ -48,6 +46,7 @@ const Diet = () => {
               teamId,
               playerId
             );
+            setDisabled(false);
           }
           
           if (existingPlayer && existingPlayer.player) {

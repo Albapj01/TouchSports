@@ -24,8 +24,10 @@ import {
   ellipsisVerticalOutline,
   pencilOutline,
   trashOutline,
+  logOut,
 } from "ionicons/icons";
 import { useHistory } from "react-router-dom";
+import { googleLogout } from "@react-oauth/google";
 
 const Profile = () => {
   const [trainer, setTrainer] = useState<Trainer>();
@@ -57,6 +59,11 @@ const Profile = () => {
     history.push(`/home/profile`);
   };
 
+  const handleLogOut = () => {
+    googleLogout();
+    history.push(`/sign-in`);
+  };
+
   return (
     <>
       <IonPage>
@@ -79,6 +86,9 @@ const Profile = () => {
                 </IonFabButton>
                 <IonFabButton onClick={handleDeleteButtonClick}>
                   <IonIcon color="primary" icon={trashOutline}></IonIcon>
+                </IonFabButton>
+                <IonFabButton onClick={handleLogOut}>
+                  <IonIcon color="primary" icon={logOut}></IonIcon>
                 </IonFabButton>
               </IonFabList>
             </FabContainer>
