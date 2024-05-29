@@ -27,6 +27,7 @@ export class UpdatePlayerByIdUseCase {
       playerId,
       player.name,
       player.surname,
+      player.telephone,
       player.email,
       player.imageUrl,
       player.diet,

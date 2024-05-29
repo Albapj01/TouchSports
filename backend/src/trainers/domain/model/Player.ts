@@ -5,6 +5,7 @@ export class Player {
     readonly playerId: string,
     readonly name: string,
     readonly surname: string,
+    readonly telephone: string,
     readonly email: string,
     readonly imageUrl: string,
     readonly diet: string,

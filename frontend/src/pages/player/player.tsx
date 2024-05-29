@@ -171,7 +171,7 @@ const PlayerInfo = () => {
             <IonItem color="light">
               <IonLabel>Teléfono</IonLabel>
               <MarginList>
-                <IonLabel>Example</IonLabel>
+                <IonLabel>{player ? player.telephone : ""}</IonLabel>
               </MarginList>
             </IonItem>
             <IonItem color="light">

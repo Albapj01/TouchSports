@@ -45,6 +45,9 @@ export const TrainerSchema = new mongoose.Schema(
             surname: {
               type: String,
             },
+            telephone: {
+              type: String,
+            },
             email: {
               type: String,
             },

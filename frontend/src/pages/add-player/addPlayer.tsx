@@ -72,6 +72,7 @@ const AddPlayer = () => {
           playerId,
           name,
           surname,
+          telephoneNumber,
           email,
           imageUrl,
           diet,

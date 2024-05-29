@@ -33,6 +33,7 @@ export class TrainerMapper {
           playerId: player.playerId,
           name: player.name,
           surname: player.surname,
+          telephone: player.telephone,
           email: player.email,
           imageUrl: player.imageUrl,
           diet: player.diet,

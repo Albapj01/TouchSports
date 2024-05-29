@@ -76,6 +76,7 @@ const SignIn = () => {
         player.teamId,
         player.playerId,
         player.name,
+        player.telephone,
         player.surname,
         player.email,
         payload.picture,

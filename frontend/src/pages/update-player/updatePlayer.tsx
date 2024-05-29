@@ -62,6 +62,7 @@ const UpdatePlayer = () => {
           if (existingPlayer && existingPlayer.player) {
             setName(existingPlayer.player.name || "");
             setSurname(existingPlayer.player.surname || "");
+            setTelephoneNumber(existingPlayer.player.telephoneNumber || "");
             setEmail(existingPlayer.player.email || "");
             setImageUrl(existingPlayer.player.imageUrl || "https://ionicframework.com/docs/img/demos/avatar.svg");
             setDiet(existingPlayer.player.diet || "");
@@ -95,6 +96,7 @@ const UpdatePlayer = () => {
         playerId,
         name,
         surname,
+        telephoneNumber,
         email,
         imageUrl,
         diet,

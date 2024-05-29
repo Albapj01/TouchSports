@@ -97,40 +97,36 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "15155952317156726532"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
       },
       {
         "file": "jest.config.ts",
         "hash": "12333515226966617182"
       },
       {
-        "file": "package.json",
-        "hash": "16079508552978807636"
-      },
-      {
         "file": "tsconfig.base.json",
         "hash": "16936441711144470533"
-      },
-      {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
       },
       {
         "file": "nx.json",
         "hash": "4595224623132836319"
       },
       {
+        "file": "package-lock.json",
+        "hash": "15155952317156726532"
+      },
+      {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
+      },
+      {
+        "file": "package.json",
+        "hash": "16079508552978807636"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
       },
       {
         "file": ".gitignore",
@@ -139,6 +135,10 @@
       {
         "file": "README.md",
         "hash": "10104707244890837311"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
       }
     ],
     "projectFileMap": {
@@ -220,7 +220,7 @@
         },
         {
           "file": "backend/src/trainers/application/DTOs/PlayerDTO.ts",
-          "hash": "11068302953208930593"
+          "hash": "8319747241094927799"
         },
         {
           "file": "backend/src/trainers/application/DTOs/ReserveDTO.ts",
@@ -240,7 +240,7 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/CreatePlayerUseCase.ts",
-          "hash": "12541093409524220268"
+          "hash": "3991788414814579525"
         },
         {
           "file": "backend/src/trainers/application/usecases/CreateReserveUseCase.ts",
@@ -276,7 +276,7 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts",
-          "hash": "5261800743179273520"
+          "hash": "15703837955590926863"
         },
         {
           "file": "backend/src/trainers/application/usecases/GetAllReservesUseCase.ts",
@@ -300,7 +300,7 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts",
-          "hash": "4561750629413456616"
+          "hash": "286986787368905375"
         },
         {
           "file": "backend/src/trainers/application/usecases/GetReserveByIdUseCase.ts",
@@ -328,7 +328,7 @@
         },
         {
           "file": "backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts",
-          "hash": "16612687216744877140"
+          "hash": "12239160630683029626"
         },
         {
           "file": "backend/src/trainers/application/usecases/UpdateReserveByIdUseCase.ts",
@@ -348,7 +348,7 @@
         },
         {
           "file": "backend/src/trainers/domain/model/Player.ts",
-          "hash": "2032188182258822525"
+          "hash": "9665594816823111178"
         },
         {
           "file": "backend/src/trainers/domain/model/Reserve.ts",
@@ -568,14 +568,14 @@
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/entities/TrainerEntity.ts",
-          "hash": "2399686967507407507",
+          "hash": "756688515547257226",
           "deps": [
             "npm:mongoose"
           ]
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts",
-          "hash": "2454271343826358540"
+          "hash": "18302415039490451063"
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts",
@@ -586,7 +586,7 @@
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/schemas/TrainerSchema.ts",
-          "hash": "2957222818078189031",
+          "hash": "174211738488446132",
           "deps": [
             "npm:mongoose"
           ]
@@ -892,7 +892,7 @@
         },
         {
           "file": "frontend/src/pages/add-player/addPlayer.tsx",
-          "hash": "14774434431415517298",
+          "hash": "10316910431749294654",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -965,7 +965,7 @@
         },
         {
           "file": "frontend/src/pages/player/player.tsx",
-          "hash": "9233186519747770940",
+          "hash": "18361017776040610607",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -1012,7 +1012,7 @@
         },
         {
           "file": "frontend/src/pages/sign-in/signIn.tsx",
-          "hash": "15212218045550336796",
+          "hash": "16759015191906234664",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components",
@@ -1066,7 +1066,7 @@
         },
         {
           "file": "frontend/src/pages/update-player/updatePlayer.tsx",
-          "hash": "4773899079740511939",
+          "hash": "15181053607281323846",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -1123,7 +1123,7 @@
         },
         {
           "file": "frontend/src/utils/api/api.tsx",
-          "hash": "15415716664474290782",
+          "hash": "253707350226760034",
           "deps": [
             "npm:axios"
           ]
@@ -1138,7 +1138,7 @@
         },
         {
           "file": "frontend/src/utils/interfaces/Player.tsx",
-          "hash": "13549050527043095840"
+          "hash": "3867186391032835751"
         },
         {
           "file": "frontend/src/utils/interfaces/Reserve.tsx",

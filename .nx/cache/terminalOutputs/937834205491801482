@@ -4,3 +4,1408 @@ webpack compiled [1m[32msuccessfully[39m[22m (2f4745d9c2ff4b5e)
 [1m[31mDebugger listening on ws://localhost:9229/b892f0db-4eda-49ff-b061-76441b55384d[39m[22m
 [1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
 [1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/domain/model/Player.ts[39m[22m [1m[32m5:67[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Argument name clash (5:67)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| exports.Player = void 0;
+| class Player {
+>     constructor(trainerId, teamId, playerId, name, surname, email, email, imageUrl, diet, technicalTraining, physicalTraining, improvements) {
+|         this.trainerId = trainerId;
+|         this.teamId = teamId;[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreatePlayerUseCase.ts:[32m[1m24:20[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m player [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerDTO[33m.[39mplayerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       playerDTO[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       playerDTO[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       playerDTO[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       playerDTO[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       playerDTO[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       playerDTO[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       playerDTO[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       playerDTO[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers[33m.[39mpush(player)[33m;[39m
+   [90m 39 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msavePlayer(player[33m,[39m team[33m,[39m trainer)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts:[32m[1m24:27[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m updatedPlayer [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       player[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       player[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       player[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       player[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       player[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers [33m=[39m team[33m.[39mplayers[33m.[39mfilter(
+   [90m 39 |[39m       (player) [33m=>[39m player[33m.[39mplayerId [33m!==[39m playerId[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/domain/model/Player.ts:[32m[1m8:14[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'email'.
+  [0m [90m  6 |[39m     readonly name[33m:[39m string[33m,[39m
+   [90m  7 |[39m     readonly surname[33m:[39m string[33m,[39m
+  [31m[1m>[22m[39m[90m  8 |[39m     readonly email[33m:[39m string[33m,[39m
+   [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m  9 |[39m     readonly email[33m:[39m string[33m,[39m
+   [90m 10 |[39m     readonly imageUrl[33m:[39m string[33m,[39m
+   [90m 11 |[39m     readonly diet[33m:[39m string[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/domain/model/Player.ts:[32m[1m9:14[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'email'.
+  [0m [90m  7 |[39m     readonly surname[33m:[39m string[33m,[39m
+   [90m  8 |[39m     readonly email[33m:[39m string[33m,[39m
+  [31m[1m>[22m[39m[90m  9 |[39m     readonly email[33m:[39m string[33m,[39m
+   [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 10 |[39m     readonly imageUrl[33m:[39m string[33m,[39m
+   [90m 11 |[39m     readonly diet[33m:[39m string[33m,[39m
+   [90m 12 |[39m     readonly technicalTraining[33m:[39m string[33m,[39m[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (28fb9c5a7accea1e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreatePlayerUseCase.ts:[32m[1m24:20[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m player [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerDTO[33m.[39mplayerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       playerDTO[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       playerDTO[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       playerDTO[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       playerDTO[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       playerDTO[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       playerDTO[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       playerDTO[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       playerDTO[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers[33m.[39mpush(player)[33m;[39m
+   [90m 39 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msavePlayer(player[33m,[39m team[33m,[39m trainer)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts:[32m[1m24:27[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m updatedPlayer [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       player[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       player[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       player[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       player[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       player[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers [33m=[39m team[33m.[39mplayers[33m.[39mfilter(
+   [90m 39 |[39m       (player) [33m=>[39m player[33m.[39mplayerId [33m!==[39m playerId[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m13:7[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type '{ trainerId: string; teamId: string; name: string; players: { trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]; }[]' is not assignable to parameter of type 'Team[]'.
+  Type '{ trainerId: string; teamId: string; name: string; players: { trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]; }' is not assignable to type 'Team'.
+    Types of property 'players' are incompatible.
+      Type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'Player[]'.
+        Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'Player'.
+  [0m [90m 11 |[39m       trainerEntity[33m.[39memail[33m,[39m
+   [90m 12 |[39m       trainerEntity[33m.[39mtelephone[33m,[39m
+  [31m[1m>[22m[39m[90m 13 |[39m       trainerEntity[33m.[39mteams[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 14 |[39m       trainerEntity[33m.[39mimageUrl[33m,[39m
+   [90m 15 |[39m       trainerEntity[33m.[39mcentres[33m,[39m
+   [90m 16 |[39m     )[33m;[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (8d3a027eb60ad369)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.7 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreatePlayerUseCase.ts:[32m[1m24:20[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m player [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerDTO[33m.[39mplayerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       playerDTO[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       playerDTO[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       playerDTO[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       playerDTO[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       playerDTO[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       playerDTO[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       playerDTO[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       playerDTO[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers[33m.[39mpush(player)[33m;[39m
+   [90m 39 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msavePlayer(player[33m,[39m team[33m,[39m trainer)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts:[32m[1m24:27[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m updatedPlayer [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       player[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       player[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       player[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       player[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       player[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers [33m=[39m team[33m.[39mplayers[33m.[39mfilter(
+   [90m 39 |[39m       (player) [33m=>[39m player[33m.[39mplayerId [33m!==[39m playerId[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m13:7[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type '{ trainerId: string; teamId: string; name: string; players: { trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]; }[]' is not assignable to parameter of type 'Team[]'.
+  Type '{ trainerId: string; teamId: string; name: string; players: { trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]; }' is not assignable to type 'Team'.
+    Types of property 'players' are incompatible.
+      Type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'Player[]'.
+        Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'Player'.
+  [0m [90m 11 |[39m       trainerEntity[33m.[39memail[33m,[39m
+   [90m 12 |[39m       trainerEntity[33m.[39mtelephone[33m,[39m
+  [31m[1m>[22m[39m[90m 13 |[39m       trainerEntity[33m.[39mteams[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 14 |[39m       trainerEntity[33m.[39mimageUrl[33m,[39m
+   [90m 15 |[39m       trainerEntity[33m.[39mcentres[33m,[39m
+   [90m 16 |[39m     )[33m;[39m[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (8d3a027eb60ad369)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.7 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreatePlayerUseCase.ts:[32m[1m24:20[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m player [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerDTO[33m.[39mplayerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       playerDTO[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       playerDTO[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       playerDTO[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       playerDTO[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       playerDTO[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       playerDTO[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       playerDTO[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       playerDTO[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers[33m.[39mpush(player)[33m;[39m
+   [90m 39 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msavePlayer(player[33m,[39m team[33m,[39m trainer)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts:[32m[1m24:27[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m updatedPlayer [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       player[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       player[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       player[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       player[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       player[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers [33m=[39m team[33m.[39mplayers[33m.[39mfilter(
+   [90m 39 |[39m       (player) [33m=>[39m player[33m.[39mplayerId [33m!==[39m playerId[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (8d3a027eb60ad369)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.7 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreatePlayerUseCase.ts:[32m[1m24:20[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m player [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerDTO[33m.[39mplayerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       playerDTO[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       playerDTO[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       playerDTO[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       playerDTO[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       playerDTO[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       playerDTO[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       playerDTO[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       playerDTO[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers[33m.[39mpush(player)[33m;[39m
+   [90m 39 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msavePlayer(player[33m,[39m team[33m,[39m trainer)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts:[32m[1m24:27[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m updatedPlayer [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       player[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       player[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       player[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       player[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       player[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers [33m=[39m team[33m.[39mplayers[33m.[39mfilter(
+   [90m 39 |[39m       (player) [33m=>[39m player[33m.[39mplayerId [33m!==[39m playerId[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (8d3a027eb60ad369)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts[39m[22m [1m[32m27:49[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (27:49)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                     surname: player.surname,
+|                     email: player.email,
+>                     telephone: imageUrl, player, : .imageUrl,
+|                     diet: player.diet,
+|                     technicalTraining: player.technicalTraining,[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts[39m[22m
+[1m./src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts[39m[22m [1m[32m38:18-19[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts(38,19)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts[39m[22m
+[1m./src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts[39m[22m [1m[32m38:26-27[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts(38,27)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreatePlayerUseCase.ts:[32m[1m24:20[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m player [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerDTO[33m.[39mplayerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       playerDTO[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       playerDTO[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       playerDTO[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       playerDTO[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       playerDTO[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       playerDTO[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       playerDTO[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       playerDTO[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers[33m.[39mpush(player)[33m;[39m
+   [90m 39 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msavePlayer(player[33m,[39m team[33m,[39m trainer)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts:[32m[1m24:27[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m updatedPlayer [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       player[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       player[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       player[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       player[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       player[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers [33m=[39m team[33m.[39mplayers[33m.[39mfilter(
+   [90m 39 |[39m       (player) [33m=>[39m player[33m.[39mplayerId [33m!==[39m playerId[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m38:11[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'imageUrl'.
+  [0m [90m 36 |[39m           email[33m:[39m player[33m.[39memail[33m,[39m
+   [90m 37 |[39m           telephone[33m:[39m 
+  [31m[1m>[22m[39m[90m 38 |[39m           imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 39 |[39m           diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 40 |[39m           technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 41 |[39m           physicalTraining[33m:[39m player[33m.[39mphysicalTraining[33m,[39m[0m
+
+webpack compiled with [1m[31m8 errors[39m[22m (5c82c7f0644f9e38)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreatePlayerUseCase.ts:[32m[1m24:20[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m player [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerDTO[33m.[39mplayerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       playerDTO[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       playerDTO[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       playerDTO[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       playerDTO[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       playerDTO[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       playerDTO[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       playerDTO[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       playerDTO[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers[33m.[39mpush(player)[33m;[39m
+   [90m 39 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msavePlayer(player[33m,[39m team[33m,[39m trainer)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts:[32m[1m24:27[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m updatedPlayer [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       player[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       player[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       player[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       player[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       player[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers [33m=[39m team[33m.[39mplayers[33m.[39mfilter(
+   [90m 39 |[39m       (player) [33m=>[39m player[33m.[39mplayerId [33m!==[39m playerId[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (4857459bbfed4489)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreatePlayerUseCase.ts:[32m[1m24:20[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m player [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerDTO[33m.[39mplayerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       playerDTO[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       playerDTO[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       playerDTO[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       playerDTO[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       playerDTO[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       playerDTO[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       playerDTO[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       playerDTO[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers[33m.[39mpush(player)[33m;[39m
+   [90m 39 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msavePlayer(player[33m,[39m team[33m,[39m trainer)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts:[32m[1m24:27[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m updatedPlayer [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       player[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       player[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       player[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       player[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       player[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers [33m=[39m team[33m.[39mplayers[33m.[39mfilter(
+   [90m 39 |[39m       (player) [33m=>[39m player[33m.[39mplayerId [33m!==[39m playerId[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (a052e54c3af22b03)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/CreatePlayerUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/CreatePlayerUseCase.ts[39m[22m [1m[32m32:6-15[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/CreatePlayerUseCase.ts(32,7)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreatePlayerUseCase.ts:[32m[1m31:7[22m[39m[1m[39m[22m
+[90mTS2448: [39mBlock-scoped variable 'player' used before its declaration.
+  [0m [90m 29 |[39m       playerDTO[33m.[39msurname[33m,[39m
+   [90m 30 |[39m       playerDTO[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       player
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 32 |[39m       playerDTO[33m.[39mimageUrl[33m,[39m
+   [90m 33 |[39m       playerDTO[33m.[39mdiet[33m,[39m
+   [90m 34 |[39m       playerDTO[33m.[39mtechnicalTraining[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts:[32m[1m24:27[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m updatedPlayer [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       player[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       player[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       player[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       player[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       player[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers [33m=[39m team[33m.[39mplayers[33m.[39mfilter(
+   [90m 39 |[39m       (player) [33m=>[39m player[33m.[39mplayerId [33m!==[39m playerId[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (be081995cf6150e3)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts:[32m[1m24:27[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m updatedPlayer [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       player[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       player[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       player[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       player[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       player[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       player[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       player[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       player[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers [33m=[39m team[33m.[39mplayers[33m.[39mfilter(
+   [90m 39 |[39m       (player) [33m=>[39m player[33m.[39mplayerId [33m!==[39m playerId[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (4f399f0b2da4f402)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (55e9123b22b36228)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreatePlayerUseCase.ts:[32m[1m24:20[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 12 arguments, but got 11.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mconst[39m player [33m=[39m [36mnew[39m [33mPlayer[39m(
+   [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       trainerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 26 |[39m       teamId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 27 |[39m       playerDTO[33m.[39mplayerId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 28 |[39m       playerDTO[33m.[39mname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 29 |[39m       playerDTO[33m.[39msurname[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       playerDTO[33m.[39memail[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 31 |[39m       playerDTO[33m.[39mimageUrl[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 32 |[39m       playerDTO[33m.[39mdiet[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 33 |[39m       playerDTO[33m.[39mtechnicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 34 |[39m       playerDTO[33m.[39mphysicalTraining[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 35 |[39m       playerDTO[33m.[39mimprovements
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 36 |[39m     )[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m
+   [90m 38 |[39m     team[33m.[39mplayers[33m.[39mpush(player)[33m;[39m
+   [90m 39 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msavePlayer(player[33m,[39m team[33m,[39m trainer)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (05eae4db3f2e81f1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (54304d98d5127a0d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (beeced2ffa9a73aa)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreatePlayerUseCase.ts:[32m[1m36:7[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 11 arguments, but got 12.
+  [0m [90m 34 |[39m       playerDTO[33m.[39mtechnicalTraining[33m,[39m
+   [90m 35 |[39m       playerDTO[33m.[39mphysicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 36 |[39m       playerDTO[33m.[39mimprovements
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m     )[33m;[39m
+   [90m 38 |[39m
+   [90m 39 |[39m     team[33m.[39mplayers[33m.[39mpush(player)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllTeamsUseCase.ts:[32m[1m16:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; name: string; players: Player[]; }[]' is not assignable to type 'TeamDTO[]'.
+  Type '{ trainerId: string; teamId: string; name: string; players: Player[]; }' is not assignable to type 'TeamDTO'.
+    Types of property 'players' are incompatible.
+      Type 'Player[]' is not assignable to type 'PlayerDTO[]'.
+  [0m [90m 14 |[39m     [36mconst[39m teams[33m:[39m [33mTeam[39m[] [33m=[39m trainer[33m.[39mteams[33m;[39m
+   [90m 15 |[39m
+  [31m[1m>[22m[39m[90m 16 |[39m     [36mconst[39m teamDTOs[33m:[39m [33mTeamDTO[39m[] [33m=[39m teams[33m.[39mmap((team) [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 17 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 18 |[39m       teamId[33m:[39m team[33m.[39mteamId[33m,[39m
+   [90m 19 |[39m       name[33m:[39m team[33m.[39mname[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllTrainersUseCase.ts:[32m[1m14:15[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; name: string; surname: string; email: string; telephone: string; teams: Team[]; imageUrl: string; centres: Centres[]; }[]' is not assignable to type 'TrainerDTO[]'.
+  Type '{ trainerId: string; name: string; surname: string; email: string; telephone: string; teams: Team[]; imageUrl: string; centres: Centres[]; }' is not assignable to type 'TrainerDTO'.
+    Types of property 'teams' are incompatible.
+      Type 'Team[]' is not assignable to type 'TeamDTO[]'.
+  [0m [90m 12 |[39m         [36mconst[39m trainers[33m:[39m [33mTrainer[39m[] [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mgetAllTrainers()[33m;[39m
+   [90m 13 |[39m
+  [31m[1m>[22m[39m[90m 14 |[39m         [36mconst[39m trainersDTOs[33m:[39m [33mTrainerDTO[39m[]  [33m=[39m trainers[33m.[39mmap((trainer) [33m=>[39m ({
+   [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 15 |[39m             trainerId[33m:[39m trainer[33m.[39mtrainerId[33m,[39m
+   [90m 16 |[39m             name[33m:[39m trainer[33m.[39mname[33m,[39m
+   [90m 17 |[39m             surname[33m:[39m trainer[33m.[39msurname[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTeamByIdUseCase.ts:[32m[1m22:7[22m[39m[1m[39m[22m
+[90mTS2322: [39mType 'Player[]' is not assignable to type 'PlayerDTO[]'.
+  [0m [90m 20 |[39m       teamId[33m:[39m team[33m.[39mteamId[33m,[39m
+   [90m 21 |[39m       name[33m:[39m team[33m.[39mname[33m,[39m
+  [31m[1m>[22m[39m[90m 22 |[39m       players[33m:[39m team[33m.[39mplayers[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 23 |[39m     }[33m;[39m
+   [90m 24 |[39m   }
+   [90m 25 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByEmailUseCase.ts:[32m[1m22:13[22m[39m[1m[39m[22m
+[90mTS2322: [39mType 'Team[]' is not assignable to type 'TeamDTO[]'.
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m
+   [90m 21 |[39m             telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+  [31m[1m>[22m[39m[90m 22 |[39m             teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 23 |[39m             imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 24 |[39m             centres[33m:[39m trainer[33m.[39mcentres[33m,[39m
+   [90m 25 |[39m         }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetTrainerByIdUseCase.ts:[32m[1m22:13[22m[39m[1m[39m[22m
+[90mTS2322: [39mType 'Team[]' is not assignable to type 'TeamDTO[]'.
+  Type 'Team' is not assignable to type 'TeamDTO'.
+    Types of property 'players' are incompatible.
+      Type 'Player[]' is not assignable to type 'PlayerDTO[]'.
+        Property 'telephone' is missing in type 'Player' but required in type 'PlayerDTO'.
+  [0m [90m 20 |[39m             email[33m:[39m trainer[33m.[39memail[33m,[39m
+   [90m 21 |[39m             telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+  [31m[1m>[22m[39m[90m 22 |[39m             teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 23 |[39m             imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 24 |[39m             centres[33m:[39m trainer[33m.[39mcentres[33m,[39m
+   [90m 25 |[39m         }[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts:[32m[1m30:14[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Player'.
+  [0m [90m 28 |[39m       player[33m.[39mname[33m,[39m
+   [90m 29 |[39m       player[33m.[39msurname[33m,[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       player[33m.[39mtelephone[33m,[39m
+   [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m       player[33m.[39memail[33m,[39m
+   [90m 32 |[39m       player[33m.[39mimageUrl[33m,[39m
+   [90m 33 |[39m       player[33m.[39mdiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/UpdatePlayerByIdUseCase.ts:[32m[1m36:7[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 11 arguments, but got 12.
+  [0m [90m 34 |[39m       player[33m.[39mtechnicalTraining[33m,[39m
+   [90m 35 |[39m       player[33m.[39mphysicalTraining[33m,[39m
+  [31m[1m>[22m[39m[90m 36 |[39m       player[33m.[39mimprovements
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m     )[33m;[39m
+   [90m 38 |[39m
+   [90m 39 |[39m     team[33m.[39mplayers [33m=[39m team[33m.[39mplayers[33m.[39mfilter([0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m37:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Player'.
+  [0m [90m 35 |[39m           surname[33m:[39m player[33m.[39msurname[33m,[39m
+   [90m 36 |[39m           email[33m:[39m player[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 37 |[39m           telephone[33m:[39m player[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m           imageUrl[33m:[39m player[33m.[39mimageUrl[33m,[39m
+   [90m 39 |[39m           diet[33m:[39m player[33m.[39mdiet[33m,[39m
+   [90m 40 |[39m           technicalTraining[33m:[39m player[33m.[39mtechnicalTraining[33m,[39m[0m
+
+webpack compiled with [1m[31m11 errors[39m[22m (a5a52c421fab5d83)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (309b02f15e44df29)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (d1b9ebbcdee3ae8c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (7ca863c2f22ba94a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (67b0315a91585f02)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (67b0315a91585f02)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/CreatePlayerUseCase.ts:[32m[1m30:17[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'PlayerDTO'.
+  [0m [90m 28 |[39m       playerDTO[33m.[39mname[33m,[39m
+   [90m 29 |[39m       playerDTO[33m.[39msurname[33m,[39m
+  [31m[1m>[22m[39m[90m 30 |[39m       playerDTO[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m       playerDTO[33m.[39memail[33m,[39m
+   [90m 32 |[39m       playerDTO[33m.[39mimageUrl[33m,[39m
+   [90m 33 |[39m       playerDTO[33m.[39mdiet[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (67b0315a91585f02)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetPlayerByIdUseCase.ts:[32m[1m24:5[22m[39m[1m[39m[22m
+[90mTS2741: [39mProperty 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 22 |[39m     }
+   [90m 23 |[39m     
+  [31m[1m>[22m[39m[90m 24 |[39m     [36mreturn[39m {
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       trainerId[33m:[39m player[33m.[39mtrainerId[33m,[39m
+   [90m 26 |[39m       teamId[33m:[39m player[33m.[39mteamId[33m,[39m
+   [90m 27 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (67b0315a91585f02)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 87.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'telephone' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; email: string; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (3d2c58db495a99cc)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 88 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/GetAllPlayersUseCase.ts[39m[22m [1m[32m27:35[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (27:35)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 surname: player.surname,
+|                 telephone: player.
+>                     email, player, : .email,
+|                 imageUrl: player.imageUrl,
+|                 diet: player.diet,[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/GetAllPlayersUseCase.ts[39m[22m [1m[32m28:11-12[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts(28,12)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/GetAllPlayersUseCase.ts[39m[22m [1m[32m28:19-20[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts(28,20)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/GetAllPlayersUseCase.ts:[32m[1m21:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; telephone: string; player: Player; "": any; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }[]' is not assignable to type 'PlayerDTO[]'.
+  Property 'email' is missing in type '{ trainerId: string; teamId: string; playerId: string; name: string; surname: string; telephone: string; player: Player; "": any; imageUrl: string; diet: string; technicalTraining: string; physicalTraining: string; improvements: string; }' but required in type 'PlayerDTO'.
+  [0m [90m 19 |[39m     [36mconst[39m players[33m:[39m [33mPlayer[39m[] [33m=[39m team[33m.[39mplayers[33m;[39m
+   [90m 20 |[39m
+  [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m playerDTOs[33m:[39m [33mPlayerDTO[39m[] [33m=[39m players[33m.[39mmap(player [33m=>[39m ({
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m       trainerId[33m:[39m trainerId[33m,[39m
+   [90m 23 |[39m       teamId[33m:[39m teamId[33m,[39m
+   [90m 24 |[39m       playerId[33m:[39m player[33m.[39mplayerId[33m,[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (be51909c85ede3a7)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 88 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (367bc9a5e67d8d63)
+[1m[31mDebugger listening on ws://localhost:9229/8089be40-dc23-4224-a0f6-6c815e25e77b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8089be40-dc23-4224-a0f6-6c815e25e77b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
