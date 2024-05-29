@@ -63,6 +63,7 @@ const UpdatePlayer = () => {
             setName(existingPlayer.player.name || "");
             setSurname(existingPlayer.player.surname || "");
             setEmail(existingPlayer.player.email || "");
+            setImageUrl(existingPlayer.player.imageUrl || "https://ionicframework.com/docs/img/demos/avatar.svg");
             setDiet(existingPlayer.player.diet || "");
             setTechnicalTraining(existingPlayer.player.technicalTraining || "");
             setPhysicalTraining(existingPlayer.player.physicalTraining || "");
@@ -136,7 +137,7 @@ const UpdatePlayer = () => {
           <PersonContainer>
             <Avatar
               route=""
-              imageUrl="https://ionicframework.com/docs/img/demos/avatar.svg"
+              imageUrl={imageUrl}
               name=""
               surname=""
             />

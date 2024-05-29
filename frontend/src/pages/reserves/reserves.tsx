@@ -177,7 +177,7 @@ const Reserves = () => {
               <IonButton
                 onClick={() => {
                   history.push(
-                    `/home/reserves/${selectedReserve?.centresId}/${selectedReserve?.reserveId}/update-reserve`
+                    window.location.href =`/home/reserves/${selectedReserve?.centresId}/${selectedReserve?.reserveId}/update-reserve`
                   );
                   setShowModal(false);
                 }}

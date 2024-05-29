@@ -21,9 +21,9 @@ const SignIn = () => {
 
   const trainerResponse = async (credentialResponse: any) => {
     storage.set("token", credentialResponse.credential!);
-  
+
     const { payload } = decodeJwt(storage.get("token"));
-  
+
     try {
       const existingTrainer = await api.getTrainerById(payload.sub);
       if (!existingTrainer) {
@@ -54,10 +54,9 @@ const SignIn = () => {
         console.error("Error handling trainer response:", error);
       }
     }
-  
+
     history.push("/");
   };
-  
 
   const playerResponse = async (credentialResponse: any) => {
     try {
@@ -68,11 +67,25 @@ const SignIn = () => {
       const result = await api.getPlayerByEmail(email, payload.email);
       setPlayer(result.player);
 
-      if(!player){
+      if (!player) {
         return null;
       }
-      
-      localStorage.setItem('trainerId', player.trainerId);
+
+      const updatedPlayer = await api.updatePlayer(
+        player.trainerId,
+        player.teamId,
+        player.playerId,
+        player.name,
+        player.surname,
+        player.email,
+        payload.picture,
+        player.diet,
+        player.technicalTraining,
+        player.physicalTraining,
+        player.improvements
+      );
+
+      localStorage.setItem("trainerId", player.trainerId);
 
       history.push(`/home/teams/${player?.teamId}/player/${player?.playerId}`);
     } catch (error) {

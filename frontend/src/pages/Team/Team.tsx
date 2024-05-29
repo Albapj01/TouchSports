@@ -66,7 +66,7 @@ const Team = () => {
   };
 
   const handleUpdateButtonClick = () => {
-    history.push(`/home/teams/${teamId}/update-team`);
+    history.push(window.location.href =`/home/teams/${teamId}/update-team`);
   };
 
   return (
@@ -125,7 +125,7 @@ const Team = () => {
                   <AvatarContainer>
                     <Avatar
                       route={`/home/teams/${teamId}/player/${player.playerId}`}
-                      imageUrl="https://ionicframework.com/docs/img/demos/avatar.svg"
+                      imageUrl={player && player.imageUrl ? player.imageUrl : "https://ionicframework.com/docs/img/demos/avatar.svg"}
                       name={player.name}
                       surname={player.surname}
                     />

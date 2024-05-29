@@ -69,7 +69,7 @@ const CentreInfo = () => {
   };
 
   const handleUpdateButtonClick = async () => {
-    history.push(`/home/centres/${centresId}/update-centre`);
+    history.push(window.location.href =`/home/centres/${centresId}/update-centre`);
   };
 
   return (

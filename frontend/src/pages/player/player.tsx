@@ -83,7 +83,7 @@ const PlayerInfo = () => {
   };
 
   const handleUpdateButtonClick = async () => {
-    history.push(`/home/teams/${teamId}/player/${playerId}/update-player`);
+    history.push(window.location.href =`/home/teams/${teamId}/player/${playerId}/update-player`);
   };
 
   const handleLogOut = () => {
@@ -152,7 +152,7 @@ const PlayerInfo = () => {
           />
           <ImageContainer>
             <Image
-              src={"https://ionicframework.com/docs/img/demos/avatar.svg"}
+              src={player && player.imageUrl ? player.imageUrl : "https://ionicframework.com/docs/img/demos/avatar.svg"}
             />
           </ImageContainer>
           <IonList inset={true}>
