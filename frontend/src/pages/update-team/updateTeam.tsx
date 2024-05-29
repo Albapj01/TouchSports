@@ -4,6 +4,7 @@ import {
   IonContent,
   IonFooter,
   IonHeader,
+  IonImg,
   IonList,
   IonPage,
 } from "@ionic/react";
@@ -30,8 +31,8 @@ const UpdateTeam = () => {
     if (teamId) {
       const fetchTeamData = async () => {
         try {
-          const response = await api.getTeamById(payload.sub, teamId);
-          const existingTeam = response.json();
+          const existingTeam = await api.getTeamById(payload.sub, teamId);
+          
           if (existingTeam && existingTeam.team) {
             setName(existingTeam.team.name || "");
           }
@@ -54,6 +55,19 @@ const UpdateTeam = () => {
     }
   };
 
+  const handleImageUrl = (teamName: string) => {
+    if (teamName.toLowerCase().includes("baloncesto")) {
+      return "https://deportesinfantes.home.blog/wp-content/uploads/2022/06/4c02d07721d0182926385c17ddf3959bfe805f76.jpg?w=768"; 
+    } else if (teamName.toLowerCase().includes("futbol") || teamName.toLowerCase().includes("fútbol")) {
+      return "https://sisanjuan.b-cdn.net/media/k2/items/cache/665038ef3f33718594773fb6b1e055ef_XL.jpg"; 
+    } else if (teamName.toLowerCase().includes("balonmano")) {
+      return "https://sialdeporte.com/wp-content/uploads/2018/03/bal%C3%B3n-de-balonmano4.jpg"; 
+    } else if(teamName.toLowerCase().includes("volley") || teamName.toLowerCase().includes("voleibol")){
+      return "https://www.experienceboxspain.com/sites/default/files/styles/product_full/public/products/BeachVolley%20%281%29_0.jpg?h=cb3eb245&itok=6hYM_HIE"
+    }
+    return "https://www.infisport.com/media/amasty/blog/SprintDeportesEquipo1_2.jpg"; 
+  };
+
   return (
     <>
       <IonPage>
@@ -63,14 +77,9 @@ const UpdateTeam = () => {
         <IonContent fullscreen>
           <br></br>
           <Menu disabled={false}/>
-          <PersonContainer>
-            <Avatar
-              route=""
-              imageUrl="https://ionicframework.com/docs/img/demos/avatar.svg"
-              name=""
-              surname=""
-            />
-          </PersonContainer>
+          <ImageContainer>
+            <IonImg src={handleImageUrl(name)} />
+          </ImageContainer>
           <IonList className="no-margin-padding">
             <Margin>
               <Input
@@ -116,9 +125,9 @@ const UpdateTeam = () => {
   );
 };
 
-const PersonContainer = styled.div`
-  margin-bottom: 10%;
-  margin-left: 34%;
+const ImageContainer = styled.div`
+  text-align: center;
+  margin: 10%;
 `;
 
 const Margin = styled.div`

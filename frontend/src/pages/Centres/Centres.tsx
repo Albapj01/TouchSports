@@ -36,6 +36,15 @@ const CentresInfo = () => {
     fetchCentres();
   }, []);
 
+  const handleImageUrl = (centreName: string) => {
+    if (centreName.toLowerCase().includes("palacio")) {
+      return "https://upload.wikimedia.org/wikipedia/commons/e/e8/Palacio_Municipal_de_Deportes_Vista_Alegre_-_C%C3%B3rdoba_%28Espa%C3%B1a%29.jpg"; 
+    } else if (centreName.toLowerCase().includes("pidal")) {
+      return "https://www.uco.es/empresa/ucodeporte/wp-content/uploads/slider_01_ucodeporte_pabellon.jpg"; 
+    } 
+    return "https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp";
+  };
+
   return (
     <>
       <IonPage>
@@ -52,7 +61,7 @@ const CentresInfo = () => {
                   key={centre.centresId}
                   route={`/home/centres/${centre.centresId}`}
                   title={centre.name}
-                  imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
+                  imageUrl={handleImageUrl(centre.name)}
                   description=""
                 />
               ))}
@@ -77,10 +86,10 @@ const CentresInfo = () => {
 };
 
 const CentresContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+  gap: 16px;
   margin: 16px;
-  font-size: small;
 `;
 
 const ButtonContainer = styled.div`

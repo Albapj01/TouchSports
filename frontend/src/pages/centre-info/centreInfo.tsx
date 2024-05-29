@@ -9,6 +9,7 @@ import {
   IonFooter,
   IonHeader,
   IonIcon,
+  IonImg,
   IonItem,
   IonLabel,
   IonList,
@@ -72,6 +73,15 @@ const CentreInfo = () => {
     history.push(window.location.href =`/home/centres/${centresId}/update-centre`);
   };
 
+  const handleImageUrl = (centreName: string) => {
+    if (centreName.toLowerCase().includes("palacio")) {
+      return "https://upload.wikimedia.org/wikipedia/commons/e/e8/Palacio_Municipal_de_Deportes_Vista_Alegre_-_C%C3%B3rdoba_%28Espa%C3%B1a%29.jpg"; 
+    } else if (centreName.toLowerCase().includes("pidal")) {
+      return "https://www.uco.es/empresa/ucodeporte/wp-content/uploads/slider_01_ucodeporte_pabellon.jpg"; 
+    } 
+    return "https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp";
+  };
+
   return (
     <>
       <IonPage>
@@ -122,8 +132,8 @@ const CentreInfo = () => {
           />
           <Margin />
           <ImageContainer>
-            <Image
-              src={"https://ionicframework.com/docs/img/demos/avatar.svg"}
+            <IonImg
+              src={handleImageUrl(centres ? centres.name : "")}
             />
           </ImageContainer>
           <IonList inset={true}>
@@ -160,15 +170,10 @@ const CentreInfo = () => {
   );
 };
 
-const Image = styled.img`
-  border-radius: 50%;
-  width: 40%;
-`;
-
 const ImageContainer = styled.div`
   text-align: center;
   align-items: center;
-  margin-bottom: 10%;
+  margin: 10%;
 `;
 
 const Margin = styled.div`
