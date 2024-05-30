@@ -55,7 +55,7 @@ const SignIn = () => {
       }
     }
 
-    history.push("/");
+    history.push(window.location.href="/");
   };
 
   const playerResponse = async (credentialResponse: any) => {
@@ -88,7 +88,7 @@ const SignIn = () => {
 
       localStorage.setItem("trainerId", player.trainerId);
 
-      history.push(`/home/teams/${player?.teamId}/player/${player?.playerId}`);
+      history.push(window.location.href=`/home/teams/${player?.teamId}/player/${player?.playerId}`);
     } catch (error) {
       console.error("Error handling player response:", error);
     }

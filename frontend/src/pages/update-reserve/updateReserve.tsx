@@ -202,17 +202,17 @@ const UpdateReserve = () => {
                 {
                   text: "Eliminar",
                   role: "destructive",
-                  handler: () => history.push("/home/reserves"),
+                  handler: () => history.push(window.location.href="/home/reserves"),
                 },
                 {
                   text: "Actualizar",
                   handler: () => {
                     handleUpdateReserve();
-                    history.push(`/home/reserves`);
+                    history.push(window.location.href=`/home/reserves`);
                   },
                 },
                 {
-                  text: "Cancelar",
+                  text: "Seguir editando",
                   role: "cancel",
                   handler: () => history.push("/home/reserves"),
                 },

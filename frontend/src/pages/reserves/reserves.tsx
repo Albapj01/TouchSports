@@ -1,4 +1,5 @@
 import {
+  IonAlert,
   IonButton,
   IonCard,
   IonCardContent,
@@ -33,6 +34,7 @@ const Reserves = () => {
   const [teams, setTeams] = useState<Team[]>([]);
   const [selectedReserve, setSelectedReserve] = useState<Reserve | null>(null);
   const [showModal, setShowModal] = useState(false);
+  const [showAlert, setShowAlert] = useState(false);
   const history = useHistory();
 
   const { payload } = decodeJwt(storage.get("token"));
@@ -77,6 +79,10 @@ const Reserves = () => {
     setShowModal(true);
   };
 
+  const handleDeleteButtonClick = () => {
+    setShowAlert(true);
+  };
+
   const handleDeleteReserve = async (
     trainerId: string,
     centresId: string,
@@ -93,7 +99,7 @@ const Reserves = () => {
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu disabled={false}/>
+          <Menu disabled={false} />
           <Cards>
             {reserves.length > 0 ? (
               reserves.map((reserve) => (
@@ -177,7 +183,7 @@ const Reserves = () => {
               <IonButton
                 onClick={() => {
                   history.push(
-                    window.location.href =`/home/reserves/${selectedReserve?.centresId}/${selectedReserve?.reserveId}/update-reserve`
+                    (window.location.href = `/home/reserves/${selectedReserve?.centresId}/${selectedReserve?.reserveId}/update-reserve`)
                   );
                   setShowModal(false);
                 }}
@@ -187,21 +193,42 @@ const Reserves = () => {
               <IonButton
                 color="danger"
                 onClick={() => {
-                  handleDeleteReserve(
-                    selectedReserve?.trainerId || "",
-                    selectedReserve?.centresId || "",
-                    selectedReserve?.reserveId || ""
-                  );
-                  history.push(`/home/reserves`);
+                  handleDeleteButtonClick();
                 }}
               >
                 Borrar
               </IonButton>
             </ModalWrapper>
           </IonModal>
+          <IonAlert
+            isOpen={showAlert}
+            onDidDismiss={() => setShowAlert(false)}
+            header="¿Estás seguro de que quieres eliminar la reserva?"
+            buttons={[
+              {
+                text: "Cancelar",
+                role: "cancel",
+                handler: () => {
+                  history.push(window.location.href=`/home/reserves`);
+                },
+              },
+              {
+                text: "Eliminar",
+                role: "confirm",
+                handler: () => {
+                  handleDeleteReserve(
+                    selectedReserve?.trainerId || "",
+                    selectedReserve?.centresId || "",
+                    selectedReserve?.reserveId || ""
+                  );
+                  history.push(window.location.href=`/home/reserves`);
+                },
+              },
+            ]}
+          />
         </IonContent>
         <IonFooter>
-          <Tabs disabled={false}/>
+          <Tabs disabled={false} />
         </IonFooter>
       </IonPage>
     </>

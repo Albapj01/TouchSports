@@ -35,7 +35,7 @@ const Teams = () => {
     } else if (teamName.toLowerCase().includes("futbol") || teamName.toLowerCase().includes("fútbol")) {
       return "https://sisanjuan.b-cdn.net/media/k2/items/cache/665038ef3f33718594773fb6b1e055ef_XL.jpg"; 
     } else if (teamName.toLowerCase().includes("balonmano")) {
-      return "https://sialdeporte.com/wp-content/uploads/2018/03/bal%C3%B3n-de-balonmano4.jpg"; 
+      return "https://t4.ftcdn.net/jpg/01/80/02/51/360_F_180025190_7Lt5WDVLnkYHUPZR5X9cJVxFnMbtPSJN.jpg"; 
     } else if(teamName.toLowerCase().includes("volley") || teamName.toLowerCase().includes("voleibol")){
       return "https://www.experienceboxspain.com/sites/default/files/styles/product_full/public/products/BeachVolley%20%281%29_0.jpg?h=cb3eb245&itok=6hYM_HIE"
     }

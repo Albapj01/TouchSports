@@ -109,17 +109,17 @@ const UpdateCentre = () => {
                 {
                   text: "Eliminar",
                   role: "destructive",
-                  handler: () => history.push("/home/centres"),
+                  handler: () => history.push(window.location.href="/home/centres"),
                 },
                 {
                   text: "Actualizar",
                   handler: () => {
                     handleUpdateCentre();
-                    history.push("");
+                    history.push(window.location.href="/");
                   },
                 },
                 {
-                  text: "Cancelar",
+                  text: "Seguir editando",
                   role: "cancel",
                   handler: () =>
                     history.push(`/home/centres/${centresId}/update-centre`),

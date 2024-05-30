@@ -62,7 +62,7 @@ const Calendar = () => {
       );
     });
     if (selectedReserve) {
-      history.push(`/home/reserves`);
+      history.push(window.location.href=`/home/reserves`);
     }
   };
 

@@ -85,17 +85,17 @@ const AddCentres = () => {
                 {
                   text: "Eliminar",
                   role: "destructive",
-                  handler: () => history.push("/home/centres"),
+                  handler: () => history.push(window.location.href="/home/centres"),
                 },
                 {
                   text: "Añadir",
                   handler: () => {
                     handleAddCentres();
-                    history.push("");
+                    history.push(window.location.href="/home/centres");
                   },
                 },
                 {
-                  text: "Cancelar",
+                  text: "Seguir editando",
                   role: "cancel",
                   handler: () => history.push("/home/centres/add-centres"),
                 },

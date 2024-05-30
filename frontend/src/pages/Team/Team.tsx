@@ -104,7 +104,7 @@ const Team = () => {
                 text: "Cancelar",
                 role: "cancel",
                 handler: () => {
-                  history.push(`/home/teams/${teamId}`);
+                  history.push(window.location.href=`/home/teams/${teamId}`);
                 },
               },
               {
@@ -112,7 +112,7 @@ const Team = () => {
                 role: "confirm",
                 handler: () => {
                   handleDeleteTeam();
-                  history.push(`/home/teams`);
+                  history.push(window.location.href=`/home/teams`);
                 },
               },
             ]}

@@ -48,27 +48,6 @@ const Profile = () => {
         </IonHeader>
         <IonContent fullscreen>
           <Menu disabled={false}/>
-          <IonAlert
-            isOpen={showAlert}
-            onDidDismiss={() => setShowAlert(false)}
-            header="¿Estás seguro de que quieres eliminar el entrenador?"
-            buttons={[
-              {
-                text: "Cancelar",
-                role: "cancel",
-                handler: () => {
-                  history.push(`/home/profile`);
-                },
-              },
-              {
-                text: "Eliminar",
-                role: "confirm",
-                handler: () => {
-                  history.push(`/home/profile`);
-                },
-              },
-            ]}
-          />
           <Margin />
           <ImageContainer>
             <Image src={picture} />

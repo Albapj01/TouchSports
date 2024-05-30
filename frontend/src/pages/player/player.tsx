@@ -137,7 +137,7 @@ const PlayerInfo = () => {
                 text: "Cancelar",
                 role: "cancel",
                 handler: () => {
-                  history.push(`/home/teams/${teamId}/player/${playerId}`);
+                  history.push(window.location.href=`/home/teams/${teamId}/player/${playerId}`);
                 },
               },
               {
@@ -145,7 +145,7 @@ const PlayerInfo = () => {
                 role: "confirm",
                 handler: () => {
                   handleDeletePlayer();
-                  history.push(`/home/teams/${teamId}`);
+                  history.push(window.location.href=`/home/teams/${teamId}`);
                 },
               },
             ]}

@@ -117,7 +117,7 @@ const CentreInfo = () => {
                 text: "Cancelar",
                 role: "cancel",
                 handler: () => {
-                  history.push(`/home/centres/${centresId}`);
+                  history.push(window.location.href=`/home/centres/${centresId}`);
                 },
               },
               {
@@ -125,7 +125,7 @@ const CentreInfo = () => {
                 role: "confirm",
                 handler: () => {
                   handleDeleteCentre();
-                  history.push(`/home/centres`);
+                  history.push(window.location.href=`/home/centres`);
                 },
               },
             ]}

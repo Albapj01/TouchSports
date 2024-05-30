@@ -297,17 +297,17 @@ const UpdatePlayer = () => {
                 {
                   text: "Eliminar",
                   role: "destructive",
-                  handler: () => history.push(`/home/teams/${teamId}`),
+                  handler: () => history.push(window.location.href=`/home/teams/${teamId}`),
                 },
                 {
                   text: "Actualizar",
                   handler: () => {
                     handleUpdatePlayer();
-                    history.push(`/home/teams/${teamId}`);
+                    history.push(window.location.href=`/home/teams/${teamId}`);
                   },
                 },
                 {
-                  text: "Cancelar",
+                  text: "Seguir editando",
                   role: "cancel",
                   handler: () =>
                     history.push(

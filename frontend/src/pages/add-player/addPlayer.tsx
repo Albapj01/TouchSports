@@ -274,17 +274,17 @@ const AddPlayer = () => {
                 {
                   text: "Eliminar",
                   role: "destructive",
-                  handler: () => history.push(`/home/teams/${teamId}`),
+                  handler: () => history.push(window.location.href=`/home/teams/${teamId}`),
                 },
                 {
                   text: "Añadir",
                   handler: () => {
                     handleAddPlayer();
-                    history.push(`/home/teams/${teamId}`);
+                    history.push(window.location.href=`/home/teams/${teamId}`);
                   },
                 },
                 {
-                  text: "Cancelar",
+                  text: "Seguir editando",
                   role: "cancel",
                   handler: () => history.push(`/home/teams/${teamId}/add-player`),
                 },
