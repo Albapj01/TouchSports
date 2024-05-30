@@ -97,36 +97,20 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
-      },
-      {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
       },
       {
         "file": ".gitignore",
         "hash": "1398178998339616447"
       },
       {
-        "file": "package.json",
-        "hash": "16079508552978807636"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "15155952317156726532"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
       },
       {
         "file": "LICENSE",
@@ -137,8 +121,24 @@
         "hash": "6703405954808146235"
       },
       {
+        "file": "package.json",
+        "hash": "16079508552978807636"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4595224623132836319"
+      },
+      {
+        "file": "README.md",
+        "hash": "10104707244890837311"
+      },
+      {
         "file": "docker-compose.yml",
         "hash": "319288953677755740"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "15155952317156726532"
       }
     ],
     "projectFileMap": {
@@ -837,7 +837,7 @@
         },
         {
           "file": "frontend/src/pages/add-centres/addCentres.tsx",
-          "hash": "16269059391499491700",
+          "hash": "9972650822621113266",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -848,7 +848,7 @@
         },
         {
           "file": "frontend/src/pages/add-player/addPlayer.tsx",
-          "hash": "11131742794615884794",
+          "hash": "11540481041579352386",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -859,7 +859,7 @@
         },
         {
           "file": "frontend/src/pages/add-team/addTeam.tsx",
-          "hash": "7211211946235732666",
+          "hash": "4767766753271523232",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -921,7 +921,7 @@
         },
         {
           "file": "frontend/src/pages/player/player.tsx",
-          "hash": "17324271632153988169",
+          "hash": "14494896317442607880",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -943,7 +943,7 @@
         },
         {
           "file": "frontend/src/pages/reserve/reserve.tsx",
-          "hash": "13714238775685813441",
+          "hash": "6253968538656478532",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -1000,7 +1000,7 @@
         },
         {
           "file": "frontend/src/pages/training/training.tsx",
-          "hash": "5976706676990627692",
+          "hash": "18243605742990096527",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -1010,7 +1010,7 @@
         },
         {
           "file": "frontend/src/pages/update-centre/updateCentre.tsx",
-          "hash": "12092705966106356562",
+          "hash": "77428652693859766",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -1020,7 +1020,7 @@
         },
         {
           "file": "frontend/src/pages/update-player/updatePlayer.tsx",
-          "hash": "5457418661522084593",
+          "hash": "10035918857433725455",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -1031,7 +1031,7 @@
         },
         {
           "file": "frontend/src/pages/update-reserve/updateReserve.tsx",
-          "hash": "7468755556052157569",
+          "hash": "4381013380335565390",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -1041,7 +1041,7 @@
         },
         {
           "file": "frontend/src/pages/update-team/updateTeam.tsx",
-          "hash": "10757103435670664186",
+          "hash": "5008190357531116771",
           "deps": [
             "npm:@ionic/react",
             "npm:react",

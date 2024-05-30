@@ -1,5 +1,6 @@
 import {
   IonActionSheet,
+  IonAlert,
   IonButton,
   IonContent,
   IonFooter,
@@ -24,6 +25,7 @@ const UpdateTeam = () => {
   const { teamId } = useParams<{ teamId: string }>();
   const [name, setName] = useState("");
   const history = useHistory();
+  const [showAlert, setShowAlert] = useState(false);
 
   const { payload } = decodeJwt(storage.get("token"));
 
@@ -48,11 +50,17 @@ const UpdateTeam = () => {
   }, [payload.sub, teamId]);
 
   const handleUpdateTeam = async () => {
+    if (name == "") {
+      setShowAlert(true);
+      return;
+    }
+
     if (teamId) {
       await api.updateTeam(payload.sub, teamId, name);
     } else {
       console.error("El equipo no existe.");
     }
+    history.push(window.location.href="/");
   };
 
   const handleImageUrl = (teamName: string) => {
@@ -83,7 +91,7 @@ const UpdateTeam = () => {
           <IonList className="no-margin-padding">
             <Margin>
               <Input
-                label="Nombre"
+                label="Nombre (Obligatorio)"
                 placeholder="Nombre"
                 elements={(name) => setName(name)}
                 value={name}
@@ -105,7 +113,6 @@ const UpdateTeam = () => {
                   text: "Actualizar",
                   handler: () => {
                     handleUpdateTeam();
-                    history.push(window.location.href="/");
                   },
                 },
                 {
@@ -116,6 +123,13 @@ const UpdateTeam = () => {
               ]}
             ></IonActionSheet>
           </Button>
+          <IonAlert
+            isOpen={showAlert}
+            onDidDismiss={() => setShowAlert(false)}
+            header="Error"
+            message="El nombre es obligatorio"
+            buttons={["OK"]}
+          />
         </IonContent>
         <IonFooter>
           <Tabs disabled={false}/>

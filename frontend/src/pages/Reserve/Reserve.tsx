@@ -1,5 +1,6 @@
 import {
   IonActionSheet,
+  IonAlert,
   IonButton,
   IonContent,
   IonFooter,
@@ -42,6 +43,9 @@ const ReserveInfo = () => {
 
   const [showMultiSelect, setShowMultiSelect] = useState(false);
   const history = useHistory();
+  const [showAlert, setShowAlert] = useState(false);
+  const [showEmailAlert, setShowEmailAlert] = useState(false);
+  const [showTelephoneAlert, setShowTelephoneAlert] = useState(false);
 
   const [teams, setTeams] = useState<Team[]>([]);
 
@@ -58,7 +62,29 @@ const ReserveInfo = () => {
     fetchTeams();
   }, []);
 
+  const validationEmail = (email: String) => {
+    const validateEmail = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
+    return validateEmail.test(String(email).toLowerCase());
+  };
+
+  const validationTelephone = (telephoneNumber: String) => {
+    const validateTelephone = /^[9|6|7][0-9]{8}$/;
+    return validateTelephone.test(String(telephoneNumber));
+  };
+
   const handleAddReserve = async () => {
+    if(name == "" || surname == "" || email == "" || teamId == ""){
+      return setShowAlert(true);
+    }
+
+    if(!validationEmail(email)){
+      return setShowEmailAlert(true);
+    }
+
+    if(!validationTelephone(telephoneNumber)){
+      return setShowTelephoneAlert(true);
+    }
+
     const id = uuidv4();
     const reserveId = id.toString();
     if (centresId) {
@@ -88,6 +114,7 @@ const ReserveInfo = () => {
           endReserve
         );
       }
+      history.push(window.location.href=`/home/centres/${centresId}`);
     } else {
       console.error("El centro no existe.");
     }
@@ -111,21 +138,21 @@ const ReserveInfo = () => {
           <IonList className="no-margin-padding">
             <Margin>
               <Input
-                label="Nombre"
+                label="Nombre (Obligatorio)"
                 placeholder="Nombre"
                 elements={(name) => setName(name)}
                 value={name}
               />
               <br />
               <Input
-                label="Apellidos"
+                label="Apellidos (Obligatorio)"
                 placeholder="Apellidos"
                 elements={(surname) => setSurname(surname)}
                 value={surname}
               />
               <br />
               <Input
-                label="Correo"
+                label="Correo (Obligatorio)"
                 placeholder="Correo"
                 elements={(email) => setEmail(email)}
                 value={email}
@@ -140,7 +167,7 @@ const ReserveInfo = () => {
                 value={telephoneNumber}
               />
               <Space></Space>
-              <IonText>Selecciona para qué equipo quieres la reserva</IonText>
+              <IonText>Selecciona para qué equipo quieres la reserva (Obligatorio):</IonText>
               <SelectContainer>
                 <IonList>
                   <IonItem>
@@ -172,7 +199,7 @@ const ReserveInfo = () => {
           <Space></Space>
           <Margin>
             <IonText>
-              Seleccione el día y la hora de inicio y de fin de la reserva:
+              Seleccione el día y la hora de inicio y de fin de la reserva (Obligatorio):
             </IonText>
             <DateTime
               setStartDate={setStartReserve}
@@ -195,7 +222,6 @@ const ReserveInfo = () => {
                   text: "Reservar",
                   handler: () => {
                     handleAddReserve();
-                    history.push(window.location.href=`/home/centres/${centresId}`);
                   },
                 },
                 {
@@ -207,6 +233,27 @@ const ReserveInfo = () => {
             ></IonActionSheet>
           </Button>
           <br />
+          <IonAlert
+            isOpen={showAlert}
+            onDidDismiss={() => setShowAlert(false)}
+            header="Error"
+            message="El nombre, los apellidos, el correo, el equipo y el horario son obligatorios. Si no se selecciona un horario, este se pondrá por defecto con el día y la hora actuales."
+            buttons={["OK"]}
+          />
+          <IonAlert
+            isOpen={showEmailAlert}
+            onDidDismiss={() => setShowEmailAlert(false)}
+            header="Formato de correo incorrecto"
+            message="El correo debe ser similar a usuario@ejemplo.com o usuario@ejemplo.es"
+            buttons={["OK"]}
+          />
+          <IonAlert
+            isOpen={showTelephoneAlert}
+            onDidDismiss={() => setShowTelephoneAlert(false)}
+            header="Formato de teléfono incorrecto"
+            message="El número de teléfono debe empezar por 6, 7 o 9 y debe estar seguido por 8 dígitos más"
+            buttons={["OK"]}
+          />
         </IonContent>
         <IonFooter>
           <Tabs disabled={false}/>

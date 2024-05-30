@@ -1,9 +1,11 @@
 import {
   IonActionSheet,
+  IonAlert,
   IonButton,
   IonContent,
   IonFooter,
   IonHeader,
+  IonImg,
   IonList,
   IonPage,
 } from "@ionic/react";
@@ -23,10 +25,16 @@ const AddCentres = () => {
   const [name, setName] = useState("");
   const [location, setLocation] = useState("");
   const history = useHistory();
+  const [showAlert, setShowAlert] = useState(false);
 
   const { payload } = decodeJwt(storage.get("token"));
 
   const handleAddCentres = async () => {
+    if (name == "" || location == "") {
+      setShowAlert(true);
+      return;
+    }
+
     const id = uuidv4();
     const centresId = id.toString();
 
@@ -39,6 +47,16 @@ const AddCentres = () => {
     if (!obtainedCentresId) {
       await api.createCentres(payload.sub, centresId, name, location, [], "");
     }
+    history.push(window.location.href="/home/centres");
+  };
+
+  const handleImageUrl = (centreName: string) => {
+    if (centreName.toLowerCase().includes("palacio")) {
+      return "https://upload.wikimedia.org/wikipedia/commons/e/e8/Palacio_Municipal_de_Deportes_Vista_Alegre_-_C%C3%B3rdoba_%28Espa%C3%B1a%29.jpg"; 
+    } else if (centreName.toLowerCase().includes("pidal")) {
+      return "https://www.uco.es/empresa/ucodeporte/wp-content/uploads/slider_01_ucodeporte_pabellon.jpg"; 
+    } 
+    return "https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp";
   };
 
   return (
@@ -50,25 +68,22 @@ const AddCentres = () => {
         <IonContent fullscreen>
           <br></br>
           <Menu disabled={false}/>
-          <PersonContainer>
-            <Avatar
-              route=""
-              imageUrl="https://ionicframework.com/docs/img/demos/avatar.svg"
-              name=""
-              surname=""
+          <ImageContainer>
+            <IonImg
+              src={handleImageUrl(name)}
             />
-          </PersonContainer>
+          </ImageContainer>
           <IonList className="no-margin-padding">
             <Margin>
               <Input
-                label="Nombre"
+                label="Nombre (Obligatorio)"
                 placeholder="Nombre"
                 elements={(name) => setName(name)}
                 value={name}
               />
               <br />
               <Input
-                label="Ubicación"
+                label="Ubicación (Obligatorio)"
                 placeholder="Ubicación"
                 elements={(location) => setLocation(location)}
                 value={location}
@@ -91,7 +106,6 @@ const AddCentres = () => {
                   text: "Añadir",
                   handler: () => {
                     handleAddCentres();
-                    history.push(window.location.href="/home/centres");
                   },
                 },
                 {
@@ -102,6 +116,13 @@ const AddCentres = () => {
               ]}
             ></IonActionSheet>
           </Button>
+          <IonAlert
+            isOpen={showAlert}
+            onDidDismiss={() => setShowAlert(false)}
+            header="Error"
+            message="El nombre y la ubicación son obligatorios"
+            buttons={["OK"]}
+          />
         </IonContent>
         <IonFooter>
           <Tabs disabled={false}/>
@@ -111,9 +132,10 @@ const AddCentres = () => {
   );
 };
 
-const PersonContainer = styled.div`
-  margin-bottom: 10%;
-  margin-left: 34%;
+const ImageContainer = styled.div`
+  text-align: center;
+  align-items: center;
+  margin: 10%;
 `;
 
 const Margin = styled.div`

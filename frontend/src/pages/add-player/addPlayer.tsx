@@ -1,5 +1,6 @@
 import {
   IonActionSheet,
+  IonAlert,
   IonButton,
   IonContent,
   IonFooter,
@@ -46,10 +47,35 @@ const AddPlayer = () => {
 
   const [showMultiSelect, setShowMultiSelect] = useState(false);
   const history = useHistory();
+  const [showAlert, setShowAlert] = useState(false);
+  const [showEmailAlert, setShowEmailAlert] = useState(false);
+  const [showTelephoneAlert, setShowTelephoneAlert] = useState(false);
 
   const { payload } = decodeJwt(storage.get("token"));
 
+  const validationEmail = (email: String) => {
+    const validateEmail = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
+    return validateEmail.test(String(email).toLowerCase());
+  };
+
+  const validationTelephone = (telephoneNumber: String) => {
+    const validateTelephone = /^[9|6|7][0-9]{8}$/;
+    return validateTelephone.test(String(telephoneNumber));
+  };
+
   const handleAddPlayer = async () => {
+    if(name == "" || surname == "" || email == ""){
+      return setShowAlert(true);
+    }
+
+    if(!validationEmail(email)){
+      return setShowEmailAlert(true);
+    }
+
+    if(!validationTelephone(telephoneNumber)){
+      return setShowTelephoneAlert(true);
+    }
+
     const id = uuidv4();
     const playerId = id.toString();
 
@@ -81,6 +107,7 @@ const AddPlayer = () => {
           improvements
         );
       }
+      history.push(window.location.href=`/home/teams/${teamId}`);
     } else {
       console.error("El equipo no existe.");
     }
@@ -124,14 +151,14 @@ const AddPlayer = () => {
           <IonList className="no-margin-padding">
             <Margin>
               <Input
-                label="Nombre"
+                label="Nombre (Obligatorio)"
                 placeholder="Nombre"
                 elements={(name) => setName(name)}
                 value={name}
               />
               <br />
               <Input
-                label="Apellidos"
+                label="Apellidos (Obligatorio)"
                 placeholder="Apellidos"
                 elements={(surname) => setSurname(surname)}
                 value={surname}
@@ -147,7 +174,7 @@ const AddPlayer = () => {
               />
               <br />
               <Input
-                label="Correo"
+                label="Correo (Obligatorio)"
                 placeholder="Correo"
                 elements={(email) => setEmail(email)}
                 value={email}
@@ -280,7 +307,6 @@ const AddPlayer = () => {
                   text: "Añadir",
                   handler: () => {
                     handleAddPlayer();
-                    history.push(window.location.href=`/home/teams/${teamId}`);
                   },
                 },
                 {
@@ -291,6 +317,27 @@ const AddPlayer = () => {
               ]}
             ></IonActionSheet>
           </Button>
+          <IonAlert
+            isOpen={showAlert}
+            onDidDismiss={() => setShowAlert(false)}
+            header="Error"
+            message="El nombre, los apellidos y el correo son obligatorios"
+            buttons={["OK"]}
+          />
+          <IonAlert
+            isOpen={showEmailAlert}
+            onDidDismiss={() => setShowEmailAlert(false)}
+            header="Formato de correo incorrecto"
+            message="El correo debe ser similar a usuario@ejemplo.com o usuario@ejemplo.es"
+            buttons={["OK"]}
+          />
+          <IonAlert
+            isOpen={showTelephoneAlert}
+            onDidDismiss={() => setShowTelephoneAlert(false)}
+            header="Formato de teléfono incorrecto"
+            message="El número de teléfono debe empezar por 6, 7 o 9 y debe estar seguido por 8 dígitos más"
+            buttons={["OK"]}
+          />
         </IonContent>
         <IonFooter>
           <Tabs disabled={false}/>

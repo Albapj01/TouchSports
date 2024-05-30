@@ -1,5 +1,6 @@
 import {
   IonActionSheet,
+  IonAlert,
   IonButton,
   IonContent,
   IonFooter,
@@ -47,6 +48,9 @@ const UpdatePlayer = () => {
 
   const [showMultiSelect, setShowMultiSelect] = useState(false);
   const history = useHistory();
+  const [showAlert, setShowAlert] = useState(false);
+  const [showEmailAlert, setShowEmailAlert] = useState(false);
+  const [showTelephoneAlert, setShowTelephoneAlert] = useState(false);
 
   const { payload } = decodeJwt(storage.get("token"));
 
@@ -62,7 +66,7 @@ const UpdatePlayer = () => {
           if (existingPlayer && existingPlayer.player) {
             setName(existingPlayer.player.name || "");
             setSurname(existingPlayer.player.surname || "");
-            setTelephoneNumber(existingPlayer.player.telephoneNumber || "");
+            setTelephoneNumber(existingPlayer.player.telephone || "");
             setEmail(existingPlayer.player.email || "");
             setImageUrl(existingPlayer.player.imageUrl || "https://ionicframework.com/docs/img/demos/avatar.svg");
             setDiet(existingPlayer.player.diet || "");
@@ -88,7 +92,29 @@ const UpdatePlayer = () => {
     }
   }, [payload.sub, teamId, playerId]);
 
+  const validationEmail = (email: String) => {
+    const validateEmail = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
+    return validateEmail.test(String(email).toLowerCase());
+  };
+
+  const validationTelephone = (telephoneNumber: String) => {
+    const validateTelephone = /^[9|6|7][0-9]{8}$/;
+    return validateTelephone.test(String(telephoneNumber));
+  };
+
   const handleUpdatePlayer = async () => {
+    if(name == "" || surname == "" || email == ""){
+      return setShowAlert(true);
+    }
+
+    if(!validationEmail(email)){
+      return setShowEmailAlert(true);
+    }
+
+    if(!validationTelephone(telephoneNumber)){
+      return setShowTelephoneAlert(true);
+    }
+
     if (teamId && playerId) {
       await api.updatePlayer(
         payload.sub,
@@ -104,6 +130,7 @@ const UpdatePlayer = () => {
         physicalTraining,
         improvements
       );
+      history.push(window.location.href=`/home/teams/${teamId}`);
     } else {
       console.error("El jugador no existe.");
     }
@@ -147,14 +174,14 @@ const UpdatePlayer = () => {
           <IonList className="no-margin-padding">
             <Margin>
               <Input
-                label="Nombre"
+                label="Nombre (Obligatorio)"
                 placeholder="Nombre"
                 elements={(name) => setName(name)}
                 value={name}
               />
               <br />
               <Input
-                label="Apellidos"
+                label="Apellidos (Obligatorio)"
                 placeholder="Apellidos"
                 elements={(surname) => setSurname(surname)}
                 value={surname}
@@ -170,7 +197,7 @@ const UpdatePlayer = () => {
               />
               <br />
               <Input
-                label="Correo"
+                label="Correo (Obligatorio)"
                 placeholder="Correo"
                 elements={(email) => setEmail(email)}
                 value={email}
@@ -303,7 +330,6 @@ const UpdatePlayer = () => {
                   text: "Actualizar",
                   handler: () => {
                     handleUpdatePlayer();
-                    history.push(window.location.href=`/home/teams/${teamId}`);
                   },
                 },
                 {
@@ -317,6 +343,27 @@ const UpdatePlayer = () => {
               ]}
             ></IonActionSheet>
           </Button>
+          <IonAlert
+            isOpen={showAlert}
+            onDidDismiss={() => setShowAlert(false)}
+            header="Error"
+            message="El nombre, los apellidos y el correo son obligatorios"
+            buttons={["OK"]}
+          />
+          <IonAlert
+            isOpen={showEmailAlert}
+            onDidDismiss={() => setShowEmailAlert(false)}
+            header="Formato de correo incorrecto"
+            message="El correo debe ser similar a usuario@ejemplo.com o usuario@ejemplo.es"
+            buttons={["OK"]}
+          />
+          <IonAlert
+            isOpen={showTelephoneAlert}
+            onDidDismiss={() => setShowTelephoneAlert(false)}
+            header="Formato de teléfono incorrecto"
+            message="El número de teléfono debe empezar por 6, 7 o 9 y debe estar seguido por 8 dígitos más"
+            buttons={["OK"]}
+          />
         </IonContent>
         <IonFooter>
           <Tabs disabled={false}/>

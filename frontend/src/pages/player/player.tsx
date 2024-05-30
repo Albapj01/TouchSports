@@ -183,7 +183,7 @@ const PlayerInfo = () => {
             <Space />
             <TextContainer>Mejoras</TextContainer>
             <ImprovementsContainer>
-              {player ? player.improvements : ""}
+              {player ? (player.improvements !== "" ? player.improvements : "No hay ninguna mejora asignada") : ""}
             </ImprovementsContainer>
           </IonList>{" "}
           <Space />

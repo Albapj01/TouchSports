@@ -1,5 +1,6 @@
 import {
   IonActionSheet,
+  IonAlert,
   IonButton,
   IonContent,
   IonFooter,
@@ -25,6 +26,7 @@ const UpdateCentre = () => {
   const [name, setName] = useState("");
   const [location, setLocation] = useState("");
   const history = useHistory();
+  const [showAlert, setShowAlert] = useState(false);
 
   const { payload } = decodeJwt(storage.get("token"));
 
@@ -52,11 +54,17 @@ const UpdateCentre = () => {
   }, [payload.sub, centresId]);
 
   const handleUpdateCentre = async () => {
+    if (name == "" || location == "") {
+      setShowAlert(true);
+      return;
+    }
+
     if (centresId) {
       await api.updateCentre(payload.sub, centresId, name, location);
     } else {
       console.error("El centro no existe.");
     }
+    history.push(window.location.href="/");
   };
 
   const handleImageUrl = (centreName: string) => {
@@ -85,14 +93,14 @@ const UpdateCentre = () => {
           <IonList className="no-margin-padding">
             <Margin>
               <Input
-                label="Nombre"
+                label="Nombre (Obligatorio)"
                 placeholder="Nombre"
                 elements={(name) => setName(name)}
                 value={name}
               />
               <br />
               <Input
-                label="Ubicación"
+                label="Ubicación (Obligatorio)"
                 placeholder="Ubicación"
                 elements={(location) => setLocation(location)}
                 value={location}
@@ -115,7 +123,6 @@ const UpdateCentre = () => {
                   text: "Actualizar",
                   handler: () => {
                     handleUpdateCentre();
-                    history.push(window.location.href="/");
                   },
                 },
                 {
@@ -127,6 +134,13 @@ const UpdateCentre = () => {
               ]}
             ></IonActionSheet>
           </Button>
+          <IonAlert
+            isOpen={showAlert}
+            onDidDismiss={() => setShowAlert(false)}
+            header="Error"
+            message="El nombre y la ubicación son obligatorios"
+            buttons={["OK"]}
+          />
         </IonContent>
         <IonFooter>
           <Tabs disabled={false}/>

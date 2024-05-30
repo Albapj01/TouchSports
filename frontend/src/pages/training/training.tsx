@@ -63,30 +63,43 @@ const Training = () => {
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu disabled={disabled}/>
+          <Menu disabled={disabled} />
           <Container>
             <TextContainer>
               <IonText>Entrenamientos personalizados</IonText>
             </TextContainer>
             <Space></Space>
             <TextStyles>
-              Para mejorar la técnica, durante los entrenos o en sus ratos
-              libres, se debe de enfocar en la realización de:
-              <br></br>
-              {technicalTrainingItems.map((item, index) => (
-                <div key={index}>- {item.trim()}</div>
-              ))}{" "}
+              {player?.technicalTraining !== "" ? (
+                <>
+                  Para mejorar la técnica, durante los entrenos o en sus ratos
+                  libres, se debe de enfocar en la realización de:
+                  <br />
+                  {technicalTrainingItems.map((item, index) => (
+                    <div key={index}>- {item.trim()}</div>
+                  ))}
+                </>
+              ) : (
+                "No tienes ningún entrenamiento técnico asignado"
+              )}
               <Space></Space>
-              Para mejorar el físico y la resistencia, durante los entrenos o en
-              sus ratos libres, se debe de enfocar en la realización de:
-              {physicalTrainingItems.map((item, index) => (
-                <div key={index}>- {item.trim()}</div>
-              ))}{" "}
+              {player?.physicalTraining !== "" ? (
+                <>
+                  Para mejorar el físico y la resistencia, durante los entrenos
+                  o en sus ratos libres, se debe de enfocar en la realización
+                  de:
+                  {physicalTrainingItems.map((item, index) => (
+                    <div key={index}>- {item.trim()}</div>
+                  ))}
+                </>
+              ) : (
+                "No tienes ningún entrenamiento físico asignado"
+              )}
             </TextStyles>
           </Container>
         </IonContent>
         <IonFooter>
-          <Tabs disabled={disabled}/>
+          <Tabs disabled={disabled} />
         </IonFooter>
       </IonPage>
     </>
