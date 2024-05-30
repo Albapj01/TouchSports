@@ -200,6 +200,11 @@ const FabContainer = styled.div`
 const TransparentFabButton = styled(IonFabButton)`
   --background: transparent;
   --box-shadow: none;
+  --color: var(--ion-color-primary);
+
+  &[activated] {
+    --color: var(--ion-color-primary);
+  }
 `;
 
 export default CentreInfo;
