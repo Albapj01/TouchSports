@@ -76,7 +76,7 @@ const Calendar = () => {
           <br></br>
           <Menu disabled={false}/>
           <TextContainer>
-            <IonText>Calendario de reservas</IonText>
+            <IonText>CALENDARIO DE RESERVAS</IonText>
           </TextContainer>
           <CalendarContainer>
             <IonDatetime
@@ -109,6 +109,7 @@ const CalendarContainer = styled.div`
 
 const TextContainer = styled.div`
   text-align: center;
+  color: #1f7189;
   margin-top: 5%;
   margin-bottom: 5%;
   font-size: 20px;

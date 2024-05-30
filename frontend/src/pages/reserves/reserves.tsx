@@ -209,7 +209,7 @@ const Reserves = () => {
                 text: "Cancelar",
                 role: "cancel",
                 handler: () => {
-                  history.push(window.location.href=`/home/reserves`);
+                  history.push(`/home/reserves`);
                 },
               },
               {
@@ -257,7 +257,7 @@ const ModalWrapper = styled.div`
 
 const TextContainer = styled.div`
   text-align: center;
-  color: #666;
+  color: #1f7189;
   margin-top: 5%;
   font-size: 20px;
   font-weight: bold;

@@ -97,28 +97,28 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": "nx.json",
+        "hash": "4595224623132836319"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "16936441711144470533"
       },
       {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
-      },
-      {
         "file": "README.md",
         "hash": "10104707244890837311"
       },
       {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
+      },
+      {
+        "file": "package.json",
+        "hash": "16079508552978807636"
       },
       {
         "file": "package-lock.json",
@@ -129,16 +129,16 @@
         "hash": "12333515226966617182"
       },
       {
-        "file": "package.json",
-        "hash": "16079508552978807636"
-      },
-      {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
-      },
-      {
         "file": "LICENSE",
         "hash": "15553496959705771468"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
       }
     ],
     "projectFileMap": {
@@ -870,7 +870,7 @@
         },
         {
           "file": "frontend/src/pages/calendar/calendar.tsx",
-          "hash": "2342614865071824886",
+          "hash": "2331733026889597411",
           "deps": [
             "npm:react",
             "npm:@ionic/react",
@@ -943,7 +943,7 @@
         },
         {
           "file": "frontend/src/pages/reserve/reserve.tsx",
-          "hash": "222482685576146132",
+          "hash": "13714238775685813441",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -954,7 +954,7 @@
         },
         {
           "file": "frontend/src/pages/reserves/reserves.tsx",
-          "hash": "12398087368432942895",
+          "hash": "8716267323131246821",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components",
@@ -1031,7 +1031,7 @@
         },
         {
           "file": "frontend/src/pages/update-reserve/updateReserve.tsx",
-          "hash": "6002236496088765288",
+          "hash": "7468755556052157569",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -1041,7 +1041,7 @@
         },
         {
           "file": "frontend/src/pages/update-team/updateTeam.tsx",
-          "hash": "8835257393073364220",
+          "hash": "10757103435670664186",
           "deps": [
             "npm:@ionic/react",
             "npm:react",

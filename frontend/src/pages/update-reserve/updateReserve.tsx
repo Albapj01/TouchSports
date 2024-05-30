@@ -214,7 +214,7 @@ const UpdateReserve = () => {
                 {
                   text: "Seguir editando",
                   role: "cancel",
-                  handler: () => history.push("/home/reserves"),
+                  handler: () => history.push(`/home/reserves/${centresId}/${reserveId}/update-reserve`),
                 },
               ]}
             ></IonActionSheet>

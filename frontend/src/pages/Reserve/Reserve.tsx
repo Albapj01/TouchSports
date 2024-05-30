@@ -201,7 +201,7 @@ const ReserveInfo = () => {
                 {
                   text: "Seguir editando",
                   role: "cancel",
-                  handler: () => history.push("/home/centres/reserve"),
+                  handler: () => history.push(`/home/centres/${centresId}/reserve`),
                 },
               ]}
             ></IonActionSheet>

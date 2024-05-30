@@ -99,7 +99,7 @@ const UpdateTeam = () => {
                 {
                   text: "Eliminar",
                   role: "destructive",
-                  handler: () => history.push(window.location.href="/home/teams"),
+                  handler: () => history.push(window.location.href=`/home/teams/${teamId}`),
                 },
                 {
                   text: "Actualizar",
