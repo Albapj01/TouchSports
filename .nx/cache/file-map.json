@@ -97,48 +97,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package.json",
-        "hash": "16079508552978807636"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "15155952317156726532"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "file": "README.md",
+        "hash": "10104707244890837311"
       },
       {
         "file": "nx.json",
         "hash": "4595224623132836319"
       },
       {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "15155952317156726532"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
       },
       {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
       },
       {
-        "file": "README.md",
-        "hash": "10104707244890837311"
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
+      },
+      {
+        "file": "package.json",
+        "hash": "16079508552978807636"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
       }
     ],
     "projectFileMap": {
@@ -249,18 +249,6 @@
           ]
         },
         {
-          "file": "backend/tests/trainers/application/usecases/CreateTrainerUseCase.test.ts",
-          "hash": "10148539951411389368"
-        },
-        {
-          "file": "backend/tests/trainers/application/usecases/GetAllTrainersUseCase.test.ts",
-          "hash": "1819899061176218972"
-        },
-        {
-          "file": "backend/tests/trainers/application/usecases/GetTrainerByIdUseCase.test.ts",
-          "hash": "187261669462315021"
-        },
-        {
           "file": "backend/tests/trainers/application/usecases/JestFunctions.ts",
           "hash": "8315212123379330549"
         },
@@ -282,10 +270,6 @@
           "deps": [
             "npm:@nx/webpack"
           ]
-        },
-        {
-          "file": "backend/tests/trainers/application/usecases/GetTrainerByEmailUseCase.test.ts",
-          "hash": "5003330941651549671"
         },
         {
           "file": "backend/src/trainers/application/usecases/trainer/CreateTrainerUseCase.ts",
@@ -565,6 +549,22 @@
         {
           "file": "backend/src/trainers/domain/notifier/NotifierPort.ts",
           "hash": "17587510964080179253"
+        },
+        {
+          "file": "backend/tests/trainers/application/usecases/trainer/CreateTrainerUseCase.test.ts",
+          "hash": "17496614948584030573"
+        },
+        {
+          "file": "backend/tests/trainers/application/usecases/trainer/GetAllTrainersUseCase.test.ts",
+          "hash": "5772648974097258339"
+        },
+        {
+          "file": "backend/tests/trainers/application/usecases/trainer/GetTrainerByEmailUseCase.test.ts",
+          "hash": "8840843375370292037"
+        },
+        {
+          "file": "backend/tests/trainers/application/usecases/trainer/GetTrainerByIdUseCase.test.ts",
+          "hash": "1703000951464575817"
         }
       ],
       "frontend": [
@@ -780,7 +780,7 @@
         },
         {
           "file": "frontend/src/main.tsx",
-          "hash": "8098156182234119907",
+          "hash": "14707755481520172423",
           "deps": [
             "npm:react",
             "npm:react-dom",
