@@ -14,8 +14,6 @@ import { CreateTeamUseCase } from "./trainers/application/usecases/CreateTeamUse
 import { CreateTeamController } from "./trainers/infrastructure/controller/CreateTeamController";
 import { UpdateTeamByIdUseCase } from "./trainers/application/usecases/UpdateTeamByIdUseCase";
 import { UpdateTeamByIdController } from "./trainers/infrastructure/controller/UpdateTeamByIdController";
-import { UpdateTrainerUseCase } from "./trainers/application/usecases/UpdateTrainerUseCase";
-import { UpdateTrainerController } from "./trainers/infrastructure/controller/UpdateTrainerController";
 import { DeleteTeamByIdUseCase } from "./trainers/application/usecases/DeleteTeamByIdUseCase";
 import { DeleteTeamByIdController } from "./trainers/infrastructure/controller/DeleteTeamByIdController";
 import { GetAllTeamsUseCase } from "./trainers/application/usecases/GetAllTeamsUseCase";
@@ -107,14 +105,6 @@ const getTrainerByEmailUseController = new GetTrainerByEmailController(
 );
 router.get("/api/trainer/:email", async (req, res) => {
   return getTrainerByEmailUseController.handle(req, res);
-});
-
-const updateTrainerUseCase = new UpdateTrainerUseCase(trainerAdapter);
-const updateTrainerController = new UpdateTrainerController(
-  updateTrainerUseCase
-);
-router.put("/api/trainer/:trainerId", async (req, res) => {
-  return updateTrainerController.handle(req, res);
 });
 
 const createTeamUseCase = new CreateTeamUseCase(trainerAdapter);

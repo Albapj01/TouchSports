@@ -6,7 +6,6 @@ import { Trainer } from "../model/Trainer";
 
 export interface TrainerPort {
   saveTrainer(trainer: Trainer): Promise<void>;
-  updateTrainer(oldTrainer: Trainer, updateTrainer: Trainer): Promise<void>;
   findById(trainerId: string): Promise<Trainer>;
   findByEmail(email: string): Promise<Trainer>;
   findByPlayerEmail(email: string, team: Team): Promise<Player>;
