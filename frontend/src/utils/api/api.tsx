@@ -146,13 +146,6 @@ const getAllCentres = async (trainerId: string) => {
   return response.data;
 };
 
-const getAllReserves = async (trainerId: string, centresId: string) => {
-  const response = await axios.get(
-    `${myApi}/trainer/${trainerId}/centres/${centresId}/reserves`
-  );
-  return response.data;
-};
-
 const createReserve = async (
   trainerId: string,
   centresId: string,
@@ -372,7 +365,6 @@ export default {
   getAllCentres,
   createReserve,
   getReserveById,
-  getAllReserves,
   getTrainerReserves,
   deleteTeam,
   updateTeam,

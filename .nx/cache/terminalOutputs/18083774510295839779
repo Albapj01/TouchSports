@@ -1,0 +1,47 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/player/CreatePlayerUseCase.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"../../../domain/notifier/NotifierPort"' has no exported member 'Notifier'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mPlayer[39m } [36mfrom[39m [32m"../../../domain/model/Player"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mNotifier[39m } [36mfrom[39m [32m"../../../domain/notifier/NotifierPort"[39m[33m;[39m
+   [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 3 |[39m [36mimport[39m { [33mTrainerPort[39m } [36mfrom[39m [32m"../../../domain/port/TrainerPort"[39m[33m;[39m
+   [90m 4 |[39m [36mimport[39m { [33mPlayerDTO[39m } [36mfrom[39m [32m"../../DTOs/PlayerDTO"[39m[33m;[39m
+   [90m 5 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (d7086f92698062de)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/player/CreatePlayerUseCase.ts:[32m[1m7:67[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Notifier'.
+  [0m [90m  5 |[39m
+   [90m  6 |[39m [36mexport[39m [36mclass[39m [33mCreatePalyerUseCase[39m {
+  [31m[1m>[22m[39m[90m  7 |[39m   constructor([36mprivate[39m trainerPort[33m:[39m [33mTrainerPort[39m[33m,[39m [36mprivate[39m notifier[33m:[39m [33mNotifier[39m) {}
+   [90m    |[39m                                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m  8 |[39m
+   [90m  9 |[39m   [36masync[39m run(
+   [90m 10 |[39m     trainerId[33m:[39m string[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c4c61042f0d2a8c0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.2 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/player/CreatePlayerUseCase.ts:[32m[1m7:67[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Notifier'.
+  [0m [90m  5 |[39m
+   [90m  6 |[39m [36mexport[39m [36mclass[39m [33mCreatePalyerUseCase[39m {
+  [31m[1m>[22m[39m[90m  7 |[39m   constructor([36mprivate[39m trainerPort[33m:[39m [33mTrainerPort[39m[33m,[39m [36mprivate[39m notifier[33m:[39m [33mNotifier[39m) {}
+   [90m    |[39m                                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m  8 |[39m
+   [90m  9 |[39m   [36masync[39m run(
+   [90m 10 |[39m     trainerId[33m:[39m string[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c4c61042f0d2a8c0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (515a623612b0cb66)
+[1m[31mDebugger listening on ws://localhost:9229/4bba1746-b7a9-4dd2-965a-02c4dcaaa622[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4bba1746-b7a9-4dd2-965a-02c4dcaaa622[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

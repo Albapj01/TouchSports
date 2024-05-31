@@ -6,59 +6,57 @@ import Router from "express-promise-router";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import { MongoTrainerAdapter } from "./trainers/infrastructure/persistence/repository/MongoTrainerAdapter";
-import { CreateTrainerUseCase } from "./trainers/application/usecases/CreateTrainerUseCase";
-import { CreateTrainerController } from "./trainers/infrastructure/controller/CreateTrainerController";
-import { GetTrainerByIdUseCase } from "./trainers/application/usecases/GetTrainerByIdUseCase";
-import { GetTrainerByIdController } from "./trainers/infrastructure/controller/GetTrainerByIdController";
-import { CreateTeamUseCase } from "./trainers/application/usecases/CreateTeamUseCase";
-import { CreateTeamController } from "./trainers/infrastructure/controller/CreateTeamController";
-import { UpdateTeamByIdUseCase } from "./trainers/application/usecases/UpdateTeamByIdUseCase";
-import { UpdateTeamByIdController } from "./trainers/infrastructure/controller/UpdateTeamByIdController";
-import { DeleteTeamByIdUseCase } from "./trainers/application/usecases/DeleteTeamByIdUseCase";
-import { DeleteTeamByIdController } from "./trainers/infrastructure/controller/DeleteTeamByIdController";
-import { GetAllTeamsUseCase } from "./trainers/application/usecases/GetAllTeamsUseCase";
-import { GetAllTeamsController } from "./trainers/infrastructure/controller/GetAllTeamsController";
-import { CreatePalyerUseCase } from "./trainers/application/usecases/CreatePlayerUseCase";
-import { CreatePlayerController } from "./trainers/infrastructure/controller/CreatePlayerController";
-import { UpdatePlayerByIdUseCase } from "./trainers/application/usecases/UpdatePlayerByIdUseCase";
-import { UpdatePlayerByIdController } from "./trainers/infrastructure/controller/UpdatePlayerByIdController";
-import { DeletePlayerByIdUseCase } from "./trainers/application/usecases/DeletePlayerByIdUseCase";
-import { DeletePlayerByIdController } from "./trainers/infrastructure/controller/DeletePlayerByIdController";
-import { GetAllPlayersUseCase } from "./trainers/application/usecases/GetAllPlayersUseCase";
-import { GetAllPlayersController } from "./trainers/infrastructure/controller/GetAllPlayersController";
-import { GetPlayerByIdUseCase } from "./trainers/application/usecases/GetPlayerByIdUseCase";
-import { GetPlayerByIdController } from "./trainers/infrastructure/controller/GetPlayerByIdController";
-import { CreateCentresUseCase } from "./trainers/application/usecases/CreateCentresUseCase";
-import { CreateCentresController } from "./trainers/infrastructure/controller/CreateCentresController";
-import { UpdateCentresByIdUseCase } from "./trainers/application/usecases/UpdateCentresByIdUseCase";
-import { UpdateCentresmByIdController } from "./trainers/infrastructure/controller/UpdateCentresByIdController";
-import { GetAllCentresUseCase } from "./trainers/application/usecases/GetAllCentresUseCase";
-import { GetAllCentresController } from "./trainers/infrastructure/controller/GetAllCentresController";
-import { DeleteCentresByIdUseCase } from "./trainers/application/usecases/DeleteCentresByIdUseCase";
-import { DeleteCentresByIdController } from "./trainers/infrastructure/controller/DeleteCentresByIdController";
-import { CreateReserveUseCase } from "./trainers/application/usecases/CreateReserveUseCase";
-import { CreateReserveController } from "./trainers/infrastructure/controller/CreateReserveController";
-import { UpdateReserveByIdUseCase } from "./trainers/application/usecases/UpdateReserveByIdUseCase";
-import { UpdateReserveByIdController } from "./trainers/infrastructure/controller/UpdateReserveByIdController";
-import { GetAllReservesUseCase } from "./trainers/application/usecases/GetAllReservesUseCase";
-import { GetAllReservesController } from "./trainers/infrastructure/controller/GetAllReservesController";
-import { DeleteReserveByIdUseCase } from "./trainers/application/usecases/DeleteReserveByIdUseCase";
-import { DeleteReserveByIdController } from "./trainers/infrastructure/controller/DeleteReserveByIdController";
-import { GetTeamByIdUseCase } from "./trainers/application/usecases/GetTeamByIdUseCase";
-import { GetTeamByIdController } from "./trainers/infrastructure/controller/GetTeamByIdController";
-import { GetCentresByIdUseCase } from "./trainers/application/usecases/GetCentresByIdUseCase";
-import { GetCentresByIdController } from "./trainers/infrastructure/controller/GetCentresByIdController";
-import { GetReserveByIdUseCase } from "./trainers/application/usecases/GetReserveByIdUseCase";
-import { GetReserveByIdController } from "./trainers/infrastructure/controller/GetReserveByIdController";
-import { GetTrainerReservesUseCase } from "./trainers/application/usecases/GetTrainerReservesUseCase";
-import { GetTrainerReservesController } from "./trainers/infrastructure/controller/GetTrainerReservesController";
+import { CreateTrainerUseCase } from "./trainers/application/usecases/trainer/CreateTrainerUseCase";
+import { CreateTrainerController } from "./trainers/infrastructure/controller/trainer/CreateTrainerController";
+import { GetTrainerByIdUseCase } from "./trainers/application/usecases/trainer/GetTrainerByIdUseCase";
+import { GetTrainerByIdController } from "./trainers/infrastructure/controller/trainer/GetTrainerByIdController";
+import { CreateTeamUseCase } from "./trainers/application/usecases/team/CreateTeamUseCase";
+import { CreateTeamController } from "./trainers/infrastructure/controller/team/CreateTeamController";
+import { UpdateTeamByIdUseCase } from "./trainers/application/usecases/team/UpdateTeamByIdUseCase";
+import { UpdateTeamByIdController } from "./trainers/infrastructure/controller/team/UpdateTeamByIdController";
+import { DeleteTeamByIdUseCase } from "./trainers/application/usecases/team/DeleteTeamByIdUseCase";
+import { DeleteTeamByIdController } from "./trainers/infrastructure/controller/team/DeleteTeamByIdController";
+import { GetAllTeamsUseCase } from "./trainers/application/usecases/team/GetAllTeamsUseCase";
+import { GetAllTeamsController } from "./trainers/infrastructure/controller/team/GetAllTeamsController";
+import { CreatePalyerUseCase } from "./trainers/application/usecases/player/CreatePlayerUseCase";
+import { CreatePlayerController } from "./trainers/infrastructure/controller/player/CreatePlayerController";
+import { UpdatePlayerByIdUseCase } from "./trainers/application/usecases/player/UpdatePlayerByIdUseCase";
+import { UpdatePlayerByIdController } from "./trainers/infrastructure/controller/player/UpdatePlayerByIdController";
+import { DeletePlayerByIdUseCase } from "./trainers/application/usecases/player/DeletePlayerByIdUseCase";
+import { DeletePlayerByIdController } from "./trainers/infrastructure/controller/player/DeletePlayerByIdController";
+import { GetAllPlayersUseCase } from "./trainers/application/usecases/player/GetAllPlayersUseCase";
+import { GetAllPlayersController } from "./trainers/infrastructure/controller/player/GetAllPlayersController";
+import { GetPlayerByIdUseCase } from "./trainers/application/usecases/player/GetPlayerByIdUseCase";
+import { GetPlayerByIdController } from "./trainers/infrastructure/controller/player/GetPlayerByIdController";
+import { CreateCentresUseCase } from "./trainers/application/usecases/centres/CreateCentresUseCase";
+import { CreateCentresController } from "./trainers/infrastructure/controller/centres/CreateCentresController";
+import { UpdateCentresByIdUseCase } from "./trainers/application/usecases/centres/UpdateCentresByIdUseCase";
+import { UpdateCentresmByIdController } from "./trainers/infrastructure/controller/centres/UpdateCentresByIdController";
+import { GetAllCentresUseCase } from "./trainers/application/usecases/centres/GetAllCentresUseCase";
+import { GetAllCentresController } from "./trainers/infrastructure/controller/centres/GetAllCentresController";
+import { DeleteCentresByIdUseCase } from "./trainers/application/usecases/centres/DeleteCentresByIdUseCase";
+import { DeleteCentresByIdController } from "./trainers/infrastructure/controller/centres/DeleteCentresByIdController";
+import { CreateReserveUseCase } from "./trainers/application/usecases/reserve/CreateReserveUseCase";
+import { CreateReserveController } from "./trainers/infrastructure/controller/reserve/CreateReserveController";
+import { UpdateReserveByIdUseCase } from "./trainers/application/usecases/reserve/UpdateReserveByIdUseCase";
+import { UpdateReserveByIdController } from "./trainers/infrastructure/controller/reserve/UpdateReserveByIdController";
+import { DeleteReserveByIdUseCase } from "./trainers/application/usecases/reserve/DeleteReserveByIdUseCase";
+import { DeleteReserveByIdController } from "./trainers/infrastructure/controller/reserve/DeleteReserveByIdController";
+import { GetTeamByIdUseCase } from "./trainers/application/usecases/team/GetTeamByIdUseCase";
+import { GetTeamByIdController } from "./trainers/infrastructure/controller/team/GetTeamByIdController";
+import { GetCentresByIdUseCase } from "./trainers/application/usecases/centres/GetCentresByIdUseCase";
+import { GetCentresByIdController } from "./trainers/infrastructure/controller/centres/GetCentresByIdController";
+import { GetReserveByIdUseCase } from "./trainers/application/usecases/reserve/GetReserveByIdUseCase";
+import { GetReserveByIdController } from "./trainers/infrastructure/controller/reserve/GetReserveByIdController";
+import { GetTrainerReservesUseCase } from "./trainers/application/usecases/reserve/GetTrainerReservesUseCase";
+import { GetTrainerReservesController } from "./trainers/infrastructure/controller/reserve/GetTrainerReservesController";
 import { NodemailerNotifier } from "./trainers/infrastructure/nodemailer/NotifierAdapter";
-import { GetPlayerByEmailUseCase } from "./trainers/application/usecases/GetPlayerByEmailUseCase";
-import { GetPlayerByEmailController } from "./trainers/infrastructure/controller/GetPlayerByEmailController";
-import { GetTrainerByEmailUseCase } from "./trainers/application/usecases/GetTrainerByEmailUseCase";
-import { GetTrainerByEmailController } from "./trainers/infrastructure/controller/GetTrainerByEmailController";
-import { GetAllTrainersUseCase } from "./trainers/application/usecases/GetAllTrainersUseCase";
-import { GetAllTrainersController } from "./trainers/infrastructure/controller/GetAllTrainersController";
+import { GetPlayerByEmailUseCase } from "./trainers/application/usecases/player/GetPlayerByEmailUseCase";
+import { GetPlayerByEmailController } from "./trainers/infrastructure/controller/player/GetPlayerByEmailController";
+import { GetTrainerByEmailUseCase } from "./trainers/application/usecases/trainer/GetTrainerByEmailUseCase";
+import { GetTrainerByEmailController } from "./trainers/infrastructure/controller/trainer/GetTrainerByEmailController";
+import { GetAllTrainersUseCase } from "./trainers/application/usecases/trainer/GetAllTrainersUseCase";
+import { GetAllTrainersController } from "./trainers/infrastructure/controller/trainer/GetAllTrainersController";
 
 dotenv.config();
 const app = express();
@@ -136,15 +134,10 @@ router.get("/api/trainer/:trainerId/teams", async (req, res) => {
 });
 
 const getTeamByIdUseCase = new GetTeamByIdUseCase(trainerAdapter);
-const getTeamByIdController = new GetTeamByIdController(
-  getTeamByIdUseCase
-);
-router.get(
-  "/api/trainer/:trainerId/team/:teamId",
-  async (req, res) => {
-    return getTeamByIdController.handle(req, res);
-  }
-);
+const getTeamByIdController = new GetTeamByIdController(getTeamByIdUseCase);
+router.get("/api/trainer/:trainerId/team/:teamId", async (req, res) => {
+  return getTeamByIdController.handle(req, res);
+});
 
 const createPlayerUseCase = new CreatePalyerUseCase(trainerAdapter, notifier);
 const createPlayerController = new CreatePlayerController(createPlayerUseCase);
@@ -152,7 +145,10 @@ router.post("/api/trainer/:trainerId/team/:teamId/player", async (req, res) => {
   return createPlayerController.handle(req, res);
 });
 
-const updatePlayerByIdUseCase = new UpdatePlayerByIdUseCase(trainerAdapter, notifier);
+const updatePlayerByIdUseCase = new UpdatePlayerByIdUseCase(
+  trainerAdapter,
+  notifier
+);
 const updatePlayerByIdController = new UpdatePlayerByIdController(
   updatePlayerByIdUseCase
 );
@@ -221,7 +217,9 @@ router.put("/api/trainer/:trainerId/centres/:centresId", async (req, res) => {
 });
 
 const getAllCentresUseCase = new GetAllCentresUseCase(trainerAdapter);
-const getAllCentresController = new GetAllCentresController(getAllCentresUseCase);
+const getAllCentresController = new GetAllCentresController(
+  getAllCentresUseCase
+);
 router.get("/api/trainer/:trainerId/centres", async (req, res) => {
   return getAllCentresController.handle(req, res);
 });
@@ -230,28 +228,36 @@ const getCentresByIdUseCase = new GetCentresByIdUseCase(trainerAdapter);
 const getCentresByIdController = new GetCentresByIdController(
   getCentresByIdUseCase
 );
-router.get(
-  "/api/trainer/:trainerId/centres/:centresId",
-  async (req, res) => {
-    return getCentresByIdController.handle(req, res);
-  }
-);
+router.get("/api/trainer/:trainerId/centres/:centresId", async (req, res) => {
+  return getCentresByIdController.handle(req, res);
+});
 
 const deleteCentresByIdUseCase = new DeleteCentresByIdUseCase(trainerAdapter);
 const deleteCentresByIdController = new DeleteCentresByIdController(
   deleteCentresByIdUseCase
 );
-router.delete("/api/trainer/:trainerId/centres/:centresId", async (req, res) => {
-  return deleteCentresByIdController.handle(req, res);
-});
+router.delete(
+  "/api/trainer/:trainerId/centres/:centresId",
+  async (req, res) => {
+    return deleteCentresByIdController.handle(req, res);
+  }
+);
 
 const createReserveUseCase = new CreateReserveUseCase(trainerAdapter, notifier);
-const createReserveController = new CreateReserveController(createReserveUseCase);
-router.post("/api/trainer/:trainerId/centres/:centresId/reserve", async (req, res) => {
-  return createReserveController.handle(req, res);
-});
+const createReserveController = new CreateReserveController(
+  createReserveUseCase
+);
+router.post(
+  "/api/trainer/:trainerId/centres/:centresId/reserve",
+  async (req, res) => {
+    return createReserveController.handle(req, res);
+  }
+);
 
-const updateReserveByIdUseCase = new UpdateReserveByIdUseCase(trainerAdapter, notifier);
+const updateReserveByIdUseCase = new UpdateReserveByIdUseCase(
+  trainerAdapter,
+  notifier
+);
 const updateReserveByIdController = new UpdateReserveByIdController(
   updateReserveByIdUseCase
 );
@@ -261,14 +267,6 @@ router.put(
     return updateReserveByIdController.handle(req, res);
   }
 );
-
-const getAllReservesUseCase = new GetAllReservesUseCase(trainerAdapter);
-const getAllReservesController = new GetAllReservesController(
-  getAllReservesUseCase
-);
-router.get("/api/trainer/:trainerId/centres/:centresId/reserves", async (req, res) => {
-  return getAllReservesController.handle(req, res);
-});
 
 const getReserveByIdUseCase = new GetReserveByIdUseCase(trainerAdapter);
 const getReserveByIdController = new GetReserveByIdController(
@@ -281,7 +279,10 @@ router.get(
   }
 );
 
-const deleteReserveByIdUseCase = new DeleteReserveByIdUseCase(trainerAdapter, notifier);
+const deleteReserveByIdUseCase = new DeleteReserveByIdUseCase(
+  trainerAdapter,
+  notifier
+);
 const deleteReserveByIdController = new DeleteReserveByIdController(
   deleteReserveByIdUseCase
 );
@@ -296,12 +297,9 @@ const getTrainerReservesUseCase = new GetTrainerReservesUseCase(trainerAdapter);
 const getTrainerReservesController = new GetTrainerReservesController(
   getTrainerReservesUseCase
 );
-router.get(
-  "/api/trainer/:trainerId/reserves",
-  async (req, res) => {
-    return getTrainerReservesController.handle(req, res);
-  }
-);
+router.get("/api/trainer/:trainerId/reserves", async (req, res) => {
+  return getTrainerReservesController.handle(req, res);
+});
 
 const getAllTrainersUseCase = new GetAllTrainersUseCase(trainerAdapter);
 const getAllTrainersController = new GetAllTrainersController(

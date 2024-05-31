@@ -3,12 +3,12 @@ import { Player } from "../../domain/model/Player";
 import { Reserve } from "../../domain/model/Reserve";
 import { Team } from "../../domain/model/Team";
 import { Trainer } from "../../domain/model/Trainer";
-import { Notifier } from "../../domain/notifier/Notifier";
+import { NotifierPort } from "../../domain/notifier/NotifierPort";
 import nodemailer, { Transporter } from "nodemailer";
 
 const nodemailer = require("nodemailer");
 
-export class NodemailerNotifier implements Notifier {
+export class NodemailerNotifier implements NotifierPort {
   private transporter: Transporter;
 
   constructor() {
