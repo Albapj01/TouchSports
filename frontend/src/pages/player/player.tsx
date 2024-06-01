@@ -47,7 +47,8 @@ const PlayerInfo = () => {
       const fetchPlayer = async () => {
         try {
           const storedTrainerId = localStorage.getItem("trainerId");
-
+          console.log(storedTrainerId)
+          console.log(payload.sub)
           let result;
           
           if (storedTrainerId && storedTrainerId !== payload.sub) {

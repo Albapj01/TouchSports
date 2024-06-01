@@ -1,6 +1,3 @@
-<i> [1m[32m[webpack-dev-server] Project is running at:[39m[22m
-<i> [1m[32m[webpack-dev-server] Loopback: [36mhttp://localhost:4200/[39m, [36mhttp://[::1]:4200/[39m[39m[22m
-<i> [1m[32m[webpack-dev-server] 404s will fallback to '[36m/index.html[39m'[39m[22m
 
 [36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4200/[22m
 
@@ -93,9 +90,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/training/trainin
 
 webpack compiled with [1m[31m1 error[39m[22m (88f3acbf864494ef)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m
-[90mTS1123: [39mVariable declaration list cannot be empty.
-
 Found [31m[1m1 error[22m[39m in 2205 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.0919e17dd9356cea.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -173,26 +167,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/training/trainin
 
 webpack compiled with [1m[31m1 error[39m[22m (50a1d5c2615ba7f1)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m58:9[22m[39m
-[90mTS1155: [39m'const' declarations must be initialized.
-  [0m [90m 56 |[39m   }[33m,[39m [])[33m;[39m
-   [90m 57 |[39m
-  [31m[1m>[22m[39m[90m 58 |[39m   [36mconst[39m handle
-   [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 59 |[39m
-   [90m 60 |[39m   [36mreturn[39m (
-   [90m 61 |[39m     [33m<[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m58:9[22m[39m
-[90mTS7005: [39mVariable 'handle' implicitly has an 'any' type.
-  [0m [90m 56 |[39m   }[33m,[39m [])[33m;[39m
-   [90m 57 |[39m
-  [31m[1m>[22m[39m[90m 58 |[39m   [36mconst[39m handle
-   [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 59 |[39m
-   [90m 60 |[39m   [36mreturn[39m (
-   [90m 61 |[39m     [33m<[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 679 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.0919e17dd9356cea.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -270,26 +244,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/training/trainin
 
 webpack compiled with [1m[31m1 error[39m[22m (097b74145dd1f1fe)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m58:9[22m[39m
-[90mTS1155: [39m'const' declarations must be initialized.
-  [0m [90m 56 |[39m   }[33m,[39m [])[33m;[39m
-   [90m 57 |[39m
-  [31m[1m>[22m[39m[90m 58 |[39m   [36mconst[39m handleAbdominal
-   [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 59 |[39m
-   [90m 60 |[39m   [36mreturn[39m (
-   [90m 61 |[39m     [33m<[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m58:9[22m[39m
-[90mTS7005: [39mVariable 'handleAbdominal' implicitly has an 'any' type.
-  [0m [90m 56 |[39m   }[33m,[39m [])[33m;[39m
-   [90m 57 |[39m
-  [31m[1m>[22m[39m[90m 58 |[39m   [36mconst[39m handleAbdominal
-   [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 59 |[39m
-   [90m 60 |[39m   [36mreturn[39m (
-   [90m 61 |[39m     [33m<[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 582 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.0919e17dd9356cea.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -367,26 +321,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/training/trainin
 
 webpack compiled with [1m[31m1 error[39m[22m (69af25d09741cc58)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m58:9[22m[39m
-[90mTS1155: [39m'const' declarations must be initialized.
-  [0m [90m 56 |[39m   }[33m,[39m [])[33m;[39m
-   [90m 57 |[39m
-  [31m[1m>[22m[39m[90m 58 |[39m   [36mconst[39m hasAbdominal
-   [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 59 |[39m
-   [90m 60 |[39m   [36mreturn[39m (
-   [90m 61 |[39m     [33m<[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m58:9[22m[39m
-[90mTS7005: [39mVariable 'hasAbdominal' implicitly has an 'any' type.
-  [0m [90m 56 |[39m   }[33m,[39m [])[33m;[39m
-   [90m 57 |[39m
-  [31m[1m>[22m[39m[90m 58 |[39m   [36mconst[39m hasAbdominal
-   [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 59 |[39m
-   [90m 60 |[39m   [36mreturn[39m (
-   [90m 61 |[39m     [33m<[39m[33m>[39m[0m
-
 Found [31m[1m2 errors[22m[39m in 692 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.0919e17dd9356cea.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -464,16 +398,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/training/trainin
 
 webpack compiled with [1m[31m1 error[39m[22m (f49d93a309807542)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m58:9[22m[39m
-[90mTS7005: [39mVariable 'hasAbdominal' implicitly has an 'any' type.
-  [0m [90m 56 |[39m   }[33m,[39m [])[33m;[39m
-   [90m 57 |[39m
-  [31m[1m>[22m[39m[90m 58 |[39m   [36mconst[39m hasAbdominal()
-   [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 59 |[39m
-   [90m 60 |[39m   [36mreturn[39m (
-   [90m 61 |[39m     [33m<[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 625 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.0919e17dd9356cea.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -551,16 +475,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/training/trainin
 
 webpack compiled with [1m[31m1 error[39m[22m (2fa56c5ba49882e7)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m58:9[22m[39m
-[90mTS7005: [39mVariable 'hasAbdominal' implicitly has an 'any' type.
-  [0m [90m 56 |[39m   }[33m,[39m [])[33m;[39m
-   [90m 57 |[39m
-  [31m[1m>[22m[39m[90m 58 |[39m   [36mconst[39m hasAbdominal() [33m=>[39m {
-   [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 59 |[39m     
-   [90m 60 |[39m   }
-   [90m 61 |[39m[0m
-
 Found [31m[1m1 error[22m[39m in 647 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.49 MiB (7.02 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.0919e17dd9356cea.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
@@ -680,16 +594,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/training/trainin
 
 webpack compiled with [1m[31m1 error[39m[22m (a5cc36dbb6ceb58a)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m59:87[22m[39m
-[90mTS1313: [39mThe body of an 'if' statement cannot be the empty statement.
-  [0m [90m 57 |[39m
-   [90m 58 |[39m   [36mconst[39m hasAbdominal [33m=[39m () [33m=>[39m {
-  [31m[1m>[22m[39m[90m 59 |[39m     [36mif[39m(physicalTrainingItems[33m.[39msome(item [33m=>[39m item[33m.[39mtrim()[33m.[39mtoLowerCase() [33m===[39m [32m"abdominales"[39m)[33m;[39m
-   [90m    |[39m                                                                                       [31m[1m^[22m[39m
-   [90m 60 |[39m   }
-   [90m 61 |[39m
-   [90m 62 |[39m   [36mreturn[39m ([0m
-
 Found [31m[1m1 error[22m[39m in 602 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.49 MiB (7.02 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.d1201156aa1f759c.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
@@ -704,16 +608,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (d8d606d7fef022b4)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m59:88[22m[39m
-[90mTS1313: [39mThe body of an 'if' statement cannot be the empty statement.
-  [0m [90m 57 |[39m
-   [90m 58 |[39m   [36mconst[39m hasAbdominal [33m=[39m () [33m=>[39m {
-  [31m[1m>[22m[39m[90m 59 |[39m     [36mif[39m(physicalTrainingItems[33m.[39msome(item [33m=>[39m item[33m.[39mtrim()[33m.[39mtoLowerCase() [33m===[39m [32m"abdominales"[39m))[33m;[39m
-   [90m    |[39m                                                                                        [31m[1m^[22m[39m
-   [90m 60 |[39m   }
-   [90m 61 |[39m
-   [90m 62 |[39m   [36mreturn[39m ([0m
-
 Found [31m[1m1 error[22m[39m in 727 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.49 MiB (7.02 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.d8d606d7fef022b4.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
@@ -847,42 +741,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/training/trainin
 
 webpack compiled with [1m[31m1 error[39m[22m (d527f6e073e00614)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/App.tsx[22m:[32m[1m72:69[22m[39m
-[90mTS2769: [39mNo overload matches this call.
-  Overload 1 of 2, '(props: (RouteProps<"/home/teams/:teamId/player/:playerId/training", { teamId: string; } & { playerId: string; }> & OmitNative<{}, keyof RouteProps<string, { [x: string]: string | undefined; }>>) | Readonly<...>): Route<...>', gave the following error.
-    Type '() => void' is not assignable to type 'ComponentType<any> | ComponentType<RouteComponentProps<any, StaticContext, unknown>> | undefined'.
-      Type '() => void' is not assignable to type 'FunctionComponent<any>'.
-        Type 'void' is not assignable to type 'ReactNode'.
-  Overload 2 of 2, '(props: RouteProps<"/home/teams/:teamId/player/:playerId/training", { teamId: string; } & { playerId: string; }> & OmitNative<{}, keyof RouteProps<string, { [x: string]: string | undefined; }>>, context: any): Route<...>', gave the following error.
-    Type '() => void' is not assignable to type 'ComponentType<any> | ComponentType<RouteComponentProps<any, StaticContext, unknown>> | undefined'.
-  [0m [90m 70 |[39m           component[33m=[39m{[33mDiet[39m}
-   [90m 71 |[39m         [33m/[39m[33m>[39m
-  [31m[1m>[22m[39m[90m 72 |[39m         [33m<[39m[33mRoute[39m path[33m=[39m[32m"/home/teams/:teamId/player/:playerId/training"[39m component[33m=[39m{[33mTraining[39m}[33m>[39m[33m<[39m[33m/[39m[33mRoute[39m[33m>[39m
-   [90m    |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 73 |[39m         [33m<[39m[33mRoute[39m
-   [90m 74 |[39m           path[33m=[39m[32m"/home/teams/:teamId/player/:playerId/update-player"[39m
-   [90m 75 |[39m           component[33m=[39m{[33mUpdatePlayer[39m}[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m60:7[22m[39m
-[90mTS2304: [39mCannot find name 'physicalTrainingItems'.
-  [0m [90m 58 |[39m   [36mconst[39m showImages [33m=[39m () [33m=>[39m {
-   [90m 59 |[39m     [36melse[39m [36mif[39m (
-  [31m[1m>[22m[39m[90m 60 |[39m       physicalTrainingItems[33m.[39msome(
-   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 61 |[39m         (item) [33m=>[39m item[33m.[39mtrim()[33m.[39mtoLowerCase() [33m===[39m [32m"abdominales"[39m
-   [90m 62 |[39m       )
-   [90m 63 |[39m     ) {[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m61:10[22m[39m
-[90mTS7006: [39mParameter 'item' implicitly has an 'any' type.
-  [0m [90m 59 |[39m     [36melse[39m [36mif[39m (
-   [90m 60 |[39m       physicalTrainingItems[33m.[39msome(
-  [31m[1m>[22m[39m[90m 61 |[39m         (item) [33m=>[39m item[33m.[39mtrim()[33m.[39mtoLowerCase() [33m===[39m [32m"abdominales"[39m
-   [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 62 |[39m       )
-   [90m 63 |[39m     ) {
-   [90m 64 |[39m     }[0m
-
 Found [31m[1m3 errors[22m[39m in 593 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.98e7c4330056f672.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -1519,66 +1377,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (676ffd564b372828)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m111:22[22m[39m
-[90mTS2304: [39mCannot find name 'ImageContainer'.
-  [0m [90m 109 |[39m                   ))}
-   [90m 110 |[39m                   {physicalImages[33m.[39mflexiones [33m&&[39m (
-  [31m[1m>[22m[39m[90m 111 |[39m                     [33m<[39m[33mImageContainer[39m[33m>[39m
-   [90m     |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 112 |[39m                       [33m<[39m[33mimg[39m src[33m=[39m[32m"/path/to/flexiones-image.jpg"[39m alt[33m=[39m[32m"Flexiones"[39m [33m/[39m[33m>[39m
-   [90m 113 |[39m                     [33m<[39m[33m/[39m[33mImageContainer[39m[33m>[39m
-   [90m 114 |[39m                   )}[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m113:23[22m[39m
-[90mTS2304: [39mCannot find name 'ImageContainer'.
-  [0m [90m 111 |[39m                     [33m<[39m[33mImageContainer[39m[33m>[39m
-   [90m 112 |[39m                       [33m<[39m[33mimg[39m src[33m=[39m[32m"/path/to/flexiones-image.jpg"[39m alt[33m=[39m[32m"Flexiones"[39m [33m/[39m[33m>[39m
-  [31m[1m>[22m[39m[90m 113 |[39m                     [33m<[39m[33m/[39m[33mImageContainer[39m[33m>[39m
-   [90m     |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 114 |[39m                   )}
-   [90m 115 |[39m                   {physicalImages[33m.[39mabdominales [33m&&[39m (
-   [90m 116 |[39m                     [33m<[39m[33mImageContainer[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m116:22[22m[39m
-[90mTS2304: [39mCannot find name 'ImageContainer'.
-  [0m [90m 114 |[39m                   )}
-   [90m 115 |[39m                   {physicalImages[33m.[39mabdominales [33m&&[39m (
-  [31m[1m>[22m[39m[90m 116 |[39m                     [33m<[39m[33mImageContainer[39m[33m>[39m
-   [90m     |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 117 |[39m                       [33m<[39m[33mimg[39m
-   [90m 118 |[39m                         src[33m=[39m[32m"/path/to/abdominales-image.jpg"[39m
-   [90m 119 |[39m                         alt[33m=[39m[32m"Abdominales"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m121:23[22m[39m
-[90mTS2304: [39mCannot find name 'ImageContainer'.
-  [0m [90m 119 |[39m                         alt[33m=[39m[32m"Abdominales"[39m
-   [90m 120 |[39m                       [33m/[39m[33m>[39m
-  [31m[1m>[22m[39m[90m 121 |[39m                     [33m<[39m[33m/[39m[33mImageContainer[39m[33m>[39m
-   [90m     |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 122 |[39m                   )}
-   [90m 123 |[39m                   {physicalImages[33m.[39msentadillas [33m&&[39m (
-   [90m 124 |[39m                     [33m<[39m[33mImageContainer[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m124:22[22m[39m
-[90mTS2304: [39mCannot find name 'ImageContainer'.
-  [0m [90m 122 |[39m                   )}
-   [90m 123 |[39m                   {physicalImages[33m.[39msentadillas [33m&&[39m (
-  [31m[1m>[22m[39m[90m 124 |[39m                     [33m<[39m[33mImageContainer[39m[33m>[39m
-   [90m     |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 125 |[39m                       [33m<[39m[33mimg[39m
-   [90m 126 |[39m                         src[33m=[39m[32m"/path/to/sentadillas-image.jpg"[39m
-   [90m 127 |[39m                         alt[33m=[39m[32m"Sentadillas"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m129:23[22m[39m
-[90mTS2304: [39mCannot find name 'ImageContainer'.
-  [0m [90m 127 |[39m                         alt[33m=[39m[32m"Sentadillas"[39m
-   [90m 128 |[39m                       [33m/[39m[33m>[39m
-  [31m[1m>[22m[39m[90m 129 |[39m                     [33m<[39m[33m/[39m[33mImageContainer[39m[33m>[39m
-   [90m     |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 130 |[39m                   )}
-   [90m 131 |[39m                 [33m<[39m[33m/[39m[33m>[39m
-   [90m 132 |[39m               ) [33m:[39m ([0m
-
 Found [31m[1m6 errors[22m[39m in 819 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.676ffd564b372828.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -1641,86 +1439,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/training/trainin
 
 webpack compiled with [1m[31m1 error[39m[22m (aad409ba36cba5fd)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m111:22[22m[39m
-[90mTS2304: [39mCannot find name 'ImageContainer'.
-  [0m [90m 109 |[39m                   ))}
-   [90m 110 |[39m                   {physicalImages[33m.[39mflexiones [33m&&[39m (
-  [31m[1m>[22m[39m[90m 111 |[39m                     [33m<[39m[33mImageContainer[39m[33m>[39m
-   [90m     |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 112 |[39m                       [33m<[39m[33mimg[39m src[33m=[39m[32m"/path/to/flexiones-image.jpg"[39m alt[33m=[39m[32m"Flexiones"[39m [33m/[39m[33m>[39m
-   [90m 113 |[39m                     [33m<[39m[33m/[39m[33mImageContainer[39m[33m>[39m
-   [90m 114 |[39m                   )}[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m113:23[22m[39m
-[90mTS2304: [39mCannot find name 'ImageContainer'.
-  [0m [90m 111 |[39m                     [33m<[39m[33mImageContainer[39m[33m>[39m
-   [90m 112 |[39m                       [33m<[39m[33mimg[39m src[33m=[39m[32m"/path/to/flexiones-image.jpg"[39m alt[33m=[39m[32m"Flexiones"[39m [33m/[39m[33m>[39m
-  [31m[1m>[22m[39m[90m 113 |[39m                     [33m<[39m[33m/[39m[33mImageContainer[39m[33m>[39m
-   [90m     |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 114 |[39m                   )}
-   [90m 115 |[39m                   {physicalImages[33m.[39mabdominales [33m&&[39m (
-   [90m 116 |[39m                     [33m<[39m[33mImageContainer[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m116:22[22m[39m
-[90mTS2304: [39mCannot find name 'ImageContainer'.
-  [0m [90m 114 |[39m                   )}
-   [90m 115 |[39m                   {physicalImages[33m.[39mabdominales [33m&&[39m (
-  [31m[1m>[22m[39m[90m 116 |[39m                     [33m<[39m[33mImageContainer[39m[33m>[39m
-   [90m     |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 117 |[39m                       [33m<[39m[33mimg[39m
-   [90m 118 |[39m                         src[33m=[39m[32m"/path/to/abdominales-image.jpg"[39m
-   [90m 119 |[39m                         alt[33m=[39m[32m"Abdominales"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m121:23[22m[39m
-[90mTS2304: [39mCannot find name 'ImageContainer'.
-  [0m [90m 119 |[39m                         alt[33m=[39m[32m"Abdominales"[39m
-   [90m 120 |[39m                       [33m/[39m[33m>[39m
-  [31m[1m>[22m[39m[90m 121 |[39m                     [33m<[39m[33m/[39m[33mImageContainer[39m[33m>[39m
-   [90m     |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 122 |[39m                   )}
-   [90m 123 |[39m                   {physicalImages[33m.[39msentadillas [33m&&[39m (
-   [90m 124 |[39m                     [33m<[39m[33mImageContainer[39m[33m>[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m124:22[22m[39m
-[90mTS2304: [39mCannot find name 'ImageContainer'.
-  [0m [90m 122 |[39m                   )}
-   [90m 123 |[39m                   {physicalImages[33m.[39msentadillas [33m&&[39m (
-  [31m[1m>[22m[39m[90m 124 |[39m                     [33m<[39m[33mImageContainer[39m[33m>[39m
-   [90m     |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 125 |[39m                       [33m<[39m[33mimg[39m
-   [90m 126 |[39m                         src[33m=[39m[32m"/path/to/sentadillas-image.jpg"[39m
-   [90m 127 |[39m                         alt[33m=[39m[32m"Sentadillas"[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m129:23[22m[39m
-[90mTS2304: [39mCannot find name 'ImageContainer'.
-  [0m [90m 127 |[39m                         alt[33m=[39m[32m"Sentadillas"[39m
-   [90m 128 |[39m                       [33m/[39m[33m>[39m
-  [31m[1m>[22m[39m[90m 129 |[39m                     [33m<[39m[33m/[39m[33mImageContainer[39m[33m>[39m
-   [90m     |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 130 |[39m                   )}
-   [90m 131 |[39m                 [33m<[39m[33m/[39m[33m>[39m
-   [90m 132 |[39m               ) [33m:[39m ([0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m150:7[22m[39m
-[90mTS2451: [39mCannot redeclare block-scoped variable 'TextContainer'.
-  [0m [90m 148 |[39m [32m`[39m[33m;[39m
-   [90m 149 |[39m
-  [31m[1m>[22m[39m[90m 150 |[39m [36mconst[39m [33mTextContainer[39m [33m=[39m styled[33m.[39mdiv[32m`[39m
-   [90m     |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 151 |[39m [32m  text-align: center;[39m
-   [90m 152 |[39m [32m  color: #1f7189;[39m
-   [90m 153 |[39m [32m  margin-top: 5%;[39m[0m
-
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m158:7[22m[39m
-[90mTS2451: [39mCannot redeclare block-scoped variable 'TextContainer'.
-  [0m [90m 156 |[39m [32m`[39m[33m;[39m
-   [90m 157 |[39m
-  [31m[1m>[22m[39m[90m 158 |[39m [36mconst[39m [33mTextContainer[39m [33m=[39m styled[33m.[39mdiv[32m`[39m
-   [90m     |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 159 |[39m [32m  text-align: center;[39m
-   [90m 160 |[39m [32m  color: #1f7189;[39m
-   [90m 161 |[39m [32m  margin-top: 5%;[39m[0m
-
 Found [31m[1m8 errors[22m[39m in 754 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.49 MiB (7.03 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.676ffd564b372828.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
@@ -2014,16 +1732,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/training/trainin
 
 webpack compiled with [1m[31m1 error[39m[22m (97cc6282598775b5)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m136:27[22m[39m
-[90mTS2322: [39mType 'boolean' is not assignable to type 'string'.
-  [0m [90m 134 |[39m                       {
-   [90m 135 |[39m                         [33m<[39m[33mimg[39m 
-  [31m[1m>[22m[39m[90m 136 |[39m                           src[33m=[39m
-   [90m     |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 137 |[39m                         [33m/[39m[33m>[39m
-   [90m 138 |[39m                       }
-   [90m 139 |[39m                     [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 590 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.03 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.b1eec0f9223eadc6.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
@@ -2052,16 +1760,6 @@ chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_inp
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (125f187394c3c3c7)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m137:27[22m[39m
-[90mTS2322: [39mType 'boolean' is not assignable to type 'string'.
-  [0m [90m 135 |[39m                         [33m<[39m[33mimg[39m 
-   [90m 136 |[39m                           src[33m=[39m[32m"https://img.freepik.com/vector-premium/correr-joven-prepara-carrera-velocidad-concepto-entrenamiento-deportivo-ilustracion-vectorial_533410-414.jpg"[39m
-  [31m[1m>[22m[39m[90m 137 |[39m                           alt
-   [90m     |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 138 |[39m                         [33m/[39m[33m>[39m
-   [90m 139 |[39m                       }
-   [90m 140 |[39m                     [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 531 ms.
 Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
 Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.125f187394c3c3c7.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
@@ -2139,16 +1837,6 @@ SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/training/trainin
 
 webpack compiled with [1m[31m1 error[39m[22m (1848c8bb4d7a1f22)
 [36mType-checking in progress...[39m
-[31m[1mERROR[22m[39m in [1m./frontend/src/pages/training/training.tsx[22m:[32m[1m137:27[22m[39m
-[90mTS2322: [39mType 'boolean' is not assignable to type 'string'.
-  [0m [90m 135 |[39m                         [33m<[39m[33mimg[39m 
-   [90m 136 |[39m                           src[33m=[39m[32m"https://img.freepik.com/vector-premium/correr-joven-prepara-carrera-velocidad-concepto-entrenamiento-deportivo-ilustracion-vectorial_533410-414.jpg"[39m
-  [31m[1m>[22m[39m[90m 137 |[39m                           alt[33m=[39m
-   [90m     |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
-   [90m 138 |[39m                         [33m/[39m[33m>[39m
-   [90m 139 |[39m                       }
-   [90m 140 |[39m                     [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
-
 Found [31m[1m1 error[22m[39m in 625 ms.
 Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.03 MiB) = 7 assets 10 auxiliary assets
 Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.125f187394c3c3c7.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
@@ -2894,4 +2582,372 @@ chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
 webpack compiled [1m[32msuccessfully[39m[22m (eaed1b9155c04e23)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.48 MiB (7.02 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.eaed1b9155c04e23.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.eaed1b9155c04e23.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.eaed1b9155c04e23.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0ee18e05530e8054)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.03 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.0ee18e05530e8054.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.0ee18e05530e8054.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.0ee18e05530e8054.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (68d1fd539e0a7873)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.03 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.68d1fd539e0a7873.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.68d1fd539e0a7873.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.68d1fd539e0a7873.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (38fcc6d7f0b53dcf)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.03 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.38fcc6d7f0b53dcf.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.38fcc6d7f0b53dcf.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.38fcc6d7f0b53dcf.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (73de5ae3aee7edc2)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 731 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.03 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.73de5ae3aee7edc2.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.73de5ae3aee7edc2.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.73de5ae3aee7edc2.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (37db693843e79f32)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.03 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.37db693843e79f32.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.37db693843e79f32.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.37db693843e79f32.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (261632e5a06fd9da)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.03 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.261632e5a06fd9da.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.261632e5a06fd9da.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.261632e5a06fd9da.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0ae0fccc85e2988a)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.04 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.0ae0fccc85e2988a.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.0ae0fccc85e2988a.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.0ae0fccc85e2988a.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6834444fba64dd34)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.04 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.6834444fba64dd34.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.6834444fba64dd34.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.6834444fba64dd34.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1351e38669e3e7a9)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.04 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.1351e38669e3e7a9.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.1351e38669e3e7a9.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.1351e38669e3e7a9.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6c71cda5841087dd)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.04 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.6c71cda5841087dd.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.6c71cda5841087dd.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.6c71cda5841087dd.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (97c0a8445bea0375)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.04 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.97c0a8445bea0375.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.97c0a8445bea0375.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.97c0a8445bea0375.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (84d19be7303c3ddf)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.04 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.84d19be7303c3ddf.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.84d19be7303c3ddf.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.84d19be7303c3ddf.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f7bf9fa7a095f780)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.04 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.f7bf9fa7a095f780.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.f7bf9fa7a095f780.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.f7bf9fa7a095f780.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (58925aad6c5543f6)
+[36mType-checking in progress...[39m
+Found [31m[1m1 error[22m[39m in 982 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.04 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.58925aad6c5543f6.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.58925aad6c5543f6.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.58925aad6c5543f6.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (26164e003bc5f793)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.04 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.26164e003bc5f793.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.26164e003bc5f793.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.26164e003bc5f793.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7093a6ee27d29200)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.04 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.7093a6ee27d29200.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.7093a6ee27d29200.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.7093a6ee27d29200.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8221a77d36493742)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m = 7 assets 9 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.8221a77d36493742.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.8221a77d36493742.hot-update.js[39m[22m (main) 283 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.8221a77d36493742.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.85 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/pages/player/player.tsx[39m[22m
+Module build failed (from ../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: /Users/albapalomino/TouchSports/frontend/src/pages/player/player.tsx: Unexpected token (51:30)
+
+[0m [90m 49 |[39m           [36mconst[39m storedTrainerId [33m=[39m localStorage[33m.[39mgetItem([32m"trainerId"[39m)[33m;[39m
+ [90m 50 |[39m           console[33m.[39mlog(storedTrainerId)
+[31m[1m>[22m[39m[90m 51 |[39m           console[33m.[39mlog(payload[33m.[39m)
+ [90m    |[39m                               [31m[1m^[22m[39m
+ [90m 52 |[39m           [36mlet[39m result[33m;[39m
+ [90m 53 |[39m           
+ [90m 54 |[39m           [36mif[39m (storedTrainerId [33m&&[39m storedTrainerId [33m!==[39m payload[33m.[39msub) {[0m
+    at constructor (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:351:19)
+    at TypeScriptParserMixin.raise (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:3281:19)
+    at TypeScriptParserMixin.unexpected (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:3301:16)
+    at TypeScriptParserMixin.parseIdentifierName (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11740:12)
+    at TypeScriptParserMixin.parseIdentifier (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11723:23)
+    at TypeScriptParserMixin.parseMember (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10672:28)
+    at TypeScriptParserMixin.parseSubscript (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10651:21)
+    at TypeScriptParserMixin.parseSubscript (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:8987:18)
+    at TypeScriptParserMixin.parseSubscripts (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10620:19)
+    at TypeScriptParserMixin.parseExprSubscripts (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10611:17)
+    at TypeScriptParserMixin.parseUpdate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10590:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10568:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9478:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10422:61)
+    at TypeScriptParserMixin.parseExprOps (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10427:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10404:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10365:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9427:20)
+    at /Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10335:39
+    at TypeScriptParserMixin.allowInAnd (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11957:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10335:17)
+    at TypeScriptParserMixin.parseExprListItem (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11717:18)
+    at TypeScriptParserMixin.parseCallExpressionArguments (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10793:22)
+    at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10710:29)
+    at TypeScriptParserMixin.parseSubscript (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10647:19)
+    at TypeScriptParserMixin.parseSubscript (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:8987:18)
+    at TypeScriptParserMixin.parseSubscripts (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10620:19)
+    at TypeScriptParserMixin.parseExprSubscripts (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10611:17)
+    at TypeScriptParserMixin.parseUpdate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10590:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10568:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9478:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10422:61)
+    at TypeScriptParserMixin.parseExprOps (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10427:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10404:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10365:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9427:20)
+    at TypeScriptParserMixin.parseExpressionBase (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10319:23)
+    at /Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10315:39
+    at TypeScriptParserMixin.allowInAnd (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:11952:16)
+    at TypeScriptParserMixin.parseExpression (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:10315:17)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12393:23)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9152:18)
+    at TypeScriptParserMixin.parseStatementLike (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12260:17)
+    at TypeScriptParserMixin.parseStatementListItem (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12240:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12817:61)
+    at TypeScriptParserMixin.parseBlockBody (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12810:10)
+    at TypeScriptParserMixin.parseBlock (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12798:10)
+    at TypeScriptParserMixin.parseTryStatement (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12706:23)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:12297:21)
+    at TypeScriptParserMixin.parseStatementContent (/Users/albapalomino/TouchSports/node_modules/@babel/parser/lib/index.js:9152:18)
+
+webpack compiled with [1m[31m1 error[39m[22m (bfb14f8d0720ed03)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.04 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.8221a77d36493742.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.8221a77d36493742.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.8221a77d36493742.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (12dd9567f5cc9503)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.03 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.12dd9567f5cc9503.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.12dd9567f5cc9503.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.12dd9567f5cc9503.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0c1457e60404ac85)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.5 MiB (7.03 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.0c1457e60404ac85.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.0c1457e60404ac85.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.0c1457e60404ac85.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (303a43d2459b9a9a)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 5.48 MiB (7.02 MiB) = 7 assets 10 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 464 KiB (671 KiB) = [1m[32mruntime.js[39m[22m 53.3 KiB [1m[32mruntime.303a43d2459b9a9a.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 7.04 KiB [1m[32mstyles.js[39m[22m 403 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.303a43d2459b9a9a.hot-update.js[39m[22m (main) 300 KiB (javascript) 498 KiB (asset) 6.93 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_index9_js.js[39m[22m 6.11 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_status-tap_js.js[39m[22m 1.49 KiB
+chunk (runtime: runtime) [1m[32mnode_modules_ionic_core_components_swipe-back_js.js[39m[22m 2.59 KiB
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.303a43d2459b9a9a.hot-update.js[39m[22m (runtime) 36.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 387 KiB (javascript) 7 KiB (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 4.86 MiB (javascript) 21.5 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_ionic_core_components_input-shims_js.js[39m[22m (id hint: vendors) 24.5 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: runtime) [1m[32mvendors-node_modules_stencil_core_internal_client_shadow-css_js.js[39m[22m (id hint: vendors) 13.4 KiB [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (38c7b59b641c4a1a)
 [32mNo errors found.[39m

@@ -54,6 +54,7 @@ const SignIn = () => {
       }
     }
 
+    localStorage.removeItem("trainerId"); 
     history.push(window.location.href="/");
   };
 
