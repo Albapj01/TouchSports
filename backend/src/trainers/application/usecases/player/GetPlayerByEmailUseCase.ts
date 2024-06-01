@@ -30,7 +30,7 @@ export class GetPlayerByEmailUseCase {
         }
       }
     } else {
-      console.log("Trainer not found");
+      return null;
     }
 
     return obtainedPlayer;

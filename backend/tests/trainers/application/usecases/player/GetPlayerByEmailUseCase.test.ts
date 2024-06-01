@@ -74,7 +74,7 @@ describe("GetPlayerByEmailUseCase", () => {
     );
 
     expect(trainerPort.getAllTrainers).toHaveBeenCalled();
-    expect(obtainedPlayer).toBeUndefined();
+    expect(obtainedPlayer).toBeNull();
   });
 
   it("shouldn't get a player if player email doesn't exist", async () => {
