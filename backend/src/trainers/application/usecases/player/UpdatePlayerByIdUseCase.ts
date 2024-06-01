@@ -18,7 +18,12 @@ export class UpdatePlayerByIdUseCase {
 
     const team = trainer.teams.find((team) => team.teamId === teamId);
     if (!team) {
-      return null;
+      throw new Error("Team not found"); 
+    }
+
+    const existingPlayer = team.players.find(player => player.playerId === playerId);
+    if (!existingPlayer) {
+      throw new Error("Player not found"); 
     }
 
     const updatedPlayer = new Player(

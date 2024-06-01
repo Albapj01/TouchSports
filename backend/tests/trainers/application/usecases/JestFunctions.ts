@@ -18,3 +18,11 @@ export const trainerPort = {
     deleteReserve: jest.fn(),
     getAllTrainers: jest.fn(),
 }
+
+export const notifierPort = {
+  createPlayerNotification: jest.fn(),
+  updatePlayerNotification: jest.fn(),
+  createReserveNotification: jest.fn(),
+  updateReserveNotification: jest.fn(),
+  deleteReserveNotification: jest.fn(),
+}

@@ -1,0 +1,54 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (093746d6902f5823)
+[1m[31mDebugger listening on ws://localhost:9229/97a9868a-f028-4e65-a2fd-c8d9ec34f8f4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/97a9868a-f028-4e65-a2fd-c8d9ec34f8f4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (912c9b232ff71fdf)
+[1m[31mDebugger listening on ws://localhost:9229/0ef16b04-3d9c-4563-94af-d19203acc14e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0ef16b04-3d9c-4563-94af-d19203acc14e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (66c5bd521ba9afb0)
+[1m[31mDebugger listening on ws://localhost:9229/3561fa3a-2835-4178-a7c3-68700b194f84[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3561fa3a-2835-4178-a7c3-68700b194f84[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/main.ts:[32m[1m21:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./trainers/application/usecases/player/CreatePlayerUseCase"' has no exported member named 'CreatePlayerUseCase'. Did you mean 'CreatePyerUseCase'?
+  [0m [90m 19 |[39m [36mimport[39m { [33mGetAllTeamsUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/team/GetAllTeamsUseCase"[39m[33m;[39m
+   [90m 20 |[39m [36mimport[39m { [33mGetAllTeamsController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/team/GetAllTeamsController"[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 21 |[39m [36mimport[39m { [33mCreatePlayerUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/player/CreatePlayerUseCase"[39m[33m;[39m
+   [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m [36mimport[39m { [33mCreatePlayerController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/player/CreatePlayerController"[39m[33m;[39m
+   [90m 23 |[39m [36mimport[39m { [33mUpdatePlayerByIdUseCase[39m } [36mfrom[39m [32m"./trainers/application/usecases/player/UpdatePlayerByIdUseCase"[39m[33m;[39m
+   [90m 24 |[39m [36mimport[39m { [33mUpdatePlayerByIdController[39m } [36mfrom[39m [32m"./trainers/infrastructure/controller/player/UpdatePlayerByIdController"[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/controller/player/CreatePlayerController.ts:[32m[1m3:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"../../../application/usecases/player/CreatePlayerUseCase"' has no exported member named 'CreatePlayerUseCase'. Did you mean 'CreatePyerUseCase'?
+  [0m [90m 1 |[39m [36mimport[39m { [33mRequest[39m[33m,[39m [33mResponse[39m } [36mfrom[39m [32m"express"[39m[33m;[39m
+   [90m 2 |[39m
+  [31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mCreatePlayerUseCase[39m } [36mfrom[39m [32m"../../../application/usecases/player/CreatePlayerUseCase"[39m[33m;[39m
+   [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 4 |[39m [36mimport[39m { [33mPlayerDTO[39m } [36mfrom[39m [32m"../../../application/DTOs/PlayerDTO"[39m[33m;[39m
+   [90m 5 |[39m
+   [90m 6 |[39m [36mexport[39m [36mclass[39m [33mCreatePlayerController[39m {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ba921fc9f43364a1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6151bb41409002e9)
+[1m[31mDebugger listening on ws://localhost:9229/319de707-e0b6-472e-b282-3332b990442e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/319de707-e0b6-472e-b282-3332b990442e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4294487d9d4388fb)
+[1m[31mDebugger listening on ws://localhost:9229/1d3933b6-5fd1-4822-9590-2063cb8db470[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1d3933b6-5fd1-4822-9590-2063cb8db470[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

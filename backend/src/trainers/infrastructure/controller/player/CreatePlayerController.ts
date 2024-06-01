@@ -1,10 +1,10 @@
 import { Request, Response } from "express";
 
-import { CreatePalyerUseCase } from "../../../application/usecases/player/CreatePlayerUseCase";
+import { CreatePlayerUseCase } from "../../../application/usecases/player/CreatePlayerUseCase";
 import { PlayerDTO } from "../../../application/DTOs/PlayerDTO";
 
 export class CreatePlayerController {
-  constructor(private createplayerUseCase: CreatePalyerUseCase) {}
+  constructor(private createplayerUseCase: CreatePlayerUseCase) {}
 
   async handle(req: Request<any, any, PlayerDTO>, res: Response) {
     try {

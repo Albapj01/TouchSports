@@ -3,7 +3,7 @@ import { NotifierPort } from "../../../domain/notifier/NotifierPort";
 import { TrainerPort } from "../../../domain/port/TrainerPort";
 import { PlayerDTO } from "../../DTOs/PlayerDTO";
 
-export class CreatePalyerUseCase {
+export class CreatePlayerUseCase {
   constructor(private trainerPort: TrainerPort, private notifier: NotifierPort) {}
 
   async run(
@@ -18,7 +18,7 @@ export class CreatePalyerUseCase {
 
     const team = trainer.teams.find((team) => team.teamId === teamId);
     if (!team) {
-      return null;
+      throw new Error("Team not found"); 
     }
 
     const player = new Player(

@@ -18,7 +18,7 @@ import { DeleteTeamByIdUseCase } from "./trainers/application/usecases/team/Dele
 import { DeleteTeamByIdController } from "./trainers/infrastructure/controller/team/DeleteTeamByIdController";
 import { GetAllTeamsUseCase } from "./trainers/application/usecases/team/GetAllTeamsUseCase";
 import { GetAllTeamsController } from "./trainers/infrastructure/controller/team/GetAllTeamsController";
-import { CreatePalyerUseCase } from "./trainers/application/usecases/player/CreatePlayerUseCase";
+import { CreatePlayerUseCase } from "./trainers/application/usecases/player/CreatePlayerUseCase";
 import { CreatePlayerController } from "./trainers/infrastructure/controller/player/CreatePlayerController";
 import { UpdatePlayerByIdUseCase } from "./trainers/application/usecases/player/UpdatePlayerByIdUseCase";
 import { UpdatePlayerByIdController } from "./trainers/infrastructure/controller/player/UpdatePlayerByIdController";
@@ -139,7 +139,7 @@ router.get("/api/trainer/:trainerId/team/:teamId", async (req, res) => {
   return getTeamByIdController.handle(req, res);
 });
 
-const createPlayerUseCase = new CreatePalyerUseCase(trainerAdapter, notifier);
+const createPlayerUseCase = new CreatePlayerUseCase(trainerAdapter, notifier);
 const createPlayerController = new CreatePlayerController(createPlayerUseCase);
 router.post("/api/trainer/:trainerId/team/:teamId/player", async (req, res) => {
   return createPlayerController.handle(req, res);
