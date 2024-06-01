@@ -10,6 +10,11 @@ export class DeleteTeamByIdUseCase {
       return null;
     }
 
+    const existingTeam = trainer.teams.find(team => team.teamId === teamId);
+    if (!existingTeam) {
+      throw new Error("Team not found"); 
+    }
+
     trainer.teams = trainer.teams.filter((team) => team.teamId != teamId);
     await this.trainerPort.deleteTeam(trainer.teams, trainerId);
   }

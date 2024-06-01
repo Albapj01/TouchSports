@@ -72,4 +72,43 @@ describe("UpdateTeamById", () => {
     expect(trainerPort.updateTeam).not.toHaveBeenCalled();
     expect(updatedTeam).toBeNull();
   });
+
+  it("shouldn't update a team if teamId doesn't exist", async () => {
+    const teams: Team[] = [
+      new Team("trainer-id", "team-id-1", "team-name-1", []),
+    ];
+
+    const trainer = new Trainer(
+      "trainer-id",
+      "trainer-name",
+      "trainer-surname",
+      "trainer-email@example.com",
+      "123456789",
+      teams,
+      "http://example.com/image.jpg",
+      []
+    );
+
+    const updateTeamByIdUseCase = new UpdateTeamByIdUseCase(trainerPort);
+
+    (trainerPort.findById as jest.Mock).mockResolvedValueOnce(trainer);
+
+    const updatedTeam = new Team(
+      "trainer-id",
+      "nonexistent-team-id",
+      "updated-team-name",
+      []
+    );
+
+    await expect(
+      updateTeamByIdUseCase.run(
+        "trainer-id",
+        "nonexistent-team-id",
+        updatedTeam
+      )
+    ).rejects.toThrow("Team not found");
+
+    expect(trainerPort.findById).toHaveBeenCalledWith("trainer-id");
+    expect(trainerPort.updateTeam).not.toHaveBeenCalled();
+  });
 });
