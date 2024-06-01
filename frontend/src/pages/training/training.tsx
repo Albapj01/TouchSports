@@ -55,6 +55,22 @@ const Training = () => {
     }
   }, []);
 
+  const showPhysicalImages = () => {
+    return {
+      flexiones: physicalTrainingItems.some(
+        (item) => item.trim().toLowerCase() === "flexiones"
+      ),
+      abdominales: physicalTrainingItems.some(
+        (item) => item.trim().toLowerCase() === "abdominales"
+      ),
+      sentadillas: physicalTrainingItems.some(
+        (item) => item.trim().toLowerCase() === "sentadillas"
+      ),
+    };
+  };
+
+  const physicalImages = showPhysicalImages();
+
   return (
     <>
       <GlobalStyle />
@@ -89,7 +105,41 @@ const Training = () => {
                   o en sus ratos libres, se debe de enfocar en la realización
                   de:
                   {physicalTrainingItems.map((item, index) => (
-                    <div key={index}>- {item.trim()}</div>
+                    <div key={index}>
+                      - {item.trim()}
+                      {item.trim().toLowerCase() === "flexiones" && (
+                        <ImageContainer>
+                          <img
+                            src="https://media.vogue.es/photos/621771ace529511d4af263e5/master/w_1600%2Cc_limit/tabla-de-ejercicios4-1.jpeg"
+                            alt="Flexiones"
+                          />
+                        </ImageContainer>
+                      )}
+                      {item.trim().toLowerCase() === "abdominales" && (
+                        <ImageContainer>
+                          <img
+                            src="https://www.clikisalud.net/wp-content/uploads/2023/07/pasos-musculos-abdominales-fuertes.jpg"
+                            alt="Abdominales"
+                          />
+                        </ImageContainer>
+                      )}
+                      {item.trim().toLowerCase() === "sentadillas" && (
+                        <ImageContainer>
+                          <img
+                            src="https://static.vecteezy.com/system/resources/previews/008/635/575/non_2x/woman-doing-bodyweight-squats-exercise-flat-illustration-isolated-on-white-background-vector.jpg"
+                            alt="Sentadillas"
+                          />
+                        </ImageContainer>
+                      )}
+                      {item.trim().toLowerCase() === "carrera continua" && (
+                        <ImageContainer>
+                          <img
+                            src="https://img.freepik.com/vector-premium/correr-joven-prepara-carrera-velocidad-concepto-entrenamiento-deportivo-ilustracion-vectorial_533410-414.jpg"
+                            alt="Carrera Continua"
+                          />
+                        </ImageContainer>
+                      )}
+                    </div>
                   ))}
                 </>
               ) : (
@@ -116,6 +166,12 @@ const TextContainer = styled.div`
   margin-top: 5%;
   font-size: 25px;
   font-weight: bold;
+`;
+
+const ImageContainer = styled.div`
+  text-align: center;
+  align-items: center;
+  margin: 10%;
 `;
 
 const Space = styled.div`
