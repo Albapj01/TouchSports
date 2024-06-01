@@ -12,7 +12,6 @@ export const trainerPort = {
     getAllPlayers: jest.fn(),
     saveCentres: jest.fn(),
     updateCentres: jest.fn(),
-    getAllCentres: jest.fn(),
     deleteCentres: jest.fn(),
     saveReserve: jest.fn(),
     updateReserve: jest.fn(),

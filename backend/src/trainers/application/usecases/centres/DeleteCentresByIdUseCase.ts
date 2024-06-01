@@ -10,6 +10,11 @@ export class DeleteCentresByIdUseCase {
       return null;
     }
 
+    const existingCentre = trainer.centres.find(centre => centre.centresId === centresId);
+    if (!existingCentre) {
+      throw new Error("Centre not found"); 
+    }
+
     trainer.centres = trainer.centres.filter(
       (centre) => centre.centresId != centresId
     );

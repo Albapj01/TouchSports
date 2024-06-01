@@ -15,6 +15,11 @@ export class UpdateCentresByIdUseCase {
       return null;
     }
 
+    const existingCentre = trainer.centres.find(centre => centre.centresId === centresId);
+    if (!existingCentre) {
+      throw new Error("Centre not found"); 
+    }
+
     const updatedCentres = new Centres(
       trainerId,
       centresId,

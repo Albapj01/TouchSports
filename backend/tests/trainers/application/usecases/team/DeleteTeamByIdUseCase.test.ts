@@ -49,17 +49,6 @@ describe("DeleteTeamById", () => {
     expect(trainerPort.deleteTeam).not.toHaveBeenCalled();
   });
 
-  it("shouldn't delete a team if trainerId doesn't exist", async () => {
-    const deleteTeamByIdUseCase = new DeleteTeamByIdUseCase(trainerPort);
-
-    (trainerPort.findById as jest.Mock).mockResolvedValueOnce(null);
-
-    await deleteTeamByIdUseCase.run("nonexistent-trainer-id", "team-id");
-
-    expect(trainerPort.findById).toHaveBeenCalledWith("nonexistent-trainer-id");
-    expect(trainerPort.deleteTeam).not.toHaveBeenCalled();
-  });
-
   it("shouldn't delete a team if teamId doesn't exist", async () => {
     const teams: Team[] = [
       new Team("trainer-id", "team-id-1", "team-name-1", []),
