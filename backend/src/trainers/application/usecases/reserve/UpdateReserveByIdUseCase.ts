@@ -20,7 +20,12 @@ export class UpdateReserveByIdUseCase {
       (centre) => centre.centresId === centresId
     );
     if (!centres) {
-      return null;
+      throw new Error("Centre not found"); 
+    }
+
+    const existingReserve = centres.reserves.find(reserve => reserve.reserveId === reserveId);
+    if (!existingReserve) {
+      throw new Error("Reserve not found"); 
     }
 
     const updatedReserve = new Reserve(

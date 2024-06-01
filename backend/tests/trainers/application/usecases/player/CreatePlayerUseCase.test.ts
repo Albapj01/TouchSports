@@ -78,7 +78,7 @@ describe("CreatePlayer", () => {
   });
 
   it("shouldn't create a player if teamId doesn't exist", async () => {
-    const playerWithoutTrainerId = new Player(
+    const playerWithoutTeamId = new Player(
       "trainer-id",
       "nonexistent-team-id",
       "player-id",
@@ -106,7 +106,7 @@ describe("CreatePlayer", () => {
       createPlayerUseCase.run(
         "trainer-id",
         "nonexistent-team-id",
-        playerWithoutTrainerId
+        playerWithoutTeamId
       )
     ).rejects.toThrow("Team not found");
 

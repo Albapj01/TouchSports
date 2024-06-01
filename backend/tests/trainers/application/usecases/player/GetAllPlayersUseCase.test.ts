@@ -87,11 +87,11 @@ describe("GetAllPlayersUseCase", () => {
     (trainerPort.findById as jest.Mock).mockResolvedValueOnce(null);
 
     const obtainedPlayers = await getAllPlayersUseCase.run(
-      "invalid-trainer-id",
+      "nonexistent-trainer-id",
       "team-id"
     );
 
-    expect(trainerPort.findById).toHaveBeenCalledWith("invalid-trainer-id");
+    expect(trainerPort.findById).toHaveBeenCalledWith("nonexistent-trainer-id");
     expect(obtainedPlayers).toBeNull();
   });
 

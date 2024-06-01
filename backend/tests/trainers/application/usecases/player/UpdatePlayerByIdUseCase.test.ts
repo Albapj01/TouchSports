@@ -40,7 +40,9 @@ describe("UpdatePlayerByIdUseCase", () => {
       "updated-improvements"
     );
 
-    const team = new Team("trainer-id", "team-id", "team-name", [originalPlayer]);
+    const team = new Team("trainer-id", "team-id", "team-name", [
+      originalPlayer,
+    ]);
     const trainer = new Trainer(
       "trainer-id",
       "trainer-name",
@@ -54,7 +56,10 @@ describe("UpdatePlayerByIdUseCase", () => {
 
     (trainerPort.findById as jest.Mock).mockResolvedValue(trainer);
 
-    const updatePlayerByIdUseCase = new UpdatePlayerByIdUseCase(trainerPort, notifierPort);
+    const updatePlayerByIdUseCase = new UpdatePlayerByIdUseCase(
+      trainerPort,
+      notifierPort
+    );
 
     await updatePlayerByIdUseCase.run(
       "trainer-id",
@@ -64,36 +69,48 @@ describe("UpdatePlayerByIdUseCase", () => {
     );
 
     expect(trainerPort.findById).toHaveBeenCalledWith("trainer-id");
-    expect(trainerPort.updatePlayer).toHaveBeenCalledWith([updatedPlayer], "trainer-id", "team-id");
-    expect(notifierPort.updatePlayerNotification).toHaveBeenCalledWith(updatedPlayer, team, trainer);
+    expect(trainerPort.updatePlayer).toHaveBeenCalledWith(
+      [updatedPlayer],
+      "trainer-id",
+      "team-id"
+    );
+    expect(notifierPort.updatePlayerNotification).toHaveBeenCalledWith(
+      updatedPlayer,
+      team,
+      trainer
+    );
   });
 
   it("shouldn't update a player if trainerId doesn't exist", async () => {
-    const updatePlayerByIdUseCase = new UpdatePlayerByIdUseCase(trainerPort, notifierPort);
+    const player: Player = new Player(
+      "trainer-id",
+      "team-id",
+      "player-id",
+      "updated-name",
+      "updated-surname",
+      "updated-telephone",
+      "updated-email",
+      "updated-imageUrl",
+      "updated-diet",
+      "updated-technicalTraining",
+      "updated-physicalTraining",
+      "updated-improvements"
+    );
+    const updatePlayerByIdUseCase = new UpdatePlayerByIdUseCase(
+      trainerPort,
+      notifierPort
+    );
 
     (trainerPort.findById as jest.Mock).mockResolvedValueOnce(null);
 
     const result = await updatePlayerByIdUseCase.run(
-      "invalid-trainer-id",
+      "nonexistent-trainer-id",
       "team-id",
       "player-id",
-      new Player(
-        "trainer-id",
-        "team-id",
-        "player-id",
-        "updated-name",
-        "updated-surname",
-        "updated-telephone",
-        "updated-email",
-        "updated-imageUrl",
-        "updated-diet",
-        "updated-technicalTraining",
-        "updated-physicalTraining",
-        "updated-improvements"
-      )
+      player
     );
 
-    expect(trainerPort.findById).toHaveBeenCalledWith("invalid-trainer-id");
+    expect(trainerPort.findById).toHaveBeenCalledWith("nonexistent-trainer-id");
     expect(result).toBeNull();
     expect(trainerPort.updatePlayer).not.toHaveBeenCalled();
     expect(notifierPort.updatePlayerNotification).not.toHaveBeenCalled();
@@ -128,14 +145,19 @@ describe("UpdatePlayerByIdUseCase", () => {
 
     (trainerPort.findById as jest.Mock).mockResolvedValue(trainer);
 
-    const updatePlayerByIdUseCase = new UpdatePlayerByIdUseCase(trainerPort, notifierPort);
+    const updatePlayerByIdUseCase = new UpdatePlayerByIdUseCase(
+      trainerPort,
+      notifierPort
+    );
 
-    await expect(updatePlayerByIdUseCase.run(
-      "trainer-id",
-      "nonexistent-team-id",
-      "player-id",
-      player
-    )).rejects.toThrow("Team not found");
+    await expect(
+      updatePlayerByIdUseCase.run(
+        "trainer-id",
+        "nonexistent-team-id",
+        "player-id",
+        player
+      )
+    ).rejects.toThrow("Team not found");
 
     expect(trainerPort.findById).toHaveBeenCalledWith("trainer-id");
     expect(trainerPort.updatePlayer).not.toHaveBeenCalled();
@@ -172,14 +194,19 @@ describe("UpdatePlayerByIdUseCase", () => {
 
     (trainerPort.findById as jest.Mock).mockResolvedValue(trainer);
 
-    const updatePlayerByIdUseCase = new UpdatePlayerByIdUseCase(trainerPort, notifierPort);
+    const updatePlayerByIdUseCase = new UpdatePlayerByIdUseCase(
+      trainerPort,
+      notifierPort
+    );
 
-    await expect(updatePlayerByIdUseCase.run(
-      "trainer-id",
-      "team-id",
-      "nonexistent-player-id",
-      player
-    )).rejects.toThrow("Player not found");
+    await expect(
+      updatePlayerByIdUseCase.run(
+        "trainer-id",
+        "team-id",
+        "nonexistent-player-id",
+        player
+      )
+    ).rejects.toThrow("Player not found");
 
     expect(trainerPort.findById).toHaveBeenCalledWith("trainer-id");
     expect(trainerPort.updatePlayer).not.toHaveBeenCalled();

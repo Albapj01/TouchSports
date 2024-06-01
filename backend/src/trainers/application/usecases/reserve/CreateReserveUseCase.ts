@@ -20,7 +20,7 @@ export class CreateReserveUseCase {
       (centre) => centre.centresId === centresId
     );
     if (!centres) {
-      return null;
+      throw new Error("Centre not found"); 
     }
 
     const reserve = new Reserve(
@@ -42,7 +42,7 @@ export class CreateReserveUseCase {
 
     const team = trainer.teams.find((team) => team.teamId === reserve.teamId);
     if (!team) {
-      return null;
+      return null; 
     }
 
     const players = await this.trainerPort.getAllPlayers(

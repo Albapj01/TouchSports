@@ -18,7 +18,7 @@ export class DeleteReserveByIdUseCase {
       (centre) => centre.centresId === centresId
     );
     if (!centres) {
-      return null;
+      throw new Error("Centre not found"); 
     }
 
     centres.reserves = centres.reserves.filter(
@@ -29,7 +29,7 @@ export class DeleteReserveByIdUseCase {
       (reserve) => reserve.reserveId === reserveId
     );
     if (!reserve) {
-      return null;
+      throw new Error("Reserve not found"); 
     }
 
     const team = trainer.teams.find((team) => team.teamId === reserve.teamId);
