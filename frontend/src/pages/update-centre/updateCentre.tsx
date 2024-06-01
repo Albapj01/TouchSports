@@ -14,7 +14,6 @@ import { useEffect, useState } from "react";
 import Tabs from "frontend/src/components/tabs/tabs";
 import Input from "frontend/src/components/input/input";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
-import Avatar from "frontend/src/components/avatar/avatar";
 import styled from "styled-components";
 import { useHistory, useParams } from "react-router-dom";
 import api from "../../utils/api/api";

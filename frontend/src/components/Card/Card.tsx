@@ -37,8 +37,4 @@ const TitleText = styled.div`
   font-size: 18px;
 `;
 
-const StyledLink = styled(Link)`
-  text-decoration: none;
-`;
-
 export default Card;

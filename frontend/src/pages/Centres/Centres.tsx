@@ -2,7 +2,6 @@ import {
   IonContent,
   IonFooter,
   IonHeader,
-  IonImg,
   IonPage,
   IonSearchbar,
 } from "@ionic/react";
@@ -11,7 +10,6 @@ import Card from "frontend/src/components/card/card";
 import Menu from "frontend/src/components/menu/menu";
 import Tabs from "frontend/src/components/tabs/tabs";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { addCircleOutline } from "ionicons/icons";
 import { useEffect, useState } from "react";

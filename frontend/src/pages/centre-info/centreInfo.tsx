@@ -1,7 +1,5 @@
 import {
-  IonActionSheet,
   IonAlert,
-  IonButton,
   IonContent,
   IonFab,
   IonFabButton,
@@ -23,7 +21,7 @@ import api from "frontend/src/utils/api/api";
 import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import { Centres } from "frontend/src/utils/interfaces/Centres";
 import { useEffect, useState } from "react";
-import { Link, useHistory, useParams } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
 import styled from "styled-components";
 import { fileTrayFull } from "ionicons/icons";
 import {

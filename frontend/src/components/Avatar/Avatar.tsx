@@ -34,8 +34,4 @@ const AvatarIcon = styled(IonAvatar)`
   height: 120px;
 `;
 
-const StyledLink = styled(Link)`
-  text-decoration: none;
-`;
-
 export default Avatar;

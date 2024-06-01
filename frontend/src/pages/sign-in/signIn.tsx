@@ -7,7 +7,7 @@ import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import api from "../../utils/api/api";
 import Button from "frontend/src/components/button/button";
 import { personOutline, peopleOutline } from "ionicons/icons";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Input from "frontend/src/components/input/input";
 import { Trainer } from "frontend/src/utils/interfaces/Trainer";
 import { Player } from "frontend/src/utils/interfaces/Player";
@@ -16,7 +16,6 @@ const SignIn = () => {
   const history = useHistory();
   const [selectedRole, setSelectedRole] = useState<String | null>(null);
   const [email, setEmail] = useState("");
-  const [trainers, setTrainers] = useState<Trainer[]>([]);
   const [player, setPlayer] = useState<Player>();
 
   const trainerResponse = async (credentialResponse: any) => {

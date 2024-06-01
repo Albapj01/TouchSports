@@ -238,7 +238,6 @@ const Reserves = () => {
 const Cards = styled.div`
   text-align: left;
   align-items: center;
-  /* height: 80%; */
 `;
 
 const ModalHeader = styled.div`

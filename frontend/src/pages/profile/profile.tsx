@@ -1,7 +1,5 @@
 import {
-  IonAlert,
   IonContent,
-  IonFabButton,
   IonFooter,
   IonHeader,
   IonItem,
@@ -17,13 +15,9 @@ import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import { Trainer } from "frontend/src/utils/interfaces/Trainer";
 import { useEffect, useState } from "react";
 import api from "frontend/src/utils/api/api";
-import { useHistory } from "react-router-dom";
 
 const Profile = () => {
   const [trainer, setTrainer] = useState<Trainer>();
-  const [showAlert, setShowAlert] = useState(false);
-
-  const history = useHistory();
 
   const { payload } = decodeJwt(storage.get("token"));
   const picture = payload.picture;

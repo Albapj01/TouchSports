@@ -16,7 +16,7 @@ import Menu from "frontend/src/components/menu/menu";
 import ToolBar from "frontend/src/components/toolbar/toolbar";
 import Button from "frontend/src/components/button/button";
 import { personAdd } from "ionicons/icons";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { Player } from "frontend/src/utils/interfaces/Player";
 import decodeJwt, { storage } from "frontend/src/utils/functions/storage";

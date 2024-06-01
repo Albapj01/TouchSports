@@ -6,7 +6,6 @@ import {
   IonFooter,
   IonHeader,
   IonImg,
-  IonInput,
   IonItem,
   IonList,
   IonPage,

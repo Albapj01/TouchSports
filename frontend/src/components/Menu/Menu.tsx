@@ -17,7 +17,6 @@ import {
   fileTrayFull,
   logOut,
 } from "ionicons/icons";
-import { Link } from "react-router-dom";
 import { Team } from "frontend/src/utils/interfaces/Team";
 import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import api from "frontend/src/utils/api/api";
@@ -115,17 +114,6 @@ const GlobalStyle = createGlobalStyle`
     }
 
   `;
-
-const TitleContainer = styled.div`
-  text-align: center;
-  align-items: center;
-`;
-
-const LogoImage = styled(IonImg)`
-  width: 10%;
-  height: 10%;
-  margin-right: 2%;
-`;
 
 const Icon = styled(IonIcon)`
   margin-right: 2%;

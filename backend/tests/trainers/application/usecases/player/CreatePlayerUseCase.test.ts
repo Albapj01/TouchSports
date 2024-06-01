@@ -1,6 +1,5 @@
 import { CreatePlayerUseCase } from "../../../../../src/trainers/application/usecases/player/CreatePlayerUseCase";
 import { Player } from "../../../../../src/trainers/domain/model/Player";
-import { Team } from "../../../../../src/trainers/domain/model/Team";
 import { notifierPort, trainerPort } from "../JestFunctions";
 
 describe("CreatePlayer", () => {
