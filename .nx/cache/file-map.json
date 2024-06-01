@@ -97,48 +97,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "README.md",
-        "hash": "10104707244890837311"
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
       },
       {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
+        "file": "README.md",
+        "hash": "10104707244890837311"
       },
       {
         "file": "LICENSE",
         "hash": "15553496959705771468"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       },
       {
-        "file": "package-lock.json",
-        "hash": "15155952317156726532"
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
       },
       {
         "file": ".vscode/settings.json",
         "hash": "6703405954808146235"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4595224623132836319"
       },
       {
         "file": ".gitignore",
         "hash": "1398178998339616447"
       },
       {
+        "file": "package-lock.json",
+        "hash": "15155952317156726532"
+      },
+      {
         "file": "package.json",
         "hash": "16079508552978807636"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
       }
     ],
     "projectFileMap": {
@@ -214,7 +214,7 @@
         },
         {
           "file": "backend/src/trainers/domain/port/TrainerPort.ts",
-          "hash": "4128754214413312936"
+          "hash": "13501164573353259709"
         },
         {
           "file": "backend/src/trainers/infrastructure/nodemailer/NotifierAdapter.ts",
@@ -236,7 +236,7 @@
         },
         {
           "file": "backend/src/trainers/infrastructure/persistence/repository/MongoTrainerAdapter.ts",
-          "hash": "5033912541816594241",
+          "hash": "10992581184330341111",
           "deps": [
             "npm:mongoose"
           ]
@@ -250,7 +250,7 @@
         },
         {
           "file": "backend/tests/trainers/application/usecases/JestFunctions.ts",
-          "hash": "8315212123379330549"
+          "hash": "14800526965076643240"
         },
         {
           "file": "backend/tsconfig.app.json",
@@ -560,11 +560,31 @@
         },
         {
           "file": "backend/tests/trainers/application/usecases/trainer/GetTrainerByEmailUseCase.test.ts",
-          "hash": "8840843375370292037"
+          "hash": "12072052150586818104"
         },
         {
           "file": "backend/tests/trainers/application/usecases/trainer/GetTrainerByIdUseCase.test.ts",
-          "hash": "1703000951464575817"
+          "hash": "3141475212932077129"
+        },
+        {
+          "file": "backend/tests/trainers/application/usecases/team/CreateTeamUseCase.test.ts",
+          "hash": "5493849831534425620"
+        },
+        {
+          "file": "backend/tests/trainers/application/usecases/team/GetAllTeamsUseCase.test.ts",
+          "hash": "2165952336730711923"
+        },
+        {
+          "file": "backend/tests/trainers/application/usecases/team/GetTeamByIdUseCase.test.ts",
+          "hash": "5532370866789302269"
+        },
+        {
+          "file": "backend/tests/trainers/application/usecases/team/UpdateTeamByIdUseCase.test.ts",
+          "hash": "5484085203779319273"
+        },
+        {
+          "file": "backend/tests/trainers/application/usecases/team/DeleteTeamByIdUseCase.test.ts",
+          "hash": "11355353934267366144"
         }
       ],
       "frontend": [

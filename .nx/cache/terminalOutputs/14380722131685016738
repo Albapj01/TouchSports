@@ -1,0 +1,142 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 82.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9f9eefd4086b8b94)
+[1m[31mDebugger listening on ws://localhost:9229/b18a8bc5-cdf1-4e1d-a6a7-4902df702a2f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b18a8bc5-cdf1-4e1d-a6a7-4902df702a2f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f36b6e28bd0808ae)
+[1m[31mDebugger listening on ws://localhost:9229/8293e684-75da-49f9-be0a-90bf40f7d024[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8293e684-75da-49f9-be0a-90bf40f7d024[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (302ac91093cd2ddb)
+[1m[31mDebugger listening on ws://localhost:9229/380a4398-2f87-49c8-b4e5-7f757eaca3d7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/380a4398-2f87-49c8-b4e5-7f757eaca3d7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2ce522f56d32b2d8)
+[1m[31mDebugger listening on ws://localhost:9229/fcd00fc5-bc2f-4597-9820-a412dadc8dcf[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fcd00fc5-bc2f-4597-9820-a412dadc8dcf[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/team/UpdateTeamByIdUseCase.ts:[32m[1m14:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 't'.
+  [0m [90m 12 |[39m
+   [90m 13 |[39m     [36mconst[39m existingTeamIndex [33m=[39m trainer[33m.[39mteams[33m.[39mfindIndex(
+  [31m[1m>[22m[39m[90m 14 |[39m       (team) [33m=>[39m t[33m.[39mteamId [33m===[39m teamId
+   [90m    |[39m                 [31m[1m^[22m[39m
+   [90m 15 |[39m     )[33m;[39m
+   [90m 16 |[39m     [36mif[39m (existingTeamIndex [33m===[39m [33m-[39m[35m1[39m) {
+   [90m 17 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m [0m
+
+webpack compiled with [1m[31m1 error[39m[22m (d27afcf92b4d81d0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (dde9963ac1c662d6)
+[1m[31mDebugger listening on ws://localhost:9229/460536f7-68d4-464a-823b-dfddd59de637[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/460536f7-68d4-464a-823b-dfddd59de637[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/team/UpdateTeamByIdUseCase.ts:[32m[1m7:48[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'team'.
+  [0m [90m  5 |[39m   constructor([36mprivate[39m trainerPort[33m:[39m [33mTrainerPort[39m) {}
+   [90m  6 |[39m
+  [31m[1m>[22m[39m[90m  7 |[39m   [36masync[39m run(trainerId[33m:[39m string[33m,[39m teamId[33m:[39m string[33m,[39m team[33m:[39m [33mTeam[39m)[33m:[39m [33mPromise[39m[33m<[39m[36mvoid[39m[33m>[39m {
+   [90m    |[39m                                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m  8 |[39m     [36mconst[39m trainer [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39mfindById(trainerId)[33m;[39m
+   [90m  9 |[39m     [36mif[39m ([33m![39mtrainer) {
+   [90m 10 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/team/UpdateTeamByIdUseCase.ts:[32m[1m13:11[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'team'.
+  [0m [90m 11 |[39m     }
+   [90m 12 |[39m
+  [31m[1m>[22m[39m[90m 13 |[39m     [36mconst[39m team [33m=[39m trainer[33m.[39mteams[33m.[39mfind((team) [33m=>[39m team[33m.[39mteamId [33m===[39m teamId)[33m;[39m
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 14 |[39m     [36mif[39m ([33m![39mteam) {
+   [90m 15 |[39m       [36mreturn[39m [36mnull[39m[33m;[39m
+   [90m 16 |[39m     }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (c924de35d06ed0e9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bf7e2c4a11711cdd)
+[1m[31mDebugger listening on ws://localhost:9229/3a307a44-64af-4891-b222-7da354a22fc6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3a307a44-64af-4891-b222-7da354a22fc6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c11b6f6c530a061c)
+[1m[31mDebugger listening on ws://localhost:9229/abff4a62-bcdb-4bde-869f-b2966a3e2d97[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/abff4a62-bcdb-4bde-869f-b2966a3e2d97[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f7441db42d45d3aa)
+[1m[31mDebugger listening on ws://localhost:9229/b06268f9-581c-4239-aa10-3dd6f58dc984[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b06268f9-581c-4239-aa10-3dd6f58dc984[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ad6914f40d82563a)
+[1m[31mDebugger listening on ws://localhost:9229/01e23a39-66ff-4dcc-b220-5e924f1dfb9b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/01e23a39-66ff-4dcc-b220-5e924f1dfb9b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7c71040ee2c809ad)
+[1m[31mDebugger listening on ws://localhost:9229/f4518c46-a82c-4bf5-9320-042b9d0e0ad6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f4518c46-a82c-4bf5-9320-042b9d0e0ad6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (512be7b826cfea8d)
+[1m[31mDebugger listening on ws://localhost:9229/b6dcec7a-e3ec-4d3b-8847-cd7c0c2e4c46[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b6dcec7a-e3ec-4d3b-8847-cd7c0c2e4c46[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f2ae23291937967d)
+[1m[31mDebugger listening on ws://localhost:9229/510d1ab7-c135-4492-bbec-81e8214d0ae6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/510d1ab7-c135-4492-bbec-81e8214d0ae6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9d3379bb267de4d6)
+[1m[31mDebugger listening on ws://localhost:9229/2b3f24fd-cc28-4447-8b3b-e2715b8c6564[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2b3f24fd-cc28-4447-8b3b-e2715b8c6564[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/team/UpdateTeamByIdUseCase.ts[39m[22m
+[1m./src/trainers/application/usecases/team/UpdateTeamByIdUseCase.ts[39m[22m [1m[32m16:6-12[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36m/Users/albapalomino/TouchSports/backend/src/trainers/application/usecases/team/UpdateTeamByIdUseCase.ts(16,7)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/trainers/application/usecases/team/UpdateTeamByIdUseCase.ts[39m[22m [1m[32m19:16[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (19:16)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             if (!existingTeam) {
+|                 teamId =
+>                 ;
+|                 return null;
+|             }[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (6bddf2ebed4cc283)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e41c0d83769e5ec0)
+[1m[31mDebugger listening on ws://localhost:9229/50b3d2af-1a2c-41be-96c4-190f00e86447[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/50b3d2af-1a2c-41be-96c4-190f00e86447[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

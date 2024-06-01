@@ -43,7 +43,7 @@ describe("GetTrainerByEmail", () => {
     expect(obtainedTrainer).toEqual(trainers[1]);
   });
 
-  it("should not get a trainer by incorrect email", async () => {
+  it("shouldn't get a trainer with an incorrect email", async () => {
     (trainerPort.findByEmail as jest.Mock).mockResolvedValue(null);
 
     const getTrainerByEmailUseCase = new GetTrainerByEmailUseCase(trainerPort);

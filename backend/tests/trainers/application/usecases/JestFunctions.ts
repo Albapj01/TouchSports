@@ -6,7 +6,6 @@ export const trainerPort = {
     deleteTeam: jest.fn(),
     saveTeam: jest.fn(),
     updateTeam: jest.fn(),
-    getAllTeams: jest.fn(),
     deletePlayer: jest.fn(),
     savePlayer: jest.fn(),
     updatePlayer: jest.fn(),

@@ -41,7 +41,7 @@ describe("GetTrainerById", () => {
     expect(obtainedTrainer).toEqual(trainers[1]);
   });
 
-  it("should not get a trainer by incorrect id", async () => {
+  it("shouldn't get a trainer with an incorrect id", async () => {
     (trainerPort.findById as jest.Mock).mockResolvedValue(null);
 
     const getTrainerByIdUseCase = new GetTrainerByIdUseCase(trainerPort);

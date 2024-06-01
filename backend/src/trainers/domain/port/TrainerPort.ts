@@ -12,7 +12,6 @@ export interface TrainerPort {
   deleteTeam(team: Team[], trainerId: string): Promise<void>;
   saveTeam(team: Team, trainer: Trainer): Promise<void>;
   updateTeam(team: Team[], trainerId: string): Promise<void>;
-  getAllTeams(trainerId: string): Promise<Team[]>;
   deletePlayer(player: Player[], teamId: string, trainerId: string): Promise<void>;
   savePlayer(player: Player, team:Team, trainer: Trainer): Promise<void>;
   updatePlayer(player: Player[], trainerId: string, teamId: string): Promise<void>;

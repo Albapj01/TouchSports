@@ -53,11 +53,6 @@ export class MongoTrainerAdapter implements TrainerPort {
       { $set: { teams: team } }
     );
   }
-  async getAllTeams(trainerId: string): Promise<Team[]> {
-    const trainer = await this.model.findOne({ trainerId: trainerId });
-    const domainTrainer = TrainerMapper.toDomain(trainer);
-    return domainTrainer.teams;
-  }
   async deletePlayer(
     players: Player[],
     teamId: string,
