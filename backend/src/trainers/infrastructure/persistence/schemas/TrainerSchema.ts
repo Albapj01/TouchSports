@@ -14,9 +14,6 @@ export const TrainerSchema = new mongoose.Schema(
     email: {
       type: String,
     },
-    telephone: {
-      type: String,
-    },
     teams: [
       {
         trainerId: {

@@ -7,7 +7,6 @@ export class Trainer {
     readonly name: string,
     readonly surname: string,
     readonly email: string,
-    readonly telephone: string,
     public teams: Team[],
     readonly imageUrl: string,
     public centres: Centres[],

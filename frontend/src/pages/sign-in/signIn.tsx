@@ -9,7 +9,6 @@ import Button from "frontend/src/components/button/button";
 import { personOutline, peopleOutline } from "ionicons/icons";
 import { useState } from "react";
 import Input from "frontend/src/components/input/input";
-import { Trainer } from "frontend/src/utils/interfaces/Trainer";
 import { Player } from "frontend/src/utils/interfaces/Player";
 
 const SignIn = () => {
@@ -31,7 +30,6 @@ const SignIn = () => {
           payload.given_name,
           payload.family_name,
           payload.email,
-          "",
           [],
           "",
           []
@@ -44,7 +42,6 @@ const SignIn = () => {
           payload.given_name,
           payload.family_name,
           payload.email,
-          "",
           [],
           "",
           []

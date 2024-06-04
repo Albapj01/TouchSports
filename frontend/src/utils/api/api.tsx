@@ -16,7 +16,6 @@ const createTrainer = async (
   name: string,
   surname: string,
   email: string,
-  telephone: string,
   teams: Team[],
   imageUrl: string,
   centres: Centres[]
@@ -26,7 +25,6 @@ const createTrainer = async (
     name,
     surname,
     email,
-    telephone,
     teams,
     imageUrl,
     centres,
@@ -325,22 +323,6 @@ const deleteReserve = async (
   return response.data;
 };
 
-const updateTrainer = async (
-  trainerId: string,
-  name: string,
-  surname: string,
-  email: string
-) => {
-  const response = await axios.put(`${myApi}/trainer/${trainerId}`, {
-    trainerId,
-    name,
-    surname,
-    email,
-  });
-  console.log(response.data);
-  return response.data;
-};
-
 const getPlayerByEmail = async (
   trainerEmail: string,
   playerEmail: string
@@ -374,6 +356,5 @@ export default {
   updatePlayer,
   updateReserve,
   deleteReserve,
-  updateTrainer,
   getPlayerByEmail,
 };

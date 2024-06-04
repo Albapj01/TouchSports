@@ -6,7 +6,6 @@ export interface Trainer {
   name: string;
   surname: string;
   email: string;
-  telephone: string;
   teams: Team[];
   imageUrl: string;
   centres: Centres[];

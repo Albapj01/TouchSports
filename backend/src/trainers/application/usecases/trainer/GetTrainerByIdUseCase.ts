@@ -15,7 +15,6 @@ export class GetTrainerByIdUseCase {
       name: trainer.name,
       surname: trainer.surname,
       email: trainer.email,
-      telephone: trainer.telephone,
       teams: trainer.teams,
       imageUrl: trainer.imageUrl,
       centres: trainer.centres,

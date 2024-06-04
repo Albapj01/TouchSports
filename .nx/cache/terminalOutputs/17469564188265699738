@@ -1,0 +1,473 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 84.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bb2695ab565c9b63)
+[1m[31mDebugger listening on ws://localhost:9229/1d709878-1b9c-4a65-8b6e-c1f5c0023f7d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1d709878-1b9c-4a65-8b6e-c1f5c0023f7d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 84 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/CreateTrainerUseCase.ts:[32m[1m17:7[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 7 arguments, but got 8.
+  [0m [90m 15 |[39m       [][33m,[39m
+   [90m 16 |[39m       trainerDTO[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 17 |[39m       []
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 18 |[39m     )[33m;[39m
+   [90m 19 |[39m
+   [90m 20 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msaveTrainer(trainer)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetAllTrainersUseCase.ts:[32m[1m16:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 14 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 15 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 16 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 17 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 18 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 19 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByEmailUseCase.ts:[32m[1m18:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByIdUseCase.ts:[32m[1m18:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m15:7[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 7 arguments, but got 8.
+  [0m [90m 13 |[39m       trainerEntity[33m.[39mteams[33m,[39m
+   [90m 14 |[39m       trainerEntity[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 15 |[39m       trainerEntity[33m.[39mcentres[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 16 |[39m     )[33m;[39m
+   [90m 17 |[39m   }
+   [90m 18 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m25:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 23 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 24 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 26 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m.[39mmap((team) [33m=>[39m ({
+   [90m 27 |[39m         trainerId[33m:[39m team[33m.[39mtrainerId[33m,[39m
+   [90m 28 |[39m         teamId[33m:[39m team[33m.[39mteamId[33m,[39m[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (77703f85aa7cdc60)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 84.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e4e962a59f813d66)
+[1m[31mDebugger listening on ws://localhost:9229/0f06e578-963c-49de-8280-14bbb8b1b4e8[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0f06e578-963c-49de-8280-14bbb8b1b4e8[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 84 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/CreateTrainerUseCase.ts:[32m[1m17:7[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 7 arguments, but got 8.
+  [0m [90m 15 |[39m       [][33m,[39m
+   [90m 16 |[39m       trainerDTO[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 17 |[39m       []
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 18 |[39m     )[33m;[39m
+   [90m 19 |[39m
+   [90m 20 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msaveTrainer(trainer)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetAllTrainersUseCase.ts:[32m[1m16:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 14 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 15 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 16 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 17 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 18 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 19 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByEmailUseCase.ts:[32m[1m18:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByIdUseCase.ts:[32m[1m18:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m15:7[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 7 arguments, but got 8.
+  [0m [90m 13 |[39m       trainerEntity[33m.[39mteams[33m,[39m
+   [90m 14 |[39m       trainerEntity[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 15 |[39m       trainerEntity[33m.[39mcentres[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 16 |[39m     )[33m;[39m
+   [90m 17 |[39m   }
+   [90m 18 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m25:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 23 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 24 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 26 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m.[39mmap((team) [33m=>[39m ({
+   [90m 27 |[39m         trainerId[33m:[39m team[33m.[39mtrainerId[33m,[39m
+   [90m 28 |[39m         teamId[33m:[39m team[33m.[39mteamId[33m,[39m[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (20d1446d720eb449)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 84 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/CreateTrainerUseCase.ts:[32m[1m14:18[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'TrainerDTO'.
+  [0m [90m 12 |[39m       trainerDTO[33m.[39msurname[33m,[39m
+   [90m 13 |[39m       trainerDTO[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 14 |[39m       trainerDTO[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 15 |[39m       [][33m,[39m
+   [90m 16 |[39m       trainerDTO[33m.[39mimageUrl[33m,[39m
+   [90m 17 |[39m       [][0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/CreateTrainerUseCase.ts:[32m[1m17:7[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 7 arguments, but got 8.
+  [0m [90m 15 |[39m       [][33m,[39m
+   [90m 16 |[39m       trainerDTO[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 17 |[39m       []
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 18 |[39m     )[33m;[39m
+   [90m 19 |[39m
+   [90m 20 |[39m     [36mawait[39m [36mthis[39m[33m.[39mtrainerPort[33m.[39msaveTrainer(trainer)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetAllTrainersUseCase.ts:[32m[1m16:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 14 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 15 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 16 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 17 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 18 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 19 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByEmailUseCase.ts:[32m[1m18:7[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; name: string; surname: string; email: string; telephone: any; teams: Team[]; imageUrl: string; centres: Centres[]; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'telephone' does not exist in type 'TrainerDTO'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByEmailUseCase.ts:[32m[1m18:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByIdUseCase.ts:[32m[1m18:7[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; name: string; surname: string; email: string; telephone: any; teams: Team[]; imageUrl: string; centres: Centres[]; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'telephone' does not exist in type 'TrainerDTO'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByIdUseCase.ts:[32m[1m18:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m15:7[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 7 arguments, but got 8.
+  [0m [90m 13 |[39m       trainerEntity[33m.[39mteams[33m,[39m
+   [90m 14 |[39m       trainerEntity[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 15 |[39m       trainerEntity[33m.[39mcentres[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 16 |[39m     )[33m;[39m
+   [90m 17 |[39m   }
+   [90m 18 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m25:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 23 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 24 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 26 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m.[39mmap((team) [33m=>[39m ({
+   [90m 27 |[39m         trainerId[33m:[39m team[33m.[39mtrainerId[33m,[39m
+   [90m 28 |[39m         teamId[33m:[39m team[33m.[39mteamId[33m,[39m[0m
+
+webpack compiled with [1m[31m9 errors[39m[22m (20d1446d720eb449)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 84 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetAllTrainersUseCase.ts:[32m[1m16:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 14 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 15 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 16 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 17 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 18 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 19 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByEmailUseCase.ts:[32m[1m18:7[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; name: string; surname: string; email: string; telephone: any; teams: Team[]; imageUrl: string; centres: Centres[]; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'telephone' does not exist in type 'TrainerDTO'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByEmailUseCase.ts:[32m[1m18:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByIdUseCase.ts:[32m[1m18:7[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; name: string; surname: string; email: string; telephone: any; teams: Team[]; imageUrl: string; centres: Centres[]; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'telephone' does not exist in type 'TrainerDTO'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByIdUseCase.ts:[32m[1m18:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m15:7[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 7 arguments, but got 8.
+  [0m [90m 13 |[39m       trainerEntity[33m.[39mteams[33m,[39m
+   [90m 14 |[39m       trainerEntity[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 15 |[39m       trainerEntity[33m.[39mcentres[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 16 |[39m     )[33m;[39m
+   [90m 17 |[39m   }
+   [90m 18 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m25:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 23 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 24 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 26 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m.[39mmap((team) [33m=>[39m ({
+   [90m 27 |[39m         trainerId[33m:[39m team[33m.[39mtrainerId[33m,[39m
+   [90m 28 |[39m         teamId[33m:[39m team[33m.[39mteamId[33m,[39m[0m
+
+webpack compiled with [1m[31m7 errors[39m[22m (778851aabf99a1c6)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 84 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByEmailUseCase.ts:[32m[1m18:7[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; name: string; surname: string; email: string; telephone: any; teams: Team[]; imageUrl: string; centres: Centres[]; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'telephone' does not exist in type 'TrainerDTO'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByEmailUseCase.ts:[32m[1m18:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByIdUseCase.ts:[32m[1m18:7[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; name: string; surname: string; email: string; telephone: any; teams: Team[]; imageUrl: string; centres: Centres[]; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'telephone' does not exist in type 'TrainerDTO'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByIdUseCase.ts:[32m[1m18:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m15:7[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 7 arguments, but got 8.
+  [0m [90m 13 |[39m       trainerEntity[33m.[39mteams[33m,[39m
+   [90m 14 |[39m       trainerEntity[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 15 |[39m       trainerEntity[33m.[39mcentres[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 16 |[39m     )[33m;[39m
+   [90m 17 |[39m   }
+   [90m 18 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m25:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 23 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 24 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 26 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m.[39mmap((team) [33m=>[39m ({
+   [90m 27 |[39m         trainerId[33m:[39m team[33m.[39mtrainerId[33m,[39m
+   [90m 28 |[39m         teamId[33m:[39m team[33m.[39mteamId[33m,[39m[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (0fa1590aca1ef19a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByIdUseCase.ts:[32m[1m18:7[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ trainerId: string; name: string; surname: string; email: string; telephone: any; teams: Team[]; imageUrl: string; centres: Centres[]; }' is not assignable to type 'TrainerDTO'.
+  Object literal may only specify known properties, and 'telephone' does not exist in type 'TrainerDTO'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/application/usecases/trainer/GetTrainerByIdUseCase.ts:[32m[1m18:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 16 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 17 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 18 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m,[39m
+   [90m 20 |[39m       imageUrl[33m:[39m trainer[33m.[39mimageUrl[33m,[39m
+   [90m 21 |[39m       centres[33m:[39m trainer[33m.[39mcentres[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m15:7[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 7 arguments, but got 8.
+  [0m [90m 13 |[39m       trainerEntity[33m.[39mteams[33m,[39m
+   [90m 14 |[39m       trainerEntity[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 15 |[39m       trainerEntity[33m.[39mcentres[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 16 |[39m     )[33m;[39m
+   [90m 17 |[39m   }
+   [90m 18 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m25:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 23 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 24 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 26 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m.[39mmap((team) [33m=>[39m ({
+   [90m 27 |[39m         trainerId[33m:[39m team[33m.[39mtrainerId[33m,[39m
+   [90m 28 |[39m         teamId[33m:[39m team[33m.[39mteamId[33m,[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (a4ed499e7249057c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m15:7[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 7 arguments, but got 8.
+  [0m [90m 13 |[39m       trainerEntity[33m.[39mteams[33m,[39m
+   [90m 14 |[39m       trainerEntity[33m.[39mimageUrl[33m,[39m
+  [31m[1m>[22m[39m[90m 15 |[39m       trainerEntity[33m.[39mcentres[33m,[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 16 |[39m     )[33m;[39m
+   [90m 17 |[39m   }
+   [90m 18 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m25:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 23 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 24 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 25 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 26 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m.[39mmap((team) [33m=>[39m ({
+   [90m 27 |[39m         trainerId[33m:[39m team[33m.[39mtrainerId[33m,[39m
+   [90m 28 |[39m         teamId[33m:[39m team[33m.[39mteamId[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (f234cd207d2aacea)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./backend/src/trainers/infrastructure/persistence/mapper/TrainerMapper.ts:[32m[1m24:26[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'telephone' does not exist on type 'Trainer'.
+  [0m [90m 22 |[39m       surname[33m:[39m trainer[33m.[39msurname[33m,[39m
+   [90m 23 |[39m       email[33m:[39m trainer[33m.[39memail[33m,[39m
+  [31m[1m>[22m[39m[90m 24 |[39m       telephone[33m:[39m trainer[33m.[39mtelephone[33m,[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 25 |[39m       teams[33m:[39m trainer[33m.[39mteams[33m.[39mmap((team) [33m=>[39m ({
+   [90m 26 |[39m         trainerId[33m:[39m team[33m.[39mtrainerId[33m,[39m
+   [90m 27 |[39m         teamId[33m:[39m team[33m.[39mteamId[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (18cd7db6b9e71057)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (71d90bf64f311e9d)
+[1m[31mDebugger listening on ws://localhost:9229/c8f4a3cb-d8fe-45f7-a7e9-e972c36910b4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c8f4a3cb-d8fe-45f7-a7e9-e972c36910b4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 83.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b4a41caa70c58904)
+[1m[31mDebugger listening on ws://localhost:9229/f63211ad-9796-4e08-9a6d-dd8ac2475cfa[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f63211ad-9796-4e08-9a6d-dd8ac2475cfa[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

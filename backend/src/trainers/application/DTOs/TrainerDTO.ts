@@ -6,7 +6,6 @@ export interface TrainerDTO {
   name: string;
   surname: string;
   email: string;
-  telephone?: string;
   teams: Array<TeamDTO>;
   imageUrl?: string;
   centres: Array<CentresDTO>;

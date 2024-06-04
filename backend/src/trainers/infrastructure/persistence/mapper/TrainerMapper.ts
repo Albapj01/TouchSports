@@ -9,7 +9,6 @@ export class TrainerMapper {
       trainerEntity.name,
       trainerEntity.surname,
       trainerEntity.email,
-      trainerEntity.telephone,
       trainerEntity.teams,
       trainerEntity.imageUrl,
       trainerEntity.centres,
@@ -22,7 +21,6 @@ export class TrainerMapper {
       name: trainer.name,
       surname: trainer.surname,
       email: trainer.email,
-      telephone: trainer.telephone,
       teams: trainer.teams.map((team) => ({
         trainerId: team.trainerId,
         teamId: team.teamId,
