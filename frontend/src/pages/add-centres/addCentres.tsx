@@ -51,11 +51,11 @@ const AddCentres = () => {
 
   const handleImageUrl = (centreName: string) => {
     if (centreName.toLowerCase().includes("palacio")) {
-      return "https://upload.wikimedia.org/wikipedia/commons/e/e8/Palacio_Municipal_de_Deportes_Vista_Alegre_-_C%C3%B3rdoba_%28Espa%C3%B1a%29.jpg"; 
+      return "../../assets/images/va.png"; 
     } else if (centreName.toLowerCase().includes("pidal")) {
-      return "https://www.uco.es/empresa/ucodeporte/wp-content/uploads/slider_01_ucodeporte_pabellon.jpg"; 
+      return "../../assets/images/pidal.png"; 
     } 
-    return "https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp";
+    return "../../assets/images/centre.png";
   };
 
   return (

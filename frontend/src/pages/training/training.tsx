@@ -110,7 +110,7 @@ const Training = () => {
                       {item.trim().toLowerCase() === "flexiones" && (
                         <ImageContainer>
                           <img
-                            src="https://media.vogue.es/photos/621771ace529511d4af263e5/master/w_1600%2Cc_limit/tabla-de-ejercicios4-1.jpeg"
+                            src="../../assets/images/push-ups.png"
                             alt="Flexiones"
                           />
                         </ImageContainer>
@@ -118,7 +118,7 @@ const Training = () => {
                       {item.trim().toLowerCase() === "abdominales" && (
                         <ImageContainer>
                           <img
-                            src="https://www.clikisalud.net/wp-content/uploads/2023/07/pasos-musculos-abdominales-fuertes.jpg"
+                            src="../../assets/images/abs.png"
                             alt="Abdominales"
                           />
                         </ImageContainer>
@@ -126,7 +126,7 @@ const Training = () => {
                       {item.trim().toLowerCase() === "sentadillas" && (
                         <ImageContainer>
                           <img
-                            src="https://static.vecteezy.com/system/resources/previews/008/635/575/non_2x/woman-doing-bodyweight-squats-exercise-flat-illustration-isolated-on-white-background-vector.jpg"
+                            src="../../assets/images/squats.png"
                             alt="Sentadillas"
                           />
                         </ImageContainer>
@@ -134,8 +134,32 @@ const Training = () => {
                       {item.trim().toLowerCase() === "carrera continua" && (
                         <ImageContainer>
                           <img
-                            src="https://img.freepik.com/vector-premium/correr-joven-prepara-carrera-velocidad-concepto-entrenamiento-deportivo-ilustracion-vectorial_533410-414.jpg"
+                            src="../../assets/images/continuous-run.png"
                             alt="Carrera Continua"
+                          />
+                        </ImageContainer>
+                      )}
+                      {item.trim().toLowerCase() === "sprints" && (
+                        <ImageContainer>
+                          <img
+                            src="../../assets/images/sprint.png"
+                            alt="Sprints"
+                          />
+                        </ImageContainer>
+                      )}
+                      {item.trim().toLowerCase() === "pesas" && (
+                        <ImageContainer>
+                          <img
+                            src="../../assets/images/dumbbells.png"
+                            alt="Pesas"
+                          />
+                        </ImageContainer>
+                      )}
+                      {item.trim().toLowerCase() === "planchas" && (
+                        <ImageContainer>
+                          <img
+                            src="../../assets/images/plank.png"
+                            alt="Planchas"
                           />
                         </ImageContainer>
                       )}

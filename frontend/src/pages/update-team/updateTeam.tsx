@@ -63,15 +63,15 @@ const UpdateTeam = () => {
 
   const handleImageUrl = (teamName: string) => {
     if (teamName.toLowerCase().includes("baloncesto")) {
-      return "https://deportesinfantes.home.blog/wp-content/uploads/2022/06/4c02d07721d0182926385c17ddf3959bfe805f76.jpg?w=768"; 
+      return "../../assets/images/basketball.png"; 
     } else if (teamName.toLowerCase().includes("futbol") || teamName.toLowerCase().includes("fútbol")) {
-      return "https://sisanjuan.b-cdn.net/media/k2/items/cache/665038ef3f33718594773fb6b1e055ef_XL.jpg"; 
+      return "../../assets/images/soccer.png"; 
     } else if (teamName.toLowerCase().includes("balonmano")) {
-      return "https://t4.ftcdn.net/jpg/01/80/02/51/360_F_180025190_7Lt5WDVLnkYHUPZR5X9cJVxFnMbtPSJN.jpg"; 
+      return "../../assets/images/handball.png"; 
     } else if(teamName.toLowerCase().includes("volley") || teamName.toLowerCase().includes("voleibol")){
-      return "https://www.experienceboxspain.com/sites/default/files/styles/product_full/public/products/BeachVolley%20%281%29_0.jpg?h=cb3eb245&itok=6hYM_HIE"
+      return "../../assets/images/volleyball.png"
     }
-    return "https://www.infisport.com/media/amasty/blog/SprintDeportesEquipo1_2.jpg"; 
+    return "../../assets/images/team.png"; 
   };
 
   return (

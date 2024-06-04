@@ -97,12 +97,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package.json",
-        "hash": "16079508552978807636"
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": "README.md",
+        "hash": "10104707244890837311"
       },
       {
         "file": "LICENSE",
@@ -113,32 +113,32 @@
         "hash": "1398178998339616447"
       },
       {
-        "file": "package-lock.json",
-        "hash": "15155952317156726532"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
       },
       {
         "file": "nx.json",
         "hash": "4595224623132836319"
       },
       {
+        "file": "package-lock.json",
+        "hash": "15155952317156726532"
+      },
+      {
         "file": "jest.config.ts",
         "hash": "12333515226966617182"
       },
       {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       },
       {
         "file": "docker-compose.yml",
         "hash": "319288953677755740"
+      },
+      {
+        "file": "package.json",
+        "hash": "16079508552978807636"
       }
     ],
     "projectFileMap": {
@@ -436,7 +436,7 @@
         },
         {
           "file": "frontend/src/pages/add-centres/addCentres.tsx",
-          "hash": "18432576470681838777",
+          "hash": "12959565905311693194",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -458,7 +458,7 @@
         },
         {
           "file": "frontend/src/pages/add-team/addTeam.tsx",
-          "hash": "4834639102365599226",
+          "hash": "13170924912973299906",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -480,7 +480,7 @@
         },
         {
           "file": "frontend/src/pages/centre-info/centreInfo.tsx",
-          "hash": "9623550696867336205",
+          "hash": "16091058459171975952",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -491,7 +491,7 @@
         },
         {
           "file": "frontend/src/pages/centres/centres.tsx",
-          "hash": "14861169256593034293",
+          "hash": "16533746128535776005",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components",
@@ -511,7 +511,7 @@
         },
         {
           "file": "frontend/src/pages/home/home.tsx",
-          "hash": "4091390265564714099",
+          "hash": "12774383338172534071",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components"
@@ -519,7 +519,7 @@
         },
         {
           "file": "frontend/src/pages/player/player.tsx",
-          "hash": "1798277102867135049",
+          "hash": "8916299756564496669",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -586,7 +586,7 @@
         },
         {
           "file": "frontend/src/pages/teams/teams.tsx",
-          "hash": "18390921368504741582",
+          "hash": "5105265694030869358",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components",
@@ -596,7 +596,7 @@
         },
         {
           "file": "frontend/src/pages/training/training.tsx",
-          "hash": "17864235165633122707",
+          "hash": "7576247939404816336",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -606,7 +606,7 @@
         },
         {
           "file": "frontend/src/pages/update-centre/updateCentre.tsx",
-          "hash": "8297715609138791538",
+          "hash": "1697553274778652195",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -636,7 +636,7 @@
         },
         {
           "file": "frontend/src/pages/update-team/updateTeam.tsx",
-          "hash": "10540733455511198871",
+          "hash": "16546610628323783007",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -718,6 +718,74 @@
             "npm:@nx/webpack",
             "npm:@nx/react"
           ]
+        },
+        {
+          "file": "frontend/src/assets/images/team.png",
+          "hash": "6992521000953714607"
+        },
+        {
+          "file": "frontend/src/assets/images/abs.png",
+          "hash": "17806830498215892347"
+        },
+        {
+          "file": "frontend/src/assets/images/continuous-run.png",
+          "hash": "10076327419251573657"
+        },
+        {
+          "file": "frontend/src/assets/images/basketball.png",
+          "hash": "10341475664733109739"
+        },
+        {
+          "file": "frontend/src/assets/images/volleyball.png",
+          "hash": "5614530442529017520"
+        },
+        {
+          "file": "frontend/src/assets/images/centre.png",
+          "hash": "8755617433358592913"
+        },
+        {
+          "file": "frontend/src/assets/images/handball.png",
+          "hash": "14706442947103647107"
+        },
+        {
+          "file": "frontend/src/assets/images/soccer.png",
+          "hash": "4725834624203963204"
+        },
+        {
+          "file": "frontend/src/assets/images/squats.png",
+          "hash": "14291983131170807246"
+        },
+        {
+          "file": "frontend/src/assets/images/diet.png",
+          "hash": "1662970838006225837"
+        },
+        {
+          "file": "frontend/src/assets/images/training.png",
+          "hash": "13586449318379957960"
+        },
+        {
+          "file": "frontend/src/assets/images/push-ups.png",
+          "hash": "16297711298797294917"
+        },
+        {
+          "file": "frontend/src/assets/images/sprint.png",
+          "hash": "10408362456363172614"
+        },
+        {
+          "file": "frontend/src/assets/images/plank.png",
+          "hash": "11640977591135728465"
+        },
+        {
+          "file": "frontend/src/assets/images/dumbbells.png",
+          "hash": "1541949770714357059"
+        },
+        {
+          "file": "frontend/src/assets/images/va.png",
+          "hash": "14203890901838673204"
+        },
+        {
+          "file": "frontend/src/assets/images/pidal.png",
+          "hash": "10316342747384901586"
         }
       ],
       "backend": [

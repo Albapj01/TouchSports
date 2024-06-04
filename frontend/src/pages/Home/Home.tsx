@@ -18,13 +18,13 @@ const Home = () => {
             <Card
               route="/home/teams"
               title="Equipo"
-              imageUrl="https://www.infisport.com/media/amasty/blog/SprintDeportesEquipo1_2.jpg"
+              imageUrl="../../assets/images/team.png"
               description=""
             />
             <Card
               route="/home/centres"
               title="Instalaciones"
-              imageUrl="https://inuba.com/wp-content/uploads/2022/03/que-es-un-complejo-deportivo.webp"
+              imageUrl="../../assets/images/centre.png"
               description=""
             />
           </Cards>
