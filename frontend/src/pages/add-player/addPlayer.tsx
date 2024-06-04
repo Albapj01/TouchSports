@@ -64,15 +64,15 @@ const AddPlayer = () => {
   };
 
   const handleAddPlayer = async () => {
-    if(name == "" || surname == "" || email == ""){
+    if (name == "" || surname == "" || email == "") {
       return setShowAlert(true);
     }
 
-    if(!validationEmail(email)){
+    if (!validationEmail(email)) {
       return setShowEmailAlert(true);
     }
 
-    if(!validationTelephone(telephoneNumber)){
+    if (!validationTelephone(telephoneNumber) && telephoneNumber!="") {
       return setShowTelephoneAlert(true);
     }
 
@@ -107,7 +107,7 @@ const AddPlayer = () => {
           improvements
         );
       }
-      history.push(window.location.href=`/home/teams/${teamId}`);
+      history.push((window.location.href = `/home/teams/${teamId}`));
     } else {
       console.error("El equipo no existe.");
     }
@@ -139,7 +139,7 @@ const AddPlayer = () => {
         </IonHeader>
         <IonContent fullscreen>
           <br></br>
-          <Menu disabled={false}/>
+          <Menu disabled={false} />
           <PersonContainer>
             <Avatar
               route=""
@@ -301,7 +301,10 @@ const AddPlayer = () => {
                 {
                   text: "Eliminar",
                   role: "destructive",
-                  handler: () => history.push(window.location.href=`/home/teams/${teamId}`),
+                  handler: () =>
+                    history.push(
+                      (window.location.href = `/home/teams/${teamId}`)
+                    ),
                 },
                 {
                   text: "Añadir",
@@ -312,7 +315,8 @@ const AddPlayer = () => {
                 {
                   text: "Seguir editando",
                   role: "cancel",
-                  handler: () => history.push(`/home/teams/${teamId}/add-player`),
+                  handler: () =>
+                    history.push(`/home/teams/${teamId}/add-player`),
                 },
               ]}
             ></IonActionSheet>
@@ -340,7 +344,7 @@ const AddPlayer = () => {
           />
         </IonContent>
         <IonFooter>
-          <Tabs disabled={false}/>
+          <Tabs disabled={false} />
         </IonFooter>
       </IonPage>
     </>
