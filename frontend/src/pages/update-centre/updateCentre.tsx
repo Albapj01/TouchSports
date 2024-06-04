@@ -63,7 +63,7 @@ const UpdateCentre = () => {
     } else {
       console.error("El centro no existe.");
     }
-    history.push(window.location.href="/");
+    history.push(window.location.href="/home");
   };
 
   const handleImageUrl = (centreName: string) => {

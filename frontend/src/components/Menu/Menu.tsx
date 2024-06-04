@@ -90,7 +90,7 @@ const Menu = ({ disabled }: MenuProps) => {
           </StyledIonItem>
           <StyledIonItem color="primary">
             <Icon icon={logOut} />
-            <StyledLink onClick={() => {window.location.href ="/sign-in"}}>Cerrar Sesión</StyledLink>
+            <StyledLink onClick={() => {window.location.href ="/"}}>Cerrar Sesión</StyledLink>
           </StyledIonItem>
         </IonContent>
       </IonMenu>

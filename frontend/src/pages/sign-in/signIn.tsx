@@ -52,7 +52,7 @@ const SignIn = () => {
     }
 
     localStorage.removeItem("trainerId"); 
-    history.push(window.location.href="/");
+    history.push(window.location.href="/home");
   };
 
   const playerResponse = async (credentialResponse: any) => {

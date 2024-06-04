@@ -52,8 +52,8 @@ const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
-        <Route exact path="/home" component={Home} />
-        <Route path="/sign-in" component={SignIn} />
+        <Route path="/" component={SignIn} />
+        <Route path="/home" component={Home} />
         <Route path="/home/profile" component={Profile} />
         <Route path="/home/calendar" component={Calendar} />
         <Route path="/home/teams" component={Teams} />
@@ -90,9 +90,7 @@ const App: React.FC = () => (
           path="/home/reserves/:centresId/:reserveId/update-reserve"
           component={UpdateReserve}
         />
-        <Route exact path="/">
-          <Redirect to="/home" />
-        </Route>
+        
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>

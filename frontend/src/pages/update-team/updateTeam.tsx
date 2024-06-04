@@ -58,7 +58,7 @@ const UpdateTeam = () => {
     } else {
       console.error("El equipo no existe.");
     }
-    history.push(window.location.href="/");
+    history.push(window.location.href="/home");
   };
 
   const handleImageUrl = (teamName: string) => {

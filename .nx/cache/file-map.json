@@ -97,16 +97,28 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".gitignore",
-        "hash": "1398178998339616447"
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
       },
       {
         "file": ".vscode/settings.json",
         "hash": "6703405954808146235"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "file": "package.json",
+        "hash": "16079508552978807636"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1398178998339616447"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "15155952317156726532"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
       },
       {
         "file": "jest.preset.js",
@@ -117,28 +129,16 @@
         "hash": "319288953677755740"
       },
       {
-        "file": "package-lock.json",
-        "hash": "15155952317156726532"
-      },
-      {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
       },
       {
         "file": "README.md",
         "hash": "10104707244890837311"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "package.json",
-        "hash": "16079508552978807636"
+        "file": "nx.json",
+        "hash": "4595224623132836319"
       }
     ],
     "projectFileMap": {
@@ -286,7 +286,7 @@
         },
         {
           "file": "frontend/src/App.tsx",
-          "hash": "1615790229495278404",
+          "hash": "101196326985032226",
           "deps": [
             "npm:react-router-dom",
             "npm:@ionic/react",
@@ -374,7 +374,7 @@
         },
         {
           "file": "frontend/src/components/menu/menu.tsx",
-          "hash": "10239949921390465602",
+          "hash": "8260298040551897473",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -563,7 +563,7 @@
         },
         {
           "file": "frontend/src/pages/sign-in/signIn.tsx",
-          "hash": "3975195087952508299",
+          "hash": "14167976969150399971",
           "deps": [
             "npm:@ionic/react",
             "npm:styled-components",
@@ -606,7 +606,7 @@
         },
         {
           "file": "frontend/src/pages/update-centre/updateCentre.tsx",
-          "hash": "1697553274778652195",
+          "hash": "12971838817966674886",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
@@ -636,7 +636,7 @@
         },
         {
           "file": "frontend/src/pages/update-team/updateTeam.tsx",
-          "hash": "16546610628323783007",
+          "hash": "12797102746755276393",
           "deps": [
             "npm:@ionic/react",
             "npm:react",
