@@ -97,48 +97,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
+        "file": "nx.json",
+        "hash": "4595224623132836319"
       },
       {
         "file": ".gitignore",
         "hash": "1398178998339616447"
       },
       {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
-      },
-      {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "15155952317156726532"
-      },
-      {
         "file": "jest.config.ts",
         "hash": "12333515226966617182"
+      },
+      {
+        "file": "package.json",
+        "hash": "16079508552978807636"
       },
       {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
       },
       {
+        "file": "package-lock.json",
+        "hash": "15155952317156726532"
+      },
+      {
         "file": "docker-compose.yml",
         "hash": "319288953677755740"
       },
       {
-        "file": "package.json",
-        "hash": "16079508552978807636"
+        "file": "README.md",
+        "hash": "10104707244890837311"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
       }
     ],
     "projectFileMap": {
@@ -1143,7 +1143,7 @@
         },
         {
           "file": "backend/src/trainers/infrastructure/nodemailer/NotifierAdapter.ts",
-          "hash": "8672886363418488511",
+          "hash": "446785751172345504",
           "deps": [
             "npm:nodemailer"
           ]

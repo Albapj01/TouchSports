@@ -34,20 +34,21 @@ export class NodemailerNotifier implements NotifierPort {
     await this.transporter.sendMail({
       from: '"TouchSport" <${process.env.NODEMAILER_USER}>',
       to: player.email,
-      subject: "Has sido creado como jugador en un equipo 👏🏻",
+      subject: "Has sido creado como jugador en un equipo 👏🏻.",
       html: `
             <p>¡Has sido añadido por ${trainer.name} ${trainer.surname} al equipo ${team.name} con los siguientes datos!</p>
             <p>Nombre: ${player.name}</p>
             <p>Apellidos: ${player.surname}</p>
-            <p>Correo electrónico: ${player.email}</p>
+            <p>Correo electrónico ✉️: ${player.email}</p>
+            <p>Teléfono 📞: ${player.telephone}</p>
             <br></br>
-            <p>Tu dieta asignada es: ${player.diet}</p>
+            <p>Tu dieta asignada es 🥗: ${player.diet}</p>
             <br></br>
             <p>Entrenamientos personalizados:</p>
-            <p>Los entrenamientos técnicos a seguir son: ${player.technicalTraining}</p>
-            <p>Los entrenamientos físicos a seguir son: ${player.physicalTraining}</p>
+            <p>Los entrenamientos técnicos a seguir son 🏃‍♂️: ${player.technicalTraining}</p>
+            <p>Los entrenamientos físicos a seguir son 🏋️‍♂️: ${player.physicalTraining}</p>
             <br></br>
-            <p>Las mejoras que te ha escrito tu entrenador son: ${player.improvements}</p>
+            <p>Las mejoras que te ha escrito tu entrenador son 👍: ${player.improvements}</p>
         `,
     });
   }
@@ -56,20 +57,21 @@ export class NodemailerNotifier implements NotifierPort {
     await this.transporter.sendMail({
       from: '"TouchSport" <${process.env.NODEMAILER_USER}>',
       to: player.email,
-      subject: "El entrenador ha modificado tus datos.",
+      subject: "El entrenador ha modificado tus datos ✏️.",
       html: `
             <p>Las actualizaciones son: </p>
             <p>Nombre: ${player.name}</p>
             <p>Apellidos: ${player.surname}</p>
-            <p>Correo electrónico: ${player.email}</p>
+            <p>Correo electrónico ✉️: ${player.email}</p>
+            <p>Teléfono 📞: ${player.telephone}</p>
             <br></br>
-            <p>Tu dieta asignada es: ${player.diet}</p>
+            <p>Tu dieta asignada es 🥗: ${player.diet}</p>
             <br></br>
             <p>Entrenamientos personalizados:</p>
-            <p>Los entrenamientos técnicos a seguir son: ${player.technicalTraining}</p>
-            <p>Los entrenamientos físicos a seguir son: ${player.physicalTraining}</p>
+            <p>Los entrenamientos técnicos a seguir son 🏃‍♂️: ${player.technicalTraining}</p>
+            <p>Los entrenamientos físicos a seguir son 🏋️‍♂️: ${player.physicalTraining}</p>
             <br></br>
-            <p>Las mejoras que te ha escrito tu entrenador son: ${player.improvements}</p>
+            <p>Las mejoras que te ha escrito tu entrenador son 👍: ${player.improvements}</p>
         `,
     });
   }
@@ -84,12 +86,12 @@ export class NodemailerNotifier implements NotifierPort {
       await this.transporter.sendMail({
         from: '"TouchSport" <${process.env.NODEMAILER_USER}>',
         to: player.email,
-        subject: "Tienes un nuevo entrenamiento.",
+        subject: "Tienes un nuevo entrenamiento 👏🏻.",
         html: `
-              <p>Hola ${player.name},</p>
+              <p>Hola ${player.name} 👋,</p>
               <p>Se va ha realizar un nuevo entrenamiento para tu equipo ${team.name}.</p>
-              <p>El lugar del entreno es ${centre.name} localizado en ${centre.location}.</p>
-              <p>El horario del entreno es de ${reserve.startReserve} a ${reserve.endReserve}.</p>
+              <p>El lugar del entreno es ${centre.name} localizado en 📍 ${centre.location}.</p>
+              <p>El horario del entreno es de ⏳ ${reserve.startReserve} a ⏳ ${reserve.endReserve}.</p>
           `,
       });
     }
@@ -105,13 +107,13 @@ export class NodemailerNotifier implements NotifierPort {
       await this.transporter.sendMail({
         from: '"TouchSport" <${process.env.NODEMAILER_USER}>',
         to: player.email,
-        subject: "Se ha actualizado el entrenamiento.",
+        subject: "Se ha actualizado el entrenamiento ✏️.",
         html: `
-              <p>Hola ${player.name},</p>
+              <p>Hola ${player.name} 👋,</p>
               <p>Se va ha actualizado el entrenamiento para tu equipo ${team.name}.</p>
               <p>Los nuevos datos del entrenamiento son:</p>
-              <p>El lugar del entreno es ${centre.name} localizado en ${centre.location}.</p>
-              <p>El horario del entreno es de ${reserve.startReserve} a ${reserve.endReserve}.</p>
+              <p>El lugar del entreno es ${centre.name} localizado en 📍 ${centre.location}.</p>
+              <p>El horario del entreno es de ⏳ ${reserve.startReserve} a ⏳ ${reserve.endReserve}.</p>
           `,
       });
     }
@@ -127,12 +129,12 @@ export class NodemailerNotifier implements NotifierPort {
       await this.transporter.sendMail({
         from: '"TouchSport" <${process.env.NODEMAILER_USER}>',
         to: player.email,
-        subject: "Se ha cancelado el entrenamiento.",
+        subject: "Se ha cancelado el entrenamiento ❌.",
         html: `
-              <p>Hola ${player.name},</p>
+              <p>Hola ${player.name} 👋,</p>
               <p>Se va ha cancelado el entrenamiento para tu equipo ${team.name} con los datos:</p>
-              <p>El lugar del entreno era en ${centre.name} localizado en ${centre.location}.</p>
-              <p>El horario del entreno era de ${reserve.startReserve} a ${reserve.endReserve}.</p>
+              <p>El lugar del entreno era en ${centre.name} localizado en 📍 ${centre.location}.</p>
+              <p>El horario del entreno era de ⏳ ${reserve.startReserve} a ⏳ ${reserve.endReserve}.</p>
           `,
       });
     }
