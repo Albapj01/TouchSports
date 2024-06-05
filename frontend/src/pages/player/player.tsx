@@ -101,7 +101,7 @@ const PlayerInfo = () => {
         <IonContent fullscreen>
           <Menu disabled={disabled} />
           {disabled ? (
-            <Link to="/sign-in">
+            <Link to="/">
               <LogOutContainer onClick={handleLogOut}>
                 <StyledIonIcon icon={logOut} color="primary" />
               </LogOutContainer>

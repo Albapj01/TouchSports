@@ -1,9 +1,5 @@
-import { Redirect, Route } from "react-router-dom";
-import {
-  IonApp,
-  IonRouterOutlet,
-  setupIonicReact,
-} from "@ionic/react";
+import { Link, Redirect, Route, Router, Switch } from "react-router-dom";
+import { IonApp, IonRouterOutlet, setupIonicReact } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import React from "react";
 import Home from "./pages/home/home";
@@ -45,14 +41,39 @@ import UpdateReserve from "./pages/update-reserve/updateReserve";
 import Calendar from "./pages/calendar/calendar";
 import Diet from "./pages/diet/diet";
 import Training from "./pages/training/training";
+import decodeJwt, { storage } from "./utils/functions/storage";
+import { TokenPayload } from "google-auth-library";
 
 setupIonicReact();
 
-const App: React.FC = () => (
+const App: React.FC = () => {
+  const token: string = storage.get("token");
+  const decodedToken: TokenPayload = decodeJwt(token).payload;
+
+  const isAuthenticated =
+    token && decodedToken.iss === "https://accounts.google.com";
+
+  return (
+    <IonApp>
+      <IonReactRouter>
+        <IonRouterOutlet>
+          <Route path="/" exact component={SignIn} />
+          <Route
+            path="/home"
+            render={() =>
+              isAuthenticated ? <HomeRoutes /> : <Redirect to="/" />
+            }
+          />
+        </IonRouterOutlet>
+      </IonReactRouter>
+    </IonApp>
+  );
+};
+
+const HomeRoutes: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
-        <Route path="/" component={SignIn} />
         <Route path="/home" component={Home} />
         <Route path="/home/profile" component={Profile} />
         <Route path="/home/calendar" component={Calendar} />
@@ -68,7 +89,10 @@ const App: React.FC = () => (
           path="/home/teams/:teamId/player/:playerId/diet"
           component={Diet}
         />
-        <Route path="/home/teams/:teamId/player/:playerId/training" component={Training}></Route>
+        <Route
+          path="/home/teams/:teamId/player/:playerId/training"
+          component={Training}
+        ></Route>
         <Route
           path="/home/teams/:teamId/player/:playerId/update-player"
           component={UpdatePlayer}
@@ -90,7 +114,6 @@ const App: React.FC = () => (
           path="/home/reserves/:centresId/:reserveId/update-reserve"
           component={UpdateReserve}
         />
-        
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
