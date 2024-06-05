@@ -6841,6 +6841,15 @@
         "hash": "sha512-atNjmYfHsvTuCaxTxLZr9xGoHz53LLui3266WWxXJHY7+N6OdwJdg/feEa3T+buez9dmUXHT1izCOklqG82uCQ=="
       }
     },
+    "npm:cypress-localstorage-commands": {
+      "type": "npm",
+      "name": "npm:cypress-localstorage-commands",
+      "data": {
+        "version": "2.2.4",
+        "packageName": "cypress-localstorage-commands",
+        "hash": "sha512-XiWFJhhgcoWf7p6sS5igGuN8WWGF0K1jRCPo2XlikwEWgts1uvPl80cybGiztYoNrU1xCbQO9/IOz6Y0eTl4Lg=="
+      }
+    },
     "npm:human-signals@1.1.1": {
       "type": "npm",
       "name": "npm:human-signals@1.1.1",
@@ -14112,6 +14121,11 @@
         "source": "frontend-e2e",
         "target": "npm:cypress",
         "type": "static"
+      },
+      {
+        "source": "frontend-e2e",
+        "target": "npm:cypress-localstorage-commands",
+        "type": "static"
       }
     ],
     "backend-e2e": [
@@ -14165,6 +14179,11 @@
       {
         "source": "frontend",
         "target": "npm:@ionic/react-router",
+        "type": "static"
+      },
+      {
+        "source": "frontend",
+        "target": "npm:google-auth-library",
         "type": "static"
       },
       {
@@ -23802,6 +23821,13 @@
       {
         "source": "npm:cypress",
         "target": "npm:yauzl",
+        "type": "static"
+      }
+    ],
+    "npm:cypress-localstorage-commands": [
+      {
+        "source": "npm:cypress-localstorage-commands",
+        "target": "npm:cypress",
         "type": "static"
       }
     ],
