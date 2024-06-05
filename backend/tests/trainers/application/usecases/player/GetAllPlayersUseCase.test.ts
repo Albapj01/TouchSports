@@ -47,7 +47,6 @@ describe("GetAllPlayersUseCase", () => {
       "trainer-name",
       "trainer-surname",
       "trainer-email@example.com",
-      "123456789",
       [team],
       "http://example.com/image.jpg",
       []
@@ -117,7 +116,6 @@ describe("GetAllPlayersUseCase", () => {
       "trainer-name",
       "trainer-surname",
       "trainer-email@example.com",
-      "123456789",
       [team],
       "http://example.com/image.jpg",
       []

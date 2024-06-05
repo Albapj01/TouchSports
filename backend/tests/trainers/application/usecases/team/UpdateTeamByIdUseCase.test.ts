@@ -19,7 +19,6 @@ describe("UpdateTeamById", () => {
       "trainer-name",
       "trainer-surname",
       "trainer-email@example.com",
-      "123456789",
       teams,
       "http://example.com/image.jpg",
       []
@@ -83,7 +82,6 @@ describe("UpdateTeamById", () => {
       "trainer-name",
       "trainer-surname",
       "trainer-email@example.com",
-      "123456789",
       teams,
       "http://example.com/image.jpg",
       []

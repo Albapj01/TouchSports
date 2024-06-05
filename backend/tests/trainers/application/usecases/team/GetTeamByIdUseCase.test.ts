@@ -19,7 +19,6 @@ describe("GetTeamById", () => {
       "trainer-name",
       "trainer-surname",
       "trainer-email@example.com",
-      "123456789",
       teams,
       "http://example.com/image.jpg",
       []
@@ -63,7 +62,6 @@ describe("GetTeamById", () => {
       "trainer-name",
       "trainer-surname",
       "trainer-email@example.com",
-      "123456789",
       teams,
       "http://example.com/image.jpg",
       []

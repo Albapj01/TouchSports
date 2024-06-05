@@ -19,7 +19,6 @@ describe("DeleteTeamById", () => {
       "trainer-name",
       "trainer-surname",
       "trainer-email@example.com",
-      "123456789",
       teams,
       "http://example.com/image.jpg",
       []
@@ -60,7 +59,6 @@ describe("DeleteTeamById", () => {
       "trainer-name",
       "trainer-surname",
       "trainer-email@example.com",
-      "123456789",
       teams,
       "http://example.com/image.jpg",
       []

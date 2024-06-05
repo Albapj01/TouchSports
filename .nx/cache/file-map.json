@@ -97,8 +97,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
       },
       {
         "file": ".vscode/settings.json",
@@ -113,32 +117,28 @@
         "hash": "1398178998339616447"
       },
       {
-        "file": "package-lock.json",
-        "hash": "15155952317156726532"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
-      },
-      {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
       },
       {
-        "file": "docker-compose.yml",
-        "hash": "319288953677755740"
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
+        "file": "nx.json",
+        "hash": "4595224623132836319"
       },
       {
         "file": "README.md",
         "hash": "10104707244890837311"
       },
       {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
+        "file": "package-lock.json",
+        "hash": "15155952317156726532"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "319288953677755740"
       }
     ],
     "projectFileMap": {
@@ -161,7 +161,7 @@
         },
         {
           "file": "frontend-e2e/src/e2e/app.cy.ts",
-          "hash": "16383929608521807846"
+          "hash": "14127942388263227637"
         },
         {
           "file": "frontend-e2e/src/fixtures/example.json",
@@ -182,50 +182,6 @@
         {
           "file": "frontend-e2e/tsconfig.json",
           "hash": "4966899981699294432"
-        }
-      ],
-      "backend-e2e": [
-        {
-          "file": "backend-e2e/.eslintrc.json",
-          "hash": "11808533155536463924"
-        },
-        {
-          "file": "backend-e2e/jest.config.ts",
-          "hash": "2507509416108260741"
-        },
-        {
-          "file": "backend-e2e/project.json",
-          "hash": "1553543349876778842"
-        },
-        {
-          "file": "backend-e2e/src/backend/backend.spec.ts",
-          "hash": "4579662685003779048",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "backend-e2e/src/support/global-setup.ts",
-          "hash": "2568409276037275290"
-        },
-        {
-          "file": "backend-e2e/src/support/global-teardown.ts",
-          "hash": "5275447082211835490"
-        },
-        {
-          "file": "backend-e2e/src/support/test-setup.ts",
-          "hash": "10984585515912236441",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "backend-e2e/tsconfig.json",
-          "hash": "2346920493880922870"
-        },
-        {
-          "file": "backend-e2e/tsconfig.spec.json",
-          "hash": "14226830188665428950"
         }
       ],
       "frontend": [
@@ -303,16 +259,84 @@
           "hash": "17482944836898362639"
         },
         {
+          "file": "frontend/src/assets/images/abs.png",
+          "hash": "17806830498215892347"
+        },
+        {
+          "file": "frontend/src/assets/images/basketball.png",
+          "hash": "10341475664733109739"
+        },
+        {
+          "file": "frontend/src/assets/images/centre.png",
+          "hash": "8755617433358592913"
+        },
+        {
+          "file": "frontend/src/assets/images/continuous-run.png",
+          "hash": "10076327419251573657"
+        },
+        {
+          "file": "frontend/src/assets/images/diet.png",
+          "hash": "1662970838006225837"
+        },
+        {
+          "file": "frontend/src/assets/images/dumbbells.png",
+          "hash": "1541949770714357059"
+        },
+        {
           "file": "frontend/src/assets/images/fondo.jpeg",
           "hash": "6782446924284716492"
+        },
+        {
+          "file": "frontend/src/assets/images/handball.png",
+          "hash": "14706442947103647107"
         },
         {
           "file": "frontend/src/assets/images/logo.png",
           "hash": "15445526247310865559"
         },
         {
+          "file": "frontend/src/assets/images/pidal.png",
+          "hash": "10316342747384901586"
+        },
+        {
+          "file": "frontend/src/assets/images/plank.png",
+          "hash": "11640977591135728465"
+        },
+        {
+          "file": "frontend/src/assets/images/push-ups.png",
+          "hash": "16297711298797294917"
+        },
+        {
+          "file": "frontend/src/assets/images/soccer.png",
+          "hash": "4725834624203963204"
+        },
+        {
+          "file": "frontend/src/assets/images/sprint.png",
+          "hash": "10408362456363172614"
+        },
+        {
+          "file": "frontend/src/assets/images/squats.png",
+          "hash": "14291983131170807246"
+        },
+        {
+          "file": "frontend/src/assets/images/team.png",
+          "hash": "6992521000953714607"
+        },
+        {
           "file": "frontend/src/assets/images/toolbar-image.png",
           "hash": "11058713035502101139"
+        },
+        {
+          "file": "frontend/src/assets/images/training.png",
+          "hash": "13586449318379957960"
+        },
+        {
+          "file": "frontend/src/assets/images/va.png",
+          "hash": "14203890901838673204"
+        },
+        {
+          "file": "frontend/src/assets/images/volleyball.png",
+          "hash": "5614530442529017520"
         },
         {
           "file": "frontend/src/components/avatar/avatar.tsx",
@@ -718,74 +742,50 @@
             "npm:@nx/webpack",
             "npm:@nx/react"
           ]
+        }
+      ],
+      "backend-e2e": [
+        {
+          "file": "backend-e2e/.eslintrc.json",
+          "hash": "11808533155536463924"
         },
         {
-          "file": "frontend/src/assets/images/team.png",
-          "hash": "6992521000953714607"
+          "file": "backend-e2e/jest.config.ts",
+          "hash": "2507509416108260741"
         },
         {
-          "file": "frontend/src/assets/images/abs.png",
-          "hash": "17806830498215892347"
+          "file": "backend-e2e/project.json",
+          "hash": "1553543349876778842"
         },
         {
-          "file": "frontend/src/assets/images/continuous-run.png",
-          "hash": "10076327419251573657"
+          "file": "backend-e2e/src/backend/backend.spec.ts",
+          "hash": "4579662685003779048",
+          "deps": [
+            "npm:axios"
+          ]
         },
         {
-          "file": "frontend/src/assets/images/basketball.png",
-          "hash": "10341475664733109739"
+          "file": "backend-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
         },
         {
-          "file": "frontend/src/assets/images/volleyball.png",
-          "hash": "5614530442529017520"
+          "file": "backend-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
         },
         {
-          "file": "frontend/src/assets/images/centre.png",
-          "hash": "8755617433358592913"
+          "file": "backend-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
+          "deps": [
+            "npm:axios"
+          ]
         },
         {
-          "file": "frontend/src/assets/images/handball.png",
-          "hash": "14706442947103647107"
+          "file": "backend-e2e/tsconfig.json",
+          "hash": "2346920493880922870"
         },
         {
-          "file": "frontend/src/assets/images/soccer.png",
-          "hash": "4725834624203963204"
-        },
-        {
-          "file": "frontend/src/assets/images/squats.png",
-          "hash": "14291983131170807246"
-        },
-        {
-          "file": "frontend/src/assets/images/diet.png",
-          "hash": "1662970838006225837"
-        },
-        {
-          "file": "frontend/src/assets/images/training.png",
-          "hash": "13586449318379957960"
-        },
-        {
-          "file": "frontend/src/assets/images/push-ups.png",
-          "hash": "16297711298797294917"
-        },
-        {
-          "file": "frontend/src/assets/images/sprint.png",
-          "hash": "10408362456363172614"
-        },
-        {
-          "file": "frontend/src/assets/images/plank.png",
-          "hash": "11640977591135728465"
-        },
-        {
-          "file": "frontend/src/assets/images/dumbbells.png",
-          "hash": "1541949770714357059"
-        },
-        {
-          "file": "frontend/src/assets/images/va.png",
-          "hash": "14203890901838673204"
-        },
-        {
-          "file": "frontend/src/assets/images/pidal.png",
-          "hash": "10316342747384901586"
+          "file": "backend-e2e/tsconfig.spec.json",
+          "hash": "14226830188665428950"
         }
       ],
       "backend": [
@@ -1183,19 +1183,19 @@
         },
         {
           "file": "backend/tests/trainers/application/usecases/centres/DeleteCentresByIdUseCase.test.ts",
-          "hash": "18298057241397661247"
+          "hash": "5818797681778362111"
         },
         {
           "file": "backend/tests/trainers/application/usecases/centres/GetAllCentresUseCase.test.ts",
-          "hash": "4683562035903783291"
+          "hash": "3074905069172322283"
         },
         {
           "file": "backend/tests/trainers/application/usecases/centres/GetCentresByIdUseCase.test.ts",
-          "hash": "11736764370487946595"
+          "hash": "15277115300043361837"
         },
         {
           "file": "backend/tests/trainers/application/usecases/centres/UpdateCentresByIdUseCase.test.ts",
-          "hash": "3932895328745296365"
+          "hash": "15621976475555249595"
         },
         {
           "file": "backend/tests/trainers/application/usecases/player/CreatePlayerUseCase.test.ts",
@@ -1203,43 +1203,43 @@
         },
         {
           "file": "backend/tests/trainers/application/usecases/player/DeletePlayerByIdUseCase.test.ts",
-          "hash": "13591291048243426307"
+          "hash": "13503230050066267073"
         },
         {
           "file": "backend/tests/trainers/application/usecases/player/GetAllPlayersUseCase.test.ts",
-          "hash": "1815087994749662775"
+          "hash": "14372852892218598306"
         },
         {
           "file": "backend/tests/trainers/application/usecases/player/GetPlayerByEmailUseCase.test.ts",
-          "hash": "11062270369188898497"
+          "hash": "17754327524675812940"
         },
         {
           "file": "backend/tests/trainers/application/usecases/player/GetPlayerByIdUseCase.test.ts",
-          "hash": "3673641450678831515"
+          "hash": "10135081249556989775"
         },
         {
           "file": "backend/tests/trainers/application/usecases/player/UpdatePlayerByIdUseCase.test.ts",
-          "hash": "1842345286884214166"
+          "hash": "17112988634913036161"
         },
         {
           "file": "backend/tests/trainers/application/usecases/reserve/CreateReserveUseCase.test.ts",
-          "hash": "12716104776663852283"
+          "hash": "15342839112610881510"
         },
         {
           "file": "backend/tests/trainers/application/usecases/reserve/DeleteReserveByIdUseCase.test.ts",
-          "hash": "14092621905208168935"
+          "hash": "6201981531274020487"
         },
         {
           "file": "backend/tests/trainers/application/usecases/reserve/GetReserveByIdUseCase.test.ts",
-          "hash": "13912070620749509147"
+          "hash": "16835580667638926093"
         },
         {
           "file": "backend/tests/trainers/application/usecases/reserve/GetTrainerReservesUseCase.test.ts",
-          "hash": "12143064788680540710"
+          "hash": "11780748385596674310"
         },
         {
           "file": "backend/tests/trainers/application/usecases/reserve/UpdateReserveByIdUseCase.test.ts",
-          "hash": "14138171050955427784"
+          "hash": "6286882114808306163"
         },
         {
           "file": "backend/tests/trainers/application/usecases/team/CreateTeamUseCase.test.ts",
@@ -1247,35 +1247,35 @@
         },
         {
           "file": "backend/tests/trainers/application/usecases/team/DeleteTeamByIdUseCase.test.ts",
-          "hash": "13786347003345934266"
+          "hash": "9644715070106116913"
         },
         {
           "file": "backend/tests/trainers/application/usecases/team/GetAllTeamsUseCase.test.ts",
-          "hash": "2165952336730711923"
+          "hash": "3067360291329533545"
         },
         {
           "file": "backend/tests/trainers/application/usecases/team/GetTeamByIdUseCase.test.ts",
-          "hash": "5532370866789302269"
+          "hash": "3377008058713776052"
         },
         {
           "file": "backend/tests/trainers/application/usecases/team/UpdateTeamByIdUseCase.test.ts",
-          "hash": "18355005531898397676"
+          "hash": "1594495471845040099"
         },
         {
           "file": "backend/tests/trainers/application/usecases/trainer/CreateTrainerUseCase.test.ts",
-          "hash": "17496614948584030573"
+          "hash": "10110710058507274619"
         },
         {
           "file": "backend/tests/trainers/application/usecases/trainer/GetAllTrainersUseCase.test.ts",
-          "hash": "5772648974097258339"
+          "hash": "6431758422270156100"
         },
         {
           "file": "backend/tests/trainers/application/usecases/trainer/GetTrainerByEmailUseCase.test.ts",
-          "hash": "12072052150586818104"
+          "hash": "10700803906819952712"
         },
         {
           "file": "backend/tests/trainers/application/usecases/trainer/GetTrainerByIdUseCase.test.ts",
-          "hash": "3141475212932077129"
+          "hash": "13266761982187748491"
         },
         {
           "file": "backend/tsconfig.app.json",

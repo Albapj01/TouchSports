@@ -14,7 +14,6 @@ describe("GetTrainerByEmail", () => {
         "John",
         "Doe",
         "john@example.com",
-        "123456789",
         [],
         "http://example.com/john.jpg",
         []
@@ -24,7 +23,6 @@ describe("GetTrainerByEmail", () => {
         "Jane",
         "Smith",
         "jane@example.com",
-        "987654321",
         [],
         "http://example.com/jane.jpg",
         []

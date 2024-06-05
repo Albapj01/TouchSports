@@ -12,7 +12,6 @@ describe("CreateTrainer", () => {
     "trainer-name",
     "trainer-surname",
     "trainer-email@example.com",
-    "123456789",
     [],
     "http://example.com/image.jpg",
     []

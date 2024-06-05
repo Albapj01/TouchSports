@@ -38,7 +38,6 @@ describe("GetReserveByIdUseCase", () => {
       "trainer-name",
       "trainer-surname",
       "trainer-email@example.com",
-      "123456789",
       [],
       "http://example.com/image.jpg",
       [centre]
@@ -91,7 +90,6 @@ describe("GetReserveByIdUseCase", () => {
       "trainer-name",
       "trainer-surname",
       "trainer-email@example.com",
-      "123456789",
       [],
       "http://example.com/image.jpg",
       []
@@ -126,7 +124,6 @@ describe("GetReserveByIdUseCase", () => {
       "trainer-name",
       "trainer-surname",
       "trainer-email@example.com",
-      "123456789",
       [],
       "http://example.com/image.jpg",
       [centre]

@@ -37,7 +37,6 @@ describe("CreateReserveUseCase", () => {
       "trainer-name",
       "trainer-surname",
       "trainer-email@example.com",
-      "123456789",
       [team],
       "http://example.com/image.jpg",
       [centre]
@@ -82,7 +81,6 @@ describe("CreateReserveUseCase", () => {
       "trainer-name",
       "trainer-surname",
       "trainer-email@example.com",
-      "123456789",
       [team], 
       "http://example.com/image.jpg",
       [centre]
@@ -159,7 +157,6 @@ describe("CreateReserveUseCase", () => {
       "trainer-name",
       "trainer-surname",
       "trainer-email@example.com",
-      "123456789",
       [],
       "http://example.com/image.jpg",
       [centre]
