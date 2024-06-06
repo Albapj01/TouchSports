@@ -51,7 +51,6 @@ const CentresInfo = () => {
         </IonHeader>
         <IonContent fullscreen>
           <Menu disabled={false} />
-          <IonSearchbar placeholder="Buscar"></IonSearchbar>
           <CentresContainer>
             {centres &&
               centres.map((centre) => (

@@ -89,7 +89,7 @@ export class NodemailerNotifier implements NotifierPort {
         subject: "Tienes un nuevo entrenamiento 👏🏻.",
         html: `
               <p>Hola ${player.name} 👋,</p>
-              <p>Se va ha realizar un nuevo entrenamiento para tu equipo ${team.name}.</p>
+              <p>Se va a realizar un nuevo entrenamiento para tu equipo ${team.name}.</p>
               <p>El lugar del entreno es ${centre.name} localizado en 📍 ${centre.location}.</p>
               <p>El horario del entreno es de ⏳ ${reserve.startReserve} a ⏳ ${reserve.endReserve}.</p>
           `,
@@ -110,7 +110,7 @@ export class NodemailerNotifier implements NotifierPort {
         subject: "Se ha actualizado el entrenamiento ✏️.",
         html: `
               <p>Hola ${player.name} 👋,</p>
-              <p>Se va ha actualizado el entrenamiento para tu equipo ${team.name}.</p>
+              <p>Se ha actualizado el entrenamiento para tu equipo ${team.name}.</p>
               <p>Los nuevos datos del entrenamiento son:</p>
               <p>El lugar del entreno es ${centre.name} localizado en 📍 ${centre.location}.</p>
               <p>El horario del entreno es de ⏳ ${reserve.startReserve} a ⏳ ${reserve.endReserve}.</p>
@@ -132,7 +132,7 @@ export class NodemailerNotifier implements NotifierPort {
         subject: "Se ha cancelado el entrenamiento ❌.",
         html: `
               <p>Hola ${player.name} 👋,</p>
-              <p>Se va ha cancelado el entrenamiento para tu equipo ${team.name} con los datos:</p>
+              <p>Se ha cancelado el entrenamiento para tu equipo ${team.name} con los datos:</p>
               <p>El lugar del entreno era en ${centre.name} localizado en 📍 ${centre.location}.</p>
               <p>El horario del entreno era de ⏳ ${reserve.startReserve} a ⏳ ${reserve.endReserve}.</p>
           `,
