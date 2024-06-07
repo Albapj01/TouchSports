@@ -9,7 +9,7 @@ describe("UpdatePlayerByIdUseCase", () => {
     jest.resetAllMocks();
   });
 
-  it("should update a player by id", async () => {
+  it("should update a player by id and notify it", async () => {
     const originalPlayer = new Player(
       "trainer-id",
       "team-id",
