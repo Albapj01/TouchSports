@@ -98,190 +98,706 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "cypress/e2e/2-advanced-examples/connectors.cy.js",
-        "hash": "59034261821968830"
-      },
-      {
-        "file": "cypress/support/e2e.ts",
-        "hash": "9400169756472368457"
-      },
-      {
-        "file": "cypress/e2e/2-advanced-examples/storage.cy.js",
-        "hash": "2944690491100490743"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "cypress/e2e/2-advanced-examples/utilities.cy.js",
-        "hash": "9569049013972884839"
-      },
-      {
-        "file": "cypress.config.ts",
-        "hash": "782018314816682497"
-      },
-      {
-        "file": "cypress/e2e/2-advanced-examples/misc.cy.js",
-        "hash": "5957085892300514187"
-      },
-      {
-        "file": "README.md",
-        "hash": "10104707244890837311"
-      },
-      {
         "file": "package.json",
         "hash": "13712447854073021618"
+      },
+      {
+        "file": "cypress/e2e/2-advanced-examples/cypress_api.cy.js",
+        "hash": "15694055627211626844"
       },
       {
         "file": "cypress/e2e/2-advanced-examples/cookies.cy.js",
         "hash": "8053093286844796152"
       },
       {
-        "file": "cypress/e2e/2-advanced-examples/traversal.cy.js",
-        "hash": "15067570857743405968"
+        "file": "cypress/support/e2e.ts",
+        "hash": "9400169756472368457"
       },
       {
         "file": "cypress/e2e/2-advanced-examples/aliasing.cy.js",
         "hash": "18311887177345868414"
       },
       {
-        "file": "nx.json",
-        "hash": "4595224623132836319"
-      },
-      {
-        "file": "cypress/e2e/1-getting-started/todo.cy.js",
-        "hash": "2818232569560774082"
-      },
-      {
-        "file": "cypress/e2e/2-advanced-examples/location.cy.js",
-        "hash": "8376870708802352719"
-      },
-      {
-        "file": "cypress/e2e/2-advanced-examples/actions.cy.js",
-        "hash": "10731447168881154570"
-      },
-      {
-        "file": "cypress/e2e/2-advanced-examples/files.cy.js",
-        "hash": "17949351610885233640"
-      },
-      {
-        "file": "cypress/support/commands.ts",
-        "hash": "9883532909609567882"
-      },
-      {
-        "file": "cypress/e2e/2-advanced-examples/network_requests.cy.js",
-        "hash": "7651982888087817208"
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
       },
       {
         "file": "docker-compose.yml",
         "hash": "319288953677755740"
       },
       {
-        "file": "cypress/e2e/2-advanced-examples/assertions.cy.js",
-        "hash": "6207496575180533741"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "1374405698569851345"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "6703405954808146235"
-      },
-      {
-        "file": "cypress/e2e/2-advanced-examples/viewport.cy.js",
-        "hash": "16488292178644517657"
-      },
-      {
-        "file": "cypress/fixtures/example.json",
-        "hash": "11785586596216172004"
-      },
-      {
         "file": "cypress/e2e/2-advanced-examples/querying.cy.js",
         "hash": "1048162773914822673"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
+        "file": "cypress/e2e/2-advanced-examples/storage.cy.js",
+        "hash": "2944690491100490743"
       },
       {
-        "file": "cypress/e2e/2-advanced-examples/waiting.cy.js",
-        "hash": "5324560285338190932"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": "cypress/e2e/2-advanced-examples/spies_stubs_clocks.cy.js",
-        "hash": "17056088538671407752"
+        "file": "cypress/e2e/2-advanced-examples/location.cy.js",
+        "hash": "8376870708802352719"
       },
       {
         "file": ".gitignore",
         "hash": "1398178998339616447"
       },
       {
-        "file": "cypress/e2e/2-advanced-examples/window.cy.js",
-        "hash": "5244387326083010912"
+        "file": "cypress/e2e/1-getting-started/todo.cy.js",
+        "hash": "2818232569560774082"
       },
       {
-        "file": "LICENSE",
-        "hash": "15553496959705771468"
+        "file": "cypress/e2e/2-advanced-examples/traversal.cy.js",
+        "hash": "15067570857743405968"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "6703405954808146235"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "cypress/e2e/2-advanced-examples/waiting.cy.js",
+        "hash": "5324560285338190932"
+      },
+      {
+        "file": "cypress/e2e/2-advanced-examples/misc.cy.js",
+        "hash": "5957085892300514187"
       },
       {
         "file": "cypress/e2e/2-advanced-examples/navigation.cy.js",
         "hash": "2701621596507220689"
       },
       {
-        "file": "cypress/e2e/2-advanced-examples/cypress_api.cy.js",
-        "hash": "15694055627211626844"
+        "file": "cypress/e2e/2-advanced-examples/network_requests.cy.js",
+        "hash": "7651982888087817208"
+      },
+      {
+        "file": "cypress/e2e/2-advanced-examples/connectors.cy.js",
+        "hash": "59034261821968830"
+      },
+      {
+        "file": "cypress.config.ts",
+        "hash": "782018314816682497"
+      },
+      {
+        "file": "cypress/support/commands.ts",
+        "hash": "9883532909609567882"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "1374405698569851345"
+      },
+      {
+        "file": "README.md",
+        "hash": "10104707244890837311"
+      },
+      {
+        "file": "cypress/e2e/2-advanced-examples/files.cy.js",
+        "hash": "17949351610885233640"
+      },
+      {
+        "file": "cypress/fixtures/example.json",
+        "hash": "11785586596216172004"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "cypress/e2e/2-advanced-examples/assertions.cy.js",
+        "hash": "6207496575180533741"
+      },
+      {
+        "file": "cypress/e2e/2-advanced-examples/actions.cy.js",
+        "hash": "10731447168881154570"
+      },
+      {
+        "file": "cypress/e2e/2-advanced-examples/spies_stubs_clocks.cy.js",
+        "hash": "17056088538671407752"
+      },
+      {
+        "file": "cypress/e2e/2-advanced-examples/window.cy.js",
+        "hash": "5244387326083010912"
+      },
+      {
+        "file": "cypress/e2e/2-advanced-examples/utilities.cy.js",
+        "hash": "9569049013972884839"
+      },
+      {
+        "file": "cypress/e2e/2-advanced-examples/viewport.cy.js",
+        "hash": "16488292178644517657"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4595224623132836319"
       }
     ],
     "projectFileMap": {
-      "frontend-e2e": [
+      "frontend": [
         {
-          "file": "frontend-e2e/.eslintrc.json",
-          "hash": "12199001048877152138"
+          "file": "frontend/.babelrc",
+          "hash": "13020124393823981135"
         },
         {
-          "file": "frontend-e2e/cypress.config.ts",
-          "hash": "12586416982398116375",
+          "file": "frontend/.eslintrc.json",
+          "hash": "7388911630545237055"
+        },
+        {
+          "file": "frontend/.gitignore",
+          "hash": "13537870046176692662"
+        },
+        {
+          "file": "frontend/capacitor.config.ts",
+          "hash": "4116536459800487387",
           "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
+            "npm:@capacitor/cli"
           ]
         },
         {
-          "file": "frontend-e2e/project.json",
-          "hash": "9587367518965578926"
+          "file": "frontend/ionic.config.json",
+          "hash": "497020969860590300"
         },
         {
-          "file": "frontend-e2e/src/e2e/app.cy.ts",
-          "hash": "12856691816094217488",
+          "file": "frontend/jest.config.ts",
+          "hash": "4050003612117403318",
           "deps": [
-            "npm:cypress-localstorage-commands"
+            "npm:path"
           ]
         },
         {
-          "file": "frontend-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
+          "file": "frontend/package-lock.json",
+          "hash": "9063712143189361092"
         },
         {
-          "file": "frontend-e2e/src/support/app.po.ts",
-          "hash": "11177559716139350958"
+          "file": "frontend/package.json",
+          "hash": "10963720949100764192",
+          "deps": [
+            "npm:@capacitor/cli",
+            "npm:@capacitor/ios",
+            "npm:@capacitor/android"
+          ]
         },
         {
-          "file": "frontend-e2e/src/support/commands.ts",
-          "hash": "5397443931564808659"
+          "file": "frontend/project.json",
+          "hash": "17619938245174945879"
         },
         {
-          "file": "frontend-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
+          "file": "frontend/src/App.test.tsx",
+          "hash": "16918541687654083688",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
         },
         {
-          "file": "frontend-e2e/tsconfig.json",
-          "hash": "4966899981699294432"
+          "file": "frontend/src/App.tsx",
+          "hash": "2613456321490208291",
+          "deps": [
+            "npm:react-router-dom",
+            "npm:@ionic/react",
+            "npm:@ionic/react-router",
+            "npm:react",
+            "npm:google-auth-library"
+          ]
+        },
+        {
+          "file": "frontend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "frontend/src/assets/icon/favicon.png",
+          "hash": "17482944836898362639"
+        },
+        {
+          "file": "frontend/src/assets/images/abs.png",
+          "hash": "17806830498215892347"
+        },
+        {
+          "file": "frontend/src/assets/images/basketball.png",
+          "hash": "10341475664733109739"
+        },
+        {
+          "file": "frontend/src/assets/images/centre.png",
+          "hash": "8755617433358592913"
+        },
+        {
+          "file": "frontend/src/assets/images/continuous-run.png",
+          "hash": "10076327419251573657"
+        },
+        {
+          "file": "frontend/src/assets/images/diet.png",
+          "hash": "1662970838006225837"
+        },
+        {
+          "file": "frontend/src/assets/images/dumbbells.png",
+          "hash": "1541949770714357059"
+        },
+        {
+          "file": "frontend/src/assets/images/fondo.jpeg",
+          "hash": "6782446924284716492"
+        },
+        {
+          "file": "frontend/src/assets/images/handball.png",
+          "hash": "14706442947103647107"
+        },
+        {
+          "file": "frontend/src/assets/images/logo.png",
+          "hash": "15445526247310865559"
+        },
+        {
+          "file": "frontend/src/assets/images/pidal.png",
+          "hash": "10316342747384901586"
+        },
+        {
+          "file": "frontend/src/assets/images/plank.png",
+          "hash": "11640977591135728465"
+        },
+        {
+          "file": "frontend/src/assets/images/push-ups.png",
+          "hash": "16297711298797294917"
+        },
+        {
+          "file": "frontend/src/assets/images/soccer.png",
+          "hash": "4725834624203963204"
+        },
+        {
+          "file": "frontend/src/assets/images/sprint.png",
+          "hash": "10408362456363172614"
+        },
+        {
+          "file": "frontend/src/assets/images/squats.png",
+          "hash": "14291983131170807246"
+        },
+        {
+          "file": "frontend/src/assets/images/team.png",
+          "hash": "6992521000953714607"
+        },
+        {
+          "file": "frontend/src/assets/images/toolbar-image.png",
+          "hash": "11058713035502101139"
+        },
+        {
+          "file": "frontend/src/assets/images/training.png",
+          "hash": "13586449318379957960"
+        },
+        {
+          "file": "frontend/src/assets/images/va.png",
+          "hash": "14203890901838673204"
+        },
+        {
+          "file": "frontend/src/assets/images/volleyball.png",
+          "hash": "5614530442529017520"
+        },
+        {
+          "file": "frontend/src/components/avatar/avatar.tsx",
+          "hash": "5139732708117983375",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react-router-dom",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/components/button/button.tsx",
+          "hash": "9744404881555705206",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/components/card/card.tsx",
+          "hash": "14694678302328649987",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react-router-dom",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/components/datetime/datetime.tsx",
+          "hash": "9257395420966803327",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/components/input/input.tsx",
+          "hash": "10746601295352347378",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/components/list/list.tsx",
+          "hash": "13101331934331083833",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/components/logo/logo.tsx",
+          "hash": "6933079216179271178",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/components/menu/menu.tsx",
+          "hash": "8260298040551897473",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:styled-components",
+            "npm:ionicons"
+          ]
+        },
+        {
+          "file": "frontend/src/components/multi-select/multi-select.tsx",
+          "hash": "13936039494943063036",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/components/segment/segment.tsx",
+          "hash": "2823354059467397061",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/components/tabs/tabs.tsx",
+          "hash": "7343503586400084333",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:ionicons",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "frontend/src/components/toolbar/toolbar.tsx",
+          "hash": "1200199066321892862",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/index.html",
+          "hash": "1160306347251654565"
+        },
+        {
+          "file": "frontend/src/main.tsx",
+          "hash": "14707755481520172423",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:@react-oauth/google"
+          ]
+        },
+        {
+          "file": "frontend/src/manifest.json",
+          "hash": "3518978783361043163"
+        },
+        {
+          "file": "frontend/src/pages/add-centres/addCentres.tsx",
+          "hash": "12959565905311693194",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:styled-components",
+            "npm:react-router-dom",
+            "npm:uuid"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/add-player/addPlayer.tsx",
+          "hash": "9326465350809835978",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:styled-components",
+            "npm:react-router-dom",
+            "npm:uuid"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/add-team/addTeam.tsx",
+          "hash": "13170924912973299906",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:styled-components",
+            "npm:react-router-dom",
+            "npm:uuid"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/calendar/calendar.tsx",
+          "hash": "2331733026889597411",
+          "deps": [
+            "npm:react",
+            "npm:@ionic/react",
+            "npm:date-fns",
+            "npm:styled-components",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/centre-info/centreInfo.tsx",
+          "hash": "16091058459171975952",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:styled-components",
+            "npm:ionicons"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/centres/centres.tsx",
+          "hash": "7857818291469330595",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components",
+            "npm:ionicons",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/diet/diet.tsx",
+          "hash": "5617939689347497823",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/home/home.tsx",
+          "hash": "12774383338172534071",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/player/player.tsx",
+          "hash": "10190756508050789989",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:styled-components",
+            "npm:ionicons",
+            "npm:@react-oauth/google"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/profile/profile.tsx",
+          "hash": "13631407091025999057",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/reserve/reserve.tsx",
+          "hash": "13837482016996904316",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:styled-components",
+            "npm:react-router-dom",
+            "npm:uuid"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/reserves/reserves.tsx",
+          "hash": "860037994880525109",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components",
+            "npm:react",
+            "npm:date-fns",
+            "npm:react-router-dom",
+            "npm:ionicons"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/sign-in/signIn.tsx",
+          "hash": "18264878656348823219",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components",
+            "npm:@react-oauth/google",
+            "npm:react-router-dom",
+            "npm:ionicons",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/team/team.tsx",
+          "hash": "9180997755992923797",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components",
+            "npm:ionicons",
+            "npm:react-router-dom",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/teams/teams.tsx",
+          "hash": "5105265694030869358",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:styled-components",
+            "npm:ionicons",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/training/training.tsx",
+          "hash": "7576247939404816336",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/update-centre/updateCentre.tsx",
+          "hash": "12971838817966674886",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:styled-components",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/update-player/updatePlayer.tsx",
+          "hash": "6490347471584365001",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:styled-components",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/update-reserve/updateReserve.tsx",
+          "hash": "9442210119468283918",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:styled-components",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "frontend/src/pages/update-team/updateTeam.tsx",
+          "hash": "12797102746755276393",
+          "deps": [
+            "npm:@ionic/react",
+            "npm:react",
+            "npm:styled-components",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "frontend/src/setupTests.ts",
+          "hash": "1097796976533895888",
+          "deps": [
+            "npm:@testing-library/jest-dom/extend-expect"
+          ]
+        },
+        {
+          "file": "frontend/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "frontend/src/theme/variables.css",
+          "hash": "15012374211378204362"
+        },
+        {
+          "file": "frontend/src/utils/api/api.tsx",
+          "hash": "1421438130134730394",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "frontend/src/utils/functions/storage.tsx",
+          "hash": "6679079495538601397"
+        },
+        {
+          "file": "frontend/src/utils/interfaces/Centres.tsx",
+          "hash": "14196903492896955141"
+        },
+        {
+          "file": "frontend/src/utils/interfaces/Player.tsx",
+          "hash": "3867186391032835751"
+        },
+        {
+          "file": "frontend/src/utils/interfaces/Reserve.tsx",
+          "hash": "6954605309687037991"
+        },
+        {
+          "file": "frontend/src/utils/interfaces/Team.tsx",
+          "hash": "11726616696654013841"
+        },
+        {
+          "file": "frontend/src/utils/interfaces/Trainer.tsx",
+          "hash": "14888116913261955208"
+        },
+        {
+          "file": "frontend/tests/components/avatar/avatar.test.tsx",
+          "hash": "17851248291595551512",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:@testing-library/jest-dom"
+          ]
+        },
+        {
+          "file": "frontend/tsconfig.app.json",
+          "hash": "16536883993834092355"
+        },
+        {
+          "file": "frontend/tsconfig.json",
+          "hash": "17849894785030224090"
+        },
+        {
+          "file": "frontend/tsconfig.spec.json",
+          "hash": "6810478594055726884"
+        },
+        {
+          "file": "frontend/webpack.config.js",
+          "hash": "9397115949254193752",
+          "deps": [
+            "npm:@nx/webpack",
+            "npm:@nx/react"
+          ]
         }
       ],
       "backend": [
@@ -793,6 +1309,51 @@
           ]
         }
       ],
+      "frontend-e2e": [
+        {
+          "file": "frontend-e2e/.eslintrc.json",
+          "hash": "12199001048877152138"
+        },
+        {
+          "file": "frontend-e2e/cypress.config.ts",
+          "hash": "12586416982398116375",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "frontend-e2e/project.json",
+          "hash": "9587367518965578926"
+        },
+        {
+          "file": "frontend-e2e/src/e2e/app.cy.ts",
+          "hash": "12856691816094217488",
+          "deps": [
+            "npm:cypress-localstorage-commands"
+          ]
+        },
+        {
+          "file": "frontend-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "frontend-e2e/src/support/app.po.ts",
+          "hash": "11177559716139350958"
+        },
+        {
+          "file": "frontend-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "frontend-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "frontend-e2e/tsconfig.json",
+          "hash": "4966899981699294432"
+        }
+      ],
       "backend-e2e": [
         {
           "file": "backend-e2e/.eslintrc.json",
@@ -835,567 +1396,6 @@
         {
           "file": "backend-e2e/tsconfig.spec.json",
           "hash": "14226830188665428950"
-        }
-      ],
-      "frontend": [
-        {
-          "file": "frontend/.babelrc",
-          "hash": "13020124393823981135"
-        },
-        {
-          "file": "frontend/.eslintrc.json",
-          "hash": "7388911630545237055"
-        },
-        {
-          "file": "frontend/.gitignore",
-          "hash": "13537870046176692662"
-        },
-        {
-          "file": "frontend/capacitor.config.ts",
-          "hash": "4116536459800487387",
-          "deps": [
-            "npm:@capacitor/cli"
-          ]
-        },
-        {
-          "file": "frontend/ionic.config.json",
-          "hash": "497020969860590300"
-        },
-        {
-          "file": "frontend/jest.config.ts",
-          "hash": "4050003612117403318",
-          "deps": [
-            "npm:path"
-          ]
-        },
-        {
-          "file": "frontend/package-lock.json",
-          "hash": "9063712143189361092"
-        },
-        {
-          "file": "frontend/package.json",
-          "hash": "10963720949100764192",
-          "deps": [
-            "npm:@capacitor/cli",
-            "npm:@capacitor/ios",
-            "npm:@capacitor/android"
-          ]
-        },
-        {
-          "file": "frontend/project.json",
-          "hash": "17619938245174945879"
-        },
-        {
-          "file": "frontend/src/App.test.tsx",
-          "hash": "16918541687654083688",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "frontend/src/App.tsx",
-          "hash": "2613456321490208291",
-          "deps": [
-            "npm:react-router-dom",
-            "npm:@ionic/react",
-            "npm:@ionic/react-router",
-            "npm:react",
-            "npm:google-auth-library"
-          ]
-        },
-        {
-          "file": "frontend/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "frontend/src/assets/icon/favicon.png",
-          "hash": "17482944836898362639"
-        },
-        {
-          "file": "frontend/src/assets/images/abs.png",
-          "hash": "17806830498215892347"
-        },
-        {
-          "file": "frontend/src/assets/images/basketball.png",
-          "hash": "10341475664733109739"
-        },
-        {
-          "file": "frontend/src/assets/images/centre.png",
-          "hash": "8755617433358592913"
-        },
-        {
-          "file": "frontend/src/assets/images/continuous-run.png",
-          "hash": "10076327419251573657"
-        },
-        {
-          "file": "frontend/src/assets/images/diet.png",
-          "hash": "1662970838006225837"
-        },
-        {
-          "file": "frontend/src/assets/images/dumbbells.png",
-          "hash": "1541949770714357059"
-        },
-        {
-          "file": "frontend/src/assets/images/fondo.jpeg",
-          "hash": "6782446924284716492"
-        },
-        {
-          "file": "frontend/src/assets/images/handball.png",
-          "hash": "14706442947103647107"
-        },
-        {
-          "file": "frontend/src/assets/images/logo.png",
-          "hash": "15445526247310865559"
-        },
-        {
-          "file": "frontend/src/assets/images/pidal.png",
-          "hash": "10316342747384901586"
-        },
-        {
-          "file": "frontend/src/assets/images/plank.png",
-          "hash": "11640977591135728465"
-        },
-        {
-          "file": "frontend/src/assets/images/push-ups.png",
-          "hash": "16297711298797294917"
-        },
-        {
-          "file": "frontend/src/assets/images/soccer.png",
-          "hash": "4725834624203963204"
-        },
-        {
-          "file": "frontend/src/assets/images/sprint.png",
-          "hash": "10408362456363172614"
-        },
-        {
-          "file": "frontend/src/assets/images/squats.png",
-          "hash": "14291983131170807246"
-        },
-        {
-          "file": "frontend/src/assets/images/team.png",
-          "hash": "6992521000953714607"
-        },
-        {
-          "file": "frontend/src/assets/images/toolbar-image.png",
-          "hash": "11058713035502101139"
-        },
-        {
-          "file": "frontend/src/assets/images/training.png",
-          "hash": "13586449318379957960"
-        },
-        {
-          "file": "frontend/src/assets/images/va.png",
-          "hash": "14203890901838673204"
-        },
-        {
-          "file": "frontend/src/assets/images/volleyball.png",
-          "hash": "5614530442529017520"
-        },
-        {
-          "file": "frontend/src/components/avatar/avatar.tsx",
-          "hash": "5139732708117983375",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react-router-dom",
-            "npm:styled-components"
-          ]
-        },
-        {
-          "file": "frontend/src/components/button/button.tsx",
-          "hash": "9744404881555705206",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:styled-components"
-          ]
-        },
-        {
-          "file": "frontend/src/components/card/card.tsx",
-          "hash": "14694678302328649987",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react-router-dom",
-            "npm:styled-components"
-          ]
-        },
-        {
-          "file": "frontend/src/components/datetime/datetime.tsx",
-          "hash": "9257395420966803327",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:styled-components"
-          ]
-        },
-        {
-          "file": "frontend/src/components/input/input.tsx",
-          "hash": "10746601295352347378",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:styled-components"
-          ]
-        },
-        {
-          "file": "frontend/src/components/list/list.tsx",
-          "hash": "13101331934331083833",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:styled-components"
-          ]
-        },
-        {
-          "file": "frontend/src/components/logo/logo.tsx",
-          "hash": "6933079216179271178",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:styled-components"
-          ]
-        },
-        {
-          "file": "frontend/src/components/menu/menu.tsx",
-          "hash": "8260298040551897473",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react",
-            "npm:styled-components",
-            "npm:ionicons"
-          ]
-        },
-        {
-          "file": "frontend/src/components/multi-select/multi-select.tsx",
-          "hash": "13936039494943063036",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react",
-            "npm:styled-components"
-          ]
-        },
-        {
-          "file": "frontend/src/components/segment/segment.tsx",
-          "hash": "2823354059467397061",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react",
-            "npm:styled-components"
-          ]
-        },
-        {
-          "file": "frontend/src/components/tabs/tabs.tsx",
-          "hash": "7343503586400084333",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:ionicons",
-            "npm:react-router-dom"
-          ]
-        },
-        {
-          "file": "frontend/src/components/toolbar/toolbar.tsx",
-          "hash": "1200199066321892862",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:styled-components"
-          ]
-        },
-        {
-          "file": "frontend/src/index.html",
-          "hash": "1160306347251654565"
-        },
-        {
-          "file": "frontend/src/main.tsx",
-          "hash": "14707755481520172423",
-          "deps": [
-            "npm:react",
-            "npm:react-dom",
-            "npm:@react-oauth/google"
-          ]
-        },
-        {
-          "file": "frontend/src/manifest.json",
-          "hash": "3518978783361043163"
-        },
-        {
-          "file": "frontend/src/pages/add-centres/addCentres.tsx",
-          "hash": "12959565905311693194",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react",
-            "npm:styled-components",
-            "npm:react-router-dom",
-            "npm:uuid"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/add-player/addPlayer.tsx",
-          "hash": "9326465350809835978",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react",
-            "npm:styled-components",
-            "npm:react-router-dom",
-            "npm:uuid"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/add-team/addTeam.tsx",
-          "hash": "13170924912973299906",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react",
-            "npm:styled-components",
-            "npm:react-router-dom",
-            "npm:uuid"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/calendar/calendar.tsx",
-          "hash": "2331733026889597411",
-          "deps": [
-            "npm:react",
-            "npm:@ionic/react",
-            "npm:date-fns",
-            "npm:styled-components",
-            "npm:react-router-dom"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/centre-info/centreInfo.tsx",
-          "hash": "16091058459171975952",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react",
-            "npm:react-router-dom",
-            "npm:styled-components",
-            "npm:ionicons"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/centres/centres.tsx",
-          "hash": "7857818291469330595",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:styled-components",
-            "npm:ionicons",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/diet/diet.tsx",
-          "hash": "5617939689347497823",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react",
-            "npm:react-router-dom",
-            "npm:styled-components"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/home/home.tsx",
-          "hash": "12774383338172534071",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:styled-components"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/player/player.tsx",
-          "hash": "1804122351297415608",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react",
-            "npm:react-router-dom",
-            "npm:styled-components",
-            "npm:ionicons",
-            "npm:@react-oauth/google"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/profile/profile.tsx",
-          "hash": "13631407091025999057",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:styled-components",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/reserve/reserve.tsx",
-          "hash": "13837482016996904316",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react",
-            "npm:styled-components",
-            "npm:react-router-dom",
-            "npm:uuid"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/reserves/reserves.tsx",
-          "hash": "860037994880525109",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:styled-components",
-            "npm:react",
-            "npm:date-fns",
-            "npm:react-router-dom",
-            "npm:ionicons"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/sign-in/signIn.tsx",
-          "hash": "8134763170525895595",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:styled-components",
-            "npm:@react-oauth/google",
-            "npm:react-router-dom",
-            "npm:ionicons",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/team/team.tsx",
-          "hash": "9180997755992923797",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:styled-components",
-            "npm:ionicons",
-            "npm:react-router-dom",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/teams/teams.tsx",
-          "hash": "5105265694030869358",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:styled-components",
-            "npm:ionicons",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/training/training.tsx",
-          "hash": "7576247939404816336",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react",
-            "npm:react-router-dom",
-            "npm:styled-components"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/update-centre/updateCentre.tsx",
-          "hash": "12971838817966674886",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react",
-            "npm:styled-components",
-            "npm:react-router-dom"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/update-player/updatePlayer.tsx",
-          "hash": "6490347471584365001",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react",
-            "npm:styled-components",
-            "npm:react-router-dom"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/update-reserve/updateReserve.tsx",
-          "hash": "9442210119468283918",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react",
-            "npm:styled-components",
-            "npm:react-router-dom"
-          ]
-        },
-        {
-          "file": "frontend/src/pages/update-team/updateTeam.tsx",
-          "hash": "12797102746755276393",
-          "deps": [
-            "npm:@ionic/react",
-            "npm:react",
-            "npm:styled-components",
-            "npm:react-router-dom"
-          ]
-        },
-        {
-          "file": "frontend/src/setupTests.ts",
-          "hash": "1097796976533895888",
-          "deps": [
-            "npm:@testing-library/jest-dom/extend-expect"
-          ]
-        },
-        {
-          "file": "frontend/src/styles.css",
-          "hash": "5195668842064076916"
-        },
-        {
-          "file": "frontend/src/theme/variables.css",
-          "hash": "15012374211378204362"
-        },
-        {
-          "file": "frontend/src/utils/api/api.tsx",
-          "hash": "1421438130134730394",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "frontend/src/utils/functions/storage.tsx",
-          "hash": "6679079495538601397"
-        },
-        {
-          "file": "frontend/src/utils/interfaces/Centres.tsx",
-          "hash": "14196903492896955141"
-        },
-        {
-          "file": "frontend/src/utils/interfaces/Player.tsx",
-          "hash": "3867186391032835751"
-        },
-        {
-          "file": "frontend/src/utils/interfaces/Reserve.tsx",
-          "hash": "6954605309687037991"
-        },
-        {
-          "file": "frontend/src/utils/interfaces/Team.tsx",
-          "hash": "11726616696654013841"
-        },
-        {
-          "file": "frontend/src/utils/interfaces/Trainer.tsx",
-          "hash": "14888116913261955208"
-        },
-        {
-          "file": "frontend/tests/components/avatar/avatar.test.tsx",
-          "hash": "17851248291595551512",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "npm:@testing-library/jest-dom"
-          ]
-        },
-        {
-          "file": "frontend/tsconfig.app.json",
-          "hash": "16536883993834092355"
-        },
-        {
-          "file": "frontend/tsconfig.json",
-          "hash": "17849894785030224090"
-        },
-        {
-          "file": "frontend/tsconfig.spec.json",
-          "hash": "6810478594055726884"
-        },
-        {
-          "file": "frontend/webpack.config.js",
-          "hash": "9397115949254193752",
-          "deps": [
-            "npm:@nx/webpack",
-            "npm:@nx/react"
-          ]
         }
       ]
     }

@@ -1,4 +1,11 @@
-import { IonAlert, IonContent, IonFooter, IonImg, IonList, IonPage } from "@ionic/react";
+import {
+  IonAlert,
+  IonContent,
+  IonFooter,
+  IonImg,
+  IonList,
+  IonPage,
+} from "@ionic/react";
 import Logo from "frontend/src/components/logo/logo";
 import styled, { createGlobalStyle } from "styled-components";
 import { GoogleLogin } from "@react-oauth/google";
@@ -135,11 +142,9 @@ const SignIn = () => {
                 </>
               )}
               {selectedRole === "entrenador" && (
-                <StyledButton>
-                  <CenteredGoogleLogin>
-                    <GoogleLogin onSuccess={trainerResponse} onError={error} />
-                  </CenteredGoogleLogin>
-                </StyledButton>
+                <CenteredGoogleLogin>
+                  <GoogleLogin onSuccess={trainerResponse} onError={error} />
+                </CenteredGoogleLogin>
               )}
               {selectedRole === "jugador" && (
                 <>
@@ -154,11 +159,9 @@ const SignIn = () => {
                     </InputContainer>
                   </IonList>
                   <br></br>
-                  <StyledButton>
-                    <CenteredGoogleLogin>
-                      <GoogleLogin onSuccess={playerResponse} onError={error} />
-                    </CenteredGoogleLogin>
-                  </StyledButton>
+                  <CenteredGoogleLogin>
+                    <GoogleLogin onSuccess={playerResponse} onError={error} />
+                  </CenteredGoogleLogin>
                 </>
               )}
             </SignInContainer>
@@ -207,12 +210,6 @@ const SignInContainer = styled.div`
   align-items: center;
 `;
 
-const StyledButton = styled.div`
-  border-radius: 15px;
-  box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
-  margin-bottom: 3%;
-`;
-
 const Space = styled.div`
   margin-bottom: 30%;
 `;
@@ -222,7 +219,7 @@ const InputContainer = styled.div`
 `;
 
 const CenteredGoogleLogin = styled.div`
-  margin-left: 10%;
+  margin-left: 12%;
 `;
 
 const GlobalStyle = createGlobalStyle`
