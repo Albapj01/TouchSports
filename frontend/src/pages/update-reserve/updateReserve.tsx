@@ -110,7 +110,7 @@ const UpdateReserve = () => {
       return setShowEmailAlert(true);
     }
 
-    if(!validationTelephone(telephoneNumber)){
+    if(!validationTelephone(telephoneNumber) && telephoneNumber!=""){
       return setShowTelephoneAlert(true);
     }
 

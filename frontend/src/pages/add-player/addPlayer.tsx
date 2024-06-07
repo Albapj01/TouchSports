@@ -25,6 +25,7 @@ import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
 import api from "frontend/src/utils/api/api";
 import { v4 as uuidv4 } from "uuid";
 import { useParams } from "react-router-dom";
+import { Player } from "frontend/src/utils/interfaces/Player";
 
 const AddPlayer = () => {
   const { teamId } = useParams<{ teamId: string }>();
@@ -50,6 +51,7 @@ const AddPlayer = () => {
   const [showAlert, setShowAlert] = useState(false);
   const [showEmailAlert, setShowEmailAlert] = useState(false);
   const [showTelephoneAlert, setShowTelephoneAlert] = useState(false);
+  const [existsEmailAlert, setExistsEmailAlert] = useState(false);
 
   const { payload } = decodeJwt(storage.get("token"));
 
@@ -72,7 +74,7 @@ const AddPlayer = () => {
       return setShowEmailAlert(true);
     }
 
-    if (!validationTelephone(telephoneNumber) && telephoneNumber!="") {
+    if (!validationTelephone(telephoneNumber) && telephoneNumber != "") {
       return setShowTelephoneAlert(true);
     }
 
@@ -80,6 +82,9 @@ const AddPlayer = () => {
     const playerId = id.toString();
 
     if (teamId) {
+      const response = await api.getAllPlayers(payload.sub, teamId);
+      const players: Player[] = response.players;
+
       const existingPlayer = await api.getPlayerById(
         payload.sub,
         teamId,
@@ -91,7 +96,12 @@ const AddPlayer = () => {
           ? existingPlayer.player.id
           : null;
 
-      if (!obtainedPlayerId) {
+      const emailExists = players.some((player) => player.email === email);
+      if (emailExists) {
+        return setExistsEmailAlert(true);
+      }
+
+      if (!obtainedPlayerId && !emailExists) {
         await api.createPlayer(
           payload.sub,
           teamId,
@@ -340,6 +350,13 @@ const AddPlayer = () => {
             onDidDismiss={() => setShowTelephoneAlert(false)}
             header="Formato de teléfono incorrecto"
             message="El número de teléfono debe empezar por 6, 7 o 9 y debe estar seguido por 8 dígitos más"
+            buttons={["OK"]}
+          />
+          <IonAlert
+            isOpen={existsEmailAlert}
+            onDidDismiss={() => setExistsEmailAlert(false)}
+            header="Correo inválido"
+            message="Este correo ya lo tiene otro jugador de este equipo."
             buttons={["OK"]}
           />
         </IonContent>
