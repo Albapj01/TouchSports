@@ -1,4 +1,11 @@
-import { IonContent, IonFooter, IonImg, IonList, IonPage } from "@ionic/react";
+import {
+  IonAlert,
+  IonContent,
+  IonFooter,
+  IonImg,
+  IonList,
+  IonPage,
+} from "@ionic/react";
 import Logo from "frontend/src/components/logo/logo";
 import styled, { createGlobalStyle } from "styled-components";
 import { GoogleLogin } from "@react-oauth/google";
@@ -16,6 +23,7 @@ const SignIn = () => {
   const [selectedRole, setSelectedRole] = useState<String | null>(null);
   const [email, setEmail] = useState("");
   const [player, setPlayer] = useState<Player>();
+  const [showEmailAlert, setShowEmailAlert] = useState(false);
 
   const trainerResponse = async (credentialResponse: any) => {
     storage.set("token", credentialResponse.credential!);
@@ -51,12 +59,16 @@ const SignIn = () => {
       }
     }
 
-    localStorage.removeItem("trainerId"); 
-    history.push(window.location.href="/home");
+    localStorage.removeItem("trainerId");
+    history.push((window.location.href = "/home"));
   };
 
   const playerResponse = async (credentialResponse: any) => {
     try {
+      if (!email) {
+        return setShowEmailAlert(true);
+      }
+
       storage.set("token", credentialResponse.credential!);
 
       const { payload } = decodeJwt(storage.get("token"));
@@ -85,7 +97,9 @@ const SignIn = () => {
 
       localStorage.setItem("trainerId", player.trainerId);
 
-      history.push(window.location.href=`/home/teams/${player?.teamId}/player/${player?.playerId}`);
+      history.push(
+        (window.location.href = `/home/teams/${player?.teamId}/player/${player?.playerId}`)
+      );
     } catch (error) {
       console.error("Error handling player response:", error);
     }
@@ -128,9 +142,9 @@ const SignIn = () => {
                 </>
               )}
               {selectedRole === "entrenador" && (
-                <StyledButton>
+                <CenteredGoogleLogin>
                   <GoogleLogin onSuccess={trainerResponse} onError={error} />
-                </StyledButton>
+                </CenteredGoogleLogin>
               )}
               {selectedRole === "jugador" && (
                 <>
@@ -145,12 +159,19 @@ const SignIn = () => {
                     </InputContainer>
                   </IonList>
                   <br></br>
-                  <StyledButton>
+                  <CenteredGoogleLogin>
                     <GoogleLogin onSuccess={playerResponse} onError={error} />
-                  </StyledButton>
+                  </CenteredGoogleLogin>
                 </>
               )}
             </SignInContainer>
+            <IonAlert
+              isOpen={showEmailAlert}
+              onDidDismiss={() => setShowEmailAlert(false)}
+              header="Error"
+              message="Debes introducir el correo de tu entrenador."
+              buttons={["OK"]}
+            />
           </ContentContainer>
         </IonContent>
         <IonFooter></IonFooter>
@@ -189,18 +210,16 @@ const SignInContainer = styled.div`
   align-items: center;
 `;
 
-const StyledButton = styled.div`
-  border-radius: 15px;
-  box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
-  margin-bottom: 3%;
-`;
-
 const Space = styled.div`
   margin-bottom: 30%;
 `;
 
 const InputContainer = styled.div`
   width: 100%;
+`;
+
+const CenteredGoogleLogin = styled.div`
+  margin-left: 12%;
 `;
 
 const GlobalStyle = createGlobalStyle`

@@ -10,7 +10,7 @@ describe("UpdateReserveByIdUseCase", () => {
     jest.resetAllMocks();
   });
 
-  it("should update a reserve by id", async () => {
+  it("should update a reserve by id and notify it", async () => {
     const originalReserve = new Reserve(
       "trainer-id",
       "centres-id",

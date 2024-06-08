@@ -47,10 +47,9 @@ const PlayerInfo = () => {
       const fetchPlayer = async () => {
         try {
           const storedTrainerId = localStorage.getItem("trainerId");
-          console.log(storedTrainerId)
-          console.log(payload.sub)
+
           let result;
-          
+
           if (storedTrainerId && storedTrainerId !== payload.sub) {
             setTrainerId(storedTrainerId);
             result = await api.getPlayerById(storedTrainerId, teamId, playerId);
@@ -84,11 +83,14 @@ const PlayerInfo = () => {
   };
 
   const handleUpdateButtonClick = async () => {
-    history.push(window.location.href =`/home/teams/${teamId}/player/${playerId}/update-player`);
+    history.push(
+      (window.location.href = `/home/teams/${teamId}/player/${playerId}/update-player`)
+    );
   };
 
   const handleLogOut = () => {
     googleLogout();
+    window.location.href = "/";
   };
 
   return (
@@ -101,11 +103,9 @@ const PlayerInfo = () => {
         <IonContent fullscreen>
           <Menu disabled={disabled} />
           {disabled ? (
-            <Link to="/">
-              <LogOutContainer onClick={handleLogOut}>
-                <StyledIonIcon icon={logOut} color="primary" />
-              </LogOutContainer>
-            </Link>
+            <LogOutContainer onClick={handleLogOut}>
+              <StyledIonIcon icon={logOut} color="primary" />
+            </LogOutContainer>
           ) : (
             <>
               <IonFab slot="fixed" vertical="top" horizontal="end" edge={true}>
@@ -138,7 +138,9 @@ const PlayerInfo = () => {
                 text: "Cancelar",
                 role: "cancel",
                 handler: () => {
-                  history.push(window.location.href=`/home/teams/${teamId}/player/${playerId}`);
+                  history.push(
+                    (window.location.href = `/home/teams/${teamId}/player/${playerId}`)
+                  );
                 },
               },
               {
@@ -146,14 +148,20 @@ const PlayerInfo = () => {
                 role: "confirm",
                 handler: () => {
                   handleDeletePlayer();
-                  history.push(window.location.href=`/home/teams/${teamId}`);
+                  history.push(
+                    (window.location.href = `/home/teams/${teamId}`)
+                  );
                 },
               },
             ]}
           />
           <ImageContainer>
             <Image
-              src={player && player.imageUrl ? player.imageUrl : "https://ionicframework.com/docs/img/demos/avatar.svg"}
+              src={
+                player && player.imageUrl
+                  ? player.imageUrl
+                  : "https://ionicframework.com/docs/img/demos/avatar.svg"
+              }
             />
           </ImageContainer>
           <IonList inset={true}>
@@ -184,7 +192,11 @@ const PlayerInfo = () => {
             <Space />
             <TextContainer>Mejoras</TextContainer>
             <ImprovementsContainer>
-              {player ? (player.improvements !== "" ? player.improvements : "No hay ninguna mejora asignada") : ""}
+              {player
+                ? player.improvements !== ""
+                  ? player.improvements
+                  : "No hay ninguna mejora asignada"
+                : ""}
             </ImprovementsContainer>
           </IonList>{" "}
           <Space />
