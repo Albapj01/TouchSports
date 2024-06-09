@@ -96,7 +96,7 @@ const Training = () => {
                   ))}
                 </>
               ) : (
-                "No tienes ningún entrenamiento técnico asignado"
+                "No tienes ningún entrenamiento técnico asignado."
               )}
               <Space></Space>
               {player?.physicalTraining !== "" ? (
@@ -167,7 +167,7 @@ const Training = () => {
                   ))}
                 </>
               ) : (
-                "No tienes ningún entrenamiento físico asignado"
+                "No tienes ningún entrenamiento físico asignado."
               )}
             </TextStyles>
           </Container>

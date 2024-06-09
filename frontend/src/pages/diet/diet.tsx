@@ -48,7 +48,7 @@ const Diet = () => {
             );
             setDisabled(false);
           }
-          
+
           if (existingPlayer && existingPlayer.player) {
             const playerDiet = existingPlayer.player.diet;
             if (playerDiet === "Dieta para perder grasa") {
@@ -77,7 +77,7 @@ const Diet = () => {
           <ToolBar />
         </IonHeader>
         <IonContent fullscreen>
-          <Menu disabled={disabled}/>
+          <Menu disabled={disabled} />
           {selectedDiet === "Dieta para perder grasa" && (
             <>
               <DietName>DIETA PARA PERDER GRASA</DietName>
@@ -173,7 +173,7 @@ const Diet = () => {
               <MealsContainer>RECENA</MealsContainer>
               <TextMeals>
                 • Vaso de leche con quínoa hinchada.
-                <p />• Galletas caseras de plátano y avena (ver receta abajo)
+                <p />• Galletas caseras de plátano y avena.
               </TextMeals>
             </>
           )}
@@ -184,13 +184,12 @@ const Diet = () => {
           )}
         </IonContent>
         <IonFooter>
-          <Tabs disabled={disabled}/>
+          <Tabs disabled={disabled} />
         </IonFooter>
       </IonPage>
     </>
   );
 };
-
 
 const MealsContainer = styled.div`
   background-color: #1f7189;
