@@ -198,13 +198,14 @@ const deleteTeam = async (trainerId: string, teamId: string) => {
   return response.data;
 };
 
-const updateTeam = async (trainerId: string, teamId: string, name: string) => {
+const updateTeam = async (trainerId: string, teamId: string, name: string, players: Player[]) => {
   const response = await axios.put(
     `${myApi}/trainer/${trainerId}/team/${teamId}`,
     {
       trainerId,
       teamId,
       name,
+      players,
     }
   );
   return response.data;
@@ -221,7 +222,8 @@ const updateCentre = async (
   trainerId: string,
   centresId: string,
   name: string,
-  location: string
+  location: string,
+  reserves: Reserve[],
 ) => {
   const response = await axios.put(
     `${myApi}/trainer/${trainerId}/centres/${centresId}`,
@@ -230,6 +232,7 @@ const updateCentre = async (
       centresId,
       name,
       location,
+      reserves,
     }
   );
   return response.data;

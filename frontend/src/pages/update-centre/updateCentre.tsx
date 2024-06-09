@@ -18,12 +18,14 @@ import styled from "styled-components";
 import { useHistory, useParams } from "react-router-dom";
 import api from "../../utils/api/api";
 import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
+import { Reserve } from "frontend/src/utils/interfaces/Reserve";
 
 const UpdateCentre = () => {
   const { centresId } = useParams<{ centresId: string }>();
 
   const [name, setName] = useState("");
   const [location, setLocation] = useState("");
+  const [reserves, setReserves] = useState<Reserve[]>([]); 
   const history = useHistory();
   const [showAlert, setShowAlert] = useState(false);
 
@@ -40,6 +42,7 @@ const UpdateCentre = () => {
           if (existingCentre && existingCentre.centres) {
             setName(existingCentre.centres.name || "");
             setLocation(existingCentre.centres.location || "");
+            setReserves(existingCentre.centres.reserves || []);
           }
         } catch (error) {
           console.error("Error al obtener el centro:", error);
@@ -59,7 +62,7 @@ const UpdateCentre = () => {
     }
 
     if (centresId) {
-      await api.updateCentre(payload.sub, centresId, name, location);
+      await api.updateCentre(payload.sub, centresId, name, location, reserves);
     } else {
       console.error("El centro no existe.");
     }
