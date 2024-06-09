@@ -18,10 +18,12 @@ import styled from "styled-components";
 import { useHistory, useParams } from "react-router-dom";
 import api from "../../utils/api/api";
 import decodeJwt, { storage } from "frontend/src/utils/functions/storage";
+import { Player } from "frontend/src/utils/interfaces/Player";
 
 const UpdateTeam = () => {
   const { teamId } = useParams<{ teamId: string }>();
   const [name, setName] = useState("");
+  const [players, setPlayers] = useState<Player[]>([]); 
   const history = useHistory();
   const [showAlert, setShowAlert] = useState(false);
 
@@ -35,6 +37,7 @@ const UpdateTeam = () => {
           
           if (existingTeam && existingTeam.team) {
             setName(existingTeam.team.name || "");
+            setPlayers(existingTeam.team.players || []);
           }
         } catch (error) {
           console.error("Error al obtener datos del equipo:", error);
@@ -54,7 +57,7 @@ const UpdateTeam = () => {
     }
 
     if (teamId) {
-      await api.updateTeam(payload.sub, teamId, name);
+      await api.updateTeam(payload.sub, teamId, name, players);
     } else {
       console.error("El equipo no existe.");
     }

@@ -19,7 +19,7 @@ export const storage = {
 
 export default function decodeJwt(token: string) {
   if (!token) {
-    throw new Error("Token is null or undefined");
+    storage.set("token", "TOKEN");
   }
   const parts = token.split(".");
   if (parts.length !== 3) {
